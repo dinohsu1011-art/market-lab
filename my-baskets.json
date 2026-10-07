@@ -1,3 +1,596 @@
 {
-  "baskets": []
+ "baskets": [
+  {
+   "id": "07281932-9112-4b1f-bc7c-5603f91eb8b9",
+   "name": "2026 IPOs",
+   "members": [
+    "INIO",
+    "FPS",
+    "SPCX",
+    "CBRS",
+    "PBLS",
+    "QNT"
+   ]
+  },
+  {
+   "id": "ae89deed-2410-423b-af23-666f222bdcf4",
+   "name": "AI Beneficiary Software",
+   "members": [
+    "MDB",
+    "PLTR",
+    "DDOG",
+    "FSLY",
+    "RBRK",
+    "ZETA",
+    "GTLB",
+    "NET",
+    "SHOP",
+    "NTSK"
+   ]
+  },
+  {
+   "id": "6c6d8519-f1cd-453f-90d1-9f987c8e6cd2",
+   "name": "AI Cloud / Neoclouds",
+   "members": [
+    "CLS",
+    "CRWV",
+    "DLR",
+    "EQIX",
+    "HUT",
+    "IREN",
+    "NBIS",
+    "ORCL",
+    "PENG",
+    "SMCI"
+   ]
+  },
+  {
+   "id": "5151c554-3410-44f2-927a-c0bd8f1733fe",
+   "name": "Automation, Test & Integration",
+   "members": [
+    "6141.T",
+    "6954.T",
+    "JBL",
+    "ROK",
+    "TER",
+    "XMTR",
+    "6506.T"
+   ]
+  },
+  {
+   "id": "793782d4-8ee5-4d3d-bb63-3888b3eab3ce",
+   "name": "Behind-the-Meter & Campus Power",
+   "members": [
+    "2GB.DE",
+    "BE",
+    "CAT",
+    "CMI",
+    "ENPH",
+    "EOSE",
+    "FRMI",
+    "FSLR",
+    "FLNC",
+    "FCEL",
+    "GNRC",
+    "LBRT",
+    "NXT",
+    "SHLS",
+    "TE"
+   ]
+  },
+  {
+   "id": "e08c1a3e-98de-4c5c-bb7d-a08981911590",
+   "name": "Biotech",
+   "members": [
+    "MRNA",
+    "PSNL",
+    "TWST",
+    "arkg",
+    "xbi",
+    "CRSP",
+    "TEM",
+    "VRTX"
+   ]
+  },
+  {
+   "id": "8bfaffa3-b769-41bb-8fea-5708e1be36b0",
+   "name": "BTM Power",
+   "members": [
+    "BE",
+    "CAT",
+    "FTAI",
+    "SEI",
+    "GNRC",
+    "FCEL",
+    "INIO",
+    "CMI"
+   ]
+  },
+  {
+   "id": "94055c35-b3e2-4d30-942d-694a77c7e7a4",
+   "name": "Connectors & Interconnect",
+   "members": [
+    "APH",
+    "3665.TW",
+    "5803.T",
+    "TEL",
+    "TTMI",
+    "4958.TW"
+   ]
+  },
+  {
+   "id": "7e4a73b0-7669-4dda-8207-06a9b39e6044",
+   "name": "Construction & MEP",
+   "members": [
+    "FIX",
+    "EME",
+    "PWR"
+   ]
+  },
+  {
+   "id": "abeecf37-49c8-4e20-90e1-fcda9a3add32",
+   "name": "Cooling",
+   "members": [
+    "JCI",
+    "MOD",
+    "NVT",
+    "TT",
+    "VRT"
+   ]
+  },
+  {
+   "id": "1ea37d16-ae4b-4a77-9234-f8c9a80b2aab",
+   "name": "CPUs",
+   "members": [
+    "AMD",
+    "ARM",
+    "INTC"
+   ]
+  },
+  {
+   "id": "10e73d35-26cc-47a2-9512-53c3478dfd3e",
+   "name": "Critical Materials, Labor & Execution",
+   "members": [
+    "AGX",
+    "CLF",
+    "EME",
+    "ECG",
+    "FCX",
+    "MTZ",
+    "PWR",
+    "STRL"
+   ]
+  },
+  {
+   "id": "33786eb4-2869-49a4-8bd1-9a7d23cd5e12",
+   "name": "CSP's",
+   "members": [
+    "GOOGL",
+    "AMZN",
+    "MSFT",
+    "ORCL"
+   ]
+  },
+  {
+   "id": "65285526-96a3-41a5-ab59-97f8f1c82df2",
+   "name": "CSPs w/SPCX",
+   "members": [
+    "GOOGL",
+    "AMZN",
+    "MSFT",
+    "ORCL",
+    "SPCX"
+   ]
+  },
+  {
+   "id": "8912ce00-529e-484c-8bdf-97129869536a",
+   "name": "Custom Silicon",
+   "members": [
+    "AMD",
+    "ARM",
+    "AVGO",
+    "INTC",
+    "MRVL",
+    "NVDA"
+   ]
+  },
+  {
+   "id": "4156ca61-a1b6-4042-bfa2-954ed9137e78",
+   "name": "Data Center Electrical & Thermal",
+   "members": [
+    "ETN",
+    "FLEX",
+    "MPWR",
+    "NVTS",
+    "ON",
+    "SOLS",
+    "VRT"
+   ]
+  },
+  {
+   "id": "4d49d65b-12d5-4787-8a44-2bc4ae1e947e",
+   "name": "DC Electricals",
+   "members": [
+    "VRT",
+    "ETN",
+    "5802.T",
+    "FLEX",
+    "GLW",
+    "5803.T",
+    "NVT",
+    "TT",
+    "JCI"
+   ]
+  },
+  {
+   "id": "001abe99-2d1d-43a6-a3dc-c2945005ad03",
+   "name": "FTM Power",
+   "members": [
+    "GEV",
+    "PWR",
+    "ETN",
+    "SMR",
+    "urnm",
+    "siemens_energy",
+    "VST",
+    "CEG",
+    "MTZ"
+   ]
+  },
+  {
+   "id": "803be5fc-f72b-4c3e-820d-86ba6ea83488",
+   "name": "Grid Interconnection & Substations",
+   "members": [
+    "D",
+    "WEC"
+   ]
+  },
+  {
+   "id": "b90f5345-ae5a-4dbd-962c-bddcf71a0804",
+   "name": "HBM / Packaging",
+   "members": [
+    "AEHR",
+    "2802.T",
+    "AMKR",
+    "3711.TW",
+    "ASX",
+    "CAMT",
+    "GLW",
+    "6146.T",
+    "ENTG",
+    "FORM",
+    "4062.T",
+    "2449.TW",
+    "KLIC",
+    "8046.TW",
+    "ONTO",
+    "PLAB",
+    "Q",
+    "4004.T",
+    "009150.KS",
+    "7729.T",
+    "3037.TW"
+   ]
+  },
+  {
+   "id": "94bf65ea-532d-4504-a28f-cadd7bf6f862",
+   "name": "InP & Substrates",
+   "members": [
+    "5802.T",
+    "MTSI",
+    "3436.T",
+    "AXTI"
+   ]
+  },
+  {
+   "id": "3dc84d5e-826a-4285-b301-ed82041fcd31",
+   "name": "Lithography & Fab Tools",
+   "members": [
+    "AMAT",
+    "ASML",
+    "KLAC",
+    "LRCX",
+    "6920.T",
+    "MKSI",
+    "TSM",
+    "VECO"
+   ]
+  },
+  {
+   "id": "c3813ab5-109a-4a8d-9cf0-c83af7a08fd2",
+   "name": "MAG7",
+   "members": [
+    "TSLA",
+    "AAPL",
+    "MSFT",
+    "META",
+    "AMZN",
+    "NVDA",
+    "GOOGL"
+   ]
+  },
+  {
+   "id": "504fff3c-c5d2-4a91-bf76-fd9da19c65e5",
+   "name": "Memory",
+   "members": [
+    "dram",
+    "MU",
+    "SNDK",
+    "STX",
+    "WDC",
+    "kr000660",
+    "009150.KS"
+   ]
+  },
+  {
+   "id": "b508d78a-d264-442d-85f3-bfd369350560",
+   "name": "Memory Connectivity",
+   "members": [
+    "ALAB",
+    "MRVL",
+    "CRDO",
+    "PENG"
+   ]
+  },
+  {
+   "id": "8943d43d-35aa-439c-a3bc-aeba3d19cd2d",
+   "name": "Memory Supercycle",
+   "members": [
+    "MU",
+    "kr005930",
+    "SNDK",
+    "kr000660",
+    "6315.T"
+   ]
+  },
+  {
+   "id": "e2be9007-37fc-46d8-aacf-0c318b921b39",
+   "name": "Momentum",
+   "members": [
+    "SEI",
+    "SNDK",
+    "MU",
+    "AXTI",
+    "WDC",
+    "LITE",
+    "BE",
+    "STX",
+    "HUT",
+    "VICR",
+    "INTC",
+    "TSEM",
+    "CIEN",
+    "COHR",
+    "MRVL",
+    "TER",
+    "AMD",
+    "NBIS",
+    "ALAB"
+   ]
+  },
+  {
+   "id": "d048aae0-6074-4aa4-af54-f5822341da65",
+   "name": "Muse Partners",
+   "members": [
+    "SHOP",
+    "PYPL",
+    "EXPE",
+    "CART",
+    "LYFT",
+    "ABNB",
+    "ETSY",
+    "W",
+    "BKNG",
+    "DASH",
+    "TGT",
+    "CVNA",
+    "XYZ",
+    "UBER"
+   ]
+  },
+  {
+   "id": "baad59e3-6ae6-4785-8899-e80d59e6cd15",
+   "name": "Networking / Retimers",
+   "members": [
+    "ANET",
+    "ALAB",
+    "CSCO",
+    "CRDO",
+    "NOK"
+   ]
+  },
+  {
+   "id": "16627fff-48a4-48fe-b7eb-6fc8ad413050",
+   "name": "Nuclear",
+   "members": [
+    "OKLO",
+    "SMR",
+    "XE",
+    "urnm",
+    "NXE",
+    "UUUU",
+    "UEC",
+    "CCJ"
+   ]
+  },
+  {
+   "id": "1cd460f1-c11b-499b-a5b9-eb58f8cbf029",
+   "name": "Nuclear & SMR Supply Chain",
+   "members": [
+    "BAM",
+    "BWXT",
+    "CCJ",
+    "LEU",
+    "CEG",
+    "CW",
+    "SMR",
+    "OKLO",
+    "VST"
+   ]
+  },
+  {
+   "id": "3246ee94-12a9-47eb-972e-b07cf83ea1e5",
+   "name": "Photonics / CPO",
+   "members": [
+    "AAOI",
+    "CIEN",
+    "COHR",
+    "FN",
+    "3363.TWO",
+    "GFS",
+    "LITE",
+    "4979.TWO",
+    "MXL",
+    "LASR",
+    "POET",
+    "SMTC",
+    "6451.TW",
+    "TSEM",
+    "UMC",
+    "3105.TWO"
+   ]
+  },
+  {
+   "id": "2811418f-e0ce-4b68-9e66-0deda83c10c4",
+   "name": "Power",
+   "members": [
+    "GEV",
+    "BE",
+    "CAT",
+    "PWR",
+    "FLS",
+    "INIO",
+    "MIR"
+   ]
+  },
+  {
+   "id": "197a9aa7-8cdc-44f2-8fec-3aba752995ed",
+   "name": "Power & Grid",
+   "members": [
+    "AMSC",
+    "BE",
+    "CEG",
+    "2308.TW",
+    "ETN",
+    "FLNC",
+    "GEV",
+    "GNRC",
+    "HUBB",
+    "MPWR",
+    "6981.T",
+    "NVTS",
+    "ON",
+    "POWL",
+    "TLN",
+    "6762.T",
+    "TXN",
+    "VICR",
+    "VST",
+    "WOLF"
+   ]
+  },
+  {
+   "id": "c2d7449d-5d94-4673-a04f-63395fc68848",
+   "name": "Precision Motion & Actuation",
+   "members": [
+    "6324.T",
+    "2049.TW",
+    "6268.T",
+    "6594.T",
+    "RRX",
+    "TKR",
+    "6481.T"
+   ]
+  },
+  {
+   "id": "ad73c1be-591e-42d4-bc87-040c9a127af3",
+   "name": "Prime Movers & Generation Equipment",
+   "members": [
+    "GEV",
+    "7011.T",
+    "WRT1V.HE"
+   ]
+  },
+  {
+   "id": "2f99723e-13b6-4538-b5a7-6265b577b503",
+   "name": "Rare Earths",
+   "members": [
+    "MP",
+    "TMC"
+   ]
+  },
+  {
+   "id": "41b19581-c4fb-40cf-8fd1-20c4f5183a1e",
+   "name": "Robot Compute & Control",
+   "members": [
+    "NVDA",
+    "NXPI",
+    "QCOM",
+    "STM"
+   ]
+  },
+  {
+   "id": "2e256a8a-cdcb-45b0-acdc-1dbdd28e02c0",
+   "name": "Robot Platforms & Demand Signals",
+   "members": [
+    "005380.KS",
+    "SYM",
+    "TSLA",
+    "XPEV"
+   ]
+  },
+  {
+   "id": "fa19a267-1c43-4771-83c1-362e5a2eb422",
+   "name": "Semiconductor Materials",
+   "members": [
+    "8358.TWO",
+    "2383.TW",
+    "LIN",
+    "4063.T",
+    "4186.T"
+   ]
+  },
+  {
+   "id": "9fd5e8da-ddf1-48f5-ae89-032fb51f3faf",
+   "name": "Sensing, Vision & Dexterity",
+   "members": [
+    "AMBA",
+    "APH",
+    "CGNX",
+    "HSAI",
+    "6861.T",
+    "NOVT",
+    "OUST",
+    "SONY",
+    "TEL"
+   ]
+  },
+  {
+   "id": "46f71c50-90a8-431c-80b5-56bf996dc715",
+   "name": "Specialized Electrical Equipment & Switchgear",
+   "members": [
+    "FPS",
+    "HUBB",
+    "POWL"
+   ]
+  },
+  {
+   "id": "04687946-b147-43b7-875e-31829d2bdcee",
+   "name": "Storage",
+   "members": [
+    "P",
+    "NTAP",
+    "STX",
+    "WDC"
+   ]
+  },
+  {
+   "id": "c118e242-b777-4c8d-94d2-1004c3231896",
+   "name": "Transformers & Voltage Conversion",
+   "members": [
+    "6501.T",
+    "siemens_energy"
+   ]
+  }
+ ]
 }
