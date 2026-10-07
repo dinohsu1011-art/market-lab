@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Most-hated Mag 7 — Equinox</title>
+  <style>
+    /* Every colour comes from the shell tokens, so light/dark follow the site switch.
+       The seven ticker hues are the only page-local colours: the holding strip and
+       the scorecards need a stable identity per name across both themes. */
+    [data-page="hatedm7"] {
+      --t-aapl:#8d97a3; --t-msft:#3f8fd2; --t-googl:#c99a1e; --t-amzn:#dd7a36;
+      --t-meta:#7b74d6; --t-nvda:#3f9e57; --t-tsla:#cf4f5a;
+      --comp:#c0872a;   /* the buy-#1 comp line, readable on both grounds */
+    }
+    .hm-wrap { max-width:1180px; margin:0 auto; padding:34px 28px 120px; }
+    .hm-head { display:grid; grid-template-columns:minmax(0,7fr) minmax(0,5fr); gap:40px; align-items:end; margin-bottom:30px; }
+    .hm-head h1 { font:600 40px/1.05 var(--sans); letter-spacing:-1.2px; margin:0 0 12px; color:var(--ml-ink); }
+    .hm-head p { margin:0; color:var(--ml-muted); font-size:15px; max-width:620px; }
+    .hm-head p strong { color:var(--ml-ink); font-weight:600; }
+    .hm-now { border-left:1px solid var(--ml-border); padding-left:24px; }
+    .hm-now .lab { color:var(--ml-faint); font-size:13px; }
+    .hm-now .tk { font:600 56px/1 var(--sans); letter-spacing:-2px; margin:4px 0 6px; }
+    .hm-now .sub { color:var(--ml-muted); font-size:13px; }
+    .hm-range { display:flex; gap:4px; margin:0 0 18px; }
+    .hm-range button { font:500 13px var(--sans); padding:7px 14px; border:1px solid var(--ml-border); background:transparent;
+      color:var(--ml-muted); border-radius:4px; cursor:pointer; transition:background .15s, color .15s; }
+    .hm-range button[aria-pressed="true"] { background:var(--ml-ink); color:var(--ml-bg); border-color:var(--ml-ink); }
+    .hm-figs { display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); border-top:1px solid var(--ml-border); border-bottom:1px solid var(--ml-border); margin-bottom:26px; }
+    .hm-figs > div { padding:16px 16px 14px 0; }
+    .hm-figs > div + div { padding-left:16px; border-left:1px solid var(--ml-border); }
+    .hm-figs .v { font:600 28px/1.1 var(--sans); letter-spacing:-.6px; }
+    .hm-figs .k { color:var(--ml-faint); font-size:12.5px; margin-top:4px; }
+    .hm-figs .v.hero { color:var(--ml-ink); }
+    .hm-chart { position:relative; }
+    .hm-chart svg { display:block; width:100%; overflow:visible; }
+    .hm-chart .grid line { stroke:var(--ml-border); }
+    .hm-chart .grid text, .hm-chart .axis text { fill:var(--ml-faint); font-size:11.5px; }
+    .hm-legend { display:flex; gap:22px; flex-wrap:wrap; font-size:13px; color:var(--ml-muted); margin:0 0 8px; }
+    .hm-legend i { display:inline-block; width:18px; height:0; border-top:2.5px solid; vertical-align:middle; margin-right:7px; }
+    .hm-tip { position:absolute; pointer-events:none; background:var(--ml-surface); border:1px solid var(--ml-border);
+      padding:8px 11px; font-size:12.5px; border-radius:4px; white-space:nowrap; opacity:0; transition:opacity .15s; z-index:5; }
+    .hm-tip b { font-weight:600; }
+    .hm-tip .row { display:flex; justify-content:space-between; gap:18px; }
+    .hm-strip-key { display:flex; gap:14px; flex-wrap:wrap; font-size:12px; color:var(--ml-muted); margin:10px 0 0; }
+    .hm-strip-key span::before { content:""; display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:6px; vertical-align:-1px; background:var(--c); }
+    .hm-sec { margin-top:64px; }
+    .hm-sec h2 { font:600 24px/1.2 var(--sans); letter-spacing:-.5px; margin:0 0 6px; }
+    .hm-sec > p { color:var(--ml-muted); margin:0 0 18px; max-width:760px; font-size:14px; }
+    .hm-table { width:100%; border-collapse:collapse; font-size:13.5px; }
+    .hm-table th { text-align:right; color:var(--ml-faint); font-weight:500; font-size:12px; padding:8px 10px; border-bottom:1px solid var(--ml-border); }
+    .hm-table td { text-align:right; padding:9px 10px; border-bottom:1px solid var(--ml-border); white-space:nowrap; }
+    .hm-table th.l, .hm-table td.l { text-align:left; }
+    .hm-table tr.open td { background:color-mix(in srgb,var(--ml-accent) 7%,transparent); }
+    .hm-scroll { overflow-x:auto; }
+    .tk-chip { display:inline-flex; align-items:center; gap:7px; font-weight:600; }
+    .tk-chip::before { content:""; width:9px; height:9px; border-radius:2px; background:var(--c); }
+    .up { color:var(--ml-up); } .dn { color:var(--ml-down); } .mut { color:var(--ml-faint); }
+    .tag { font-size:11.5px; color:var(--ml-accent); font-weight:600; margin-left:6px; }
+    .hm-log tr.dec { cursor:pointer; }
+    .hm-log tr.dec:hover td { background:var(--ml-hover); }
+    .hm-log tr.dec td:first-child::before { content:"›"; display:inline-block; width:14px; color:var(--ml-faint); transition:transform .15s; }
+    .hm-log tr.dec.x td:first-child::before { transform:rotate(90deg); }
+    .hm-log .act { font-weight:500; }
+    .hm-log .act .from { color:var(--ml-faint); font-weight:400; }
+    .hm-log tr.board > td { padding:4px 0 18px 24px; background:var(--ml-raised); }
+    .hm-board { width:100%; border-collapse:collapse; font-size:12.5px; }
+    .hm-board th { color:var(--ml-faint); font-weight:500; text-align:right; padding:8px 10px 4px; }
+    .hm-board td { text-align:right; padding:5px 10px; }
+    .hm-board th:first-child, .hm-board td:first-child { text-align:left; }
+    .hm-board .k { color:var(--ml-faint); font-size:11px; margin-left:4px; }
+    .hm-board tr.pick td { font-weight:600; }
+    .hm-board tr.pick td:last-child::after { content:"  ← bought"; color:var(--ml-accent); font-weight:600; }
+    .hm-board .bar { display:inline-block; height:7px; border-radius:2px; background:var(--ml-faint); opacity:.45; vertical-align:middle; margin-right:8px; }
+    .hm-board tr.pick .bar { background:var(--ml-accent); opacity:1; }
+    .hm-note { margin-top:64px; border-top:1px solid var(--ml-border); padding-top:20px; display:grid; grid-template-columns:minmax(0,4fr) minmax(0,8fr); gap:40px; color:var(--ml-muted); font-size:13.5px; }
+    .hm-note h3 { font:600 15px var(--sans); color:var(--ml-ink); margin:0; }
+    .hm-note ul { margin:0; padding-left:18px; }
+    .hm-note li + li { margin-top:6px; }
+    @media (max-width:900px) {
+      .hm-head, .hm-note { grid-template-columns:1fr; gap:22px; }
+      .hm-now { border-left:0; padding-left:0; border-top:1px solid var(--ml-border); padding-top:16px; }
+      .hm-figs { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      .hm-figs > div:nth-child(odd) { padding-left:0; border-left:0; }
+      .hm-figs > div { border-bottom:1px solid var(--ml-border); }
+      .hm-head h1 { font-size:32px; }
+      .hm-wrap { padding:24px 16px 80px; }
+    }
+  </style>
+<link rel="stylesheet" href="market-lab-shell.css"><script src="market-lab-shell.js?v=20261006-2ddf6f7c"></script></head>
+<body>
+  <main class="hm-wrap">
+    <header class="hm-head">
+      <div>
+        <h1>Most-hated Mag 7</h1>
+        <p>At every month end, the seven are ranked on their <strong>3-, 6- and 12-month returns</strong>. The three ranks are averaged and the
+          <strong>worst average is bought</strong>, alone, until the next month end. Below is every one of those decisions and what each one earned.</p>
+      </div>
+      <div class="hm-now" id="now"></div>
+    </header>
+
+    <div class="hm-range" role="group" aria-label="Range">
+      <button type="button" data-range="coined" aria-pressed="true">Since May 2023</button>
+      <button type="button" data-range="5y" aria-pressed="false">5 years</button>
+      <button type="button" data-range="all" aria-pressed="false">Full history</button>
+    </div>
+
+    <div class="hm-figs" id="figs"></div>
+
+    <div class="hm-legend">
+      <span><i style="border-color:var(--ml-ink)"></i>Most-hated Mag 7</span>
+      <span><i style="border-color:var(--comp)"></i>Top-ranked Mag 7 (comp)</span>
+      <span><i style="border-color:var(--ml-accent)"></i>Mag 7, equal weight</span>
+      <span><i style="border-color:var(--ml-faint);border-top-style:dashed"></i>S&amp;P 500 · SPY</span>
+      <span class="mut">Log scale, rebased to 100 at the start of the range. The band underneath is what it held.</span>
+    </div>
+    <div class="hm-chart" id="chart"><div class="hm-tip" id="tip"></div></div>
+    <div class="hm-strip-key" id="stripkey"></div>
+
+    <section class="hm-sec">
+      <h2>Trades</h2>
+      <p>One row per position. A position runs from the month end it was bought to the month end something worse took its place. Months where the same name stayed the most hated are folded into one trade.</p>
+      <div class="hm-scroll"><table class="hm-table" id="trades"></table></div>
+    </section>
+
+    <section class="hm-sec">
+      <h2>The comp: buy #1, hold while it stays #1</h2>
+      <p>Same scorecard, opposite end. At each month end it buys the name with the <strong>best</strong> average rank and keeps it until another name takes the top spot. A holding tied for #1 is kept. Same checks, same month-end close, so the two lines are a fair fight.</p>
+      <div class="hm-figs" id="vs" style="grid-template-columns:repeat(4,minmax(0,1fr))"></div>
+      <div class="hm-scroll"><table class="hm-table" id="toptrades"></table></div>
+    </section>
+
+    <section class="hm-sec">
+      <h2>Every monthly decision</h2>
+      <p>Newest first. Click a month to see the full scorecard it was decided from: each name's return over the three windows, its rank in each (1 = best, 7 = worst), and the average.</p>
+      <div class="hm-scroll"><table class="hm-table hm-log" id="log"></table></div>
+    </section>
+
+    <aside class="hm-note">
+      <h3>Read the record with these in mind</h3>
+      <ul>
+        <li><strong>The list was picked with hindsight.</strong> "Magnificent 7" was coined in May 2023 for seven stocks that had already won. Any rotation inside it is flattered, most of all before 2023. That stretch is context, not a track record.</li>
+        <li><strong>It holds one stock.</strong> Drawdowns are single-name drawdowns, and one bad surprise hits the whole line.</li>
+        <li><strong>Timing.</strong> Each trade is scored and filled at the same month-end close. In practice that means a market-on-close order on the last trading day.</li>
+        <li><strong>No costs, slippage or taxes.</strong> Price return only, dividends excluded.</li>
+      </ul>
+    </aside>
+  </main>
+
+  <script src="cube/hatedm7.js?v=20261006-2ddf6f7c"></script>
+  <script>
+  (() => {
+    'use strict';
+    const D = window.QUANT_HATEDM7;
+    if (!D) { document.querySelector('.hm-wrap').insertAdjacentHTML('beforeend','<p>Data not built yet.</p>'); return; }
+    // the comp is scored on the same month ends, so its rows line up with decisions[]
+    const TOP = (D.top || []).map((t, i) => ({...t, mag7: D.decisions[i].mag7, spy: D.decisions[i].spy}));
+    const TK = Object.fromEntries(D.universe.map(t => [t, `var(--t-${t.toLowerCase()})`]));
+    const pct = (x, d = 1) => (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(d) + '%';
+    const cls = x => x > 0 ? 'up' : x < 0 ? 'dn' : 'mut';
+    const big = x => (x >= 0 ? '+' : '−') + Math.abs(x * 100).toLocaleString(undefined, {maximumFractionDigits:0}) + '%';
+    const fmtD = s => new Date(s + 'T12:00:00').toLocaleDateString(undefined, {month:'short', day:'numeric', year:'numeric'});
+    const fmtM = s => new Date(s + 'T12:00:00').toLocaleDateString(undefined, {month:'short', year:'numeric'});
+    const chip = t => `<span class="tk-chip" style="--c:${TK[t]}">${t}</span>`;
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+    // Positions = runs of consecutive months holding the same name.
+    function positions(decs) {
+      const out = [];
+      for (const d of decs) {
+        const last = out[out.length - 1];
+        if (last && last.t === d.pick) {
+          last.months++; last.exit_date = d.exit_date; last.exit = d.exit; last.open = d.open;
+          last.ret = (1 + last.ret) * (1 + d.ret) - 1;
+          last.mag7 = (1 + last.mag7) * (1 + d.mag7) - 1;
+          last.spy = (1 + last.spy) * (1 + d.spy) - 1;
+        } else {
+          out.push({t:d.pick, buy:d.signal, entry:d.entry, exit_date:d.exit_date, exit:d.exit, months:1,
+                    ret:d.ret, mag7:d.mag7, spy:d.spy, open:d.open});
+        }
+      }
+      return out;
+    }
+
+    function startIndex(range) {
+      if (range === 'all') return 0;
+      const cut = range === 'coined' ? D.coined : (() => {
+        const d = new Date(D.as_of + 'T12:00:00'); d.setFullYear(d.getFullYear() - 5); return d.toISOString().slice(0, 10);
+      })();
+      // the first decision on or after the cut, so the range opens on a real entry
+      const k = D.decisions.findIndex(d => d.signal >= cut);
+      return k < 0 ? 0 : k;
+    }
+
+    function render(range) {
+      const k0 = startIndex(range);
+      const decs = D.decisions.slice(k0);
+      const pos = positions(decs);
+      const i0 = D.dates.indexOf(decs[0].signal);
+      const dates = D.dates.slice(i0);
+      const L = {};
+      for (const key of ['hated', 'top', 'mag7', 'spy']) {
+        const s = D.levels[key].slice(i0), b = s[0];
+        L[key] = s.map(v => v / b * 100);
+      }
+      const tot = key => L[key][L[key].length - 1] / 100 - 1;
+      const beat = decs.filter(d => d.ret > d.mag7).length;
+      const closed = pos.filter(p => !p.open), wins = closed.filter(p => p.ret > 0).length;
+      let peak = 0, mdd = 0;
+      for (const v of L.hated) { peak = Math.max(peak, v); mdd = Math.min(mdd, v / peak - 1); }
+
+      document.getElementById('figs').innerHTML = [
+        [big(tot('hated')), 'Most-hated Mag 7', 'hero'],
+        [big(tot('top')), 'Top-ranked (comp)', ''],
+        [big(tot('mag7')), 'Mag 7, equal weight', ''],
+        [big(tot('spy')), 'S&P 500 · SPY', ''],
+        [`${beat} / ${decs.length}`, 'months it beat the Mag 7', ''],
+        [`${wins} / ${closed.length}`, 'closed trades that made money', ''],
+        [pct(mdd, 0), 'worst drawdown', ''],
+      ].map(([v, k, c]) => `<div><div class="v ${c}">${v}</div><div class="k">${k}</div></div>`).join('');
+
+      const tops = TOP.slice(k0), tpos = positions(tops);
+      const same = decs.filter((d, i) => d.pick === tops[i].pick).length;
+      const hw = decs.filter((d, i) => d.ret > tops[i].ret).length;
+      const tclosed = tpos.filter(p => !p.open);
+      document.getElementById('vs').innerHTML = [
+        [`${hw} / ${decs.length}`, 'months most-hated beat the comp'],
+        [`${same}`, 'months both held the same name'],
+        [`${tpos.length} vs ${pos.length}`, 'trades: comp vs most-hated'],
+        [`${tclosed.filter(p => p.ret > 0).length} / ${tclosed.length}`, 'comp trades that made money'],
+      ].map(([v, k]) => `<div><div class="v">${v}</div><div class="k">${k}</div></div>`).join('');
+
+      drawChart(dates, L, decs);
+      drawTrades(pos, 'trades');
+      drawTrades(tpos, 'toptrades');
+      drawLog(decs, tops);
+    }
+
+    function nowBox() {
+      const d = D.decisions[D.decisions.length - 1];
+      document.getElementById('now').innerHTML =
+        `<div class="lab">Holding now · bought ${fmtD(d.signal)}</div>
+         <div class="tk" style="color:${TK[d.pick]}">${d.pick}</div>
+         <div class="sub">In at ${d.entry.toFixed(2)}, last ${d.exit.toFixed(2)} on ${fmtD(d.exit_date)}:
+           <span class="${cls(d.ret)}">${pct(d.ret)}</span>. Next decision at the ${new Date(new Date(d.signal + 'T12:00:00').setMonth(new Date(d.signal + 'T12:00:00').getMonth() + 2, 0)).toLocaleDateString(undefined, {month:'long'})} month-end close.</div>`;
+    }
+
+    function drawChart(dates, L, decs) {
+      const box = document.getElementById('chart');
+      box.querySelector('svg')?.remove();
+      const W = box.clientWidth || 900, H = Math.max(300, Math.min(440, W * .42));
+      const m = {l:48, r:14, t:10, b:46}, sh = 14;
+      const iw = W - m.l - m.r, ih = H - m.t - m.b - sh - 10;
+      const all = [...L.hated, ...L.top, ...L.mag7, ...L.spy];
+      let lo = Math.log10(Math.min(...all)), hi = Math.log10(Math.max(...all));
+      const pad = (hi - lo) * .05; lo -= pad; hi += pad;
+      const x = i => m.l + i / (dates.length - 1) * iw;
+      const y = v => m.t + (1 - (Math.log10(v) - lo) / (hi - lo)) * ih;
+      // log ticks: 1-2-5 sequence across the visible decades
+      const ticks = [];
+      for (let e = Math.floor(lo); e <= Math.ceil(hi); e++) for (const f of [1, 2, 5]) {
+        const v = f * 10 ** e; if (Math.log10(v) >= lo && Math.log10(v) <= hi) ticks.push(v);
+      }
+      const path = s => s.map((v, i) => (i ? 'L' : 'M') + x(i).toFixed(1) + ',' + y(v).toFixed(1)).join('');
+      const years = [];
+      dates.forEach((d, i) => { if (i && d.slice(0, 4) !== dates[i - 1].slice(0, 4)) years.push([i, d.slice(0, 4)]); });
+      const step = Math.ceil(years.length / Math.max(1, Math.floor(iw / 70)));
+      const sy = m.t + ih + 8;
+      const idx = new Map(dates.map((d, i) => [d, i]));
+      const strip = decs.map(d => {
+        const a = idx.get(d.signal), b = idx.get(d.exit_date) ?? dates.length - 1;
+        return `<rect x="${x(a).toFixed(1)}" y="${sy}" width="${Math.max(.5, x(b) - x(a)).toFixed(1)}" height="${sh}" fill="${TK[d.pick]}"><title>${d.pick} · ${fmtM(d.signal)}</title></rect>`;
+      }).join('');
+      const svg = `<svg viewBox="0 0 ${W} ${H}" height="${H}" role="img" aria-label="Growth of 100: most-hated Mag 7 against Mag 7 and SPY">
+        <g class="grid">${ticks.map(v => `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}"/><text x="${m.l - 8}" y="${y(v) + 4}" text-anchor="end">${v >= 1000 ? (v / 1000) + 'k' : v}</text>`).join('')}</g>
+        <path d="${path(L.spy)}" fill="none" stroke="var(--ml-faint)" stroke-width="1.5" stroke-dasharray="4 3"/>
+        <path d="${path(L.mag7)}" fill="none" stroke="var(--ml-accent)" stroke-width="1.75"/>
+        <path d="${path(L.top)}" fill="none" stroke="var(--comp)" stroke-width="1.75"/>
+        <path d="${path(L.hated)}" fill="none" stroke="var(--ml-ink)" stroke-width="2.25"/>
+        <g>${strip}</g>
+        <g class="axis">${years.filter((_, j) => j % step === 0).map(([i, yr]) => `<text x="${x(i)}" y="${H - 8}" text-anchor="middle">${yr}</text>`).join('')}</g>
+        <line id="hx" y1="${m.t}" y2="${sy + sh}" stroke="var(--ml-muted)" stroke-width="1" opacity="0"/>
+        <rect x="${m.l}" y="${m.t}" width="${iw}" height="${ih + sh + 8}" fill="transparent" id="hit"/>
+      </svg>`;
+      box.insertAdjacentHTML('beforeend', svg);
+      const tip = document.getElementById('tip'), hx = box.querySelector('#hx'), hit = box.querySelector('#hit');
+      const held = i => { const d = dates[i]; for (let k = decs.length - 1; k >= 0; k--) if (decs[k].signal < d || k === 0) return decs[k].pick; };
+      hit.onpointermove = ev => {
+        const r = box.querySelector('svg').getBoundingClientRect();
+        const px = (ev.clientX - r.left) * W / r.width;
+        const i = Math.max(0, Math.min(dates.length - 1, Math.round((px - m.l) / iw * (dates.length - 1))));
+        hx.setAttribute('x1', x(i)); hx.setAttribute('x2', x(i)); hx.setAttribute('opacity', .5);
+        tip.innerHTML = `<b>${fmtD(dates[i])}</b> · holding ${chip(held(i))}
+          <div class="row"><span>Most-hated</span><b>${L.hated[i].toFixed(0)}</b></div>
+          <div class="row"><span>Top-ranked</span><span>${L.top[i].toFixed(0)}</span></div>
+          <div class="row"><span>Mag 7</span><span>${L.mag7[i].toFixed(0)}</span></div>
+          <div class="row"><span>SPY</span><span>${L.spy[i].toFixed(0)}</span></div>`;
+        const left = x(i) / W * r.width;
+        tip.style.left = (left > r.width * .6 ? left - tip.offsetWidth - 12 : left + 12) + 'px';
+        tip.style.top = '8px'; tip.style.opacity = 1;
+      };
+      hit.onpointerleave = () => { tip.style.opacity = 0; hx.setAttribute('opacity', 0); };
+      const used = [...new Set(decs.map(d => d.pick))];
+      document.getElementById('stripkey').innerHTML = D.universe.filter(t => used.includes(t))
+        .map(t => `<span style="--c:${TK[t]}">${t} · ${decs.filter(d => d.pick === t).length} mo</span>`).join('');
+    }
+
+    function drawTrades(pos, id) {
+      const rows = pos.slice().reverse().map((p, j) => {
+        const edge = p.ret - p.mag7;
+        return `<tr class="${p.open ? 'open' : ''}">
+          <td class="l mut">${pos.length - j}</td>
+          <td class="l">${chip(p.t)}${p.open ? '<span class="tag">holding</span>' : ''}</td>
+          <td class="l">${fmtD(p.buy)}</td><td>${p.entry.toFixed(2)}</td>
+          <td class="l">${p.open ? '<span class="mut">open</span>' : fmtD(p.exit_date)}</td><td>${p.exit.toFixed(2)}</td>
+          <td>${p.months}</td>
+          <td class="${cls(p.ret)}"><b>${pct(p.ret)}</b></td>
+          <td class="${cls(p.mag7)}">${pct(p.mag7)}</td>
+          <td class="${cls(edge)}">${pct(edge)}</td>
+        </tr>`;
+      }).join('');
+      document.getElementById(id).innerHTML = `<thead><tr>
+        <th class="l">#</th><th class="l">Name</th><th class="l">Bought</th><th>Price</th>
+        <th class="l">Sold</th><th>Price</th><th>Months</th><th>Return</th><th>Mag 7 same span</th><th>Edge</th>
+        </tr></thead><tbody>${rows}</tbody>`;
+    }
+
+    function board(d) {
+      const rows = d.board.slice().sort((a, b) => a.avg - b.avg).map(b => `<tr class="${b.t === d.pick ? 'pick' : ''}">
+        <td>${chip(b.t)}</td>
+        ${b.r.map((r, w) => `<td class="${cls(r)}">${pct(r)}<span class="k">#${b.k[w]}</span></td>`).join('')}
+        <td><span class="bar" style="width:${(b.avg / 7 * 70).toFixed(0)}px"></span>${b.avg.toFixed(2)}</td></tr>`).join('');
+      return `<table class="hm-board"><thead><tr><th>Name</th>${D.windows.map(w => `<th>${w} return · rank</th>`).join('')}<th>Average rank</th></tr></thead><tbody>${rows}</tbody></table>`;
+    }
+
+    function drawLog(decs, tops) {
+      const rows = decs.slice().reverse().map((d, j) => {
+        const key = decs.length - 1 - j;
+        const act = d.prev === d.pick ? `Hold ${chip(d.pick)}`
+                  : d.prev ? `Sell <span class="from">${esc(d.prev)}</span> → buy ${chip(d.pick)}`
+                  : `Buy ${chip(d.pick)}`;
+        return `<tr class="dec" data-k="${key}" tabindex="0" aria-expanded="false">
+          <td class="l">${fmtM(d.signal)}</td>
+          <td class="l act">${act}${d.open ? '<span class="tag">current</span>' : ''}</td>
+          <td>${d.score.toFixed(2)}</td>
+          <td class="${cls(d.ret)}"><b>${pct(d.ret)}</b></td>
+          <td class="${cls(d.mag7)}">${pct(d.mag7)}</td>
+          <td class="${cls(d.spy)}">${pct(d.spy)}</td>
+          <td class="l" style="padding-left:24px">${chip(tops[key].pick)}</td>
+          <td class="${cls(tops[key].ret)}">${pct(tops[key].ret)}</td>
+        </tr>`;
+      }).join('');
+      const t = document.getElementById('log');
+      t.innerHTML = `<thead><tr><th class="l">Month end</th><th class="l">Decision</th><th>Avg rank</th>
+        <th>Next month</th><th>Mag 7</th><th>SPY</th><th class="l" style="padding-left:24px">Comp held</th><th>Comp</th></tr></thead><tbody>${rows}</tbody>`;
+      const toggle = tr => {
+        const open = tr.classList.toggle('x');
+        tr.setAttribute('aria-expanded', String(open));
+        if (open) tr.insertAdjacentHTML('afterend', `<tr class="board"><td colspan="8">${board(decs[+tr.dataset.k])}</td></tr>`);
+        else if (tr.nextElementSibling?.classList.contains('board')) tr.nextElementSibling.remove();
+      };
+      t.querySelectorAll('tr.dec').forEach(tr => {
+        tr.onclick = () => toggle(tr);
+        tr.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(tr); } };
+      });
+      // open the current month so the page answers "why this name" without a click
+      const first = t.querySelector('tr.dec'); if (first) toggle(first);
+    }
+
+    let range = 'coined';
+    try { range = localStorage.getItem('market-lab.hatedm7.range') || range; } catch (_) {}
+    const buttons = document.querySelectorAll('.hm-range button');
+    const set = r => {
+      range = r;
+      buttons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.range === r)));
+      try { localStorage.setItem('market-lab.hatedm7.range', r); } catch (_) {}
+      render(r);
+    };
+    buttons.forEach(b => b.onclick = () => set(b.dataset.range));
+    const go = () => { nowBox(); set(range); };
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go); else go();
+    let rz; addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(() => render(range), 120); });
+    addEventListener('ml:themechange', () => render(range));
+  })();
+  </script>
+</body>
+</html>

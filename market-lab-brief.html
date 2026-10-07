@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Morning brief — Equinox</title>
+  <style>
+    *{box-sizing:border-box}
+    .page{max-width:960px;margin:0 auto;padding:26px 28px 90px;font-size:16px}
+    .mast{display:flex;justify-content:space-between;align-items:baseline;gap:16px;border-bottom:1px solid var(--ml-border);padding-bottom:12px;margin:6px 0 20px}
+    .mast h1{font-size:26px;margin:0;letter-spacing:-.02em;font-weight:600}
+    .mast span{color:var(--ml-muted);font-size:13px;white-space:nowrap}
+    section{background:var(--ml-surface);border:1px solid var(--ml-border);border-radius:8px;padding:16px 18px;margin:0 0 14px}
+    section h2{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--ml-muted);margin:0 0 10px}
+    .big{font-size:22px;font-weight:650}
+    table{width:100%;border-collapse:collapse;font-size:14px}
+    th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--ml-border);vertical-align:top}
+    th{font-size:12px;color:var(--ml-muted);font-weight:600}
+    tr:last-child td{border-bottom:0}
+    td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+    .up{color:var(--ml-up)}.dn{color:var(--ml-down)}
+    ul.clean{margin:6px 0; padding-left:20px}
+    ul.clean li{margin:3px 0}
+    .note{color:var(--ml-muted);font-size:13px;margin:8px 0 0}
+    details{margin-top:10px;font-size:14px}summary{cursor:pointer}
+    article[data-jentry]{border-bottom:1px solid var(--ml-border);padding:6px 0}
+    article[data-jentry]:last-of-type{border-bottom:0}
+    #journal textarea{width:100%;max-width:640px}
+    #journal input,#journal select,#journal textarea,#journal button{font:14px var(--sans);color:var(--ml-ink);background:var(--ml-raised);border:1px solid var(--ml-border);border-radius:4px;padding:7px 10px}
+    #journal button{cursor:pointer}
+    #journal button:hover{background:var(--ml-hover)}
+    #journal label{font-size:13px;color:var(--ml-muted)}
+    #journal form label{display:inline-block;margin:0 10px 8px 0}
+    .brief-toolbar,.section-head{display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .brief-toolbar{justify-content:flex-start;margin-bottom:14px}
+    .page button,.page select{font:inherit;font-size:14px;color:var(--ml-ink);background:var(--ml-raised);border:1px solid var(--ml-border);border-radius:4px;padding:6px 10px}
+    .page button{cursor:pointer}.page a{color:var(--ml-ink);text-decoration:underline;text-underline-offset:3px}
+    .page button:hover,.page a:hover{color:var(--ml-up)}
+    .page small{display:block;color:var(--ml-muted);font-size:12px;line-height:1.6;font-weight:400}
+    .risk-strip,.brief-trends{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:10px 0}
+    .risk-strip b{font-size:22px;margin-right:5px;font-variant-numeric:tabular-nums}
+    .brief-trends{border-top:1px solid var(--ml-border);padding-top:12px}
+    .table-scroll{max-width:100%;overflow:auto}td.n{white-space:nowrap}
+    .secondary{padding:10px 0}.secondary .body{margin-top:12px}
+    h3{font-size:14px}.clean{font-size:14px;line-height:1.65}
+    #load-error{padding:16px;border:1px solid var(--ml-border)}
+    @media(max-width:650px){.page{padding:18px 14px 50px}.risk-strip,.brief-trends{gap:12px;grid-template-columns:1fr}.mast h1{font-size:23px}.mast{flex-wrap:wrap}.page th,.page td{padding:7px 6px}.page .n{font-variant-numeric:tabular-nums}}
+  </style>
+<link rel="stylesheet" href="market-lab-shell.css"><script src="market-lab-shell.js?v=20261006-2ddf6f7c"></script></head>
+<body>
+<div class="page">
+  <div class="mast"><h1>Morning brief</h1><span id="asof"></span></div>
+  <div id="load-error" hidden role="alert">Brief unavailable. <button type="button" id="brief-retry">Retry</button></div>
+  <div aria-label="Brief scope"><div class="brief-toolbar"><label>Scope <select id="brief-scope"><option value="baskets">My baskets</option><option value="mycoverage">My coverage</option><option value="fredcoverage">Fred’s coverage</option><option value="all">All stocks</option></select></label><span class="note" id="scope-status" role="status"></span></div><div id="basket-notice"></div></div>
+  <section id="risk"><h2>Risk posture</h2><div class="body">Loading…</div></section>
+  <section id="fresh"><h2>New triggers</h2><div class="body">Loading…</div></section>
+  <section><h2>Opportunity</h2><div id="groups"><div class="body">Loading…</div></div><p class="note" id="records-summary"></p><details id="opp"><summary>Extreme + heavy volume · up to 5 each way</summary><div class="body">Loading…</div></details></section>
+  <section id="options-activity"><h2>Options activity · daily pilot</h2><div class="body" role="status">Loading…</div></section>
+  <section id="books"><h2>Books</h2><div class="body">Loading…</div></section>
+  <section id="journal"><h2>Journal</h2><div class="body">Loading…</div></section>
+  <section id="earn"><h2>Reporting soon · <span id="earn-count">—</span></h2><div class="body">Loading…</div></section>
+  <section><h2>Trigger history</h2><details id="follow"><summary>Follow-through</summary><div class="body">Loading…</div><p class="note">Price change from the observed close. Best / worst use subsequent closes. Cleared means the condition ended.</p></details><details id="hist"><summary>Last 30 sessions</summary><div class="body">Loading…</div></details></section>
+  <details class="secondary"><summary>Rules &amp; coverage</summary><p>Market trend requires three consecutive closes above the 21-day EMA; below it for three closes is a downtrend. A mixed window is labeled Mixed. Market risk always shows the wider market.</p><p>The attention list requires a signed score of +99 or higher, or −97 or lower, and five-session USD volume at least 1.5× its prior baseline. New triggers rank first, followed by volume pace and extension magnitude. Strengthening / fading compares the absolute score with the previous close. These are observations, with no estimated reversal probability.</p><p>Volume pace compares the latest five sessions with the preceding 252, requiring all five recent readings and at least 20 baseline readings. Accelerating members have pace ≥1.5× and a rising pace. Group pace divides summed recent member averages by summed baseline averages. At least half the stock members need fresh volume data. Contributor share is a share of recent volume, not of the increase.</p><p>Extreme duration uses consecutive sessions beyond the threshold. Average and median use completed same-side streaks across available indicator history; n is the sample count. Missing scores, prices and FX stay unavailable. Foreign markets may have a different latest session.</p><p>Cloud basket membership is loaded for your account. Scopes apply to stocks, including stock members of nested themes; ETFs and indices remain outside the attention list. Upcoming earnings reflect stored dates and may be incomplete.</p><p>Follow-through begins when a trigger is observed here. First-observed rows establish a baseline, without claiming the trigger began that day. Repeated updates preserve the session’s trigger list. Earlier unsigned extension alerts are excluded. Returns use stored split-adjusted closes, exclude dividends and costs, and are not executable-entry backtests.</p></details>
+</div>
+<script src="market-lab-cloud.js?v=20261006-2ddf6f7c"></script>
+<script src="market-lab-journal.js?v=20261006-2ddf6f7c"></script>
+<script src="market-lab-brief-model.js?v=20261006-2ddf6f7c"></script>
+<script src="market-lab-options-activity.js?v=20261006-2ddf6f7c"></script>
+<script src="market-lab-brief.js?v=20261006-2ddf6f7c"></script>
+</body>
+</html>

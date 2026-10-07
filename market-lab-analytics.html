@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Analytics · Equinox</title>
+<link rel="stylesheet" href="market-lab-shell.css"><link rel="stylesheet" href="market-lab-analytics.css"><link rel="stylesheet" href="market-lab-trends.css">
+<script src="market-lab-shell.js?v=20261006-2ddf6f7c" defer></script><script src="market-lab-cloud.js?v=20261006-2ddf6f7c" defer></script><script src="market-lab-chart-panels.js?v=20261006-2ddf6f7c" defer></script><script src="market-lab-regime.js?v=20261006-2ddf6f7c" defer></script><script src="market-lab-analytics.js?v=20261006-2ddf6f7c" defer></script>
+</head><body>
+<main class="an-main" id="analytics-page">
+  <header class="an-heading"><h1>Analytics</h1><span id="an-asof"></span></header>
+  <div class="an-toolbar">
+    <label>Universe <select id="an-universe"><option value="sp500">S&P 500</option><option value="nasdaq">Nasdaq stocks</option><option value="total">Total market</option></select></label>
+    <label>History <select id="an-history"><option value="3M">3 months</option><option value="1Y" selected>1 year</option><option value="5Y">5 years</option></select></label>
+    <nav aria-label="Analytics sections"><a href="#participation">Participation</a><a href="#activity">Volume</a><a href="#structure">Structure</a><a href="#leadership">Themes</a></nav>
+  </div>
+  <p id="an-status" role="status">Loading analytics…</p>
+  <section id="an-regime" aria-label="Market regime" aria-live="polite"><p class="an-sub">Loading market regime…</p></section>
+  <section id="participation"><h2>Participation</h2><div class="an-grid" id="an-participation"></div></section>
+  <section id="activity" hidden><h2>Trading activity</h2><div id="an-volume"></div></section>
+  <section id="structure" hidden><h2>Market structure</h2><div class="an-grid" id="an-structure"></div></section>
+  <section id="leadership" hidden><h2>Theme participation</h2><div id="an-leadership"></div></section>
+  <details class="an-method"><summary>Coverage & calculations</summary><div id="an-method"></div></details>
+</main></body></html>

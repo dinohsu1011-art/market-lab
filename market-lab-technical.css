@@ -1,0 +1,47 @@
+.ticker-card[data-card-view="technical"]{grid-column:1/-1}
+.stock-detail-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.stock-detail-actions select{max-width:230px}
+.chartbar{flex-wrap:wrap}
+.ticker-card{scroll-margin-top:90px}
+.ml-card-tabs{flex-wrap:wrap}
+.ticker-card .ml-card-tabs button{font-size:14px;min-height:40px}
+[data-page="themes"] .stock-detail-actions .chart-action{font-size:14px;min-height:36px;color:var(--ml-ink)}
+.ticker-card[data-card-view="company"]{grid-column:1/-1}
+.ticker-card:not([data-card-view="company"]) .company-section,
+.ticker-card[data-card-view="company"] .ticker-card-section:not(.company-section){display:none}
+.company-view{max-width:900px;line-height:1.65;font-size:15px}
+.company-view h3{font-size:17px!important;color:var(--ml-ink)!important}
+.company-view p{margin:12px 0}
+.company-view .company-date{color:var(--ml-muted);font-size:13px}
+.company-view details{margin-top:18px}
+.company-view details p{font-size:13px;color:var(--ml-muted)}
+.company-view a{color:var(--ml-accent)}
+@media(max-width:620px){.stock-detail-actions{width:100%}.stock-detail-actions select{max-width:100%}.ml-card-tabs{margin:0 8px;gap:0}.ml-card-tabs button{padding:9px 7px}.company-view{font-size:15px}}
+.ticker-card:not([data-card-view="technical"]) .technical-section,
+.ticker-card[data-card-view="technical"] .ticker-card-section:not(.technical-section){display:none}
+.technical-view{color:var(--ml-ink);font:14px var(--sans);min-width:0}
+.technical-view button{font:inherit;color:inherit;background:var(--ml-panel);border:1px solid var(--ml-border);border-radius:4px;padding:7px 12px;cursor:pointer}
+.technical-view [aria-pressed=true]{background:var(--ml-hover);font-weight:600}
+.technical-toolbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin:4px 0 16px}
+.technical-toolbar [role=group]{display:flex;gap:5px}
+.technical-toolbar>span,.technical-note{color:var(--ml-muted);line-height:1.6}
+.technical-status{display:flex;align-items:baseline;flex-wrap:wrap;gap:10px 20px;margin:12px 0 20px}
+.technical-status strong{font-size:19px;font-weight:600}
+.technical-status span{color:var(--ml-muted)}
+.technical-metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:14px 22px;margin-bottom:20px}
+.technical-metrics span{display:grid;gap:5px;color:var(--ml-muted)}
+.technical-metrics b{font-size:18px;color:var(--ml-ink);font-variant-numeric:tabular-nums}
+.technical-table{overflow:auto}.technical-view table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.technical-view th,.technical-view td{padding:9px 12px;text-align:right;border-bottom:1px solid var(--ml-border);white-space:nowrap}
+.technical-view th:first-child,.technical-view td:first-child{text-align:left}
+.technical-view th{font-weight:500;color:var(--ml-muted)}
+.technical-view details{margin:16px 0}.technical-view summary{cursor:pointer;line-height:1.6}
+.technical-view details p{line-height:1.7;max-width:1000px}
+.technical-view .an-card{margin:20px 0}.technical-view .an-card h3{font-size:17px}
+.technical-view details td:last-child{white-space:normal;min-width:230px;text-align:left}
+.technical-view :focus-visible{outline:2px solid var(--ml-ink);outline-offset:3px}
+.overextension-indicator{margin:20px 0;min-width:0}
+.overextension-indicator .an-card header>strong{margin-left:auto;font-size:24px;font-variant-numeric:tabular-nums}
+.overextension-indicator .an-legend{align-items:center;flex-wrap:wrap}
+.overextension-indicator select{font:inherit;background:var(--ml-panel);color:var(--ml-ink);border:1px solid var(--ml-border);border-radius:4px;padding:6px}
+.overextension-indicator details td:last-child{min-width:0;white-space:nowrap;text-align:right}

@@ -1,0 +1,1153 @@
+{
+  "schema": 1,
+  "checked_on": "2026-09-15",
+  "method": "Official earnings releases and primary SEC exhibits. Every recap states revenue growth versus the same quarter last year and explains guidance changes. Raises compare the same measure and forecast period; new-period outlooks are not raises. Missing comparisons are stated. Short editorial recaps; no beat/miss labels, paid sources or transcript redistribution.",
+  "rows": {
+    "AMD": {
+      "id": "AMD",
+      "company": "Advanced Micro Devices",
+      "period": "Q2 2026",
+      "published": "2026-08-04",
+      "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000121/q22026991.htm",
+      "summary": "Demand for AMD’s server processors and AI accelerators drove the quarter. Management described accelerating EPYC demand, expanding Instinct deployments and the start of the Helios rollout.",
+      "developments": [
+        "The server and AI businesses supplied most of the growth."
+      ],
+      "watch": "Whether the Helios rollout and accelerator deployments maintain their pace.",
+      "evidence": [
+        {
+          "locator": "Opening CEO commentary",
+          "supports": "EPYC, Instinct and Helios developments"
+        },
+        {
+          "locator": "Current Outlook",
+          "supports": "Q3 revenue outlook"
+        },
+        {
+          "locator": "Financial results and segment results",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 50,
+        "basis": "reported",
+        "text": "Revenue rose 50% year over year to $11.5 billion. Data Center revenue grew 107% to $6.7 billion; Client revenue rose 23%, while Gaming declined 31%.",
+        "locator": "Financial results and segment results"
+      },
+      "guidance": {
+        "status": "new_period",
+        "text": "AMD introduced Q3 revenue guidance of $13.0 billion, plus or minus $300 million, implying 41% year-over-year growth at the midpoint. This is a new-quarter forecast, not a verified raise to an existing Q3 forecast.",
+        "changes": []
+      }
+    },
+    "NVDA": {
+      "id": "NVDA",
+      "company": "NVIDIA",
+      "period": "Q2 FY2027",
+      "published": "2026-08-26",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+      "summary": "AI infrastructure remained the main growth driver, with demand spanning AI labs, startups and physical AI. Management said Vera Rubin was moving into full production.",
+      "developments": [
+        "The next-quarter forecast excludes China Data Center compute revenue."
+      ],
+      "watch": "How the Vera Rubin production ramp develops alongside customer demand.",
+      "evidence": [
+        {
+          "locator": "Jensen Huang commentary",
+          "supports": "Customer demand and Vera Rubin production"
+        },
+        {
+          "locator": "Outlook, first bullet",
+          "supports": "Q3 revenue outlook and China exclusion"
+        },
+        {
+          "locator": "Opening financial highlights",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 106,
+        "basis": "reported",
+        "text": "Revenue rose 106% year over year to $96.2 billion. Data Center revenue increased 117% to $89.0 billion.",
+        "locator": "Opening financial highlights"
+      },
+      "guidance": {
+        "status": "new_period",
+        "text": "NVIDIA introduced Q3 revenue guidance of $108 billion, plus or minus 2%. This is a new-quarter outlook; a same-period guidance raise is not established by the release.",
+        "changes": []
+      }
+    },
+    "AVGO": {
+      "id": "AVGO",
+      "company": "Broadcom",
+      "period": "Q3 FY2026",
+      "published": "2026-09-02",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+      "summary": "Demand for custom AI accelerators and networking drove Broadcom’s growth, with AI semiconductor revenue reaching $16.7 billion.",
+      "developments": [
+        "Both custom accelerators and networking contributed to AI demand."
+      ],
+      "watch": "The pace of custom accelerator and networking deployments.",
+      "evidence": [
+        {
+          "locator": "Hock Tan commentary",
+          "supports": "AI demand drivers and Q4 AI semiconductor outlook"
+        },
+        {
+          "locator": "Fourth-quarter guidance",
+          "supports": "Total revenue outlook"
+        },
+        {
+          "locator": "Financial highlights and segment revenue table",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 86,
+        "basis": "reported",
+        "text": "Revenue increased 86% year over year to $29.6 billion. AI semiconductor revenue grew 221%; infrastructure software grew 29%.",
+        "locator": "Financial highlights and segment revenue table"
+      },
+      "guidance": {
+        "status": "new_period",
+        "text": "Broadcom introduced Q4 revenue guidance of about $34.8 billion, up 93% year over year, including $21.7 billion from AI semiconductors. This is a new-quarter outlook, not a verified raise of a prior Q4 forecast.",
+        "changes": []
+      }
+    },
+    "MU": {
+      "id": "MU",
+      "company": "Micron Technology",
+      "period": "Q3 FY2026",
+      "published": "2026-06-24",
+      "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx",
+      "summary": "AI-related memory demand supported a sharp increase in Micron’s revenue and cash generation. The company continued investing in technology, products and supply.",
+      "developments": [
+        "Operating cash flow was $25.39 billion; net capital expenditures were $7.1 billion."
+      ],
+      "watch": "How memory demand and cash generation develop as investment increases.",
+      "evidence": [
+        {
+          "locator": "Capital investment paragraph",
+          "supports": "Net capital expenditures"
+        },
+        {
+          "locator": "Sanjay Mehrotra commentary",
+          "supports": "AI memory demand and qualitative outlook"
+        },
+        {
+          "locator": "Quarterly Financial Results, FQ3-26 and FQ3-25 revenue",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 345.7,
+        "basis": "calculated_from_reported",
+        "text": "Revenue rose approximately 345.7% year over year to $41.456 billion from $9.301 billion. This growth rate is calculated from the reported revenue figures.",
+        "locator": "Quarterly Financial Results, FQ3-26 and FQ3-25 revenue",
+        "calculation": {
+          "current": 41456,
+          "prior": 9301,
+          "unit": "USD million"
+        }
+      },
+      "guidance": {
+        "status": "new_period",
+        "text": "Micron introduced Q4 revenue guidance of $50 billion, plus or minus $1 billion, and adjusted EPS of $31, plus or minus $1. These are new-quarter forecasts, not a verified raise to an earlier Q4 outlook.",
+        "changes": []
+      }
+    },
+    "DELL": {
+      "id": "DELL",
+      "company": "Dell Technologies",
+      "period": "Q2 FY2027",
+      "published": "2026-09-01",
+      "url": "https://investors.delltechnologies.com/news-releases/news-release-details/dell-technologies-delivers-second-quarter-fiscal-2027-financial",
+      "summary": "Dell’s AI server order book expanded sharply, leaving substantial shipments still to deliver. Growth also extended into traditional servers, storage and client devices.",
+      "developments": [
+        "AI server orders were $60.9 billion, with a $95 billion backlog."
+      ],
+      "watch": "How AI server backlog converts into shipments and cash generation.",
+      "evidence": [
+        {
+          "locator": "Jeff Clarke commentary",
+          "supports": "AI server orders and backlog"
+        },
+        {
+          "locator": "CFO commentary and cash-flow highlights",
+          "supports": "Revenue guidance increase and operating cash flow"
+        },
+        {
+          "locator": "Opening highlights and segment results",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        },
+        {
+          "locator": "Guidance comparisons",
+          "supports": "Prior and current forecasts refer to the same period and metric. Comparison sources are linked below."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 58,
+        "basis": "reported",
+        "text": "Revenue rose 58% year over year to $47.0 billion. AI server revenue doubled to $16.4 billion, while client revenue grew 20%.",
+        "locator": "Opening highlights and segment results"
+      },
+      "guidance": {
+        "status": "raised",
+        "text": "Dell raised FY2027 revenue guidance from $167 billion to $192 billion, a $25 billion increase. Adjusted EPS guidance rose from $17.90 to $25.50.",
+        "changes": [
+          {
+            "metric": "Revenue",
+            "period": "FY2027",
+            "previous_period": "FY2027",
+            "unit": "USD billion",
+            "previous": [
+              167,
+              167
+            ],
+            "current": [
+              192,
+              192
+            ],
+            "direction": "raised",
+            "locator": "Full-Year Guidance: Previous and Updated"
+          },
+          {
+            "metric": "Adjusted EPS",
+            "period": "FY2027",
+            "previous_period": "FY2027",
+            "unit": "USD per share",
+            "previous": [
+              17.9,
+              17.9
+            ],
+            "current": [
+              25.5,
+              25.5
+            ],
+            "direction": "raised",
+            "locator": "Full-Year Guidance: Previous and Updated"
+          }
+        ]
+      }
+    },
+    "HPE": {
+      "id": "HPE",
+      "company": "Hewlett Packard Enterprise",
+      "period": "Q3 FY2026",
+      "published": "2026-09-02",
+      "url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q3-2026/q3-2026-earnings-press-release.pdf",
+      "summary": "Server demand and networking growth supported HPE’s quarter. Cloud & AI revenue reached $9.0 billion, while Networking contributed $2.9 billion.",
+      "developments": [
+        "Free cash flow was $1.0 billion, up $0.2 billion from a year earlier."
+      ],
+      "watch": "Whether server and networking demand both support the next stage of growth.",
+      "evidence": [
+        {
+          "locator": "Page 2, segment results",
+          "supports": "Cloud & AI, server growth and Networking revenue"
+        },
+        {
+          "locator": "Page 3, Fiscal 2026 Fourth Quarter Outlook",
+          "supports": "Q4 revenue guidance"
+        },
+        {
+          "locator": "Pages 1–2, financial and segment results",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        },
+        {
+          "locator": "Guidance comparisons",
+          "supports": "Prior and current forecasts refer to the same period and metric. Comparison sources are linked below."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 34,
+        "basis": "reported",
+        "text": "Revenue rose 34% year over year to $12.2 billion. Server revenue grew 35.3% and Networking revenue grew 74.9%; these are reported growth rates, not organic growth.",
+        "locator": "Pages 1–2, financial and segment results"
+      },
+      "guidance": {
+        "status": "raised",
+        "text": "HPE raised FY2026 revenue growth guidance from 29–33% to 34–37%, and adjusted EPS from $3.35–$3.45 to $3.75–$3.85. It also raised its FY2027 revenue growth framework from 8–12% to 13–17%.",
+        "changes": [
+          {
+            "metric": "Revenue growth",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "percent",
+            "previous": [
+              29,
+              33
+            ],
+            "current": [
+              34,
+              37
+            ],
+            "direction": "raised",
+            "locator": "Q2 page 2 and Q3 page 3, Full Year Outlook",
+            "source_url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q2-2026/q2-2026-earnings-press-release.pdf"
+          },
+          {
+            "metric": "Adjusted EPS",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "USD per share",
+            "previous": [
+              3.35,
+              3.45
+            ],
+            "current": [
+              3.75,
+              3.85
+            ],
+            "direction": "raised",
+            "locator": "Q2 page 2 and Q3 page 3, Full Year Outlook",
+            "source_url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q2-2026/q2-2026-earnings-press-release.pdf"
+          },
+          {
+            "metric": "Revenue growth",
+            "period": "FY2027",
+            "previous_period": "FY2027",
+            "unit": "percent",
+            "previous": [
+              8,
+              12
+            ],
+            "current": [
+              13,
+              17
+            ],
+            "direction": "raised",
+            "locator": "Q2 and Q3 page 3, Outlook Framework",
+            "source_url": "https://investors.hpe.com/~/media/Files/H/HP-Enterprise-IR/documents/q2-2026/q2-2026-earnings-press-release.pdf"
+          }
+        ]
+      }
+    },
+    "MSFT": {
+      "id": "MSFT",
+      "company": "Microsoft",
+      "period": "Q4 FY2026",
+      "published": "2026-07-29",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+      "summary": "Microsoft’s cloud businesses continued to grow while personal-computing products were weaker. Azure remained the clearest source of operating momentum.",
+      "developments": [
+        "Cloud and personal-computing products moved in different directions."
+      ],
+      "watch": "Whether Azure growth continues and Windows OEM and Devices revenue remains under pressure.",
+      "evidence": [
+        {
+          "locator": "Opening results and Business Highlights",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 18,
+        "basis": "reported",
+        "text": "Revenue rose 18% year over year to $90.0 billion, or 17% at constant currency. Azure and other cloud services grew 43%; Windows OEM and Devices declined 7%.",
+        "locator": "Opening results and Business Highlights"
+      },
+      "guidance": {
+        "status": "not_in_release",
+        "text": "No numerical forward guidance or guidance raise is provided in this earnings release. The earnings-call outlook is not included in this recap.",
+        "changes": []
+      }
+    },
+    "GOOGL": {
+      "id": "GOOGL",
+      "company": "Alphabet",
+      "period": "Q2 2026",
+      "published": "2026-07-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+      "summary": "Alphabet’s growth had several contributors: enterprise AI supported Google Cloud while Search continued expanding. Management said AI features were increasing search queries.",
+      "developments": [
+        "Operating income increased 30%, a more direct measure of business growth than investment-related gains."
+      ],
+      "watch": "Whether enterprise AI demand sustains Cloud growth as AI features expand Search usage.",
+      "evidence": [
+        {
+          "locator": "Opening highlights, revenue and Search bullets",
+          "supports": "Total revenue, 24% growth and Search 17% growth"
+        },
+        {
+          "locator": "Opening Cloud bullet",
+          "supports": "Cloud revenue, 82% growth and drivers"
+        },
+        {
+          "locator": "CEO commentary",
+          "supports": "AI features and search query growth"
+        },
+        {
+          "locator": "Opening revenue, Cloud and Search highlights",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 24,
+        "basis": "reported",
+        "text": "Revenue rose 24% year over year to $119.8 billion, or 23% at constant currency. Google Cloud grew 82% to $24.8 billion, and Search grew 17%.",
+        "locator": "Opening revenue, Cloud and Search highlights"
+      },
+      "guidance": {
+        "status": "not_in_release",
+        "text": "No numerical forward guidance or guidance raise is provided in this earnings release. Any outlook discussed only on the earnings call is outside this recap.",
+        "changes": []
+      }
+    },
+    "AMZN": {
+      "id": "AMZN",
+      "company": "Amazon.com",
+      "period": "Q2 2026",
+      "published": "2026-07-30",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx",
+      "summary": "AWS growth accelerated as Amazon expanded its AI infrastructure. Investment spending also rose, keeping cash generation an important part of the picture.",
+      "developments": [
+        "Trailing-twelve-month free cash flow was a $7.6 billion outflow."
+      ],
+      "watch": "How cloud growth and cash generation develop alongside AI investment.",
+      "evidence": [
+        {
+          "locator": "Business highlights, AI and chips",
+          "supports": "Annual revenue run rates"
+        },
+        {
+          "locator": "Financial Guidance",
+          "supports": "Q3 sales outlook"
+        },
+        {
+          "locator": "Opening sales highlights",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 20,
+        "basis": "reported",
+        "text": "Revenue rose 20% year over year to $200.6 billion. AWS grew 37% to $42.2 billion; North America grew 16% and International grew 15%.",
+        "locator": "Opening sales highlights"
+      },
+      "guidance": {
+        "status": "new_period",
+        "text": "Amazon introduced Q3 sales guidance of $197–$202 billion, implying 9–12% year-over-year growth. Prime Day timing affects that comparison. This is a new-quarter forecast, not a verified raise of an existing Q3 forecast.",
+        "changes": []
+      }
+    },
+    "META": {
+      "id": "META",
+      "company": "Meta Platforms",
+      "period": "Q2 2026",
+      "published": "2026-07-29",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx",
+      "summary": "Meta’s advertising growth came from both more ads being delivered and higher average prices. Its outlook also called for higher spending.",
+      "developments": [
+        "Both advertising activity and pricing contributed to growth."
+      ],
+      "watch": "Whether advertising volume and pricing continue contributing together.",
+      "evidence": [
+        {
+          "locator": "Operational highlights: Ad impressions",
+          "supports": "14% increase"
+        },
+        {
+          "locator": "Operational highlights: Average price per ad",
+          "supports": "12% increase"
+        },
+        {
+          "locator": "CFO Outlook Commentary",
+          "supports": "Q3 revenue outlook"
+        },
+        {
+          "locator": "Financial and operational highlights",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        },
+        {
+          "locator": "Guidance comparisons",
+          "supports": "Prior and current forecasts refer to the same period and metric. Comparison sources are linked below."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 28,
+        "basis": "reported",
+        "text": "Revenue rose 28% year over year to $60.80 billion, or 27% at constant currency. Ad impressions grew 14% and average price per ad increased 12%.",
+        "locator": "Financial and operational highlights"
+      },
+      "guidance": {
+        "status": "spending_increased",
+        "text": "Meta introduced Q3 revenue guidance of $61–$64 billion. It raised the lower end of 2026 capital spending guidance from $125–$145 billion to $130–$145 billion and raised the expense outlook’s lower end to $165 billion. These are spending increases, not revenue or earnings upgrades.",
+        "changes": [
+          {
+            "metric": "Capital expenditures",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "USD billion",
+            "previous": [
+              125,
+              145
+            ],
+            "current": [
+              130,
+              145
+            ],
+            "direction": "raised",
+            "locator": "CFO Outlook Commentary"
+          }
+        ]
+      }
+    },
+    "CRM": {
+      "id": "CRM",
+      "company": "Salesforce",
+      "period": "Q2 FY2027",
+      "published": "2026-08-26",
+      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/fy27-q2-earnings/?bc=OTH",
+      "summary": "Salesforce’s AI and data products expanded, while acquisitions also contributed to reported growth. Informatica supplied $456 million of quarterly revenue.",
+      "developments": [
+        "Reported growth includes acquired businesses and should not be read as purely organic."
+      ],
+      "watch": "How growth develops separately from acquired-business contributions.",
+      "evidence": [
+        {
+          "locator": "Financial and Company Highlights",
+          "supports": "Informatica contribution and AI/data recurring revenue"
+        },
+        {
+          "locator": "Guidance and acquisition-condition paragraph",
+          "supports": "Revenue outlook and conditions"
+        },
+        {
+          "locator": "Second Quarter Financial Highlights",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        },
+        {
+          "locator": "Guidance comparisons",
+          "supports": "Prior and current forecasts refer to the same period and metric. Comparison sources are linked below."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 11,
+        "basis": "reported",
+        "text": "Revenue rose 11% year over year to $11.3 billion. Agentforce and Data 360 annual recurring revenue grew more than 210% to nearly $3.9 billion.",
+        "locator": "Second Quarter Financial Highlights"
+      },
+      "guidance": {
+        "status": "raised",
+        "text": "Salesforce raised FY2027 revenue guidance by $200 million to $46.1–$46.4 billion. The increase combines $100 million of organic improvement and $200 million from pending acquisitions, offset by $100 million of currency pressure. Operating cash flow growth guidance stayed at 4–5%.",
+        "changes": [
+          {
+            "metric": "Revenue",
+            "period": "FY2027",
+            "previous_period": "FY2027",
+            "unit": "USD billion",
+            "previous": [
+              45.9,
+              46.2
+            ],
+            "current": [
+              46.1,
+              46.4
+            ],
+            "direction": "raised",
+            "locator": "Guidance: $200 million reported increase; prior range derived by subtracting that increase"
+          }
+        ]
+      }
+    },
+    "CRWD": {
+      "id": "CRWD",
+      "company": "CrowdStrike",
+      "period": "Q2 FY2027",
+      "published": "2026-08-26",
+      "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial",
+      "summary": "CrowdStrike’s new recurring business accelerated, helped by adoption of Falcon Flex. Quarterly free cash flow reached $377 million.",
+      "developments": [
+        "Falcon Flex customers’ ending annual recurring revenue increased 101% to more than $2.29 billion."
+      ],
+      "watch": "Whether recurring-business additions and cash generation continue advancing together.",
+      "evidence": [
+        {
+          "locator": "Falcon Flex highlight",
+          "supports": "Ending recurring revenue and growth"
+        },
+        {
+          "locator": "CFO commentary",
+          "supports": "Net-new ARR outlook and pipeline"
+        },
+        {
+          "locator": "Second Quarter Financial Highlights",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        },
+        {
+          "locator": "Guidance comparisons",
+          "supports": "Prior and current forecasts refer to the same period and metric. Comparison sources are linked below."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 26,
+        "basis": "reported",
+        "text": "Revenue rose 26% year over year to $1.47 billion. Net new annual recurring revenue grew 51% to $333 million; ending recurring revenue grew 25% to $5.84 billion.",
+        "locator": "Second Quarter Financial Highlights"
+      },
+      "guidance": {
+        "status": "raised",
+        "text": "CrowdStrike raised FY2027 net-new recurring-revenue growth guidance by 6.3 percentage points to 34% at the midpoint, from an implied 27.7%. This describes new recurring business, not total revenue growth.",
+        "changes": [
+          {
+            "metric": "Net-new ARR growth midpoint",
+            "period": "FY2027",
+            "previous_period": "FY2027",
+            "unit": "percent",
+            "previous": [
+              27.7,
+              27.7
+            ],
+            "current": [
+              34,
+              34
+            ],
+            "direction": "raised",
+            "locator": "Opening highlights: 630 basis point increase to 34%; previous midpoint derived"
+          }
+        ]
+      }
+    },
+    "PANW": {
+      "id": "PANW",
+      "company": "Palo Alto Networks",
+      "period": "Q4 FY2026",
+      "published": "2026-09-01",
+      "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results",
+      "summary": "Demand across Palo Alto Networks’ security platforms supported revenue and contracted business. Converting those commitments into revenue remains important.",
+      "developments": [
+        "Contracted future business expanded alongside recognized revenue."
+      ],
+      "watch": "How contracted business converts into revenue across the security platforms.",
+      "evidence": [
+        {
+          "locator": "RPO highlight and CFO commentary",
+          "supports": "Contracted obligations and platform demand"
+        },
+        {
+          "locator": "Financial Outlook",
+          "supports": "FY2027 revenue guidance"
+        },
+        {
+          "locator": "Fourth Quarter Fiscal 2026 Financial Highlights",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 34,
+        "basis": "reported",
+        "text": "Revenue rose 34% year over year to $3.41 billion. Next-generation security annual recurring revenue grew 63% to $9.10 billion; remaining performance obligations grew 34% to $21.2 billion.",
+        "locator": "Fourth Quarter Fiscal 2026 Financial Highlights"
+      },
+      "guidance": {
+        "status": "new_period",
+        "text": "Palo Alto Networks introduced FY2027 revenue guidance of $14.10–$14.20 billion, implying 23–24% year-over-year growth, and adjusted EPS of $4.16–$4.19. This is a new financial-year outlook, not a raise to FY2026 guidance.",
+        "changes": []
+      }
+    },
+    "NET": {
+      "id": "NET",
+      "company": "Cloudflare",
+      "period": "Q2 FY2026",
+      "published": "2026-08-06",
+      "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+      "summary": "Cloudflare reported expanding customer adoption, but a large GAAP operating loss means growth and profitability still need to be assessed separately.",
+      "developments": [
+        "Management reported record growth in paying customers, large customers and developers.",
+        "The GAAP operating loss was $205.7 million."
+      ],
+      "watch": "Whether customer growth narrows the GAAP operating loss.",
+      "evidence": [
+        {
+          "locator": "Matthew Prince commentary",
+          "supports": "Customer and developer growth"
+        },
+        {
+          "locator": "Financial Outlook",
+          "supports": "Quarterly and annual revenue guidance"
+        },
+        {
+          "locator": "Second Quarter Fiscal 2026 Financial Highlights",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        },
+        {
+          "locator": "Guidance comparisons",
+          "supports": "Prior and current forecasts refer to the same period and metric. Comparison sources are linked below."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 36,
+        "basis": "reported",
+        "text": "Revenue rose 36% year over year to $696.1 million.",
+        "locator": "Second Quarter Fiscal 2026 Financial Highlights"
+      },
+      "guidance": {
+        "status": "raised",
+        "text": "Cloudflare raised its FY2026 revenue range from $2.805–$2.813 billion in its Q1 release to $2.864–$2.870 billion, a $58 million increase at the midpoint. Q3 revenue guidance is $736–$737 million.",
+        "changes": [
+          {
+            "metric": "Revenue",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "USD billion",
+            "previous": [
+              2.805,
+              2.813
+            ],
+            "current": [
+              2.864,
+              2.87
+            ],
+            "direction": "raised",
+            "locator": "Q1 and Q2 Financial Outlook",
+            "source_url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-First-Quarter-2026-Financial-Results/default.aspx"
+          }
+        ]
+      }
+    },
+    "UBER": {
+      "id": "UBER",
+      "company": "Uber Technologies",
+      "period": "Q2 FY2026",
+      "published": "2026-08-05",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+      "summary": "Uber’s activity grew across its platform, with more trips and more monthly customers. Changes in its business model affected how that activity translated into reported revenue.",
+      "developments": [
+        "Monthly active customers increased 16%."
+      ],
+      "watch": "How operating income develops alongside customer and trip growth.",
+      "evidence": [
+        {
+          "locator": "Financial and Operational Highlights",
+          "supports": "Customer and frequency growth"
+        },
+        {
+          "locator": "Outlook for Q3 2026",
+          "supports": "Gross-bookings range"
+        },
+        {
+          "locator": "Opening results and revenue comparability note",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 12,
+        "basis": "reported",
+        "text": "Revenue rose 12% year over year to $14.2 billion, or 11% at constant currency. Trips grew 18%; business-model changes reduced reported revenue growth by about 8 percentage points.",
+        "locator": "Opening results and revenue comparability note"
+      },
+      "guidance": {
+        "status": "new_period",
+        "text": "Uber introduced Q3 gross-bookings guidance of $58.25–$60.25 billion, implying 18–22% growth at constant currency. This is a new-quarter outlook, not a verified same-period raise.",
+        "changes": []
+      }
+    },
+    "GEV": {
+      "id": "GEV",
+      "company": "GE Vernova",
+      "period": "Q2 FY2026",
+      "published": "2026-07-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm",
+      "summary": "Demand for power generation and grid equipment expanded, with data-center orders exceeding $5 billion in the first half. Wind equipment remained a weaker area.",
+      "developments": [
+        "Backlog reached $176 billion."
+      ],
+      "watch": "How orders convert into deliveries as gas-turbine capacity expands.",
+      "evidence": [
+        {
+          "locator": "CEO commentary and orders paragraph",
+          "supports": "Equipment demand, data-center orders and gas outlook"
+        },
+        {
+          "locator": "Opening results and Total Company Results",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        },
+        {
+          "locator": "Guidance comparisons",
+          "supports": "Prior and current forecasts refer to the same period and metric. Comparison sources are linked below."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 22,
+        "basis": "reported",
+        "text": "Revenue rose 22% year over year to $11.1 billion; organic revenue grew 12%. Orders increased 88% organically to $24.2 billion.",
+        "locator": "Opening results and Total Company Results"
+      },
+      "guidance": {
+        "status": "raised",
+        "text": "GE Vernova raised 2026 revenue guidance from $44.5–$45.5 billion to $45.5–$46.5 billion, and free cash flow from $6.5–$7.5 billion to $11.5–$12.5 billion. Adjusted EBITDA margin guidance stayed at 12–14%.",
+        "changes": [
+          {
+            "metric": "Revenue",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "USD billion",
+            "previous": [
+              44.5,
+              45.5
+            ],
+            "current": [
+              45.5,
+              46.5
+            ],
+            "direction": "raised",
+            "locator": "2026 Guidance"
+          },
+          {
+            "metric": "Free cash flow",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "USD billion",
+            "previous": [
+              6.5,
+              7.5
+            ],
+            "current": [
+              11.5,
+              12.5
+            ],
+            "direction": "raised",
+            "locator": "2026 Guidance"
+          }
+        ]
+      }
+    },
+    "VST": {
+      "id": "VST",
+      "company": "Vistra",
+      "period": "Q2 FY2026",
+      "published": "2026-08-07",
+      "url": "https://investor.vistracorp.com/2026-08-07-Vistra-Reports-Second-Quarter-2026-Results",
+      "summary": "Vistra’s revenue and adjusted operating earnings moved in opposite directions. Higher energy and capacity prices, plus a full quarter from Lotus, supported adjusted earnings.",
+      "developments": [
+        "The EBITDA measure excludes items included in reported net income."
+      ],
+      "watch": "How realized pricing and the acquired plants contribute through the rest of the year.",
+      "evidence": [
+        {
+          "locator": "Same paragraph and adjusted EBITDA growth explanation",
+          "supports": "Adjusted EBITDA amount and operating drivers"
+        },
+        {
+          "locator": "Reaffirmed 2026 Guidance Ranges",
+          "supports": "Annual adjusted EBITDA guidance"
+        },
+        {
+          "locator": "Statements of Operations and adjusted EBITDA comparison",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        },
+        {
+          "locator": "Guidance comparisons",
+          "supports": "Prior and current forecasts refer to the same period and metric. Comparison sources are linked below."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": -5.5,
+        "basis": "calculated_from_reported",
+        "text": "Revenue fell approximately 5.5% year over year to $4.017 billion from $4.250 billion. Ongoing adjusted EBITDA increased approximately 31% to $1.767 billion; net income fell approximately 6.7% to $305 million.",
+        "locator": "Statements of Operations and adjusted EBITDA comparison",
+        "calculation": {
+          "current": 4017,
+          "prior": 4250,
+          "unit": "USD million"
+        }
+      },
+      "guidance": {
+        "status": "unchanged",
+        "text": "Vistra reaffirmed its 2026 ongoing adjusted EBITDA range of $6.8–$7.6 billion. This guidance was unchanged, not raised.",
+        "changes": [
+          {
+            "metric": "Ongoing adjusted EBITDA",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "USD billion",
+            "previous": [
+              6.8,
+              7.6
+            ],
+            "current": [
+              6.8,
+              7.6
+            ],
+            "direction": "unchanged",
+            "locator": "2026 guidance reaffirmation"
+          }
+        ]
+      }
+    },
+    "ETN": {
+      "id": "ETN",
+      "company": "Eaton",
+      "period": "Q2 FY2026",
+      "published": "2026-07-31",
+      "url": "https://www.eaton.com/de/en-gb/company/news-insights/news-releases/2026/eaton-reports-record-second-quarter-2026-results.html",
+      "summary": "Eaton’s electrical businesses benefited from data-center demand and broader end-market strength. Acquisitions also contributed to revenue growth.",
+      "developments": [
+        "Electrical Americas’ rolling annual average orders grew 41% organically."
+      ],
+      "watch": "Whether segment margins hold as electrical orders convert into sales.",
+      "evidence": [
+        {
+          "locator": "Rolling orders and margins highlights",
+          "supports": "Electrical order growth and segment margins"
+        },
+        {
+          "locator": "Full-year earnings guidance highlight",
+          "supports": "Adjusted earnings outlook"
+        },
+        {
+          "locator": "Opening results and cash-flow discussion",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        },
+        {
+          "locator": "Guidance comparisons",
+          "supports": "Prior and current forecasts refer to the same period and metric. Comparison sources are linked below."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 21,
+        "basis": "reported",
+        "text": "Revenue rose 21% year over year to $8.5 billion: 14% organic growth and 7% from acquisitions. Operating cash flow rose 23%.",
+        "locator": "Opening results and cash-flow discussion"
+      },
+      "guidance": {
+        "status": "mixed",
+        "text": "Eaton raised 2026 organic growth guidance from 9–11% to 11–13% and adjusted EPS from $13.05–$13.50 to $13.40–$13.60. GAAP EPS guidance fell from $10.88–$11.33 to $10.36–$10.56, so the earnings upgrade applies to adjusted EPS, not GAAP EPS.",
+        "changes": [
+          {
+            "metric": "Organic revenue growth",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "percent",
+            "previous": [
+              9,
+              11
+            ],
+            "current": [
+              11,
+              13
+            ],
+            "direction": "raised",
+            "locator": "Q1 and Q2 Guidance",
+            "source_url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-first-quarter-2026-results.html"
+          },
+          {
+            "metric": "Adjusted EPS",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "USD per share",
+            "previous": [
+              13.05,
+              13.5
+            ],
+            "current": [
+              13.4,
+              13.6
+            ],
+            "direction": "raised",
+            "locator": "Q1 and Q2 Guidance",
+            "source_url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-first-quarter-2026-results.html"
+          },
+          {
+            "metric": "GAAP EPS",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "USD per share",
+            "previous": [
+              10.88,
+              11.33
+            ],
+            "current": [
+              10.36,
+              10.56
+            ],
+            "direction": "lowered",
+            "locator": "Q1 and Q2 Guidance",
+            "source_url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-first-quarter-2026-results.html"
+          }
+        ]
+      }
+    },
+    "PWR": {
+      "id": "PWR",
+      "company": "Quanta Services",
+      "period": "Q2 FY2026",
+      "published": "2026-07-30",
+      "url": "https://investors.quantaservices.com/news-events/press-releases/detail/402/quanta-services-reports-second-quarter-2026-results",
+      "summary": "Quanta’s electrical infrastructure work supported higher revenue and earnings, while acquisitions added to the expanding business. Backlog reached $53.4 billion.",
+      "developments": [
+        "Acquisitions completed in 2026 are expected to add $1.2–$1.4 billion of annual revenue."
+      ],
+      "watch": "How backlog converts into completed work and recognized revenue.",
+      "evidence": [
+        {
+          "locator": "Supplemental Segment Data, Electric revenue",
+          "supports": "Electric revenue comparison"
+        },
+        {
+          "locator": "Opening CEO commentary",
+          "supports": "Full-year outlook change and drivers"
+        },
+        {
+          "locator": "Opening quarterly results",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        },
+        {
+          "locator": "Guidance comparisons",
+          "supports": "Prior and current forecasts refer to the same period and metric. Comparison sources are linked below."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": 41.2,
+        "basis": "calculated_from_reported",
+        "text": "Revenue rose approximately 41.2% year over year to $9.56 billion from $6.77 billion, calculated from rounded reported values. Adjusted EPS increased approximately 71% to $4.24.",
+        "locator": "Opening quarterly results",
+        "calculation": {
+          "current": 9.56,
+          "prior": 6.77,
+          "unit": "USD billion; rounded"
+        }
+      },
+      "guidance": {
+        "status": "raised",
+        "text": "Quanta raised its 2026 revenue range from $34.7–$35.2 billion in its Q1 release to $39.3–$39.7 billion, and adjusted EPS from $13.55–$14.25 to $16.45–$16.95. The outlook includes acquired businesses.",
+        "changes": [
+          {
+            "metric": "Revenue",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "USD billion",
+            "previous": [
+              34.7,
+              35.2
+            ],
+            "current": [
+              39.3,
+              39.7
+            ],
+            "direction": "raised",
+            "locator": "Q1 and Q2 Full-Year 2026 Outlook",
+            "source_url": "https://investors.quantaservices.com/news-events/press-releases/detail/396/quanta-services-reports-first-quarter-2026-results"
+          },
+          {
+            "metric": "Adjusted EPS",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "USD per share",
+            "previous": [
+              13.55,
+              14.25
+            ],
+            "current": [
+              16.45,
+              16.95
+            ],
+            "direction": "raised",
+            "locator": "Q1 and Q2 Full-Year 2026 Outlook",
+            "source_url": "https://investors.quantaservices.com/news-events/press-releases/detail/396/quanta-services-reports-first-quarter-2026-results"
+          }
+        ]
+      }
+    },
+    "FCX": {
+      "id": "FCX",
+      "company": "Freeport-McMoRan",
+      "period": "Q2 FY2026",
+      "published": "2026-07-23",
+      "url": "https://s22.q4cdn.com/529358580/files/doc_news/2026/FCX_260723_2Q_2026_Earnings_Release.pdf",
+      "source_page": "https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Reports-Second-Quarter-and-Six-Month-2026-Results/default.aspx",
+      "summary": "Freeport’s phased Grasberg restart kept copper and gold shipments below last year. Higher metal prices helped earnings despite lower revenue.",
+      "developments": [
+        "The pace of the Indonesia restart remains central to shipment recovery."
+      ],
+      "watch": "Whether Grasberg's ramp-up continues on management's stated schedule.",
+      "evidence": [
+        {
+          "locator": "PDF page 3, Consolidated Sales Volumes: Copper",
+          "supports": "Indonesia comparison and phased restart"
+        },
+        {
+          "locator": "PDF page 1, outlook",
+          "supports": "Annual and Q3 sales guidance"
+        },
+        {
+          "locator": "Page 2 Summary Financial Data and page 3 Summary Operating Data",
+          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+        },
+        {
+          "locator": "Guidance comparisons",
+          "supports": "Prior and current forecasts refer to the same period and metric. Comparison sources are linked below."
+        }
+      ],
+      "growth": {
+        "revenue_yoy_pct": -7.3,
+        "basis": "calculated_from_reported",
+        "text": "Revenue fell approximately 7.3% year over year to $7.029 billion from $7.582 billion. Copper sales fell approximately 30.1% to 710 million pounds, while net income rose approximately 27.5%.",
+        "locator": "Page 2 Summary Financial Data and page 3 Summary Operating Data",
+        "calculation": {
+          "current": 7029,
+          "prior": 7582,
+          "unit": "USD million"
+        }
+      },
+      "guidance": {
+        "status": "mixed",
+        "text": "Freeport kept its 2026 copper-sales forecast at 3.1 billion pounds and gold at 650,000 ounces, while raising molybdenum from 90 to 93 million pounds. Expected operating cash flow fell from $8.7 billion to $8.3 billion, with revised metal-price and working-capital assumptions.",
+        "changes": [
+          {
+            "metric": "Copper sales",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "billion pounds",
+            "previous": [
+              3.1,
+              3.1
+            ],
+            "current": [
+              3.1,
+              3.1
+            ],
+            "direction": "unchanged",
+            "locator": "Q1 and Q2 opening outlook",
+            "source_url": "https://s22.q4cdn.com/529358580/files/doc_news/2026/FCX_260423.pdf"
+          },
+          {
+            "metric": "Molybdenum sales",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "million pounds",
+            "previous": [
+              90,
+              90
+            ],
+            "current": [
+              93,
+              93
+            ],
+            "direction": "raised",
+            "locator": "Q1 and Q2 opening outlook",
+            "source_url": "https://s22.q4cdn.com/529358580/files/doc_news/2026/FCX_260423.pdf"
+          },
+          {
+            "metric": "Operating cash flow",
+            "period": "FY2026",
+            "previous_period": "FY2026",
+            "unit": "USD billion",
+            "previous": [
+              8.7,
+              8.7
+            ],
+            "current": [
+              8.3,
+              8.3
+            ],
+            "direction": "lowered",
+            "locator": "Q1 and Q2 opening cash-flow outlook; assumptions changed",
+            "source_url": "https://s22.q4cdn.com/529358580/files/doc_news/2026/FCX_260423.pdf"
+          }
+        ]
+      }
+    }
+  },
+  "update_id": "b2370f9d3563b9800ac7"
+}

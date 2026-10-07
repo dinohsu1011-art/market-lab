@@ -1,0 +1,14 @@
+#basket-volume-panel{margin:24px 0;font-size:14px}
+#basket-volume-panel header{display:flex;align-items:baseline;justify-content:space-between;gap:16px}
+#basket-volume-panel h2{font-size:18px;margin:0 0 8px}
+#basket-volume-panel header>span,#basket-volume-panel p{color:var(--muted,#93a5b1)}
+#basket-volume-panel p{line-height:1.5;max-width:90ch}
+#basket-volume-panel table{width:100%;border-collapse:collapse;font-size:14px}
+#basket-volume-panel th,#basket-volume-panel td{text-align:left;padding:8px 8px;border-bottom:1px solid var(--line,#30424c)}
+#basket-volume-panel th:nth-child(n+2),#basket-volume-panel td:nth-child(n+2){text-align:right}
+#basket-volume-panel td.bv-drivers{text-align:right;color:var(--muted,#93a5b1);font-size:13px}
+.bv-bar{display:inline-block;width:72px;height:8px;background:color-mix(in srgb,currentColor 18%,transparent);border-radius:4px;overflow:hidden;vertical-align:baseline}
+.bv-bar i{display:block;height:100%;background:currentColor}
+#basket-volume-panel details{margin-top:10px}
+#basket-volume-panel summary{cursor:pointer}
+.bv-note{font-size:12px}

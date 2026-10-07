@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QQQ vs 10-yr yield — Equinox</title>
+  <style>
+    /* Two series, two page-local hues so each keeps its identity across themes.
+       Panes are stacked on one shared date axis rather than overlaid on two
+       y-axes: dual scales let any two lines be made to look related. */
+    [data-page="rates"] { --qqq:#2a78d6; --tnx:#e0692f; }
+    :root[data-theme="dark"][data-page="rates"] { --qqq:#5ea4f0; --tnx:#f08a55; }
+    .rt-wrap { max-width:1180px; margin:0 auto; padding:34px 28px 120px; }
+    .rt-head { display:grid; grid-template-columns:minmax(0,7fr) minmax(0,5fr); gap:40px; align-items:end; margin-bottom:30px; }
+    .rt-head h1 { font:600 40px/1.05 var(--sans); letter-spacing:-1.2px; margin:0 0 12px; color:var(--ml-ink); }
+    .rt-head p { margin:0; color:var(--ml-muted); font-size:15px; max-width:620px; }
+    .rt-head p strong { color:var(--ml-ink); font-weight:600; }
+    .rt-now { border-left:1px solid var(--ml-border); padding-left:24px; }
+    .rt-now .lab { color:var(--ml-faint); font-size:13px; }
+    .rt-now .big { font:600 56px/1 var(--sans); letter-spacing:-2px; margin:4px 0 6px; }
+    .rt-now .sub { color:var(--ml-muted); font-size:13px; }
+    .rt-range { display:flex; gap:4px; margin:0 0 18px; flex-wrap:wrap; }
+    .rt-range button { font:500 13px var(--sans); padding:7px 14px; border:1px solid var(--ml-border); background:transparent;
+      color:var(--ml-muted); border-radius:4px; cursor:pointer; transition:background .15s, color .15s; }
+    .rt-range button[aria-pressed="true"] { background:var(--ml-ink); color:var(--ml-bg); border-color:var(--ml-ink); }
+    .rt-figs { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); border-top:1px solid var(--ml-border); border-bottom:1px solid var(--ml-border); margin-bottom:26px; }
+    .rt-figs > div { padding:16px 16px 14px 0; }
+    .rt-figs > div + div { padding-left:16px; border-left:1px solid var(--ml-border); }
+    .rt-figs .v { font:600 28px/1.1 var(--sans); letter-spacing:-.6px; }
+    .rt-figs .k { color:var(--ml-faint); font-size:12.5px; margin-top:4px; }
+    .rt-chart { position:relative; }
+    .rt-chart svg { display:block; width:100%; overflow:visible; }
+    .rt-chart .grid line { stroke:var(--ml-border); }
+    .rt-chart text { fill:var(--ml-faint); font-size:11.5px; }
+    .rt-chart .pane-lab { fill:var(--ml-muted); font-size:12.5px; font-weight:600; }
+    .rt-tip { position:absolute; pointer-events:none; background:var(--ml-surface); border:1px solid var(--ml-border);
+      padding:8px 11px; font-size:12.5px; border-radius:4px; white-space:nowrap; opacity:0; transition:opacity .15s; z-index:5; }
+    .rt-tip .row { display:flex; justify-content:space-between; gap:18px; }
+    .rt-sec { margin-top:64px; }
+    .rt-sec h2 { font:600 24px/1.2 var(--sans); letter-spacing:-.5px; margin:0 0 6px; }
+    .rt-sec > p { color:var(--ml-muted); margin:0 0 18px; max-width:760px; font-size:14px; }
+    .rt-table { width:100%; border-collapse:collapse; font-size:13.5px; }
+    .rt-table th { text-align:right; color:var(--ml-faint); font-weight:500; font-size:12px; padding:8px 10px; border-bottom:1px solid var(--ml-border); }
+    .rt-table td { text-align:right; padding:9px 10px; border-bottom:1px solid var(--ml-border); white-space:nowrap; }
+    .rt-table th.l, .rt-table td.l { text-align:left; }
+    .rt-table .bar { display:inline-block; height:9px; vertical-align:middle; border-radius:1px; }
+    .rt-scroll { overflow-x:auto; }
+    .up { color:var(--ml-up); } .dn { color:var(--ml-down); } .mut { color:var(--ml-faint); }
+    .rt-note { margin-top:48px; padding-top:18px; border-top:1px solid var(--ml-border); color:var(--ml-muted); font-size:13px; max-width:760px; }
+    .rt-note p { margin:0 0 8px; }
+    @media (max-width:900px) {
+      .rt-wrap { padding:24px 16px 80px; }
+      .rt-head { grid-template-columns:1fr; gap:20px; }
+      .rt-head h1 { font-size:32px; }
+      .rt-now { border-left:0; padding-left:0; border-top:1px solid var(--ml-border); padding-top:16px; }
+      .rt-figs { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      .rt-figs > div:nth-child(odd) { padding-left:0; border-left:0; }
+      .rt-figs > div { border-bottom:1px solid var(--ml-border); }
+    }
+  </style>
+<link rel="stylesheet" href="market-lab-shell.css"><script src="market-lab-shell.js?v=20261006-2ddf6f7c"></script></head>
+<body>
+  <main class="rt-wrap">
+    <header class="rt-head">
+      <div>
+        <h1>QQQ vs the 10-year yield</h1>
+        <p>Weekly Friday closes. The bottom pane asks one question: <strong>over the past year, when yields rose, did QQQ rise with them or fall?</strong>
+          Above zero, the two moved together. Below zero, higher yields were hurting tech.</p>
+      </div>
+      <div class="rt-now" id="now"></div>
+    </header>
+
+    <div class="rt-range" role="group" aria-label="Range">
+      <button type="button" data-y="1" aria-pressed="false">1 year</button>
+      <button type="button" data-y="3" aria-pressed="false">3 years</button>
+      <button type="button" data-y="5" aria-pressed="true">5 years</button>
+      <button type="button" data-y="10" aria-pressed="false">10 years</button>
+      <button type="button" data-y="99" aria-pressed="false">Full history</button>
+    </div>
+
+    <div class="rt-figs" id="figs"></div>
+    <div class="rt-chart" id="chart"><div class="rt-tip" id="tip"></div></div>
+
+    <section class="rt-sec">
+      <h2>Year by year</h2>
+      <p>How QQQ did, how far the 10-year moved, and how tightly the two were linked on average that year.</p>
+      <div class="rt-scroll"><table class="rt-table" id="years"></table></div>
+    </section>
+
+    <aside class="rt-note">
+      <p><strong>How the link is measured.</strong> Each week takes QQQ's % change and the yield's change in points. The line is the correlation of those two over the trailing 52 weeks. It runs from −1 (always opposite) to +1 (always together).</p>
+      <p>Correlation shows direction, not size. A −0.2 reading means a loose tendency, not a rule. The 10-year is Yahoo's ^TNX, quoted in percent.</p>
+    </aside>
+  </main>
+
+  <script src="cube/rates.js?v=20261006-2ddf6f7c"></script>
+  <script>
+  (() => {
+    'use strict';
+    const R = window.QUANT_RATES;
+    if (!R) { document.querySelector('.rt-wrap').insertAdjacentHTML('beforeend','<p>Data not built yet.</p>'); return; }
+    const N = R.q.length, t0 = new Date(R.start + 'T12:00:00');
+    const D = Array.from({length:N}, (_, i) => new Date(t0.getTime() + i * 7 * 864e5));
+    const fmt = d => d.toLocaleDateString(undefined, {month:'short', day:'numeric', year:'numeric'});
+    const pct = (x, d = 1) => (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(d) + '%';
+    const pts = x => (x >= 0 ? '+' : '−') + Math.abs(x).toFixed(2) + ' pts';
+    const sg = (x, d = 2) => (x >= 0 ? '+' : '−') + Math.abs(x).toFixed(d);
+    const cls = x => x > 0 ? 'up' : x < 0 ? 'dn' : 'mut';
+    const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim() || getComputedStyle(document.body).getPropertyValue(n).trim();
+    const KEY = 'market-lab.rates.range';
+    let years = 5;
+    try { const v = +localStorage.getItem(KEY); if (v) years = v; } catch (e) {}
+
+    function startIndex(y) {
+      if (y >= 99) return 0;
+      const cut = new Date(D[N - 1]); cut.setFullYear(cut.getFullYear() - y);
+      return Math.max(0, D.findIndex(d => d >= cut));
+    }
+
+    function nowBox() {
+      const i = N - 1, t = R.t[i];
+      let hi = 0; for (let k = 0; k < N; k++) if (R.t[k] > R.t[hi]) hi = k;
+      const atHigh = hi === i;
+      document.getElementById('now').innerHTML =
+        `<div class="lab">10-year yield, ${fmt(new Date(R.as_of + 'T12:00:00'))}</div>
+         <div class="big" style="color:var(--tnx)">${t.toFixed(2)}%</div>
+         <div class="sub">${atHigh ? 'Highest weekly close in this data, back to 1999.' : `High in this data: ${R.t[hi].toFixed(2)}% (${fmt(D[hi])}).`}
+           QQQ $${R.q[i].toFixed(2)}. One-year link ${R.c[i] == null ? 'n/a' : sg(R.c[i])}.</div>`;
+    }
+
+    function figs(lo) {
+      const i = N - 1, dq = R.q[i] / R.q[lo] - 1, dt = R.t[i] - R.t[lo];
+      const cs = R.c.slice(lo).filter(v => v != null);
+      const avg = cs.reduce((a, b) => a + b, 0) / (cs.length || 1);
+      const neg = cs.filter(v => v < 0).length / (cs.length || 1);
+      const f = [
+        [pct(dq, 0), 'QQQ over the range', cls(dq)],
+        [pts(dt), '10-year over the range', ''],
+        [R.c[i] == null ? 'n/a' : sg(R.c[i]), 'One-year link now', cls(R.c[i])],
+        [sg(avg), 'Average link over the range', cls(avg)],
+        [Math.round(neg * 100) + '%', 'Weeks where higher yields hurt QQQ', ''],
+      ];
+      document.getElementById('figs').innerHTML = f.map(([v, k, c]) => `<div><div class="v ${c}">${v}</div><div class="k">${k}</div></div>`).join('');
+    }
+
+    function draw(lo) {
+      const host = document.getElementById('chart'), tip = document.getElementById('tip');
+      host.querySelector('svg')?.remove();
+      const W = host.clientWidth || 900, L = 54, Rm = 14, gap = 30;
+      const H1 = 250, H2 = 150, H3 = 120, top = 22;
+      const y1 = top, y2 = y1 + H1 + gap, y3 = y2 + H2 + gap, H = y3 + H3 + 26;
+      const n = N - lo, x = i => L + (i - lo) / Math.max(1, n - 1) * (W - L - Rm);
+      const q = R.q.slice(lo), t = R.t.slice(lo), c = R.c.slice(lo);
+      const lq = q.map(Math.log), qmin = Math.min(...lq), qmax = Math.max(...lq);
+      const tmin = Math.floor(Math.min(...t) * 2) / 2, tmax = Math.ceil(Math.max(...t) * 2) / 2;
+      const Y1 = v => y1 + H1 - (Math.log(v) - qmin) / (qmax - qmin || 1) * H1;
+      const Y2 = v => y2 + H2 - (v - tmin) / (tmax - tmin || 1) * H2;
+      const Y3 = v => y3 + H3 / 2 - v / 0.8 * (H3 / 2);
+      const qc = css('--qqq'), tc = css('--tnx'), up = css('--ml-up'), dn = css('--ml-down'), ink = css('--ml-ink'), fa = css('--ml-faint');
+      let s = `<svg viewBox="0 0 ${W} ${H}" height="${H}" role="img" aria-label="QQQ price, 10-year yield and their one-year correlation, weekly">`;
+      // grids
+      s += '<g class="grid">';
+      // densest 1-2-5 style ladder that still leaves at most ~6 gridlines
+      const ladders = [[1, 2, 5], [1, 2, 3, 5, 7], [1, 1.5, 2, 3, 4, 5, 6, 8], [1, 1.2, 1.4, 1.6, 1.8, 2, 2.5, 3, 3.5, 4, 4.5, 5, 6, 7, 8, 9]];
+      let qt = [];
+      for (const m of ladders) {
+        const c = m.flatMap(k => [1, 10, 100, 1000].map(p => +(k * p).toPrecision(3))).filter(v => Math.log(v) >= qmin && Math.log(v) <= qmax).sort((a, b) => a - b);
+        if (c.length > 6) break;
+        qt = c; if (c.length >= 4) break;
+      }
+      for (const v of qt) s += `<line x1="${L}" x2="${W - Rm}" y1="${Y1(v)}" y2="${Y1(v)}"/><text x="${L - 8}" y="${Y1(v) + 4}" text-anchor="end">$${v}</text>`;
+      const step = (tmax - tmin) > 3 ? 1 : 0.5;
+      for (let v = tmin; v <= tmax + 1e-9; v += step) s += `<line x1="${L}" x2="${W - Rm}" y1="${Y2(v)}" y2="${Y2(v)}"/><text x="${L - 8}" y="${Y2(v) + 4}" text-anchor="end">${v.toFixed(step < 1 ? 1 : 0)}%</text>`;
+      for (const v of [-0.8, -0.4, 0, 0.4, 0.8]) s += `<line x1="${L}" x2="${W - Rm}" y1="${Y3(v)}" y2="${Y3(v)}"${v === 0 ? ` style="stroke:${fa}"` : ''}/><text x="${L - 8}" y="${Y3(v) + 4}" text-anchor="end">${v.toFixed(1)}</text>`;
+      // year ticks
+      const span = (D[N - 1] - D[lo]) / 3.15e10;
+      const every = span > 15 ? 4 : span > 7 ? 2 : 1;
+      let lastY = null;
+      for (let i = lo; i < N; i++) {
+        const yr = D[i].getFullYear();
+        if (span <= 2) {
+          const m = D[i].getMonth();
+          if (i > lo && D[i - 1].getMonth() !== m && m % 3 === 0) s += `<line x1="${x(i)}" x2="${x(i)}" y1="${y1}" y2="${y3 + H3}" style="opacity:.5"/><text x="${x(i)}" y="${H - 6}" text-anchor="middle">${D[i].toLocaleDateString(undefined, {month:'short', year:'2-digit'})}</text>`;
+        } else if (lastY !== null && yr !== lastY && yr % every === 0) {
+          s += `<line x1="${x(i)}" x2="${x(i)}" y1="${y1}" y2="${y3 + H3}" style="opacity:.5"/><text x="${x(i)}" y="${H - 6}" text-anchor="middle">${yr}</text>`;
+        }
+        lastY = yr;
+      }
+      s += '</g>';
+      s += `<text class="pane-lab" x="${L}" y="${y1 - 8}" style="fill:${qc}">QQQ · log scale</text>`;
+      s += `<text class="pane-lab" x="${L}" y="${y2 - 8}" style="fill:${tc}">10-year Treasury yield</text>`;
+      s += `<text class="pane-lab" x="${L}" y="${y3 - 8}">One-year link: up = move together, down = higher yields hurt QQQ</text>`;
+      // lines
+      const path = (arr, Y) => arr.map((v, k) => `${k ? 'L' : 'M'}${x(lo + k).toFixed(1)},${Y(v).toFixed(1)}`).join('');
+      s += `<path d="${path(q, Y1)}" fill="none" stroke="${qc}" stroke-width="2"/>`;
+      s += `<path d="${path(t, Y2)}" fill="none" stroke="${tc}" stroke-width="2"/>`;
+      // correlation as filled area split at zero
+      const bw = Math.max(1, (W - L - Rm) / n);
+      for (let k = 0; k < n; k++) {
+        const v = c[k]; if (v == null) continue;
+        const yy = Y3(v), y0 = Y3(0);
+        s += `<rect x="${(x(lo + k) - bw / 2).toFixed(1)}" y="${Math.min(yy, y0).toFixed(1)}" width="${(bw + .4).toFixed(1)}" height="${Math.abs(yy - y0).toFixed(1)}" fill="${v >= 0 ? up : dn}" opacity=".75"/>`;
+      }
+      s += `<line id="xh" x1="0" x2="0" y1="${y1}" y2="${y3 + H3}" stroke="${ink}" stroke-opacity=".45" style="display:none"/>`;
+      s += `<g id="dots" style="display:none"><circle r="4" fill="${qc}"/><circle r="4" fill="${tc}"/></g>`;
+      s += `<rect id="hit" x="${L}" y="${y1}" width="${W - L - Rm}" height="${y3 + H3 - y1}" fill="transparent"/>`;
+      s += '</svg>';
+      host.insertAdjacentHTML('beforeend', s);
+      const svg = host.querySelector('svg'), xh = svg.querySelector('#xh'), dots = svg.querySelector('#dots');
+      const move = ev => {
+        const r = svg.getBoundingClientRect(), px = (ev.clientX - r.left) * W / r.width;
+        const i = Math.min(N - 1, Math.max(lo, Math.round(lo + (px - L) / (W - L - Rm) * (n - 1))));
+        const X = x(i);
+        xh.setAttribute('x1', X); xh.setAttribute('x2', X); xh.style.display = '';
+        const [a, b] = dots.children;
+        a.setAttribute('cx', X); a.setAttribute('cy', Y1(R.q[i])); b.setAttribute('cx', X); b.setAttribute('cy', Y2(R.t[i])); dots.style.display = '';
+        tip.innerHTML = `<b>${fmt(D[i])}</b>
+          <div class="row"><span style="color:var(--qqq)">QQQ</span><span>$${R.q[i].toFixed(2)}</span></div>
+          <div class="row"><span style="color:var(--tnx)">10-year</span><span>${R.t[i].toFixed(2)}%</span></div>
+          <div class="row"><span>One-year link</span><span class="${cls(R.c[i])}">${R.c[i] == null ? 'n/a' : sg(R.c[i])}</span></div>`;
+        const sx = X * r.width / W;
+        tip.style.left = (sx > r.width * 0.7 ? sx - tip.offsetWidth - 14 : sx + 14) + 'px';
+        tip.style.top = (y1 + 8) + 'px'; tip.style.opacity = 1;
+      };
+      svg.addEventListener('pointermove', move);
+      svg.addEventListener('pointerleave', () => { xh.style.display = 'none'; dots.style.display = 'none'; tip.style.opacity = 0; });
+    }
+
+    function yearTable() {
+      const by = new Map();
+      for (let i = 0; i < N; i++) { const y = D[i].getFullYear(); if (!by.has(y)) by.set(y, []); by.get(y).push(i); }
+      const rows = [];
+      let prevLast = null;
+      for (const [y, idx] of by) {
+        const first = prevLast ?? idx[0], last = idx[idx.length - 1];
+        prevLast = last;
+        const cs = idx.map(i => R.c[i]).filter(v => v != null);
+        const avg = cs.length ? cs.reduce((a, b) => a + b, 0) / cs.length : null;
+        rows.push({y, dq: R.q[last] / R.q[first] - 1, dt: R.t[last] - R.t[first], end: R.t[last], avg, part: idx.length < 50});
+      }
+      rows.reverse();
+      const up = css('--ml-up'), dn = css('--ml-down');
+      document.getElementById('years').innerHTML =
+        `<thead><tr><th class="l">Year</th><th>QQQ</th><th>10-year change</th><th>10-year at year end</th><th>Average link</th><th class="l"></th></tr></thead><tbody>` +
+        rows.map(r => `<tr><td class="l">${r.y}${r.part ? ' <span class="mut">so far</span>' : ''}</td>
+          <td class="${cls(r.dq)}">${pct(r.dq)}</td><td>${pts(r.dt)}</td><td>${r.end.toFixed(2)}%</td>
+          <td class="${r.avg == null ? 'mut' : cls(r.avg)}">${r.avg == null ? 'n/a' : sg(r.avg)}</td>
+          <td class="l" style="width:180px">${r.avg == null ? '' : `<span class="bar" style="width:${Math.abs(r.avg) * 120}px;background:${r.avg >= 0 ? up : dn};margin-left:${r.avg >= 0 ? 60 : 60 - Math.abs(r.avg) * 120}px"></span>`}</td></tr>`).join('') + '</tbody>';
+    }
+
+    function render() {
+      const lo = startIndex(years);
+      document.querySelectorAll('.rt-range button').forEach(b => b.setAttribute('aria-pressed', String(+b.dataset.y === years)));
+      figs(lo); draw(lo);
+    }
+    document.querySelectorAll('.rt-range button').forEach(b => b.addEventListener('click', () => {
+      years = +b.dataset.y; try { localStorage.setItem(KEY, String(years)); } catch (e) {} render();
+    }));
+    nowBox(); yearTable(); render();
+    let rz; addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(render, 120); });
+    addEventListener('ml:themechange', () => { render(); yearTable(); });
+  })();
+  </script>
+</body>
+</html>
