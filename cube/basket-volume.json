@@ -336,6 +336,30 @@
       ]
     },
     {
+      "id": "gas",
+      "label": "Gas Power",
+      "group": "Power, infrastructure & resources",
+      "kind": "basket",
+      "members": 15,
+      "coverage": 0.8,
+      "accel5d": 1.04,
+      "spike1d": 1.11,
+      "drivers": [
+        {
+          "symbol": "BE",
+          "share": 0.35
+        },
+        {
+          "symbol": "GEV",
+          "share": 0.23
+        },
+        {
+          "symbol": "CAT",
+          "share": 0.19
+        }
+      ]
+    },
+    {
       "id": "powersemi",
       "label": "Power Semis",
       "group": "Technology & AI",
@@ -356,30 +380,6 @@
         {
           "symbol": "STM",
           "share": 0.16
-        }
-      ]
-    },
-    {
-      "id": "gas",
-      "label": "Gas Power",
-      "group": "Power, infrastructure & resources",
-      "kind": "basket",
-      "members": 15,
-      "coverage": 0.8,
-      "accel5d": 1.03,
-      "spike1d": 1.11,
-      "drivers": [
-        {
-          "symbol": "BE",
-          "share": 0.35
-        },
-        {
-          "symbol": "GEV",
-          "share": 0.23
-        },
-        {
-          "symbol": "CAT",
-          "share": 0.19
         }
       ]
     },
