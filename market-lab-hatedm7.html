@@ -120,7 +120,6 @@
       <span><i style="border-color:var(--comp)"></i>Top-ranked Mag 7 (comp)</span>
       <span><i style="border-color:var(--ml-accent)"></i>Mag 7, equal weight</span>
       <span><i style="border-color:var(--ml-faint);border-top-style:dashed"></i>S&amp;P 500 · SPY</span>
-      <span class="mut">Log scale, rebased to 100 at the start of the range. The band underneath is what it held.</span>
     </div>
     <div class="hm-chart" id="chart"><div class="hm-tip" id="tip"></div></div>
     <div class="hm-strip-key" id="stripkey"></div>
@@ -263,18 +262,24 @@
       const box = document.getElementById('chart');
       box.querySelector('svg')?.remove();
       const W = box.clientWidth || 900, H = Math.max(300, Math.min(440, W * .42));
-      const m = {l:48, r:14, t:10, b:46}, sh = 14;
+      const m = {l:58, r:14, t:10, b:46}, sh = 14;
       const iw = W - m.l - m.r, ih = H - m.t - m.b - sh - 10;
       const all = [...L.hated, ...L.top, ...L.mag7, ...L.spy];
       let lo = Math.log10(Math.min(...all)), hi = Math.log10(Math.max(...all));
       const pad = (hi - lo) * .05; lo -= pad; hi += pad;
       const x = i => m.l + i / (dates.length - 1) * iw;
       const y = v => m.t + (1 - (Math.log10(v) - lo) / (hi - lo)) * ih;
-      // log ticks: 1-2-5 sequence across the visible decades
-      const ticks = [];
-      for (let e = Math.floor(lo); e <= Math.ceil(hi); e++) for (const f of [1, 2, 5]) {
-        const v = f * 10 ** e; if (Math.log10(v) >= lo && Math.log10(v) <= hi) ticks.push(v);
+      // levels are growth of 100, labelled as % gain since the window opened.
+      // Wide windows step 1-2-5 per decade; narrow ones use even % steps from 0.
+      const ticks = [], inR = v => v > 0 && Math.log10(v) >= lo && Math.log10(v) <= hi;
+      if (hi - lo > 1) {
+        for (let e = Math.floor(lo); e <= Math.ceil(hi); e++) for (const f of [1, 2, 5]) if (inR(f * 10 ** e)) ticks.push(f * 10 ** e);
+      } else {
+        const raw = (10 ** hi - 10 ** lo) / 5, mag = 10 ** Math.floor(Math.log10(raw));
+        const st = [1, 2, 2.5, 5, 10].map(f => f * mag).find(v => v >= raw);
+        for (let v = 100 + Math.ceil((10 ** lo - 100) / st) * st; v <= 10 ** hi; v += st) if (inR(v)) ticks.push(v);
       }
+      const gl = v => { const g = v - 100; return Math.abs(g) < 1e-9 ? '0%' : (g > 0 ? '+' : '−') + Math.abs(g).toLocaleString(undefined, {maximumFractionDigits:0}) + '%'; };
       const path = s => s.map((v, i) => (i ? 'L' : 'M') + x(i).toFixed(1) + ',' + y(v).toFixed(1)).join('');
       const years = [];
       dates.forEach((d, i) => { if (i && d.slice(0, 4) !== dates[i - 1].slice(0, 4)) years.push([i, d.slice(0, 4)]); });
@@ -285,8 +290,8 @@
         const a = idx.get(d.signal), b = idx.get(d.exit_date) ?? dates.length - 1;
         return `<rect x="${x(a).toFixed(1)}" y="${sy}" width="${Math.max(.5, x(b) - x(a)).toFixed(1)}" height="${sh}" fill="${TK[d.pick]}"><title>${d.pick} · ${fmtM(d.signal)}</title></rect>`;
       }).join('');
-      const svg = `<svg viewBox="0 0 ${W} ${H}" height="${H}" role="img" aria-label="Growth of 100: most-hated Mag 7 against Mag 7 and SPY">
-        <g class="grid">${ticks.map(v => `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}"/><text x="${m.l - 8}" y="${y(v) + 4}" text-anchor="end">${v >= 1000 ? (v / 1000) + 'k' : v}</text>`).join('')}</g>
+      const svg = `<svg viewBox="0 0 ${W} ${H}" height="${H}" role="img" aria-label="% gain since the start: most-hated Mag 7 against Mag 7 and SPY">
+        <g class="grid">${ticks.map(v => `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}"/><text x="${m.l - 8}" y="${y(v) + 4}" text-anchor="end">${gl(v)}</text>`).join('')}</g>
         <path d="${path(L.spy)}" fill="none" stroke="var(--ml-faint)" stroke-width="1.5" stroke-dasharray="4 3"/>
         <path d="${path(L.mag7)}" fill="none" stroke="var(--ml-accent)" stroke-width="1.75"/>
         <path d="${path(L.top)}" fill="none" stroke="var(--comp)" stroke-width="1.75"/>
@@ -322,10 +327,10 @@
         const r = box.querySelector('svg').getBoundingClientRect();
         hx.setAttribute('x1', x(i)); hx.setAttribute('x2', x(i)); hx.setAttribute('opacity', .5);
         tip.innerHTML = `<b>${fmtD(dates[i])}</b> · holding ${chip(held(i))}
-          <div class="row"><span>Most-hated</span><b>${L.hated[i].toFixed(0)}</b></div>
-          <div class="row"><span>Top-ranked</span><span>${L.top[i].toFixed(0)}</span></div>
-          <div class="row"><span>Mag 7</span><span>${L.mag7[i].toFixed(0)}</span></div>
-          <div class="row"><span>SPY</span><span>${L.spy[i].toFixed(0)}</span></div>`;
+          <div class="row"><span>Most-hated</span><b>${pct(L.hated[i] / 100 - 1)}</b></div>
+          <div class="row"><span>Top-ranked</span><span>${pct(L.top[i] / 100 - 1)}</span></div>
+          <div class="row"><span>Mag 7</span><span>${pct(L.mag7[i] / 100 - 1)}</span></div>
+          <div class="row"><span>SPY</span><span>${pct(L.spy[i] / 100 - 1)}</span></div>`;
         const left = x(i) / W * r.width;
         tip.style.left = (left > r.width * .6 ? left - tip.offsetWidth - 12 : left + 12) + 'px';
         tip.style.top = '8px'; tip.style.opacity = 1;
