@@ -25,6 +25,12 @@
     .hm-range { display:flex; gap:4px; margin:0 0 18px; }
     .hm-range button { font:500 13px var(--sans); padding:7px 14px; border:1px solid var(--ml-border); background:transparent;
       color:var(--ml-muted); border-radius:4px; cursor:pointer; transition:background .15s, color .15s; }
+    .hm-range { align-items:center; flex-wrap:wrap; }
+    .hm-range .hint { color:var(--ml-faint); font-size:12.5px; margin-left:10px; }
+    .hm-range button[data-range="custom"][hidden] { display:none; }
+    .hm-chart #hit { cursor:crosshair; touch-action:pan-y; }
+    .hm-chart .sel { fill:var(--ml-ink); opacity:.08; }
+    .hm-chart .seledge { stroke:var(--ml-ink); stroke-width:1; opacity:.45; }
     .hm-range button[aria-pressed="true"] { background:var(--ml-ink); color:var(--ml-bg); border-color:var(--ml-ink); }
     .hm-figs { display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); border-top:1px solid var(--ml-border); border-bottom:1px solid var(--ml-border); margin-bottom:26px; }
     .hm-figs > div { padding:16px 16px 14px 0; }
@@ -103,6 +109,8 @@
       <button type="button" data-range="coined" aria-pressed="true">Since May 2023</button>
       <button type="button" data-range="5y" aria-pressed="false">5 years</button>
       <button type="button" data-range="all" aria-pressed="false">Full history</button>
+      <button type="button" data-range="custom" aria-pressed="false" hidden></button>
+      <span class="hint">Or drag across the chart to pick your own window.</span>
     </div>
 
     <div class="hm-figs" id="figs"></div>
@@ -184,6 +192,8 @@
 
     function startIndex(range) {
       if (range === 'all') return 0;
+      // a dragged window opens on the decision in force on its first day
+      if (typeof range === 'object') { const k = D.decisions.findLastIndex(d => d.signal <= range.a); return k < 0 ? 0 : k; }
       const cut = range === 'coined' ? D.coined : (() => {
         const d = new Date(D.as_of + 'T12:00:00'); d.setFullYear(d.getFullYear() - 5); return d.toISOString().slice(0, 10);
       })();
@@ -194,13 +204,17 @@
 
     function render(range) {
       const k0 = startIndex(range);
-      const decs = D.decisions.slice(k0);
+      const i0 = D.dates.indexOf(D.decisions[k0].signal);
+      // a dragged window ends on its last trading day; full ranges run to today
+      let i1 = D.dates.length - 1;
+      if (typeof range === 'object') { while (i1 > i0 + 1 && D.dates[i1] > range.b) i1--; }
+      const k1 = D.decisions.findIndex(d => d.signal >= D.dates[i1]);
+      const decs = D.decisions.slice(k0, k1 < 0 || typeof range !== 'object' ? undefined : Math.max(k0 + 1, k1));
       const pos = positions(decs);
-      const i0 = D.dates.indexOf(decs[0].signal);
-      const dates = D.dates.slice(i0);
+      const dates = D.dates.slice(i0, i1 + 1);
       const L = {};
       for (const key of ['hated', 'top', 'mag7', 'spy']) {
-        const s = D.levels[key].slice(i0), b = s[0];
+        const s = D.levels[key].slice(i0, i1 + 1), b = s[0];
         L[key] = s.map(v => v / b * 100);
       }
       const tot = key => L[key][L[key].length - 1] / 100 - 1;
@@ -219,7 +233,7 @@
         [pct(mdd, 0), 'worst drawdown', ''],
       ].map(([v, k, c]) => `<div><div class="v ${c}">${v}</div><div class="k">${k}</div></div>`).join('');
 
-      const tops = TOP.slice(k0), tpos = positions(tops);
+      const tops = TOP.slice(k0, k0 + decs.length), tpos = positions(tops);
       const same = decs.filter((d, i) => d.pick === tops[i].pick).length;
       const hw = decs.filter((d, i) => d.ret > tops[i].ret).length;
       const tclosed = tpos.filter(p => !p.open);
@@ -280,15 +294,32 @@
         <g>${strip}</g>
         <g class="axis">${years.filter((_, j) => j % step === 0).map(([i, yr]) => `<text x="${x(i)}" y="${H - 8}" text-anchor="middle">${yr}</text>`).join('')}</g>
         <line id="hx" y1="${m.t}" y2="${sy + sh}" stroke="var(--ml-muted)" stroke-width="1" opacity="0"/>
+        <rect class="sel" id="sel" y="${m.t}" height="${ih + sh + 8}" width="0" x="0"/>
         <rect x="${m.l}" y="${m.t}" width="${iw}" height="${ih + sh + 8}" fill="transparent" id="hit"/>
       </svg>`;
       box.insertAdjacentHTML('beforeend', svg);
       const tip = document.getElementById('tip'), hx = box.querySelector('#hx'), hit = box.querySelector('#hit');
       const held = i => { const d = dates[i]; for (let k = decs.length - 1; k >= 0; k--) if (decs[k].signal < d || k === 0) return decs[k].pick; };
-      hit.onpointermove = ev => {
+      const sel = box.querySelector('#sel');
+      const at = ev => {
         const r = box.querySelector('svg').getBoundingClientRect();
         const px = (ev.clientX - r.left) * W / r.width;
-        const i = Math.max(0, Math.min(dates.length - 1, Math.round((px - m.l) / iw * (dates.length - 1))));
+        return Math.max(0, Math.min(dates.length - 1, Math.round((px - m.l) / iw * (dates.length - 1))));
+      };
+      // drag a horizontal span to zoom the whole page to that window
+      let drag = null;
+      hit.onpointerdown = ev => { if (ev.button) return; drag = {i:at(ev), x:ev.clientX}; hit.setPointerCapture(ev.pointerId); };
+      hit.onpointerup = ev => {
+        if (!drag) return;
+        const a = Math.min(drag.i, at(ev)), b = Math.max(drag.i, at(ev)), moved = Math.abs(ev.clientX - drag.x) > 6;
+        drag = null; sel.setAttribute('width', 0);
+        if (moved && b - a >= 15) set({a:dates[a], b:dates[b]});
+      };
+      hit.onpointercancel = () => { drag = null; sel.setAttribute('width', 0); };
+      hit.onpointermove = ev => {
+        const i = at(ev);
+        if (drag) { const a = Math.min(drag.i, i), b = Math.max(drag.i, i); sel.setAttribute('x', x(a)); sel.setAttribute('width', x(b) - x(a)); }
+        const r = box.querySelector('svg').getBoundingClientRect();
         hx.setAttribute('x1', x(i)); hx.setAttribute('x2', x(i)); hx.setAttribute('opacity', .5);
         tip.innerHTML = `<b>${fmtD(dates[i])}</b> · holding ${chip(held(i))}
           <div class="row"><span>Most-hated</span><b>${L.hated[i].toFixed(0)}</b></div>
@@ -299,7 +330,7 @@
         tip.style.left = (left > r.width * .6 ? left - tip.offsetWidth - 12 : left + 12) + 'px';
         tip.style.top = '8px'; tip.style.opacity = 1;
       };
-      hit.onpointerleave = () => { tip.style.opacity = 0; hx.setAttribute('opacity', 0); };
+      hit.onpointerleave = () => { if (drag) return; tip.style.opacity = 0; hx.setAttribute('opacity', 0); };
       const used = [...new Set(decs.map(d => d.pick))];
       document.getElementById('stripkey').innerHTML = D.universe.filter(t => used.includes(t))
         .map(t => `<span style="--c:${TK[t]}">${t} · ${decs.filter(d => d.pick === t).length} mo</span>`).join('');
@@ -368,15 +399,22 @@
     }
 
     let range = 'coined';
-    try { range = localStorage.getItem('market-lab.hatedm7.range') || range; } catch (_) {}
+    try {
+      const v = localStorage.getItem('market-lab.hatedm7.range');
+      if (v) range = v[0] === '{' ? JSON.parse(v) : v;
+    } catch (_) {}
     const buttons = document.querySelectorAll('.hm-range button');
+    const custom = document.querySelector('.hm-range button[data-range="custom"]');
     const set = r => {
       range = r;
-      buttons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.range === r)));
-      try { localStorage.setItem('market-lab.hatedm7.range', r); } catch (_) {}
+      const key = typeof r === 'object' ? 'custom' : r;
+      custom.hidden = key !== 'custom';
+      if (key === 'custom') custom.textContent = `${fmtM(r.a)} – ${fmtM(r.b)}`;
+      buttons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.range === key)));
+      try { localStorage.setItem('market-lab.hatedm7.range', typeof r === 'object' ? JSON.stringify(r) : r); } catch (_) {}
       render(r);
     };
-    buttons.forEach(b => b.onclick = () => set(b.dataset.range));
+    buttons.forEach(b => b.onclick = () => { if (b.dataset.range !== 'custom') set(b.dataset.range); });
     const go = () => { nowBox(); set(range); };
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go); else go();
     let rz; addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(() => render(range), 120); });
