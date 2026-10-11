@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Near their lows — Equinox</title>
+  <style>
+    /* Every colour comes from the shell tokens, so light/dark follow the site switch.
+       The one device on this page is the "V track": a line from the 52-week low (left)
+       to 35% above it (right), with each name placed where it trades today. Filled dots
+       have turned (5-day EMA over 20-day); hollow dots are still sitting on the low. */
+    [data-page="lows"] { --ripe:var(--ml-up); --wait:#c0872a; --avoid:var(--ml-down); }
+    .lw-wrap { max-width:1180px; margin:0 auto; padding:34px 28px 140px; }
+    .lw-head { display:grid; grid-template-columns:minmax(0,7fr) minmax(0,5fr); gap:48px; align-items:end; }
+    .lw-head h1 { font:600 44px/1.02 var(--sans); letter-spacing:-1.4px; margin:0 0 14px; color:var(--ml-ink); }
+    .lw-head p { margin:0; color:var(--ml-muted); font-size:15px; max-width:640px; }
+    .lw-count { display:grid; grid-template-columns:1fr 1fr; border-left:1px solid var(--ml-border); padding-left:28px; }
+    .lw-count .n { font:600 72px/0.95 var(--sans); letter-spacing:-3px; color:var(--ml-ink); }
+    .lw-count .k { color:var(--ml-muted); font-size:13px; margin-top:6px; }
+    .lw-count .asof { grid-column:1/-1; color:var(--ml-faint); font-size:12.5px; margin-top:14px; }
+    .lw-rules { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); margin:34px 0 0; border-top:1px solid var(--ml-border); border-bottom:1px solid var(--ml-border); counter-reset:r; }
+    .lw-rules li { list-style:none; padding:14px 18px 14px 0; font-size:13px; color:var(--ml-muted); counter-increment:r; }
+    .lw-rules li + li { padding-left:18px; border-left:1px solid var(--ml-border); }
+    .lw-rules li::before { content:counter(r); display:block; font:600 22px/1 var(--sans); color:var(--ml-ink); margin-bottom:6px; }
+
+    .lw-macro { margin:80px 0 0; display:grid; grid-template-columns:minmax(0,4fr) minmax(0,8fr); gap:48px; }
+    .lw-macro h2 { font:600 28px/1.12 var(--sans); letter-spacing:-.7px; margin:0; color:var(--ml-ink); }
+    .lw-macro p { margin:0; color:var(--ml-muted); font-size:15px; line-height:1.6; }
+    .lw-macro .src { margin-top:10px; font-size:12.5px; }
+
+    .lw-sec { margin-top:110px; }
+    .lw-sec > h2 { font:600 30px/1.1 var(--sans); letter-spacing:-.8px; margin:0 0 8px; }
+    .lw-sec > p { color:var(--ml-muted); margin:0 0 22px; max-width:760px; font-size:14.5px; }
+    .lw-legend { display:flex; gap:22px; flex-wrap:wrap; font-size:12.5px; color:var(--ml-muted); margin:0 0 6px; }
+    .lw-legend .dot { display:inline-block; width:9px; height:9px; border-radius:50%; vertical-align:-1px; margin-right:6px; }
+
+    /* one theme = one entry; the verdict word is the entry's anchor */
+    .th { display:grid; grid-template-columns:minmax(0,3fr) minmax(0,5fr) minmax(0,4fr); gap:36px; padding:38px 0 40px; border-top:1px solid var(--ml-border); }
+    .th:last-child { border-bottom:1px solid var(--ml-border); }
+    .th .vd { font:700 46px/0.9 var(--sans); letter-spacing:-2px; text-transform:lowercase; color:var(--c); }
+    .th h3 { font:600 20px/1.2 var(--sans); letter-spacing:-.3px; margin:14px 0 8px; color:var(--ml-ink); }
+    .th .note { color:var(--ml-muted); font-size:13.5px; margin:0; }
+    .th .tags { margin-top:14px; font-size:12px; color:var(--ml-faint); }
+    .th .tags b { color:var(--ml-muted); font-weight:600; }
+    .th .body p { margin:0 0 12px; font-size:14px; line-height:1.58; color:var(--ml-ink); }
+    .th .body p.k { color:var(--ml-muted); }
+    .th .body p.k strong { color:var(--ml-ink); font-weight:600; }
+    .th .body .lbl { font-weight:600; color:var(--ml-ink); }
+    .th .body ul { margin:0 0 12px; padding-left:18px; font-size:13.5px; color:var(--ml-muted); }
+    .th .gain { margin-top:16px; padding-top:12px; border-top:1px dashed var(--ml-border); font-size:13.5px; color:var(--ml-muted); }
+    .th .gain .lbl { color:var(--ml-ink); font-weight:600; }
+    .th .gain .q { white-space:nowrap; color:var(--ml-ink); font-weight:600; margin-right:10px; }
+    .th .src { margin-top:12px; font-size:12px; color:var(--ml-faint); }
+    .th .src a, .lw-macro .src a { color:var(--ml-faint); text-decoration:none; border-bottom:1px solid var(--ml-border); }
+    .th .src a:hover, .lw-macro .src a:hover { color:var(--ml-accent); }
+
+    /* the V track */
+    .vt { width:100%; border-collapse:collapse; font-size:12.5px; }
+    .vt td { padding:4px 0; vertical-align:middle; }
+    .vt td.t { width:58px; font-weight:600; color:var(--ml-ink); }
+    .vt td.n { width:54px; text-align:right; color:var(--ml-muted); font-variant-numeric:tabular-nums; }
+    .vt td.trk { padding:0 10px; }
+    .vt th { font-weight:500; color:var(--ml-faint); font-size:11.5px; padding:0 0 6px; text-align:right; }
+    .vt th.trk { text-align:left; padding-left:10px; }
+    .vt th.trk span { float:right; }
+    .track { position:relative; height:14px; }
+    .track::before { content:""; position:absolute; left:0; right:0; top:50%; border-top:1px solid var(--ml-border); }
+    .track .band { position:absolute; left:0; width:14.3%; top:3px; bottom:3px; background:var(--ml-raised); }
+    .track .d { position:absolute; top:50%; width:10px; height:10px; margin:-5px 0 0 -5px; border-radius:50%; transition:transform .15s; }
+    .track .d.on { background:var(--ml-up); }
+    .track .d.off { background:var(--ml-bg); border:1.5px solid var(--ml-muted); }
+    .track .d.past::after { content:"›"; position:absolute; left:12px; top:-6px; color:var(--ml-faint); font-size:13px; }
+    tr:hover .track .d { transform:scale(1.35); }
+
+    /* scan tables */
+    .lw-tools { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin:0 0 14px; }
+    .lw-tools button { font:500 13px var(--sans); padding:7px 14px; border:1px solid var(--ml-border); background:transparent; color:var(--ml-muted); border-radius:4px; cursor:pointer; transition:background .15s, color .15s; }
+    .lw-tools button[aria-pressed="true"] { background:var(--ml-ink); color:var(--ml-bg); border-color:var(--ml-ink); }
+    .lw-tools select, .lw-tools input { font:13px var(--sans); padding:7px 10px; border:1px solid var(--ml-border); border-radius:4px; background:var(--ml-surface); color:var(--ml-ink); }
+    .lw-tools input { width:180px; }
+    .lw-tools .cnt { color:var(--ml-faint); font-size:12.5px; margin-left:auto; }
+    .lw-scroll { overflow-x:auto; }
+    .lw-table { width:100%; border-collapse:collapse; font-size:13.5px; font-variant-numeric:tabular-nums; }
+    .lw-table th { text-align:right; color:var(--ml-faint); font-weight:500; font-size:12px; padding:8px 10px; border-bottom:1px solid var(--ml-border); white-space:nowrap; cursor:pointer; user-select:none; }
+    .lw-table th[aria-sort]::after { content:" ↓"; }
+    .lw-table th[aria-sort="ascending"]::after { content:" ↑"; }
+    .lw-table td { text-align:right; padding:8px 10px; border-bottom:1px solid var(--ml-border); white-space:nowrap; }
+    .lw-table th.l, .lw-table td.l { text-align:left; }
+    .lw-table tr:hover td { background:var(--ml-hover); }
+    .lw-table .nm { color:var(--ml-muted); font-size:12.5px; max-width:220px; overflow:hidden; text-overflow:ellipsis; display:inline-block; vertical-align:bottom; margin-left:8px; }
+    .lw-table .tk { font-weight:600; }
+    .lw-table .thm { color:var(--ml-faint); font-size:12px; max-width:200px; overflow:hidden; text-overflow:ellipsis; }
+    .chk { letter-spacing:3px; font-weight:600; font-size:12px; }
+    .chk i { font-style:normal; color:var(--ml-border); }
+    .chk i.y { color:var(--ml-ink); }
+    .rt { display:inline-block; width:64px; height:6px; background:var(--ml-raised); vertical-align:middle; margin-left:8px; position:relative; }
+    .rt b { position:absolute; left:0; top:0; bottom:0; background:var(--ml-muted); }
+    .up { color:var(--ml-up); } .dn { color:var(--ml-down); } .mut { color:var(--ml-faint); }
+    .more { margin-top:12px; }
+    .more button { font:500 13px var(--sans); background:none; border:0; color:var(--ml-accent); cursor:pointer; padding:0; }
+
+    .lw-ind { columns:3 280px; column-gap:40px; font-size:13.5px; }
+    .lw-ind div { break-inside:avoid; padding:8px 0; border-bottom:1px solid var(--ml-border); }
+    .lw-ind b { font-weight:600; }
+    .lw-ind span { color:var(--ml-faint); margin-left:6px; }
+    .lw-ind p { margin:2px 0 0; color:var(--ml-muted); font-size:12.5px; }
+
+    .lw-note { margin-top:110px; border-top:1px solid var(--ml-border); padding-top:20px; display:grid; grid-template-columns:minmax(0,4fr) minmax(0,8fr); gap:48px; color:var(--ml-muted); font-size:13.5px; }
+    .lw-note h3 { font:600 15px var(--sans); color:var(--ml-ink); margin:0; }
+    .lw-note ul { margin:0; padding-left:18px; }
+    .lw-note li + li { margin-top:6px; }
+
+    @media (max-width:900px) {
+      .lw-wrap { padding:24px 16px 80px; }
+      .lw-head, .lw-macro, .lw-note, .th { grid-template-columns:1fr; gap:22px; }
+      .lw-head h1 { font-size:34px; }
+      .lw-count { border-left:0; padding-left:0; border-top:1px solid var(--ml-border); padding-top:16px; }
+      .lw-count .n { font-size:54px; }
+      .lw-rules { grid-template-columns:1fr; }
+      .lw-rules li + li { padding-left:0; border-left:0; border-top:1px solid var(--ml-border); }
+      .th .vd { font-size:38px; }
+      .lw-tools .cnt { margin-left:0; width:100%; }
+    }
+  </style>
+<link rel="stylesheet" href="market-lab-shell.css"><script src="market-lab-shell.js?v=20261009-3267255d"></script></head>
+<body>
+  <main class="lw-wrap">
+    <header class="lw-head">
+      <div>
+        <h1>Near their lows</h1>
+        <p>Stocks that fell 30% or more and sit near their 52-week low. <strong>Watch</strong> means still on the low. <strong>Turning</strong> means it has lifted off: the 5-day average is back over the 20-day, but it has won back under 45% of the fall. Then the harder question, theme by theme: why did it fall, and is it ripe?</p>
+      </div>
+      <div class="lw-count" id="count"></div>
+    </header>
+    <ol class="lw-rules">
+      <li>Do the fundamentals first.</li>
+      <li>Don't buy the first dip. Wait for sellers to dry up.</li>
+      <li>Buy the right side of the V: 5-day over 20-day, a base, a higher low.</li>
+      <li>Waterfall declines are the riskier setup.</li>
+      <li>Lean contrarian: capitulation, downgrades.</li>
+    </ol>
+
+    <section class="lw-macro" id="macro"></section>
+
+    <section class="lw-sec">
+      <h2>Why they fell, and what's ripe</h2>
+      <p id="method"></p>
+      <div class="lw-legend">
+        <span><i class="dot" style="background:var(--ml-up)"></i>turned (5-day over 20-day)</span>
+        <span><i class="dot" style="border:1.5px solid var(--ml-muted)"></i>still on the low</span>
+        <span>Track runs from the 52-week low (left) to 35% above it (right). Shaded = within 5%.</span>
+      </div>
+      <div id="themes"></div>
+    </section>
+
+    <section class="lw-sec">
+      <h2>The scan</h2>
+      <p>Every stock that passes, refreshed with each close. The four letters are the checks that make a turn believable: <b>H</b> higher low, <b>B</b> base of 3+ weeks, <b>R</b> retest of the 20-day held, <b>V</b> volume dried up since the low.</p>
+      <div class="lw-tools">
+        <span role="group" aria-label="Stage" id="stage">
+          <button type="button" data-v="turning" aria-pressed="true">Turning</button>
+          <button type="button" data-v="watch" aria-pressed="false">Watch</button>
+        </span>
+        <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>
+        <input id="q" type="search" placeholder="Ticker, name, theme" aria-label="Filter" />
+        <span class="cnt" id="cnt"></span>
+      </div>
+      <div class="lw-scroll"><table class="lw-table" id="scan"></table></div>
+      <div class="more" id="more"></div>
+    </section>
+
+    <section class="lw-sec">
+      <h2>Groups that fell together</h2>
+      <p>Industries with three or more names in the scan. A whole group at its lows usually means one shared cause, not a company problem.</p>
+      <div class="lw-ind" id="ind"></div>
+    </section>
+
+    <aside class="lw-note">
+      <h3>How to read this</h3>
+      <ul>
+        <li>The scan is arithmetic and reruns with every database update. The theme verdicts are research, refreshed weekly.</li>
+        <li>Peak and low are taken inside the last 252 sessions. The low must be within the last ~9 months.</li>
+        <li>Names outside a theme basket need a $2B+ market cap and $15M+ of median daily trading.</li>
+        <li>A read of the data and the news, not advice to buy or sell.</li>
+      </ul>
+    </aside>
+  </main>
+
+  <script src="cube/lows-scan.js?v=20261009-3267255d"></script>
+  <script>
+  (() => {
+    'use strict';
+    const D = window.QUANT_LOWS;
+    const wrap = document.querySelector('.lw-wrap');
+    if (!D) { wrap.insertAdjacentHTML('beforeend','<p>Data not built yet.</p>'); return; }
+    const R = D.research || {};
+    const S = Object.fromEntries(D.stocks.map(r => [r.t, r]));
+    const Q = D.quotes || {};
+    const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    const pct = (x, d = 0) => x == null ? '—' : (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(d) + '%';
+    const cls = x => x > 0 ? 'up' : x < 0 ? 'dn' : 'mut';
+    const fmtD = s => s ? new Date(s + 'T12:00:00').toLocaleDateString(undefined, {month:'short', day:'numeric'}) : '—';
+    const fmtY = s => s ? new Date(s + 'T12:00:00').toLocaleDateString(undefined, {month:'short', day:'numeric', year:'numeric'}) : '—';
+    const link = s => `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>`;
+
+    // header
+    const nT = D.stocks.filter(r => r.stage === 'turning').length;
+    document.getElementById('count').innerHTML =
+      `<div><div class="n">${nT}</div><div class="k">turning</div></div>
+       <div><div class="n">${D.stocks.length - nT}</div><div class="k">on the low</div></div>
+       <div class="asof">Scan as of ${fmtY(D.as_of)} close · ${D.universe.toLocaleString()} stocks checked${R.updated ? ` · research ${fmtY(R.updated)}` : ''}</div>`;
+
+    // macro
+    if (R.macro) document.getElementById('macro').innerHTML =
+      `<h2>${esc(R.macro.headline)}</h2><div><p>${esc(R.macro.body)}</p>
+       <div class="src">${(R.macro.sources || []).map(link).join(' · ')}</div></div>`;
+    else document.getElementById('macro').remove();
+    document.getElementById('method').textContent = R.method || 'Research for this scan has not been written yet.';
+
+    // themes
+    const order = {ripe:0, wait:1, avoid:2};
+    const lasting = {temporary:'looks temporary', mixed:'part temporary, part lasting', structural:'looks lasting'};
+    const cause = {sector:'whole group', company:'one or two companies', macro:'rates and oil', mixed:'mixed'};
+    function track(t) {
+      const r = S[t], q = Q[t];
+      const off = r ? r.off_low : q ? q.off_low : null;
+      if (off == null) return '';
+      const on = r ? r.stage === 'turning' : q.up;
+      const x = Math.max(0, Math.min(off, .35)) / .35 * 100;
+      const drop = r ? r.drop : q.off_high;
+      return `<tr title="${esc((r && r.name) || t)}"><td class="t">${esc(t)}</td>
+        <td class="trk"><div class="track"><span class="band"></span><span class="d ${on ? 'on' : 'off'}${off > .35 ? ' past' : ''}" style="left:${x}%"></span></div></td>
+        <td class="n">${pct(drop)}</td><td class="n ${cls((r || q).r1m)}">${pct((r || q).r1m)}</td></tr>`;
+    }
+    const themes = (R.themes || []).slice().sort((a, b) => order[a.verdict] - order[b.verdict]);
+    document.getElementById('themes').innerHTML = themes.map(th => {
+      const rows = th.tickers.map(track).join('');
+      const gain = th.beneficiaries || {};
+      const gq = (gain.tickers || []).filter(t => Q[t]).map(t =>
+        `<span class="q">${esc(t)} <span class="${cls(Q[t].r1m)}">${pct(Q[t].r1m)}</span> <span class="mut">1m</span></span>`).join('');
+      return `<article class="th" style="--c:var(--${th.verdict})" id="t-${esc(th.id)}">
+        <div>
+          <div class="vd">${esc(th.verdict)}</div>
+          <h3>${esc(th.title)}</h3>
+          <p class="note">${esc(th.verdict_note)}</p>
+          <div class="tags"><b>Cause:</b> ${esc(cause[th.cause] || th.cause)} · <b>${esc(lasting[th.lasting] || th.lasting)}</b></div>
+        </div>
+        <div class="body">
+          <p>${esc(th.why)}</p>
+          <p class="k"><strong>Case for.</strong> ${esc(th.case_for)}</p>
+          <p class="k"><strong>Case against.</strong> ${esc(th.case_against)}</p>
+          ${th.watch_for && th.watch_for.length ? `<span class="lbl">Watch for</span><ul>${th.watch_for.map(w => `<li>${esc(w)}</li>`).join('')}</ul>` : ''}
+          <div class="src">${(th.sources || []).map(link).join(' · ')}</div>
+        </div>
+        <div>
+          <table class="vt"><thead><tr><th></th><th class="trk">on the low <span>+35%</span></th><th>peak→low</th><th>1m</th></tr></thead><tbody>${rows}</tbody></table>
+          ${gain.text ? `<div class="gain"><span class="lbl">Who gains.</span> ${esc(gain.text)}${gq ? `<div style="margin-top:6px">${gq}</div>` : ''}</div>` : ''}
+        </div>
+      </article>`;
+    }).join('');
+
+    // scan table
+    const sectors = [...new Set(D.stocks.map(r => r.sector).filter(Boolean))].sort();
+    document.getElementById('sector').insertAdjacentHTML('beforeend', sectors.map(s => `<option>${esc(s)}</option>`).join(''));
+    const st = {stage:'turning', sector:'', q:'', sort:'score', dir:-1, limit:60};
+    const pts = r => ['higher_low','base','retest','dry_volume'].filter(k => r.checks[k]).length;
+    const COLS = [
+      ['tk','Stock','l', r => r.t],
+      ['sector','Group','l', r => r.themes[0] || r.industry || r.sector],
+      ['score','Checks','', r => pts(r) * 10 - r.drop],
+      ['drop','Peak→low','', r => r.drop],
+      ['off','Off low','', r => r.off_low],
+      ['retrace','Won back','', r => r.retrace],
+      ['low','Low on','', r => r.low_date],
+      ['r1m','1 month','', r => r.r1m],
+      ['cap','Mkt cap','', r => r.cap || 0],
+    ];
+    const chk = r => `<span class="chk">${[['H','higher_low'],['B','base'],['R','retest'],['V','dry_volume']].map(([l,k]) => `<i class="${r.checks[k] ? 'y' : ''}">${l}</i>`).join('')}</span>`;
+    const cap = x => !x ? '—' : x >= 1e12 ? '$' + (x/1e12).toFixed(1) + 'T' : x >= 1e9 ? '$' + (x/1e9).toFixed(0) + 'B' : '$' + (x/1e6).toFixed(0) + 'M';
+    function draw() {
+      const q = st.q.toLowerCase();
+      let rows = D.stocks.filter(r => r.stage === st.stage && (!st.sector || r.sector === st.sector) &&
+        (!q || (r.t + ' ' + r.name + ' ' + r.industry + ' ' + r.themes.join(' ')).toLowerCase().includes(q)));
+      const col = COLS.find(c => c[0] === st.sort);
+      rows.sort((a, b) => { const x = col[3](a), y = col[3](b); return (x > y ? 1 : x < y ? -1 : 0) * st.dir; });
+      document.getElementById('cnt').textContent = `${rows.length} ${st.stage === 'turning' ? 'turning' : 'on the low'}`;
+      const shown = rows.slice(0, st.limit);
+      document.getElementById('scan').innerHTML =
+        `<thead><tr>${COLS.map(c => `<th class="${c[2]}" data-k="${c[0]}"${st.sort === c[0] ? ` aria-sort="${st.dir > 0 ? 'ascending' : 'descending'}"` : ''}>${c[1]}</th>`).join('')}</tr></thead><tbody>` +
+        shown.map(r => `<tr>
+          <td class="l"><span class="tk">${esc(r.t)}</span><span class="nm">${esc(r.name)}</span></td>
+          <td class="l"><div class="thm" title="${esc(r.industry)}">${esc(r.themes[0] || r.industry || r.sector)}</div></td>
+          <td>${chk(r)}</td>
+          <td class="dn">${pct(r.drop)}</td>
+          <td>${pct(r.off_low)}</td>
+          <td>${Math.round(r.retrace * 100)}%<span class="rt"><b style="width:${Math.min(100, r.retrace / .45 * 100)}%"></b></span></td>
+          <td>${fmtD(r.low_date)}</td>
+          <td class="${cls(r.r1m)}">${pct(r.r1m)}</td>
+          <td class="mut">${cap(r.cap)}</td></tr>`).join('') + '</tbody>';
+      document.getElementById('more').innerHTML = rows.length > st.limit ? `<button type="button">Show all ${rows.length}</button>` : '';
+    }
+    document.getElementById('stage').onclick = e => {
+      const b = e.target.closest('button'); if (!b) return;
+      st.stage = b.dataset.v; st.limit = 60;
+      document.querySelectorAll('#stage button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+      if (st.stage === 'watch' && st.sort === 'score') { st.sort = 'drop'; st.dir = 1; }
+      if (st.stage === 'turning' && st.sort === 'drop') { st.sort = 'score'; st.dir = -1; }
+      draw();
+    };
+    document.getElementById('sector').onchange = e => { st.sector = e.target.value; draw(); };
+    document.getElementById('q').oninput = e => { st.q = e.target.value; draw(); };
+    document.getElementById('more').onclick = e => { if (e.target.closest('button')) { st.limit = 1e9; draw(); } };
+    document.getElementById('scan').onclick = e => {
+      const th = e.target.closest('th'); if (!th) return;
+      if (st.sort === th.dataset.k) st.dir *= -1; else { st.sort = th.dataset.k; st.dir = ['tk','sector','low'].includes(th.dataset.k) ? 1 : th.dataset.k === 'drop' ? 1 : -1; }
+      draw();
+    };
+    draw();
+
+    // industries
+    document.getElementById('ind').innerHTML = D.industries.map(g => {
+      const names = g.names.map(t => S[t]).filter(Boolean).sort((a, b) => a.drop - b.drop);
+      const nt = names.filter(r => r.stage === 'turning').length;
+      return `<div><b>${esc(g.industry)}</b><span>${g.n} names${nt ? ` · ${nt} turning` : ''}</span>
+        <p>${names.map(r => esc(r.t)).join(', ')}</p></div>`;
+    }).join('');
+  })();
+  </script>
+</body>
+</html>
