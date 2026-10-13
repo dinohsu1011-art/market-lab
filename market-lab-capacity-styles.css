@@ -682,3 +682,27 @@ body {
 #jefViewButtons[hidden],#periodButtons[hidden]{display:none}
 .capacity-controls label[hidden]{display:none}
 .jef-mode .company-label{flex-direction:column;align-items:flex-start;justify-content:center}
+.source-key{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px 28px;margin:0 20px 16px;padding:14px 0;border-top:1px solid var(--rule-light);border-bottom:1px solid var(--rule-light)}
+.source-key div{min-width:0}
+.source-key dt{margin:0 0 4px;font-size:12px;color:var(--muted)}
+.source-key dd{margin:0;font-size:14px;line-height:1.45;color:var(--ink)}
+.source-key div:nth-child(2){grid-column:span 1}
+@media (max-width:900px){.source-key{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.source-key{grid-template-columns:1fr;margin:0 16px 14px}}
+.plans-mode .quarter-header,.plans-mode .capacity-row{grid-template-columns:150px minmax(260px,1fr) 150px;min-width:580px}
+.plans-mode .quarter-cell{font-size:12px;color:var(--muted)}
+.plans-mode .capacity-row{height:auto;min-height:92px}
+.plans-mode .capacity-cell{background-image:none}
+.plans-mode .capacity-cell::after{display:none}
+.plans-mode .company-label{flex-direction:column;align-items:flex-start;justify-content:center}
+.plans-mode .company-label small{display:block;font-size:11px;font-weight:400;line-height:1.4;margin-top:5px;color:var(--muted)}
+.plans-bars{flex-direction:column;justify-content:center;align-items:stretch;gap:8px;padding:14px 18px}
+.plans-bar-line{display:grid;grid-template-columns:60px 1fr 44px;align-items:center;gap:12px;font-size:12px;color:var(--muted)}
+.plans-bar-line b{color:var(--ink);font-size:14px;text-align:right;font-variant-numeric:tabular-nums}
+.plans-track{height:18px}
+.plans-track .capacity-bar{height:100%;min-width:2px}
+.plans-ratio{flex-direction:column;align-items:center;justify-content:center;padding:12px 8px;border-left:1px solid var(--rule-light)}
+.plans-ratio strong{font-size:26px;line-height:1.1;color:var(--ink);font-variant-numeric:tabular-nums}
+.plans-ratio small{margin-top:4px;font-size:12px;color:var(--muted)}
+#plansSource{white-space:nowrap}
+@media (max-width:620px){.plans-mode .quarter-header,.plans-mode .capacity-row{grid-template-columns:92px minmax(0,1fr) 72px;min-width:0}.plans-mode .company-label{font-size:15px;padding:0 8px}.plans-mode .company-label small{display:none}.plans-bars{padding:12px 8px}.plans-bar-line{grid-template-columns:48px 1fr 34px;gap:6px;font-size:11px}.plans-ratio strong{font-size:19px}.plans-ratio small{font-size:10px;text-align:center}}
