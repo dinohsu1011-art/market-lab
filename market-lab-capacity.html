@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Data center capacity buildout, management targets, and compute rental economics."
+    />
+    <title>Data center capacity · Equinox</title>
+    <link rel="stylesheet" href="market-lab-capacity-styles.css" />
+  <link rel="stylesheet" href="market-lab-shell.css">
+<link rel="stylesheet" href="market-lab-capacity-theme.css">
+<script defer src="market-lab-shell.js?v=20261009-73347cef"></script>
+</head>
+  <body>
+    <main class="dashboard-shell">
+      <header class="page-header">
+        <h1>Data center capacity</h1><span class="capacity-updated">updated 2026-10-13</span>
+        
+      </header>
+
+      <section class="summary-strip" aria-label="Summary metrics" id="summaryStrip"></section>
+
+      <section class="primary-grid">
+        <article class="panel capacity-panel">
+          <div class="panel-heading capacity-heading">
+            <div>
+              <h2>Quarterly Capacity Build Rate</h2>
+              <p>Gigawatts (GW)</p>
+            </div>
+            <div class="legend" aria-label="Chart legend">
+              <span><i class="legend-swatch reported"></i>Reported</span>
+              <span><i class="legend-swatch implied"></i>Estimated</span>
+            </div>
+          </div>
+          <div class="capacity-controls"><div class="view-buttons" role="group" aria-label="Capacity source"><button id="kgiSource" aria-pressed="true">KGI / current model</button><button id="sinopacSource" aria-pressed="false">SinoPac</button><button id="compareSource" aria-pressed="false">KGI vs SinoPac</button><button id="jefferiesSource" aria-pressed="false">Jefferies</button></div><div class="view-buttons" id="jefViewButtons" role="group" aria-label="Jefferies view" hidden><button data-jef-view="annual" aria-pressed="true">Annual</button><button data-jef-view="cumulative" aria-pressed="false">Cumulative</button></div><div class="view-buttons" id="periodButtons" role="group" aria-label="Capacity chart period"><button id="quarterlyView" aria-pressed="true">Quarterly</button><button id="annualView" aria-pressed="false">Annual</button></div><label><input type="checkbox" id="annualOverlay" checked> Stack cumulative fleet</label><label><input type="checkbox" id="qoqGrowth"> QoQ cumulative growth (%)</label></div>
+          <div class="capacity-chart" id="capacityChart"></div><p class="chart-method">KGI rows: annual additions ÷ 4, a flat quarterly allocation—not disclosed commissioning dates. Oracle / SpaceX retain prior workbook assumptions. See source reconciliation below.</p>
+        </article>
+
+        <aside class="panel outlook-panel">
+          <div class="panel-heading">
+            <h2>Capacity Outlook & Sources</h2>
+          </div>
+          <div class="outlook-list" id="outlookList"></div>
+        </aside>
+      </section>
+
+      <section class="secondary-grid">
+        <article class="panel rental-panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Revenue per Watt</h2>
+              <p>USD per watt / year</p>
+            </div>
+          </div>
+          <div class="rental-chart" id="rentalChart"></div>
+        </article>
+
+        <article class="panel agreements-panel">
+          <div class="panel-heading">
+            <h2>Rental Agreements</h2>
+          </div>
+          <div class="agreements-table" role="table" aria-label="Rental agreements" id="agreementsTable"></div>
+        </article>
+      </section>
+      <section id="researchDashboard" aria-label="Capacity estimates"></section>
+    </main>
+
+    <script src="market-lab-capacity-research-data.js?v=20261009-73347cef"></script>
+    <script src="market-lab-capacity-research.js?v=20261009-73347cef"></script>
+    <script src="market-lab-capacity-deal-data.js?v=20261009-73347cef"></script>
+    <script src="market-lab-capacity-timeline-data.js?v=20261009-73347cef"></script>
+    <script src="market-lab-capacity-deals.js?v=20261009-73347cef"></script>
+    <script src="market-lab-capacity-workbook.js?v=20261009-73347cef"></script>
+<script src="market-lab-capacity-app.js?v=20261009-73347cef"></script>
+  </body>
+</html>
