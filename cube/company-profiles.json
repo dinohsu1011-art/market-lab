@@ -16520,6 +16520,826 @@
       "country": "United States",
       "updated": "2026-10-13",
       "source": "Yahoo Finance via yfinance"
+    },
+    "MMM": {
+      "symbol": "MMM",
+      "name": "3M Company",
+      "summary": "3M Company provides diversified technology services in the America, the Asia Pacific, Europe, the Middle East, Africa, and internationally. It operates through three segments: Safety and Industrial, Transportation and Electronics, and Consumer. The Safety and Industrial segment provides industrial abrasives and finishing for metalworking applications; autobody repair solutions; industrial specialty products, such as personal hygiene products, masking, and packaging materials; electrical products and materials for construction and maintenance, power distribution, and electrical original equipment manufacturers; structural adhesives and tapes; respiratory, hearing, eye, and fall protection solutions; and natural and color-coated mineral granules for shingles. The Transportation and Electronics segment provides ceramic solutions; attachment and bonding, films, sound, and temperature management for transportation vehicles; format graphic films for advertising and fleet signage; reflective signage for highway and vehicle safety; light management films and electronics assembly solutions; chip packaging and interconnection solutions; semiconductor production materials; and data center solutions. The Consumer segment offers cleaning products for the home; consumer air quality products; picture hanging accessories; retail abrasives, paint accessories, and safety products; stationery and office products; automotive appearance products; and consumer bandages, tapes, braces, and supports. It serves automotive; commercial solutions; consumer markets; design and construction; electronics; energy; government; manufacturing; safety; transportation industries. The company offers its products through e-commerce and traditional wholesalers, retailers, jobbers, distributors, channel partner, and dealers, as well as directly to users. 3M Company was founded in 1902 and is headquartered in Saint Paul, Minnesota.",
+      "sector": "Industrials",
+      "industry": "Conglomerates",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MMS": {
+      "symbol": "MMS",
+      "name": "Maximus, Inc.",
+      "summary": "Maximus, Inc. operates as a provider of government services worldwide. The company operates through three segments: U.S. Federal Services, U.S. Services, and Outside the U.S. The U.S. Federal Services segment offers business process services, eligibility and enrollment, outreach, and other services for federal health and human services programs; clinical services; and technology solutions, such as application development and modernization services, enterprise business solutions, advanced analytics and emerging technologies, cybersecurity services, data management, and infrastructure and engineering solutions. The U.S. Services segment offers program eligibility support and enrollment; centralized multilingual customer contact centers, multichannel, and digital self-service options for enrollment; application assistance and independent health plan choice counseling; beneficiary outreach, education, eligibility, enrollment, and redeterminations; subsidized telephone services; and person-centered independent assessment services. This segment also provides employment services, such as eligibility support, case management, job-readiness preparation, job search and employer outreach, job retention and career advancement, and educational and training services; technology solutions; and system implementation project management services. The Outside the U.S. segment offers BPS and technology solutions for international governments, including health and disability assessments, program administration for employment services, wellbeing solutions and other job seeker-related services, digitally-enabled customer services, and technologies for modernization. Maximus, Inc. was founded in 1975 and is headquartered in McLean, Virginia.",
+      "sector": "Industrials",
+      "industry": "Specialty Business Services",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MMSI": {
+      "symbol": "MMSI",
+      "name": "Merit Medical Systems, Inc.",
+      "summary": "Merit Medical Systems, Inc. designs, develops, manufactures, and markets single-use medical products for interventional, diagnostic, and therapeutic procedures in the United States, China, Japan, Germany, France, the United Kingdom, and internationally. It operates through two segments, Cardiovascular and Endoscopy. The company offers micropuncture kits, angiographic needles, sheaths, guide wires, and safety products; peripheral intervention products comprising angiography, drainage, delivery systems, and embolotherapy products; oncology products, such as soft tissue biopsy products and accessories; cardiac intervention products consisting of cardiac access, angiography, electrophysiology and cardiac rhythm management, fluid management, hemodynamic monitoring, hemostasis, and intervention products; and spine products, including vertebral augmentation, radiofrequency ablation, and bone biopsy systems. It also provides custom procedural solutions, including critical care products, syringes, manifold kits, and trays and packs; coating services for medical tubes and wires; and sensor components for microelectromechanical systems. In addition, the company offers gastroenterology products, such as esophageal stents, cryoballoon and inflation devices, gauges, and balloon dilators; pulmonary products consisting of laser-cut tracheobronchial stents, and over-the-wire and direct visualization delivery systems; and kits and accessories for endoscopy and bronchoscopy procedures. It sells its products to hospitals, alternate site-based physicians, technicians, and nurses through direct sales force, independent distributors, original equipment manufacturer partners, and custom procedure tray manufacturers. The company exports its products to Canada, Western Europe, Australia, Brazil, Malaysia, South Korea, the United Arab Emirates, India, New Zealand, and South Africa. Merit Medical Systems, Inc. was incorporated in 1987 and is headquartered in South Jordan, Utah.",
+      "sector": "Healthcare",
+      "industry": "Medical Instruments & Supplies",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MMYT": {
+      "symbol": "MMYT",
+      "name": "MakeMyTrip Limited",
+      "summary": "MakeMyTrip Limited, together with its subsidiaries, operates as a travel service provider in India, the United States, Singapore, Malaysia, Thailand, the United Arab Emirates, Peru, Colombia, Vietnam, Saudi Arabia, Cambodia, and Indonesia. The company operates through three segments: Air Ticketing, Hotels, and Packages and Bus Ticketing. Its products and services include air tickets, hotels and alternative accommodations, holiday packages, bus tickets, rail tickets, car hire, tours and attractions, travel assurance products and add-on products for bookings; activities and experiences and ancillary travel requirements, such as facilitating access to third-party travel and other insurance products; and visa-related products and services under the MakeMyTrip, Goibibo, and redBus brands, as well as foreign exchange, prepaid forex cards, cross-border remittances and related financial services. The company allows travelers to research, plan, and book a range of travel services and products in India and internationally through its primary websites, including makemytrip.com, goibibo.com, redbus.in, and makemytrip.ae; and other technology-enhanced distribution channels, such as call centers, franchisee-owned travel stores, and travel agents' network, as well as its mobile applications. It primarily serves leisure travelers and corporates. The company was formerly known as International Web Travel Private Limited and changed its name to MakeMyTrip Limited in March 2010. MakeMyTrip Limited was incorporated in 2000 and is based in Gurugram, India.",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "country": "India",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MNKD": {
+      "symbol": "MNKD",
+      "name": "MannKind Corporation",
+      "summary": "MannKind Corporation, a biopharmaceutical company, focuses on the provision of various solutions for transforming chronic disease care. It develops and commercializes treatments that address various unmet medical needs, including diabetes, pulmonary hypertension, and fluid overload in heart failure and chronic kidney disease. The company's commercial products include Afrezza, an inhaled insulin used to improve glycemic control in adults with diabetes; Furoscix, a formulation of furosemide injection to treat edema in pediatric patients and adult patients with chronic heart failure or chronic kidney disease; and V-Go, a mechanical basal-bolus insulin delivery system, which provides continuous subcutaneous infusion of insulin in adults that require insulin. It also developed Tyvaso DPI inhalation powder for the treatment of pulmonary arterial hypertension, as well as for the treatment of pulmonary hypertension associated with interstitial lung disease. The company's pipeline of treatments for orphan lung diseases include MNKD-201, a dry-powder formulation of nintedanib for the treatment of idiopathic pulmonary fibrosis and MNKD-701 that focuses on bumetanide. It has collaboration and license agreement with United Therapeutics Corporation; collaboration agreement with Thirona Bio, Inc. to evaluate the therapeutic for the treatment of pulmonary fibrosis; and licensing and collaboration agreement with Rose Pharma Inc. to develop ROSE-010 Technosphere for weight management. MannKind Corporation was incorporated in 1991 and is headquartered in Danbury, Connecticut.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MNDY": {
+      "symbol": "MNDY",
+      "name": "monday.com Ltd.",
+      "summary": "monday.com Ltd., together with its subsidiaries, develops software applications in the United States, Europe, the Middle East, Africa, the United Kingdom, and internationally. The company provides Work Operating System (Work OS), a cloud-based visual work OS that consists of modular building blocks used and assembled to create software applications and work management tools. Its products include monday work management that manages workflows, projects, and portfolios for team collaboration and productivity; monday CRM, which tracks and manages various sales cycle; monday dev that builds agile product and software development workflows; monday service, which creates seamless connection between service desks and their data; WorkCanvas, a digital whiteboard; and WorkForms, which allows users to create personalized forms or surveys and gain organizational insights. The company serves organizations, educational or government institution, and distinct business unit of an organization. The company was formerly known as DaPulse Labs Ltd. and changed its name to monday.com Ltd. in December 2017. monday.com Ltd. was incorporated in 2012 and is headquartered in Tel Aviv-Yafo, Israel.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "Israel",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MNST": {
+      "symbol": "MNST",
+      "name": "Monster Beverage Corporation",
+      "summary": "Monster Beverage Corporation, through its subsidiaries, engages in development, marketing, sale, and distribution of energy drink beverages and concentrates in the United States and internationally. The company operates through four segments: Monster Energy Drinks, Strategic Brands, Alcohol Brands, and Other. It offers carbonated non-carbonated energy drinks, ready-to-drink iced teas, lemonades, juice cocktails, single-serve juices and fruit beverages, ready-to-drink dairy and coffee drinks, energy drinks, sports drinks and single-serve still waters, and sodas that are considered natural, sparkling juices, and flavored sparkling beverages. In addition, the company provides its products under the Monster Energy, Monster Energy Ultra, Rehab Monster, Monster Energy Nitro, Java Monster, Punch Monster, Juice Monster, Monster Tour Water, Reign Total Body Fuel, Reign Storm, Bang Energy, NOS, Full Throttle, Burn, Mother, Nalu, Ultra Energy, Play and Power Play, Relentless, BPM, BU, Samurai, Live+, Predator, and Fury brands. Further, it offers craft beers, flavored malt beverages,and hard seltzers under the Jai Alai IPA, Florida Man IPA, Dale's Pale Ale, Wild Basin Hard Seltzers, Dallas Blonde, Deep Ellum IPA, Perrin Brewing Company Black Ale, Hop Rising Double IPA, Wasatch Apricot Hefeweizen, The Beast, and Beast Tea, Blind Lemon, and Blinder Lemon brands. The company engages in the concentrates and/or beverage bases to authorized bottling, and canning operations. It sells its products to full-service beverage bottlers/distributors, retail grocery and specialty chains, wholesalers, club stores, mass merchandisers, convenience and gas chains, food service customers, value stores, e-commerce retailers, and the military. The company was formerly known as Hansen Natural Corporation and changed its name to Monster Beverage Corporation in January 2012. Monster Beverage Corporation was founded in 1985 and is headquartered in Corona, California.",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Non-Alcoholic",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MO": {
+      "symbol": "MO",
+      "name": "Altria Group, Inc.",
+      "summary": "Altria Group, Inc., through its subsidiaries, manufactures and sells smokeable and oral tobacco products in the United States. It offers cigarettes primarily under the Marlboro brand; large cigars and pipe tobacco under the Black & Mild brand; moist smokeless tobacco and oral tobacco products under the Copenhagen, Skoal, Red Seal, and Husky brands; oral nicotine pouches under the on! brand; and e-vapor products under the NJOY ACE brand. The company sells its products to distributors, as well as large retail organizations, such as chain stores. Altria Group, Inc. was founded in 1822 and is headquartered in Richmond, Virginia.",
+      "sector": "Consumer Defensive",
+      "industry": "Tobacco",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MOD": {
+      "symbol": "MOD",
+      "name": "Modine Manufacturing Company",
+      "summary": "Modine Manufacturing Company designs, engineers, tests, manufactures, and sells mission-critical thermal solutions in the United States, Canada, Italy, Hungary, the United Kingdom, China, and internationally. It offers heat transfer products, including round tube plate fin construction; gas-fired, hydronic, electric, and oil fired unit heaters; roof-mounted direct- and indirect-fired makeup air units, duct furnaces, infrared units, and perimeter heating products; single packaged unit ventilators, modular chillers, air handler and condensing units, and ceiling cassettes; evaporator unit coolers, remote condensers, fluid coolers, gas coolers, and dry and brine coolers; and motor and generator cooling coils, transformer oil coolers, radiators, dryers, and industrial heat exchangers. The company also provides data center products that consists of IT cooling solutions, including chillers, dry coolers, precision air handling units, computer room air conditioning, computer room air handler units, fan walls, rear-door heat exchangers, coolant distribution units, and immersion solutions, as well as sells replacement parts, maintenance service and control solutions for existing equipment and new building management controls and systems. In addition, it offers powertrain cooling products, such as radiators, condensers, engine cooling modules, charge air coolers, fan shrouds, and surge tanks; cooling module generator sets; aluminum and stainless steel engine oil coolers, exhaust gas recirculation coolers, liquid charge air coolers, transmission and retarder oil coolers, chillers, and condensers; battery thermal management systems, electronics cooling packages, battery chillers, battery cooling plates, coolers and casings for electronics cooling, and coolers for electric axles; and coatings products and application services. The company was incorporated in 1916 and is headquartered in Racine, Wisconsin.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MOG-A": {
+      "symbol": "MOG-A",
+      "name": "Moog Inc.",
+      "summary": "Moog Inc. designs, manufactures, and integrates precision motion and fluid controls and controls systems for original equipment manufacturers and end users in the aerospace, defense, and industrial markets in the United States, Germany, and internationally. The company operates through four segments: Space and Defense, Military Aircraft, Commercial Aircraft, and Industrial. Its Space and Defense segment provides critical defense components and motion-control systems used in defense vehicle platforms, missile systems, naval ships and submarines; high-performance components and systems used for space launch vehicles, satellites and spacecraft vehicles. The Military Aircraft segment designs, manufacture and integrate primary and secondary flight controls, mission-critical actuation systems, and products for various military fixed-wing aircraft and rotorcraft for both original equipment manufacturers and aftermarket customers. The Commercial Aircraft segment designs, manufactures, and integrates flight-critical control systems and products for various commercial aircraft including widebody, narrowbody, business jets and regional jets. The company's Industrial segment provides customized and high-performance motion control components and systems for industrial automation, medical, simulation, and test and energy applications, including precision components used in heavy machinery, medical devices and components, power generation products, as well as simulation platforms for flight training and material testing applications. The company was formerly known as Moog Valve Company. Moog Inc. was incorporated in 1951 and is headquartered in East Aurora, New York.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MOH": {
+      "symbol": "MOH",
+      "name": "Molina Healthcare, Inc.",
+      "summary": "Molina Healthcare, Inc. provides managed healthcare services to low-income families and individuals under the Medicaid and Medicare programs and through the state insurance marketplaces in the United States. It operates through Medicaid, Medicare, Marketplace, and Other segments. The company was founded in 1980 and is headquartered in Long Beach, California.",
+      "sector": "Healthcare",
+      "industry": "Healthcare Plans",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MORN": {
+      "symbol": "MORN",
+      "name": "Morningstar, Inc.",
+      "summary": "Morningstar, Inc. provides independent investment insights for investors in the United States, Asia, Australia, Canada, Continental Europe, the United Kingdom, and internationally. It operates through five segments: Morningstar Direct Platform, PitchBook, Morningstar Credit, Morningstar Wealth, and Morningstar Retirement. The company offers managed investments, including mutual funds, exchanged traded funds, separate accounts, collective investment trusts, model portfolios, equities, and fixed-income securities; Morningstar Direct, an investment analysis and reporting application; and Morningstar Advisor Workstation, a suite of tools to provide advice to clients. It also provides PitchBook that offers data and research covering the private capital markets comprising venture capital, private equity and credit, bank loans, and merger and acquisition activities through the PitchBook platform; Morningstar Model Portfolios, an advisor service with model portfolios for fee-based financial advisors; Morningstar International Wealth Platform, which offers discretionary asset management services; and Morningstar Investor/Morningstar.com, an individual investor platform and media site. In addition, the company offers credit ratings, research, data, and credit analytics solutions through Morningstar DBRS and Morningstar Credit Analytics agencies. Further, it provides managed retirement accounts, fiduciary services, and custom models; Morningstar Sustainalytics that provides environmental, social and governance data, research, and ratings; and Morningstar Indexes that offers market indexes used for performance benchmarks and as the basis for investment products and other portfolio strategies. The company was incorporated in 1984 and is headquartered in Chicago, Illinois.",
+      "sector": "Financial Services",
+      "industry": "Financial Data & Stock Exchanges",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MP": {
+      "symbol": "MP",
+      "name": "MP Materials Corp.",
+      "summary": "MP Materials Corp., together with its subsidiaries, produces rare earth materials in the Western Hemisphere. It operates in two segments, Materials and Magnetics. The Materials segment owns and operates the Mountain Pass Rare Earth Mine and Processing facility located near Mountain Pass, San Bernardino County, California. The Magnetics segment produces magnetic precursor products, including NdPr metal; and manufactures NdFeB permanent magnets. MP Materials Corp. was founded in 2017 and is headquartered in Las Vegas, Nevada.",
+      "sector": "Basic Materials",
+      "industry": "Other Industrial Metals & Mining",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MOS": {
+      "symbol": "MOS",
+      "name": "The Mosaic Company",
+      "summary": "The Mosaic Company, through its subsidiaries, produces and markets concentrated phosphate and potash crop nutrients. It operates in three segments: Phosphates, Potash, and Mosaic Fertilizantes. The company owns and operates mines and production facilities, which produce concentrated phosphate crop nutrients and phosphate-based animal feed ingredients, as well as concentrated phosphate crop nutrients, such as diammonium phosphate, monoammonium phosphate, and MicroEssentials, a value-added ammoniated phosphate product. It also mines, processes, and sells potash to crop nutrient manufacturers, distributors, retailers, and to customers for industrial use; and owns and operates mines, chemical plants, crop nutrient blending and bagging facilities, port terminals and warehouses, which produce and sell concentrated phosphate and potash-based crop nutrients, and phosphate-based animal feed ingredients. In addition, the company produces a double sulfate of potash magnesia product under the K-Mag brand; and purchases phosphate, potash, and nitrogen products to produce blended crop nutrients. Further, it offers triple superphosphate, single superphosphate, and dicalcium phosphate; feed phosphate under the Biofos and Nexfos brands; potash for de-icing and as a water softener regenerant; and phosphogypsum. The company sells its products to wholesale distributors, retail chains, cooperatives, independent retailers, and national accounts through its sales force. It also exports its products. The company operates in the United States, Brazil, China, Canada, Paraguay, Argentina, Japan, Colombia, India, Australia, Peru, Mexico, Honduras, the Dominican Republic, Indonesia, and internationally. The Mosaic Company was incorporated in 1987 and is headquartered in Tampa, Florida.",
+      "sector": "Basic Materials",
+      "industry": "Agricultural Inputs",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MPC": {
+      "symbol": "MPC",
+      "name": "Marathon Petroleum Corporation",
+      "summary": "Marathon Petroleum Corporation, together with its subsidiaries, operates as an integrated downstream energy company in the United States. The company operates through three segments: Refining & Marketing; Midstream; and Renewable Diesel. The Refining & Marketing segment refines crude oil and other feedstocks at its refineries in the Gulf Coast, Mid-Continent, and West Coast regions of the United States; and purchases refined products and ethanol for resale and distributes refined products through transportation, storage, distribution, and marketing services. Its refined products include transportation fuels, such as reformulated gasolines and blend-grade gasolines; heavy fuel oil; and asphalt. This segment also manufactures propane and petrochemicals. The company sells refined products to wholesale marketing customers in the United States and internationally, buyers on the spot market, and independent entrepreneurs who operate primarily Marathon branded outlets, as well as through long-term fuel supply contracts to direct dealer locations primarily under the ARCO brand. The Midstream segment gathers, transports, stores, distributes, and markets crude oil and refined products, including renewable diesel and other hydrocarbon-based products through refining logistics assets, pipelines, terminals, towboats, and barges; gathers, processes, and transports natural gas; and transports, fractionates, stores, and markets natural gas liquids. The Renewable Diesel segment processes renewable feedstocks into renewable diesel, markets, and distributes renewable diesel through its Midstream segment and third parties. It sells renewable diesel to wholesale marketing customers, buyers on the spot market, and through long-term supply contracts to direct dealers under the ARCO brand. Marathon Petroleum Corporation was founded in 1887 and is headquartered in Findlay, Ohio.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MPLX": {
+      "symbol": "MPLX",
+      "name": "MPLX LP",
+      "summary": "MPLX LP owns and operates midstream energy infrastructure and logistics assets primarily in the United States. It operates in two segments, Crude Oil and Products Logistics; and Natural Gas and NGL Services. The company is involved in the gathering, processing, and transportation of natural gas; gathering, transportation, fractionation, storage, and marketing of natural gas liquids; gathering, storage, transportation, and distribution of crude oil and refined products, as well as other hydrocarbon-based products and renewables; and sale of residue gas and condensate. It also engages in inland marine businesses, comprising fleet of boats and barges transport light products, heavy oils, crude oil, renewable fuels, chemicals, and feedstocks in the Mid-Continent and Gulf Coast regions, as well as a marine repair facility located on the Ohio River; and distribution of fuel, as well as operates refining logistics, terminals, rail facilities, and storage caverns. In addition, it operates terminal facilities for the receipt, storage, blending, additization, handling, and redelivery of refined petroleum products through the pipeline, rail, marine, and truck transportation. MPLX GP LLC acts as the general partner of MPLX LP. The company was incorporated in 2012 and is headquartered in Findlay, Ohio. MPLX LP operates as a subsidiary of Marathon Petroleum Corporation.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MPT": {
+      "symbol": "MPT",
+      "name": "Medical Properties Trust, Inc.",
+      "summary": "Medical Properties Trust, Inc. is a self-advised real estate investment trust formed in 2003 to acquire and develop net-leased hospital facilities. From its inception, the Company has grown to become one of the world's largest owners of hospital real estate with 378 facilities and approximately 38,000 licensed beds in nine countries and across three continents as of March 31, 2026. MPT's financing model facilitates acquisitions and recapitalizations and allows operators of hospitals to unlock the value of their real estate assets to fund facility improvements, technology upgrades and other investments in operations. Medical Properties Trust, Inc. is based in Alabama, Birmingham. Medical Properties Trust, Inc. was incorporated in 2003 in Maryland.",
+      "sector": "Real Estate",
+      "industry": "REIT - Healthcare Facilities",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MPWR": {
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems, Inc.",
+      "summary": "Monolithic Power Systems, Inc. provides semiconductor-based power electronics solutions in China, Taiwan, South Korea, Southeast Asia, Europe, the United States, Japan, and internationally. The company offers direct current (DC) to DC solutions to convert and control voltages within a range of electronic systems, such as cloud-based and on-premises CPU servers and workstations, AI systems, memory, storage solutions, notebooks, infotainment, power sources, home appliances, network infrastructure, and satellite communications. It also provides alternating current (AC) to DC; driver metal-oxide-semiconductor field-effect transistors; power management integrated circuits (ICs); and current limit switch and lighting control products. The company serves storage and computing, enterprise data, automotive, communications, consumer, and industrial end markets through third-party distributors and value-added resellers. Monolithic Power Systems, Inc. was incorporated in 1997 and is based in West Palm Beach, Florida.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MRCY": {
+      "symbol": "MRCY",
+      "name": "Mercury Systems, Inc.",
+      "summary": "Mercury Systems, Inc., engages in the aerospace and defense electronics industry. The company manufactures and sells components, products, modules, and subsystems for defense prime contractors, original equipment manufacturers, government, and commercial aerospace companies. It offers components, including power amplifiers and limiters, switches, oscillators, filters, equalizers, digital and analog converters, chips, monolithic microwave integrated circuits, and memory and storage devices; modules and sub-assemblies, such as embedded processing boards, switched fabrics and boards, digital receivers, multi-chip modules, integrated radio frequency and microwave multi-function assemblies, tuners, and transceivers, as well as graphics and video; and integrated subsystems. The company also designs, develops, and manufactures digital radio frequency memory units for various modern electronic warfare applications; radar environment simulation and test systems for defense and intelligence applications; and signals intelligence payloads and EO/IR technologies for small UAV platforms, as well as onboard UAV processor systems for real-time wide area motion imagery. It operates in the United States, Europe, and the Asia Pacific. The company was formerly known as Mercury Computer Systems, Inc. and changed its name to Mercury Systems, Inc. in November 2012. Mercury Systems, Inc. was incorporated in 1981 and is headquartered in Andover, Massachusetts.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MRNA": {
+      "symbol": "MRNA",
+      "name": "Moderna, Inc.",
+      "summary": "Moderna, Inc., a biotechnology company, provides messenger RNA medicines in the United States, Europe, and internationally. The company's respiratory vaccines include spikevax, mNEXSPIKE, mRESVIA, COVID, RSV, seasonal influenza, combination, and pandemic influenza vaccine; latent vaccines comprise cytomegalovirus, epstein-barr virus, and human immunodeficiency virus vaccines; enteric viruses include norovirus; public health vaccines consist of Zika, Nipah, and Mpox vaccines; and bacterial diseases vaccines, such as lyme vaccines. It also provides oncology therapeutics, such as intismeran autogene, cancer antigen therapy, t-cell engager, and cell therapy enhancer; and rare disease products, including propionic and methylmalonic acidemia, and cystic fibrosis. It has strategic alliances and collaborations with Merck & Co., Inc; Vertex Pharmaceuticals Incorporated; Vertex Pharmaceuticals (Europe) Limited; immatics N.V.; Defense Advanced Research Projects Agency; Biomedical Advanced Research and Development Authority; Institute for Life Changing Medicines; The Bill & Melinda Gates Foundation; and OpenAI. The company was formerly known as Moderna Therapeutics, Inc. and changed its name to Moderna, Inc. in August 2018. Moderna, Inc. was founded in 2010 and is headquartered in Cambridge, Massachusetts.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MRK": {
+      "symbol": "MRK",
+      "name": "Merck & Co., Inc.",
+      "summary": "Merck & Co., Inc. operates as a healthcare company worldwide. It offers human health pharmaceutical for various areas under the Keytruda, Keytruda Qlex, Welireg, Gardasil, ProQuad, M-M-R II, Varivax, Vaxneuvance, Capvaxive, RotaTeq, Pneumovax 23, Bridion, Prevymis, Dificid, Zerbaxa, Winrevair, Adempas/ Verquvo, Ohtuvayre, Lagevrio, Isentress/Isentress HD, Delstrigo, Pifeltro, Belsomra, Januvia, and Janumet brands. The company also provides veterinary pharmaceuticals, vaccines and health management solutions and services, such as livestock products under the Nuflor, Bovilis/Vista, Bovilis Cryptium, Banamine, Estrumate, Matrix, Resflor, Zuprevo, Revalor, Safe-Guard, M+Pac, Porcilis, Circumvent, Nobilis/Innovax, Paracox and Coccivac, Exzolt, Slice, Imvixa, Clynav, Aquavac/Norvax, Aquaflor, Flexolt brands; Allflex Livestock Intelligence solutions; and companion animal products under the Bravecto One-Month, Bravecto Injectable/Quantum, Bravecto TriUNO, Bravecto Plus, Sentinel Spectrum, Sentinel Flavor Tabs, Numelvi, Optimmune, Nobivac NXT, GilvetMab, Otomax, Mometamax, Mometamax Ultra, Posatex, Caninsulin/Vetsulin, Panacur, Safeguard, Regumate, Prestige, Scalibor/Exspot, Sure Petcare, and Home Again brands. It has development and commercialization agreement for three of Daiichi Sankyo's deruxtecan ADC candidates; AstraZeneca PLC to co-development and co-commercialize AstraZeneca's Lynparza products for multiple cancer types; licensed to develop, manufacture and commercialize LM-299, a novel investigational PD-1/VEGF bispecific antibody from LaNova; and collaboration agreement with Eisai Co., Ltd., Bayer AG, and Ridgeback Biotherapeutics LP, as well Moderna, Inc. Merck & Co., Inc. has strategic collaboration with Infinimmune, Inc. to discover and develop antibodies against multiple therapeutic targets. The company was founded in 1891 and is headquartered in Rahway, New Jersey.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MRP": {
+      "symbol": "MRP",
+      "name": "Millrose Properties, Inc.",
+      "summary": "Millrose Properties, Inc. is the premier permanent capital solution for residential homebuilders and developers. The company specializes in the acquisition, financing and development of residential land through long-term, capital-efficient structures. The company also provides homebuilders with a predictable, just-in-time supply of finished homesites  the scarcest and mission-critical resource in the homebuilding industry. Millrose utilizes a proprietary technology platform that provides real-time feedback and data analytics to drive acquisition decisions. Every transaction in the Millrose portfolio undergoes rigorous independent due diligence to ensure attractive yields and long-term viability. By enabling an asset-light model, Millrose provides its diverse roster of homebuilder partners with the strategic flexibility to maintain production volumes and optimize balance sheet efficiency across all market environments. Millrose Properties, Inc.is based in Miami, United States.",
+      "sector": "Real Estate",
+      "industry": "REIT - Residential",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MRVI": {
+      "symbol": "MRVI",
+      "name": "Maravai LifeSciences Holdings, Inc.",
+      "summary": "Maravai LifeSciences Holdings, Inc., a life sciences company, provides products that enable the development of drug therapies, vaccines, drug therapies, cell and gene therapies, and diagnostics North America, Europe, the Middle East, Africa, the Asia Pacific, and Latin and Central America. It operates through two segments: TRILINK and CYGNUS. The TRILINK segment manufactures and sells products for use in the fields of gene therapy, vaccines, nucleoside chemistry, and oligonucleotide therapy, as well as molecular diagnostics, including reagents used in the chemical synthesis, modification, labelling, and purification of deoxyribonucleic acid (DNA) and ribonucleic acid (RNA). This segment also offers messenger RNA, oligonucleotides, CleanCap capping technology-based oligonucleotide building blocks, and custom enzyme development and manufacturing; and research products for labeling and detecting proteins in cells and tissue samples. The CYGNUS segment sells analytical products for use in biologic manufacturing process development, including custom product-specific development antibody and assay development services. This segment also provides HCP ELISA kits, other bioprocess impurity and contaminant ELISA kits, ancillary reagents, viral clearance prediction kits, and custom services. The company's products address the key phases of biopharmaceutical development and include nucleic acids for diagnostic and therapeutic applications, and antibody-based products to detect impurities during the production of biopharmaceutical products. It serves biopharmaceutical companies, and emerging biopharmaceutical and life sciences research companies; and academic research institutions and diagnostics companies. Maravai LifeSciences Holdings, Inc. was founded in 2014 and is headquartered in San Diego, California.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MRSH": {
+      "symbol": "MRSH",
+      "name": "Marsh & McLennan Companies, Inc.",
+      "summary": "Marsh & McLennan Companies, Inc., a professional services company, provides advisory services and insurance solutions to clients in the areas of risk, strategy, and people worldwide. The company operates through Risk and Insurance Services, and Consulting segments. The Risk and Insurance Services segment offers risk management services, such as risk management, insurance broking, insurance program management, risk consulting, analytical modeling, and alternative risk financing services. This segment also offers insurance and reinsurance broking, strategic advisory and actuarial services, and analytics solutions. It serves businesses, public entities, insurance companies, associations, professional services organizations, and private clients. The Consulting segment provides health, wealth and career advice, solutions and products; and specialized management, strategic, economic, and brand consulting services. Marsh & McLennan Companies, Inc. was founded in 1871 and is headquartered in New York, New York.",
+      "sector": "Financial Services",
+      "industry": "Insurance Brokers",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MRVL": {
+      "symbol": "MRVL",
+      "name": "Marvell Technology, Inc.",
+      "summary": "Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally. The company develops and scales system-on-a-chip architectures, integrating analog, mixed-signal, and digital signal processing functionality. It offers a portfolio of ethernet solutions, including spanning controllers, network adapters, physical transceivers, and switches; single or multiple core processors; and custom application specific integrated circuits, interconnects, fibre channel adapters, and processors. The company also provides interconnect products, including pulse amplitude modulation, coherent and coherent-lite digital signal processors (DSPs), laser drivers, trans-impedance amplifiers, silicon photonics, co-packaged optics, linear pluggable optics chipsets, data center interconnect, active electrical cable DSPs and peripheral component interconnect express retimer solutions; fibre channel products comprising host bus adapters and controllers for server and storage system connectivity; storage controllers for hard disk drives and solid-state-drives; host system interfaces, including serial advanced technology attachment and serial attached SCSI, peripheral component interconnect express, compute express link switches, non-volatile memory express (NVMe), and NVMe over fabrics; and develops ultra accelerator linkTM switches and ethernet for scale-up networking switches. The company serves data centers, communications, and other markets. It offers its products through direct customers and distributors. Marvell Technology, Inc. was incorporated in 1995 and is headquartered in Wilmington, Delaware.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MRX": {
+      "symbol": "MRX",
+      "name": "Marex Group Limited",
+      "summary": "Marex Group Limited, a financial services platform company, provides liquidity, market access, and infrastructure services to clients in the commodity and financial markets in the United Kingdom, the United States, and internationally. It operates through Clearing, Agency and Execution, Market Making, and Hedging and Investment Solutions segments. The company offers execution and clearing services in metals, agricultural products, energy and fixed income, financial securities, digital assets, and equity futures and options; liquidity, execution, and risk management solutions to financial markets. It also provides liquidity to clients in the OTC energy markets; market data, analytics, and market commentary; energy services, including gas, power, environmental, and crude oil markets; and market-making services across commodities markets, such as metals, agricultural products, and energy markets. In addition, the company offers OTC traded hedging and customized OTC derivatives solutions; and risk management solutions across a spectrum of markets, including agriculture, currency, and interest rate markets for trading houses, producers and consumers, and banks and distributors. Further, it engages in the digital assets business, which allows investors to build structured notes across asset classes, including commodities, equities, foreign exchange, and fixed-income products for private banks, hedge funds, crypto-native trading firms, crypto exchange-traded product (ETP) providers, proprietary trading firms, independent asset managers, family offices, pension funds, index providers, and corporates; and a portfolio of structured Notes, OTC derivatives, crypto-settled instruments, CME crypto futures, cash and carry, and bitcoin and ethereum ETF. Additionally, the company offers technology platforms, including Neon, a trading, risk, and data platform; and Agile, a commodity broking platform. Marex Group Limited was incorporated in 2005 and is based in London, the United Kingdom.",
+      "sector": "Financial Services",
+      "industry": "Capital Markets",
+      "country": "United Kingdom",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MS": {
+      "symbol": "MS",
+      "name": "Morgan Stanley",
+      "summary": "Morgan Stanley, a financial holding company, provides various financial products and services to corporations, governments, financial institutions, and individuals in the Americas, Asia, Europe, the Middle East, and Africa. It operates through Institutional Securities, Wealth Management, and Investment Management segments. The company offers capital raising and financial advisory services, including services related to the underwriting of debt, equity securities, and other products, as well as advice on mergers and acquisitions, restructurings, and project finance. It also provides equity and fixed income products comprising sales, financing, prime brokerage, and market-making services; Asia wealth management; business-related investments services; originating corporate and commercial real estate loans, secured lending facilities, and extending securities-based and other financing; and research activities. In addition, the company offers financial advisor-led brokerage, investment advisory, custody, cash management, and administrative services; self-directed brokerage services; financial and wealth planning services; stock plan administration; securities-based lending, residential real estate loans, and other lending products; banking; and retirement plan services. Further, it provides equity, fixed income, alternatives and solutions, and liquidity and overlay services to benefit/defined contribution plans, foundations, endowments, government entities, sovereign wealth funds, insurance companies, third-party fund sponsors, corporations, and individuals. Morgan Stanley was founded in 1924 and is headquartered in New York, New York.",
+      "sector": "Financial Services",
+      "industry": "Capital Markets",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MSA": {
+      "symbol": "MSA",
+      "name": "MSA Safety Incorporated",
+      "summary": "MSA Safety Incorporated develops, manufactures, and supplies safety products and technology solutions that protect workers and facility infrastructures worldwide. The company offers breathing apparatus products, including self-contained breathing apparatus; firefighter helmets and protective apparel; and fixed gas and flame detection systems, such as fixed gas detection monitoring systems, flame detectors and open-path infrared gas detectors, and refrigerant detection and identification solution, as well as hand-held portable gas detection instruments to detect the presence or absence of various gases in the air. It also provides industrial head protection and accessories; fall protection equipment, such as confined space equipment, harnesses, lanyards, and self-retracting lifelines, as well as engineered systems; and air-purifying respirators, eye and face protection products, ballistic helmets, and gas masks. The company serves fire service, energy, utility, construction, and industrial manufacturing applications, as well as heating, ventilation, air conditioning, and refrigeration industries through distributors and end-users through indirect and direct sales channels. It offers its products under the V-Gard, Cairns, and Gallet brand names. MSA Safety Incorporated was founded in 1914 and is based in Cranberry Township, Pennsylvania.",
+      "sector": "Industrials",
+      "industry": "Security & Protection Services",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MSCI": {
+      "symbol": "MSCI",
+      "name": "MSCI Inc.",
+      "summary": "MSCI Inc., together with its subsidiaries, provides research-based data, analytics, and indexes, supported by advanced technology worldwide. The Index segment provides indexes for use in various areas of the investment process, including indexed financial products, such as ETFs, mutual funds, annuities, futures, options, structured products, and over-the-counter derivatives; performance benchmarking; portfolio construction and rebalancing; and asset allocation, as well as licenses GICS and GICS Direct. The Analytics segment offers risk management, performance attribution and portfolio management content, application, an integrated view of risk and return service, and an analysis of market, credit, liquidity, counterparty, and climate risk across asset classes; managed services, including consolidation of client portfolio data, review and reconciliation of input data and results, and customized reporting; and HedgePlatform to measure, evaluate, and monitor the risk of hedge fund investments. The Sustainability and Climate segment provides products and services that help institutional investors understand how ESG impacts the long-term risk and return of their portfolio and individual security-level investments; and data, ratings, research, and tools to assist investors navigate increasing regulation. The All Other  Private Assets segment comprises private credit, real estate and infrastructure data, benchmarks, return-analytics, climate assessments and market insights; business intelligence to real estate owners, managers, developers, and brokers; and offers investment decision support tools for private capital. The Private Capital Solutions segment offers tools to help private asset investors across mission-critical workflows, such as sourcing terms and conditions, evaluating operating performance, managing risk and other activities supporting private capital investment. MSCI Inc. was incorporated in 1998 and is based in New York, New York.",
+      "sector": "Financial Services",
+      "industry": "Financial Data & Stock Exchanges",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MSGS": {
+      "symbol": "MSGS",
+      "name": "Madison Square Garden Sports Corp.",
+      "summary": "Madison Square Garden Sports Corp. operates as a professional sports company in the United States. It owns and operates a portfolio of assets that consists of the New York Knickerbockers of the National Basketball Association (NBA) and the New York Rangers of the National Hockey League. The company's other professional franchises include development league teams, the Hartford Wolf Pack of the American Hockey League and the Westchester Knicks of the NBA G League. It also operates the Madison Square Garden Training Center, a professional sports team performance center in Greenburgh. The company was formerly known as The Madison Square Garden Company. Madison Square Garden Sports Corp. was incorporated in 2015 and is based in New York, New York.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MSGE": {
+      "symbol": "MSGE",
+      "name": "Madison Square Garden Entertainment Corp.",
+      "summary": "Madison Square Garden Entertainment Corp., through its subsidiaries, engages in live entertainment business. The company produces, presents, and hosts live entertainment events, such as concerts, sporting events, family shows, family shows, performing arts events, and special events. It holds a portfolio of venues that include Madison Square Garden, the Infosys Theater at Madison Square Garden, Radio City Music Hall, the Beacon Theatre, and The Chicago Theatre. The company also owns and produces the original production, the Christmas Spectacular Starring the Radio City Rockettes. In addition, it engages in the entertainment and sports bookings business that showcase a range of concerts, family shows, and special events, as well as various sporting events. The company was formerly known as MSGE Spinco, Inc. Madison Square Garden Entertainment Corp. was incorporated in 2022 and is based in New York, New York.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MSI": {
+      "symbol": "MSI",
+      "name": "Motorola Solutions, Inc.",
+      "summary": "Motorola Solutions, Inc. provides public safety, government, defense, and enterprise security solutions in the United States, the United Kingdom, Canada, and internationally. It operates in two segments, Products and Systems Integration, and Software and Services. The Products and Systems Integration segment offers a portfolio of infrastructure, devices, accessories, and the implementation and integration of systems, devices, software, and applications for government, including defense, public safety, and enterprise customers who operate private communications systems and video security solutions, as well as manage a mobile workforce. This segment also provides mission critical networks, and video security and access control technologies, including two-way portable and vehicle-mounted radios, video cameras, and accessories; communications network core and central processing software, base stations, consoles, and repeaters; and video analytics, network video management hardware and software, and access control solutions. The Software and Services segment offers public safety and enterprise command center, unified communications applications, mobile video equipment, and video software solutions; repair, technical support, and maintenance services; and monitoring, software updates, and cybersecurity services to government, public safety, and commercial communications networks. It serves hospitality; manufacturing; military and defence; police; air transportation; fire and rescue; stadium; emergency medical services; mining; oil and gas; transportation and logistics; utilities; education; retail; and healthcare industries. The company was formerly known as Motorola, Inc. and changed its name to Motorola Solutions, Inc. in January 2011. Motorola Solutions, Inc. was founded in 1928 and is headquartered in Chicago, Illinois.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MSTR": {
+      "symbol": "MSTR",
+      "name": "Strategy Inc",
+      "summary": "Strategy Inc, together with its subsidiaries, operates as a bitcoin treasury company in the United States, Europe, the Middle East, Africa, and internationally. It offers investors varying degrees of economic exposure to Bitcoin by offering a range of securities, including equity and fixed income instruments. The company also provides AI-powered enterprise analytics software, including Strategy One, which provides non-technical users with the ability to directly access novel and actionable insights for decision-making. In addition, the company provides Strategy Mosaic, a universal intelligence layer that offers enterprises with consistent definitions and governance across data sources, regardless of where that data resides or which tools access it. The company was formerly known as MicroStrategy Incorporated and changed its name to Strategy Inc in August 2025. The company was incorporated in 1989 and is headquartered in Tysons Corner, Virginia.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MSM": {
+      "symbol": "MSM",
+      "name": "MSC Industrial Direct Co., Inc.",
+      "summary": "MSC Industrial Direct Co., Inc., together with its subsidiaries, engages in the distribution of metalworking and maintenance, repair, and operations (MRO) products and services in the United States, Canada, Mexico, the United Kingdom, and internationally. The company's metalworking and MRO products include cutting tools, abrasives, machining fluids, measuring instruments, metalworking products, machinery and accessories, tooling components, fasteners, flat stock products, raw materials, machinery hand and power tools, safety and janitorial supplies, plumbing supplies, materials handling products, power transmission components, and electrical supplies. It also offers stock-keeping units through its catalogs and brochures; e-commerce channels, including its website; inventory management solutions; and customer care centers, customer fulfillment centers, regional inventory centers and warehouses. In addition, the company serves individual machine shops, manufacturing companies, and government agencies. MSC Industrial Direct Co., Inc. was founded in 1941 and is headquartered in Melville, New York.",
+      "sector": "Industrials",
+      "industry": "Industrial Distribution",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MTB": {
+      "symbol": "MTB",
+      "name": "M&T Bank Corporation",
+      "summary": "M&T Bank Corporation operates as a bank holding company for Manufacturers and Traders Trust Company and Wilmington Trust, National Association that provides retail and commercial banking products and services in the United States. The company operates through three segments: Commercial Bank, Retail Bank, and Institutional Services and Wealth Management. It offers a range of credit products and banking services, such as commercial lending and leasing, letters of credits, deposit products, cash management services, commercial real estate loans, and credit facilities secured by various commercial real estate properties to middle-market and large commercial customers. The company also provides customers deposit products, including demand, savings and time accounts, and other services; automobile and recreational finance loans, home equity loans and lines of credit, credit cards, and other loan products, as well as residential mortgage and real estate loans; business loans, cash management, payroll, direct deposit, and merchant credit card services to consumers and small businesses through branch network, telephone banking, internet banking, and automated teller machines. In addition, it offers trustee, agency, investment management, and administrative services; personal trust, planning and advisory, fiduciary, asset management, family office, and other services; and investment products, including mutual funds and annuities, and other services for corporations and institutions, investment bankers, corporate tax, finance and legal executives, and other institutional clients. M&T Bank Corporation was founded in 1856 and is headquartered in Buffalo, New York.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MT": {
+      "symbol": "MT",
+      "name": "ArcelorMittal S.A.",
+      "summary": "ArcelorMittal S.A., together with its subsidiaries, operates as integrated steel and mining companies in the Americas, Europe, Asia, and Africa. It offers semi-finished flat products, including slabs; finished flat products comprising plates, hot- and cold-rolled coils and sheets, hot-dipped and electro-galvanized coils and sheets, tinplate, and color coated coils and sheets; semi-finished long products, such as blooms and billets; finished long products consisting of bars, wire-rods, structural sections, rails, sheet piles, and wire-products; and seamless and welded pipes and tubes. The company also provides mining products, such as iron ore lumps, fines, concentrate, pellets, and sinter feeds; and coking coal. It sells its products to various customers in the automotive, appliance, engineering, construction, energy, and machinery industries through a centralized marketing organization, and distributors. The company operates iron ore mining activities in Brazil, Bosnia, Liberia, Mexico, South Africa, and Ukraine, as well as in India and in Canada. ArcelorMittal S.A. was founded in 1976 and is headquartered in Luxembourg, Luxembourg.",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "country": "Luxembourg",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MTD": {
+      "symbol": "MTD",
+      "name": "Mettler-Toledo International Inc.",
+      "summary": "Mettler-Toledo International Inc. manufactures and supplies precision instruments and services in the Americas, Europe, Asia, and internationally. It operates through five segments: U.S. Operations, Swiss Operations, Western European Operations, Chinese Operations, and Other Operations. The company offers laboratory instruments, such as laboratory balances, liquid pipetting solutions, real-time analytics, titrators, pH meters, process analytics sensors and analyzer technologies, density and refractometry instruments, and thermal analysis systems; and other analytical instruments, including UV/VIS spectrophotometers, moisture analyzers, and cell counters, as well as LabX, a laboratory software platform to manage and analyze data generated by its instruments and automate workflows. It also provides industrial instruments comprising industrial weighing instruments and related terminals, automatic dimensional measurement and data capture solutions, vehicle scale systems, industrial software, metal detectors, x-ray systems, checkweighers, and camera-based imaging equipment. In addition, the company offers retail weighing solutions consisting of weighing and software solutions, AI-driven image recognition solutions for fresh goods, and automated packaging and labeling solutions for the meat backroom. The company serves pharmaceutical and biotech companies, independent research organizations, and testing labs; food manufacturers and retailers; chemical, specialty chemicals, and cosmetics companies; transportation and logistics, metals, and electronics industries; and academic community through its direct sales force and indirect distribution channels. Mettler-Toledo International Inc. was incorporated in 1991 and is headquartered in Greifensee, Switzerland.",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "country": "Switzerland",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MTCH": {
+      "symbol": "MTCH",
+      "name": "Match Group, Inc.",
+      "summary": "Match Group, Inc. provides digital technologies in the United States and internationally. It operates through four segments: Tinder, Hinge, Evergreen and Emerging, and Match Group Asia. The company's portfolio of brands includes Tinder, Hinge, Match, Meetic, OkCupid, Pairs, Plenty Of Fish, Azar, BLK, and other brands, built to increase users' likelihood of connecting with others. It provides tailored services to meet the various preferences of its users. Match Group, Inc. was incorporated in 1986 and is based in Dallas, Texas.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MTG": {
+      "symbol": "MTG",
+      "name": "MGIC Investment Corporation",
+      "summary": "MGIC Investment Corporation, through its subsidiaries, provides private mortgage insurance, other mortgage credit risk management solutions, and ancillary services in the United States, the District of Columbia, Puerto Rico, and Guam. The company offers primary insurance that provides mortgage default protection on individual loans, as well as covers unpaid loan principal, delinquent interest, and various expenses associated with the default and subsequent foreclosure on the mortgage or sale of the underlying property. It also provides contract underwriting services, as well as reinsurance services. The company serves originators of residential mortgage loans, including savings institutions, commercial banks, mortgage brokers, credit unions, mortgage bankers, and other lenders. The company was founded in 1957 and is headquartered in Milwaukee, Wisconsin.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Specialty",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MTDR": {
+      "symbol": "MTDR",
+      "name": "Matador Resources Company",
+      "summary": "Matador Resources Company, an independent energy company, engages in the acquisition, exploration, development, and production of oil and natural gas resources in the United States. It operates through two segments, Exploration and Production; and Midstream. The company primarily holds interests in the Wolfcamp and Bone Spring plays in the Delaware Basin in Southeast New Mexico and West Texas. It also operates the Haynesville shale and Cotton Valley plays in Northwest Louisiana. In addition, the company conducts midstream operations in support of its exploration, development, and production operations. Further, it provides natural gas processing and oil transportation services; and oil, natural gas, and produced water gathering services, as well as produced water disposal services to third parties, as well as sells natural gas to unaffiliated independent marketing companies and unaffiliated midstream companies. The company was formerly known as Matador Holdco, Inc. and changed its name to Matador Resources Company in August 2011. Matador Resources Company was incorporated in 2003 and is headquartered in Dallas, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MTH": {
+      "symbol": "MTH",
+      "name": "Meritage Homes Corporation",
+      "summary": "Meritage Homes Corporation, together with its subsidiaries, designs and builds single-family attached and detached homes in the United States. The company operates through two segments: Homebuilding and Financial Services. It acquires and develops land; and constructs, markets, and sells homes for entry-level and first move-up buyers in Arizona, California, Colorado, Utah, Texas, Alabama, Florida, Georgia, Mississippi, North Carolina, South Carolina, and Tennessee. The company also provides title and escrow, mortgage, insurance, title insurance, and closing/settlement services to its homebuyers. Meritage Homes Corporation was founded in 1985 and is based in Scottsdale, Arizona.",
+      "sector": "Consumer Cyclical",
+      "industry": "Residential Construction",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MTN": {
+      "symbol": "MTN",
+      "name": "Vail Resorts, Inc.",
+      "summary": "Vail Resorts, Inc., together with its subsidiaries, operates mountain resorts and regional ski areas in the United States and internationally. The company operates in three segments: Mountain, Lodging, and Real Estate. The Mountain segment operates destination mountain resorts and regional ski areas. This segment is also involved in ancillary activities, including ski school, dining, and retail/rental operations, as well as real estate brokerage activities. The lodging segment owns and manages various luxury hotels and condominiums under the RockResorts brand; operates other lodging properties and various condominiums; and offers resort ground transportation services. The Real Estate segment owns, develops, and sells real estate properties. Vail Resorts, Inc. was founded in 1962 and is based in Broomfield, Colorado.",
+      "sector": "Consumer Cyclical",
+      "industry": "Resorts & Casinos",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MTRN": {
+      "symbol": "MTRN",
+      "name": "Materion Corporation",
+      "summary": "Materion Corporation, together with its subsidiaries, produces advanced engineered materials in the United States, Asia, Europe, and internationally. The company operates in four segments: Performance Materials, Electronic Materials, Precision Optics, and Other. It provides beryllium and non-beryllium containing alloy systems and custom engineered metal solutions in strip, bulk, rod, plate, bar, tube, and other customized shapes; engineering and product development services; alloyed metals, beryllium products, and beryllium hydroxide; precision strip, rod, wire, and engineered strip metal products; ToughMet alloys; and SupremEX aluminum silicon carbide metal matrix composite formulation products. The company also operates the bertrandite ore mine and refinery that provides feedstock hydroxide for its beryllium businesses and external sale. In addition, it produces advanced chemicals, microelectronics packaging, precious and non-precious metal, and specialty metal products, including vapor deposition targets, frame lid assemblies, clad and precious metal pre-forms, and high temperature braze materials. Further, the company designs and manufactures precision thin film coatings, optical filters, and assemblies. In addition, it offers inorganic chemicals and powders, specialty coatings, specialty engineered beryllium and copper-based alloys, beryllium composites, ceramics, and engineered clad and plated metal systems. The company sells its products to semiconductor, industrial, aerospace and defense, automotive, energy, consumer electronics, and life sciences through its facilities and service centers, independent distributors and agents, outside distributors, direct sales offices, and independent sales representatives. The company was formerly known as Brush Engineered Materials Inc. and changed its name to Materion Corporation in March 2011. Materion Corporation was founded in 1921 and is based in Mayfield Heights, Ohio.",
+      "sector": "Basic Materials",
+      "industry": "Other Industrial Metals & Mining",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MTSI": {
+      "symbol": "MTSI",
+      "name": "MACOM Technology Solutions Holdings, Inc.",
+      "summary": "MACOM Technology Solutions Holdings, Inc., together with its subsidiaries, provides analog semiconductor solutions for use in wireless and wireline applications across the radio frequency (RF), microwave, millimeter wave, and lightwave spectrum. The company offers a portfolio of standard and custom devices, including integrated circuits, multi-chip modules, diodes, amplifiers, switches and switch limiters, passive and active components, and subsystems. Its semiconductor products are electronic components that are incorporated in electronic systems, such as wireless base stations, optical networks, radar and medical systems, satellite networks, and test and measurement applications. The company serves carrier infrastructure, which comprise long-haul/metro, 5G and 6G infrastructure, satellite communications, and fiber-to-the-X/passive optical network; industrial and defense, including military and commercial radar, RF jammers, electronic countermeasures, and communication data links, as well as multi-market applications, such as industrial, medical, test and measurement, and scientific applications; and data centers. It sells its products through direct sales force, applications engineering staff, independent sales representatives, resellers, and distributors. The company operates in the United States, China, Japan, Singapore, South Korea, Taiwan, and internationally. MACOM Technology Solutions Holdings, Inc. was formerly known as M/A-Com Technology Solutions Holdings, Inc. and changed its name to MACOM Technology Solutions Holdings, Inc. in 2016. MACOM Technology Solutions Holdings, Inc. was founded in 1950 and is based in Lowell, Massachusetts.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MUFG": {
+      "symbol": "MUFG",
+      "name": "Mitsubishi UFJ Financial Group, Inc.",
+      "summary": "Mitsubishi UFJ Financial Group, Inc., together with its subsidiaries, provides various financial products and services in Japan, the United States, Europe, the Middle East, Asia, Oceania, and internationally. It operates through seven segments: Retail and Digital Business; Corporate and Wealth Management Business; Corporate Banking Business; Global Commercial Banking Business; Asset Management Business; Global CIB Business; and Market Business. The company offers retail, commercial, digital, corporate, and investment banking; wealth management; loans; settlement services; merger and acquisition; asset management; investor services; pensions; consulting services; bonds; forex and derivatives; equities; market trading; liabilities; treasury and other related operations; and liquidity and cash flow management services. It is also involved in trust banking; securities; leasing; venture capital; renewable energy; factoring; research; software development; information processing and technology; SR and IR support; investment trust and real estate asset management; investment advising; real estate brokering; credit solution business; credit and prepaid cards; loan guarantees; agency services for credit purchases; and servicer activities. The company was formerly known as Mitsubishi Tokyo Financial Group Inc. and changed its name to Mitsubishi UFJ Financial Group, Inc. in October 2005. Mitsubishi UFJ Financial Group, Inc. was founded in 1880 and is headquartered in Chiyoda, Japan.",
+      "sector": "Financial Services",
+      "industry": "Banks - Diversified",
+      "country": "Japan",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MTZ": {
+      "symbol": "MTZ",
+      "name": "MasTec, Inc.",
+      "summary": "MasTec, Inc., an infrastructure engineering and construction company, provides engineering, building, installation, maintenance, and upgrade services for communications, energy, utility, and other infrastructure primarily in the United States and Canada. It operates through five segments: Communications, Clean Energy and Infrastructure, Power Delivery, Pipeline Infrastructure, and Other. The company builds infrastructure for wireless and wireline/fiber communications; clean energy infrastructure comprising renewable energy power generation; pipeline infrastructure, including natural gas, water, carbon capture sequestration, and other product transport; power delivery services, such as electrical and gas transmission, and distribution systems; industrial and heavy civil infrastructure, including roads, bridges, and rail; and water infrastructure. It also installs electrical and other gas distribution and transmission systems, power generation, civil and industrial facilities, pipelines, and fiber optic and other cables, as well as install-to-the-home services. In addition, the company offers maintenance and upgrade support services comprising maintenance of customers' distribution facilities, networks, and infrastructure, including communications, power generation, pipeline, electrical distribution and transmission, and civil and industrial infrastructure; emergency restoration services for natural disasters and accidents; and routine replacements and upgrades to overhauls. Its customers include wireless and wireline/fiber service providers, broadband operators, install-to-the-home service providers, public and private energy providers, including renewable and other energy providers, pipeline operators, civil, transportation, and water and wastewater pipeline installation services, industrial infrastructure providers, as well as government entities. MasTec, Inc. was founded in 1929 and is headquartered in Coral Gables, Florida.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MUR": {
+      "symbol": "MUR",
+      "name": "Murphy Oil Corporation",
+      "summary": "Murphy Oil Corporation, together with its subsidiaries, operates as an oil and gas exploration and production company in the United States, Canada, and internationally. It explores for and produces crude oil, natural gas, and natural gas liquids. Murphy Oil Corporation was formerly known as Murphy Corporation and changed its name to Murphy Oil Corporation in 1964. The company was incorporated in 1950 and is headquartered in Houston, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MUSA": {
+      "symbol": "MUSA",
+      "name": "Murphy USA Inc.",
+      "summary": "Murphy USA Inc., together with subsidiaries, engages in marketing of retail motor fuel products and convenience merchandise. The company operates retail stores under the Murphy USA, Murphy Express, and QuickChek brands, as well as operates non-fuel convenience stores. It operates retail gasoline stores principally in the Southeast, Southwest, and Midwest areas of the United States. Murphy USA Inc. was founded in 1996 and is headquartered in El Dorado, Arkansas.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MWA": {
+      "symbol": "MWA",
+      "name": "Mueller Water Products, Inc.",
+      "summary": "Mueller Water Products, Inc. manufactures and markets products and services for the transmission, distribution, and measurement of water used by municipalities, and the residential and non-residential construction industries in the United States, Canada, and internationally. It operates in two segments, Water Flow Solutions and Water Management Solutions. The Water Flow Solutions segment provides valves for water systems, such as iron gate, butterfly, tapping, check, knife, plug, and ball valves, which are used to control distribution and transmission of potable water and non-potable water, as well as in water transmission or distribution, water treatment facilities, or industrial applications. It also offers service brass products. The Water Management Solutions segment offers dry-barrel and wet-barrel fire hydrants for water infrastructure development; fire protection systems, and water infrastructure repair and replacement projects; pipe repair products, such as couplings, grips, and clamps used to repair leaks; residential, fire protection, and commercial water metering products and systems; water leak detection and pipe condition assessment products and services; machines and tools for tapping, drilling, extracting, installing, and stopping-off; gas valve products for use in gas distribution systems; and intelligent water solutions, including pressure control valves, advanced pressure management, network analytics, event management, and date logging. It sells its products under the Canada Valve, Centurion, Ez-Max, Hydro Gate, Hydro-Guard, HYMAX, HYMAX VERSA, Jones, Krausz, Milliken, Mueller Systems, Mueller, Pratt, Pratt Industrial, Repamax, Repaflex, Singer, Echologics, Echoshore, ePulse, Hersey, LeakFinderRT, Sentryx, and U.S. Pipe Valve and Hydrant brands. Mueller Water Products, Inc. was founded in 1857 and is headquartered in Atlanta, Georgia.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MUX": {
+      "symbol": "MUX",
+      "name": "McEwen Inc.",
+      "summary": "McEwen Inc. engages in the exploration, development, production, and sale of gold and silver deposits in the United States, Canada, Mexico, and Argentina. It also explores for copper deposits. The company owns 100% interests in the Gold Bar gold mine located in Nevada; the Fox Complex that consists of 132 parcels, including patents and leases, and 163 unpatented mining claims totaling 28 square miles in mining rights, as well as 13 square miles in surface rights located in Ontario, Canada; and the Fenix project located in Mexico. It also holds a portfolio of exploration properties in Nevada, Canada, Mexico, and Argentina. The company was formerly known as McEwen Mining Inc. and changed its name to McEwen Inc. in June 2025. McEwen Inc. was incorporated in 1979 and is headquartered in Toronto, Canada.",
+      "sector": "Basic Materials",
+      "industry": "Other Precious Metals & Mining",
+      "country": "Canada",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MWH": {
+      "symbol": "MWH",
+      "name": "SOLV Energy, Inc.",
+      "summary": "SOLV Energy, Inc. provides infrastructure services to the power industry in the United States. It offers engineering, procurement, construction, testing, commissioning, operations, maintenance, and repowering services. The company engages in designing, building, and maintaining utility-scale solar and battery storage projects, and related transmission and distribution infrastructure. It also provides operations and maintenance services. The company serves project developers, independent power producers, and utilities. SOLV Energy, Inc. was founded in 2008 and is headquartered in San Diego, California.",
+      "sector": "Utilities",
+      "industry": "Utilities - Renewable",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MXL": {
+      "symbol": "MXL",
+      "name": "MaxLinear, Inc.",
+      "summary": "MaxLinear, Inc. provides communications systems-on-chip solutions in the United States, Asia, Europe, and internationally. Its products integrate various portions of a high-speed communication system, including radio frequency, high-performance analog, mixed-signal, digital signal processing, security engines, data compression and networking layers, and power management. Its products are used in various electronic devices, such as radio transceivers and modems for 4G/5G base-station and backhaul infrastructure; optical transceivers; wi-fi and wireline routers for home networking; broadband modems compliant with data over cable service interface specifications, passive optical fiber standards, and digital subscriber line, as well as power management and interface products. It serves electronics distributors, module makers, original equipment manufacturers, and original design manufacturers through a direct sales force, third-party sales representatives, and a network of distributors. The company has a strategic collaboration with Edgecore Networks Corporation for the development network infrastructure for enterprise and SMB applications. MaxLinear, Inc. has strategic partnership with GCT Semiconductor Holding, Inc. to develop 5G fixed wireless access (FWA) gateways and converged gateways for consumer and enterprise applications. The company was incorporated in 2003 and is headquartered in Carlsbad, California.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MYRG": {
+      "symbol": "MYRG",
+      "name": "MYR Group Inc.",
+      "summary": "MYR Group Inc., through its subsidiaries, provides electrical construction services in the United States and Canada. The company operates through two segments: Transmission and Distribution, and Commercial and Industrial. Its Transmission and Distribution segment offers a range of services on electric transmission and distribution networks, and substation facilities, including design, engineering, procurement, construction, upgrade, maintenance, and repair services with primary focus on construction, maintenance, and repair to customers in the electric utility industry; and services, including construction and maintenance of high voltage transmission lines, substations, and lower voltage underground and overhead distribution systems, clean energy projects, and electric vehicle charging infrastructure services, as well as emergency restoration services in response to hurricane, wildfire, ice storm, or other related damages. This segment serves as prime contractor to customers, such as investor-owned utilities, cooperatives, private developers, government-funded utilities, independent power producers, independent transmission companies, industrial facility owners, and other contractors. The Commercial and Industrial segment provides a range of services, including design, installation, maintenance, and repair of commercial and industrial wiring; and installation of intelligent transportation systems, roadway lighting, and signalization for airports, hospitals, data centers, hotels, stadiums, commercial and industrial facilities, clean energy projects, manufacturing plants, processing facilities, water/waste-water treatment facilities, mining facilities, intelligent transportation systems, roadway lighting, signalization, and electric vehicle charging infrastructure. This segment serves general contractors, commercial and industrial facility owners, governmental agencies, and developers. MYR Group Inc. was founded in 1891 and is headquartered in Thornton, Colorado.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "MZTI": {
+      "symbol": "MZTI",
+      "name": "The Marzetti Company",
+      "summary": "The Marzetti Company engages in manufacturing and marketing of specialty food products for the retail and foodservice channels in the United States. It operates in two segments, Retail and Foodservice. The Retail segment offers frozen garlic bread under the New York Bakery brand; frozen Parkerhouse style yeast and dinner rolls under the Sister Schubert's brand; salad dressings under the Marzetti, Cardini's, Marzetti Simply, and Girard's brands; vegetable and fruit dips under the Marzetti brand; Japanese barbecue sauces and dips under the Bachan's brand; and croutons and toppings under the New York Bakery, Chatham Village, and Marzetti brands. Its Foodservice segment sells custom-formulated sauces, salad dressings, frozen breads, yeast rolls, and frozen pasta under the Marzetti, Sister Schubert's, and Marzetti Frozen Pasta brands, as well as private labels for chain restaurants. The company sells its products through sales personnel, food brokers, and distributors to retailers and restaurants. The company was formerly known as Lancaster Colony Corporation and changed its name to The Marzetti Company in June 2025. The Marzetti Company was founded in 1896 and is based in Westerville, Ohio.",
+      "sector": "Consumer Defensive",
+      "industry": "Packaged Foods",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NAMS": {
+      "symbol": "NAMS",
+      "name": "NewAmsterdam Pharma Company N.V.",
+      "summary": "NewAmsterdam Pharma Company N.V., a late-stage biopharmaceutical company, develops therapies to enhance patient care in populations with cardiometabolic disease. It is developing Obicetrapib, an oral low-dose cholesteryl ester transfer protein (CETP) inhibitor, that is in various clinical trials as a monotherapy and a combination therapy with ezetimibe for lowering LDL-C for cardiovascular diseases. The company also develops Obicetrapib which is in Phase 2a clinical trial for Alzheimer's disease. NewAmsterdam Pharma Company N.V. is headquartered in Naarden, the Netherlands.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "Netherlands",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NAT": {
+      "symbol": "NAT",
+      "name": "Nordic American Tankers Limited",
+      "summary": "Nordic American Tankers Limited, a tanker company, owns, operates, and charters double-hull tankers in Bermuda and internationally. As of December 31, 2025, the company fleet consisted of 20 Suezmax crude oil tankers. It serves oil companies, oil traders, and other entities requiring crude oil transportation services. The company was formerly known as Nordic American Tanker Shipping Limited and changed its name to American Tankers Limited in June, 2011. The company was incorporated in 1995 and is based in Hamilton, Bermuda.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "country": "Bermuda",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NATL": {
+      "symbol": "NATL",
+      "name": "NCR Atleos Corporation",
+      "summary": "NCR Atleos Corporation, a financial technology company, engages in the provision of self-directed banking solutions to financial institutions, merchants, manufacturers, retailers, and consumers in the United States, rest of the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates through three segments: Self-Service Banking; Network; and Telecommunications & Technology (T&T). It offers solutions, including a line of automated teller machine (ATM) hardware and software, as well as elated installation, maintenance, and managed and professional services; and ATM as a service to manage and run for financial institutions that include back office, cash management, software management, and ATM deployment. The company also provides network of ATMs and multi-functioning financial services kiosks for financial institutions, financial technology companies, neobanks, and retailers; Allpoint network which provides cash withdrawal and deposit access to credit unions, banks, digital banks, fintechs, stored-value debit card issuers, and other consumer financial services providers; and ATM branding solutions to financial institutions, ATM management and services to retailers and other businesses, and LibertyX solution which gives consumers the ability to buy and sell Bitcoin. In addition, it offers managed network and infrastructure services to enterprise clients across various industries through communications service providers and technology manufacturers; and professional, field, and remote services for modern network technologies, including software-defined wide area networking, network functions virtualization, wireless local area networks, optical networking, and edge networks. NCR Atleos Corporation was founded in 1884 and is headquartered in Atlanta, Georgia.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NAVN": {
+      "symbol": "NAVN",
+      "name": "Navan, Inc.",
+      "summary": "Navan, Inc. operates an AI-powered software platform to simplify the travel and expense experience, benefiting users, customers, and suppliers. The company offers AI-powered travel, payments, and expense management solutions to streamline the travel lifecycle, from booking and policy enforcement to payment processing, expense reconciliation, and reporting. It serves finance, human resources, travel managers, inventory, and other markets. It has partnership with OpenTable Partner for AI-Powered Business Travel Planning. Navan, Inc. was formerly known as TripActions, Inc. and changed its name to Navan, Inc. in February 2023. The company was incorporated in 2015 and is based in Palo Alto, California.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NBIS": {
+      "symbol": "NBIS",
+      "name": "NBIS",
+      "summary": "Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-skilling individuals for careers in technolgy; and Avride, which develops autonomous driving technology for self-driving cars and delivery robotics. It has a strategic alliance with NVIDIA Corporation to support the expansion of the company's AI cloud infrastructure. The company was formerly known as Yandex N.V. and changed its name to Nebius Group N.V. in August 2024. Nebius Group N.V. was founded in 1989 and is based in Schiphol, the Netherlands.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "country": "Netherlands",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NBIX": {
+      "symbol": "NBIX",
+      "name": "Neurocrine Biosciences, Inc.",
+      "summary": "Neurocrine Biosciences, Inc. discovers, develops, and commercialize pharmaceuticals for neurological, psychiatric, endocrine, and immunological disorders in the United States and internationally. The company's products include INGREZZA for tardive dyskinesia and chorea associated with Huntington's disease; Orilissa tablets for endometriosis; Oriahnn capsules to treat uterine fibroids; and CRENESSITY to treat congenital adrenal hyperplasia, as well as offers products under the name of ALKINDI and Efmody. Its product candidates in clinical development includes NBI-1076986 to treat movement disorders; Osavampator for inadequate response to treatment in major depressive disorder; NBI-1117568 for the treatment of schizophrenia and bipolar mania; NBI-1117567 for the treatment of Alzheimer's disease; NBI 921355 for the treatment of epilepsy; NBIP-01435 for the treatment of congenital adrenal hyperplasia; NBIP-2118 for the treatment of obesity and related metabolic diseases; and NBI-1070770 to treat major depressive disorder; and NBI-1117570, NBI-1117567, NBI-1117569, NBI-1140675, and NBI-1065890 for neuropsychiatric and neurological conditions. The company also has license and collaboration agreements with Nxera Pharma UK Limited; Takeda Pharmaceutical Company Limited; Xenon Pharmaceuticals Inc.; Voyager Therapeutics, Inc.; Sanofi S.A.; Tanabe Pharma Corporation; and AbbVie Inc. The company was incorporated in 1992 and is headquartered in San Diego, California.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NCLH": {
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings Ltd.",
+      "summary": "Norwegian Cruise Line Holdings Ltd., together with its subsidiaries, operates as a cruise company in North America, Europe, the Asia-Pacific, and internationally. It offers itineraries to destinations, such as Europe, Asia, Australia, New Zealand, South America, Africa, Canada, Bermuda, the Caribbean, and Alaska; and inter-island itinerary in Hawaii. The company also provides features, amenities, and activities, including various accommodations, dining venues, bars and lounges, spas, casino and retail shopping areas, and entertainment choices; shore excursions at each port of call, and air transportation and hotel packages for stays before or after a voyage. It offers its products and services under the Norwegian Cruise Line, Oceania Cruises, and Regent Seven Seas Cruises brands. The company was founded in 1966 and is based in Miami, Florida.",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NBR": {
+      "symbol": "NBR",
+      "name": "Nabors Industries Ltd.",
+      "summary": "Nabors Industries Ltd. provides drilling and drilling-related services for land-based and offshore oil and natural gas wells in the United States and internationally. The company operates through four segments: U.S. Drilling, International Drilling, Drilling Solutions, and Rig Technologies. The company offers tubular running services, including casing and tubing running, and torque monitoring; managed pressure drilling services; and drilling-bit steering systems and rig instrumentation software. The company also offers drilling systems comprising ROCKit, a directional steering control system; SmartNAV, a collaborative guidance and advisory platform; SmartSLIDE, a directional steering control system; and RigCLOUD, a digital infrastructure that integrate applications to deliver real-time insight into operations across the rig fleet. In addition, it operates a fleet of land-based drilling rigs and marketed platforms rigs; manufactures and sells top drives, catwalks, wrenches, drawworks, and other drilling related equipment, such as robotic systems and downhole tools; and provides aftermarket sales and services for the installed base of its equipment. Nabors Industries Ltd. was founded in 1952 and is based in Hamilton, Bermuda.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Drilling",
+      "country": "Bermuda",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NDAQ": {
+      "symbol": "NDAQ",
+      "name": "Nasdaq, Inc.",
+      "summary": "Nasdaq, Inc. operates as a technology company that serves capital markets and other industries in the United States and internationally. It operates through three segments: Capital Access Platforms, Financial Technology, and Market Services. The company distributes historical and real-time market data; develops and licenses Nasdaq-branded indices and financial products; provides investor relations intelligence, governance solutions, and sustainability solution products for public and private companies, and organizations, as well as insights and workflow solutions; and operates listing platforms. It also offers Verafin, a cloud-based platform to detect, investigate, and report money laundering and financial frauds; AxiomSL, a risk data management and regulatory reporting solution; cloud-enabled and on-premises surveillance solutions to assist in complying with market rules, regulations, and internal market surveillance policies; Calypso, a platform providing cross-asset, front-to-back trading, treasury, risk, and collateral management solutions; and trade management and colocation services, as well as handles assets comprising cash equities, equity derivatives, currencies, various interest-bearing securities, commodities, energy products, and digital currencies. In addition, the company provides equity derivative trading and clearing, cash equity trading and fixed income, currency and commodities trading, and fixed income trading and clearing services, as well as tape plan data services; operates various exchanges, including derivatives, commodities, cash equity, debt, structured products, and exchange traded products; and offers clearing, settlement, and central depository services. The company was formerly known as The NASDAQ OMX Group, Inc. and changed its name to Nasdaq, Inc. in September 2015. Nasdaq, Inc. was founded in 1971 and is headquartered in New York, New York.",
+      "sector": "Financial Services",
+      "industry": "Financial Data & Stock Exchanges",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NCNO": {
+      "symbol": "NCNO",
+      "name": "nCino, Inc.",
+      "summary": "nCino, Inc., a software-as-a-service company, provides software solutions to financial institutions in the United States, the United Kingdom, and internationally. It offers solutions on the nCino Platform, including an Onboarding solution that streamlines and enhances the customer onboarding process through a digital platform for credit and non-credit onboarding, commercial account opening, and enterprise-level onboarding; and an Account Opening solution, which includes a Deposit Account Opening solution for consumers and small businesses. The company also provides Lending, which provides a loan origination platform for commercial, consumer, small business, and mortgage lending, such as the Commercial Loan Origination System that automates the loan lifecycle; Consumer Lending solution, which offers an omnichannel solution with automated credit decisioning and integrations; and Small Business Loan Origination solution for automation and machine learning. In addition, it offers Credit Monitoring, manages credit risks, monitors performance, and uncovers growth opportunities through a data-driven platform; Portfolio Analytics solution, which offers customizable dashboards to track loan, deposit, and application data; and Integration & Intelligence, provides integration capabilities to connect core banking systems, fintech applications, and third-party services via open APIs and a partner marketplace. The company serves global, enterprise, regional, and community banks, credit unions, challenger banks, and independent mortgage banks, business development managers, account executives, field sales engineers, and customer success managers. nCino, Inc. was founded in 2011 and is headquartered in Wilmington, North Carolina.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NDSN": {
+      "symbol": "NDSN",
+      "name": "Nordson Corporation",
+      "summary": "Nordson Corporation engineers, manufactures, and markets products and systems to dispense, apply, and control adhesives, coatings, polymers, sealants, biomaterials, medical components, and other fluids. The Industrial Precision Solutions segment provides dispensing, coating, and laminating systems for adhesives, lotions, liquids, and fibers to disposable products and roll goods; automated adhesive dispensing systems; components and systems for thermoplastic and biopolymer melt stream; fluid components, such as nozzles, pumps, and filters; smart components that measure and control the flow, quantity and location of dispensed fluid; control systems; and product assembly solutions. It also offers automated and manual dispensing products and systems for cold materials, container coating, liquid finishing, and powder coating, as well as ultraviolet equipment. The Medical and Fluid Solutions segment offers precision manual and semi-automated dispensers, plastic molded syringes, cartridges, tips, and fluid connection components; interventional solutions for engineered shafts and interventional delivery systems, medical tubing, balloons, balloon inflators, nitinol devices, cardiovascular cannula, and biomaterial delivery; medical fluid components; and microplegia myocardial protection devices and related consumables. The Advanced Technology Solutions segment provides automated dispensing systems for high-speed, precise application of various attachment, protection, and coating fluids, and related gas plasma treatment systems; destructive and non-destructive testing technologies, such as bond testers and automated optical, acoustic microscopy, and x-ray inspection systems used in the semiconductor and printed circuit board industries; and precision measurement and control technologies. The company markets its products through direct sales force, distributors, and sales representatives. Nordson Corporation was founded in 1909 and is headquartered in Westlake, Ohio.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NE": {
+      "symbol": "NE",
+      "name": "Noble Corporation plc",
+      "summary": "Noble Corporation plc operates as an offshore drilling contractor for the oil and gas industry worldwide. It provides contract drilling services through its fleet of mobile offshore drilling units. The company also operates drilling rigs, such as floaters and jackups. It serves its fleets in Africa, the Far East Asia, the North Sea, the Oceania, South America, and the United States Gulf of America. Noble Corporation plc was founded in 1921 and is headquartered in Houston, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Drilling",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NEE": {
+      "symbol": "NEE",
+      "name": "NextEra Energy, Inc.",
+      "summary": "NextEra Energy, Inc., through its subsidiaries, generates, stores, transmits, distributes, and sells electric power to retail and wholesale customers in North America. It operates through Florida Power & Light Company (FPL) and NEER segments. The company generates electricity from wind, solar, nuclear, natural gas, and other clean energy assets. It also invests in generation, storage, transmission, and distribution facilities; owns, develops, constructs, manages, and operates generation facilities, including renewables, nuclear and natural gas, and battery storage facilities in the wholesale energy market in the United States and Canada, as well as electric and gas transmission assets, and natural gas pipelines; provides full energy and capacity requirement services; markets and trades in energy-related commodities; and participates in the production of natural gas, natural gas liquids, and oil. As of December 31, 2025, the company had approximately 35,963 megawatts of net generating capacity; approximately 93,000 circuit miles of transmission and distribution lines; and 932 substations. It serves approximately 12 million people through approximately 6 million customer accounts on the east and lower west coasts of Florida. The company was formerly known as FPL Group, Inc. and changed its name to NextEra Energy, Inc. in 2010. NextEra Energy, Inc. was founded in 1925 and is headquartered in Juno Beach, Florida.",
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Electric",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NEM": {
+      "symbol": "NEM",
+      "name": "Newmont Corporation",
+      "summary": "Newmont Corporation operates as a gold producer. It also explores for copper, silver, lead, zinc, and other metals. It has operations and/or assets in the United States, Papua New Guinea, Australia, Ghana, Suriname, Argentina, Dominican Republic, Chile, Peru, Ecuador, Mexico, and Canada. The company was founded in 1916 and is headquartered in Denver, Colorado.",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NEO": {
+      "symbol": "NEO",
+      "name": "NeoGenomics, Inc.",
+      "summary": "NeoGenomics, Inc. operates a network of cancer-focused testing laboratories in the United States and the United Kingdom. The company offers testing services to hospitals, academic centers, pathologists, oncologists, clinicians, pharmaceutical companies, and clinical laboratories. It also provides cytogenetics testing services to study normal and abnormal chromosomes and their relationship to diseases; fluorescence in-situ hybridization testing services that focus on detecting and locating the presence or absence of specific DNA sequences and genes on chromosomes; flow cytometry testing services to measure the characteristics of cell populations; and immunohistochemistry and digital imaging testing services to localize cellular proteins in tissue section, as well as to allow clients to visualize scanned slides, and perform quantitative analysis for various stains. In addition, the company offers molecular testing services, which focus on the analysis of DNA and/or RNA, and the structure and function of genes at the molecular level; morphologic analysis, which is the process of analyzing cells under the microscope by a pathologist for the purpose of diagnosis; and testing services in support of its pharmaceutical clients' oncology programs covering discovery and commercialization. The company was founded in 2001 and is headquartered in Fort Myers, Florida.",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NESR": {
+      "symbol": "NESR",
+      "name": "National Energy Services Reunited Corp.",
+      "summary": "National Energy Services Reunited Corp. provides oilfield services in the Middle East and North Africa. The company's Production Services segment offers hydraulic fracturing services; coiled tubing services, including nitrogen lifting, fishing, milling, clean-out, scale removal, and other well applications; stimulation and pumping services; primary and remedial cementing services; nitrogen services; filtration services, as well as frac tanks and pumping units; and pipeline and industrial services, such as water filling and hydro testing, nitrogen purging, and de-gassing and pressure testing, as well as cutting/welding and cooling down piping/vessels systems. This segment also provides production assurance chemicals; integrated production management projects; artificial lift services; and surface and subsurface safety systems, high-pressure packer systems, flow controls, service tools, expandable liner technology, vacuum insulated tubing technology for steam applications, and engineering capabilities with manufacturing capacity and testing facilities, as well as sources and treats water for oil and gas, municipal, and industrial use. The Drilling and Evaluation Services segment offers drilling and workover rigs; rigs and integrated services; fishing and remediation solutions; directional and turbines drilling; drilling fluid systems and related technologies; wireline logging; slickline services, descaling, wax and sand cleanout, plug setting, gas lift valve changeout, fishing and other complex well applications; and well testing services to measure solids, gas, and oil and water produced from well, as well as drilling tools and machine shop services. This segment also provides oilfield solutions for thru-tubing intervention; tubular running services; and a range of wellhead products, flow control equipment, and frac equipment. National Energy Services Reunited Corp. was incorporated in 2017 and is headquartered in Houston, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NEOG": {
+      "symbol": "NEOG",
+      "name": "Neogen Corporation",
+      "summary": "Neogen Corporation develops, manufactures, and markets various products and services for food and animal safety in the United States and internationally. It operates through Food Safety and Animal Safety segments. The company offers diagnostic test kits and complementary products to detect dangerous and/or unintended substances in human food and animal feed, such as foodborne pathogens, spoilage organisms, natural toxins, food allergens, ruminant by-products, meat speciation, drug residues, pesticide residues, and general sanitation concerns. It also provides reagents and test kits used in immunoassay production, forensic and animal toxicology, and life science research; unique colorimetric and chemiluminescent substrates for research use; veterinary instruments and delivery systems under the Ideal and Prima Tech brands; and precision instruments designed for injections, topical and oral administration, artificial insemination, and animal identification for farmers, ranchers, and veterinarian under the Prima Tech brand. In addition, the company offers digestive aids and nutritional supplements; Natural Vitamin E-AD to address vitamin deficiencies in swine, cattle, and sheep; RenaKare; companion animal parasiticides under Provecta brand; BotVax B; EqStim; ImmunoRegulin; companion animal parasiticides under the Provecta brand; rodent and insect control products under the Ramik, CyKill, Havoc, Prozap, SureKill, and StandGuard brands. Further, it markets Uniprim, a veterinary antibiotic; operates sgenomics labs offering DNA genotyping, sequencing, and trait analysis for livestock and companion animals; and provides software systems that help testers to analyze and store results and perform analysis. The company has a strategic collaboration with Hinalea Imaging Corp. to develop digital imaging solutions for food safety and quality inspection. Neogen Corporation was incorporated in 1981 and is headquartered in Lansing, Michigan.",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NEXT": {
+      "symbol": "NEXT",
+      "name": "NextDecade Corporation",
+      "summary": "NextDecade Corporation, an energy company, engages in the construction and development activities related to the liquefaction of natural gas in the United States. The company constructs and develops natural gas liquefaction and export facilities located in the Rio Grande Valley near Brownsville, Texas; and a carbon capture and storage project at the Rio Grande LNG Facility. It is also involved in the sale of LNG. NextDecade Corporation was founded in 2010 and is based in Houston, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NFG": {
+      "symbol": "NFG",
+      "name": "National Fuel Gas Company",
+      "summary": "National Fuel Gas Company operates as a diversified energy company. It operates through Integrated Upstream and Gathering, Pipeline and Storage, and Utility segments. The Integrated Upstream and Gathering segment explores for, develops, and produces natural gas and oil. It also builds, owns, and operates gathering facilities in the Appalachian region, as well as provides gathering services to Seneca. The Pipeline and Storage segment provides interstate natural gas transportation services through an integrated gas pipeline system in Pennsylvania and New York; and storage services through its underground natural gas storage fields. This segment also transports and stores natural gas for National Fuel Gas Distribution Corporation, as well as for utilities, industrial companies, and power producers in New York State. The Utility segment sells natural gas to retail customers; and provides natural gas utility services to various customers in Buffalo, Niagara Falls, and Jamestown, New York, as well as in Erie and Sharon, Pennsylvania. National Fuel Gas Company was incorporated in 1902 and is headquartered in Williamsville, New York.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NFLX": {
+      "symbol": "NFLX",
+      "name": "Netflix, Inc.",
+      "summary": "Netflix, Inc. provides entertainment services worldwide. The company offers television (TV) series, documentaries, feature films, games, and live programming across various genres and languages. It also provides members the ability to receive streaming content through a host of internet-connected devices, including TVs, digital video players, TV set-top boxes, and mobile devices. Netflix, Inc. was incorporated in 1997 and is headquartered in Los Gatos, California.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NEU": {
+      "symbol": "NEU",
+      "name": "NewMarket Corporation",
+      "summary": "NewMarket Corporation, through its subsidiaries, primarily engages in the manufacture and sale of petroleum additives. It offers lubricant additives for use in various vehicle and industrial applications, including engine oils, transmission fluids, off-road powertrain and hydraulic systems, gear oils, hydraulic oils, turbine oils, and other applications where metal-to-metal moving parts are utilized; engine oil additives designed for passenger cars, motorcycles, on and off-road heavy duty commercial equipment, locomotives, and engines in ocean-going vessels; driveline additives designed for products, such as transmission fluids, axle fluids, and off-road powertrain fluids; and industrial additives designed for products for industrial applications consisting of hydraulic fluids, greases, industrial gear fluids, and industrial specialty applications comprising turbine oils. The company also provides fuel additives that are used to enhance the oil refining process and the performance of gasoline, diesel, biofuels, and other fuels to industry, government, original equipment manufacturers, and individual customers. In addition, it engages in the marketing of antiknock compounds, as well as contracted manufacturing and related services; and owns and manages a real property in Virginia. The company operates in North America, Latin America, the Asia Pacific, Europe, the Middle East, Africa, India, and internationally. NewMarket Corporation was founded in 1887 and is headquartered in Richmond, Virginia.",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NG": {
+      "symbol": "NG",
+      "name": "NovaGold Resources Inc.",
+      "summary": "NovaGold Resources Inc. operates in the gold mining industry, focusing on the exploration and development of gold mineral properties in the United States. The company's principal asset owns 60% interest in the Donlin Gold project consisting of 493 mining claims covering an area of approximately 29,008 hectares located in the Kuskokwim and Mt. McKinley Recording Districts. The company was formerly known as NovaCan Mining Resources (1985) Limited and changed its name to NovaGold Resources Inc. in March 1987. NovaGold Resources Inc. was incorporated in 1984 and is based in Vancouver, Canada.",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "country": "Canada",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NGG": {
+      "symbol": "NGG",
+      "name": "National Grid plc",
+      "summary": "National Grid plc engages in the transmission and distribution of electricity and gas. It operates through UK Electricity Transmission, UK Electricity Distribution, New England, New York, National Grid Ventures, and Other segments. The UK Electricity Transmission segment provides electricity transmission networks in England and Wales. The UK Electricity Distribution segment offers electricity distribution services in east and west Midlands, Southwest of England, and South Wales. The New England segment provides electricity and gas supply and distribution, and high-voltage electricity transmission services in New England. The New York segment offers electricity and gas distribution, and electricity transmission services in New York. The National Grid Ventures segment provides transmission services through electricity interconnectors and LNG importation at the Isle of Grain. The Other segment engages in the leasing and sale of commercial property, as well as insurance activities in the United Kingdom. The company was founded in 1990 and is headquartered in London, the United Kingdom.",
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Electric",
+      "country": "United Kingdom",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NHI": {
+      "symbol": "NHI",
+      "name": "National Health Investors, Inc.",
+      "summary": "National Health Investors, Inc. is a self-managed real estate investment trust (REIT). The Company owns, leases, operates and finances the development of high-quality real estate properties in the United States, focusing on senior housing communities and medical facilities. The Company operates through two reportable segments, Real Estate Investments and SHOP. The Company's real estate property investments include independent living facilities, assisted living facilities, entrance fee communities, senior living campuses, skilled nursing facilities and hospitals. National Health Investors, Inc. was established on October 15th, 1991, and was incorporated in 1991 in Maryland and is based in Murfreesboro, Tennessee.",
+      "sector": "Real Estate",
+      "industry": "REIT - Healthcare Facilities",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NHC": {
+      "symbol": "NHC",
+      "name": "National HealthCare Corporation",
+      "summary": "National HealthCare Corporation engages in the operation of services to skilled nursing facilities, assisted and independent living facilities, homecare and hospice agencies, and health hospitals. It operates through two segments: Inpatient and Homecare and Hospice Services. The company's skilled nursing facilities offer licensed therapy services, nutrition services, social services, activities, and housekeeping and laundry services, as well as medical services prescribed by physicians; and rehabilitative services, such as physical, speech, respiratory, and occupational therapy for patients recovering from strokes, heart attacks, orthopedic conditions, neurological illnesses, or other illnesses, injuries, or disabilities. It provides medical specialty units comprise memory care units and sub-acute nursing units that provide specialized care and programs for persons with Alzheimer's or related disorders; and assisted living facilities offer personal care services and assistance with general activities of daily living, such as dressing, bathing, meal preparation, and medication management. Its independent living facilities offers specially designed residential units for the active and ambulatory elderly and provide various ancillary services for residents, including restaurants, activity rooms and social areas; and behavioral health services to both adults and geriatric patients with psychiatric, emotional, and addictive disorders. In addition, the company homecare agencies assist those who wish to stay at home or in assisted living residences but still require some degree of medical care or assistance with daily activities; hospice agencies that provides hospice and palliative care; and operates pharmacies, as well as managed care insurance solutions. Further, the company offers management, accounting, and financial services; and leases its properties to third party operators. The company was founded in 1971 and is based in Murfreesboro, Tennessee.",
+      "sector": "Healthcare",
+      "industry": "Medical Care Facilities",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NI": {
+      "symbol": "NI",
+      "name": "NiSource Inc.",
+      "summary": "NiSource Inc., an energy holding company, operates as a regulated natural gas and electric utility company in the United States. It operates in two segments, Columbia Operations and NIPSCO Operations. The company provides natural gas to residential, commercial, and industrial customers through approximately 37,300 miles of distribution main pipeline and the associated individual customer service lines; and 310 miles of transmission main pipeline in Ohio, Pennsylvania, Virginia, Kentucky, and Maryland. It also generates, transmits, and distributes electricity to approximately 0.5 million customers in various counties in the northern part of Indiana, as well as engages in wholesale electric and transmission transactions. It owns and operates steam coal generating stations in Wheatfield and Michigan City; combined cycle gas turbine in West Terre Haute; natural gas generating units in Wheatfield; hydro generating plants in Carroll County and White County; wind generating units in White County; and solar generating units in Sullivan County, Gibson County, Jasper County, and White County. The company was formerly known as NIPSCO Industries, Inc. and changed its name to NiSource Inc. in April 1999. NiSource Inc. was founded in 1847 and is headquartered in Merrillville, Indiana.",
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Gas",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NIC": {
+      "symbol": "NIC",
+      "name": "Nicolet Bankshares, Inc.",
+      "summary": "Nicolet Bankshares, Inc. operates as the bank holding company for Nicolet National Bank that provides banking products and services for businesses and individuals in Wisconsin, Michigan, and Minnesota. The company accepts demand deposits, checking, savings, and money market accounts; various certificates of deposit; and individual retirement accounts. It also offers commercial loans, including commercial, industrial, and business loans and lines of credit; commercial real estate loans; agricultural (AG) production and AG real estate loans; commercial real estate investment loans; construction and land development loans; residential real estate loans, such as residential first lien and junior lien mortgages, home equity loans, and residential construction loans; and consumer loans. In addition, the company provides cash management, international banking, personal brokerage, safe deposit boxes, and trust and fiduciary services, as well as wealth management and retirement plan services. Further, it offers mortgage refinancing; online services, such as commercial, retail, and trust online banking; automated bill payment, mobile banking deposits and account access, and remote deposit capture services; and other services consisting of wire transfers, debit cards, credit cards, pre-paid gift cards, direct deposits, and official bank checks, as well as facilitates crop insurance products. The company was formerly known as Green Bay Financial Corporation and changed its name to Nicolet Bankshares, Inc. in March 2002. The company was incorporated in 2000 and is headquartered in Green Bay, Wisconsin.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "country": "United States",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "NICE": {
+      "symbol": "NICE",
+      "name": "NICE Ltd.",
+      "summary": "NICE Ltd., together with its subsidiaries, provides AI-powered cloud platforms for customer engagement, and financial crime and compliance in the United States, Europe, the Middle East, Africa, and the Asia Pacific. It operates in two segments, Customer Engagement; and Financial Crime and Compliance. The Customer Engagement segment provides CXone Mpower platform for organizations to automate service, augment the workforce with AI-powered solutions, and unify enterprise knowledge, data and AI models resolutions, and customer experiences. The Financial Crime and Compliance segment offers embedded-AI solutions that identify risks and help prevent money laundering and fraud, as well as help ensure financial markets compliance in real-time. It also provides NICE Evidencentral, a digital evidence management and investigation platform for criminal justice system. In addition, the company offers NiCE Actimize provides cloud platforms embedded with AI capabilities for real-time and cross-channel fraud prevention, know-your-customer, anti-money laundering, and capital markets compliance; X-Sight, an open AI-cloud platform for Financial Crime and Compliance, enabling financial services organizations; Xceed which provides AI, data intelligence, machine learning, and insights for AML and fraud prevention for small and mid-sized organizations; cloud platforms provide financial services organizations with the agility required to adapt changing regulatory and threat landscapes; data intelligence solutions enable organizations to turn raw data into actionable intelligence to prevent and detect financial crimes; AI and analytics; intelligent investigations solutions; and self-service solutions. The company also develops NiCE Labs, a AI innovation initiatives for customer experience and related solutions. The company was formerly known as NICE-Systems Ltd. and changed its name to NICE Ltd. in June 2016. NICE Ltd. was incorporated in 1986 and is headquartered in Ra'anana, Israel.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "Israel",
+      "updated": "2026-10-15",
+      "source": "Yahoo Finance via yfinance"
     }
   }
 }
