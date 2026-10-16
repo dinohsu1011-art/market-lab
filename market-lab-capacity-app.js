@@ -5,6 +5,8 @@ const companyColors = {
   Microsoft: "var(--microsoft)",
   Oracle: "var(--oracle)",
   SpaceX: "var(--spacex)",
+  OpenAI: "var(--openai)",
+  Anthropic: "var(--anthropic)",
 };
 
 const rentalColors = [
@@ -36,28 +38,19 @@ function renderDashboard(data) {
   const kgiNames = {AMZN: 'Amazon', GOOGL: 'Google', MSFT: 'Microsoft', META: 'Meta'};
   const kgiCompanies = research.kgi.map(c => ({
     name: kgiNames[c.name],
-    outlook: `KGI: ${c.fleet[3]} GW fleet at end-2027; +${c.additions[2]} GW in 2027. Quarterly bars = annual additions ÷ 4.`,
+    outlook: `KGI: ${c.fleet[3]} GW fleet at end-2027; +${c.additions[2]} GW in 2027. Quarterly additions = annual additions ÷ 4.`,
     values: quarters.map(([,year]) => {
       const i = Number(year) - 2025;
       return i >= 0 && i < c.additions.length ? [c.additions[i] / 4, 'implied'] : null;
     })
   }));
   data = {...data, companies: [...kgiCompanies, ...data.companies.filter(c => !['Amazon','Microsoft','Google','Meta'].includes(c.name)).map(c => ({...c, outlook: (c.name === 'Oracle' ? 'Q2 / Q3 2026: 0.30 / 0.85 GW reported (user updates, Sep 11). ' : 'Prior workbook: ') + c.outlook}))]};
-  const labTotal = name => research.labs.find(l => l.name === name).rows.reduce((s,r) => s+r[2],0);
-  const annual2027 = research.kgi.reduce((s,c) => s+c.additions[2],0);
-  const metrics = [
-    {label:'KGI 2027 additions',value:annual2027,unit:'GW',note:`Top 4 · ${(annual2027/4).toFixed(1)} GW/qtr allocation`},
-    {label:'KGI 2027 fleet',value:research.kgi.reduce((s,c) => s+c.fleet[3],0),unit:'GW',note:'Top 4 cumulative · year-end'},
-    {label:'Anthropic EOY 2027',value:labYear('Anthropic',2027).toFixed(1),unit:'GW',note:'Chart-implied · 49% of combined labs'},
-    {label:'OpenAI EOY 2027',value:labYear('OpenAI',2027).toFixed(1),unit:'GW',note:'Chart-implied · 51% of combined labs'}
-  ];
   const companies = data.companies.map((company) => ({
     ...company,
     color: companyColors[company.name] || "var(--benchmark)",
   }));
-  const labCompanies = ['OpenAI','Anthropic'].map(name => ({name, lab:true,
-    color:name==='OpenAI'?'var(--microsoft)':'var(--oracle)',
-    outlook:'Approximate global compute allocation from the supplied charts. See lab estimate methodology below.',
+  const labCompanies = ['OpenAI','Anthropic'].map(name => ({name, lab:true, color:companyColors[name],
+    outlook:'Approximate global compute allocation from the supplied charts. See lab estimate methodology under the capacity figures.',
     values:quarters.map(([q,y])=>{const s=labFleet(name,Number(y),Number(q.slice(1)));return s?.addition == null ? null : [s.addition,'implied'];})}));
   const xaiIndex=companies.findIndex(c=>c.name==='SpaceX'||c.name==='xAI');
   companies.splice(xaiIndex<0?companies.length:xaiIndex+1,0,...labCompanies);
@@ -70,22 +63,12 @@ function renderDashboard(data) {
     ...agreement,
     color: agreementColors[index % agreementColors.length],
   }));
-  const capacityValues = companies.flatMap((company) => company.values.filter(Boolean).map(([value]) => Number(value)));
-  const maxCapacity = Math.max(2.2, ...capacityValues) * 1.05;
-  const maxRental = Math.max(55, ...rentalRates.map((item) => Number(item.value))) * 1.02;
-
-  document.querySelector("#summaryStrip").innerHTML = metrics.map((metric) => `
-    <div class="metric">
-      <p class="metric-label">${metric.label}</p>
-      <div class="metric-value-line"><span class="metric-value">${metric.value}</span><span class="metric-unit">${metric.unit}</span></div>
-      <p class="metric-note">${metric.note}</p>
-    </div>`).join("");
 
   chartData = {quarters, companies};
   renderCapacityChart();
 
   document.querySelector("#outlookList").innerHTML = companies.map((company) => `
-    <div class="outlook-item"><div class="outlook-company" style="color:${company.color}">${company.name}</div><div class="outlook-copy">${company.outlook}</div></div>`).join("");
+    <div class="outlook-item"><div class="outlook-company" style="color:${company.color}">${company.name === 'SpaceX' ? 'xAI' : company.name}</div><div class="outlook-copy">${company.outlook}</div></div>`).join("");
 
   window.renderDealChart(rentalRates);
 
@@ -95,81 +78,28 @@ function renderDashboard(data) {
 }
 
 let chartData;
-let capacityPeriod = 'quarterly';
-let annualOverlay = true;
-let qoqGrowth = false;
+// Capacity chart: every company on one shared GW axis (chart kit in market-lab-capacity-comps.js).
+const capacityState = {source: 'kgi', period: 'quarterly', measure: 'fleet', compareYear: '2027', jefView: 'annual', jefMeasure: 'jef',
+  hidden: new Set(), sinoHidden: new Set(), compareHidden: new Set(), jefHidden: new Set(), plansHidden: new Set()};
+const capacityTicker = {Amazon: 'AMZN', Google: 'GOOGL', Microsoft: 'MSFT', Meta: 'META'};
+const gw = (v, long) => v == null ? '–' : (Math.abs(v) >= 10 ? v.toFixed(1) : v.toFixed(long ? 2 : 1)) + ' GW';
+const gwCell = v => formatCapacity(v.toFixed(2));
+const displayName = name => name === 'SpaceX' ? 'xAI' : name;
 
-function annualEntry(company, year) {
-  if(company.lab) {const end=labYear(company.name,Number(year)),start=labYear(company.name,Number(year)-1);return {value:end==null||start==null?null:end-start,status:'implied'};}
-  const names = {Amazon:'AMZN', Google:'GOOGL', Microsoft:'MSFT', Meta:'META'};
-  const kgi = window.capacityResearch.kgi.find(c => c.name === names[company.name]);
-  if (kgi) return {value:kgi.additions[Number(year)-2025], status:'implied', note:'KGI full-year estimate'};
-  const indices = chartData.quarters.map((q,i) => q[1] === year ? i : -1).filter(i => i >= 0);
-  const values = indices.map(i => company.values[i]);
-  if (indices.length !== 4 || values.some(v => !v)) return {value:null, note:'Full-year data unavailable'};
-  return {value:values.reduce((s,v) => s+Number(v[0]),0), status:values.every(v => v[1] === 'reported') ? 'reported' : 'implied', note:'Sum of four workbook quarters'};
-}
-
-let capacitySource = 'kgi';
 const sinopacCapacity = [
-  {name:'AWS', values:[12,30], prior:'25–30', color:'var(--amazon)'},
-  {name:'Azure', values:[10,26], prior:'25+', color:'var(--microsoft)'},
-  {name:'GCP', values:[8,24], prior:'20', color:'var(--reflection)'},
+  {name:'AWS', values:[12,30], prior:'25–30', color:'var(--amazon)', kgi:'AMZN'},
+  {name:'Azure', values:[10,26], prior:'25+', color:'var(--microsoft)', kgi:'MSFT'},
+  {name:'GCP', values:[8,24], prior:'20', color:'var(--capacity-gold)', kgi:'GOOGL'},
   {name:'OCI', values:[2,12.5], prior:'7', color:'var(--oracle)'},
-  {name:'Meta', values:[5,14], prior:'10–13', color:'#75618c'},
-  {name:'xAI', values:[2.2,10], prior:'N/A', color:'#52677e'},
-  {name:'CoreWeave', values:[0.8,8], prior:'5.5–6.5', color:'#766c48'},
-  {name:'Nebius', values:[12,5], prior:'2–3', color:'#8b7080', disputed:true},
-  {name:'Tesla', values:[0.5,2], prior:'2', color:'#a74549'}
+  {name:'Meta', values:[5,14], prior:'10–13', color:'var(--capacity-purple)', kgi:'META'},
+  {name:'xAI', values:[2.2,10], prior:'N/A', color:'var(--spacex)'},
+  {name:'Tesla', values:[0.5,2], prior:'2', color:'var(--tesla)'},
+  {name:'CoreWeave', short:'CRWV', values:[0.8,8], prior:'5.5–6.5', color:'var(--coreweave)'},
+  {name:'Nebius', short:'NBIS', values:[12,5], prior:'2–3', color:'var(--nebius)', disputed:true}
 ];
-function renderSinopacCapacity() {
-  const chart=document.querySelector('#capacityChart');
-  chart.classList.add('annual-mode','sinopac-mode');
-  chart.classList.remove('growth-mode','cumulative-stacked','with-annual-overlay');
-  chart.style.setProperty('--period-count',2);
-  chart.innerHTML='<div class="quarter-header"><div></div><div class="quarter-cell"><span>2025</span><span>Source baseline</span></div><div class="quarter-cell forecast-period"><span>2030E</span><span>Cumulative capacity</span></div></div>'+sinopacCapacity.map(c=>`<div class="company-chart-group" style="--series:${c.color}"><div class="capacity-row"><div class="company-label" style="color:${c.color}">${c.name}</div>${c.values.map((v,i)=>c.disputed&&!i?'<div class="capacity-cell"><span class="capacity-empty" title="Source prints 12 GW; 1.2 GW correction unverified. Company reports 0.17 GW global active power at end-2025.">Unresolved*</span></div>':`<div class="capacity-cell${i?' estimate-cell':''}"><div class="capacity-bar" style="height:${Math.max(3,v/30*48)}px" title="${c.name}: ${v} GW${c.disputed&&!i?' — screenshot value disputed; does not reconcile to stated total':''}. Previous 2030 forecast (year-end 2025): ${c.prior} GW"><span class="bar-value">${v}${c.disputed&&!i?'*':''}</span></div></div>`).join('')}</div></div>`).join('');
-  document.querySelector('.capacity-heading h2').textContent='SinoPac · Cumulative Capacity';
-  document.querySelector('.capacity-heading > div > p').textContent='U.S. data-center capacity · GW · supplied 2026 estimate';
-  document.querySelector('.capacity-heading .legend').innerHTML='<span>2025 baseline</span><span class="opacity-key"><i></i>2030 forecast</span>';
-  document.querySelector('.chart-method').textContent='Source: user-supplied SinoPac Investment Consulting table (2026). Only 2025 and 2030 supplied; no intervening years or quarterly timing inferred. *Nebius 2025 is printed as 12 GW: not plotted because the basis is unresolved. 1.2 GW is not verified; it would sum to 41.7 GW versus the stated 43 GW. Company-reported global active power was 0.17 GW at end-2025; the 1.2 GW Missouri campus is a planned project announced in 2026. See verification below. CoreWeave 800 MW interpreted as 0.8 GW. 2030 rows sum to 131.5 GW (source rounds to 132). Hover bars for the previous 2030 forecast. Geography/power basis may differ from KGI. Summary cards and adjacent outlook remain the current model.';
-  setSourceKey([
-    ['Source', 'SinoPac Investment Consulting (2026). OpenAI and Anthropic rows are implied from Altimeter and SemiAnalysis charts.'],
-    ['Figure shown', 'Total capacity in place at the end of 2025 and the end of 2030'],
-    ['Region', 'SinoPac: United States. OpenAI and Anthropic: global.'],
-    ['Years', '2025 and 2030E only']
-  ]);
-}
-function renderBrokerCapacity() {
-  const years=[2025,2026,2027,2028,2029,2030];
-  const tickers={AWS:'AMZN',GCP:'GOOGL',Azure:'MSFT',Meta:'META'};
-  const chart=document.querySelector('#capacityChart');
-  chart.classList.add('annual-mode','broker-paired');
-  chart.classList.remove('growth-mode','cumulative-stacked','with-annual-overlay','sinopac-mode');
-  chart.style.setProperty('--period-count',years.length);
-  const currentYear=Number(window.capacityResearch.asOf.slice(0,4));
-  const interpolate=(start,end,y)=>start+(end-start)*(y-2025)/5;
-  const cells=(values,max,total=false)=>years.map((y,i)=>`<div class="capacity-cell broker-pair${y>currentYear?' estimate-cell':''}">${values[i].map((value,j)=>value===null?`<span class="broker-unavailable" title="${j?'Nebius 2025 baseline unresolved; annual path cannot be interpolated':'KGI estimate not supplied for this company/year'}">N/D</span>`:`<div class="capacity-bar" style="--series:${j?'var(--oracle)':'var(--amazon)'};height:${value/max*82}px" title="${j?'SinoPac':'KGI'} ${y}: ${formatCapacity(value)} GW${total?(j?' — nine-company source aggregate; not a sum of displayed rows':' — four-company coverage total'):''}${j&&y>2025&&y<2030?' — linear interpolation':''}"><span class="bar-value">${formatCapacity(value)}</span></div>`).join('')}</div>`).join('');
-  chart.innerHTML=`<div class="quarter-header"><div></div>${years.map(y=>`<div class="quarter-cell${y>currentYear?' forecast-period':''}"><span>FY</span><span>${y}${y>currentYear?'E':''}</span></div>`).join('')}</div>`+sinopacCapacity.map(sino=>{
-    const k=window.capacityResearch.kgi.find(r=>r.name===tickers[sino.name]);
-    const values=years.map(y=>[k?.fleet[y-2024]??null,sino.disputed&&y!==2030?null:interpolate(sino.values[0],sino.values[1],y)]);
-    return `<div class="company-chart-group" style="--series:${sino.color}"><div class="capacity-row"><div class="company-label" style="color:${sino.color}">${sino.name}${sino.disputed?'*':''}</div>${cells(values,36)}</div></div>`;
-  }).join('');
-  const totals=years.map(y=>[y<=2028?window.capacityResearch.kgi.reduce((sum,k)=>sum+k.fleet[y-2024],0):null,interpolate(43,132,y)]);
-  chart.innerHTML+=`<div class="company-chart-group broker-total"><div class="capacity-row"><div class="company-label">Total<small>KGI: 4 companies<br>SinoPac: 9 companies<br>Separate scale: 0–140 GW</small></div>${cells(totals,140,true)}</div></div>`;
-  document.querySelector('.capacity-heading h2').textContent='Annual Cumulative Fleet · KGI vs SinoPac';
-  document.querySelector('.capacity-heading > div > p').textContent='Gigawatts (GW) · paired year-end capacity';
-  document.querySelector('.capacity-heading .legend').innerHTML='<span><i class="legend-swatch" style="background:var(--amazon)"></i>KGI (left)</span><span><i class="legend-swatch" style="background:var(--oracle)"></i>SinoPac (right)</span><span class="opacity-key"><i></i>Future period</span>';
-  document.querySelector('.chart-method').textContent='SinoPac 2026–2029 linearly interpolated between supplied 2025 and 2030 figures; not published annual forecasts. KGI covers four companies through 2028; other entries are N/D. *Nebius has an unresolved 2025 baseline, so only its 2030 target is plotted. Total uses KGI’s four-company sum versus SinoPac’s stated nine-company 43 / 132 GW aggregates, interpolated independently: it is not a like-for-like coverage comparison or a sum of displayed SinoPac rows. SinoPac’s source totals do not reconcile with the disputed 2025 rows; 2030 rows sum to 131.5 GW, rounded to 132. Total bars use a separate 0–140 GW scale; company bars share 0–36 GW. SinoPac is labeled U.S. capacity; KGI scope may differ. Summary cards and outlook retain the current model.';
-  setSourceKey([
-    ['Source', 'KGI (left bar) vs SinoPac Investment Consulting (right bar). OpenAI and Anthropic rows are implied from Altimeter and SemiAnalysis charts.'],
-    ['Figure shown', 'Total capacity in place at each year-end'],
-    ['Region', 'KGI: global. SinoPac: United States.'],
-    ['Years', '2025–2030E. KGI stops at 2028. SinoPac 2026–2029 are straight-line fill-ins between its 2025 and 2030 figures.']
-  ]);
-}
+
 // Jefferies Exhibit 5 (source: Jefferies, Aterio): hyperscaler planned projects vs
 // JEF estimated deliveries, North America only, 2026E–2030E. Source prints MW.
-let jefView = 'annual';
 const jefYears = [2026,2027,2028,2029,2030];
 const jefferiesCapacity = [
   {name:'Amazon', color:'var(--amazon)', planned:[1505,3337,3283,7529,6536], jef:[1505,2925,1855,1913,1913]},
@@ -180,42 +110,6 @@ const jefferiesCapacity = [
 ];
 // Printed source totals; company rows round, so these differ from row sums by ≤1 MW.
 const jefferiesTotal = {planned:[6209,8370,10130,17965,13815], jef:[6209,7527,6537,5859,4461]};
-function renderJefferiesCapacity() {
-  const cumulative = jefView === 'cumulative';
-  const toGW = values => {let run=0;return values.map(v=>{run+=v;return (cumulative?run:v)/1000;});};
-  const fmt1 = v => v.toFixed(1);
-  const chart = document.querySelector('#capacityChart');
-  chart.classList.add('annual-mode','jef-mode');
-  chart.classList.remove('growth-mode','cumulative-stacked','with-annual-overlay','sinopac-mode','broker-paired','plans-mode');
-  chart.style.setProperty('--period-count',jefYears.length);
-  const rows = jefferiesCapacity.map(c => ({...c, p:toGW(c.planned), j:toGW(c.jef)}));
-  const total = {p:toGW(jefferiesTotal.planned), j:toGW(jefferiesTotal.jef)};
-  const max = Math.max(...rows.flatMap(r => r.p));
-  const totalMax = Math.max(...total.p);
-  const cells = (r, scale, label) => jefYears.map((y,i) => {
-    const share = r.p[i] ? Math.round(r.j[i]/r.p[i]*100) + '% of plan' : 'no plan';
-    const bar = (v,kind) => `<div class="capacity-bar ${kind==='Planned'?'jef-planned':''}" style="height:${Math.max(v?2:0,v/scale*82)}px" title="${label} ${y}${cumulative?' cumulative':''}: ${kind} ${fmt1(v)} GW · JEF estimate = ${share}"><span class="bar-value">${fmt1(v)}</span></div>`;
-    return `<div class="capacity-cell broker-pair">${bar(r.p[i],'Planned')}${bar(r.j[i],'JEF estimate')}</div>`;
-  }).join('');
-  chart.innerHTML = `<div class="quarter-header"><div></div>${jefYears.map(y=>`<div class="quarter-cell"><span>FY</span><span>${y}E</span></div>`).join('')}</div>`
-    + rows.map(r => `<div class="company-chart-group" style="--series:${r.color}"><div class="capacity-row"><div class="company-label" style="color:${r.color}">${r.name}${r.note?`<small>${r.note}</small>`:''}</div>${cells(r,max,r.name)}</div></div>`).join('')
-    + `<div class="company-chart-group broker-total" style="--series:var(--ink)"><div class="capacity-row"><div class="company-label">Total<small>5 companies<br>Separate scale</small></div>${cells(total,totalMax,'Total')}</div></div>`
-    + `<div class="jef-share-row"><div>JEF ÷ planned</div>${jefYears.map((_,i)=>`<div>${Math.round(total.j[i]/total.p[i]*100)}%</div>`).join('')}</div>`;
-  document.querySelector('.capacity-heading h2').textContent = cumulative ? 'Jefferies · Cumulative Planned vs Delivered' : 'Jefferies · Planned vs Delivered';
-  document.querySelector('.capacity-heading > div > p').textContent = 'Gigawatts (GW) · North America · ' + (cumulative ? 'running total from 2026' : 'annual');
-  document.querySelector('.capacity-heading .legend').innerHTML = '<span><i class="legend-swatch jef-planned-key"></i>Hyperscaler plan (left)</span><span><i class="legend-swatch" style="background:var(--ink)"></i>JEF estimate (right)</span>';
-  document.querySelector('.chart-method').textContent = 'Source: user-supplied Jefferies Exhibit 5 (Jefferies, Aterio), North America only. Planned = projects the hyperscalers have announced; JEF estimate = what Jefferies expects to be delivered. Source prints MW; shown here ÷ 1,000 as GW. xAI is listed as SPCX in the source. Totals are the printed source totals, which differ from row sums by up to 1 MW due to rounding. ' + (cumulative ? 'Cumulative bars are running totals of 2026E–2030E deliveries, not total fleet: capacity built before 2026 is excluded.' : 'Annual bars are capacity delivered in each year.') + ' Company bars share one scale; the total row uses its own. Scope is North America, unlike KGI (global) and SinoPac (U.S.); summary cards and outlook remain the current model.';
-  setSourceKey([
-    ['Source', 'Jefferies Exhibit 5, built on Aterio project data'],
-    ['Figure shown', (cumulative ? 'Running total of new capacity coming online since start of 2026. Excludes anything built before 2026.' : 'New capacity coming online in each year.') + ' Light bar = projects the companies have announced. Solid bar = what Jefferies expects actually gets built.'],
-    ['Region', 'North America'],
-    ['Years', '2026E–2030E']
-  ]);
-}
-// Plain statement of which figures the current view plots, shown above the chart.
-function setSourceKey(items) {
-  document.querySelector('#sourceKey').innerHTML = items.map(([k,v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('');
-}
 // Hyperscaler plans (Jefferies Exhibit 5 "planned" rows, North America) vs SinoPac
 // (U.S.): capacity added 2026E–2030E. SinoPac adds = its 2030 total − its 2025 total.
 const plansVsSinopac = [
@@ -224,40 +118,6 @@ const plansVsSinopac = [
   {name:'Microsoft', sino:'Azure', color:'var(--microsoft)', note:'Rents much of its capacity; rented sites are not in the plan list'},
   {name:'Meta', sino:'Meta', color:'var(--capacity-purple)'}
 ];
-function renderPlansVsSinopac() {
-  const fmt1 = v => v.toFixed(1);
-  const chart = document.querySelector('#capacityChart');
-  chart.classList.add('annual-mode','plans-mode');
-  chart.classList.remove('growth-mode','cumulative-stacked','with-annual-overlay','sinopac-mode','broker-paired','jef-mode');
-  const rows = plansVsSinopac.map(r => {
-    const plan = jefferiesCapacity.find(c => c.name === r.name).planned.reduce((a,b) => a+b, 0) / 1000;
-    const s = sinopacCapacity.find(c => c.name === r.sino).values;
-    return {...r, plan, sinopac:s[1]-s[0]};
-  });
-  const total = {name:'Total', color:'var(--ink)', plan:rows.reduce((a,r) => a+r.plan, 0), sinopac:rows.reduce((a,r) => a+r.sinopac, 0)};
-  const max = Math.max(...rows.flatMap(r => [r.plan, r.sinopac]));
-  const verdict = ratio => ratio > 1.15 ? 'Plan above SinoPac' : ratio < 0.85 ? 'Plan below SinoPac' : 'Close';
-  const row = (r, scale, label, cls='') => {
-    const ratio = r.plan / r.sinopac;
-    const line = (key, v, barCls, who) => `<div class="plans-bar-line"><span>${key}</span><div class="plans-track"><div class="capacity-bar ${barCls}" style="width:${v/scale*100}%" title="${r.name} · ${who}: ${fmt1(v)} GW added 2026E–2030E"></div></div><b>${fmt1(v)}</b></div>`;
-    return `<div class="company-chart-group${cls}" style="--series:${r.color}"><div class="capacity-row"><div class="company-label" style="color:${r.color}">${r.name}${label?`<small>${label}</small>`:''}</div>`
-      + `<div class="capacity-cell plans-bars">${line('Plan', r.plan, 'jef-planned', 'announced projects, North America')}${line('SinoPac', r.sinopac, '', 'SinoPac, U.S.')}</div>`
-      + `<div class="capacity-cell plans-ratio"><strong>${Math.round(ratio*100)}%</strong><small>${verdict(ratio)}</small></div></div></div>`;
-  };
-  chart.innerHTML = `<div class="quarter-header"><div></div><div class="quarter-cell"><span>GW added, start of 2026 to end of 2030</span></div><div class="quarter-cell"><span>Plan ÷ SinoPac</span></div></div>`
-    + rows.map(r => row(r, max, r.note)).join('')
-    + row(total, Math.max(total.plan, total.sinopac), '4 companies<br>Separate scale', ' broker-total');
-  document.querySelector('.capacity-heading h2').textContent = 'Hyperscaler Plans vs SinoPac';
-  document.querySelector('.capacity-heading > div > p').textContent = 'Gigawatts (GW) added · 2026E–2030E';
-  document.querySelector('.capacity-heading .legend').innerHTML = '<span><i class="legend-swatch jef-planned-key"></i>Hyperscaler plan</span><span><i class="legend-swatch" style="background:var(--ink)"></i>SinoPac estimate</span>';
-  document.querySelector('.chart-method').textContent = 'Plan = the sum of 2026E–2030E projects each company has announced, from Jefferies Exhibit 5 (Aterio data), North America only, MW ÷ 1,000. SinoPac = its 2030 U.S. capacity minus its 2025 U.S. capacity, which assumes the 2025 figure is a year-end total. Microsoft rents much of its capacity from other providers (CoreWeave, Nebius and others); rented sites do not appear in plan lists but do count in SinoPac’s Azure total, which likely explains most of its gap. North America and U.S. scopes differ slightly. The two sources may also measure power differently (chip power vs whole-site power). xAI is left out: the plan rows list it as SPCX, and its scope in the two sources is not clearly the same. Company bars share one scale; the total row uses its own.';
-  setSourceKey([
-    ['Source', 'Plan: projects the companies have announced (Jefferies Exhibit 5, Aterio data). SinoPac Investment Consulting (2026).'],
-    ['Figure shown', 'New capacity added from start of 2026 to end of 2030. Not total capacity in place.'],
-    ['Region', 'Plan: North America. SinoPac: United States.'],
-    ['Years', '2026E–2030E, five years combined']
-  ]);
-}
 // Rounded visual allocations from the supplied SemiAnalysis chart; no numeric
 // y-axis is available. 2027H2 and 2028 hold the approximate 2Q27 split constant.
 const labComputeEstimate = [
@@ -276,167 +136,263 @@ function labFleet(name,year,quarter=4) {
   if(start==null) return {total:end,opening:null,addition:null};
   return {total:start+(end-start)*quarter/4,opening:start+(end-start)*(quarter-1)/4,addition:(end-start)/4};
 }
-function renderCapacityChartBase() {
-  if (!chartData) return;
-  const sino=capacitySource==='sinopac';
-  const compare=capacitySource==='compare';
-  const jef=capacitySource==='jefferies';
-  const plans=capacitySource==='plans';
-  const special=sino || compare || jef || plans;
-  document.querySelector('#capacityChart').classList.remove('broker-paired','sinopac-mode','jef-mode','plans-mode');
-  document.querySelector('#compareSource').setAttribute('aria-pressed',String(compare));
-  document.querySelector('#kgiSource').setAttribute('aria-pressed',String(!special));
-  document.querySelector('#plansSource').setAttribute('aria-pressed',String(plans));
-  document.querySelector('#sinopacSource').setAttribute('aria-pressed',String(sino));
-  document.querySelector('#jefferiesSource').setAttribute('aria-pressed',String(jef));
-  document.querySelector('#jefViewButtons').hidden=!jef;
-  document.querySelector('#periodButtons').hidden=jef || plans;
-  ['annualOverlay','qoqGrowth'].forEach(id=>{document.querySelector('#'+id).closest('label').hidden=jef || plans;});
-  document.querySelectorAll('#jefViewButtons button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.jefView===jefView)));
-  ['quarterlyView','annualView','annualOverlay','qoqGrowth'].forEach(id=>{document.querySelector('#'+id).disabled=special;});
-  if(special) {
-    document.querySelector('#quarterlyView').setAttribute('aria-pressed','false');
-    document.querySelector('#annualView').setAttribute('aria-pressed','true');
-    if(plans) renderPlansVsSinopac(); else if(jef) renderJefferiesCapacity(); else if(compare) renderBrokerCapacity(); else renderSinopacCapacity(); return;
-  }
-  const {quarters, companies} = chartData;
-  const years = [...new Set(quarters.map(q => q[1]))];
-  const annual = capacityPeriod === 'annual';
-  const periods = annual ? years.map(y => ['FY', y]) : quarters;
-  const entries = company => annual ? years.map(y => {const e=annualEntry(company,y); return e.value == null ? null : [e.value,e.status];}) : company.values;
-  const growth = qoqGrowth && !annual;
-  const stacked = annualOverlay && !growth;
-  const ticker = {Amazon:'AMZN', Google:'GOOGL', Microsoft:'MSFT', Meta:'META'};
-  function stackEntry(c, i) {
-    if(c.lab) {
-      const [q,y]=periods[i];const s=labFleet(c.name,Number(y),q==='FY'?4:Number(q.slice(1)));
-      if(s && annual && s.opening!=null) {s.opening=labYear(c.name,Number(y)-1);s.addition=s.total-s.opening;}
-      return s;
-    }
-    const kgi = window.capacityResearch.kgi.find(r => r.name === ticker[c.name]);
-    if (annual) {
-      const year = Number(years[i]);
-      if (kgi) {
-        const y = year - 2024;
-        if (y < 1 || y >= kgi.fleet.length) return null;
-        return {opening:kgi.fleet[y-1], addition:kgi.fleet[y]-kgi.fleet[y-1], total:kgi.fleet[y]};
-      }
-      if (!['Oracle','SpaceX'].includes(c.name)) return null;
-      const sum = predicate => c.values.reduce((total,e,j)=>total+(e && predicate(Number(quarters[j][1])) ? Number(e[0]) : 0),0);
-      const opening = sum(y=>y<year), addition = sum(y=>y===year);
-      return {opening, addition, total:opening+addition};
-    }
+// Plain statement of which figures the current view plots, shown with the capacity figures.
+function setSourceKey(items) {
+  document.querySelector('#sourceKey').innerHTML = items.map(([k,v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('');
+}
+function setCapacityText(sub, tableSub, method) {
+  const panel = document.querySelector('#capacityPanel');
+  panel.querySelector('.panel-heading p').textContent = sub;
+  document.querySelector('#capacityTableSub').textContent = tableSub;
+  document.querySelector('#capacityMethod').textContent = method;
+}
 
-    if (!kgi) {
-      if (!['Oracle','SpaceX'].includes(c.name)) return null;
-      // User-defined zero baseline at the start of the displayed timeline.
-      // Missing quarters add zero to this tracked series, not a claim of no real buildout.
-      const opening = c.values.slice(0,i).reduce((s,e)=>s+(e ? Number(e[0]) : 0),0);
-      const addition = c.values[i] ? Number(c.values[i][0]) : 0;
-      return {opening, addition, total:opening+addition, missing:!c.values[i]};
-    }
-    const [quarter, year] = quarters[i];
-    const y = Number(year)-2024, q = Number(quarter.slice(1));
+// A period counts as an estimate when it ends after the KGI note date.
+function capacityCutoff() { return new Date(window.capacityResearch.asOf + 'T12:00:00'); }
+const quarterEnd = (q, y) => new Date(Number(y), Number(q.slice(1)) * 3, 0, 12);
+const yearEnd = y => new Date(Number(y), 11, 31, 12);
+const kgiFor = c => window.capacityResearch.kgi.find(r => r.name === capacityTicker[c.name]);
+
+function fleetQuarter(c, i) {
+  const [quarter, year] = chartData.quarters[i];
+  if (c.lab) return labFleet(c.name, Number(year), Number(quarter.slice(1)));
+  const kgi = kgiFor(c);
+  if (!kgi) {
+    // Oracle / xAI: user-defined zero baseline at the start of the timeline.
+    // Missing quarters add zero to this tracked series, not a claim of no real buildout.
+    const opening = c.values.slice(0, i).reduce((s, e) => s + (e ? Number(e[0]) : 0), 0);
+    const addition = c.values[i] ? Number(c.values[i][0]) : 0;
+    return {opening, addition, total: opening + addition, missing: !c.values[i]};
+  }
+  const y = Number(year) - 2024, q = Number(quarter.slice(1));
+  if (y < 1 || y >= kgi.fleet.length) return null;
+  const addition = (kgi.fleet[y] - kgi.fleet[y - 1]) / 4;
+  return {opening: kgi.fleet[y - 1] + addition * (q - 1), addition: kgi.additions[y - 1] / 4, total: kgi.fleet[y - 1] + addition * q};
+}
+
+function fleetYear(c, year) {
+  if (c.lab) {
+    const total = labYear(c.name, Number(year)), opening = labYear(c.name, Number(year) - 1);
+    return total == null ? null : {opening, total, addition: opening == null ? null : total - opening};
+  }
+  const kgi = kgiFor(c);
+  if (kgi) {
+    const y = Number(year) - 2024;
     if (y < 1 || y >= kgi.fleet.length) return null;
-    const addition = (kgi.fleet[y]-kgi.fleet[y-1])/4;
-    return {opening:kgi.fleet[y-1]+addition*(q-1), addition, total:kgi.fleet[y-1]+addition*q};
+    return {opening: kgi.fleet[y - 1], total: kgi.fleet[y], addition: kgi.additions[y - 1]};
   }
-  function growthEntry(c, i) {
-    const fleet = stackEntry(c, i);
-    if (!fleet || fleet.opening <= 0 || fleet.missing) return null;
-    return fleet.addition / fleet.opening * 100;
-  }
-  const growthMax = Math.max(1,...companies.flatMap(c=>periods.map((_,i)=>Math.abs(growthEntry(c,i)||0))));
-  const max = Math.max(2.2,...companies.flatMap(c => entries(c).map((e,i) => stacked ? (stackEntry(c,i)?.total || 0) : (e ? Number(e[0]) : 0))))*1.05;
-  const chart = document.querySelector('#capacityChart');
-  chart.classList.toggle('annual-mode',annual);
-  chart.classList.toggle('with-annual-overlay',false);
-  chart.classList.toggle('cumulative-stacked',stacked);
-  chart.classList.toggle('growth-mode',growth);
-  chart.style.setProperty('--period-count',periods.length);
-  const asOf = new Date(window.capacityResearch.asOf + 'T12:00:00');
-  const currentYear = asOf.getFullYear(), currentQuarter = Math.floor(asOf.getMonth()/3)+1;
-  const futurePeriod = ([q,y]) => Number(y)>currentYear || (Number(y)===currentYear && (q==='FY' ? false : Number(q.slice(1))>currentQuarter));
-  chart.innerHTML = `<div class="quarter-header"><div></div>${periods.map(([q,y])=>`<div class="quarter-cell ${futurePeriod([q,y]) ? 'forecast-period' : ''}"><span>${q}</span><span>${y}${futurePeriod([q,y]) ? 'E' : ''}</span></div>`).join('')}</div>` + companies.map(c => {
-    const bars=entries(c).map((entry,i)=> {
-      // Visual treatment follows the user-requested time cutoff, independent of source status.
-      const estimated = futurePeriod(periods[i]);
-      const estimateClass = estimated ? ' estimate-cell' : '';
+  const {quarters} = chartData;
+  if (!quarters.some(q => q[1] === year)) return null;
+  const sum = test => c.values.reduce((t, e, j) => t + (e && test(Number(quarters[j][1])) ? Number(e[0]) : 0), 0);
+  const opening = sum(y => y < Number(year)), inYear = sum(y => y === Number(year));
+  const full = quarters.filter(q => q[1] === year).length === 4 && quarters.every((q, j) => q[1] !== year || c.values[j]);
+  return {opening, total: opening + inYear, addition: full ? inYear : null};
+}
 
-      if (growth) {
-        const value = growthEntry(c,i);
-        if (value == null) return `<div class="capacity-cell${estimateClass}"><span class="capacity-empty">N/D</span></div>`;
-        const label = (value > 0 ? '+' : '') + formatCapacity(value) + '%';
-        return `<div class="growth-cell${estimateClass}"><div class="growth-zero"></div><div class="growth-bar ${value<0?'negative':''}" style="height:${Math.abs(value)/growthMax*36}px" title="${c.name} ${periods[i].join(' ')}: cumulative fleet growth ${label}"></div><span class="growth-label ${value<0?'negative':''}">${label}</span></div>`;
-      }
-      if (stacked) {
-        const s = stackEntry(c,i);
-        if (!s) return `<div class="capacity-cell${estimateClass}"><span class="capacity-empty" title="Opening fleet not available">N/D</span></div>`;
-        if(c.lab && s.opening==null) return `<div class="capacity-cell${estimateClass}"><div class="capacity-bar implied" style="height:${s.total/max*92}px" title="${c.name}: estimated year-end capacity; prior-year baseline unavailable"><span class="bar-value">~${formatCapacity(s.total)}</span></div></div>`;
-        return `<div class="capacity-cell${estimateClass}"><div class="fleet-stack" style="height:${s.total/max*92}px" title="${c.name} ${periods[i].join(' ')}: opening ${formatCapacity(s.opening)} + addition ${formatCapacity(s.addition)} = ${formatCapacity(s.total)} GW"><span class="bar-value">${formatCapacity(s.total)}</span><div class="fleet-addition" style="min-height:0;height:${s.total ? s.addition/s.total*100 : 0}%"></div><div class="fleet-opening" style="height:${s.total ? s.opening/s.total*100 : 0}%"></div></div></div>`;
-      }
-      if(!entry) return `<div class="capacity-cell${estimateClass}"><span class="capacity-empty">N/D</span></div>`;
-      const [v,status]=entry;
-      return `<div class="capacity-cell${estimateClass}"><div class="capacity-bar ${status==='implied'?'implied':''}" style="height:${Math.max(7,Number(v)/max*48)}px" data-tooltip="${c.name}: ${formatCapacity(v)} GW, ${status}, ${periods[i].join(' ')}"><span class="bar-value">${formatCapacity(v)}</span></div></div>`;
-    }).join('');
-    const overlay='';
-    return `<div class="company-chart-group" style="--series:${c.color}"><div class="capacity-row"><div class="company-label" style="color:${c.color}">${c.name}</div>${bars}</div>${overlay}</div>`;
-  }).join('');
-  document.querySelector('.capacity-heading h2').textContent=annual?(stacked?'Cumulative Fleet + Annual Additions':'Annual Capacity Additions'):growth?'QoQ Growth in Cumulative Fleet':stacked?'Cumulative Fleet + Quarterly Additions':'Quarterly Capacity Build Rate';
-  document.querySelector('#quarterlyView').setAttribute('aria-pressed',String(!annual));
-  document.querySelector('#annualView').setAttribute('aria-pressed',String(annual));
-  document.querySelector('#annualOverlay').disabled=growth;
-  document.querySelector('#qoqGrowth').disabled=annual;
-  document.querySelector('.capacity-heading > div > p').textContent=growth?'Change in cumulative fleet (%)':'Gigawatts (GW)';
-  document.querySelector('.capacity-heading .legend').innerHTML = growth ? '<span>Quarter addition ÷ opening fleet</span>' : stacked ? '<span><i class="legend-swatch fleet-base"></i>Opening fleet</span><span><i class="legend-swatch reported"></i>'+ (annual?'Year addition':'Quarter addition') +'</span>' : '<span><i class="legend-swatch reported"></i>Reported</span><span><i class="legend-swatch implied"></i>Estimated</span>';
-  document.querySelector('.capacity-heading .legend').insertAdjacentHTML('beforeend','<span class="opacity-key"><i></i>Translucent = future period</span>');
-  document.querySelector('.chart-method').textContent=growth ? 'QoQ fleet growth = quarterly addition ÷ opening fleet × 100, equivalent to ending fleet ÷ prior-quarter ending fleet − 1. Uses the same KGI fleet-change allocation as the stacked bars. Quarterly timing is assumed. Oracle / SpaceX use a user-defined zero start; missing quarters carry forward tracked capacity. Growth from zero or for a missing addition is N/D.' : stacked && annual ? 'Stack = opening fleet + annual fleet increase; labels show year-end cumulative GW. KGI increases use year-end fleet differences, which can differ from the separate additions table. Oracle / SpaceX accumulate recorded additions from the zero baseline; missing periods carry forward. These are tracked additions, not total company fleets.' : stacked ? 'Stack = opening fleet + quarterly addition; labels show cumulative GW. To reconcile to KGI year-end fleet, additions here equal the annual fleet change ÷ 4 (some differ from KGI’s separate additions table). Quarterly timing is assumed. Oracle / SpaceX start at zero and accumulate recorded additions; missing quarters carry forward. These are tracked additions, not total company fleets.' : annual ? 'KGI: full-year annual additions as supplied. Oracle / SpaceX: sum of four available workbook quarters; incomplete years are N/D. Annual additions differ from fleet changes in some KGI years—see reconciliation below.' : 'KGI bars: annual additions ÷ 4, a flat allocation—not commissioning dates. Annual labels show full-year totals (including 2025, although only Q3–Q4 are displayed). Oracle / SpaceX retain workbook assumptions; incomplete annual totals are N/D.';
+function capacityRows() {
+  const {quarters, companies} = chartData;
+  const cutoff = capacityCutoff();
+  const annual = capacityState.period === 'annual';
+  const periods = annual
+    ? ['2025', '2026', '2027', '2028'].map(y => ({key: y, label: y + (yearEnd(y) > cutoff ? 'E' : ''), title: `Year-end ${y}${yearEnd(y) > cutoff ? ' (estimate)' : ''}`, estimate: yearEnd(y) > cutoff}))
+    : quarters.map(([q, y]) => ({key: `${y} ${q}`, label: q, year: y, title: `${q} ${y}${quarterEnd(q, y) > cutoff ? ' (estimate)' : ''}`, estimate: quarterEnd(q, y) > cutoff}));
+  const rows = companies.map(c => ({name: displayName(c.name), lab: c.lab, color: c.color, cells: periods.map((p, i) => {
+    const f = annual ? fleetYear(c, p.key) : fleetQuarter(c, i);
+    if (!f) return null;
+    const addition = f.missing ? null : f.addition;
+    const growth = f.opening > 0 && !f.missing ? (f.total / f.opening - 1) * 100 : null;
+    return {fleet: f.total, addition: Number.isFinite(addition) ? addition : null, growth, e: p.estimate};
+  })}));
+  return {periods, rows, annual};
+}
+
+const SOURCES = [['kgi', 'KGI model'], ['sinopac', 'SinoPac'], ['compare', 'KGI vs SinoPac'], ['jefferies', 'Jefferies'], ['plans', 'Plans vs SinoPac']];
+function capacityControls(panel) {
+  const {source} = capacityState;
+  const set = (key, value) => { capacityState[key] = value; renderCapacityChart(); };
+  const ctl = name => panel.querySelector(`[data-ctl=${name}]`);
+  CompChart.segmented(ctl('source'), SOURCES, source, v => set('source', v));
+  ctl('period').hidden = !['kgi', 'jefferies'].includes(source);
+  ctl('measure').hidden = !['kgi', 'jefferies'].includes(source);
+  ctl('year').hidden = source !== 'compare';
+  if (source === 'kgi') {
+    CompChart.segmented(ctl('period'), [['quarterly', 'Quarterly'], ['annual', 'Annual']], capacityState.period, v => set('period', v));
+    CompChart.segmented(ctl('measure'), [['fleet', 'Total fleet'], ['additions', 'Additions'], ['growth', capacityState.period === 'annual' ? 'YoY growth' : 'QoQ growth']], capacityState.measure, v => set('measure', v));
+  } else if (source === 'jefferies') {
+    CompChart.segmented(ctl('period'), [['annual', 'Each year'], ['cumulative', 'Running total']], capacityState.jefView, v => set('jefView', v));
+    CompChart.segmented(ctl('measure'), [['jef', 'JEF estimate'], ['plan', 'Announced plan'], ['share', 'JEF ÷ plan']], capacityState.jefMeasure, v => set('jefMeasure', v));
+  } else if (source === 'compare') {
+    CompChart.segmented(ctl('year'), ['2025', '2026', '2027', '2028', '2029', '2030'].map(y => [y, y + (yearEnd(y) > capacityCutoff() ? 'E' : '')]), capacityState.compareYear, v => set('compareYear', v));
+  }
+}
+
+function renderCapacityChart() {
+  if (!chartData) return;
+  const panel = document.querySelector('#capacityPanel');
+  capacityControls(panel);
+  document.querySelector('#labEstimateNotes').hidden = capacityState.source !== 'kgi';
+  const render = {kgi: renderKgiCapacity, sinopac: renderSinopacCapacity, compare: renderBrokerCapacity, jefferies: renderJefferiesCapacity, plans: renderPlansVsSinopac}[capacityState.source];
+  render(panel);
+}
+
+function renderKgiCapacity(panel) {
+  const {periods, rows, annual} = capacityRows();
+  const {measure} = capacityState;
+  const pick = {fleet: 'fleet', additions: 'addition', growth: 'growth'}[measure];
+  const fmt = measure === 'growth' ? (v, long) => CompChart.fmtPct(v, long ? 1 : 0) : gw;
+  const labNote = 'Implied from Altimeter and SemiAnalysis charts';
+  const series = rows.map(r => ({name: r.name, color: r.color, points: r.cells.map(c => c && c[pick] != null ? {v: c[pick], e: c.e, note: r.lab ? labNote : ''} : null)}));
+  CompChart.legend(panel.querySelector('.comp-legend'), series, capacityState.hidden, renderCapacityChart);
+  const host = panel.querySelector('.comp-chart');
+  const axisFmt = v => measure === 'growth' ? v + '%' : v + ' GW';
+  if (annual && measure === 'additions') {
+    CompChart.columnChart(host, {label: 'Annual capacity additions', groups: periods.map(p => ({label: p.label, title: p.title, estimate: p.estimate})), series: series.map(s => ({...s, values: s.points})), hidden: capacityState.hidden, fmt: gw, labelFmt: v => formatCapacity(v.toFixed(1)), axisFmt});
+  } else {
+    CompChart.lineChart(host, {label: 'Data center capacity', periods, series, hidden: capacityState.hidden, fmt, axisFmt});
+  }
+  const heading = {fleet: 'Total fleet', additions: 'Capacity added', growth: 'Fleet growth'}[measure];
+  setCapacityText(
+    `${heading}, ${measure === 'growth' ? (annual ? 'year-over-year %' : 'quarter-over-quarter %') : 'GW'}, ${annual ? 'by year' : 'by quarter'}`,
+    `KGI model, ${annual ? 'by year' : 'by quarter'}`,
+    (measure === 'additions'
+      ? (annual ? 'KGI annual additions are used as supplied; they differ from year-end fleet changes in some years. ' : 'KGI quarterly additions are annual additions ÷ 4, a flat split, not commissioning dates. ')
+      : 'KGI fleet steps evenly through each year to match its year-end totals. ')
+    + 'Oracle and xAI start at zero in Q3 2025 and add tracked workbook additions, so they are not whole-company fleets. OpenAI and Anthropic are implied from charts and overlap provider fleets. Periods ending after the KGI note date (Sep 11, 2026) are estimates.');
+  const cols = CompChart.dividerFlags(periods.map(p => ({label: annual ? p.label : `${p.label} '${p.year.slice(2)}`, estimate: p.estimate})));
+  CompChart.figuresTable(document.querySelector('#capacityTable'), {caption: 'Company', columns: cols, rowGroups: rows.map(r => ({
+    name: r.name + (r.lab ? ' ~' : ''), color: r.color, rows: [
+      {label: 'Fleet GW', fmt: gwCell, cells: r.cells.map(c => c && {v: c.fleet, e: c.e})},
+      {label: 'Added GW', fmt: gwCell, cells: r.cells.map(c => c && c.addition != null ? {v: c.addition, e: c.e} : null)},
+      {label: annual ? 'YoY' : 'QoQ', fmt: v => CompChart.fmtPct(v, 0), cells: r.cells.map(c => c && c.growth != null ? {v: c.growth, e: c.e} : null)},
+    ]}))});
   setSourceKey([
-    ['Source', 'KGI for Amazon, Google, Microsoft and Meta. Your workbook (company disclosures) for Oracle and xAI. OpenAI and Anthropic implied from Altimeter and SemiAnalysis charts.'],
-    ['Figure shown', growth ? 'Quarter-over-quarter % change in total capacity in place' : stacked ? 'Total capacity in place at each '+(annual?'year-end':'quarter-end')+', split into the starting base plus capacity added '+(annual?'that year':'that quarter (KGI annual adds ÷ 4)') : annual ? 'New capacity added each year' : 'New capacity added each quarter (KGI annual adds ÷ 4)'],
+    ['Source', 'KGI for Amazon, Google, Microsoft and Meta. Your workbook (company disclosures) for Oracle and xAI. OpenAI and Anthropic (~) implied from Altimeter and SemiAnalysis charts.'],
     ['Region', 'Global'],
-    ['Years', annual ? `${periods[0][1]}–${periods.at(-1)[1]}E` : `${periods[0][0]} ${periods[0][1]} to ${periods.at(-1)[0]} ${periods.at(-1)[1]}E`]
+    ['Years', annual ? '2025 to 2028E' : `${periods[0].label} ${periods[0].year} to ${periods.at(-1).label} ${periods.at(-1).year}E`]
   ]);
 }
-function renderCapacityChart() {
-  renderCapacityChartBase();
-  if(!chartData) return;
-  const chart=document.querySelector('#capacityChart');
-  const groups=()=>[...chart.querySelectorAll('.company-chart-group')];
-  if(capacitySource==='jefferies' || capacitySource==='plans') {
-    // These views cover hyperscaler builds only; lab rows are not part of the source.
-  } else if(capacitySource!=='kgi') {
-    const years=capacitySource==='sinopac'?[2025,2030]:[2025,2026,2027,2028,2029,2030];
-    const anchor=groups().find(g=>g.querySelector('.company-label')?.textContent==='xAI');
-    const scale=capacitySource==='sinopac'?48/30:82/36;
-    const rows=['OpenAI','Anthropic'].map(name=>`<div class="company-chart-group lab-estimate" style="--series:${name==='OpenAI'?'var(--microsoft)':'var(--oracle)'}"><div class="capacity-row"><div class="company-label">${name}<small>Implied · global</small></div>${years.map(year=>{const v=labYear(name,year);return v==null?'<div class="capacity-cell"><span class="capacity-empty" title="No supplied combined forecast after 2028">N/D</span></div>':`<div class="capacity-cell${year>2026?' estimate-cell':''}"><div class="capacity-bar implied" style="height:${v*scale}px" title="${name} ${year}: approximate allocation from supplied charts, ${formatCapacity(v)} GW; independent of broker estimates"><span class="bar-value">~${formatCapacity(v)}</span></div></div>`;}).join('')}</div></div>`).join('');
-    if(anchor) anchor.insertAdjacentHTML('afterend',rows);
-  } else {
-    for(const g of groups()) {
-      const label=g.querySelector('.company-label');
-      if(label.textContent==='SpaceX') label.textContent='xAI';
-      if(['OpenAI','Anthropic'].includes(label.textContent)) {
-        g.classList.add('lab-estimate');
-        label.insertAdjacentHTML('beforeend','<small>Implied · global</small>');
-        g.querySelectorAll('.bar-value,.growth-label').forEach(v=>{if(!v.textContent.startsWith('~'))v.textContent='~'+v.textContent;});
-      }
-    }
-  }
-  let notes=document.querySelector('#labEstimateNotes');
-  if(!notes) {
-    document.querySelector('.chart-method').insertAdjacentHTML('afterend','<details id="labEstimateNotes" class="chart-method"><summary>OpenAI &amp; Anthropic · estimate methodology</summary><p>Combined GW uses the supplied Altimeter chart: 3.60 / 10.36 / 24.80 / 40.25 for 2025–2028. OpenAI / Anthropic allocations are 58/42, 55/45, 51/49 and 51/49. The supplied SemiAnalysis Tokenomics chart suggests OpenAI leads and the gap narrows by 2Q27. These rounded visual allocations assume a common linear, zero-based scale; its unlabeled y-axis does not establish exact GW ratios. Different hardware efficiencies add uncertainty.</p><p>The 2Q27 split is held through 2028. Quarterly capacity is linearly interpolated between year-end estimates. Annual additions are changes in estimated year-end capacity. Earlier quarterly points and 2029–2030 are unavailable. Lab access overlaps provider fleets and is excluded from provider totals. Global lab scope differs from SinoPac’s U.S. scope. Existing lab scenarios further down the page use their own delivery assumptions.</p><p>Public disclosures provide context for the buildout: <a href="https://openai.com/index/five-new-stargate-sites/" target="_blank" rel="noopener">OpenAI: nearly 7 GW planned Stargate capacity (Sep 2025)</a>; <a href="https://www.anthropic.com/news/anthropic-amazon-compute" target="_blank" rel="noopener">Anthropic / AWS: up to 5 GW, nearly 1 GW by end-2026 (Apr 2026)</a>; <a href="https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services" target="_blank" rel="noopener">Anthropic / Google: over 1 GW expected in 2026 (Oct 2025)</a>. These are overlapping plans with different delivery dates and do not provide comparable installed totals. The split is a modeling assumption informed by the supplied chart; disclosed commitments are not summed to calculate it.</p></details>');
-  }
-  document.querySelector('#labEstimateNotes').hidden=capacitySource==='jefferies' || capacitySource==='plans';
+
+function renderSinopacCapacity(panel) {
+  const plotted = sinopacCapacity.map(c => ({...c, base: c.disputed ? null : c.values[0]}));
+  const series = [
+    {name: '2025 baseline', color: 'var(--ml-muted)', values: plotted.map(c => c.base == null ? null : {v: c.base, e: false, color: c.color})},
+    {name: '2030 forecast', color: 'var(--ml-muted)', hatch: true, values: plotted.map(c => ({v: c.values[1], e: true, color: c.color, note: `Prior 2030 forecast: ${c.prior} GW`}))},
+  ];
+  CompChart.legend(panel.querySelector('.comp-legend'), series, capacityState.sinoHidden, renderCapacityChart);
+  CompChart.columnChart(panel.querySelector('.comp-chart'), {label: 'SinoPac cumulative capacity', groups: plotted.map(c => ({label: (c.short || c.name) + (c.disputed ? '*' : ''), title: c.name})), series, hidden: capacityState.sinoHidden, fmt: gw, labelFmt: v => formatCapacity(v), axisFmt: v => v + ' GW'});
+  setCapacityText('SinoPac, U.S. capacity in place, GW, 2025 vs 2030', 'SinoPac, 2025 and 2030 only',
+    'User-supplied SinoPac table (2026). Only 2025 and 2030 are given, so no in-between years or quarterly timing is inferred. *Nebius 2025 prints as 12 GW and is not plotted: its basis is unresolved (the company reported 0.17 GW active power at end-2025; a 1.2 GW reading would sum to 41.7 GW against the stated 43 GW). CoreWeave 800 MW read as 0.8 GW. Hover a column for the prior 2030 forecast.');
+  const cagr = c => c.base ? {v: ((c.values[1] / c.base) ** (1 / 5) - 1) * 100, e: true} : null;
+  CompChart.figuresTable(document.querySelector('#capacityTable'), {caption: 'Company', columns: [{label: '2025'}, {label: '2030E', estimate: true, divider: true}, {label: 'Prior 2030E', estimate: true}, {label: "CAGR '25 to '30", estimate: true}], rowGroups: plotted.map(c => ({
+    name: c.name, color: c.color, rows: [{label: 'GW', fmt: v => formatCapacity(v), cells: [c.base == null ? (c.disputed ? {v: 12, text: '12*'} : null) : {v: c.base}, {v: c.values[1], e: true}, {v: 1, e: true, text: c.prior}, cagr(c) && {...cagr(c), text: CompChart.fmtPct(cagr(c).v, 0)}]}],
+  }))});
+  setSourceKey([
+    ['Source', 'SinoPac Investment Consulting (2026). 2030 rows sum to 131.5 GW; the source rounds to 132.'],
+    ['Region', 'United States'],
+    ['Years', '2025 and 2030E only']
+  ]);
 }
-document.querySelector('#kgiSource').addEventListener('click',()=>{capacitySource='kgi';renderCapacityChart();});
-document.querySelector('#compareSource').addEventListener('click',()=>{capacitySource='compare';capacityPeriod='annual';renderCapacityChart();});
-document.querySelector('#sinopacSource').addEventListener('click',()=>{capacitySource='sinopac';renderCapacityChart();});
-document.querySelector('#jefferiesSource').addEventListener('click',()=>{capacitySource='jefferies';renderCapacityChart();});
-document.querySelector('#plansSource').addEventListener('click',()=>{capacitySource='plans';renderCapacityChart();});
-document.querySelectorAll('#jefViewButtons button').forEach(b=>b.addEventListener('click',()=>{jefView=b.dataset.jefView;renderCapacityChart();}));
-document.querySelector('#quarterlyView').addEventListener('click',()=>{capacityPeriod='quarterly';renderCapacityChart();});
-document.querySelector('#annualView').addEventListener('click',()=>{capacityPeriod='annual';renderCapacityChart();});
-document.querySelector('#qoqGrowth').addEventListener('change',e=>{qoqGrowth=e.target.checked;renderCapacityChart();});
-document.querySelector('#annualOverlay').addEventListener('change',e=>{annualOverlay=e.target.checked;renderCapacityChart();});
+
+function renderBrokerCapacity(panel) {
+  const years = ['2025', '2026', '2027', '2028', '2029', '2030'];
+  const cutoff = capacityCutoff();
+  const pairs = sinopacCapacity.filter(s => s.kgi);
+  const kgiFleet = (s, y) => { const k = window.capacityResearch.kgi.find(r => r.name === s.kgi); return k?.fleet[Number(y) - 2024] ?? null; };
+  const sino = (s, y) => s.values[0] + (s.values[1] - s.values[0]) * (Number(y) - 2025) / 5;
+  const est = y => yearEnd(y) > cutoff;
+  const y = capacityState.compareYear;
+  const series = [
+    {name: 'KGI', color: 'var(--broker-a)', values: pairs.map(s => kgiFleet(s, y) == null ? null : {v: kgiFleet(s, y), e: est(y)})},
+    {name: 'SinoPac', color: 'var(--broker-b)', values: pairs.map(s => ({v: sino(s, y), e: est(y), note: y > '2025' && y < '2030' ? 'Straight line between 2025 and 2030' : ''}))},
+  ];
+  CompChart.legend(panel.querySelector('.comp-legend'), series, capacityState.compareHidden, renderCapacityChart);
+  CompChart.columnChart(panel.querySelector('.comp-chart'), {label: 'KGI vs SinoPac fleet', groups: pairs.map(s => ({label: s.name, title: `${s.name}, year-end ${y}`, estimate: est(y)})), series, hidden: capacityState.compareHidden, fmt: gw, labelFmt: v => formatCapacity(v.toFixed(1)), axisFmt: v => v + ' GW'});
+  setCapacityText(`KGI vs SinoPac, capacity in place at year-end ${y}, GW`, 'KGI vs SinoPac, year-end capacity in place',
+    'SinoPac 2026 to 2029 is a straight line between its 2025 and 2030 figures, not a published path. KGI stops at 2028. Totals cover different company sets (KGI 4, SinoPac 9), so they are not like-for-like. Nebius has an unresolved 2025 baseline and is not in the SinoPac total check.');
+  const cols = CompChart.dividerFlags(years.map(yr => ({label: yr + (est(yr) ? 'E' : ''), estimate: est(yr)})));
+  const one = v => formatCapacity(v.toFixed(1));
+  const rowGroups = pairs.map(s => ({name: s.name, color: s.color, rows: [
+    {label: 'KGI', fmt: one, cells: years.map(yr => kgiFleet(s, yr) == null ? null : {v: kgiFleet(s, yr), e: est(yr)})},
+    {label: 'SinoPac', fmt: one, cells: years.map(yr => ({v: sino(s, yr), e: est(yr)}))},
+  ]}));
+  rowGroups.push({name: 'Total', color: 'var(--ml-ink)', rows: [
+    {label: 'KGI, 4 cos', fmt: one, cells: years.map(yr => yr <= '2028' ? {v: window.capacityResearch.kgi.reduce((t, k) => t + k.fleet[Number(yr) - 2024], 0), e: est(yr)} : null)},
+    {label: 'SinoPac, 9 cos', fmt: one, cells: years.map(yr => ({v: 43 + (132 - 43) * (Number(yr) - 2025) / 5, e: est(yr)}))},
+  ]});
+  CompChart.figuresTable(document.querySelector('#capacityTable'), {caption: 'Company', columns: cols, rowGroups});
+  setSourceKey([
+    ['Source', 'KGI vs SinoPac Investment Consulting (2026)'],
+    ['Region', 'KGI: global. SinoPac: United States.'],
+    ['Years', '2025 to 2030E. KGI stops at 2028.']
+  ]);
+}
+
+function renderJefferiesCapacity(panel) {
+  const cumulative = capacityState.jefView === 'cumulative';
+  const measure = capacityState.jefMeasure;
+  const toGW = values => { let run = 0; return values.map(v => { run += v; return (cumulative ? run : v) / 1000; }); };
+  const rows = jefferiesCapacity.map(c => ({...c, p: toGW(c.planned), j: toGW(c.jef)}));
+  const total = {p: toGW(jefferiesTotal.planned), j: toGW(jefferiesTotal.jef)};
+  const share = (r, i) => r.p[i] ? r.j[i] / r.p[i] * 100 : null;
+  const periods = jefYears.map(y => ({key: String(y), label: y + 'E', title: `${y}${cumulative ? ', running total from 2026' : ''}`, estimate: true}));
+  const pick = (r, i) => measure === 'plan' ? r.p[i] : measure === 'share' ? share(r, i) : r.j[i];
+  const series = rows.map(r => ({name: r.name, color: r.color, points: jefYears.map((_, i) => {
+    const v = pick(r, i);
+    return v == null ? null : {v, e: true, note: measure === 'share' ? `${r.j[i].toFixed(1)} of ${r.p[i].toFixed(1)} GW planned` : `JEF ÷ plan: ${share(r, i) == null ? 'no plan' : Math.round(share(r, i)) + '%'}`};
+  })}));
+  CompChart.legend(panel.querySelector('.comp-legend'), series, capacityState.jefHidden, renderCapacityChart);
+  const fmt = measure === 'share' ? v => Math.round(v) + '%' : gw;
+  CompChart.lineChart(panel.querySelector('.comp-chart'), {label: 'Jefferies capacity', periods, series, hidden: capacityState.jefHidden, fmt, axisFmt: v => measure === 'share' ? v + '%' : v + ' GW'});
+  const what = {jef: 'Jefferies delivery estimate', plan: 'Projects the companies announced', share: 'Share of announced plan Jefferies expects built'}[measure];
+  setCapacityText(`${what}, ${measure === 'share' ? '%' : 'GW'}, North America, ${cumulative ? 'running total from 2026' : 'each year'}`,
+    `Jefferies Exhibit 5, North America, ${cumulative ? 'running total from 2026' : 'each year'}`,
+    'Plan = projects the hyperscalers have announced. JEF estimate = what Jefferies expects to be delivered. Source prints MW; shown here ÷ 1,000 as GW. xAI is listed as SPCX in the source. Totals are the printed source totals, which differ from row sums by up to 1 MW due to rounding. '
+    + (cumulative ? 'Running totals start in 2026, so they exclude capacity built earlier and are not total fleet.' : 'Each year shows capacity delivered in that year.')
+    + ' Scope is North America, unlike KGI (global) and SinoPac (U.S.).');
+  const cols = periods.map(p => ({label: p.label, estimate: true}));
+  const one = v => v.toFixed(1);
+  const pct = v => Math.round(v) + '%';
+  const group = (name, color, r, note) => ({name: name + (note ? ` (${note})` : ''), color, rows: [
+    {label: 'Plan GW', fmt: one, cells: jefYears.map((_, i) => ({v: r.p[i], e: true}))},
+    {label: 'JEF GW', fmt: one, cells: jefYears.map((_, i) => ({v: r.j[i], e: true}))},
+    {label: 'JEF ÷ plan', fmt: pct, cells: jefYears.map((_, i) => share(r, i) == null ? null : {v: share(r, i), e: true})},
+  ]});
+  CompChart.figuresTable(document.querySelector('#capacityTable'), {caption: 'Company', columns: cols,
+    rowGroups: [...rows.map(r => group(r.name, r.color, r, r.note)), group('Total', 'var(--ml-ink)', total, '5 cos')]});
+  setSourceKey([
+    ['Source', 'Jefferies Exhibit 5, built on Aterio project data'],
+    ['Region', 'North America'],
+    ['Years', '2026E to 2030E']
+  ]);
+}
+
+function renderPlansVsSinopac(panel) {
+  const rows = plansVsSinopac.map(r => {
+    const plan = jefferiesCapacity.find(c => c.name === r.name).planned.reduce((a, b) => a + b, 0) / 1000;
+    const s = sinopacCapacity.find(c => c.name === r.sino).values;
+    return {...r, plan, sinopac: s[1] - s[0]};
+  });
+  const total = {name: 'Total', color: 'var(--ml-ink)', plan: rows.reduce((a, r) => a + r.plan, 0), sinopac: rows.reduce((a, r) => a + r.sinopac, 0)};
+  const verdict = ratio => ratio > 1.15 ? 'Plan above SinoPac' : ratio < 0.85 ? 'Plan below SinoPac' : 'Close';
+  const series = [
+    {name: 'Announced plan', color: 'var(--broker-a)', values: rows.map(r => ({v: r.plan, e: true, note: `Plan ÷ SinoPac: ${Math.round(r.plan / r.sinopac * 100)}%. ${verdict(r.plan / r.sinopac)}${r.note ? '. ' + r.note : ''}`}))},
+    {name: 'SinoPac', color: 'var(--broker-b)', values: rows.map(r => ({v: r.sinopac, e: true}))},
+  ];
+  CompChart.legend(panel.querySelector('.comp-legend'), series, capacityState.plansHidden, renderCapacityChart);
+  CompChart.columnChart(panel.querySelector('.comp-chart'), {label: 'Plans vs SinoPac', groups: rows.map(r => ({label: r.name, title: `${r.name}, GW added 2026 to 2030`, estimate: true})), series, hidden: capacityState.plansHidden, fmt: gw, labelFmt: v => v.toFixed(1), axisFmt: v => v + ' GW'});
+  setCapacityText('GW added from start of 2026 to end of 2030', 'Announced plans vs SinoPac, five years combined',
+    'Plan = the sum of 2026E to 2030E projects each company has announced, from Jefferies Exhibit 5 (Aterio data), North America only, MW ÷ 1,000. SinoPac = its 2030 U.S. capacity minus its 2025 U.S. capacity, which assumes the 2025 figure is a year-end total. Microsoft rents much of its capacity from other providers (CoreWeave, Nebius and others); rented sites do not appear in plan lists but do count in SinoPac’s Azure total, which likely explains most of its gap. The two sources may also measure power differently (chip power vs whole-site power). xAI is left out: its scope in the two sources is not clearly the same.');
+  const one = v => v.toFixed(1);
+  CompChart.figuresTable(document.querySelector('#capacityTable'), {caption: 'Company', columns: [{label: 'Plan GW', estimate: true}, {label: 'SinoPac GW', estimate: true}, {label: 'Plan ÷ SinoPac', estimate: true}, {label: 'Read', estimate: true}],
+    rowGroups: [...rows, total].map(r => ({name: r.name, color: r.color, rows: [{label: 'Added 2026 to 2030', fmt: one, cells: [
+      {v: r.plan, e: true}, {v: r.sinopac, e: true}, {v: 1, e: true, text: Math.round(r.plan / r.sinopac * 100) + '%'}, {v: 1, e: true, text: verdict(r.plan / r.sinopac)}]}]}))});
+  setSourceKey([
+    ['Source', 'Plan: projects the companies have announced (Jefferies Exhibit 5, Aterio data). SinoPac Investment Consulting (2026).'],
+    ['Region', 'Plan: North America. SinoPac: United States.'],
+    ['Years', '2026E to 2030E, five years combined']
+  ]);
+}
+
+document.querySelector('#capacityMethod').insertAdjacentHTML('afterend','<details id="labEstimateNotes" class="chart-method lab-notes"><summary>OpenAI &amp; Anthropic · estimate methodology</summary><p>Combined GW uses the supplied Altimeter chart: 3.60 / 10.36 / 24.80 / 40.25 for 2025–2028. OpenAI / Anthropic allocations are 58/42, 55/45, 51/49 and 51/49. The supplied SemiAnalysis Tokenomics chart suggests OpenAI leads and the gap narrows by 2Q27. These rounded visual allocations assume a common linear, zero-based scale; its unlabeled y-axis does not establish exact GW ratios. Different hardware efficiencies add uncertainty.</p><p>The 2Q27 split is held through 2028. Quarterly capacity is linearly interpolated between year-end estimates. Annual additions are changes in estimated year-end capacity. Earlier quarterly points and 2029–2030 are unavailable. Lab access overlaps provider fleets and is excluded from provider totals. Global lab scope differs from SinoPac’s U.S. scope. Existing lab scenarios further down the page use their own delivery assumptions.</p><p>Public disclosures provide context for the buildout: <a href="https://openai.com/index/five-new-stargate-sites/" target="_blank" rel="noopener">OpenAI: nearly 7 GW planned Stargate capacity (Sep 2025)</a>; <a href="https://www.anthropic.com/news/anthropic-amazon-compute" target="_blank" rel="noopener">Anthropic / AWS: up to 5 GW, nearly 1 GW by end-2026 (Apr 2026)</a>; <a href="https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services" target="_blank" rel="noopener">Anthropic / Google: over 1 GW expected in 2026 (Oct 2025)</a>. These are overlapping plans with different delivery dates and do not provide comparable installed totals. The split is a modeling assumption informed by the supplied chart; disclosed commitments are not summed to calculate it.</p></details>');
 
 renderDashboard(window.capacityWorkbook);
