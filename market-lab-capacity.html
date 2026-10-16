@@ -8,10 +8,10 @@
       content="Data center capacity buildout, management targets, and compute rental economics."
     />
     <title>Data center capacity · Equinox</title>
-    <link rel="stylesheet" href="market-lab-capacity-styles.css" />
-  <link rel="stylesheet" href="market-lab-shell.css">
-<link rel="stylesheet" href="market-lab-capacity-theme.css">
-<script defer src="market-lab-shell.js?v=20261014-27664c3f"></script>
+    <link rel="stylesheet" href="market-lab-capacity-styles.css?v=20261014-4bac429f" />
+  <link rel="stylesheet" href="market-lab-shell.css?v=20261014-4bac429f">
+<link rel="stylesheet" href="market-lab-capacity-theme.css?v=20261014-4bac429f">
+<script defer src="market-lab-shell.js?v=20261014-4bac429f"></script>
 </head>
   <body>
     <main class="dashboard-shell">
@@ -36,13 +36,19 @@
         </article>
         <article class="panel comp-panel" id="cloudPanel">
           <div class="panel-heading"><div><h2>Cloud growth</h2><p></p></div></div>
-          <div class="comp-controls"><div class="seg" data-ctl="mode" role="group" aria-label="Cloud measure"></div></div>
+          <div class="comp-controls"><div class="seg" data-ctl="mode" role="group" aria-label="Cloud measure"></div><div class="seg" data-ctl="basis" role="group" aria-label="Reported or with estimates"></div></div>
           <div class="comp-legend" aria-label="Show or hide companies"></div>
           <div class="comp-chart"></div>
         </article>
         <article class="panel comp-panel" id="capexPanel">
           <div class="panel-heading"><div><h2>Capex</h2><p></p></div></div>
-          <div class="comp-controls"><div class="seg" data-ctl="mode" role="group" aria-label="Capex period"></div></div>
+          <div class="comp-controls"><div class="seg" data-ctl="mode" role="group" aria-label="Capex period"></div><div class="seg" data-ctl="basis" role="group" aria-label="Reported or with estimates"></div></div>
+          <div class="comp-legend" aria-label="Show or hide companies"></div>
+          <div class="comp-chart"></div>
+        </article>
+        <article class="panel comp-panel" id="fcfPanel">
+          <div class="panel-heading"><div><h2>Free cash flow</h2><p></p></div></div>
+          <div class="comp-controls"><div class="seg" data-ctl="mode" role="group" aria-label="Cash flow period"></div><div class="seg" data-ctl="basis" role="group" aria-label="Reported or with estimates"></div></div>
           <div class="comp-legend" aria-label="Show or hide companies"></div>
           <div class="comp-chart"></div>
         </article>
@@ -65,6 +71,11 @@
         <div class="panel-heading"><div><h2>Capex figures</h2><p>Capital expenditures by calendar period</p></div></div>
         <div id="capexTable"></div>
         <p class="chart-method" id="capexMethod"></p>
+      </article>
+      <article class="panel figures-panel">
+        <div class="panel-heading"><div><h2>Free cash flow figures</h2><p>Free cash flow by calendar period</p></div></div>
+        <div id="fcfTable"></div>
+        <p class="chart-method" id="fcfMethod"></p>
       </article>
     </section>
 
@@ -96,14 +107,14 @@
       <section id="researchDashboard" aria-label="Capacity estimates"></section>
     </main>
 
-    <script src="market-lab-capacity-research-data.js?v=20261014-27664c3f"></script>
-    <script src="market-lab-capacity-research.js?v=20261014-27664c3f"></script>
-    <script src="market-lab-capacity-deal-data.js?v=20261014-27664c3f"></script>
-    <script src="market-lab-capacity-timeline-data.js?v=20261014-27664c3f"></script>
-    <script src="market-lab-capacity-deals.js?v=20261014-27664c3f"></script>
-    <script src="market-lab-capacity-workbook.js?v=20261014-27664c3f"></script>
-    <script src="market-lab-capacity-comps-data.js?v=20261014-27664c3f"></script>
-    <script src="market-lab-capacity-comps.js?v=20261014-27664c3f"></script>
-<script src="market-lab-capacity-app.js?v=20261014-27664c3f"></script>
+    <script src="market-lab-capacity-research-data.js?v=20261014-4bac429f"></script>
+    <script src="market-lab-capacity-research.js?v=20261014-4bac429f"></script>
+    <script src="market-lab-capacity-deal-data.js?v=20261014-4bac429f"></script>
+    <script src="market-lab-capacity-timeline-data.js?v=20261014-4bac429f"></script>
+    <script src="market-lab-capacity-deals.js?v=20261014-4bac429f"></script>
+    <script src="market-lab-capacity-workbook.js?v=20261014-4bac429f"></script>
+    <script src="market-lab-capacity-comps-data.js?v=20261014-4bac429f"></script>
+    <script src="market-lab-capacity-comps.js?v=20261014-4bac429f"></script>
+<script src="market-lab-capacity-app.js?v=20261014-4bac429f"></script>
   </body>
 </html>

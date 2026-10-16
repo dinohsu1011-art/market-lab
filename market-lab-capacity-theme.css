@@ -61,7 +61,7 @@ button:disabled {opacity:.4;cursor:default}
 .key-line {stroke:var(--ml-ink);stroke-width:2}.key-line.est {stroke-dasharray:4 3}
 .key-dot {fill:var(--ml-ink);stroke:var(--ml-ink);stroke-width:1.6}.key-dot.est {fill:var(--ml-surface)}
 .key-hatch {display:inline-block;width:14px;height:12px;border:1px solid var(--ml-ink);background:repeating-linear-gradient(135deg,transparent 0 3px,var(--ml-ink) 3px 4.5px)}
-.comps-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:start}
+.comps-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:1fr;gap:20px;align-items:stretch}
 .comp-panel {display:flex;flex-direction:column;overflow:visible}
 .comp-panel .panel-heading {min-height:0;padding:18px 20px 6px}
 .comp-controls {display:flex;flex-wrap:wrap;gap:8px 12px;padding:4px 20px 2px}
@@ -72,13 +72,13 @@ button:disabled {opacity:.4;cursor:default}
 .seg button:hover {background:var(--ml-hover,var(--ml-raised));color:var(--ink)}
 .seg button[aria-pressed=true] {background:var(--ml-raised);color:var(--ink);font-weight:600}
 .seg button:focus-visible,.comp-key:focus-visible {outline:2px solid var(--ml-accent);outline-offset:-2px}
-.comp-legend {display:flex;flex-wrap:wrap;gap:2px 4px;padding:10px 16px 0}
+.comp-legend {margin-top:auto;display:flex;flex-wrap:wrap;gap:2px 4px;padding:10px 16px 0}
 .comp-key {display:inline-flex;align-items:center;gap:6px;font:13px/1.3 var(--sans);padding:3px 6px;border:0;border-radius:4px;background:transparent;color:var(--ink);cursor:pointer}
 .comp-key i {width:12px;height:12px;border-radius:2px;flex:none}
 .comp-key[aria-pressed=false] {color:var(--ml-faint);text-decoration:line-through}
 .comp-key[aria-pressed=false] i {opacity:.25}
 .comp-key:hover {background:var(--ml-raised)}
-.comp-chart {padding:4px 8px 12px 4px;min-height:300px}
+.comp-chart {padding:4px 8px 12px 4px;height:336px}
 .comp-chart svg {display:block;overflow:visible;font-family:var(--sans)}
 .comp-chart .ax-grid {stroke:var(--rule);stroke-width:1}
 .comp-chart .ax-zero {stroke:var(--ml-muted);stroke-width:1}
@@ -136,5 +136,5 @@ button:disabled {opacity:.4;cursor:default}
 .outlook-row .outlook-list {height:auto;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0 24px;padding:0 20px 14px}
 .outlook-row .outlook-item {min-height:0;align-items:start}
 .outlook-row .panel-heading {min-height:0;padding:18px 20px 8px}
-@media(max-width:1279px){.comps-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#capacityPanel{grid-column:1 / -1}.outlook-row .outlook-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:760px){.comps-grid{grid-template-columns:minmax(0,1fr)}.comps-key .comps-source{margin-left:0}.source-key{grid-template-columns:1fr}.outlook-row .outlook-list{grid-template-columns:1fr}.comp-controls,.figures-scroll{padding-inline:14px}}
+@media(max-width:1279px){.outlook-row .outlook-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.comps-grid{grid-template-columns:minmax(0,1fr);grid-auto-rows:auto}.comps-key .comps-source{margin-left:0}.source-key{grid-template-columns:1fr}.outlook-row .outlook-list{grid-template-columns:1fr}.comp-controls,.figures-scroll{padding-inline:14px}}
