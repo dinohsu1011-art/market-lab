@@ -96,6 +96,8 @@ button:disabled {opacity:.4;cursor:default}
 .comp-chart .hover-band {fill:transparent;cursor:crosshair}
 .comp-chart .hover-guide {stroke:var(--ml-muted);stroke-width:1;stroke-dasharray:2 3}
 .comp-chart .col {stroke-width:1.2}
+.comp-chart .pair-a {fill-opacity:.22}
+.comp-chart .pair-key text {fill:var(--ml-muted);font-size:11px}
 .comp-chart .col-label {font-size:10.5px;text-anchor:middle;font-variant-numeric:tabular-nums}
 .comp-chart .na {fill:var(--ml-faint);font-size:10px;text-anchor:middle}
 .comp-tip {position:fixed;z-index:50;pointer-events:none;min-width:200px;max-width:320px;padding:9px 11px;background:var(--ml-surface);color:var(--ml-ink);border:1px solid var(--rule);border-radius:6px;box-shadow:0 8px 24px rgb(0 0 0 / .14);font:13px/1.4 var(--sans)}

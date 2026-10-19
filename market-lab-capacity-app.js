@@ -220,7 +220,7 @@ function capacityControls(panel) {
     CompChart.segmented(ctl('measure'), [['fleet', 'Total fleet'], ['additions', 'Additions'], ['growth', capacityState.period === 'annual' ? 'YoY growth' : 'QoQ growth']], capacityState.measure, v => set('measure', v));
   } else if (source === 'jefferies') {
     CompChart.segmented(ctl('period'), [['annual', 'Each year'], ['cumulative', 'Running total']], capacityState.jefView, v => set('jefView', v));
-    CompChart.segmented(ctl('measure'), [['jef', 'JEF estimate'], ['plan', 'Announced plan'], ['share', 'JEF ÷ plan']], capacityState.jefMeasure, v => set('jefMeasure', v));
+    CompChart.segmented(ctl('measure'), [['jef', 'JEF estimate'], ['plan', 'Announced plan'], ['both', 'JEF vs plan'], ['share', 'JEF ÷ plan']], capacityState.jefMeasure, v => set('jefMeasure', v));
   } else if (source === 'compare') {
     CompChart.segmented(ctl('year'), ['2025', '2026', '2027', '2028', '2029', '2030'].map(y => [y, y + (yearEnd(y) > capacityCutoff() ? 'E' : '')]), capacityState.compareYear, v => set('compareYear', v));
   }
@@ -342,8 +342,14 @@ function renderJefferiesCapacity(panel) {
   })}));
   CompChart.legend(panel.querySelector('.comp-legend'), series, capacityState.jefHidden, renderCapacityChart);
   const fmt = measure === 'share' ? v => Math.round(v) + '%' : gw;
-  CompChart.lineChart(panel.querySelector('.comp-chart'), {label: 'Jefferies capacity', periods, series, hidden: capacityState.jefHidden, fmt, axisFmt: v => measure === 'share' ? v + '%' : v + ' GW'});
-  const what = {jef: 'Jefferies delivery estimate', plan: 'Projects the companies announced', share: 'Share of announced plan Jefferies expects built'}[measure];
+  if (measure === 'both') {
+    CompChart.pairChart(panel.querySelector('.comp-chart'), {label: 'Jefferies estimate vs announced plan', groups: periods, hidden: capacityState.jefHidden,
+      aLabel: 'Announced plan', bLabel: 'JEF estimate', fmt: gw, labelFmt: v => v.toFixed(1), axisFmt: v => v + ' GW',
+      series: rows.map(r => ({name: r.name, color: r.color, a: r.p, b: r.j, note: i => share(r, i) == null ? 'No plan this year' : `JEF expects ${Math.round(share(r, i))}% of plan built`}))});
+  } else {
+    CompChart.lineChart(panel.querySelector('.comp-chart'), {label: 'Jefferies capacity', periods, series, hidden: capacityState.jefHidden, fmt, axisFmt: v => measure === 'share' ? v + '%' : v + ' GW'});
+  }
+  const what = {jef: 'Jefferies delivery estimate', plan: 'Projects the companies announced', both: 'Jefferies estimate (solid) beside announced plan (faint)', share: 'Share of announced plan Jefferies expects built'}[measure];
   setCapacityText(`${what}, ${measure === 'share' ? '%' : 'GW'}, North America, ${cumulative ? 'running total from 2026' : 'each year'}`,
     `Jefferies Exhibit 5, North America, ${cumulative ? 'running total from 2026' : 'each year'}`,
     'Plan = projects the hyperscalers have announced. JEF estimate = what Jefferies expects to be delivered. Source prints MW; shown here ÷ 1,000 as GW. xAI is listed as SPCX in the source. Totals are the printed source totals, which differ from row sums by up to 1 MW due to rounding. '

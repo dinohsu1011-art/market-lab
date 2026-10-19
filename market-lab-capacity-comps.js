@@ -179,6 +179,49 @@
     });
   }
 
+  // Two bars per series inside each group: a faint outlined bar (a) beside a solid
+  // one (b). series: [{name, color, a:[v|null], b:[v|null], note:(gi)=>string}]
+  function pairChart(host, cfg) {
+    responsive(host, () => {
+      const series = cfg.series.filter(s => !cfg.hidden?.has(s.name));
+      const W = Math.max(280, host.clientWidth), H = cfg.height || CHART_H;
+      const m = {t: 26, r: 14, b: 40, l: 48};
+      const iw = W - m.l - m.r, ih = H - m.t - m.b, n = cfg.groups.length, band = iw / n, k = Math.max(1, series.length);
+      const vals = series.flatMap(s => [...s.a, ...s.b].filter(v => v != null));
+      const t = ticks(0, Math.max(...vals, 0));
+      const hi = t[t.length - 1], y = v => m.t + ih - v / hi * ih;
+      const bw = Math.min(22, band * .86 / (k * 2 + (k - 1) * .7)), pairGap = bw * .7, gap = Math.min(1.5, bw * .1);
+      let svg = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${esc(cfg.label)}">`;
+      svg += t.map(v => `<line x1="${m.l}" x2="${m.l + iw}" y1="${y(v)}" y2="${y(v)}" class="${v === 0 ? 'ax-zero' : 'ax-grid'}"/><text x="${m.l - 7}" y="${y(v) + 4}" class="ax-y">${esc(cfg.axisFmt(v))}</text>`).join('');
+      const keyX = m.l + iw - 4;
+      svg += `<g class="pair-key"><rect x="${keyX - 196}" y="${m.t - 17}" width="9" height="9" class="pair-a" style="stroke:var(--ml-ink);fill:var(--ml-ink)"/><text x="${keyX - 183}" y="${m.t - 9}">${esc(cfg.aLabel)}</text>`
+        + `<rect x="${keyX - 84}" y="${m.t - 17}" width="9" height="9" style="fill:var(--ml-ink)"/><text x="${keyX - 71}" y="${m.t - 9}">${esc(cfg.bLabel)}</text></g>`;
+      cfg.groups.forEach((g, gi) => {
+        const left = m.l + gi * band + (band - (k * 2 * bw + (k - 1) * pairGap)) / 2;
+        series.forEach((s, si) => {
+          [['a', s.a[gi]], ['b', s.b[gi]]].forEach(([which, v], wi) => {
+            if (v == null) return;
+            const bx = left + si * (2 * bw + pairGap) + wi * bw + gap / 2, w = bw - gap;
+            svg += `<rect x="${bx}" y="${y(v)}" width="${w}" height="${Math.max(0, y(0) - y(v))}" style="fill:${s.color};stroke:${s.color}" class="col${which === 'a' ? ' pair-a' : ''}"/>`;
+            if (w >= 18) svg += `<text x="${bx + w / 2}" y="${y(v) - 4}" class="col-label" style="fill:${s.color}">${esc(cfg.labelFmt(v))}</text>`;
+          });
+        });
+        svg += `<text x="${m.l + (gi + .5) * band}" y="${H - m.b + 16}" class="ax-x">${esc(g.label)}</text>`;
+        svg += `<rect class="hover-band" data-i="${gi}" x="${m.l + gi * band}" y="${m.t - 18}" width="${band}" height="${ih + 18}"/>`;
+      });
+      host.innerHTML = svg + '</svg>';
+      host.querySelectorAll('.hover-band').forEach(r => {
+        const gi = Number(r.dataset.i);
+        r.addEventListener('mousemove', evt => {
+          const rows = series.filter(s => s.a[gi] != null || s.b[gi] != null)
+            .map(s => ({name: s.name, color: s.color, text: `${cfg.fmt(s.b[gi])} vs ${cfg.fmt(s.a[gi])}`, e: true, note: s.note(gi)}));
+          showTip(evt, tipRows(`${cfg.groups[gi].title}: ${cfg.bLabel} vs ${cfg.aLabel}`, rows));
+        });
+        r.addEventListener('mouseleave', hideTip);
+      });
+    });
+  }
+
   // ---------- figures table: same numbers the chart plots ----------
   // rowGroups: [{name, color, rows:[{label, cells:[{v,e,text}|null], fmt}]}]
   function figuresTable(host, {columns, rowGroups, caption}) {
@@ -197,7 +240,7 @@
     return columns.map((c, i) => ({...c, divider: i === first}));
   };
 
-  window.CompChart = {lineChart, columnChart, figuresTable, legend, segmented, dividerFlags, fmtB, fmtPct, COLORS, esc};
+  window.CompChart = {lineChart, columnChart, pairChart, figuresTable, legend, segmented, dividerFlags, fmtB, fmtPct, COLORS, esc};
 
   // ---------- cloud + capex from Hyperscaler Comps.xlsx ----------
   const data = window.compsData;
