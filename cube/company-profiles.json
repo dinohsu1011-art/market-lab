@@ -18150,6 +18150,816 @@
       "country": "Switzerland",
       "updated": "2026-10-17",
       "source": "Yahoo Finance via yfinance"
+    },
+    "ONDS": {
+      "symbol": "ONDS",
+      "name": "Ondas Inc.",
+      "summary": "Ondas Inc. provides private wireless, drone, and automated data solutions in the United States and internationally. It operates through the Ondas Networks and Ondas Autonomous Systems segments. The company offers Counter-UAS (CUAS) and site protection systems, including iron drone raider, a fully autonomous interceptor drone system for neutralizing small hostile drones; sentrycs CoRF, Cyber/RF-based CUAS platform for detection, identification, tracking, and mitigation of unauthorized drones; optimus system, fully autonomous drone platform for continuous security, surveillance, and mission-critical data collection; 4M defense, supporting missions related to demining and clearing land of unexploded ordnance; roboteam, UGVs and tactical ground robotics; apeiro motion, autonomy and mobility software for robotic platforms, enhancing navigation and operational effectiveness; and loitering munition systems, is a one way drone for a variety of missions including ISR defense and strike. It also offers FullMAX Software-Defined Radio Platform, a patented SDR platform for secure, private, wide-area broadband networks, enabling mission-critical communications; software and hardware maintenance agreements, extended software and hardware maintenance contracts, including ongoing support, security upgrades, and feature enhancements; licensing/royalties, licensing of FullMAX software and technology for integration into partner hardware and software platforms; and ancillary services, wireless network design, systems engineering, radio frequency planning, software configuration, product training, installation, onsite support, and engineering/product development. It serves rail, electric utilities, oil and gas, public safety, government, and other industrial applications. The company was formerly known as Ondas Holdings Inc. and changed its name to Ondas Inc. in January 2026. Ondas Inc. was incorporated in 2014 and is headquartered in West Palm Beach, Florida.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ONON": {
+      "symbol": "ONON",
+      "name": "On Holding AG",
+      "summary": "On Holding AG, together with its subsidiaries, develops and distributes performance sports products under the On brand in Switzerland, the rest of Europe, the Middle East, Africa, the United States, the rest of the Americas, and the Asia-Pacific. The company offers athletic footwear, apparel, and accessories for performance running, performance outdoor, performance all day, performance training, performance tennis, and young movers. It sells its products to athletes and active customers through wholesale and direct-to-consumer channels; run specialty, general sporting goods, outdoor, luxury, street fashion, and lifestyle retailers; owned retail stores; and e-commerce platforms. On Holding AG was founded in 2010 and is headquartered in Zurich, Switzerland.",
+      "sector": "Consumer Cyclical",
+      "industry": "Footwear & Accessories",
+      "country": "Switzerland",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ONTO": {
+      "symbol": "ONTO",
+      "name": "Onto Innovation Inc.",
+      "summary": "Onto Innovation Inc. engages in the design, development, manufacture, and support of process control tools that perform macro-defect inspection and metrology in the United States, Taiwan, South Korea, Japan, China, Southeast Asia, Asia, and Europe. The company offers lithography systems and process control analytical software; and automated and integrated metrology systems, silicon wafer all-surface inspection, macro defect inspection, automated defect classification and pattern analysis, yield analysis, opaque film metrology, 4D business, advanced packaging lithography, process control software, and yield management software products. It also provides process and yield management solutions, and device packaging and test facilities through standalone systems for optical metrology, macro-defect inspection, packaging lithography, and transparent and opaque thin film measurements. In addition, the company offers process control software portfolio that includes solutions for standalone tools, groups of tools, and factory-wide suites. Further, it engages in systems and software, spare parts, and other services, as well as offers software licensing services; and provides advanced product lines, such as FAaST, CnCV, and MBIR. The company's products are used in semiconductor and advanced packaging device manufacturers; silicon wafers; semiconductor integrated circuit fabricators; light emitting diodes; vertical-cavity surface-emitting lasers; micro-electromechanical systems; CMOS image sensors; silicon and compound semiconductor power devices; analog devices; RF filters; data storage; and various industrial and scientific applications. Onto Innovation Inc. was founded in 1940 and is headquartered in Wilmington, Massachusetts.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OPCH": {
+      "symbol": "OPCH",
+      "name": "Option Care Health, Inc.",
+      "summary": "Option Care Health, Inc. offers home and alternate site infusion services in the United States. The company provides anti-infective therapy and services; home infusion services to treat heart failure; home parenteral nutrition and enteral nutrition support services for numerous acute and chronic conditions, such as stroke, cancer, and gastrointestinal diseases; immunoglobulin infusion therapies for the treatment of immune deficiencies; and treatments for chronic inflammatory disorders, including crohn's disease, plaque psoriasis, psoriatic arthritis, rheumatoid arthritis, ulcerative colitis, and other chronic inflammatory disorders. It also offers treatments to manage the progression of neurological disorders, such as Duchenne muscular dystrophy, multiple sclerosis, Alzheimer's disease, and other neurological disorder; infusion therapies for bleeding disorders, such as hemophilia and von Willebrand diseases; therapies for women with high-risk pregnancies; and other infusion therapies to treat various conditions, including pain management, chemotherapy, and respiratory medications, as well as nursing services. The company markets its services through patient referrals, including physicians, hospital discharge planners, hospital personnel, health maintenance organizations, and preferred provider organizations. The company is headquartered in Bannockburn, Illinois.",
+      "sector": "Healthcare",
+      "industry": "Medical Care Facilities",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OPEN": {
+      "symbol": "OPEN",
+      "name": "Opendoor Technologies Inc.",
+      "summary": "Opendoor Technologies Inc. operates a digital platform for residential real estate transactions in the United States. It buys and sells homes through online e-commerce platform. The company also resells the home to a home buyer. In addition, it offers real estate brokerage, title insurance and settlement, and escrow services, as well as property and casualty insurance, real estate licenses, and construction services. The company was formerly known as Social Capital Hedosophia Holdings Corp. II and changed its name to Opendoor Technologies Inc. Opendoor Technologies Inc. was incorporated in 2013 and is based in Tempe, Arizona.",
+      "sector": "Real Estate",
+      "industry": "Real Estate Services",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OPLN": {
+      "symbol": "OPLN",
+      "name": "OPENLANE, Inc.",
+      "summary": "OPENLANE, Inc., together with its subsidiaries, operates as a digital marketplace for wholesale used vehicles in the United States, Canada, Continental Europe, and the United Kingdom. The company operates through two segments, Marketplace and Finance. The Marketplace segment includes various activities designed to facilitate the transfer of used vehicles for sellers and buyers; vehicle logistics center locations; SaaS-based private label remarketing solutions to automobile manufacturers, captive finance companies, and other commercial customers to digitally offer vehicles for sale; wholesale vehicle marketplaces; and value-added ancillary services including inbound and outbound transportation logistics, reconditioning and mechanical work, vehicle inspection and certification, titling, administrative, and collateral recovery services. This segment sells its products and services through commercial fleet operators, financial institutions, car rental companies, new and used vehicle dealers, and vehicle manufacturers. Its marketplaces include OPENLANE platform, a mobile app enabled solutions that allows dealers to sell and source inventory. The Finance segment offers floorplan financing, a short-term inventory-secured financing to independent vehicle dealers; liquidity for customer trade-ins; and title services. In addition, the company provides pre- and post-sale inspection; transportation and logistics; digital marketplace services; remarketing services; and vehicle research services. It serves commercial customers, and franchise and independent dealer customers. The company was formerly known as KAR Auction Services, Inc. and changed its name to OPENLANE, Inc. in May 2023. OPENLANE, Inc. was incorporated in 2006 and is headquartered in Carmel, Indiana.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto & Truck Dealerships",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ORA": {
+      "symbol": "ORA",
+      "name": "Ormat Technologies, Inc.",
+      "summary": "Ormat Technologies, Inc. engages in the geothermal and recovered energy power business in the United States, Indonesia, Kenya, Turkey, Chile, Guatemala, Guadeloupe, New Zealand, Honduras, France, Indonesia, the Philippines, and internationally. It operates through three segments: Electricity, Product, and Energy Storage. The Electricity segment develops, builds, owns, and operates geothermal, solar photovoltaic, and recovered energy-based power plants; and sells electricity. The Product segment designs, manufactures, and sells equipment for geothermal and recovered energy-based electricity generation; and provides services relating to the engineering, procurement, and construction of geothermal and recovered energy-based power plants. The Energy Storage segment owns and operates grid-connected, stand alone In Front of the Meter (IFM) battery energy storage BESS facilities, which provide capacity, energy, and ancillary services directly to the electric grid. The company serves contractors, geothermal plant owners and operators, interstate natural gas pipeline owners and operators, gas processing plant owners and operators, cement plant owners and operators, and biomass facilities owners and operators, as well as other companies engaged in energy-intensive industrial processes. Ormat Technologies, Inc. was founded in 1965 and is headquartered in Reno, Nevada.",
+      "sector": "Utilities",
+      "industry": "Utilities - Renewable",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OR": {
+      "symbol": "OR",
+      "name": "OR Royalties Inc.",
+      "summary": "OR Royalties Inc. acquires and manages precious metal and other royalties, streams, and other interests in Canada and internationally. It also owns options on offtake; royalty/stream financings; and exclusive rights to participate in future royalty/stream financings on various projects. The company's primary asset is a 3-5% net smelter return royalty on the Canadian Malartic complex located in Canada. In addition, it is involved in the exploration, evaluation, and development of mining properties. It primarily explores precious metals, including gold, silver, copper, diamond, and others. The company was formerly known as Osisko Gold Royalties Ltd and changed its name to OR Royalties Inc. in May 2025. OR Royalties Inc. was founded in 2014 and is headquartered in Montreal, Canada.",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "country": "Canada",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ORC": {
+      "symbol": "ORC",
+      "name": "Orchid Island Capital, Inc.",
+      "summary": "Orchid Island Capital, Inc., a specialty finance company, invests in residential mortgage-backed securities (RMBS) in the United States. The company's RMBS is backed by single-family residential mortgage loans, referred to as Agency RMBS. Its portfolio comprises traditional pass-through Agency RMBS, such as mortgage pass through certificates and collateralized mortgage obligations; and structured Agency RMBS, including interest only securities, inverse interest only securities, and principal only securities. The company has elected to be taxed as a real estate investment trust (REIT) for the United States federal income tax purposes. As a result, it would not be subject to corporate income tax on that portion of its net income that is distributed to stockholders, if it annually distributes dividends equal to at least 90% of its REIT taxable income to its shareholders. Orchid Island Capital, Inc. was incorporated in 2010 and is headquartered in Vero Beach, Florida.",
+      "sector": "Real Estate",
+      "industry": "REIT - Mortgage",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ORI": {
+      "symbol": "ORI",
+      "name": "Old Republic International Corporation",
+      "summary": "Old Republic International Corporation, through its subsidiaries, provides insurance underwriting and related services in the United States and Canada. It operates in two segments, Specialty Insurance and Title Insurance. The Specialty Insurance segment provides lines of coverages, such as accident and health, aviation, commercial auto, commercial multi-peril, commercial property, cyber, environmental, excess and surplus, home and auto warranty, automobile extended warranty, general liability, inland marine, travel accident, and workers' compensation, as well as financial indemnity, including directors and officers, errors and omissions, fidelity, and surety coverages. This segment offers its products to transportation, commercial construction, healthcare, education, retail and wholesale trade, forest products, energy, general manufacturing, and financial services industries. The Title Insurance segment insures against losses arising out of defects, liens and encumbrances affecting the insured title to real estate purchasers and investors. This segment also provides escrow closing and construction disbursement services; and real estate information products; national default management services; and various other services pertaining to real estate transfers and loan transactions. The company was founded in 1923 and is based in Chicago, Illinois.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Property & Casualty",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ORKA": {
+      "symbol": "ORKA",
+      "name": "Oruka Therapeutics, Inc.",
+      "summary": "Oruka Therapeutics, Inc., a clinical-stage biopharmaceutical company, focuses on developing novel monoclonal antibody therapeutics for psoriasis (PsO), and other inflammatory and immunology (I&I) indications. Its lead products include ORKA-001 that targets p19 subunit of interleukin-23, which is in phase 2a trial for the treatment of PsO; and ORKA-002 that targets interleukin-17A and interleukin-17F, which is in phase 2 trial for the treatment of PsO, psoriatic arthritis, and other conditions. The company also develops ORKA-003 for targeting an undisclosed pathway; and ORKA-021, a sequential combination regimen of ORKA-002 and ORKA-001. Oruka Therapeutics, Inc. is headquartered in Menlo Park, California.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ORIC": {
+      "symbol": "ORIC",
+      "name": "ORIC Pharmaceuticals, Inc.",
+      "summary": "ORIC Pharmaceuticals, Inc., a clinical-stage biopharmaceutical company, engages in the discovery and development of therapies to counter the resistance mechanisms in cancers in the United States. Its clinical stage product candidates include enozertinib formerly known as ORIC-114, a brain penetrant orally bioavailable irreversible inhibitor, currently under Phase 1b study, that selectively target epidermal growth factor receptor (EGFR) exon 20 and human epidermal growth factor receptor 2 exon 20 with high potency towards exon 20 insertion mutations; and rinzimetostat formerly known as ORIC-944, an allosteric inhibitor of the polycomb repressive complex 2 for prostate cancer, currently under Phase 1b study. It has a clinical trial collaboration and supply agreement with Bayer to evaluate ORIC-944 in combination with Nubeqa AR inhibitor; and a clinical trial collaboration and supply agreement with Johnson & Johnson to evaluate ORIC 944 in combination with Erleada AR inhibitor. The company was incorporated in 2014 and is headquartered in South San Francisco, California.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ORLY": {
+      "symbol": "ORLY",
+      "name": "O'Reilly Automotive, Inc.",
+      "summary": "O'Reilly Automotive, Inc., together with its subsidiaries, operates as a retailer and supplier of automotive aftermarket parts, tools, supplies, equipment, and accessories in the United States, Puerto Rico, Mexico, and Canada. The company offers new and remanufactured automotive hard parts and maintenance items, such as alternators, batteries, brake system components, belts, chassis parts, driveline parts, engine parts, fuel pumps, hoses, starters, temperature control, water pumps, antifreeze, appearance products, engine additives, filters, fluids, lighting products, and oil and wiper blades; and accessories, including floor mats, seat covers, and truck accessories. It also provides auto body paint and related materials, automotive tools, and professional service provider service equipment. In addition, the company offers enhanced services and programs consisting of used oil, oil filter, and battery recycling; battery, wiper, and bulb replacement; battery diagnostic testing; electrical and module testing; check engine light code extraction; loaner tool program; referrals to trusted local repair shops; drum and rotor resurfacing; custom hydraulic hoses; and professional paint shop mixing and related materials. It offers its products to do-it-yourself and professional service providers for domestic and imported automobiles, vans, and trucks. It offers its products under the BesTest, BrakeBest, Cartek, Import Direct, MasterPro, MicroGard, Murray, Omnispark, O'Reilly Auto Parts, Precision, PowerTorque, SuperStart, Syntec, and Ultima brand names. O'Reilly Automotive, Inc. was founded in 1957 and is headquartered in Springfield, Missouri.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OSCR": {
+      "symbol": "OSCR",
+      "name": "Oscar Health, Inc.",
+      "summary": "Oscar Health, Inc. operates as a healthcare technology company in the United States. The company offers health plans to individuals, families, employees, and small group markets. It also provides +Oscar platform that power others throughout the healthcare system; Campaign Builder platform, an engagement and recommendation platform for providers and payors; and reinsurance products. In addition, the company offers brokerage services and enrollment platform for brokers and consumers to shop, buy, and enroll in medical and supplemental health products. The company was formerly known as Mulberry Health Inc. and changed its name to Oscar Health, Inc. in January 2021. Oscar Health, Inc. was incorporated in 2012 and is headquartered in New York, New York.",
+      "sector": "Healthcare",
+      "industry": "Healthcare Plans",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OSIS": {
+      "symbol": "OSIS",
+      "name": "OSI Systems, Inc.",
+      "summary": "OSI Systems, Inc. designs and manufactures specialized electronic systems and components for critical applications in the United States, Mexico, the rest of Americas, the United Kingdom, Europe, the Middle East, Africa, and the Asia-Pacific. The company offers security products, such as baggage and parcel inspection, cargo and vehicle inspection, hold baggage screening, people screening, radiation monitoring, explosive and narcotics trace detection, and optical inspection systems; turnkey security screening services for enterprise inspection process integration, operator training, and the staffing and operation of security screening checkpoints under the S2 brand. It also provides trace detection systems for trace amounts of explosives and narcotics and people screening products, including walk-through metal detectors for use at security checkpoints at airports, government buildings, sports arenas, and other venues; digital and analog high-power RF systems; and active components for detection of lights of different wavelengths and converts light into electrical signals. In addition, the company offers devices for emitting light in the form of lasers; passive components for amplifying, separating, and reflecting light under the OSI Optoelectronics brand; and printed circuit board assemblies, cable and harness assemblies, and complete systems. Further, it provides bedside monitors, such as the Xprezzon and Qube, as well as telemetry solutions; Spacelabs SafeNSound for assisting hospitals; predictive analytics clinical decision support solutions; Pathfinder SL and Lifescreen Pro analysis tools; and Eclipse Pro Holter recorders. Additionally, the company offers Eclipse Mini Ambulatory ECG recorders; ambulatory blood pressure monitors; Spacelabs OnTrak ambulatory blood pressure systems; Sentinel, a cardiology information management system; and multivendor compatible accessories. OSI Systems, Inc. was incorporated in 1987 and is headquartered in Hawthorne, California.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OSW": {
+      "symbol": "OSW",
+      "name": "OneSpaWorld Holdings Limited",
+      "summary": "OneSpaWorld Holdings Limited operates health and wellness centers onboard cruise ships and at destination resorts in the United States and internationally. It offers massage and body care services and therapies, and aesthetics treatments; medi-spa services; and acupuncture, electric stimulation acupuncture, LED therapy, cupping, posture and gait analysis, and therapy for recovery. The company also provides fitness centers, and personalized training services and consultation; personal nutritional and dietary consultation, weight management, nutrition coaching and detoxification; hot and cold hydro-therapies and related amenities, such as thermal loungers, infrared saunas, snow rooms, laconiums, caldarium chambers, and hammams, as well as cold plunge pools, large therapeutic jacuzzis, and rooms surrounding occupants with layers of body cleansing salt crystals. In addition, the company offers products under the ELEMIS, Grown Alchemist, Kerastase, Keratin Complex, Thermage, Dysport, GoodFeet arch supports, Hyperice, and Megawhite teeth whitening brands. OneSpaWorld Holdings Limited was founded in 2017 and is based in Nassau, Bahamas.",
+      "sector": "Consumer Cyclical",
+      "industry": "Leisure",
+      "country": "Bahamas",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OSK": {
+      "symbol": "OSK",
+      "name": "Oshkosh Corporation",
+      "summary": "Oshkosh Corporation provides purpose-built vehicles and equipment worldwide. The company operates through three segments: Access, Vocational, and Transport segment. The Access segment designs and manufactures aerial work platform and telehandlers for use in construction, industrial, and maintenance applications; and towing and recovery equipment, which includes carriers, wreckers, and rotators, as well as provides financing and leasing solutions, including rental fleet loans, leases, and floor plan and retail financing. This segment also offers equipment installation and sale of chassis and service parts, as well as offers parts and accessories. The Transport segment engages in the manufacture and sale of heavy, medium, and light tactical wheeled vehicles and related services for defense; and hauling combat vehicles, missile systems, ammunition, fuel, and troops and cargos. The Vocational segment offers custom and commercial firefighting equipment, fire apparatus, and emergency vehicles, including pumpers, aerial platform, ladder and tiller trucks, and tankers; light, medium, and heavy-duty rescue vehicles; and wildland rough terrain response other emergency response vehicles. This segment also produces and sells aircraft rescue and firefighting vehicles; airport ground support equipment; baggage, airport facility and operations, and equipment-monitoring technology services; refuse and recycling collection vehicles and components; and IMT-branded field service vehicles and truck-mounted cranes, frontline communications-branded simulators, command vehicles and other communication vehicles, and front-discharge concrete mixer vehicles. The company sells its products through direct sales representatives, dealers, and distributors. The company was formerly known as Oshkosh Truck Corporation. Oshkosh Corporation was founded in 1915 and is headquartered in Oshkosh, Wisconsin.",
+      "sector": "Industrials",
+      "industry": "Farm & Heavy Construction Machinery",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OTF": {
+      "symbol": "OTF",
+      "name": "Blue Owl Technology Finance Corp.",
+      "summary": "Blue Owl Technology Finance Corp. is a business development company specializes in upper middle-market, making debt and equity investments such as senior secured or unsecured loans, subordinated loans or mezzanine loans and equity-related securities including common equity, warrants, preferred stock and similar forms of senior equity, finance and business development company. The firm prefers to invest in technology and software companies. It primarily makes investments in the United States. Blue Owl Technology Finance Corp. is founded in 2018 and is based in New York, New York.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OTIS": {
+      "symbol": "OTIS",
+      "name": "Otis Worldwide Corporation",
+      "summary": "Otis Worldwide Corporation engages in manufacturing, installation, and servicing of elevators and escalators in the United States, China, and internationally. The company operates in two segments, New Equipment and Service. The New Equipment segment designs, manufactures, sells, and installs a range of passenger and freight elevators, as well as escalators and moving walkways for residential and commercial buildings, and infrastructure projects. This segment serves real-estate and building developers, and general contractors. It sells its products directly to customers, as well as through agents and distributors. The Service segment performs maintenance and repair services, as well as modernization services to upgrade elevators and escalators. Otis Worldwide Corporation was founded in 1853 and is headquartered in Farmington, Connecticut.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OTTR": {
+      "symbol": "OTTR",
+      "name": "Otter Tail Corporation",
+      "summary": "Otter Tail Corporation, together with its subsidiaries, engages in electric utility, manufacturing, and plastic pipe businesses in the United States. It operates through three segments: Electric, Manufacturing, and Plastics. The Electric segment generates, purchases, transmissions, distributes, and sells electric energy in Minnesota, North Dakota, and South Dakota; and operates as a participant in the Midcontinent Independent System Operator markets. This segment generates electricity through coal, fuel oil, solar, wind, and natural gas for residential, commercial, and industrial customers. Its Manufacturing segment engages in metal fabrication services for custom machine parts and metal components and manufacturing thermoformed plastic products for use in the agriculture, construction, horticulture, industrial, lawn and garden, recreational vehicle, and other end markets. These businesses have manufacturing facilities in Georgia, Illinois, and Minnesota and sell products primarily in the United States. The Plastics segment manufactures polyvinyl chloride pipes for municipal water, rural water, wastewater, storm drainage and water reclamation system, and other uses for customers in the horticulture, medical and life sciences, industrial, recreation, and electronics industries. This segment markets its products through independent sales representatives, company salespersons, and customer service representatives. Otter Tail Corporation was incorporated in 1907 and is headquartered in Fergus Falls, Minnesota.",
+      "sector": "Industrials",
+      "industry": "Conglomerates",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OTEX": {
+      "symbol": "OTEX",
+      "name": "Open Text Corporation",
+      "summary": "Open Text Corporation provides data management solutions for enterprise AI in North, Central and South America, Europe, the Middle East, Africa, Australia, Japan, Singapore, India, and China. Its products and solutions help organizations collect, connect, contextualize, protect, govern, use, and secure data across their operations. The company offers cloud services and subscriptions, including software as a service offerings, application programming interfaces and data services, and private cloud products, such as hosted services and managed service arrangements; foundational platform of technology services; and packaged business applications, as well as managed services and outsourced B2B integration solutions, including program implementation, operational management, and customer support. It also engages in licensing software products to customers; and consulting and learning services, such as implementation, training, and integration of licensed product offerings into the customer's systems. In addition, the company offers content, business network, observability and service management, cybersecurity, application delivery management, and analytics. It has partnerships with SAP SE, Google Cloud, Amazon Web Services, Microsoft Corporation, Oracle Corporation, and SALESFORCE, INC., as well as global systems integrators, including Accenture plc, Capgemini Technology Services SAS, Deloitte Consulting LLP, Hewlett Packard Enterprises, and Tata Consultancy Services. The company serves global 10,000 organizations, enterprise companies, public sector agencies, mid-market companies, SMBS, and direct consumers. The company has a strategic partnership with Cohere to develops and provides agentic AI to governments and regulated industries. Open Text Corporation was incorporated in 1991 and is headquartered in Waterloo, Canada.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "Canada",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OUST": {
+      "symbol": "OUST",
+      "name": "Ouster, Inc.",
+      "summary": "Ouster, Inc. engages in the production and sale of lidar sensor kits for the automotive, industrial, robotics, and smart infrastructure industries in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. The company offers the Outer Sensor (OS) product line, including OSDome that provides a hemispheric field of view; OS0 for wide view; OS1, for mid-range view; and OS2 for long-range view. It also provides the DF series, a suite of short, mid, and long-range solid-state digital lidar sensors for advanced driver assistance systems (ADAS) and autonomous driving systems; Velodyne that offers surround-view lidar sensors comprising VLP-16, VLP-16 Lite, VLP-16 Hi-Res, VLP-32, and VLS-128; Ouster Gemini, a perception platform designed for smart infrastructure deployments; and BlueCity, a Gemini-powered solution for traffic operations, planning, and safety. In addition, the company offers ZED, a high-performance camera that provides 2D and 3D color data, as well as AI Compute. Further, it is developing solid-state digital flash sensors, a suite of short, mid, and long-range solid-state digital lidar sensors that provide uniform precision imaging without motion blur across an entire field of view. Ouster, Inc. was founded in 2015 and is headquartered in San Francisco, California.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OUT": {
+      "symbol": "OUT",
+      "name": "OUTFRONT Media Inc.",
+      "summary": "OUTFRONT Media Inc. is one of the largest and most trusted out-of-home media companies in the U.S., helping brands connect with audiences in the moments and environments that matter most. As OUTFRONT evolves, it's defining a new era of in-real-life marketing, turning public spaces into platforms for creativity, connection, and cultural relevance. With a nationwide footprint across billboards, digital displays, transit systems, and other out-of-home formats, OUTFRONT turns creative into powerful real-world experiences. Its in-house agency, OUTFRONT STUDIOS, and award-winning innovation team, XLabs, deliver standout storytelling, supported by advanced technology and data tools that can drive measurable impact. OUTFRONT Media Inc. was established in 2013 and was incorporated in Maryland.",
+      "sector": "Real Estate",
+      "industry": "REIT - Specialty",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OVV": {
+      "symbol": "OVV",
+      "name": "Ovintiv Inc.",
+      "summary": "Ovintiv Inc., together with its subsidiaries, operates as an oil and natural gas exploration and production company in North America. The company operates through USA Operations and Canadian Operations segments. It is involved in the exploration, development, production, and marketing of oil, NGLs, natural gas and other related activities in the Permian in West Texas and Anadarko in West-central Oklahoma in the United States, as well as in the Montney in northwest Alberta and northeast British Columbia. The company was formerly known as Encana Corporation and changed its name to Ovintiv Inc. in January 2020. Ovintiv Inc. was incorporated in 2020 and is based in Denver, Colorado.",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OWL": {
+      "symbol": "OWL",
+      "name": "Blue Owl Capital Inc.",
+      "summary": "Blue Owl Capital Inc. operates as an alternative asset manager in the United States. It offers permanent capital base solutions that enables it to offer holistic framework of capital solutions to middle market companies, large alternative asset managers, and corporate real estate owners and tenants. The company also provides private financing solutions, such as direct lending products comprising diversified, technology, first lien, and opportunistic lending to middle-market companies; alternative credit; investment grade credit; liquid credit; and other credit solutions. In addition, the company offers GP strategic capital products, which offers capital solutions, including GP minority stakes, GP debt financing, and professional sports minority stakes; and real estate products that focuses on acquiring triple net lease real estate by investment grade or creditworthy tenants, as well as real estate debt finance through net lease and real estate credit. It offers its solutions through permanent capital vehicles and long-dated private funds. Blue Owl Capital Inc. is headquartered in New York, New York.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OXY": {
+      "symbol": "OXY",
+      "name": "Occidental Petroleum Corporation",
+      "summary": "Occidental Petroleum Corporation, together with its subsidiaries, engages in the acquisition, exploration, and development of oil and gas properties in the United States and internationally. It operates through Oil and Gas and Midstream and Marketing. The Oil and Gas segment explores for, develops, and produces oil and condensate, natural gas liquids (NGLs), and natural gas. This segment also optimizes its transportation and storage capacity and invests in entities. The Midstream and Marketing segment purchases, markets, gathers, processes, transports and stores oil, condensate, NGLs, natural gas, carbon dioxide, and power. Occidental Petroleum Corporation was founded in 1920 and is headquartered in Houston, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "OZK": {
+      "symbol": "OZK",
+      "name": "Bank OZK",
+      "summary": "Bank OZK operates as a full-service Arkansas state-chartered bank that provides retail and commercial banking services. The company provides deposit services, including non-interest-bearing checking, interest bearing transaction, business sweep, savings, money market, individual retirement, and other accounts, as well as time and reciprocal deposits. It offers trust and wealth services, such as personal trusts, custodial accounts, investment management accounts, and retirement accounts; corporate trust services that include trustee, paying agent and registered transfer agent services, and other related services; and treasury management services, which include automated clearing house, wire transfer, current and prior day transaction reporting, wholesale lockbox, remote deposit capture, automated credit line transfer, reconciliation, positive pay, commercial card, and other services, as well as zero balance and investment sweep accounts. In addition, the company provides real estate, consumer, small business, indirect recreational vehicle and marine, equipment, agricultural, commercial and industrial, government guaranteed, lines of credit, homebuilder, and housing loans; lender and structured, business aviation, and subscription financing services; and mortgage and other lending products. The company was formerly known as Bank of the Ozarks and changed its name to Bank OZK in July 2018. Bank OZK was founded in 1903 and is headquartered in Little Rock, Arkansas.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "P": {
+      "symbol": "P",
+      "name": "Everpure, Inc.",
+      "summary": "Everpure, Inc. provides data storage and management technologies, products, and services in the United States and internationally. Its Purity software is shared across its products and provides enterprise-class data services, such as always-on data reduction, data protection, and encryption, as well as storage protocols, such as block, file, and object. The company also provides FlashArray, including FlashArray//ST, FlashArray//X, FlashArray//C, FlashArray//XL, FlashArray//E, and FlashArray File Services, addressing databases, applications, virtual machines, and other traditional workloads; and FlashBlade integrated hardware systems comprising FlashBlade//S, FlashBlade//E, and FlashBlade//EXA for managing and processing unstructured data workloads of various types from real-time log analytics and commercial high-performance computing (HPC) to data protection and recovery. In addition, it offers cloud storage solutions, such as Portworx by Everpure, a cloud-native Kubernetes data management solution; and Evergreen/One; and Evergreen/Flex. Further, the company provides Everpure Fusion, a Software-as-a-Service (SaaS) management plane, which enables storage administrators to unify storage arrays and optimize storage pools; Evergreen Architecture comprising Pure1, an AI-driven cloud-based management platform, as well as Evergreen//One and Evergreen//Flex data storage solutions; and Everpure Cloud, a virtual block storage array, that provides customers the flexibility to operate a hybrid cloud model with seamless data mobility across on-premises and public cloud environments. It sells its products and subscription services through a direct sales force and channel partners. Everpure, Inc. has a strategic alliance with Odine Solutions Teknoloji Ticaret ve Sanayi A.S. The company was formerly known as Pure Storage, Inc. and changed its name to Everpure, Inc. in February 2026. Everpure, Inc. was incorporated in 2009 and is headquartered in Santa Clara, California.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PAA": {
+      "symbol": "PAA",
+      "name": "Plains All American Pipeline, L.P.",
+      "summary": "Plains All American Pipeline, L.P., through its subsidiaries, engages in the pipeline transportation, terminalling, storage, and gathering of crude oil and natural gas liquids (NGL) in the United States and Canada. The company operates through two segments, Crude Oil and NGL. The Crude Oil segment offers gathering and transporting crude oil through pipelines, trucks, and on barges or railcars. This segment provides terminalling, storage, and other related services, as well as merchant activities. The NGL segment is involved in natural gas processing and NGL fractionation, storage, transportation, and terminaling. This segment also includes ethane, propane, normal butane, iso-butane, and natural gasoline derived from natural gas production and processing activities, as well as crude oil refining processes. Its NGL components are used for various applications, such as heating, engine, and industrial fuels. The company was founded in 1981 and is headquartered in Houston, Texas. Plains All American Pipeline, L.P. operates as a subsidiary of Plains GP Holdings, L.P.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PAAS": {
+      "symbol": "PAAS",
+      "name": "Pan American Silver Corp.",
+      "summary": "Pan American Silver Corp. engages in the exploration, mine development, extraction, processing, refining, and reclamation of mines in Chile, Peru, Brazil, Mexico, Canada, Argentina, Bolivia, and Guatemala. The Silver segment includes the La Colorada, Juanicipio, Cerro Moro, Huaron, and San Vicente mines. The Gold segment comprises the Jacobina, El Peñon, Timmins, Shahuindo, Minera Florida, and Dolores mines. It explores silver, gold, zinc, lead, and copper deposits. The company was formerly known as Pan American Minerals Corp. and changed its name to Pan American Silver Corp. in April 1995. Pan American Silver Corp. was incorporated in 1979 and is headquartered in Vancouver, Canada.",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "country": "Canada",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PAC": {
+      "symbol": "PAC",
+      "name": "Grupo Aeroportuario del Pacífico, S.A.B. de C.V.",
+      "summary": "Grupo Aeroportuario del Pacífico, S.A.B. de C.V., together with its subsidiaries, develops, operates, and manages airports in Mexico and Jamaica. The company operates twelve international airports in the Pacific and Central region of Mexico; and two international airports in Jamaica. It also offers aeronautical services, such as passenger, aircraft landing, parking charges, leasing of space to these airlines, airport security and passenger walkway, and airport bus; complementary services, including baggage handling, catering, aircraft maintenance and repair, and fuel; cargo handling; and ground transportation services. In addition, the company provides non-aeronautical services, such as redesigning and modernizing terminal spaces and developing new commercial projects; telephone and internet services; and ground handling services under the brand Primesky, as well as advertising services. Further, it engages in commercial activities comprising leasing space in terminals to airlines and other service providers; retail stores, such as souvenir and gift shops, fashion and footwear stores, pharmacies, jewelry, electronics, cosmetics, and others; and various food and beverage services, as well as leasing space and designated parking areas to car rental service companies, including service counters, reservation booths, and vehicle parking facilities; and leasing space to timeshare developers, financial service providers, communications, and to operators of duty-free stores. Additionally, the company operates parking facilities; VIP lounges; convenience stores; and vending machines. The company was incorporated in 1998 and is headquartered in Guadalajara, Mexico.",
+      "sector": "Industrials",
+      "industry": "Airports & Air Services",
+      "country": "Mexico",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PAG": {
+      "symbol": "PAG",
+      "name": "Penske Automotive Group, Inc.",
+      "summary": "Penske Automotive Group, Inc., a diversified transportation services company, operates automotive and commercial truck dealerships in the United States, the United Kingdom, Germany, Italy, Japan, Canada, Australia, New Zealand, and internationally. It operates through four segments: Retail Automotive, Retail Commercial Truck, Other, and Non-Automotive Investments. The company operates franchise dealerships under franchise agreements with various automotive manufacturers and distributors. It is also involved in the sale of new and used vehicles, maintenance and repair services, sale and placement of third-party finance and insurance products, third-party extended service and maintenance contracts, replacement and aftermarket automotive products, collision repair services, and wholesale of parts. In addition, the company operates a heavy and medium duty truck dealership, which offers Freightliner and Western Star branded trucks, as well as offers a range of used trucks. Further, it imports and distributes Western Star heavy-duty trucks, MAN heavy and medium duty trucks and buses, and Dennis Eagle refuse collection vehicles with associated parts, as well as distributes diesel and gas engines, and power systems. Penske Automotive Group, Inc. was incorporated in 1990 and is headquartered in Bloomfield Hills, Michigan. Penske Automotive Group, Inc. operates as a subsidiary of Penske Corporation, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto & Truck Dealerships",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PACS": {
+      "symbol": "PACS",
+      "name": "PACS Group, Inc.",
+      "summary": "PACS Group, Inc., through its subsidiaries, operates skilled nursing facilities and assisted living facilities in the United States. It also provides senior care and independent living facilities. The company engages in the acquisition, ownership, and leasing of health care-related properties. PACS Group, Inc. was founded in 2013 and is headquartered in Salt Lake City, Utah.",
+      "sector": "Healthcare",
+      "industry": "Medical Care Facilities",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PAGP": {
+      "symbol": "PAGP",
+      "name": "Plains GP Holdings, L.P.",
+      "summary": "Plains GP Holdings, L.P., through its subsidiary, Plains All American Pipeline, L.P., owns and operates midstream infrastructure systems in the United States and Canada. It operates through Crude Oil and Natural Gas Liquids (NGLs) segments. The company engages in the gathering and transporting crude oil using pipelines, trucks, and barges or railcars. It also provides terminalling, storage, and other related services. In addition, the company is involved in the natural gas processing and NGL fractionation, storage, transportation, and terminalling activities. PAA GP Holdings LLC operates as a general partner of the company. Plains GP Holdings, L.P. was incorporated in 2013 and is headquartered in Houston, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PARR": {
+      "symbol": "PARR",
+      "name": "Par Pacific Holdings, Inc.",
+      "summary": "Par Pacific Holdings, Inc., an energy company, provides renewable and conventional fuels in the United States. The company operates through three segments: Refining, Retail, and Logistics. The Refining segment owns and operates refineries that convert crude oil into gasoline, distillate, asphalt, and other products. The Retail segment operates convenience stores and fuel retail outlets that sell gasoline, diesel, and retail merchandise, such as soft drinks, prepared food, and other sundries under the Hele, 76, and nomnom brands, as well as unattended cardlock stations. The Logistics segment owns and operates terminals, pipelines, trucking operations, marine vessels, storage facilities, loading and truck racks, and rail facilities for the movement of ethanol, petroleum, and refined products; and a jet fuel storage facility and pipeline that serves Ellsworth Air Force Base in South Dakota. The company also holds interest in crude storage tanks and a crude oil pipeline that provides access to crude oil from power river basin; and refined products pipeline. In addition, it owns and operates a single point mooring, a marine terminal, a unit train-capable rail loading terminal, manifest rail siding, a truck rack, and a proprietary jet fuel pipeline that serves Joint Base Lewis McChord. The company was formerly known as Par Petroleum Corporation and changed its name to Par Pacific Holdings, Inc. in October 2015. Par Pacific Holdings, Inc. was incorporated in 1984 and is headquartered in Houston, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PATH": {
+      "symbol": "PATH",
+      "name": "UiPath, Inc.",
+      "summary": "UiPath, Inc. provides an automation platform that offers a range of robotic process automation (RPA) solutions primarily in the United States, Romania, the United Kingdom, the Netherlands, and internationally. It offers the UiPath platform, an integrated enterprise software platform that enables AI agents, robots, people, and models to work together in coordinated workflows. The company's UiPath platform includes the UiPath Maestro process orchestration and process intelligence; UiPath agent builder; RPA and API automation; UiPath intelligent xtraction and processing; UiPath test cloud for testing and quality assurance; UiPath packaged and prebuilt agentic solutions; and centralized governance capabilities that apply across automations, AI agents, and manual tasks. It serves the financial services, healthcare, manufacturing, retail, and public sectors. The company was founded in 2005 and is headquartered in New York, New York.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PAGS": {
+      "symbol": "PAGS",
+      "name": "PagSeguro Digital Ltd.",
+      "summary": "PagSeguro Digital Ltd., together with its subsidiaries, provides financial and payment solutions for consumers, individual entrepreneurs, micro-merchants, and small and medium-sized companies in Brazil and internationally. The company provides digital banking solutions, including bill payments, deposits, top-ups, debt management, direct deposits, pix, tax collections, tax collections, wire transfer, and ATM withdrawal; cards, such as debit, credit, cash, and prepaid cards; and credit products comprising FGTS withdrawals, payroll loans, working capital loans, and overdraft accounts. It offers insurance services, including account, card, home, business, health assistance, life, and credit life insurance; investment services, such as recommendation from our distribution team, financial education, stocks and REITs, investment, PagBank CD, Third-party fixed income, treasury, automatic savings and money boxes; and operates cashback and Shopping PagBank, a marketplace for various brands. In addition, it provides software solutions comprising PagVendas, a POS software app; ClubPag, a marketing tool that allows merchants to advertise across client base, available for POS devices; PlugPag, a wireless solution that connects the machine to the commercial automation system, via Bluetooth technology; and Envio Fácil, a logistics solution for online sales. The company was founded in 2006 and is headquartered in São Paulo, Brazil.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "Brazil",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PATK": {
+      "symbol": "PATK",
+      "name": "Patrick Industries, Inc.",
+      "summary": "Patrick Industries, Inc. manufactures and distributes component and materials for recreational vehicle, marine, powersports, manufactured housing, and industrial markets in the United States, Mexico, China, and Canada. The company operates through Manufacturing and Distribution segments. Its Manufacturing segment manufactures and sells laminated for furniture, shelving, wall, countertop, and cabinet products; cabinet doors, fiberglass bath fixtures, and tile systems; vinyl printing, amplifiers, tower speakers, soundbars, and subwoofers; solid surface, granite, and quartz countertop fabrication; aluminum products; fiberglass and plastic components; decorative vinyl and paper laminated panels; softwoods lumber; custom cabinetry; polymer-based and other flooring products; and dash panels. This segment also provides wrapped vinyl, paper, and hardwood profile mouldings; interior passage doors; air handling products; slide-out trim and fascia; treated, untreated, and laminated plywood; fiberglass and plastic helm systems and components; boat towers, tops, trailers, and frames; adhesives and sealants; thermoformed shower surrounds; specialty bath, and closet building products; wiring and wire harnesses; aluminum and plastic fuel tanks; CNC molds, composite parts, and marine hardware and accessories; slotwall panels and components; and other products. The company's Distribution segment distributes pre-finished wall and ceiling panels, drywall and finishing products, electronic and audio systems, appliances, and marine accessories; wiring, electrical, and plumbing products; fiber reinforced polyester products; and cement siding, raw and processed lumber, interior passage, roofing, laminate, and ceramic flooring, shower doors, furniture, fireplaces and surrounds, interior and exterior lighting products, and other products. This segment also offers transportation and logistics services. Patrick Industries, Inc. was incorporated in 1959 and is based in Elkhart, Indiana.",
+      "sector": "Consumer Cyclical",
+      "industry": "Recreational Vehicles",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PAYC": {
+      "symbol": "PAYC",
+      "name": "Paycom Software, Inc.",
+      "summary": "Paycom Software, Inc. provides cloud-based human capital management (HCM) solution delivered as software-as-a-service for small to mid-sized companies in the United States. The company offers functionality and data analytics that businesses need to manage the employment life cycle from recruitment to retirement. The company's HCM solution offers payroll applications comprising better employee transaction interface, payroll and payroll tax management, payroll card, Everyday, Paycom pay, Client Action Center, expense management, garnishment administration, and GL concierge applications; talent acquisition, including applicant tracking, background checks, on-boarding, e-verify, and tax credit services; and talent management applications that include employee self-service, compensation budgeting, performance management, position management, Paycom learning, certification management. The company also offers time and labor management, such as time and attendance, scheduling, time-off requests, and labor allocation solutions. Its HCM solution provides manager on-the-go that gives supervisors and managers the ability to perform a variety of tasks, such as approving time-off requests and expense reimbursements; direct data exchange; ask here, a tool for direct line of communication to ask work-related questions; document and checklist; government and compliance; benefits administration; COBRA administration; personnel action and performance discussion forms; Paycom surveys; retirement reporting; report center; and affordable care act applications, as well as Clue, which securely collects, tracks, and manages the vaccination and testing data of the workforce; and MyCom is a communications tool that provides organizations with a central place to share information with employees. Paycom Software, Inc. was founded in 1998 and is based in Oklahoma City, Oklahoma.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PAY": {
+      "symbol": "PAY",
+      "name": "Paymentus Holdings, Inc.",
+      "summary": "Paymentus Holdings, Inc. provides cloud-based bill payment technology and solutions in the United States and internationally. The company offers electronic bill presentment and payment services, enterprise customer communication, and self-service revenue management to billers through a software-as-a-service, secure, and omni channel technology platform. Its platform's payment processing includes credit cards, debit cards, echecks, and digital wallets. The company serves utility, financial services, insurance, telecommunication, real estate management, education, consumer finance, healthcare, and business to business industries, as well as governments and small businesses. Paymentus Holdings, Inc. was founded in 2004 and is headquartered in Charlotte, North Carolina.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PAYX": {
+      "symbol": "PAYX",
+      "name": "Paychex, Inc.",
+      "summary": "Paychex, Inc., together with its subsidiaries, provides human capital management solutions (HCM) for human resources, payroll processing, employee benefits, and insurance services for small to medium-sized businesses in the United States, Europe, Canada, India, and Israel. It offers technology and advisory solutions; and payroll tax administration services. The company also provides retirement solutions, such as plan implementation, ongoing compliance with government regulations, employee and employer reporting, participant and employer online access, electronic funds transfer, and other administrative services; HCM solutions from recruiting and hiring to retirement; and talent management and talent acquisition services. In addition, it offers payroll solutions, including calculation, preparation, and delivery of employee payroll checks; production of internal accounting records and management reports; preparation of federal, state, and local payroll tax returns; and collection and remittance of clients' payroll obligations. Further, the company provides workforce management solutions; benefits administration solutions; digital marketplace for earned wages, financial wellness solutions, and voluntary lifestyle benefits; administrative services organization HR outsourcing solutions; solutions to payroll and non-payroll customers; retirement and funding solutions; and insurance services for property and casualty coverage, such as workers' compensation, business-owner policies, cyber security protection, and commercial auto, as well as health and benefits coverage, including health, dental, vision, and life. Additionally, it offers payroll, HR, employee benefits administration, retirement, insurance, risk management outsourcing, and access to professionally trained HR representatives, virtually and on-site. It markets and sells its solutions primarily through its direct sales force. Paychex, Inc. was founded in 1971 and is headquartered in Rochester, New York.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PBA": {
+      "symbol": "PBA",
+      "name": "Pembina Pipeline Corporation",
+      "summary": "Pembina Pipeline Corporation provides energy transportation and midstream services. It operates through three segments: Pipelines, Facilities, and Marketing & New Ventures. The Pipelines segment operates conventional, oil sands and heavy oil, and transmission assets with a transportation capacity of 3.0 million of barrels of oil equivalent per day, and the ground storage capacity of 10 million of barrels serving markets and basins across North America. The Facilities segment offers infrastructure that provides customers with crude oil, natural gas, condensate, and natural gas liquids (NGLs), including ethane, propane, butane, and condensate; and includes 430 thousands of barrels of NGL fractionation capacity, 21 million of barrels of cavern storage capacity, and various oil batteries, associated pipeline, and rail terminalling facilities and a liquefied propane export facility. The Marketing & New Ventures segment buys and sells hydrocarbon liquids and natural gas originating in the Western Canadian sedimentary basin and other basins. Pembina Pipeline Corporation was incorporated in 1954 and is headquartered in Calgary, Canada.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "country": "Canada",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PB": {
+      "symbol": "PB",
+      "name": "Prosperity Bancshares, Inc.",
+      "summary": "Prosperity Bancshares, Inc. operates as bank holding company for the Prosperity Bank that provides financial products and services to businesses and consumers. It accepts various deposit products, such as demand, savings, money market, and time accounts; and certificates of deposit. The company also offers 1-4 family residential mortgage, commercial real estate and multifamily residential, commercial and industrial, and agricultural and non-real estate agricultural loans; construction, land development, and other land loans; consumer loans, including automobile, recreational vehicle, boat, home improvement, personal, and deposit account collateralized loans; term loans and lines of credit; and consumer durables and home equity loans, as well as loans for working capital, business expansion, and purchase of equipment and machinery. In addition, it provides digital banking, internet banking, mobile banking, trust and wealth management, retail brokerage, mortgage services, and treasury management, and debit and credit cards services. The company was incorporated in 1983 and is headquartered in Houston, Texas.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PAYO": {
+      "symbol": "PAYO",
+      "name": "Payoneer Global Inc.",
+      "summary": "Payoneer Global Inc. operates as a financial technology company. The company offers customers with a multi-currency account to serve their cross-border accounts receivable and accounts payable needs through payment infrastructure platform. It delivers a suite of services, such as funds management, working capital, multicurrency accounts, and workforce management. It also provides various payment options with minimal integration required, full back-office functions, and customer support. The company serves small and medium-sized businesses worldwide. Payoneer Global Inc. was founded in 2005 and is headquartered in New York, New York.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PBF": {
+      "symbol": "PBF",
+      "name": "PBF Energy Inc.",
+      "summary": "PBF Energy Inc., through its subsidiaries, engages in the refining and supplying of petroleum products. It operates through two segments, Refining and Logistics. The company produces gasoline, ultra-low-sulfur diesel, heating oil, jet fuel, lubricants, petrochemicals, and asphalt; diesel fuel; and unbranded transportation fuels, petrochemical feedstocks, blending components, and other petroleum products. It sells its products in the Northeast, Midwest, Gulf Coast, and West Coast of the United States, as well as in other regions of the United States, Canada, Mexico, and internationally. The company is also involved in the provision of various rail, truck, and marine terminaling services; and pipeline transportation and storage services. PBF Energy Inc. was founded in 2008 and is based in Parsippany, New Jersey.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PBH": {
+      "symbol": "PBH",
+      "name": "Prestige Consumer Healthcare Inc.",
+      "summary": "Prestige Consumer Healthcare Inc., together with its subsidiaries, develops, manufactures, markets, distributes, and sells over the counter (OTC) health and personal care products in North America, Australia, and internationally. It operates in two segments, North American OTC Healthcare and International OTC Healthcare. The company offers analgesic powders under the BC and Goody's brand; various diaper rash treatments and skin protectants for babies under the Boudreaux's Butt Paste brand name; sprays and lozenges to relieve sore throats and mouth pain under the Chloraseptic brand; eye care products that provide relief from redness and itchiness under the Clear Eyes brand name; at-home removal of common and plantar warts under the Compound W brand; and ear wax removal products under the Debrox brand name. It also provides dental guards, floss picks, interdental brushes, dental repair and kits, and tongue cleaners under the DenTek brand; motion sickness relief products under the Dramamine brand; enemas and other laxative products under the Fleet brand name; stomach upset remedies under the Gaviscon brand; cough drops under the Luden's brand; products for yeast infections in women under the Monistat brand name; lice and parasite treatments under the Nix name; feminine care products, including washes, cloths, and sprays under the Summer's Eve brand; products for dry eyes under the TheraTears brand; nasal saline sprays and washes under the Fess brand name; and oral rehydration products under the Hydralyte brand. It sells its products to mass merchandisers; and drug, food, dollar, convenience, and club stores, as well as e-commerce channels. The company was formerly known as Prestige Brands Holdings, Inc. and changed its name to Prestige Consumer Healthcare Inc. in August 2018. Prestige Consumer Healthcare Inc. was founded in 1996 and is headquartered in Tarrytown, New York.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PBI": {
+      "symbol": "PBI",
+      "name": "Pitney Bowes Inc.",
+      "summary": "Pitney Bowes Inc. provides digital shipping solutions, mailing innovation, and financial services worldwide. It operates through SendTech Solutions and Presort Services segments. The SendTech Solutions segment offers physical and digital shipping and mailing technology solutions and other applications for sending, tracking, and receiving of letters, parcels and flats, as well as supplies and maintenance services. This segment also provides financing alternatives to finance other manufacturers' equipment and product purchases. The Presort Services segment operates as a workshare partner of the United States Postal Service; and offers mail sortation services. It markets its products, solutions, and services through direct and inside sales force, partner channels, direct mailings, and digital channels. The company was formerly known as Pitney Bowes Postage Meter Company. Pitney Bowes Inc. was incorporated in 1920 and is headquartered in Shelton, Connecticut.",
+      "sector": "Industrials",
+      "industry": "Integrated Freight & Logistics",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PBR": {
+      "symbol": "PBR",
+      "name": "Petróleo Brasileiro S.A. - Petrobras",
+      "summary": "Petróleo Brasileiro S.A. - Petrobras explores, produces, and sells oil and gas in Brazil, China, the United States, the Americas, Asia, Europe, Singapore, and internationally. It operates through three segments: Exploration and Production; Refining, Transportation & Marketing; and Gas & Low Carbon Energies. The Exploration and Production segment explores, develops, and produces crude oil, natural gas liquids, and natural gas primarily for supplies to the domestic refineries. Its Refining, Transportation and Marketing segment engages in the refining, logistics, transport, acquisition, and export of crude oil; trading of oil products; and production of fertilizers, as well as holding interests in petrochemical companies. The Gas and Low Carbon Energies segment is involved in the logistic and trading of natural gas and electricity; transportation and trading of liquefied natural gas; generation of electricity through thermoelectric power plants; renewable energy business; low carbon business; and natural gas processing business, as well as production of biodiesel and its co-products. It also engages in prospecting, drilling, refining, processing, trading, and transporting crude oil from producing onshore and offshore oil fields, and shale or other rocks, as well as oil products, natural gas, and other liquid hydrocarbons. In addition, the company engages in research, development, production, transportation, distribution, and trading of energy. Petróleo Brasileiro S.A. - Petrobras was incorporated in 1953 and is headquartered in Rio De Janeiro, Brazil.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "country": "Brazil",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PBR-A": {
+      "symbol": "PBR-A",
+      "name": "Petróleo Brasileiro S.A. - Petrobras",
+      "summary": "Petróleo Brasileiro S.A. - Petrobras explores, produces, and sells oil and gas in Brazil, China, the United States, the Americas, Asia, Europe, Singapore, and internationally. It operates through three segments: Exploration and Production; Refining, Transportation & Marketing; and Gas & Low Carbon Energies. The Exploration and Production segment explores, develops, and produces crude oil, natural gas liquids, and natural gas primarily for supplies to the domestic refineries. Its Refining, Transportation and Marketing segment engages in the refining, logistics, transport, acquisition, and export of crude oil; trading of oil products; and production of fertilizers, as well as holding interests in petrochemical companies. The Gas and Low Carbon Energies segment is involved in the logistic and trading of natural gas and electricity; transportation and trading of liquefied natural gas; generation of electricity through thermoelectric power plants; renewable energy business; low carbon business; and natural gas processing business, as well as production of biodiesel and its co-products. It also engages in prospecting, drilling, refining, processing, trading, and transporting crude oil from producing onshore and offshore oil fields, and shale or other rocks, as well as oil products, natural gas, and other liquid hydrocarbons. In addition, the company engages in research, development, production, transportation, distribution, and trading of energy. Petróleo Brasileiro S.A. - Petrobras was incorporated in 1953 and is headquartered in Rio De Janeiro, Brazil.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "country": "Brazil",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PCG": {
+      "symbol": "PCG",
+      "name": "PG&E Corporation",
+      "summary": "PG&E Corporation, through its subsidiary, Pacific Gas and Electric Company, engages in the sale and delivery of electricity and natural gas to customers in northern and central California, the United States. It generates electricity using nuclear, hydroelectric, fossil fuel-fired, fuel cells, and photovoltaic sources. The company owns and operates interconnected transmission lines; electric transmission substations, distribution lines, switching and distribution substations; and natural gas transmission, storage, and distribution systems consisting of distribution pipelines, backbone and local transmission pipelines, and various storage facilities. It serves residential, commercial, industrial, and agricultural customers, as well as natural gas-fired electric generation facilities. The company was incorporated in 1995 and is based in Oakland, California.",
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Electric",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PCAR": {
+      "symbol": "PCAR",
+      "name": "PACCAR Inc",
+      "summary": "PACCAR Inc designs, manufactures, and distributes light, medium, and heavy-duty commercial trucks in the United States, Canada, Australia, Mexico, Europe, Central and South America, and internationally. It operates through three segments: Truck, Parts, and Financial Services. The Truck segment designs, manufactures, and distributes trucks for the over-the-road and off-highway hauling of commercial and consumer goods; and diesel engine products. It sells its trucks through a network of independent dealers under the Kenworth, Peterbilt, and DAF nameplates. The Parts segment distributes aftermarket parts for trucks and related commercial vehicles. The Financial Services segment conducts full-service leasing operations under the PacLease trade name, as well as provides finance and leasing products and services to customers and dealers. This segment offers equipment financing and administrative support services for its franchisees; retail loan and leasing services for small, medium, and large commercial trucking companies, as well as independent owners/operators and other businesses; and truck inventory financing services to independent dealers. In addition, this segment offers loans and leases directly to customers for the acquisition of trucks and related equipment; and operates its own full-service lease outlets. The company manufactures and markets industrial winches under the Braden, Carco, and Gearmatic nameplates. PACCAR Inc was founded in 1905 and is headquartered in Bellevue, Washington.",
+      "sector": "Industrials",
+      "industry": "Farm & Heavy Construction Machinery",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PCOR": {
+      "symbol": "PCOR",
+      "name": "Procore Technologies, Inc.",
+      "summary": "Procore Technologies, Inc., together with its subsidiaries, provides a cloud-based construction management platform and related products and services in the United States and internationally. Its platform enables owners, general and specialty contractors, architects, and engineers to collaborate on construction projects. The company offers Preconstruction that facilitates collaboration between internal and external stakeholders during the takeoff, planning, budgeting, estimating, bidding, design, and partner selection phases of a construction project and Project Execution, which enables collaboration, information transmission and storage, and safety regulation compliance for teams on the jobsite and in the back office. It also provides Resource Management, that helps customers to schedule, track, and forecast workforce and equipment productivity, improve time management, communicate with workforces, optimize procurement and movement of materials, and manage profitability on construction projects; and Financial Management, which provides customers with visibility into the financial health of their individual construction projects and portfolios, as well as facilitates untethered access to financial data, and support payments between key stakeholders. The company serves owners, general contractors, and specialty contractors operating in the residential and non-residential segments of the construction industry. The company sells its products online through computers, smartphones, tablets, web browser, and mobile application available for iOS and Android platforms. Procore Technologies, Inc. was formerly known as Butterfly Lane, Inc and changed its name to Procore Technologies, Inc. in May 2002. The company was incorporated in 2002 and is headquartered in Carpinteria, California.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PCT": {
+      "symbol": "PCT",
+      "name": "PureCycle Technologies, Inc.",
+      "summary": "PureCycle Technologies, Inc. engages in the production of recycled polypropylene (PP) in Thailand. The company holds a license for restoring waste PP into ultra-pure recycled PP resin, PureFive, which has various applications, including packaging and labeling for consumer products, textiles, and plastic parts for various industries. Its recycling process separates color, odor, other plastics, and additives through a physical separation process. The company was founded in 2015 and is headquartered in Orlando, Florida.",
+      "sector": "Industrials",
+      "industry": "Pollution & Treatment Controls",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PCVX": {
+      "symbol": "PCVX",
+      "name": "Vaxcyte, Inc.",
+      "summary": "Vaxcyte, Inc., a clinical-stage vaccine innovation company, develops conjugate and novel protein vaccines to prevent or treat bacterial infectious diseases. Its lead vaccine candidate is VAX-24, a 24-valent carrier-sparing investigational pneumococcal conjugate vaccine (PCV) for the prevention of invasive pneumococcal disease (IPD) in infants. The company also develops VAX-31, a 31-valent, carrier-sparing investigational PCV for the prevention of IPD in adults and children; VAX-A1, a novel conjugate vaccine candidate to prevent disease caused by Group A Streptococcus; VAX-PG, a novel protein vaccine candidate targeting the keystone pathogen responsible for periodontitis; VAX-GI, a novel preclinical vaccine candidate for the treatment of dysentery and shigellosis, which is caused by Shigella bacteria; and VAX-XL, a third-generation pneumococcal conjugate vaccine. The company was formerly known as SutroVax, Inc. and changed its name to Vaxcyte, Inc. in May 2020. Vaxcyte, Inc. was incorporated in 2013 and is headquartered in San Carlos, California.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PCTY": {
+      "symbol": "PCTY",
+      "name": "Paylocity Holding Corporation",
+      "summary": "Paylocity Holding Corporation provides cloud-based human capital management, finance, and IT software solutions in the United States. The company offers payroll solutions comprising payroll and tax services, global payroll, on-demand payment, garnishments, and elevate payroll; human resources (HR) solutions consisting of human resources, employee self-service, workflows and documents, HR compliance dashboard, and elevate HR and HR edge; time and labor solutions, including time and attendance, scheduling, and time collection; and talent solutions, such as recruiting, onboarding, learning, performance, compensation, and market pay. It also provides benefits solutions comprising benefit enrollment and updates, third-party administrative solutions, and retirement; employee experiences consisting of community, video, employee voice, recognition and rewards, data insights, and reporting; and Paylocity for finance solutions, such as headcount planning, expense management, accounts payable automation, corporate cards, and guided procurement. In addition, the company offers Paylocity for IT which includes access management and identity, and asset management; and implementation and training, client services, and tax and regulatory services. It serves for-profit and non-profit organizations across industries, including business services, financial services, healthcare, manufacturing, restaurants, retail, technology, and others. The company markets and sells its products through sales representatives. Paylocity Holding Corporation was founded in 1997 and is headquartered in Schaumburg, Illinois.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PDD": {
+      "symbol": "PDD",
+      "name": "PDD Holdings Inc.",
+      "summary": "PDD Holdings Inc., a multinational commerce group that owns and operates a portfolio of businesses. The company operates Pinduoduo platform, which provides various product categories and interactive shopping experiences; and Temu, an online platform, which enables merchants to streamline their manufacturing and commercial operations. The company was formerly known as Pinduoduo Inc. and changed its name to PDD Holdings Inc. in February 2023. PDD Holdings Inc. was incorporated in 2015 and is based in Dublin, Ireland.",
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "country": "Ireland",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PDFS": {
+      "symbol": "PDFS",
+      "name": "PDF Solutions, Inc.",
+      "summary": "PDF Solutions, Inc. provides proprietary software, physical intellectual property for integrated circuit designs, electrical measurement hardware tools, proven methodologies, and professional services in the United States, Japan, China, and internationally. The company offers Exensio software, such as Manufacturing Analytics, which uses a proprietary database schema to store collected data; Process Control, which provides failure detection and classification capabilities for monitoring, alarming, and controlling manufacturing tool sets; Test Operations, which offer data collection and analysis capabilities; and Assembly Operations, which provide device manufacturers with the capability to link assembly and packaging data, including fabrication and characterization data across the product life cycle. It also provides Sapience Data Platform, which unifies fragmented data from diverse equipment and protocols across the factory floor; Sapience Manufacturing Hub enterprise, a connectivity platform between enterprise applications; DirectScan systems, such as Proprietary Software and eProbe Non-Contact E-Beam Tool; and Characterization Vehicle (CV) system, which includes CV Test Chips, pdFasTest Electrical Tester, and Exensio characterization software. In addition, the company offers Cimetrix software products that enable equipment manufacturers to provide standard interfaces on their products for equipment communication, control, and data collection; equipment factory connectivity products, such as Cimetrix CIMConnect, Cimetrix CIM300, and Cimetrix CIMPortal Plus; equipment factory connectivity testing and control products; secureWISE systems, including software, servers, and networks; software-as-a-service; software and hardware installation and configuration; system/data integration, and value realization; and technical support and maintenance for hardware and software. PDF Solutions, Inc. was founded in 1991 and is headquartered in Santa Clara, California.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PECO": {
+      "symbol": "PECO",
+      "name": "Phillips Edison & Company, Inc.",
+      "summary": "Phillips Edison & Company, Inc. (PECO) is one of the nation's largest owners and operators of high-quality, grocery-anchored neighborhood shopping centers. PECO has generated strong results through its vertically integrated operating platform and national footprint of well-occupied shopping centers. PECO's centers feature a mix of national and regional retailers providing necessity-based goods and services in fundamentally strong markets throughout the United States. PECO's top grocery anchors include Kroger, Publix, Albertsons and Ahold Delhaize. As of June 30, 2026, PECO managed 330 shopping centers, including 302 wholly owned centers comprising 33.9 million square feet across 31 states and 28 shopping centers owned in three institutional joint ventures. PECO is focused on creating great grocery-anchored shopping experiences and improving communities, one neighborhood shopping center at a time. Phillips Edison & Company, Inc. was incorporated in 1991 and is based in Cincinnati, Ohio.",
+      "sector": "Real Estate",
+      "industry": "REIT - Retail",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PEB": {
+      "symbol": "PEB",
+      "name": "Pebblebrook Hotel Trust",
+      "summary": "Pebblebrook Hotel Trust is a publicly traded real estate investment trust and the largest owner of urban and resort lifestyle hotels in the United States. The Company owns 43 hotels, totaling approximately 10,900 guest rooms across 14 urban and resort markets. Pebblebrook Hotel Trust is based in Bethesda, United States. Pebblebrook Hotel Trust was established in October, 02 2009 and incorporated in Maryland.",
+      "sector": "Real Estate",
+      "industry": "REIT - Hotel & Motel",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PEGA": {
+      "symbol": "PEGA",
+      "name": "Pegasystems Inc.",
+      "summary": "Pegasystems Inc. develops, markets, licenses, hosts, and supports enterprise software in the United States, rest of the Americas, the United Kingdom, rest of Europe, the Middle East, Africa, and the Asia-Pacific. It provides Pega Infinity, a software portfolio comprising of Pega Customer Decision Hub, a real-time AI-powered decision engine, which can predict a customer's behavior and recommend the next best action to take across channels in real-time; Pega Customer Service to anticipate customer needs, connect customers to people and systems, and automate customer interactions to evolve the customer service experience, as well as to allow enterprises to deliver interactions across channels and enhance employee productivity; and Pega Platform,  a software for AI-powered workflow automation for increasing the efficiency of clients' processes and operational workflows. The company also offers Situational Layer Cake that organizes logic into layers that map to the unique dimensions of a client's business, such as customer types, lines of business, geographies, etc.; Pega GenAI Blueprint to rapidly prototype and accelerate the development and deployment of applications; Pega Cloud that allows clients to develop, test, and deploy applications;  Pega Catalyst, which helps clients to transform and prototype their customer journeys; Pega Academy, which offers enablement content for Pega product implementations, such as instructor-led and online training to its employees, clients, and partners; and global service assurance and client support services. It primarily markets its software and services to financial services, healthcare, communications and media, government, insurance, manufacturing and high tech, and consumer industries through a direct sales force, as well as partnerships with technology providers and application developers. Pegasystems Inc. was incorporated in 1983 and is headquartered in Waltham, Massachusetts.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PEG": {
+      "symbol": "PEG",
+      "name": "Public Service Enterprise Group Incorporated",
+      "summary": "Public Service Enterprise Group Incorporated, through its subsidiaries, operates in electric and gas utility, and nuclear generation businesses in the United States. It operates through PSE&G and PSEG Power segments. The PSE&G segment transmits electricity; distributes electricity and natural gas to residential, commercial, and industrial customers; and appliance services and repairs to customers through its service territory, as well as invests in solar generation projects, and energy efficiency and related programs. The PSEG Power segment engages in nuclear generation businesses; and supplies power and natural gas to nuclear power plants. As of December 31, 2025, it had electric transmission and distribution system of 25,000 circuit miles and 871,000 poles; 58 switching stations with an installed capacity of 40,000 megavolt-amperes (MVA), and 238 substations with an installed capacity of 10,890 MVA; four electric distribution headquarters and five electric sub-headquarters; 18,000 miles of gas mains, 12 gas distribution headquarters, two sub-headquarters, and two meter shop, as well as 54 natural gas metering and regulating stations; and 158 MegaWatts defined conditions of installed PV solar capacity. The company was founded in 1903 and is based in Newark, New Jersey.",
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Electric",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PENG": {
+      "symbol": "PENG",
+      "name": "Penguin Solutions, Inc.",
+      "summary": "Penguin Solutions, Inc. designs, builds, deploys and manages enterprise solutions worldwide. The company operates through three segments: Advanced Computing, Integrated Memory, and Optimized LED. It offers hardware, software, and services focusing on technical computing for core and cloud environments through computing and AI solutions. The company also provides Penguin Solutions OriginAI, an AI infrastructure solution for customers deploying GPUs at scale; continuous availability of customers critical data and applications in data centers and edge locations under the Stratus brand products; and dynamic random-access memory, modules, solid-state/flash storage, and integrated memory solutions to networking and telecom, data analytics, AI, and ML under the SMART Modular Technologies brand. In addition, it provides Zefr, a memory module; Altus and AMD EPYC based servers for expansive memory for AI workloads; flash memory products comprising solid-state drives, Serial Advanced Technology Attachment, and PCIe NVMe products in 2.5 enclosures, M.2, EDSFF, and other form factors; and multimediacard and embedded and removable USB products, SD and microSD Card configurations, and firmware development. Further, the company offers procurement, logistics, inventory management, temporary warehousing, programming, kitting, and packaging supply chain services; and LEDs under the Cree LED brand; Cree LED XLamp and J Series packaged LED components. It serves OEMs, enterprises, government, and other customers through direct and third-party channels. The company has a strategic collaboration with Deepgram, Dell Technologies, and ZulaFly to offer healthcare, location-based workflow, and safety solutions. The company was formerly known as SMART Global Holdings, Inc. and changed its name to Penguin Solutions, Inc. in October 2024. Penguin Solutions, Inc. was founded in 1988 and is headquartered in Fremont, California.",
+      "sector": "Technology",
+      "industry": "Information Technology Services",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PEN": {
+      "symbol": "PEN",
+      "name": "Penumbra, Inc.",
+      "summary": "Penumbra, Inc., together with its subsidiaries, designs, develops, manufactures, and markets medical devices in the United States and internationally. It offers computer-assisted vacuum thrombectomy; peripheral thrombectomy products, including the Indigo System for power aspiration of thrombus in the body; Lightning Flash, a mechanical thrombectomy system; Lightning Bolt 7, an arterial thrombectomy system; and CAT RX. It also provides access products, including guide catheters and the Penumbra distal delivery catheters under the Neuron, Neuron MAX, BENCHMARK, BMX, DDC, Access25; MIDWAY, and PX SLIM brands; Penumbra System, an integrated mechanical thrombectomy system comprising reperfusion catheters and separators, the 3D Revascularization device, aspiration tubing, aspiration pump, and other components and accessories under the Penumbra RED, SENDit, JET, ACE, BMX, Max, 3D Revascularization Device, and Penumbra ENGINE brands; and neuro embolization coiling systems that include the Penumbra Coil 400, for the treatment of aneurysms and other complex lesions, detachable coils of neurovascular lesions under the Penumbra SMART COIL, SwiftSET, and Penumbra SwiftPAC Coil brands; and POD400 and PAC400 brands. In addition, it provides peripheral embolization products, such as Ruby Embolization Platform, which consists of detachable coils for peripheral applications; Ruby LP and XL Embolization Platform; Penumbra LANTERN Delivery Microcatheter, a low-profile microcatheter with a high-flow lumen; POD (Penumbra Occlusion Device) System, a single device solution; Packing Coil LP; and Packing Coil, a complementary device for use in other peripheral embolization products. Further, it offers neurosurgical tools comprising the Artemis Neuro Evacuation Device for surgical removal of fluid and tissue from the ventricles and cerebrum. It sells its products through direct sales organizations and distributors. The company was incorporated in 2004 and is based in Alameda, California.",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PENN": {
+      "symbol": "PENN",
+      "name": "PENN Entertainment, Inc.",
+      "summary": "PENN Entertainment, Inc., together with its subsidiaries, provides integrated entertainment, sports content, and casino gaming experiences in the United States and internationally. The company operates through five segments: Northeast, South, West, Midwest, and Interactive. It operates a portfolio of casinos, racetracks, and online sports betting; online gaming portfolio, such as theScore Bet, an online sportsbook; theScore Casino, a stand-alone iCasino website and app; Hollywood Casino, an iCasino and theScore Bet website and app; PENN Game Studios, its in-house iCasino and social gaming content studio; and PENN Play, a customer loyalty program. The company also engages in gaming operations, including slot machines and table games; food and beverage offerings; and hotel visitation. It offers its products under the Ameristar, Argosy, Boomtown, Hollywood Casino, Hollywood Gaming, L'Auberge, M Resort, PENN Entertainment, and PENN Play, as well as theScore, theScore Bet, and theScore esports brands. The company was formerly known as Penn National Gaming, Inc. and changed its name to PENN Entertainment, Inc. in August 2022. PENN Entertainment, Inc. was founded in 1972 and is based in Wyomissing, Pennsylvania.",
+      "sector": "Consumer Cyclical",
+      "industry": "Resorts & Casinos",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PEP": {
+      "symbol": "PEP",
+      "name": "PepsiCo, Inc.",
+      "summary": "PepsiCo, Inc. engages in the manufacture, marketing, distribution, and sale of various beverages and convenient foods worldwide. The company operates through six segments: PepsiCo Foods North America; PepsiCo Beverages North America; International Beverages Franchise; Europe, Middle East and Africa; Latin America Foods; and Asia Pacific Foods. It offers cereals, chips, dips, granola bars, oatmeal, pasta, rice, and syrups and mixes; refrigerated dips and spreads; beverage concentrates, fountain syrups, and finished goods; and ready-to-drink tea and coffee products. The company also provides SodaStream sparkling water makers and related products, as well as various dairy products under the Agusha, Chudo, and Domik v Derevne brands. It serves wholesale and other distributors, foodservice customers, grocery stores, drug stores, convenience stores, discount/dollar stores, mass merchandisers, membership stores, hard discounters, e-commerce retailers and authorized independent bottlers, and others through a network of direct-store-delivery, customer warehouse, and distributor networks, as well as directly to consumers through e-commerce platforms and retailers. PepsiCo, Inc. was founded in 1898 and is based in Purchase, New York.",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Non-Alcoholic",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PFE": {
+      "symbol": "PFE",
+      "name": "Pfizer Inc.",
+      "summary": "Pfizer Inc. discovers, develops, manufactures, markets, distributes, and sells biopharmaceutical products in the United States and internationally. It operates in three segments: Biopharma, PC1, and Pfizer Ignite. The company offers internal medicine products, including cardiovascular metabolic diseases products under the Eliquis brand; migraine products under the Nurtec ODT/Vydura and Zavzpret brand; vaccines under the Prevnar family, Abrysvo, Nimenrix, FSME/IMMUN-TicoVac, and Trumenba brands; and Paxlovid for the treatment of COVID-19. It also provides inflammation and immunology products, such as Xeljanz, Enbrel, Cibinqo, Litfulo, Eucrisa, and Velsipity; rare disease products for therapeutic areas comprising amyloidosis, hemophilia, and endocrine diseases under the Vyndaqel family, Genotropin, BeneFIX, Xyntha, Somavert, Ngenla, and Hympavzi brands; and anti-infective and immunoglobulin medicines under the Zavicefta, Octagam, and Panzyga brands. In addition, the company offers oncology products comprising ADCs, small molecules, bispecific, and other immunotherapies for the treatment of cancers, including breast cancer, genitourinary cancer, and hematologic malignancies, as well as melanoma, gastrointestinal, gynecological, and lung cancer under the Ibrance, Xtandi, Padcev, Adcetris, Inlyta, Lorbrena, Bosulif, Tukysa, Braftovi, Mektovi, Orgovyx, Elrexfio, Tivdak, and Talzenna brands. Further, it provides biosimilars under the Inflectra brand; oncology biosimilars comprising Retacrit, Ruxience, Zirabev, Trazimera and Nivestym, and other biosimilars; and sterile injectables, such as Sulperazon, Atgam, Fragmin, Solu Medrol, Solu Cortef, and Bicillin. The company has collaboration agreements with Bristol-Myers Squibb Company; Astellas Pharma US, Inc.; Merck KGaA; and BioNTech SE, as well as a strategic collaboration with Boltz, PBC to develop and deploy biomolecular AI foundation models. Pfizer Inc. was founded in 1849 and is headquartered in New York, New York.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PFG": {
+      "symbol": "PFG",
+      "name": "Principal Financial Group, Inc.",
+      "summary": "Principal Financial Group, Inc. provides retirement, asset management, and insurance products and services to businesses, individuals, and institutional clients worldwide. The company operates through Retirement and Income Solutions, Principal Asset Management, and Benefits and Protection segments. The Retirement and Income Solutions segment provides retirement, and related financial products and services. This segment offers products and services for defined contribution plans, including 401(k) and 403(b) plans, defined benefit plans, nonqualified executive benefit plans, employee stock ownership plans, equity compensation, and pension risk transfer services; individual retirement accounts; investment only products; and mutual funds, individual variable annuities, registered index-linked annuities, and bank products, as well as trust and custody services. The Principal Asset Management segment provides equity, fixed income, real estate, and other alternative investments, as well as fund offerings. This segment also offers pension accumulation products and services, mutual funds, asset management, income annuities, and life insurance accumulation products, as well as voluntary savings plans. The Benefits and Protection segment provides specialty benefits, such as specialty benefits group dental and vision insurance, group life and other insurance, and group and individual disability insurance, as well as administers group dental, disability, and vision benefits; and individual life insurance products comprising universal, variable universal, indexed universal, and term life insurance products. This segment serves insurance solutions for small and medium-sized businesses and their owners, as well as employees. The company was founded in 1879 and is based in Des Moines, Iowa.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PFGC": {
+      "symbol": "PFGC",
+      "name": "Performance Food Group Company",
+      "summary": "Performance Food Group Company, through its subsidiaries, markets and distributes food and food-related products in North America. It operates through three segments: Foodservice, Convenience, and Specialty. The company offers beef, pork, poultry, seafood, frozen food, refrigerated products, and dry groceries to disposables, cleaning and kitchen supplies, and related products, as well as value-added services, such as product selection and procurement, menu development, and operational strategies to independent restaurants, chain restaurants, and other institutional food-away-from-home locations. It also provides wholesale consumer products, including cigarettes and alternative nicotine products, candy, snacks, fresh products, groceries, dairy, bread, beverages, general merchandise, and health and beauty care products to traditional convenience stores, drug stores, mass merchants, grocery stores, liquor stores, and other specialty and small format stores. In addition, the company distributes candy, snacks, beverages, fresh and frozen perishable food, and other non-food items. Performance Food Group Company was founded in 1885 and is headquartered in Richmond, Virginia.",
+      "sector": "Consumer Defensive",
+      "industry": "Food Distribution",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PFS": {
+      "symbol": "PFS",
+      "name": "Provident Financial Services, Inc.",
+      "summary": "Provident Financial Services, Inc. operates as the bank holding company for Provident Bank that provides various banking products and services to individuals, families, and businesses in the United States. Its deposit products include savings, checking, interest-bearing checking, money market deposit, and certificate of deposit accounts, as well as IRA products. The company's loan portfolio comprises commercial real estate loans that are secured by properties, such as multi-family apartment buildings, retail and industrial properties, and office buildings; commercial business loans; fixed-rate and adjustable-rate mortgage loans collateralized by one- to four-family residential real estate properties; residential mortgage loans; commercial construction loans; and consumer loans consisting of home equity loans, home equity lines of credit, personal loans and unsecured lines of credit, and auto and recreational vehicle loans. It also offers cash management, remote deposit capture, payroll origination, escrow account management, and online and mobile banking services; and business credit cards. In addition, the company provides wealth management services comprising investment management, trust and estate administration, financial planning, and tax compliance and planning; and insurance agency operations. Further, it sells insurance and investment products, including annuities; and manages and sells real estate properties acquired through foreclosure. The company was founded in 1839 and is headquartered in Jersey City, New Jersey.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PFSI": {
+      "symbol": "PFSI",
+      "name": "PennyMac Financial Services, Inc.",
+      "summary": "PennyMac Financial Services, Inc., through its subsidiaries, engages in the mortgage banking and investment management activities in the United States. The company operates through two segments, Production and Servicing. The Production segment is involved in the origination, acquisition, and sale of loans. This segment also sources residential conventional and government-insured or guaranteed mortgage loans through correspondent production, consumer direct lending, and broker direct lending. The Servicing segment performs loan administration, collection, and default management activities, including the collection and remittance of loan payments; responds to customer inquiries; provides accounting for principal and interest; holds custodial funds for the payment of property taxes and insurance premiums; offers counseling for delinquent borrowers; and supervising foreclosures and property dispositions, as well as administers loss mitigation activities comprising modification and forbearance programs, and supervising foreclosures and property dispositions. The company was founded in 2008 and is headquartered in Westlake Village, California.",
+      "sector": "Financial Services",
+      "industry": "Mortgage Finance",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PG": {
+      "symbol": "PG",
+      "name": "The Procter & Gamble Company",
+      "summary": "The Procter & Gamble Company provides branded consumer packaged goods worldwide. It operates through five segments: Beauty; Grooming; Health Care; Fabric & Home Care; and Baby, Feminine & Family Care. The company offers conditioners, shampoos, styling aids, and treatments under the Head & Shoulders, Herbal Essences, Pantene, and Rejoice brands; antiperspirants, deodorants, and personal cleansing products under the Native, Old Spice, Safeguard, and Secret brands; and facial moisturizers, cleaners, and treatments under the Olay and SK-II brands. It also provides blades, razors, shave products, appliances, and other grooming products under the Braun, Gillette, and Venus brands. In addition, the company offers toothbrushes, toothpastes, and other oral care products under the Crest and Oral-B brands; and gastrointestinal, pain relief, rapid diagnostics, respiratory, vitamins/minerals/supplements, and other personal health care products under the Metamucil, Neurobion, Pepto-Bismol, and Vicks brands. Further, it provides fabric enhancers, and laundry additives and detergents under the Ariel, Downy, Gain, and Tide brands; and air and dish care, P&G professional, and surface care under the Cascade, Dawn, Fairy, Febreze, Mr. Clean, and Swiffer brands. Additionally, the company offers baby wipes, taped diapers, and pants under the Luvs and Pampers brands; adult incontinence and menstrual care products under the Always, Always Discreet, and Tampax brands; and paper towels, tissues, and toilet papers under the Bounty, Charmin, and Puffs brands. It sells its products through mass merchandisers, social ecommerce channels, grocery and specialty beauty stores, membership club stores, drug and department stores, distributors, wholesalers, airport duty-free and high-frequency stores, pharmacies, electronics stores, and professional channels, as well as directly to consumers. The company was founded in 1837 and is headquartered in Cincinnati, Ohio.",
+      "sector": "Consumer Defensive",
+      "industry": "Household & Personal Products",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PGEN": {
+      "symbol": "PGEN",
+      "name": "Precigen, Inc.",
+      "summary": "Precigen, Inc.,a discovery and clinical-stage biopharmaceutical company, develops gene and cell therapies using precision technology to target diseases in areas of immuno-oncology, autoimmune disorders, and infectious diseases. The company offers therapeutic platforms consisting of AdenoVerse platform, which utilizes a library of proprietary adenovectors for gene delivery of therapeutic effectors, immunomodulators, and vaccine antigen; and UltraCAR-T to provide chimeric antigen receptor T cell therapies for cancer patients. It also develops programs based on the UltraCAR-T platform, including PRGN-3005 in Phase 1/1b clinical trial to treat advanced ovarian, fallopian tube, or primary peritoneal cancer; PRGN-3006 in Phase 1b trial for patients with relapsed or refractory acute myeloid leukemia and high-risk myelodysplastic syndromes; and PRGN-3007 in Phase 1/1b trial for the treatment of advanced receptor tyrosine kinase-like orphan receptor 1-positive, hematologic, and solid tumors. In addition, the company is developing programs based on the AdenoVerse immunotherapy platform comprising PRGN-2009 in Phase 2 trial for patients with HPV+ solid tumors; and PRGN-2012 in Phase ½ trial to treat recurrent respiratory papillomatosis. Further, it provides UltraPorator, a proprietary electroporation device. The company was formerly known as Intrexon Corporation and changed its name to Precigen, Inc. in February 2020. Precigen, Inc. was founded in 1998 and is headquartered in Germantown, Maryland.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PGNY": {
+      "symbol": "PGNY",
+      "name": "Progyny, Inc.",
+      "summary": "Progyny, Inc., a benefits management company, provides fertility, family building, and women's health benefits solutions in the United States. It offers fertility benefits solutions, such as differentiated benefits plan design that includes smart cycle treatment bundle; personalized concierge-style member support services; and a selective network of fertility specialists. The company also offers Progyny Rx, an integrated pharmacy benefits solution that provides access to the medications needed during their treatment and offers care management services, as well as pregnancy and postpartum, menopause and midlife, benefit and leave navigation, and parent and child wellbeing solutions. In addition, it provides assistance service program where various services can be offered through a reimbursement program, including adoption, surrogacy, doula, and travel reimbursement when travel is required to receive medical services. The company was formerly known as Auxogyn, Inc. and changed its name to Progyny, Inc. in 2015. Progyny, Inc. was incorporated in 2008 and is headquartered in New York, New York.",
+      "sector": "Healthcare",
+      "industry": "Healthcare Plans",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PGR": {
+      "symbol": "PGR",
+      "name": "The Progressive Corporation",
+      "summary": "The Progressive Corporation operates as an insurance company in the United States. It writes insurance for personal autos and special lines products, including motorcycles, RVs, and watercraft; and personal residential property insurance for homeowners and renters. The company also writes auto-related liability and physical damage insurance for comprising dump trucks, log trucks, garbage trucks, tractors, trailers, straight trucks, tow trucks and wreckers, vans, pick-up trucks, and autos; business-related general liability and commercial property insurance for small businesses; and workers' compensation insurance for the transportation industry. In addition, it offers other specialty property-casualty insurance and provides related services; personal property reinsurance products; and involved in investment activities. It sells its products through independent insurance agencies, as well as online and over the phone. The Progressive Corporation was founded in 1937 and is headquartered in Mayfield, Ohio.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Property & Casualty",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PGY": {
+      "symbol": "PGY",
+      "name": "Pagaya Technologies Ltd.",
+      "summary": "Pagaya Technologies Ltd., a product-focused technology company, deploys data science and proprietary artificial intelligence-powered technology for financial services, their customers, and institutional or sophisticated investors in the United States, Israel, and the Cayman Islands. The company offers Decline Monetization, the flagship product which allows Partners to automatically send rejected loan applications to its network, as well as approve customers they would otherwise decline; Dual Look which allows to assess applications concurrently with its Partners in real time; and First Look that routes designated segments of loan applications to the network for evaluation.It also provides Affiliate Optimizer Engine, a customer acquisition tool which enables Partners to originate loans through third-party affiliate channels; Direct Marketing Engine, that utilizes data network to help Partners target and acquire new customers through direct channels; and FastPass which accelerates the transaction process. Its partners include financial technology companies, incumbent banks and financial institutions, auto finance providers, and residential real estate service providers. The company was founded in 2016 and is headquartered in New York, New York.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PH": {
+      "symbol": "PH",
+      "name": "Parker-Hannifin Corporation",
+      "summary": "Parker-Hannifin Corporation engages in the manufacture and sale of motion and control technologies and systems for aerospace and defense, in-plant and industrial equipment, transportation, off-highway, energy, and HVAC and refrigeration markets in North America, EMEA, Asia Pacific, and Latin America. It operates through two segments: Diversified Industrial and Aerospace Systems. The company offers various motion-control systems and components, such as active and passive vibration control, high purity sealing, coatings, high temperature sealing, cryogenic valves and fittings, HVAC/R controls and monitoring, elastomeric, fabric reinforced, metal, precision cut seals, hydrogen and natural gas filters, electric and hydraulic pumps and motors, industrial air, gas filtration, electric and hydraulic valves, miniature pumps and valves, electromagnetic interface shielding, pneumatic actuators, regulators and valves, electromechanical and hydraulic actuators, power take offs, electronics, drives and controllers, process filtration solutions, engine filtration solutions, rubber to substrate adhesives, fluid condition monitoring, sensors and diagnostics, fluid conveyance hose and tubing, structural adhesives, high pressure connectors, fittings, valves and regulators, thermal management, high purity fittings. The company also provides products for use in commercial and defense airframe and engine programs, such as avionics, electric and hydraulic braking systems, electric power, electromechanical actuators, engine exhaust systems and components, fire detection and suppression, flight control systems, fluid conveyance, fuel systems and components, fuel tank inserting systems, hydraulic pumps and motors, hydraulic valves and actuators, pneumatics, seals, sensors, and thermal management products. The company sells its products to original equipment manufacturers, distributors, direct-sales employees. Parker-Hannifin Corporation was founded in 1917 and is headquartered in Cleveland, Ohio.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PHG": {
+      "symbol": "PHG",
+      "name": "Koninklijke Philips N.V.",
+      "summary": "Koninklijke Philips N.V. operates as a health technology company in North America, the Greater China, and internationally. It operates through Diagnosis & Treatment, Connected Care, and Personal Health segments. The company provides diagnostic imaging solutions, includes ultrasound business unit, magnetic resonance imaging, computed tomography, and diagnostic x-ray; Image Guided Therapy, including image guided therapy systems and image guided therapy devices. It also offers monitoring, enterprise informatics, and sleep and respiratory care, as well as personal health. Koninklijke Philips N.V. has strategic alliance with WellSpan Health to advanced imaging and diagnostics technology products and platforms. The company was formerly known as Koninklijke Philips Electronics N.V. and changed its name to Koninklijke Philips N.V. in May 2013. Koninklijke Philips N.V. was founded in 1891 and is headquartered in Amsterdam, the Netherlands.",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "country": "Netherlands",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PHIN": {
+      "symbol": "PHIN",
+      "name": "PHINIA Inc.",
+      "summary": "PHINIA Inc. engages in the development, design, and manufacture of integrated components and systems. The company operates through Fuel Systems and Aftermarket segments. The Fuel Systems segment provides advanced fuel injection systems, including pumps, injectors, fuel rail assemblies, and engine control modules; fuel delivery modules; canisters; sensors; and electronic control modules. This segment also offers complete systems comprising software and calibration services that reduce emissions and enhance fuel economy for traditional and hybrid applications. The Aftermarket segment engages in the provision of maintenance, test equipment, and vehicle diagnostics solutions; original equipment service solutions and remanufactured products; and sale of starters and alternators to original equipment manufacturers. Its products are used for commercial vehicles and industrial applications, such as medium-duty and heavy-duty trucks, buses and other off-highway construction, marine, agricultural and aerospace and defense applications; light commercial vehicles comprising vans and trucks; and light passenger vehicles, including passenger cars, mini-vans, cross-overs and sport-utility vehicles. PHINIA Inc. was incorporated in 2023 and is based in Auburn Hills, Michigan.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PHM": {
+      "symbol": "PHM",
+      "name": "PulteGroup, Inc.",
+      "summary": "PulteGroup, Inc., through its subsidiaries, engages in the homebuilding business in the United States. The company is involved in the acquisition and development of land primarily for residential purposes, as well as construction of housing; and sale of single-family detached homes; and attached homes, such as townhomes, condominiums, and duplexes under the Centex, Pulte Homes, Del Webb, DiVosta Homes, and John Wieland Homes and Neighborhoods brands. It also engages in the mortgage banking, title, and insurance agency operations. PulteGroup, Inc. was founded in 1950 and is headquartered in Atlanta, Georgia.",
+      "sector": "Consumer Cyclical",
+      "industry": "Residential Construction",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PI": {
+      "symbol": "PI",
+      "name": "Impinj, Inc.",
+      "summary": "Impinj, Inc. operates a cloud connectivity platform in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. Its platform wirelessly connects items and delivers data about the connected items to business and consumer applications. The company's platform comprises endpoint ICs, a miniature radios-on-a-chip that attaches to a host item and includes a number to identify the item. Its platform also consists of systems products that consists of reader ICs, readers, and gateways to wirelessly provide power to and communicate bidirectionally with endpoint ICs on host items, as well as to read, write, authenticate, and engage the endpoint ICs on those items; and software that enable its partners to solve enterprise business problems, such as package sortation, dock door ingress/egress and retail self-checkout and loss prevention. The company primarily serves retail, supply chain and logistics, automotive, aviation, banking, datacenters, food, healthcare, industrial and manufacturing, linen and uniform tracking, sports, and travel industries through original equipment and device manufacturers, tag service bureaus, systems integrators, value-added resellers, independent software vendors, and other solution partners. Impinj, Inc. was incorporated in 2000 and is headquartered in Seattle, Washington.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "PII": {
+      "symbol": "PII",
+      "name": "Polaris Inc.",
+      "summary": "Polaris Inc. designs, engineers, manufactures, and markets powersports vehicles in the United States, Canada, and internationally. It operates through three segments: Off Road, On Road, and Marine. The company offers off-road vehicles (ORVs), including all-terrain vehicles and side-by-side vehicles; military and commercial ORVs; snowmobiles; motorcycles; moto-roadsters; quadricycles; and pontoon and deck boats. It also provides source parts, garments, and accessories, such as helmets, jackets, gloves, pants, and hats; and snowmobile accessories comprising covers, traction products, reverse kits, electric starters, tracks, pull-behinds, bags, and windshields, as well as gear and apparel for its snowmobiles consisting of helmets, jackets, goggles, gloves, boots, bibs, pants, and hats. In addition, the company offers ORV accessories, including winches, bumper/brushguards, plows, racks, wheels and tires, cab systems, lighting and audio systems, cargo box accessories, and tracks, as well as replacement parts and lubricants. Further, it provides motorcycle accessories, such as performance enhancements, saddle bags, handlebars, backrests, exhausts, windshields, seats, and various chrome accessories, as well as light duty hauling and passenger vehicles. The company sells its products through dealers and distributors, as well as online. The company was formerly known as Polaris Industries Inc. Polaris Inc. was founded in 1945 and is headquartered in Medina, Minnesota.",
+      "sector": "Consumer Cyclical",
+      "industry": "Recreational Vehicles",
+      "country": "United States",
+      "updated": "2026-10-21",
+      "source": "Yahoo Finance via yfinance"
     }
   }
 }
