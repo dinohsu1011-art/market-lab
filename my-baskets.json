@@ -208,6 +208,17 @@
    ]
   },
   {
+   "id": "14d71e2f-efb3-47e4-8e72-f963ae343207",
+   "name": "Database Software",
+   "members": [
+    "MDB",
+    "SNOW",
+    "ORCL",
+    "ESTC",
+    "TDC"
+   ]
+  },
+  {
    "id": "4d49d65b-12d5-4787-8a44-2bc4ae1e947e",
    "name": "DC Electricals",
    "members": [
