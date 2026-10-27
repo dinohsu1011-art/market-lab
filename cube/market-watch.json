@@ -1,24 +1,24 @@
 {
   "schema": 1,
-  "updated": "2026-10-22",
+  "updated": "2026-10-26",
   "flags": [
     {
       "id": "spy",
       "label": "SPY below its 200-day average",
       "active": false,
-      "reading": "763.96 vs 726.65"
+      "reading": "765.37 vs 727.39"
     },
     {
       "id": "vix",
       "label": "VIX above VIX3M",
-      "active": null,
-      "reading": "No matching-date observation"
+      "active": false,
+      "reading": "18.39 vs 19.94"
     },
     {
       "id": "breadth",
       "label": "Fewer than 40% above the 50-day average",
       "active": false,
-      "reading": "60.6% of eligible S&P 500 stocks"
+      "reading": "59.2% of eligible S&P 500 stocks"
     },
     {
       "id": "sectors",
@@ -28,8 +28,8 @@
     }
   ],
   "active": 1,
-  "known": 3,
-  "status": "Incomplete data",
+  "known": 4,
+  "status": "Caution",
   "sectors": [
     {
       "symbol": "XLK",
@@ -76,22 +76,10 @@
       "bearish": false
     }
   ],
-  "ratio": null,
-  "vix": null,
-  "vix3m": null,
+  "ratio": 1.0842849374660142,
+  "vix": 18.39,
+  "vix3m": 19.94,
   "history": [
-    {
-      "date": "2026-05-01",
-      "ratio": 1.1989405532666275
-    },
-    {
-      "date": "2026-05-04",
-      "ratio": 1.1509021323127393
-    },
-    {
-      "date": "2026-05-05",
-      "ratio": 1.1979286536248563
-    },
     {
       "date": "2026-05-06",
       "ratio": 1.1828637147786083
@@ -559,6 +547,18 @@
     {
       "date": "2026-10-21",
       "ratio": 1.1223021582733812
+    },
+    {
+      "date": "2026-10-22",
+      "ratio": 1.0572779821334735
+    },
+    {
+      "date": "2026-10-23",
+      "ratio": 1.0529562982005143
+    },
+    {
+      "date": "2026-10-26",
+      "ratio": 1.0842849374660142
     }
   ]
 }
