@@ -21390,6 +21390,816 @@
       "country": "Japan",
       "updated": "2026-10-27",
       "source": "Yahoo Finance via yfinance"
+    },
+    "SMG": {
+      "symbol": "SMG",
+      "name": "The Scotts Miracle-Gro Company",
+      "summary": "The Scotts Miracle-Gro Company, together with its subsidiaries, engages in the manufacture, marketing, and sale of products for lawn, garden care, and indoor and hydroponic gardening in the United States and internationally. The company provides lawn care products, comprising lawn fertilizers, clover and grass seed products, spreaders, and other durable products, as well as lawn-related weed, pest, and disease control products; and gardening and landscape products, which include water-soluble and continuous-release plant foods, potting mixes, garden soils, mulches and ground cover products, plant-related pest and disease control products, organic garden products, and live goods and seeding solutions. It also offers hydroponic products that help users to grow plants, flowers, and vegetables using little or no soil; lighting systems and components; insect, rodent, and weed control products for home areas; and non-selective weed killer products. The company sells its products under the Scotts, Turf Builder, Grower's Edge, EZ Seed, PatchMaster, Thick'R Lawn, GrubEx, EdgeGuard, Whirl, Wizz, Miracle-Gro, LiquaFeed, Shake N Feed, Hyponex, Earthgro, Miracle-Gro Organic, CAN-FAN, CAN-FILTERS, EcoPlus, Bug B Gon, Nature Scapes, Ortho, Miracle-Gro Performance Organics, Miracle-Gro Organic Choice, Whitney Farms, Ortho Max, Home Defense, Mother Earth, Botanicare, General Hydroponics, CYCO, Gavita, Agrolux, HydroLogic Purification System, Gro Pro, AeroGarden, Titan, Tomcat, Ortho Weed B Gon, Roundup, Groundclear, and Alchemist brands. It serves home centers, mass merchandisers, warehouse clubs, large hardware chains, independent hardware stores, nurseries, garden centers, e-commerce platforms, and food and drug stores, as well as indoor gardening and hydroponic distributors, retailers, and growers. The company was formerly known as The Scotts Company. The Scotts Miracle-Gro Company was founded in 1868 and is headquartered in Marysville, Ohio.",
+      "sector": "Basic Materials",
+      "industry": "Agricultural Inputs",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SMMT": {
+      "symbol": "SMMT",
+      "name": "Summit Therapeutics Inc.",
+      "summary": "Summit Therapeutics Inc., a biopharmaceutical company, focuses on discovery, development, and commercialization of patient, physician, caregiver, and societal friendly medicinal therapies. Its lead development candidate is ivonescimab, a bispecific antibody for immunotherapy through blockade of PD-1 with the anti-angiogenesis for the treatment of non-small lung cancer (NSCLC) and colorectal cancer (CRC). The company has also combined ivonescimab with chemotherapy, which is in phase III clinical trial for the patients with epidermal growth factor receptor, mutated, and locally advanced or metastatic non-squamous NSCLC; first-line metastatic NSCLC; and first-line unresectable metastatic CRC. It markets its products in the United states, Canada, Europe, Japan, Latin America, Middle East, and Africa. The company was founded in 2003 and is headquartered in Miami, Florida.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SMR": {
+      "symbol": "SMR",
+      "name": "NuScale Power Corporation",
+      "summary": "NuScale Power Corporation provides small modular reactor technology solutions. It offers NuScale Power Module (NPM), a light water nuclear reactor that can generate 77 megawatts of electricity (MWe). The company also provides design and nuclear regulatory licensing basis information to construct and operate the power plant; and licensing, design, development, construction, operation, and maintenance of the power plant. In addition, it offers regulatory licensing support services; start-up testing and commissioning support; accredited training programs to support initial and ongoing power plant operations; management of all aspects of the U.S. Nuclear Regulatory Commission required inspections, tests, analysis, and acceptance criteria process; NuScale Power Module mechanical handling; initial and ongoing fuel bundle loading and movement; design engineering management during commercial operation; operations and maintenance program management; procurement and spare parts management; nuclear fuel management, including reload analysis; and outage planning and execution support services. The company has a strategic partnership with Ebara Elliott Energy for the development, demonstration, and testing of industrial scale compressors using power modules. NuScale Power Corporation was founded in 2007 and is headquartered in Corvallis, Oregon.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SMTC": {
+      "symbol": "SMTC",
+      "name": "Semtech Corporation",
+      "summary": "Semtech Corporation provides semiconductor, Internet of Things systems, and cloud connectivity service solutions in the Asia- Pacific, North America, and Europe. The company operates in three segments: Signal Integrity, Analog Mixed Signal and Wireless, and IoT Systems and Connectivity. It provides signal integrity products, including a portfolio of optical and copper data communications and video transport products used in various infrastructure, and industrial applications; a portfolio of integrated circuits for data centers, enterprise networks, passive optical networks, wireless base station optical transceivers, and interface applications; and video products for broadcast applications, as well as video-over-IP technology for professional audio video applications. The company also offers analog mixed signal and wireless products; protection devices, such as filter and termination devices which protect electronic systems from voltage spikes; and designs, develops, manufactures, and markets radio frequency products used in industrial, medical, and communications applications, as well as specialized sensing products. In addition, it provides switching voltage regulators, combination switching and linear regulators, smart regulators, isolated switches, and wireless charging related products. Further, the company offers a portfolio of IoT systems and connectivity solutions, such as modules, gateways, routers, and connected services, including wireless connectivity and cloud-based services for industrial, medical, and communications applications. It serves original equipment manufacturers, solution providers, commercial applications, infrastructure, high-end consumer, and industrial end markets. The company sells its products through direct sales personnel, independent sales representative firms, and independent distributors. Semtech Corporation was incorporated in 1960 and is headquartered in Camarillo, California.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SN": {
+      "symbol": "SN",
+      "name": "SharkNinja, Inc.",
+      "summary": "SharkNinja, Inc., a product design and technology company, engages in the provision of various solutions for consumers in the United States, China, and internationally. It offers cleaning appliances, including corded and cordless vacuums, such as handheld and robotic vacuums, as well as other floorcare products comprising steam mops, wet/dry cleaning floor products, and carpet extraction; fans, coolers, frozen drink appliances, propane grills, and fire pits; and cooking and beverage appliances, such as air fryers, multi-cookers, outdoor and countertop grills and ovens, coffee systems, carbonation, cookware, cutlery, kettles, and toasters and bakeware products. The company also provides food preparation appliances, which include blenders, food processors, ice cream makers, juicers, and frozen drink appliances and coolers; haircare and skincare beauty appliances, as well as home environment products comprising air purifiers and fans. It sells its products through traditional brick-and-mortar retail channels and e-commerce channels, distributors, and direct-to-consumer channels under Shark and Ninja brands. SharkNinja, Inc. was incorporated in 2017 and is headquartered in Needham, Massachusetts.",
+      "sector": "Consumer Cyclical",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SNA": {
+      "symbol": "SNA",
+      "name": "Snap-on Incorporated",
+      "summary": "Snap-on Incorporated manufactures and markets tools, equipment, diagnostics, and repair information and systems solutions for professional users worldwide. It operates through Commercial & Industrial Group, Snap-on Tools Group, Repair Systems & Information Group, and Financial Services segments. The company offers hand tools, such as wrenches, sockets, ratchet wrenches, pliers, screwdrivers, punches and chisels, saws and cutting tools, pruning tools, torque tools, and other similar products; power tools, including cordless, pneumatic, and hydraulic and corded tools; impact wrenches, ratchets, screwdrivers, drills, sanders, and grinders. It also provides tool chests and roll cabinet stool storage products; facility-level tool control and asset management hardware and software; diagnostics, information, and management systems product comprising handheld and computer-based diagnostic products, service and repair information products, diagnostic software solutions, electronic parts catalogs, business management systems and services, point-of-sale systems, integrated systems for vehicle service shops, OEM purchasing facilitation services, and warranty management systems and analytics to help OEM dealerships manage and track performance. In addition, the company offers wheel alignment equipment, wheel balancers, tire changers, vehicle lifts, test lane equipment, collision repair equipment, vehicle air conditioning service equipment, brake service equipment, fluid exchange equipment, transmission troubleshooting equipment, safety testing equipment, battery chargers, and hoists; and training programs and after-sales support. It serves the vehicle service and repair, and industrial sectors through mobile van channel, company direct sales, distributors, and digital commerce. Snap-on Incorporated was incorporated in 1920 and is based in Kenosha, Wisconsin.",
+      "sector": "Industrials",
+      "industry": "Tools & Accessories",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SNAP": {
+      "symbol": "SNAP",
+      "name": "Snap Inc.",
+      "summary": "Snap Inc. operates as a technology company in North America, Europe, and internationally. The company offers Snapchat, a visual messaging application with various tabs, such as camera, visual messaging, snap map, stories, and spotlight that enable people to communicate visually through short videos and snaps. It also provides Snapchat+, Lens+, and Snapchat Platinum, a subscription service that provides subscribers access to exclusive, experimental, and pre-release features; Spectacles, an augmented reality (AR) glasses; and advertising products, including AR ads and Snap ads comprises a single image or video ads, collection ads, dynamic ads, story ads, commercials, sponsored snaps, and promoted places. In addition, the company offers campaign management and delivery, an advertising platform that provides automated, sophisticated, and scalable ad buying and campaign management; and measuring advertising effectiveness solutions. The company was formerly known as Snapchat, Inc. and changed its name to Snap Inc. in September 2016. Snap Inc. was founded in 2010 and is headquartered in Santa Monica, California.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SNDA": {
+      "symbol": "SNDA",
+      "name": "Sonida Senior Living, Inc.",
+      "summary": "Sonida Senior Living, Inc. owns and operates senior housing communities in the United States. The company provides independent living services, which include daily meals, transportation, social and recreational activities, laundry, housekeeping, and 24-hour staffing; and access to health screenings, periodic special services, and dietary and similar programs, as well as exercise and fitness classes. It offers assisted living services consist of personal care services, such as assistance with activities of daily living, including ambulation, bathing, dressing, eating, grooming, personal hygiene, and monitoring or assistance with medications; support services, such as meals, assistance with social and recreational activities, laundry, general housekeeping, maintenance, and transportation services; and supplemental services, which include extra transportation, personal maintenance, and extra laundry services, as well as special care services for residents with various forms of dementia. In addition, it offers memory care services; and home care services through third-party providers, such as customized physician, dentistry, podiatry, and other health-related rehabilitation and therapy services. Further, it provides respite care and temporary care and therapy programs. The company was formerly known as Capital Senior Living Corporation and changed its name to Sonida Senior Living, Inc. in November 2021. Sonida Senior Living, Inc. was founded in 1990 and is based in Dallas, Texas.",
+      "sector": "Healthcare",
+      "industry": "Medical Care Facilities",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SNDK": {
+      "symbol": "SNDK",
+      "name": "Sandisk Corporation",
+      "summary": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East, Africa, Asia, and internationally. The company provides solid state drives for desktop and notebook PCs, gaming consoles, and set top boxes; and flash-based embedded storage products for mobile phones, tablets, notebook PCs and other portable and wearable devices, automotive applications, Internet of Things, industrial, and connected home applications, as well as removable cards, universal serial bus drives, and wafers and components. It sells its products to computer manufacturers and original equipment manufacturers, datacenters, private cloud customers, cloud service providers, resellers, distributors, and retailers through its sales personnel, dealers, distributors, retailers, and subsidiaries. Sandisk Corporation was incorporated in 2024 and is based in Milpitas, California.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SNDR": {
+      "symbol": "SNDR",
+      "name": "Schneider National, Inc.",
+      "summary": "Schneider National, Inc., together with its subsidiaries, provides multimodal surface transportation and logistics solutions in the United States, Canada, and Mexico. It operates in three segments: Truckload, Intermodal, and Logistics. The Truckload segment offers over-the-road freight transportation services through dry van, bulk, temperature-controlled, lightweight, and flatbed trailers across dedicated or network configurations. Its Intermodal segment provides door-to-door container on flat car services through a combination of rail and dray transportation using company-owned containers, chassis, and trucks. The Logistics segment offers asset-light freight brokerage, supply chain, warehousing, and import/export services, as well as value-added services. The company also leases equipment, such as trucks to owner-operators and provides insurance to drivers and owner-operators. Schneider National, Inc. was founded in 1935 and is headquartered in Green Bay, Wisconsin.",
+      "sector": "Industrials",
+      "industry": "Trucking",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SNDX": {
+      "symbol": "SNDX",
+      "name": "Syndax Pharmaceuticals, Inc.",
+      "summary": "Syndax Pharmaceuticals, Inc., a commercial-stage biopharmaceutical company, develops therapies for the treatment of cancer. Its lead product candidate includes Revuforj (revumenib), a menin inhibitor for the treatment of relapsed or refractory R/R acute leukemia; and Niktimvo (axatilimab-csfr), a colony stimulating factor-1 receptor blocking antibody to treat chronic graft-versus-host disease. The company is also developing revumenib for the treatment of R/R acute myeloid leukemia (AML) with a nucleophosmin 1 mutation (mNPM1) and in combination with standard-of-care agents in mNPM1 AML or KMT2Ar acute leukemia, as well as for metastatic colorectal cancer; axatilimab to treat idiopathic pulmonary fibrosis; and Entinostat, a Class 1 HDAC inhibitor. It has an agreement with Eddingpharm International Company Limited for licensing, development, and commercialization of Entinostat. Syndax Pharmaceuticals, Inc. was incorporated in 2005 and is headquartered in New York, New York.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SNEX": {
+      "symbol": "SNEX",
+      "name": "StoneX Group Inc.",
+      "summary": "StoneX Group Inc. operates as a global financial services network that connects companies, organizations, traders, and investors to a market ecosystem in the United States, Europe, South America, the Middle East, Asia, and internationally. The company operates through four segments: Commercial, Institutional, Self-Directed/Retail, and Payments. The Commercial segment provides risk management and hedging, voice brokerage, market intelligence, physical trading, and commodity financing, marketing, procurement, logistics, and price management services; and engages in the risk management and hedging services, execution and clearing of exchange-traded and OTC products. This segment also acts as an institutional dealer in fixed income securities to serve asset managers, commercial bank trust and investment departments, broker-dealers, and insurance companies; and engages in asset management business. The Self-Directed/Retail segment provides trading services and solutions in the global financial markets, including spot foreign exchange, precious metals trading, contracts for differences, and spread bets; and wealth management services, as well as offering physical gold and other precious metals in various forms and denominations through Stonexbullion.com. The company was formerly known as INTL FCStone Inc. and changed its name to StoneX Group Inc. in July 2020. StoneX Group Inc. was founded in 1924 and is headquartered in New York, New York.",
+      "sector": "Financial Services",
+      "industry": "Capital Markets",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SNOW": {
+      "symbol": "SNOW",
+      "name": "Snowflake Inc.",
+      "summary": "Snowflake Inc. provides a cloud-based data platform for various organizations in the United States and internationally. The company's platform includes artificial intelligence (AI) Data Cloud, which enables customers to consolidate data into a single source of truth to drive meaningful business insights, build data applications, and share data and data products, as well as applies AI for solving business problems. It serves financial services, advertising, media and entertainment, retail and consumer goods, healthcare and life sciences, manufacturing, technology, telecom, travel and hospitality, and government and defense industries, as well as the public sector. the company has a collaboration with OpenAI, L.L.C. for the development of AI solutions for joint enterprise customers that deliver tangible return on investment. The company was formerly known as Snowflake Computing, Inc. and changed its name to Snowflake Inc. in April 2019. Snowflake Inc. was incorporated in 2012 and is based in Menlo Park, California.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SNN": {
+      "symbol": "SNN",
+      "name": "Smith & Nephew plc",
+      "summary": "Smith & Nephew plc, together with its subsidiaries, develops, manufactures, markets, and sells medical devices and services in the United Kingdom, the United States, and internationally. The company operates in three segments: Orthopaedics, Sports Medicine & ENT, and Advanced Wound Management. It offers knee implant products for knee replacement procedures; hip implants for revision procedures; trauma and extremities products that include internal and external devices used in the stabilization of severe fractures and deformity correction procedures; and other reconstruction products. The company also provides sports medicine joint repair products comprise instruments, technologies, and implants to perform minimally invasive surgery, as well as treating soft tissue injuries and degenerative conditions of the shoulder, knee, hip, and small joints. In addition, it provides arthroscopic enabling technologies comprising fluid management equipment for surgical access, cameras, digital image capture, scopes, light sources, and monitors to assist with visualization inside the joints, radio frequency, electromechanical and mechanical tissue resection devices, and hand instruments for removing damaged tissue; and ear, nose, and throat solutions. Further, the company offers advanced wound care products for the treatment and prevention of acute and chronic wounds, leg, diabetic and pressure ulcers, burns, and post-operative wounds; advanced wound bioactives, such as biologics and other bioactive technologies for debridement and dermal repair/regeneration, and regenerative medicine products, including skin, bone graft, and articular cartilage substitutes; and advanced wound devices, such as traditional and single-use negative pressure wound therapy, and hydrosurgery systems. It serves the healthcare providers. Smith & Nephew plc was founded in 1856 and is headquartered in Watford, the United Kingdom.",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "country": "United Kingdom",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SNPS": {
+      "symbol": "SNPS",
+      "name": "Synopsys, Inc.",
+      "summary": "Synopsys, Inc. provides design IP solutions in the semiconductor and electronics industries. It operates in two segments, Design Automation and Design IP. The company offers Digital and Custom IC Design solution that provides digital design implementation solutions; Verification solution that offers virtual prototyping, static and formal verification, simulation, emulation, field programmable gate array (FPGA)-based prototyping, and debug solutions; FPGA design products that are programmed to perform specific functions; synopsys technology computer-aided design (TCAD), mask synthesis, and manufacturing analytic solutions; and AI-driven EDA solutions. It also provides pre-verified and silicon-proven IP solutions, logic libraries and embedded memories, processor and security solutions, IP Offerings for the automotive market, SOC infrastructure IP, data path and building block IP, and mathematical and floating-point components. Synopsys, Inc. has a strategic collaboration with Arm Holdings plc for development of AGI CPU that provides solutions across its full-stack design portfolio including EDA, interface IP, and hardware-assisted verification (HAV). It has a strategic partnership with OpenAI to revolutionize the design of semiconductors. Synopsys, Inc. has a strategic agreement with Amazon to accelerate Amazon's custom silicon innovation and advance the development of complex AI-powered products and cloud infrastructure. The company was incorporated in 1986 and is headquartered in Sunnyvale, California.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SNX": {
+      "symbol": "SNX",
+      "name": "TD SYNNEX Corporation",
+      "summary": "TD SYNNEX Corporation operates as a distributor and solutions aggregator for the information technology (IT) ecosystem in the United States, Europe, and internationally. It offers endpoint solutions, including personal computing devices and peripherals, mobile phones and accessories, printers, and supplies; and advanced solutions comprising data center technologies, such as hybrid cloud, security, storage, networking, servers, software, converged and hyper-converged infrastructure, and hyperscale infrastructure. The company also provides design, integration, test and other production value-added solutions, such as thermal testing, power-draw efficiency testing, burn-in, quality, and logistics support; logistics and field services; depot repair and customer management services; and cloud services, including public cloud solutions in productivity and collaboration, infrastructure as a service, platform as a service, software as a service, security, mobility, AI, and other hybrid solutions. In addition, it offers online services; financing options, including net terms, third party leasing, floor plan financing and letters-of-credit backed financing and arrangements, as well lease products to reseller customers and their end-users and provides device-as-a-service to end-users; and marketing services comprising direct mail, external media advertising, reseller product training, targeted telemarketing campaigns, national and regional trade shows, trade groups, database analysis, print on demand services, and web-based marketing. It serves value-added resellers, corporate resellers, government resellers, system integrators, direct marketers, retailers, and managed service providers. The company has strategic alliance with EigenQ, Inc. to help public-sector, defense, critical infrastructure and enterprise customers assess and prepare AMD EPYC processor-based server environments for the post-quantum security transition. The company was formerly known as SYNNEX Corporation and changed its name to TD SYNNEX Corporation in September 2021. TD SYNNEX Corporation was founded in 1980 and is headquartered in Fremont, California.",
+      "sector": "Technology",
+      "industry": "Electronics & Computer Distribution",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SNY": {
+      "symbol": "SNY",
+      "name": "Sanofi",
+      "summary": "Sanofi engages in the research, development, manufacture, and marketing of therapeutic solutions. It provides immunology and inflammation, rare diseases neurology, oncology, and other vaccines. It also offers poliomyelitis, pertussis, and haemophilus influenzae type b (Hib) pediatric vaccines; respiratory syncytial virus protection; hexavalent combination vaccines that includes hepatitis A, typhoid, yellow fever, and rabies vaccines; and Fluzone, a flu vaccine. It has a collaboration and license agreement with Exscientia to develop small-molecule for oncology and immunology; ABL Bio, Inc. to develop ABL301 for treatment of alpha-synucleinopathies; and Innate Pharma SA for cell engager program targeting B7-H3. Further, it has a collaboration agreements with Atomwise to use ATOMNET platform and Insilico Medicine to use Pharma.AI, a medicine's AI platform; Kymera Therapeutics, Inc. to develop and commercialize protein degrader therapies targeting IRAK4 in patients with immune-inflammatory diseases; Nurix Therapeutics, Inc. to develop protein degradation therapies; Denali Therapeutics Inc. to treat systemic inflammatory diseases, such as ulcerative colitis; and Adagene Inc. for development of antibody-based therapies. Additionally, it has a collaboration with Scribe Therapeutics Inc. to develop genome editing technologies; Teva Pharmaceuticals to co-develop and co-commercialize TEV'574, for treatment of ulcerative colitis and Crohn's disease; co-promotion service agreement with Provention Bio, Inc. for the commercialization of teplizumab; and antibody collaboration with Regeneron Pharmaceuticals, Inc. to develop antibodies, such as Dupixent (dupilumab) as treatment for diseases driven by type 2 inflammation. manufacturing facility in Germany. The company was formerly known as Sanofi-Aventis and changed its name to Sanofi in May 2011. Sanofi was incorporated in 1994 and is headquartered in Paris, France.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - General",
+      "country": "France",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SO": {
+      "symbol": "SO",
+      "name": "The Southern Company",
+      "summary": "The Southern Company, through its subsidiaries, engages in the sale of electricity. The company offers electric service to retail customers and wholesale customers; and energy-related products and services to natural gas choice markets. It also develops, constructs, acquires, owns, operates, and manages power generation assets, as well as battery energy storage projects; sells electricity at market-based rates in the wholesale market; and deploys microgrids for commercial, industrial, governmental, and utility customers. In addition, the company is involved in the distribution of natural gas in Illinois, Georgia, Virginia, and Tennessee; distributes energy and resilience solutions; and invests in telecommunications. The Southern Company was incorporated in 1945 and is headquartered in Atlanta, Georgia.",
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Electric",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SOBO": {
+      "symbol": "SOBO",
+      "name": "South Bow Corporation",
+      "summary": "South Bow Corporation operates as an energy infrastructure company. It operates through three segments: Keystone Pipeline System, Marketing, and Intra-Alberta & Other. The Keystone Pipeline System segment consists of the company's main liquids pipeline network, which transports crude oil from Hardisty, Alberta, to key U.S. markets including Wood River, Patoka, Illinois, Cushing, Oklahoma, and the Gulf Coast. The Marketing segment provides crude oil marketing services, including transportation, storage, and logistics, and engages in physical crude oil trading and hedging activities. The Intra-Alberta & Other segment comprises pipelines such as the Grand Rapids Pipeline and White Spruce Pipeline, offering crude oil transportation from Alberta's oil sands to refining and market regions, and includes corporate and financing activities. The company also operates 4,900 kilometres of crude oil pipeline infrastructure connecting Alberta crude oil supplies to the U.S. refining markets in the U.S. Midwest and Gulf Coast. In addition, the company offers ancillary services, including storage at terminals. The company was incorporated in 2023 and is based in Calgary, Canada.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "country": "Canada",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SOFI": {
+      "symbol": "SOFI",
+      "name": "SoFi Technologies, Inc.",
+      "summary": "SoFi Technologies, Inc. provides various financial services in the United States, Latin America, Canada, and Hong Kong. The company operates through three segments: Lending, Technology Platform, and Financial Services. It offers lending and financial services and products that allows its members to borrow, save, spend, invest, and protect money; and personal loans, student loans, home loans, and related services. The company also operates Galileo, a technology platform that offers services to financial and non-financial institution; and Technisys, a cloud-native digital and core banking platform that provides software licenses and associated services, including implementation and maintenance. In addition, it provides SoFi Money offers checking and savings accounts, and cash management products; SoFi Invest, a mobile-first investment platform that offers access to trading and advisory solutions, such as investing and robo-advisory; and SoFI Crypto, a new digital asset trading platform. Further, the company offers SoFi Credit Card that provides cash back rewards on every purchase; Sofi Relay, a personal finance management product that allows to track all of their financial accounts comprising credit score and spending behaviors; SoFi Protect which offers insurance product; SoFi Travel, an application that manages travel search and booking experience; SoFi At Work provides financial benefits to employees, including student loan payments made on their employees' behalf; Lantern Credit, a financial services marketplace platform for seeking alternative products and provide product comparisons; and other lending as a service that offers pre-qualified borrower referrals and offers loans to third-party partner. The company was founded in 2011 and is based in San Francisco, California.",
+      "sector": "Financial Services",
+      "industry": "Credit Services",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SOLS": {
+      "symbol": "SOLS",
+      "name": "Solstice Advanced Materials, Inc.",
+      "summary": "Solstice Advanced Materials, Inc. operates as a specialty chemicals and advanced materials company in the United States and internationally. It operates in two segments: Refrigerants & Applied Solutions (RAS), and Electronic & Specialty Materials (ESM). The RAS segment manufactures and sells low global warming potential (LGWP) refrigerants, blowing agents, solvents, and aerosol materials; and provides, aerosol propellants, cleaning solvents, pharmaceutical packaging materials, and alternative energy services under the Solstice, Genetron, and Aclar brands. The ESM segment offers electronic materials, fibers and laboratory life science chemicals for semiconductor, defense, pharmaceutical, and construction markets. This segment provides sputtering targets, lightweight high-strength fibers, and high-purity life science solutions under the Spectra, Fluka, and Hydranal brands. Solstice Advanced Materials, Inc. was incorporated in 2025 and is headquartered in Morris Plains, New Jersey.",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SOLV": {
+      "symbol": "SOLV",
+      "name": "Solventum Corporation",
+      "summary": "Solventum Corporation, a healthcare company, develops, manufactures, and commercializes a portfolio of solutions to address critical customer and patient needs in the United States and internationally. It operates through three segments: Medsurg, Dental Solutions, and Health Information Systems. The Medsurg segment offers solutions, such as negative pressure wound therapy, advanced wound dressings, advanced skin care, synthetic tissue matrices, I.V. site management, sterilization assurance, temperature management, surgical supplies, medical tapes and wraps, stethoscopes, medical electrodes, and medical technologies for original equipment manufacturers. The Dental Solutions segment provides dental and orthodontic products, including brackets, aligners, restorative cements, and bonding agents to span the life of the tooth, and products for preventative dental care, direct and indirect restoration, and orthodontic needs. The Health Information Systems segment offers healthcare systems with software solutions comprising computer-assisted physician documentation, direct-to-bill and coding automation, classification methodologies, speech recognition, and data visualization platforms. The company sells its products and services through direct-to-consumer, distribution, key account management, inside sales, and e-commerce. Solventum Corporation was incorporated in 2023 and is headquartered in Eagan, Minnesota.",
+      "sector": "Healthcare",
+      "industry": "Medical Instruments & Supplies",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SON": {
+      "symbol": "SON",
+      "name": "Sonoco Products Company",
+      "summary": "Sonoco Products Company, together with its subsidiaries, designs, develops, manufactures, and sells various engineered and sustainable packaging products in the United States, Europe, Canada, the Asia Pacific, and internationally. The company operates in two segments, Consumer Packaging and Industrial Paper Packaging. The Consumer Packaging segment offers round and shaped rigid paper, steel, and plastic containers, as well as metal and peelable membrane ends, closures, and components. Its Industrial Paper Packaging segment provides paperboard tubes, cones, and cores; paper-based protective packaging; and uncoated recycled paperboards. The company also offers packaging materials, such as plastic, paper, foam, and various other specialty materials. It sells its products in various markets, including the paper, textile, film, food, packaging, construction, and wire and cable markets. The company was founded in 1899 and is headquartered in Hartsville, South Carolina.",
+      "sector": "Consumer Cyclical",
+      "industry": "Packaging & Containers",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SONO": {
+      "symbol": "SONO",
+      "name": "Sonos, Inc.",
+      "summary": "Sonos, Inc., together with its subsidiaries, designs, develops, manufactures, and sells audio products and services in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. The company offers wireless, portable, plug-in, and home theater speakers; and headphones, soundbars, components, and accessories. It offers its products through physical stores, websites, online retailers, and custom installers. The company was formerly known as Rincon Audio, Inc. and changed its name to Sonos, Inc. in May 2004. Sonos, Inc. was incorporated in 2002 and is based in Santa Barbara, California.",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SONY": {
+      "symbol": "SONY",
+      "name": "Sony Group Corporation",
+      "summary": "Sony Group Corporation develops, designs, produces, manufactures, supplies, and sells electronic equipment, instruments, and devices for consumer, professional, and industrial use in Japan, the United States, Europe, China, the Asia-Pacific, and internationally. The company operates through Game & Network Services, Music, Pictures, Entertainment Technology & Services, and Imaging & Sensing Solutions. It develops, designs, produces, manufactures, provides, and sells smartphones and image sensors; plans, produces, manufactures, and sells music software, performances and merchandise, song lyrics and music management, licensing, animation works, and game applications. The company is also involved in the production, acquisition, sale, and distribution of motion pictures and television programs; operates television networks and direct-to-consumer distribution services; insurance business, including life insurance and non-life insurance; internet banking; production and sale of digital software add-on content; manufacturing and sales of home video game consoles; and interchangeable lens, projectors, and medical equipment. It has a strategic partnership with TCL Electronics Holdings Limited in the home entertainment sector; and a non-binding memorandum of understanding with Taiwan Semiconductor Manufacturing Company Limited for a strategic partnership regarding the development and manufacturing of image sensors. The company was formerly known as Sony Corporation and changed its name to Sony Group Corporation in April 2021. Sony Group Corporation was incorporated in 1946 and is headquartered in Tokyo, Japan.",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "country": "Japan",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SOUN": {
+      "symbol": "SOUN",
+      "name": "SoundHound AI, Inc.",
+      "summary": "SoundHound AI, Inc. provides independent voice artificial intelligence (AI) solutions that enables businesses across the automotive, TV, IoT, and customer service industries to deliver conversational experiences to customers in the United States, Korea, France, Japan, Germany, and internationally. The company offers Houndify platform, which provides a suite of Houndify tools to help brands build conversational voice assistants, such as Application Programming Interfaces (API) for text and voice queries, support for custom commands, extensive library of content domains, inclusive software development kit platforms, collaboration capabilities, diagnostic tools, and built-in analytics; SoundHound Chat AI, a voice assistant with integrated generative AI that integrates with knowledge domains, pulling real-time data, such as weather, sports, stocks, flight status, restaurants, and other data; and SoundHound Smart Answering, which offers customer establishments the option to build an easy to use custom AI-powered voice assistant. It also provides CaiNET software that uses machine learning to enhance how domains work together to handle complex queries; CaiLAN software that arbitrates responses, so users get answers from the right domain; Dynamic Interaction, a real-time multimodal customer service interface; Smart Ordering, which offers an easy-to-understand voice assistant for restaurants; automatic speech recognition; natural language understanding; wake words; custom domains; text-to-speech; Employee Assist; and edge and cloud connectivity, which includes embedded voice solutions. In addition, the company offers Amelia Platform, which builds AI agents for enterprises; Chat AI for Automotive; Dynamic Drive-Thru for GenAI; Voice Commerce, which connects drivers and merchants with Voice AI; Autonomics Platform; Custom Voice AI Solutions; Voice AI Platform; and SoundHound Music App. SoundHound AI, Inc. was founded in 2005 and is headquartered in Santa Clara, California.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SPB": {
+      "symbol": "SPB",
+      "name": "Spectrum Brands Holdings, Inc.",
+      "summary": "Spectrum Brands Holdings, Inc. operates as a branded consumer products and home essentials company in North America, Europe, the Middle East, Africa, Latin America, and Asia-Pacific regions. The company operates through three segments: Home and Personal Care (HPC); Global Pet Care (GPC); and Home and Garden (H&G). The Home and Personal Care segment provides home appliances under the Black & Decker, Russell Hobbs, George Foreman, PowerXL, Emeril Legasse, Copper Chef, Juiceman, and Breadman brands; and personal care products under the Remington brand. The GPC segment provides Rawhide chews, dog and cat clean-up, training, health and grooming products, small animal food and care products, rawhide-free dog and cat treats, and wet and dry pet food for dogs and cats under the Good'n'Fun, DreamBone, Good Boy, SmartBones, IAMS, EUKANUBA, Nature's Miracle, FURminator, Dingo, 8IN1, Better Belly, Meowee!, and Wild Harvest brands. This segment also offers aquarium kits, stand-alone tanks, and aquatics equipment and consumables under the Tetra, Marineland, Instant Ocean, GloFish, and OmegaSea brands. The H&G segment provides outdoor insect and weed control solutions, and animal repellents under the Spectracide, Garden Safe, Liquid Fence, and EcoLogic brands; household pest control solutions under the Hot Shot and Black Flag brands; household surface cleaning, maintenance, and restoration products, including bottled liquids, mops, wipes, and markers under the Rejuvenate brand; and personal-use pesticides and insect repellent products under the Cutter and Repel brands. It sells its products through retailers, e-commerce and online retailers, wholesalers, and distributors. Spectrum Brands Holdings, Inc. was founded in 1906 and is based in Middleton, Wisconsin.",
+      "sector": "Consumer Defensive",
+      "industry": "Household & Personal Products",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SPCX": {
+      "symbol": "SPCX",
+      "name": "Space Exploration Technologies Corp.",
+      "summary": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally. It operates through three operating segments: Space, Connectivity, and AI. The Space segment designs, manufactures, and launches reusable rockets to provide access to space. It also provides launch services for the deployment of payloads to intended orbits for commercial and government customers utilizing Falcon 9 and Falcon Heavy; and engages in the launch and development for the development of spacecraft and the provision of launch and mission services for government agency space programs utilizing Falcon 9, Falcon Heavy, Starship, and Dragon. Its company's Connectivity segment operates broadband data and communications network by various Starlink satellites in low-earth orbit, delivering connectivity to various consumers, enterprise, and government customers. The company's AI segment operates a vertically integrated AI platform spanning a frontier LLM Grok; AI solutions for consumer and enterprise customers; X, a real-time information, entertainment, and free speech platform; and AI computational infrastructure. Space Exploration Technologies Corp. was incorporated in 2002 and is based in Starbase, Texas.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SPG": {
+      "symbol": "SPG",
+      "name": "Simon Property Group, Inc.",
+      "summary": "Simon Property Group, Inc. is a self-administered and self-managed real estate investment trust (REIT). Simon Property Group, L.P., or the Operating Partnership, is our majority-owned partnership subsidiary that owns all of our real estate properties and other assets. In this package, the terms Simon, we, our, or the Company refer to Simon Property Group, Inc., the Operating Partnership, and its subsidiaries. We own, develop and manage premier shopping, dining, entertainment and mixed-use destinations, which consist primarily of malls, Premium Outlets, The Mills, and International Properties. At December 31, 2024, we owned or had an interest in 229 properties comprising 183 million square feet in North America, Asia and Europe. We also owned an 88% interest in The Taubman Realty Group, or TRG, which owns 22 regional, super-regional, and outlet malls in the U.S. and Asia. Additionally, at December 31, 2024, we had a 22.4% ownership interest in Klepierre, a publicly traded, Paris-based real estate company, which owns shopping centers in 14 European countries. Simon Property Group, Inc. was incorporated in 1960 and is based in Indianapolis, Indiana.",
+      "sector": "Real Estate",
+      "industry": "REIT - Retail",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SPHR": {
+      "symbol": "SPHR",
+      "name": "Sphere Entertainment Co.",
+      "summary": "Sphere Entertainment Co. operates as a live entertainment and media company in the United States. It operates through two segments, Sphere and MSG Networks. The Sphere segment offers entertainment medium powered by technologies to create multi-sensory experiences. The MSG Networks segment provides regional sports and entertainment networks; direct-to-consumer and authenticated streaming products, as well as sports content, including live local games and other programming. The company was formerly known as Madison Square Garden Entertainment Corp. and changed its name to Sphere Entertainment Co. in April 2023. Sphere Entertainment Co. was founded in 2006 and is based in New York, New York.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SPGI": {
+      "symbol": "SPGI",
+      "name": "S&P Global Inc.",
+      "summary": "S&P Global Inc., together with its subsidiaries, provides benchmarks, data, analytics, and workflow solutions in the global capital, energy and commodity, and automotive markets. It operates through four segments: S&P Global Market Intelligence, S&P Global Ratings, S&P Global Energy, and S&P Dow Jones Indices. The S&P Global Market Intelligence segment provides multi-asset-class data and analytics integrated with purpose-built workflow solutions. This segment offers Data, Analytics & Insights, a desktop product suite that provides data, analytics, and third-party research for global finance and corporate professionals; research, reference data, market data, derived analytics, and valuation services; enterprise solutions, such as software and workflow solutions; and credit and risk solutions for selling Ratings' credit ratings and related data and research, analytics, and financial risk solutions. The S&P Global Ratings segment operates as an independent provider of credit ratings, research, and analytics offering investors information and independent benchmarks for their investment and financial decisions as well as access to the capital markets. The S&P Global Energy segment provides information and benchmark prices for the energy and commodity markets. The S&P Dow Jones Indices segment operates as an index provider that maintains various valuation and index benchmarks for investment advisors, wealth managers, and institutional investors. It has operations in the United States, European region, Asia, and internationally. S&P Global Inc. was founded in 1860 and is headquartered in New York, New York.",
+      "sector": "Financial Services",
+      "industry": "Financial Data & Stock Exchanges",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SPOT": {
+      "symbol": "SPOT",
+      "name": "Spotify Technology S.A.",
+      "summary": "Spotify Technology S.A., together with its subsidiaries, provides audio streaming subscription services worldwide. It operates in two segments, Premium and Ad-Supported. The Premium segment offers online and offline streaming access to its catalog of music and podcasts, including video, lossless music, and audiobooks in select markets through subscription offerings primarily sold directly to end users and partners. The Ad-Supported segment provides limited on-demand online access to its catalog of music and online and offline access to its catalog of podcasts on computers, tablets, mobile devices, and other smart devices. The company also offers sales, distribution and marketing, contract research and development, and customer and other support services. Spotify Technology S.A. was incorporated in 2006 and is headquartered in Stockholm, Sweden.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "country": "Sweden",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SPSC": {
+      "symbol": "SPSC",
+      "name": "SPS Commerce, Inc.",
+      "summary": "SPS Commerce, Inc. provides cloud-based supply chain management solutions in the United States. It offers solutions through SPS Commerce, a cloud-based platform that connects retailers, brands, distributors, manufacturers, and logistics providers, handling the complexity of modern commerce operations. The company also provides Fulfillment, a comprehensive solution designed to streamline supply chain operation that sends and receives order data, ensuring accurate execution of required processes from order to invoicing and revenue recovery through fully automated operations; and Analytics product that simplifies managing sell-through data from customers business partners that handle data acquisition, cleansing, normalization, and delivery. In addition, it offers various complimentary products, such as assortment product, which simplifies the communication of robust, accurate item data by automatically translating item attributes, and hierarchies through single connection across all sales channels; and relationship management product that allows organizations to accelerate digitization of their supply chain and improve collaboration with suppliers through change management, onboarding programs, and supplier score carding. The company was formerly known as St. Paul Software, Inc. and changed its name to SPS Commerce, Inc. in May 2001. SPS Commerce, Inc. was incorporated in 1987 and is headquartered in Minneapolis, Minnesota.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SPXC": {
+      "symbol": "SPXC",
+      "name": "SPX Technologies, Inc.",
+      "summary": "SPX Technologies, Inc. engages in the supply of engineered solutions serving the heating, ventilation, and cooling (HVAC); and detection and measurement markets in the United States, Canada, China, the United Kingdom, and internationally. The company operates in two segments, HVAC and Detection and Measurement. The HVAC segment engineers, designs, manufactures, installs, and services package and process cooling products and engineered air movement and handling solutions for the industrial, institutional, and commercial HVAC markets, as well as hydronic and electrical heating and ventilation products for the residential, industrial, institutional, and commercial markets. It offers cooling products and engineered air movement and handling solutions under the Marley, Recold, SGS, Cincinnati Fan, TAMCO, Ingénia, Air Enterprises, and Rahn Industries brand names; hydronics and electrical heating and ventilation products under the Berko, Qmark, Fahrenheat, Leading Edge, Patterson-Kelley, Weil-McLain, Sigma, Omega, Skypeak, Thermolec, Williamson-Thermoflo, INDEECO, Heatrex, AccuTherm, Brasch, Spectrum, BannerDay PipeHeating, and Solar Products brands. The Detection and Measurement segment offers underground pipe and cable locators, inspection and rehabilitation equipment, robotic systems under the Radiodetection, Pearpoint, Schonstedt, Dielectric, Cues, ULC Robotics, and Sensors & Software brands; transportation systems under the Genfare brand; communication technologies under the TCI, ECS, and KTS brands; and aids to navigation products under the Flash Technology, ITL, Sabik Marine, Sealite, and Avlite brands. The company markets its products through consumers, independent manufacturing representatives, third-party distributors, and retailers. The company was formerly known as SPX Corporation and changed its name to SPX Technologies, Inc. in August 2022. SPX Technologies, Inc. is headquartered in Charlotte, North Carolina.",
+      "sector": "Industrials",
+      "industry": "Building Products & Equipment",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SQM": {
+      "symbol": "SQM",
+      "name": "Sociedad Química y Minera de Chile S.A.",
+      "summary": "Sociedad Química y Minera de Chile S.A. produces and sells specialty plant nutrients, and iodine and its derivatives in Chile, Latin America, the Caribbean, Europe, North America, Asia, and internationally. It offers potassium nitrate, sodium nitrate, specialty blends, and other specialty fertilizers under the Ultrasol, Qrop, Speedfol, Allganic, Ultrasoline, Prop, and Prohydric brands. The company also provides iodine and its derivatives for use in medical, agricultural, industrial, and human and animal nutrition products comprising x-ray contrast media, biocides, antiseptics and disinfectants, pharmaceutical intermediates, polarizing films for LCD and LED screens, chemicals, organic compounds, and pigments, as well as added to edible salt to prevent iodine deficiency disorders. In addition, it produces lithium carbonate and lithium hydroxide which are used in the production of cathode material for, secondary batteries; lithium chloride; and basic lithium chemicals and lithium derivatives used in lubricating greases for heat-resistant glass, chips for the ceramic and glazing industry, and air conditioning chemicals, as well as other pharmaceutical syntheses and metal alloys. Further, the company produces potassium sulfate; and potassium chloride which are used to nourish various crops. Additionally, it produces and markets industrial chemicals, such as sodium nitrate mainly used in the production of glass and explosives, metal processing and recycling, and production of insulating materials and adhesives; potassium nitrate used as a raw material to produce frits and special ty glass, as well as in the enamel, metal treatment, and pyrotechnic sectors; solar salts used as a thermal storage medium in solar power generation plants; and potassium chloride as an additive in oil drilling and food processing sectors, as well as sells third-party fertilizers. Sociedad Química y Minera de Chile S.A. was founded in 1926 and is headquartered in Santiago, Chile.",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "country": "Chile",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SR": {
+      "symbol": "SR",
+      "name": "Spire Inc.",
+      "summary": "Spire Inc., together with its subsidiaries, engages in the purchase, retail distribution, and sale of natural gas to residential, commercial, industrial, and other end-users of natural gas in the United States. The company operates through three segments: Gas Utility, Gas Marketing, and Midstream. It is also involved in the marketing of natural gas and related services; and transportation and storage of natural gas. In addition, the company engages in the operation of propane through its propane pipeline, risk management, and other activities. Spire Inc. was formerly known as The Laclede Group, Inc. and changed its name to Spire Inc. in April 2016. Spire Inc. was founded in 1857 and is based in Saint Louis, Missouri.",
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Gas",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SRAD": {
+      "symbol": "SRAD",
+      "name": "Sportradar Group AG",
+      "summary": "Sportradar Group AG, together with its subsidiaries, provides sports data services for the sports betting and media industries in Switzerland, the United States, North America, Africa, Malta, the Asia Pacific, the Middle East, Europe, Latin America, and the Caribbean. The company offers betting technology and solutions, including betting and gaming content; real-time sports data points; pre-match and live odds services; streaming and betting engagement services; iGaming, which includes virtual soccer, horse and dog racing, basketball, tennis, baseball, and cricket; managed betting and trading services; and sports betting and gaming platform. It also provides sports content, technology, and services that include marketing services; sports media services comprising data, content and solutions for broadcasters, publishers, rights-holders, and technology companies; integrity services, including monitoring, intelligence, education, consultancy, rights protection, and regulatory solutions; and sports performance solutions for competition management, official data generation, automated content distribution and performance analysis, which include video and analytics, and coaching and scouting products. The company was founded in 2001 and is headquartered in Sankt Gallen, Switzerland.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "Switzerland",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SRE": {
+      "symbol": "SRE",
+      "name": "Sempra",
+      "summary": "Sempra engages in the regulated utilities business in the United States and Mexico. It operates through three segments: Sempra California, Sempra Texas Utilities, and Sempra Infrastructure. It also invests in and operates electric and gas utilities and other energy infrastructure that provides energy services to customers. The Sempra California segment provides natural gas and electric services to Southern California and part of central California. As of December 31, 2025, it offered electric services to approximately 3.6 million population and natural gas services to approximately 3.3 million population that covers 4,100 square miles. This segment owns and operates a natural gas distribution, transmission, and storage system that supplies natural gas. As of December 31, 2025, it served a population of 21.3 million covering an area of 24,000 square miles. The Sempra Texas Utilities segment engages in the regulated electricity transmission and distribution utility business. As of December 31, 2025, transmission system included approximately 18,418 circuit miles of transmission lines; 1,333 transmission and distribution substations; interconnection to 230 third-party generation facilities totaling 63,670 MW; and distribution system included more than 4.1 million points of delivery and consisted of 127,398 circuit miles of overhead and underground lines. The Sempra Infrastructure segment develops, constructs, operates, and invests in energy infrastructure to help enable the access to cleaner energy in markets in the United States, Mexico, and internationally. The company was formerly known as Sempra Energy and changed its name to Sempra in May 2023. Sempra was incorporated in 1996 and is headquartered in San Diego, California.",
+      "sector": "Utilities",
+      "industry": "Utilities - Diversified",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SRPT": {
+      "symbol": "SRPT",
+      "name": "Sarepta Therapeutics, Inc.",
+      "summary": "Sarepta Therapeutics, Inc., a commercial-stage biopharmaceutical company, focuses on the discovery and development of RNA-targeted therapeutics, siRNA platform, gene therapy, and other genetic therapeutic modalities for the treatment of rare diseases. It offers EXONDYS 51 for the treatment of Duchenne in patients who have a confirmed mutation of the dystrophin gene that is amenable to exon 51 skipping; VYONDYS 53 for the treatment of Duchenne in patients who have a confirmed mutation of the dystrophin gene that is amenable to exon 53 skipping; AMONDYS 45 for the treatment of Duchenne in patients who have a confirmed mutation of the dystrophin gene that is amenable to exon 45 skipping; and ELEVIDYS, an AAV-based gene therapy, which is contraindicated in patients with any deletion in exon 8 and/or exon 9 in the Duchenne gene. The company also develops SRP-9003, a gene therapy program for the treatment of LGMD2E; SRP-1001 to selectively target and knockdown DUX4 using RNAi in Phase 1/2a clinical trials; and SRP-1003 for reduction of expression of the DMPK gene in Phase 1/2a clinical trials. It has collaboration and license agreements with F. Hoffman-La Roche Ltd; Arrowhead Pharmaceuticals, Inc.; University of Western Australia; Nationwide Children's Hospital; Hansa Biopharma; and Duke University. The company was incorporated in 1980 and is headquartered in Cambridge, Massachusetts.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SRRK": {
+      "symbol": "SRRK",
+      "name": "Scholar Rock Holding Corporation",
+      "summary": "Scholar Rock Holding Corporation, a biopharmaceutical company, focuses on improving the lives of children and adults with spinal muscular atrophy (SMA) and other rare, severe, and debilitating neuromuscular diseases. The company's novel understanding of the molecular mechanisms of growth factor activation within the transforming growth factor beta (TGFß) superfamily has enabled the development of a proprietary platform. This platform is used for the development of monoclonal antibodies that locally and selectively target the precursor, or latent, forms of growth factors. The company is developing Apitegromab, an inhibitor of the activation of myostatin, which is in a Phase 2 clinical trial for the treatment of SMA and facioscapulohumeral muscular dystrophy (FSHD). Additionally, SRK-439, an anti-pro/latent myostatin antibody, is in a Phase 1 clinical trial for the treatment of patients with rare, severe, and debilitating neuromuscular diseases. SRK-181 is a Phase 2-ready investigational inhibitor of latent TGFß1 for the treatment of patients with solid tumors that are resistant to anti-PD-(L)1 antibody therapies. The company also offers products in pre-clinical development, including SRK-373, a selective inhibitor of the latent TGFß1 isoform with selective activity in the fibrotic extracellular matrix, for the treatment of fibrotic diseases, and SRK-256, an inhibitor of RGMc, or hemojuvelin, for the treatment of iron-restricted anemias. Scholar Rock Holding Corporation is also developing a pipeline that includes programs for the treatment of patients with rare, severe, and debilitating neuromuscular diseases. Scholar Rock Holding Corporation was founded in 2012 and is headquartered in Cambridge, Massachusetts.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SSB": {
+      "symbol": "SSB",
+      "name": "SouthState Bank Corporation",
+      "summary": "SouthState Bank Corporation operates as the bank holding company for SouthState Bank, National Association that provides a range of banking services and products to individuals and companies in the United States. The company offers checking accounts, savings accounts, money market accounts, and time deposit accounts; interest-bearing deposits, certificates of deposits, and other time deposits; and interest-bearing transaction accounts. It provides bond accounting services for correspondents, asset/liability consulting related activities, international wires, and other clearing and corporate checking account services. In addition, the company offers commercial real estate, residential real estate, and commercial and industrial loans, as well as consumer loans, including auto, boat, and personal installment, as well as business, agriculture, real estate-secured (mortgage), home improvement, and manufactured housing loans. Further, it provides debit and credit card, mobile services, funds transfer products and services, and treasury management services comprising merchant, automated clearing house, lock-box, remote deposit capture, and other treasury services, as well as asset and wealth management, and other fiduciary and private banking services. Additionally, the company offers safe deposit boxes, bank money orders, wire transfer and ACH services, brokerage services, and alternative investment products, such as annuities and mutual funds, trust and asset management services; letters of credit and home equity lines of credit; and online, mobile, and telephone banking platforms. The company was formerly known as SouthState Corporation and changed its name to SouthState Bank Corporation in September 2025. SouthState Bank Corporation was founded in 1933 and is headquartered in Winter Haven, Florida.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SSD": {
+      "symbol": "SSD",
+      "name": "Simpson Manufacturing Co., Inc.",
+      "summary": "Simpson Manufacturing Co., Inc., together with its subsidiaries, designs, engineers, manufactures, and sells structural solutions for wood, concrete, and steel connections in the North America, Europe, and the Asia Pacific. The company provides structural products for wood construction, such as connectors, fasteners, and lateral-force resisting systems; anchor, repair, protection and strengthening products including coatings, sealers, mortars, fiberglass and fiber-reinforced polymer systems and asphalt products. In addition, the company offers engineering and design services, as well as software solutions. It markets its products to the residential construction, industrial, commercial and infrastructure construction, remodeling and do-it-yourself markets. It offers engineering and design services. It serves its products to dealers, home centers, wood component manufacturers, OEM-relationships, distributors, and contractors industries. The company was founded in 1956 and is headquartered in Pleasanton, California.",
+      "sector": "Basic Materials",
+      "industry": "Lumber & Wood Production",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SSNC": {
+      "symbol": "SSNC",
+      "name": "SS&C Technologies Holdings, Inc.",
+      "summary": "SS&C Technologies Holdings, Inc., together with its subsidiaries, provides software products and software-enabled services to financial services and healthcare industries in the Americas, Europe, the Middle East, Africa, and Asia Pacific. The company owns and operates technology stack across securities accounting; front-office functions, such as trading and modeling; middle-office functions comprising portfolio management and reporting; back-office functions, such as accounting, performance measurement, reconciliation, reporting, processing and clearing, and compliance and tax reporting; and healthcare solutions consisting of claims adjudication, benefit management, care management, and business intelligence solutions. It also offers software-enabled services, such as SS&C GlobeOp, Global Investor and Distribution Solutions, SS&C Retirement Solutions, Calastone, Managed Services, Data Solutions, ALPS Advisors, and Virtual Data Rooms, as well as pharmacy, healthcare administration, and health outcomes optimization solutions. In addition, the company provides portfolio management, operations, and accounting software; trading software; intelligent automation solutions; banking and lending solutions, as well as research, analytics, risk, and training solutions. The company also provides professional services that includes consulting and implementation services consisting of initial system installation, conversion of historical data, and ongoing training and support, as well as product support services. SS&C Technologies Holdings, Inc. was founded in 1986 and is headquartered in Windsor, Connecticut.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SSRM": {
+      "symbol": "SSRM",
+      "name": "SSR Mining Inc.",
+      "summary": "SSR Mining Inc., together with its subsidiaries, engages in the acquisition, exploration, and development of precious metal resource properties in the United States, Türkiye, Canada, and Argentina. The company explores for gold doré, copper, silver, lead, and zinc deposits. It holds interests in the Çöpler located in Erzincan province, Turkey; the Marigold situated in Nevada, the United States; the Seabee located in Saskatchewan, Canada; and the Puna situated in Jujuy province, Argentina. The company was formerly known as Silver Standard Resources Inc. and changed its name to SSR Mining Inc. in August 2017. SSR Mining Inc. was incorporated in 1946 and is based in Denver, Colorado.",
+      "sector": "Basic Materials",
+      "industry": "Gold",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ST": {
+      "symbol": "ST",
+      "name": "Sensata Technologies Holding plc",
+      "summary": "Sensata Technologies Holding plc develops, manufactures, and sells sensors and sensor-rich solutions, electrical protection components and systems, and other products used in mission-critical systems and applications in the United States, Europe, Asia, and internationally. It operates through three segments: Automotive; Industrials; and Aerospace, Defense, and Commercial Equipment. The company offers sensors, contactors/fuses, switching and protection devices and solutions, distribution modules, bimetal electromechanical controls, circuit breakers, switches and relays, energy storage systems, rectifiers and frequency converters, power conversion systems, battery management system, charging inlet modules, and brushless DC motors. It offers its products for thermal management and air conditioning systems; powertrain; exhaust after-treatment; suspension, braking; tire management solutions; battery packs; electrical protection; electrical powertrain; battery packs; charging systems; motors, compressors, pumps; heating and cooling systems; home appliances; lighting; industrial; data and telecom equipment; medical equipment; motors, compressors, and pumps; hydraulic machinery; motion control systems; motor/platform controllers; grid harmonics and power delivery; commercial and military aircraft; and recreational vehicles. It serves automotive, on-road truck, and construction; and original equipment manufacturers in agriculture, control, appliance, medical, energy and charging infrastructure, data/telecom, and aerospace and defense industries, as well as systems integrators, aerospace, and motor and compressor distributors. Sensata Technologies Holding plc was founded in 1916 and is headquartered in Attleboro, Massachusetts.",
+      "sector": "Technology",
+      "industry": "Scientific & Technical Instruments",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STAG": {
+      "symbol": "STAG",
+      "name": "STAG Industrial, Inc.",
+      "summary": "STAG Industrial, Inc. is a real estate investment trust focused on the acquisition, development, ownership and operation of industrial properties throughout the United States. As of June 30, 2026, the Company's portfolio consists of 606 buildings in 41 states with approximately 122.6 million rentable square feet. STAG Industrial, Inc. was established in 2010 and was incorporated in Maryland.",
+      "sector": "Real Estate",
+      "industry": "REIT - Industrial",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STE": {
+      "symbol": "STE",
+      "name": "STERIS plc",
+      "summary": "STERIS plc provides infection prevention products and services in the United States, Ireland, and internationally. It operates through three segments: Healthcare, Applied Sterilization Technologies, and Life Sciences. The company offers cleaning chemistries and sterility assurance products, automated endoscope reprocessing system and tracking products, endoscopy accessories, instruments, washers, and sterilizers and other pieces of capital equipment, as well as equipment used directly in the procedure rooms, including surgical tables, lights, equipment management services, and connectivity solutions; and various preventive maintenance programs, repair services, custom process improvement consulting, and outsourced instrument sterile processing, as well as instrument, devices, and endoscope repair and maintenance services. It also provides process controls and monitoring systems, as well as integrated sterilization equipment, such as accelerators, product handling, and automation; and sterilization modalities, product development, materials testing, and process validation, as well as support services for sterilization equipment and control systems comprising installation, preventive maintenance, updates, repairs, and troubleshooting. In addition, the company offers pharmaceutical detergents, cleanroom disinfectants and sterilants, pharmaceutical grade and research sterilizers and washers, sterility assurance and maintenance products, vaporized hydrogen peroxide room decontamination systems and sterilizers, and high purity water and pure steam generators; and preventive maintenance programs and repair services to support the operation of capital equipment. It serves healthcare providers, medical device and pharmaceutical manufacturers, biopharmaceutical manufacturing facilities, and hospitals. The company was formerly known as New STERIS Limited and changed its name to STERIS plc in November 2015. STERIS plc was founded in 1985 and is headquartered in Mentor, Ohio.",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STEP": {
+      "symbol": "STEP",
+      "name": "StepStone Group Inc.",
+      "summary": "StepStone Group Inc. is a private equity and venture capital firm specializing in primary, direct, fund of funds, secondary direct, and secondary indirect investments. For direct investment, it seeks to invest in private debt, venture debt, incubation, mezzanine, distressed/vulture, seed/startup, early venture, mid venture, late venture, emerging growth, later stage, turnaround, growth capital, industry consolidation, recapitalization, buyout investments in mature and middle market companies. It prefers to invest in natural resources, technology, healthcare, services, materials, manufacturing, consumer durables, apparel, hotels, restaurants and leisure, media, retailing, power, utilities consumer staples, financials, telecommunication services, clean energy/renewables, transport, social, natural capital, infrastructure, corporate, real estate, credit and real asset. The firm invests globally with a focus on United States, North America, Europe, Asia, Latin America, Middle East, Africa, Brazil, Mexico, Argentina, Colombia, New Zealand, China, India, Korea, Japan, Taiwan, and Australia region. The firm invests between 5% and 40% in emerging markets. For fund of fund investment, it seeks to invest in private equity funds, venture capital funds, Special situation funds, Real estate funds, Infrastructure funds, mezzanine funds, and turnaround/distressed funds. It considers investments in both domestic and international funds. It also seeks to make co-investments and follow-on investments and considers partial interests in funds. The firm seeks to make minority and majority investments. StepStone Group Inc. was founded in 2007 and is based in New York, New York with additional offices across North America, South America, South Korea, Europe, Australia and Asia.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STLA": {
+      "symbol": "STLA",
+      "name": "Stellantis N.V.",
+      "summary": "Stellantis N.V. engages in the designing, engineering, manufacturing, distribution, and sale of automobiles and light commercial vehicles, engines, transmission systems, and mobility services worldwide. It provides luxury and premium vehicles; sport utility vehicles; and parts and accessories. The company also provides contract services; retail and dealer financing services; and vehicle leasing and rental services, as well as engages in after-market parts and service businesses and data businesses. It offers its products under the Abarth, Alfa Romeo, Chrysler, Citroën, DS Automobiles, Dodge, Fiat, Jeep, Maserati, Ram Trucks, Opel, Lancia, Vauxhall, Peugeot, Free2move, Share Now, Leasys, and Comau brand names through distributors and dealers. The company has a strategic collaboration with Microsoft Corporation for the development of AI initiatives across sales, customer care, and operations. The company operates in North America, France, Brazil, Italy, Germany, the United Kingdom, Turkiye, Spain, Argentina, Belgium, Austria, the Netherlands, Portugal, Poland, Algeria, Morocco, Japan, China, and internationally. Stellantis N.V. was founded in 1899 and is based in Hoofddorp, the Netherlands.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "country": "Netherlands",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STLD": {
+      "symbol": "STLD",
+      "name": "Steel Dynamics, Inc.",
+      "summary": "Steel Dynamics, Inc., together with its subsidiaries, operates as a steel producer and metal recycler in the United States. It operates through four segments: Steel Operations, Metals Recycling Operations, Steel Fabrication Operations, and Aluminum Operations. The Steel Operations segment offers hot rolled, cold rolled, and coated steel products; parallel flange beams and channel sections, large unequal leg angles, and reinforcing steel bars, standard strength carbon, intermediate alloy hardness, and premium grade rail products; engineered special-bar-quality products, merchant-bar-quality products, and other engineered round steel bars; channels, angles, flats, merchant rounds, and reinforcing steel bars; and specialty shapes and light structural steel products. This segment also engages in turning, polishing, straightening, chamfering, precision saw-cutting, and heat treating of bar products. Its products are used in construction, automotive, manufacturing, transportation, heavy and agricultural equipment, energy, and pipe and tube markets. The Metals Recycling Operations segment is involved in the ferrous and nonferrous scrap metal processing, transportation, marketing, brokerage, and scrap management services. Its ferrous products include heavy melting steel, busheling, bundled scrap, shredded scrap, steel turnings, and cast-iron products; and nonferrous products comprise aluminum, brass, copper, stainless steel, and other nonferrous metals. The Steel Fabrication Operations segment produces steel non-residential building components, such as steel joists, joist girders, and steel deck products for non-residential steel fabricators, metal building companies, general construction contractors, developers, property owners, brokers, and governmental entities. The Aluminum Operations segment offers recycled aluminum flat rolled products. The company also exports its products. Steel Dynamics, Inc. was incorporated in 1993 and is headquartered in Fort Wayne, Indiana.",
+      "sector": "Basic Materials",
+      "industry": "Steel",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STM": {
+      "symbol": "STM",
+      "name": "STMicroelectronics N.V.",
+      "summary": "STMicroelectronics N.V., together with its subsidiaries, designs, develops, manufactures, and sells semiconductor products in Europe, the Middle East, Africa, the Americas, and the Asia Pacific. The company operates through Analog products, MEMS and Sensors Group (AM&S); Power and Discrete products (P&D); Embedded Processing (EMP); and RF Products (D&RF) segments. It offers industrial application-specific integrated circuits (ASICs) and application-specific standard products (ASSPs); power management solutions; custom analog ICs, wireless charging solutions; galvanic isolated gate and LED drivers; converters, transistors, intelligent power switches, clocks and timers, comparators, and current-sense amplifiers; micro-electro-mechanical systems (MEMS) sensors, including accelerometers, gyroscopes, magnetic sensors, pressure, temperature, presence detection, biosensors, machine learning, and edge AI processing smart sensors, as well as thermal and piezoelectric actuators; and optical sensing solutions. The company also provides silicon MOSFETs, SiC MOSFETs, IGBTs, thyristors, rectifiers, and power modules and bipolar transistors; microcontrollers, and automotive microcontrollers and secured; radio frequency (RF) communications and ASICs; car infotainment products; ultra-wide band and radar systems; and Connected Security Products; and automotive driver assistance systems. It serves automotive, industrial, personal electronics and communications equipment, and computers and peripherals markets. STMicroelectronics N.V. was incorporated in 1987 and is headquartered in Plan-les-Ouates, Switzerland.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Switzerland",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STN": {
+      "symbol": "STN",
+      "name": "Stantec Inc.",
+      "summary": "Stantec Inc. provides professional services in the areas of infrastructure and facilities to private and public sectors in Canada, the United States, and internationally. The company offers evaluation, planning, and designing infrastructure solutions; various permitting, conservation, ecosystem restoration, health sciences, and environmental, social, and governance strategy services; solutions for sustainable water resources, planning, management, and infrastructure; integrated architecture, engineering, interior design, and planning solutions for buildings; and energy and resources solutions. It also provides consulting services in engineering, architecture, interior design, landscape architecture, surveying, environmental sciences, project management, and project economics. In addition, the company provides fire engineering, electrical, mechanical, hydraulics, buildings sustainability, and civil expertise services; services in mission critical, academic, civic, cultural, aviation, science and technology, commercial, industrial, and workplace; and delivers services to local authorities, government departments, private clients, and utility companies. Further, the company is involved in the planning, design, construction administration, commissioning, maintenance, decommissioning, and remediation services. Additionally, it offers infrastructure planning, inspection, project management, and construction management services; transportation, buildings, and environmental services; and energy and sustainability, fire safety, civil and structural, and mechanical, electrical and plumbing (MEP) engineering, transport, environmental, and geotechnical services. The company was formerly known as Stanley Technology Group Inc. and changed its name to Stantec Inc. in October 1998. Stantec Inc. was founded in 1954 and is headquartered in Edmonton, Canada.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "country": "Canada",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STNE": {
+      "symbol": "STNE",
+      "name": "StoneCo Ltd.",
+      "summary": "StoneCo Ltd. provides financial technology and software solutions to merchants and integrated partners to conduct electronic commerce across in-store, online, and mobile channels in Brazil. The company provides financial services, including payment, prepayment, digital banking, and credit solutions. It offers payment solutions of electronic payments and alternative payment methods, such as payment slips and Pix transactions; digital product to help merchants improve their consumers' experience, which include split-payment processing, multi-payment processing, and recurring payments for subscriptions; and tap on phone solution. In addition, the company provides prepayment; digital banking; and credit solution. The company serves online, offline, and omni-channel sales clients under Stone, tonstone, and paggar.me. StoneCo Ltd. was founded in 2012 and is based in George Town, the Cayman Islands.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "Cayman Islands",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STNG": {
+      "symbol": "STNG",
+      "name": "Scorpio Tankers Inc.",
+      "summary": "Scorpio Tankers Inc., together with its subsidiaries, engages in the seaborne transportation of crude oil and refined petroleum products worldwide. As of March 19, 2026, its fleet consisted of 90 wholly owned tankers, including 34 LR2, 42MR, and 14 Handymax. Scorpio Tankers Inc. was incorporated in 2009 and is headquartered in Monaco.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "country": "Monaco",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STOK": {
+      "symbol": "STOK",
+      "name": "Stoke Therapeutics, Inc.",
+      "summary": "Stoke Therapeutics, Inc. engages in the development of treatments for severe genetic diseases by upregulating protein expression. The company utilizes its proprietary Targeted Augmentation of Nuclear Gene Output (TANGO) approach in developing antisense oligonucleotides (ASOs) to selectively restore protein levels. Its lead product candidates include STK-002, which is in Phase 1 clinical trials for the treatment of autosomal dominant optic atrophy; and Zorevunersen (STK-001), an investigational new medicine for the treatment of Dravet syndrome is being evaluated in phase 3 clinical trials. The company also develops programs focused on various targets, including haploinsufficiency diseases of the central nervous system and eye. It has a license and collaboration with Biogen Inc. for the development and commercialization of zorevunersen medicine for the treatment of Dravet syndrome; and Acadia Pharmaceuticals Inc. for the discovery, development, and commercialization of novel RNA-based medicines for the treatment of genetic neurodevelopmental diseases. The company was formerly known as ASOthera Pharmaceuticals, Inc. and changed its name to Stoke Therapeutics, Inc. in May 2016. Stoke Therapeutics, Inc. was incorporated in 2014 and is headquartered in Bedford, Massachusetts.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STRA": {
+      "symbol": "STRA",
+      "name": "Strategic Education, Inc.",
+      "summary": "Strategic Education, Inc. provides education services through campus-based and online post-secondary education, and programs to develop job-ready skills. The company operates through three segments: U.S. Higher Education, Australia/New Zealand, and Education Technology Services. It operates Strayer University that offers undergraduate and graduate degree programs in business, criminal justice, education, health services, information technology, and public administration at physical campuses located in the eastern United States, as well as through online; non-degree web and mobile application development courses through Hackbright Academy and Devmountain; and MBA online through its Jack Welch Management Institute. In addition, the company operates Capella University, an online accredited institution of higher education; Torrens University, which offers undergraduate, graduate, higher degree by research, and specialized degree courses in business, design and creative technology, health, hospitality, and education fields through online and on physical campuses located in Australia; Think Education, a vocational training organization and higher education provider; and Media Design School, which provides industry-endorsed courses in 3D animation and visual effects, game art and programming, graphic and motion design, digital media, artificial intelligence, and creative advertising. It offers Workforce Edge, an administration platform that enables employers to manage and streamline their education benefits programs; and Sophia Learning, which offers low-cost online general education-level courses. Strategic Education, Inc. was founded in 1892 and is headquartered in Herndon, Virginia.",
+      "sector": "Consumer Defensive",
+      "industry": "Education & Training Services",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STT": {
+      "symbol": "STT",
+      "name": "State Street Corporation",
+      "summary": "State Street Corporation provides various financial products and services to institutional investors. It offers custody, accounting, and fund administration services for traditional and alternative assets, as well as multi-asset class investments; recordkeeping, client reporting, and investment book of record, transaction management, loans, cash, derivatives, and collateral services; investor services operations outsourcing; performance, risk, and compliance analytics; financial data management to support institutional investors; foreign exchange, brokerage, and other trading services; securities finance, such as prime services products; and deposit and short-term investment facilities. The company also provides the State Street Alpha platform that combines portfolio management, trading and execution, analytics and compliance tools, and advanced data aggregation and integration with other industry platforms and providers; front-office technology that automates and simplifies the institutional investment process comprising portfolio management and risk analytics, trading, and post-trade settlement with integrated compliance and managed data; investment management solutions; and portfolio management, trading compliance, and manager/sponsor communication. In addition, it offers investment management solutions, such as strategies across equity, fixed income, cash, multi-asset, and alternatives; and ETFs, custom indexed, managed funds, and mandates. The company provides its products and services to mutual funds, collective investment funds and other investment pools, corporate and public retirement plans, insurance companies, wealth managers, investment managers, foundations, and endowments. The company was founded in 1792 and is headquartered in Boston, Massachusetts.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STRL": {
+      "symbol": "STRL",
+      "name": "Sterling Infrastructure, Inc.",
+      "summary": "Sterling Infrastructure, Inc. engages in the provision of e-infrastructure, transportation, and building solutions in the United States. It operates through three segments: E-Infrastructure, Transportation, and Building Solutions. The E-Infrastructure Solutions segment provides site development services for the blue-chip end users in the e-commerce distribution center, data center, manufacturing, warehousing, and power generation sectors. Its Transportation Solutions segment is involved in the development of infrastructure and rehabilitation projects for highways, roads, bridges, airports, ports, rail, and storm drainage systems for the departments of transportation, regional transit, airport, port, water, and railroads authorities. The Building Solutions segment offers residential and commercial concrete foundations for single-family and multi-family homes, parking structures, elevated slabs, and other concrete work for developers and general contractors, as well as plumbing and surveys services for residential builds. It operates in the United States, primarily across the Southern, Northeastern, Mid-Atlantic and Rocky Mountain regions, and the Pacific Islands. The company was formerly known as Sterling Construction Company, Inc. and changed its name to Sterling Infrastructure, Inc. in June 2022. Sterling Infrastructure, Inc. was founded in 1955 and is headquartered in The Woodlands, Texas.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STUB": {
+      "symbol": "STUB",
+      "name": "StubHub Holdings, Inc.",
+      "summary": "StubHub Holdings, Inc. operates ticketing marketplace for live event tickets worldwide. It buys and sells tickets to live events and experiences through websites and mobile applications under the StubHub and viagogo brand names. The company was formerly known as Pugnacious Endeavors, Inc. and changed its name to StubHub Holdings, Inc. in September 2021. StubHub Holdings, Inc. was founded in 2000 and is based in New York, New York.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STWD": {
+      "symbol": "STWD",
+      "name": "Starwood Property Trust, Inc.",
+      "summary": "Starwood Property Trust, Inc. operates as a real estate investment trust (REIT) in the United States and internationally. It operates through four segments: Commercial and Residential Lending; Infrastructure Lending; Property; and Investing and Servicing. The Commercial and Residential Lending segment originates, acquires, finances, and manages commercial first mortgages, non-agency residential mortgages, subordinated mortgages, mezzanine loans, preferred equity, commercial mortgage-backed securities (CMBS), and residential mortgage-backed securities, as well as other real estate and real estate-related debt investments, including distressed or non-performing loans. Its Infrastructure Lending segment originates, acquires, finances, and manages infrastructure debt investments. The Property segment engages primarily in acquiring and managing equity interests in stabilized and to be stabilized commercial real estate properties, including multifamily properties, multi-tenant medical office net lease properties and diversified single-tenant triple net lease properties that are held for investment. Its Investing and Servicing segment manages and works out problem assets; acquires and manages unrated, investment grade, and non-investment grade rated CMBS comprising subordinated interests of securitization and re-securitization transactions; originates conduit loans for the primary purpose of selling these loans into securitization transactions; and acquires commercial real estate assets that include properties acquired from CMBS trusts. The company qualifies as a REIT for federal income tax purposes and would not be subject to federal corporate income taxes if it distributes at least 90% of its taxable income to its stockholders. Starwood Property Trust, Inc. was incorporated in 2009 and is headquartered in Miami Beach, Florida.",
+      "sector": "Real Estate",
+      "industry": "REIT - Mortgage",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STX": {
+      "symbol": "STX",
+      "name": "Seagate Technology Holdings plc",
+      "summary": "Seagate Technology Holdings plc engages in providing data storage solutions in Singapore, the United States, the Netherlands, and internationally. The company offers External and internal hard drives; external and internal solid-state drives (SSDs); enterprise hard drives and SSDs; data storage systems; network attached storage (NAS) hard drives; video and analytics hard drives; and hyperscale and cloud solution. It offers its products for Healthcare, Media & Entertainment, Surveillance & Security, and telecommunication industry. The company sells its products primarily to original equipment manufacturers, distributors, and retailers. The company was founded in 1978 and is based in Singapore.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Singapore",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SU": {
+      "symbol": "SU",
+      "name": "Suncor Energy Inc.",
+      "summary": "Suncor Energy Inc. operates as an integrated energy company in Canada, the United States, and internationally. The company operates through Oil Sands; Exploration and Production; and Refining and Marketing segments. The Oil Sands segment produces bitumen; and markets, supplies, and transports and manages crude oil, power, and byproducts. The Exploration and Production segment is involved in the offshore operations on the east coast of Canada, and onshore assets in Libya and Syria; and marketing and risk management of crude oil. The Refining and Marketing segment refines and supplies crude oil and intermediate feedstock into a range of petroleum and petrochemical products, as well as sells refined petroleum products to retail customers. This segment is also involved in the trading of crude oil and refined products, natural gas, and power. The company was formerly known as Suncor Inc. and changed its name to Suncor Energy Inc. in April 1997. Suncor Energy Inc. was founded in 1917 and is headquartered in Calgary, Canada.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "country": "Canada",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "STZ": {
+      "symbol": "STZ",
+      "name": "Constellation Brands, Inc.",
+      "summary": "Constellation Brands, Inc., together with its subsidiaries, produces, imports, markets, and sells beer, wine, and spirits in the United States, Canada, Mexico, New Zealand, and Italy. It offers beer under the Corona Extra, Corona Familiar, Corona Sunbrew, Corona Light, Corona Non-Alcoholic, Corona Premier, Modelo Especial, Modelo Chelada, Modelo Negra, Modelo Spiked Aguas Frescas, Modelo Oro, Modelo Noche Especial, Victoria, Vicky Chamoy, and Pacifico brand names. The company also offers wine under the Sea Smoke, Schrader Cellars, Kim Crawford, Mount Veeder, Ruffino, My Favorite Neighbor, Robert Mondavi Winery, and The Prisoner Wine Company brand names; and spirits under the Casa Noble, High West, Mi CAMPO, and Nelson's Green Brier brand names. Additionally, it offers a spirit-based, ready-to-drink alcoholic beverage under the SpikedAde brand. It provides its products to wholesale distributors, retailers, and state alcohol beverage control agencies. Constellation Brands, Inc. was founded in 1945 and is headquartered in Rochester, New York.",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Brewers",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SUI": {
+      "symbol": "SUI",
+      "name": "Sun Communities, Inc.",
+      "summary": "Sun Communities, Inc. became a publicly owned corporation in December 1993. The Company is a fully integrated REIT listed on the New York Stock Exchange under the symbol: SUI. As of June 30, 2026, the Company owned, operated, or had an interest in a portfolio of 455 developed MH and RV properties comprising approximately 156,130 developed sites in the U.S. and Canada. At that date, the Company also owned, operated, or held an interest in a portfolio of 54 U.K. properties comprising approximately 22,030 developed sites, which were classified within discontinued operations as of June 30, 2026. Sun Communities, Inc. was incorporated in 1975 in Maryland and is based in Southfield, Michigan.",
+      "sector": "Real Estate",
+      "industry": "REIT - Residential",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SUN": {
+      "symbol": "SUN",
+      "name": "Sunoco LP",
+      "summary": "Sunoco LP, together with its subsidiaries, engages in the energy infrastructure and distribution of motor fuels in the United States. It operates in four segments: Fuel Distribution, Pipeline Systems, Refinery, and Terminals. The Fuel Distribution segment distributes motor fuels and other petroleum products, such as propane and lubricating oil to third-party dealers and distributors, independent operators of commission agent locations, other commercial consumers of motor fuel, and retail locations; and leases real estate properties. This segment also offers non-fuel products, including in-store merchandise and company-operated retail stores food services, as well as credit card processing, car washes, lottery, and other services. The Pipeline Systems segment includes an integrated pipeline and terminal network comprising refined product, crude oil, and ammonia pipelines and terminals. The Terminals segment operates transmix processing facilities and refined product terminals; and provides blending, additive injections, handling, and filtering services. The company was formerly known as Susser Petroleum Partners LP and changed its name to Sunoco LP in 2014. Sunoco LP was founded in 1960 and is based in Dallas, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Refining & Marketing",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SUNC": {
+      "symbol": "SUNC",
+      "name": "SunocoCorp LLC",
+      "summary": "SunocoCorp LLC engages in energy infrastructure and distribution of motor fuels in North America, the Greater Caribbean, and Europe. It operates through four segments: Fuel Distribution, Pipeline Systems, Terminals, and Refinery. Its midstream operations include a network of approximately 14,000 miles of pipeline and 160 terminals. It distributes its fuel to partner-branded retail locations, as well as to independent dealers and commercial customers. credit card processing, car washes, lottery, and other services. The company was incorporated in 1886 and is based in Dallas, Texas. SunocoCorp LLC operates as a subsidiary of Energy Transfer LP.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SUPN": {
+      "symbol": "SUPN",
+      "name": "Supernus Pharmaceuticals, Inc.",
+      "summary": "Supernus Pharmaceuticals, Inc., a biopharmaceutical company, engages in the development and commercialization of products for the treatment of central nervous system (CNS) diseases in the United States. It offers Qelbree, a non-stimulant indicated for the treatment of attention-deficit hyperactivity disorder (ADHD); GOCOVRI for the treatment of dyskinesia and levodopa/carbidopa in patients with Parkinson's Disease (PD); Oxtellar XR, an extended-release oxcarbazepine product indicated for the monotherapy treatment of partial onset epilepsy seizures; and APOKYN for the acute and intermittent treatment of hypomobility or off episodes in patients with advanced PD. It also provides Trokendi XR, an extended release topiramate product indicated for the treatment of epilepsy, as well as for the prophylaxis of migraine headache; XADAGO for the treatment of levodopa/carbidopa in patients with PD experiencing off episodes; and MYOBLOC, a Type B toxin product indicated for the treatment of cervical dystonia and chronic sialorrhea. In addition, the company develops ONAPGO, which received FDA approval, for the treatment of motor fluctuations in adults with advanced PD; SPN-817, a first-in-class selective acetylcholinesterase inhibitor, which is in Phase 2 clinical trial, for the treatment of epilepsy, partial seizures, Dravet syndrome, and Lennox-Gaustaut syndrome; SPN-820, a small molecule in Phase 2 clinical trial for treating resistant depression; and SPN-443, a stimulant in Phase 1 trial for the treatment of ADHD/CNS. It markets and sells its products through pharmaceutical wholesalers, specialty pharmacies, and distributors. It has a development agreement with Navitor Inc. for the conduct of Phase 2 clinical program of SPN-820. Supernus Pharmaceuticals, Inc. was incorporated in 2005 and is based in Rockville, Maryland.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SUNB": {
+      "symbol": "SUNB",
+      "name": "Sunbelt Rentals Holdings, Inc.",
+      "summary": "Sunbelt Rentals Holdings, Inc., together with its subsidiaries, engages in the construction, industrial, and general equipment rental business under the Sunbelt Rentals brand name in the United States, the United Kingdom, and Canada. The company operates through North America-General Tool, North America-Specialty, and United Kingdom segments. It provides construction, industrial and general equipment, such as mobile elevating work platforms, skid steers, forklifts, excavators, lighting equipment and small general tools; and power and hvac, climate control, scaffold services, flooring solutions, pump solutions, trench safety, industrial tool, film and television, temporary structures, ground protection, temporary fencing, and temporary walls. The company serves multinational businesses, local contractors, individual do-it-yourselfers, construction and industrial customers, service, repair and facility management businesses, emergency response organizations, event organizers, as well as government entities, including municipalities and specialist contractors. The company was founded in 1947 and is based in Fort Mill, South Carolina.",
+      "sector": "Industrials",
+      "industry": "Rental & Leasing Services",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SUZ": {
+      "symbol": "SUZ",
+      "name": "Suzano S.A.",
+      "summary": "Suzano S.A. manufactures and sells pulp and paper products in Brazil and internationally. It operates in two segments, Cellulose, and Paper. The company offers coated and uncoated printing and writing papers, paperboards, tissue papers, and market and fluff pulps. It also engages in the research, development, and production of biofuel; operation of port terminals; biotechnology and nanocrystalline pulps research and development activities; power generation and distribution business; road freight transport activities; commercialization of equipment and parts; research and development of lignin; industrialization and commercialization of cellulose, microfiber cellulose, paper, and paperboard products; and industrialization, commercialization, and exporting of pulp products. In addition, the company is involved in the commercial office, corporate venture capital, and financial fundraising activities; production of consumer goods through cellulose-based liquids; development and production of cellulose-based fibers, yarns, and textile filaments; restoration, conservation, and preservation of forests; and research of raw materials for the textile industry. The company was formerly known as Suzano Papel e Celulose S.A. and changed its name to Suzano S.A. in April 2019. The company was founded in 1924 and is headquartered in Salvador, Brazil.",
+      "sector": "Basic Materials",
+      "industry": "Paper & Paper Products",
+      "country": "Brazil",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SVM": {
+      "symbol": "SVM",
+      "name": "Silvercorp Metals Inc.",
+      "summary": "Silvercorp Metals Inc., together with its subsidiaries, acquires, explores, develops, and mines mineral properties in China. It explores for copper, silver, gold, lead, and zinc metals. The company was formerly known as SKN Resources Ltd. and changed its name to Silvercorp Metals Inc. in May 2005. Silvercorp Metals Inc. was founded in 2003 and is headquartered in Vancouver, Canada.",
+      "sector": "Basic Materials",
+      "industry": "Silver",
+      "country": "Canada",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SWK": {
+      "symbol": "SWK",
+      "name": "Stanley Black & Decker, Inc.",
+      "summary": "Stanley Black & Decker, Inc. provides hand tools, power tools, outdoor products, and related accessories in the United States, Canada, Other Americas, Europe, and Asia. Its Tools & Outdoor segment offers professional grade corded and cordless electric power tools and equipment, including drills, impact wrenches and drivers, grinders, saws, routers, concrete prep and placement tools, and sanders; pneumatic tools and fasteners; corded and cordless electric power tools; household power tools, hand-held vacuums, and small appliances; leveling and layout tools, planes, hammers, demolition tools, clamps, vises, knives, saws, chisels, and industrial and automotive tools; drill, screwdriver, router bits, abrasives, saw blades, and threading products; tool boxes, sawhorses, medical cabinets, and engineered storage solutions; and electric and gas-powered lawn and garden products. This segment sells its products under the DEWALT, CRAFTSMAN, CUB CADET, STANLEY, BLACK+DECKER, and HUSTLER brands through retailers, third-party distributors, independent dealers, and a direct sales force. Its Industrial segment provides threaded fasteners, blind rivets and tools, blind inserts and tools, drawn arc weld studs and systems, engineered plastic and mechanical fasteners, self-piercing riveting systems, precision nut running systems, micro fasteners, high-strength structural fasteners, axel swage, latches, heat shields, pins, couplings, fitting, and other engineered products. This segment sells its products through direct sales force and third-party distributors to the automotive, manufacturing, electronics, construction, aerospace, and other industries. Stanley Black & Decker, Inc. has a strategic partnership with I4F Licensing Nv. The company was formerly known as The Stanley Works and changed its name to Stanley Black & Decker, Inc. in March 2010. The company was founded in 1843 and is headquartered in New Britain, Connecticut.",
+      "sector": "Industrials",
+      "industry": "Tools & Accessories",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SW": {
+      "symbol": "SW",
+      "name": "Smurfit Westrock Plc",
+      "summary": "Smurfit Westrock Plc, together with its subsidiaries, manufactures, distributes, and sells containerboard, corrugated containers, and other paper-based packaging products in North America, South America, Europe, Asia, Africa, Australia, and internationally. The company produces containerboard and paperboard; packaging of corrugated containers; consumer packaging; and offers solid board, kraft paper, and graphic board, as well as other packaging products, such as solidboard packaging, paper sacks and bag-in-box. It produces linerboard and corrugated medium and paperboard; and other paper-based packaging, such as folding cartons, inserts, labels and displays. The company primarily serves food and beverage, healthcare, beauty and personal care, garden, consumer goods, industrial, and foodservice markets. It markets its products through its own sales force, independent sales representatives, and independent distributors. Smurfit Westrock Plc was founded in 1934 and is headquartered in Dublin, Ireland.",
+      "sector": "Consumer Cyclical",
+      "industry": "Packaging & Containers",
+      "country": "Ireland",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SWKS": {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions, Inc.",
+      "summary": "Skyworks Solutions, Inc., together with its subsidiaries, develops, manufactures, and markets analog and mixed-signal semiconductor products and solutions in the United States, Taiwan, China, South Korea, Europe, the Middle East, Africa, and the Asia Pacific. The company offers amplifiers, antenna tuners, attenuators, automotive tuners and digital radios, wireless ASoC, DC/DC converters, demodulators, detectors, digital power isolators, diodes, directional couplers, diversity receive modules, filters, front-end modules, hybrids, light emitting diode drivers, low noise amplifiers, mixers, modulators, and optocouplers/optoisolators. It also provides phase locked loops, phase shifters, power dividers/combiners, power over ethernet, power isolators, ProSLIC family of subscriber line interface circuits, receivers, system in package, switches, synthesizers, timing devices, voltage-controlled oscillators/synthesizers, and voltage regulators. The company sells its products through direct sales force, electronic component distributors, and independent sales representatives. Its products are used in aerospace, automotive, broadband, cellular infrastructure, connected home, defense, entertainment and gaming, industrial, medical, smartphone, tablet, and wearables applications. The company was founded in 1962 and is headquartered in Irvine, California.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SWX": {
+      "symbol": "SWX",
+      "name": "Southwest Gas Holdings, Inc.",
+      "summary": "Southwest Gas Holdings, Inc., through its subsidiary, Southwest Gas Corporation, purchases, distributes, and transports natural gas for residential, commercial, and industrial customers in Arizona, Nevada, and California in the United States. The company offers tariff sales and transportation services. It also operates a pipeline transmission system, including an LNG storage facility. As of December 31, 2025, the company served approximately 2,281,000 customers with 1,224,000 in Arizona, 849,000 in Nevada, and 208,000 in California. Southwest Gas Holdings, Inc. was founded in 1931 and is headquartered in Las Vegas, Nevada.",
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Gas",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SXI": {
+      "symbol": "SXI",
+      "name": "Standex International Corporation",
+      "summary": "Standex International Corporation, through it subsidiaries, engages in the manufacture and sale of products and services for commercial and industrial markets in the United States and internationally. It operates through Electronics, Aerospace & Defense, Scientific, Engraving & Hydraulics segments. The company offers reed relays, fluid level, proximity, motion, flow, HVAC condensate, custom electronic and current sensors, instrument transformers, wound transformers, bushings, inductors, current sense and planar transformer technology, value added assemblies, mechanical packaging applications under the Standex Electronics, Standex-Meder Electronics, Renco Electronics, Northlake Engineering, Agile Magnetics, Sensor Solutions, Standex Electronics Japan, Minntronix, Nascentechnology, Sanyu, Amran Instruments, and Narayan Powertech brands. It also provides mold texturizing, slush molding tools, project management and design services, roll engraving, hygiene product tooling, low observation vents for stealth aircraft, and process machinery services under the Mold Tech, Piazza Rosa, World Client Services, Tenibac-Graphion, GS Engineering, and Innovent and Custom Hoists brands. In addition, it provides specialty temperature-controlled equipment for medical, scientific, pharmaceutical, biotech, and industrial markets under the American BioTech Supply, Lab Research Products, Corepoint, Cryosafe, CryoGuard, and Custom Biogenic Systems brands; and net and near net formed single-source customized solutions for the aviation, aerospace, defense, energy, industrial, medical, marine, oil and gas, and manned and unmanned space markets under the Spincraft and McStarlite brands. Further, it offers refrigerated, heated, display cases, single and double acting telescopic, and piston rod hydraulic cylinders under the Federal and Custom Hoist brands. The company was founded in 1955 and is headquartered in Salem, New Hampshire.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SXT": {
+      "symbol": "SXT",
+      "name": "Sensient Technologies Corporation",
+      "summary": "Sensient Technologies Corporation, together with its subsidiaries, manufactures and markets colors, flavors, and other specialty ingredients worldwide. It operates in three segments: Flavors & Extracts, Color, and Asia Pacific. The Flavors & Extracts segment develops, manufactures, and supplies flavor systems for the food, beverage, and personal care industries under the Sensient Flavors and Sensient Agricultural Ingredients brands. This segment produces flavor, extract, and essential oil products; Agricultural Ingredients, such as dehydrated garlic, onion, and other agricultural ingredients for food processors; systems products, including flavor-delivery systems, taste modulation systems, and compounded and blended products; and selected ingredient products, such as natural and synthetic flavors, natural extracts, and essential oils. The Color segment develops, manufactures, and supplies colors. This segment provides natural and synthetic color systems for the food, beverage, pharmaceutical, and nutraceutical sectors; colors and other ingredients, such as active ingredients, solubilizers, and surface-treated pigments for personal care; pharmaceutical and nutraceutical excipients, including colors, flavors, and coatings; and technical colors for industrial applications under the Sensient Food Colors, Sensient Pharmaceutical, Sensient Beauty, and Sensient Specialty Markets brand names. The Asia Pacific segment markets its products in the Pacific Rim and India under the Sensient name. In addition, the company produces and distributes chili powder, paprika, chili pepper, and parsley products. Sensient Technologies Corporation was incorporated in 1882 and is headquartered in Milwaukee, Wisconsin.",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SYF": {
+      "symbol": "SYF",
+      "name": "Synchrony Financial",
+      "summary": "Synchrony Financial, together with its subsidiaries, operates as a consumer financial services company in the United States. The company provides credit products, such as credit cards, commercial credit products, and consumer installment loans. It also offers private label credit cards, dual and general purpose co-branded cards, short- and long-term installment loans, and consumer banking products; and deposit products, including certificates of deposit, individual retirement accounts, money market accounts, savings accounts, and sweep and affinity deposits, as well as accepts deposits through third-party firms. In addition, the company provides debt cancellation products to its credit card customers through online and mobile channels; and healthcare payments and financing solutions under the CareCredit and Walgreens brands; payments and financing solutions in the apparel, specialty retail, outdoor, music, and luxury industries, such as American Eagle, Dick's Sporting Goods, Guitar Center, Pandora, Polaris, Suzuki, and Sweetwater. It offers its credit products through programs established with a group of national and regional retailers, local merchants, manufacturers, buying groups, industry associations, and healthcare service providers; and deposit products through various channels, such as digital and print. It serves digital, health and wellness, retail, home, auto, telecommunications, pet, outdoor, and other industries. The company was founded in 1932 and is headquartered in Stamford, Connecticut.",
+      "sector": "Financial Services",
+      "industry": "Credit Services",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SYM": {
+      "symbol": "SYM",
+      "name": "Symbotic Inc.",
+      "summary": "Symbotic Inc., an automation technology company, develops technologies to enhance operating efficiencies in modern warehouses. The company automates the processing of pallets, cases, and individual items in warehouses. Its systems enhance operations at the front end of the supply chain. The company is headquartered in Wilmington, Massachusetts.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SYK": {
+      "symbol": "SYK",
+      "name": "Stryker Corporation",
+      "summary": "Stryker Corporation operates as a medical technology company in the United States and internationally. It operates through two segments, MedSurg and Neurotechnology, and Orthopaedics. The MedSurg and Neurotechnology segment offers surgical equipment, patient and caregiver safety technologies, navigation systems, endoscopic and communications systems, patient handling, emergency medical equipment and intensive care disposable products, clinical communication and artificial intelligence-assisted virtual care platform technology, and minimally invasive products for the treatment of acute ischemic and hemorrhagic stroke and venous thromboembolism; traditional brain and open skull based surgical procedures products; and orthobiologic and biosurgery products, including synthetic bone grafts and vertebral augmentation products. The Orthopaedics segment provides implants for use in total joint replacements, such as hip, knee and shoulder, ankle, and trauma and extremities surgeries; and Mako Shoulder, which expands the smart robotics suite of applications. The company sells its products to doctors, hospitals, and other healthcare facilities through company-owned subsidiaries and branches, as well as third-party dealers and distributors in approximately 61 countries. Stryker Corporation was founded in 1941 and is headquartered in Portage, Michigan.",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SYNA": {
+      "symbol": "SYNA",
+      "name": "Synaptics Incorporated",
+      "summary": "Synaptics Incorporated develops, markets, and sells semiconductor products worldwide. The company provides edge AI processors, wireless connectivity, touch controllers, biometrics, voice, audio, and multimedia products for physical AI and robotics, edge AI, smart home, industrial and automotive, personal computers, and mobile applications, as well as modular development kits, open software frameworks, and optimized AI/ML toolchains. It also offers Wi-Fi, Bluetooth, Bluetooth Low Energy, Zigbee, Thread, Matter, global positioning system, global navigation satellite system, ultra-low energy solutions, human interface products, organic light-emitting diodes, multimedia SoCs, fax/modem/printer processors, video interface ICs, DisplayLink graphics, and display driver ICs (DDIC); Astra, an AI solution; and DisplayLink and DisplayPort to simplify connectivity to external displays. In addition, it provides Natural ID, a fingerprint ID product for notebook, personal computer peripherals, automobiles, and other applications, as well as integrated touch and display, local dimming, and driver sensing technologies. The company sells its products through direct sales, outside sales representatives, distributors, and value-added resellers. Synaptics Incorporated was incorporated in 1986 and is headquartered in San Jose, California.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SYRE": {
+      "symbol": "SYRE",
+      "name": "Spyre Therapeutics, Inc.",
+      "summary": "Spyre Therapeutics, Inc., a clinical stage biotechnology company, focuses on developing therapeutics for patients living with inflammatory bowel disease (IBD) and rheumatic diseases. The company develops SPY001, a humanized monoclonal immunoglobulin G1 antibody that is in phase-2 clinical stage designed to bind selectively to the a4ß7 integrin being developed for the treatment of IBD (ulcerative colitis and Crohn's disease); and SPY002 and SPY072  anti-TL1A mAbs designed to bind to tumor necrosis factor-like ligand 1A (TL1A). It is also developing SPY003, a clinical-stage program, which is in phase-2 clinical stage designed to bind to interleukin 23 (IL-23); SPY120, a combination of anti-a4ß7 and anti-TL1A mAbs; SPY130, a combination anti-a4ß7 and anti-IL-23 mAbs; and SPY230, a combination anti-TL1A and anti-IL-23 mAbs. The company was formerly known as Aeglea BioTherapeutics, Inc. and changed its name to Spyre Therapeutics, Inc. in November 2023. The company was incorporated in 2013 and is based in Waltham, Massachusetts.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-28",
+      "source": "Yahoo Finance via yfinance"
     }
   }
 }
