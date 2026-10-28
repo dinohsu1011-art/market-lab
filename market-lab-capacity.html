@@ -8,10 +8,10 @@
       content="Data center capacity buildout, management targets, and compute rental economics."
     />
     <title>Data center capacity · Equinox</title>
-    <link rel="stylesheet" href="market-lab-capacity-styles.css?v=20261027-3c42d4fd" />
-  <link rel="stylesheet" href="market-lab-shell.css?v=20261027-3c42d4fd">
-<link rel="stylesheet" href="market-lab-capacity-theme.css?v=20261027-3c42d4fd">
-<script defer src="market-lab-shell.js?v=20261027-3c42d4fd"></script>
+    <link rel="stylesheet" href="market-lab-capacity-styles.css?v=20261027-05472624" />
+  <link rel="stylesheet" href="market-lab-shell.css?v=20261027-05472624">
+<link rel="stylesheet" href="market-lab-capacity-theme.css?v=20261027-05472624">
+<script defer src="market-lab-shell.js?v=20261027-05472624"></script>
 </head>
   <body>
     <main class="dashboard-shell">
@@ -29,18 +29,6 @@
         <button type="button" class="clean-toggle" data-clean-toggle aria-pressed="false" title="Hide the option buttons for a clean screenshot (shortcut: h)">Hide buttons</button>
       </div>
       <div class="comps-grid">
-        <article class="panel comp-panel" id="capacityPanel">
-          <div class="panel-heading"><div><h2>Data center capacity</h2><p></p></div></div>
-          <div class="comp-controls"><div class="seg" data-ctl="source" role="group" aria-label="Capacity source"></div><div class="seg" data-ctl="period" role="group" aria-label="Period"></div><div class="seg" data-ctl="measure" role="group" aria-label="Measure"></div><div class="seg" data-ctl="year" role="group" aria-label="Year" hidden></div></div>
-          <div class="comp-legend" aria-label="Show or hide companies"></div>
-          <div class="comp-chart"></div>
-        </article>
-        <article class="panel comp-panel" id="cloudPanel">
-          <div class="panel-heading"><div><h2>Cloud growth</h2><p></p></div></div>
-          <div class="comp-controls"><div class="seg" data-ctl="mode" role="group" aria-label="Cloud measure"></div><div class="seg" data-ctl="basis" role="group" aria-label="Reported or with estimates"></div></div>
-          <div class="comp-legend" aria-label="Show or hide companies"></div>
-          <div class="comp-chart"></div>
-        </article>
         <article class="panel comp-panel" id="capexPanel">
           <div class="panel-heading"><div><h2>Capex</h2><p></p></div></div>
           <div class="comp-controls"><div class="seg" data-ctl="mode" role="group" aria-label="Capex period"></div><div class="seg" data-ctl="basis" role="group" aria-label="Reported or with estimates"></div></div>
@@ -50,6 +38,18 @@
         <article class="panel comp-panel" id="capexGrowthPanel">
           <div class="panel-heading"><div><h2>Capex growth</h2><p></p></div></div>
           <div class="comp-controls"><div class="seg" data-ctl="basis" role="group" aria-label="Reported or with estimates"></div></div>
+          <div class="comp-legend" aria-label="Show or hide companies"></div>
+          <div class="comp-chart"></div>
+        </article>
+        <article class="panel comp-panel" id="capacityPanel">
+          <div class="panel-heading"><div><h2>Data center capacity</h2><p></p></div></div>
+          <div class="comp-controls"><div class="seg" data-ctl="source" role="group" aria-label="Capacity source"></div><div class="seg" data-ctl="period" role="group" aria-label="Period"></div><div class="seg" data-ctl="measure" role="group" aria-label="Measure"></div><div class="seg" data-ctl="year" role="group" aria-label="Year" hidden></div></div>
+          <div class="comp-legend" aria-label="Show or hide companies"></div>
+          <div class="comp-chart"></div>
+        </article>
+        <article class="panel comp-panel" id="cloudPanel">
+          <div class="panel-heading"><div><h2>Cloud growth</h2><p></p></div></div>
+          <div class="comp-controls"><div class="seg" data-ctl="mode" role="group" aria-label="Cloud measure"></div><div class="seg" data-ctl="basis" role="group" aria-label="Reported or with estimates"></div></div>
           <div class="comp-legend" aria-label="Show or hide companies"></div>
           <div class="comp-chart"></div>
         </article>
@@ -69,6 +69,11 @@
         <p class="chart-method">Estimates are frozen when a quarter is still ahead, so a later workbook update cannot rewrite them. Once a company reports, the charts draw that quarter as reported and the tables show the old estimate in small type under the actual. Hover a reported row for the filing and basis. Meta capex here is purchases of property and equipment, the same line the charts use; Meta's headline figure also adds finance leases.</p>
       </article>
       <article class="panel figures-panel">
+        <div class="panel-heading"><div><h2>Capex figures</h2><p>Capex and year-over-year growth, by quarter and by calendar year. Feeds the capex and capex growth charts</p></div></div>
+        <div id="capexTable"></div>
+        <p class="chart-method" id="capexMethod"></p>
+      </article>
+      <article class="panel figures-panel">
         <div class="panel-heading"><div><h2>Capacity figures</h2><p id="capacityTableSub"></p></div></div>
         <div id="capacityTable"></div>
         <dl class="source-key" id="sourceKey" aria-label="What this chart shows"></dl>
@@ -83,11 +88,6 @@
         <div class="panel-heading"><div><h2>Cloud figures</h2><p>Segment revenue and year-over-year growth by calendar quarter</p></div></div>
         <div id="cloudTable"></div>
         <p class="chart-method">Quarters are calendar quarters. Microsoft (June year-end) and Oracle (May year-end) are mapped to the calendar quarter their period ends in; hover a chart point for the company's own fiscal quarter. Oracle's cloud line is OCI (cloud infrastructure) only.</p>
-      </article>
-      <article class="panel figures-panel">
-        <div class="panel-heading"><div><h2>Capex figures</h2><p>Capex and year-over-year growth, by quarter and by calendar year. Feeds the capex and capex growth charts</p></div></div>
-        <div id="capexTable"></div>
-        <p class="chart-method" id="capexMethod"></p>
       </article>
       <article class="panel figures-panel">
         <div class="panel-heading"><div><h2>Free cash flow figures</h2><p>Free cash flow by quarter and by calendar year</p></div></div>
@@ -124,15 +124,15 @@
       <section id="researchDashboard" aria-label="Capacity estimates"></section>
     </main>
 
-    <script src="market-lab-capacity-research-data.js?v=20261027-3c42d4fd"></script>
-    <script src="market-lab-capacity-research.js?v=20261027-3c42d4fd"></script>
-    <script src="market-lab-capacity-deal-data.js?v=20261027-3c42d4fd"></script>
-    <script src="market-lab-capacity-timeline-data.js?v=20261027-3c42d4fd"></script>
-    <script src="market-lab-capacity-deals.js?v=20261027-3c42d4fd"></script>
-    <script src="market-lab-capacity-workbook.js?v=20261027-3c42d4fd"></script>
-    <script src="market-lab-capacity-comps-data.js?v=20261027-3c42d4fd"></script>
-    <script src="market-lab-capacity-actuals.js?v=20261027-3c42d4fd"></script>
-    <script src="market-lab-capacity-comps.js?v=20261027-3c42d4fd"></script>
-<script src="market-lab-capacity-app.js?v=20261027-3c42d4fd"></script>
+    <script src="market-lab-capacity-research-data.js?v=20261027-05472624"></script>
+    <script src="market-lab-capacity-research.js?v=20261027-05472624"></script>
+    <script src="market-lab-capacity-deal-data.js?v=20261027-05472624"></script>
+    <script src="market-lab-capacity-timeline-data.js?v=20261027-05472624"></script>
+    <script src="market-lab-capacity-deals.js?v=20261027-05472624"></script>
+    <script src="market-lab-capacity-workbook.js?v=20261027-05472624"></script>
+    <script src="market-lab-capacity-comps-data.js?v=20261027-05472624"></script>
+    <script src="market-lab-capacity-actuals.js?v=20261027-05472624"></script>
+    <script src="market-lab-capacity-comps.js?v=20261027-05472624"></script>
+<script src="market-lab-capacity-app.js?v=20261027-05472624"></script>
   </body>
 </html>

@@ -360,7 +360,7 @@
       modes: [['annual', 'Calendar year'], ['ttm', 'Trailing 4 quarters'], ['quarterly', 'Quarterly']],
       note: 'Free cash flow is cash from operations minus capex, as each company or Bloomberg defines it. SpaceX is the whole company, not only its AI unit. Trailing 4 quarters smooths out seasonal swings.'},
   };
-  const flowState = {capex: {mode: 'quarterly', basis: 'est', hidden: new Set()}, fcf: {mode: 'annual', basis: 'est', hidden: new Set()}};
+  const flowState = {capex: {mode: 'quarterly', basis: 'est', hidden: new Set()}, fcf: {mode: 'quarterly', basis: 'est', hidden: new Set()}};
 
   function renderFlow(key) {
     const cfg = FLOWS[key], st = flowState[key], again = () => renderFlow(key);
