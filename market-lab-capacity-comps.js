@@ -495,26 +495,31 @@
       if (g.period.startsWith('CY')) return sumQuarters(raw, yearKeys(g.period.slice(2)))?.v ?? null;
       return raw[g.period]?.v ?? null;
     };
+    const b = v => '$' + v + 'B';
+    const range = (lo, hi, approx) => lo === hi ? (approx ? 'about ' : '') + b(lo) : `${b(lo)} to ${b(hi)}`;
+    const pctGap = (v, base) => base == null || v == null ? '' : (Math.round((v / base - 1) * 100) ? fmtPct(Math.round((v / base - 1) * 100), 0) : '0%');
+    const nd = '<span class="nd">–</span>';
+    // Columns: prior guide, estimate, actual (highlighted), vs guide, vs est.
+    const cells = (prior, est, actual, vsGuide, vsEst) => `<td class="prior">${prior}</td><td class="est-v">${est}</td><td class="act">${actual}</td><td>${vsGuide}</td><td>${vsEst}</td>`;
     const guideRow = (g, i, rows, total) => {
-      const color = COLORS[g.company] || 'var(--ml-ink)', est = total !== undefined ? total : pageSum(g), mid = (g.low + g.high) / 2;
-      const b = v => '$' + v + 'B', gap = est == null ? null : Math.round((mid / est - 1) * 100);
-      const text = g.low === g.high ? (g.approx ? 'about ' : '') + b(g.low) : `${b(g.low)} to ${b(g.high)}`;
+      const color = COLORS[g.company] || 'var(--ml-ink)', est = total !== undefined ? total : pageSum(g);
+      const mid = g.outlook ? null : (g.low + g.high) / 2, prevMid = g.prevLow == null ? null : (g.prevLow + g.prevHigh) / 2;
       const period = /^\d{4} Q/.test(g.period) ? g.period.slice(5) + " '" + g.period.slice(2, 4) : g.period.slice(0, 2) + g.period.slice(-2);
-      return `<tr class="guide-row${i === 0 ? ' group-start' : ''}">${i === 0 ? `<th scope="rowgroup" rowspan="${rows.length}" class="sticky" style="color:${color}">${esc(g.company)}</th>` : ''}`
+      return `<tr class="guide-row${g.outlook ? ' guide-outlook' : ''}${i === 0 ? ' group-start' : ''}">${i === 0 ? `<th scope="rowgroup" rowspan="${rows.length}" class="sticky" style="color:${color}">${esc(g.company)}</th>` : ''}`
         + `<td class="metric-col">Capex guide</td><td>${esc(period)}</td>`
-        + `<td class="est">${est == null ? '<span class="nd">–</span>' : esc(fmtB(est))}</td>`
-        + `<td>${esc(text)}</td>`
-        + `<td>${gap == null ? '' : esc(gap ? fmtPct(gap, 0) : '0%')}</td>`
-        + `<td class="ledger-note" title="${esc(g.source)}">${g.guided ? 'guided ' + esc(shortDate(g.guided)) : 'five hyperscalers'}${g.change ? ', ' + esc(g.change) : ''} <span class="ledger-i" aria-hidden="true">i</span></td></tr>`;
+        + cells(prevMid == null ? '' : esc(range(g.prevLow, g.prevHigh, g.prevApprox)), est == null ? nd : esc(fmtB(est)),
+          esc(g.outlook ? g.text : range(g.low, g.high, g.approx)), esc(pctGap(mid, prevMid)), esc(pctGap(mid, est)))
+        + `<td class="ledger-note" title="${esc(g.source)}">${g.guided ? (g.outlook ? 'said ' : 'guided ') + esc(shortDate(g.guided)) : 'five hyperscalers'}${g.change ? ', ' + esc(g.change) : ''} <span class="ledger-i" aria-hidden="true">i</span></td></tr>`;
     };
     // Total of the five hyperscaler guides, SpaceX left out as in the capex charts.
     // Oracle counts on its fiscal 2027 (Jun 2026 to May 2027); the others on calendar 2026.
     const guideTotal = () => {
-      const gs = (window.capacityActuals?.guidance || []).filter(g => g.company !== 'SpaceX');
+      const gs = (window.capacityActuals?.guidance || []).filter(g => g.company !== 'SpaceX' && !g.outlook);
       if (!gs.length) return '';
-      const sum = k => gs.reduce((a, g) => a + g[k], 0), ests = gs.map(pageSum);
+      const sum = k => gs.reduce((a, g) => a + g[k], 0), ests = gs.map(pageSum), hasPrev = gs.every(g => g.prevLow != null);
       const total = {company: 'Total', period: 'CY2026', low: sum('low'), high: sum('high'), approx: gs.some(g => g.approx), guided: '',
-        source: `${gs.map(g => g.company).join(', ')}. Oracle counts on its fiscal 2027 (Jun 2026 to May 2027), the rest on calendar 2026. SpaceX is left out, as in the capex charts.`};
+        ...(hasPrev ? {prevLow: sum('prevLow'), prevHigh: sum('prevHigh'), prevApprox: gs.some(g => g.prevApprox)} : {}),
+        source: `${gs.map(g => g.company).join(', ')}. Oracle counts on its fiscal 2027 (Jun 2026 to May 2027), the rest on calendar 2026. Prior guide adds each company's guide before its latest one. SpaceX is left out, as in the capex charts.`};
       const est = ests.some(e => e == null) ? null : ests.reduce((a, e) => a + e, 0);
       return guideRow(total, 0, [total], est).replace('class="guide-row group-start"', 'class="guide-row group-start guide-total"');
     };
@@ -524,16 +529,15 @@
       const label = a.company === 'SpaceX' && a.metric === 'capex' ? 'AI capex' : base;
       const color = COLORS[a.company] || 'var(--benchmark)';
       const reported = a.actual != null;
-      const gap = reported ? vsLine(a.actual, a.estimate, fmt).replace(/^est [^,]+, /, '') : '';
+      const vs = ref => reported && ref != null ? vsLine(a.actual, ref, fmt).replace(/^est [^,]+, /, '') : '';
       const cls = [i === 0 ? 'group-start' : '', reported ? '' : 'waiting'].filter(Boolean).join(' ');
       return `<tr class="${cls}">${i === 0 ? `<th scope="rowgroup" rowspan="${rows.length}" class="sticky" style="color:${color}">${esc(a.company)}</th>` : ''}`
         + `<td class="metric-col">${esc(label)}</td><td>${esc(a.quarter.slice(5) + " '" + a.quarter.slice(2, 4))}</td>`
-        + `<td class="est">${a.estimate == null ? '<span class="nd">–</span>' : esc(fmt(a.estimate))}</td>`
-        + `<td>${reported ? esc(fmt(a.actual)) : '<span class="nd">–</span>'}</td>`
-        + `<td>${reported ? esc(gap) : ''}</td>`
+        + cells(a.priorGuide == null ? '' : esc(fmt(a.priorGuide)), a.estimate == null ? nd : esc(fmt(a.estimate)),
+          reported ? esc(fmt(a.actual)) : nd, esc(vs(a.priorGuide)), esc(vs(a.estimate)))
         + `<td class="ledger-note"${a.source ? ` title="${esc(a.source)}"` : ''}>${reported ? 'reported ' + esc(shortDate(a.reported)) + (a.source ? ' <span class="ledger-i" aria-hidden="true">i</span>' : '') : (a.due ? 'reports ' + esc(shortDate(a.due)) : 'next report')}</td></tr>`;
     };
-    host.innerHTML = `<div class="figures-scroll"><table class="figures-table ledger-table"><thead><tr><th scope="col" class="sticky">Company</th><th scope="col" class="metric-col">Metric</th><th scope="col">Period</th><th scope="col" class="est">Estimate</th><th scope="col">Actual or guide</th><th scope="col">vs est</th><th scope="col" class="ledger-note"></th></tr></thead>`
+    host.innerHTML = `<div class="figures-scroll"><table class="figures-table ledger-table"><thead><tr><th scope="col" class="sticky">Company</th><th scope="col" class="metric-col">Metric</th><th scope="col">Period</th><th scope="col" class="prior">Prior guide</th><th scope="col" class="est-v">Estimate</th><th scope="col" class="act">Actual</th><th scope="col">vs guide</th><th scope="col">vs est</th><th scope="col" class="ledger-note"></th></tr></thead>`
       + `<tbody>${companies.map(c => groups[c].map(row).join('')).join('')}${guideTotal()}</tbody></table></div>`;
   }
 

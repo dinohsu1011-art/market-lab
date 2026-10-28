@@ -46,19 +46,28 @@ window.capacityActuals = {
   // period: CY2026 = calendar 2026; FY2027 = the company's fiscal year (fiscalYear matches the page's fiscal tags);
   // a quarter ("2026 Q4") is a one-quarter guide. low/high in $B; approx = "about"; change = how it moved from the last guide.
   // pageComparable: false when the guide covers more than the page tracks (SpaceX: whole company vs AI unit).
+  // prevLow/prevHigh/prevApprox: the guide before this one. outlook rows are next-year color with no number yet: text says what was said.
   guidance: [
-    {company: 'Meta', period: 'CY2026', low: 135, high: 145, guided: '2026-10-21', change: 'was $130B to $145B',
+    {company: 'Meta', period: 'CY2026', low: 135, high: 145, prevLow: 130, prevHigh: 145, guided: '2026-10-21',
       source: 'Meta Q3 2026 call, Oct 21. Includes finance lease principal; the page counts only purchases of property and equipment (Q3 lease principal was $0.96B). No 2027 number yet.'},
-    {company: 'SpaceX', period: '2026 Q4', low: 35, high: 40, guided: '2026-10-20', change: 'first guide', pageComparable: false,
+    {company: 'Meta', period: 'CY2027', outlook: true, text: 'no guide yet', guided: '2026-10-21', change: 'number with Q4 results',
+      source: 'Meta Q3 2026 call, Oct 21: no 2027 capex guide. CFO Susan Li said serving costs for the Muse model will rise as its users grow, and that Meta has kept underestimating its compute needs.'},
+    {company: 'SpaceX', period: '2026 Q4', low: 35, high: 40, guided: '2026-10-20', change: 'first guide, whole company', pageComparable: false,
       source: 'SpaceX Q3 2026 call, Oct 20: fourth-quarter capex for the whole company. No full-year guide. With $48.1B spent in the first nine months, 2026 lands near $83B to $88B. The page tracks the AI unit only ($18.6B estimate for Q4).'},
-    {company: 'Microsoft', period: 'CY2026', low: 170, high: 170, approx: true, guided: '2026-10-28', change: 'was about $175B',
+    {company: 'Microsoft', period: 'CY2026', low: 170, high: 170, approx: true, prevLow: 175, prevHigh: 175, prevApprox: true, guided: '2026-10-28', change: 'third-party capacity slipped',
       source: 'Microsoft FY27 Q1 call, Oct 28 (Amy Hood): "In Q2, we expect CapEx spend will be over $50 billion. Therefore, for the calendar year, spend should be approximately $170 billion due to the 3P capacity delays." Capex to speed up in Jan to Jun 2027 as delayed third-party capacity arrives. About 75% of capex now goes to short-lived assets. Still free cash flow positive in FY27.'},
-    {company: 'Google', period: 'CY2026', low: 195, high: 205, guided: '2026-10-28', change: 'kept',
+    {company: 'Microsoft', period: 'CY2027', outlook: true, text: 'speeds up Jan to Jun', guided: '2026-10-28', change: 'no number',
+      source: 'Microsoft FY27 Q1 call, Oct 28 (Amy Hood): "In the second half of the fiscal year, we currently expect CapEx spend to accelerate primarily from CPUs, inclusive of higher memory and storage costs, and GPUs, as well as the 3P capacity deliveries that shifted to H2." Fiscal second half = Jan to Jun 2027, from a Q4 2026 base of over $50B.'},
+    {company: 'Google', period: 'CY2026', low: 195, high: 205, prevLow: 195, prevHigh: 205, guided: '2026-10-28', change: 'kept',
       source: 'Alphabet Q3 2026 call, Oct 28: kept $195B to $205B for 2026. 2027 capex to "increase significantly", with details on the Q4 call. Purchase commitments reached $924B; started using third-party compute late in Q3.'},
-    {company: 'Amazon', period: 'CY2026', low: 220, high: 220, approx: true, guided: '2026-07-30', change: 'was about $200B',
+    {company: 'Google', period: 'CY2027', outlook: true, text: 'up significantly', guided: '2026-10-28', change: 'number on Q4 call',
+      source: 'Alphabet Q3 2026 call, Oct 28: "We continue to expect our CapEx to increase significantly in 2027 and will provide further details on our Q4 call."'},
+    {company: 'Amazon', period: 'CY2026', low: 220, high: 220, approx: true, prevLow: 200, prevHigh: 200, prevApprox: true, guided: '2026-07-30', change: 'higher memory costs',
       source: 'Amazon Q2 2026 call, Jul 30: about $220B of cash capex in 2026, up from about $200B on higher memory costs.'},
-    {company: 'Oracle', period: 'FY2027', fiscalYear: 'FY27', low: 90, high: 95, guided: '2026-10-28', change: 'kept, peak FY27 to FY28',
+    {company: 'Oracle', period: 'FY2027', fiscalYear: 'FY27', low: 90, high: 95, prevLow: 90, prevHigh: 95, guided: '2026-10-28', change: 'kept',
       source: 'Oracle FY27 Q1 call (Sep 10) set $90B to $95B for fiscal 2027 (Jun 2026 to May 2027); no more than $70B is net cash capex. Investor day, Oct 28: capex peaks in fiscal 2027 and 2028 and steps down in fiscal 2029. About 7 GW more capacity over the next two years, about 10 GW by the end of fiscal 2028. A 1 GW site costs about $37B of capex and earns about $16B a year once running. Free cash flow positive in the second half of fiscal 2028 and over $30B in fiscal 2029. A final $20B raise ($10B equity, $10B debt) funds the rest of the build. RPO $664B. No new dollar capex figure.'},
+    {company: 'Oracle', period: 'FY2028', fiscalYear: 'FY28', outlook: true, text: 'peak, with FY27', guided: '2026-10-28', change: 'falls in FY29',
+      source: 'Oracle investor day, Oct 28: "a period of peak CapEx in fiscal 2027 and 2028, with our CapEx stepping down in fiscal 2029." Asked whether FY28 equals FY27, the CFO pointed to the $37B-per-GW example and said more of the new gigawatts ramp next year than this year. About 10 GW in place by the end of fiscal 2028.'},
   ],
   // Reported quarters missing from the workbook, taken from filings.
   backfill: [
