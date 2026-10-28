@@ -32,4 +32,9 @@ window.capacityActuals = {
     {company: 'Oracle', metric: 'cloud', quarter: '2026 Q4', estimate: 9.0593, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
     {company: 'Oracle', metric: 'fcf', quarter: '2026 Q4', estimate: -15.0304, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
   ],
+  // Reported quarters missing from the workbook, taken from filings.
+  backfill: [
+    {company: 'Oracle', metric: 'capex', quarter: '2024 Q1', value: 1.674, fiscal: 'FY24 Q3',
+      source: 'Oracle 10-Q, quarter ended Feb 29, 2024: nine-month capex $4.068B minus six-month $2.394B.'},
+  ],
 };

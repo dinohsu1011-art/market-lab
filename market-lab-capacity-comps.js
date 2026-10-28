@@ -279,6 +279,11 @@
     const m = data.companies.find(c => c.name === a.company)?.metrics[a.metric];
     if (m) m.series[a.quarter] = {...m.series[a.quarter], v: a.actual, e: false, est: a.estimate};
   });
+  // Reported quarters the workbook starts too late to cover. Never overwrites a workbook value.
+  (window.capacityActuals?.backfill || []).forEach(b => {
+    const m = data.companies.find(c => c.name === b.company)?.metrics[b.metric];
+    if (m && !m.series[b.quarter]) m.series[b.quarter] = {v: b.value, e: false, fiscal: b.fiscal};
+  });
   const quarterKey = (y, q) => `${y} Q${q}`;
   const prevYearKey = k => quarterKey(Number(k.slice(0, 4)) - 1, k.slice(-1));
   const periodObj = k => ({key: k, label: 'Q' + k.slice(-1), year: k.slice(0, 4), title: `${k.slice(0, 4)} Q${k.slice(-1)} (calendar)`});
@@ -299,10 +304,26 @@
   const cloudSeries = () => data.companies.filter(c => c.metrics.cloud).map(c => ({
     name: c.metrics.cloud.label, owner: c.name, color: COLORS[c.name] || 'var(--benchmark)', raw: c.metrics.cloud.series}));
   // Capex and free cash flow share one renderer; only the source row differs.
-  const flowSeries = key => data.companies.filter(c => c.metrics[key]).map(c => ({
-    name: c.name === 'SpaceX' ? (key === 'capex' ? 'SpaceX (AI)' : 'SpaceX') : c.name,
-    short: c.name === 'SpaceX' && key === 'capex' ? 'SpaceX AI' : c.name, owner: c.name,
-    color: COLORS[c.name] || 'var(--benchmark)', raw: c.metrics[key].series, field: c.metrics[key].label}));
+  const flowSeries = key => {
+    const list = data.companies.filter(c => c.metrics[key]).map(c => ({
+      name: c.name === 'SpaceX' ? (key === 'capex' ? 'SpaceX (AI)' : 'SpaceX') : c.name,
+      short: c.name === 'SpaceX' && key === 'capex' ? 'SpaceX AI' : c.name, owner: c.name,
+      color: COLORS[c.name] || 'var(--benchmark)', raw: c.metrics[key].series, field: c.metrics[key].label}));
+    return key === 'capex' ? [...list, hyperscalerTotal(list.filter(s => s.owner !== 'SpaceX'))] : list;
+  };
+  // Sum of the five hyperscalers (SpaceX left out), only for quarters where all five have a figure.
+  // It counts as an estimate when any company's quarter is one.
+  function hyperscalerTotal(list) {
+    const raw = {};
+    allQuarters(list.map(s => s.raw)).forEach(k => {
+      const parts = list.map(s => s.raw[k]);
+      if (parts.some(p => !p)) return;
+      const e = parts.some(p => p.e);
+      raw[k] = {v: parts.reduce((a, p) => a + p.v, 0), e};
+      if (!e && parts.some(p => p.est != null)) raw[k].est = parts.reduce((a, p) => a + (p.est ?? p.v), 0);
+    });
+    return {name: 'Total', short: 'Total', owner: 'Total', total: true, color: 'var(--ml-ink)', raw, field: ''};
+  }
   // Growth needs both periods positive. A reported quarter also carries the growth its estimate implied.
   const yoy = (raw, k) => {
     const cur = raw[k], base = raw[prevYearKey(k)];
@@ -389,7 +410,7 @@
       lineChart(host, {label: `${cfg.what}, ${ttm ? 'trailing 4 quarters' : 'quarterly'}`, periods, series, hidden: st.hidden, fmt: fmtB, axisFmt: axisB});
     }
     flowTables(key);
-    document.querySelector(cfg.method).textContent = `${cfg.note} Line items differ by company: ${list.map(s => `${s.owner}, ${s.field.trim()}`).join('; ')}. A calendar year needs all four quarters; a year that mixes reported and estimated quarters counts as an estimate. Growth is left blank when either period is negative. Under a reported quarter, the small line is the estimate this page showed before the report.`;
+    document.querySelector(cfg.method).textContent = `${cfg.note} Line items differ by company: ${list.filter(s => !s.total).map(s => `${s.owner}, ${s.field.trim()}`).join('; ')}.${key === 'capex' ? ' Total adds Microsoft, Google, Amazon, Oracle and Meta, only for quarters all five cover; SpaceX is left out.' : ''} A calendar year needs all four quarters; a year that mixes reported and estimated quarters counts as an estimate. Growth is left blank when either period is negative. Under a reported quarter, the small line is the estimate this page showed before the report.`;
   }
 
   // Quarterly and calendar-year tables, always every period, whatever the chart shows.
