@@ -1,6 +1,8 @@
 // Reported actuals vs the estimate this page showed before each report.
 // The comps workbook re-export overwrites estimates, so the pre-report estimate is
-// frozen here. Add the actual (and reported date + source) when a company reports;
+// frozen here. priorGuide/priorText: what the company guided for this quarter on its prior call ('none' = no guide given);
+// priorActual: the figure to compare with the guide when the guide covers more than the row (SpaceX whole company).
+// Add the actual (and reported date + source) when a company reports;
 // the charts and tables then draw that quarter as reported and show the estimate beside it.
 // metric: capex | fcf | cloud | aiRevenue ($B, same basis as market-lab-capacity-comps-data.js)
 //         capacity (GW added in the quarter)
@@ -9,38 +11,39 @@
 window.capacityActuals = {
   updatedAt: '2026-10-29',
   entries: [
-    {company: 'Meta', metric: 'capex', quarter: '2026 Q3', estimate: 40.9682, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 33.942, reported: '2026-10-21',
+    {company: 'Meta', metric: 'capex', quarter: '2026 Q3', priorText: 'none', estimate: 40.9682, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 33.942, reported: '2026-10-21',
       source: 'Meta 8-K Ex 99.1: purchases of property and equipment. Including finance lease principal ($0.96B) it was $34.91B. FY26 capex guide (with finance leases) $135B to $145B, was $130B to $145B.'},
-    {company: 'Meta', metric: 'fcf', quarter: '2026 Q3', estimate: -9.1367, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: -1.156, reported: '2026-10-21',
+    {company: 'Meta', metric: 'fcf', quarter: '2026 Q3', priorText: 'none', estimate: -9.1367, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: -1.156, reported: '2026-10-21',
       source: 'Meta 8-K Ex 99.1: operating cash flow $32.786B minus purchases of property and equipment $33.942B. Meta\'s own definition (also minus finance lease principal) gives -$2.12B.'},
-    {company: 'Oracle', metric: 'capacity', quarter: '2026 Q3', estimate: 1.0, estimateFrom: 'capacity workbook, Sep 1 (implied)', actual: 0.85, reported: '2026-09-11',
-      source: 'Your update, Sep 11: Oracle Q3 2026 landed at 0.85 GW.'},
+    {company: 'Oracle', metric: 'capacity', quarter: '2026 Q3', priorGuide: 1.0, priorText: 'about 1 GW', estimate: 1.0, estimateFrom: 'capacity workbook, Sep 1 (implied)', actual: 0.85, reported: '2026-09-11',
+      source: 'Your update, Sep 11: Oracle Q3 2026 landed at 0.85 GW. Prior guide: FY26 Q4 call (Jun 10), Q1 delivery approaching 1 GW.'},
 
-    {company: 'SpaceX', metric: 'capex', quarter: '2026 Q3', estimate: 16.8834, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 16.444, reported: '2026-10-20',
-      source: 'SpaceX 10-Q (filed Oct 22), segment table: SI (formerly AI) segment capex, three months to Sep 30. Whole-company capex was $19.59B.'},
-    {company: 'SpaceX', metric: 'aiRevenue', quarter: '2026 Q3', estimate: 6.2752, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 7.56, reported: '2026-10-20',
+    {company: 'SpaceX', metric: 'capex', quarter: '2026 Q3', priorGuide: 18.4, priorActual: 19.593, priorText: 'about $18.4B, whole co.', estimate: 16.8834, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 16.444, reported: '2026-10-20',
+      source: 'SpaceX 10-Q (filed Oct 22), segment table: SI (formerly AI) segment capex, three months to Sep 30. Whole-company capex was $19.59B. Prior guide: Q2 call (Aug 2026), the CFO said the next two quarters should be very similar to Q2 whole-company capex of about $18.4B. vs guide compares whole company: $19.59B.'},
+    {company: 'SpaceX', metric: 'aiRevenue', quarter: '2026 Q3', priorText: 'none', estimate: 6.2752, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 7.56, reported: '2026-10-20',
       source: 'SpaceX 10-Q (filed Oct 22), segment table: SI (formerly AI) segment revenue, three months to Sep 30. Includes Cursor from its acquisition.'},
-    {company: 'SpaceX', metric: 'fcf', quarter: '2026 Q3', estimate: -11.616, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: -9.962, reported: '2026-10-20',
+    {company: 'SpaceX', metric: 'fcf', quarter: '2026 Q3', priorText: 'none', estimate: -11.616, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: -9.962, reported: '2026-10-20',
       source: 'SpaceX 10-Q (filed Oct 22): operating cash flow $9.631B minus purchases of property and equipment $19.593B (nine-month less six-month figures). Whole company.'},
-    {company: 'Microsoft', metric: 'capex', quarter: '2026 Q3', estimate: 51.7974, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 45.2, reported: '2026-10-28',
-      source: 'Microsoft FY27 Q1 (Jul to Sep 2026), Oct 28: capex including finance leases, up 30% (earnings slides and call). Finance leases were $7.4B and cash paid for property and equipment $39.4B. Lower than planned because some third-party capacity deliveries slipped. About 75% went to short-lived assets (chips and servers).'},
-    {company: 'Microsoft', metric: 'cloud', quarter: '2026 Q3', estimate: 32.2504, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 33.165, reported: '2026-10-28',
-      source: 'Microsoft 8-K Ex 99.1: Azure revenue $33.165B, up 48% (first quarter Microsoft gave Azure in dollars). Guided 49% to 50% growth in constant currency for Oct to Dec.'},
-    {company: 'Microsoft', metric: 'fcf', quarter: '2026 Q3', estimate: 8.4098, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 18.633, reported: '2026-10-28',
+    {company: 'Microsoft', metric: 'capex', quarter: '2026 Q3', priorGuide: 50, priorText: 'over $50B', estimate: 51.7974, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 45.2, reported: '2026-10-28',
+      source: 'Microsoft FY27 Q1 (Jul to Sep 2026), Oct 28: capex including finance leases, up 30% (earnings slides and call). Finance leases were $7.4B and cash paid for property and equipment $39.4B. Lower than planned because some third-party capacity deliveries slipped. About 75% went to short-lived assets (chips and servers). Prior guide: over $50B including the lease reclassification (FY26 Q4 call, Jul 2026).'},
+    {company: 'Microsoft', metric: 'cloud', quarter: '2026 Q3', priorGuide: 32.49, priorText: 'about $32.5B', estimate: 32.2504, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 33.165, reported: '2026-10-28',
+      source: 'Microsoft 8-K Ex 99.1: Azure revenue $33.165B, up 48% (first quarter Microsoft gave Azure in dollars). Guided 49% to 50% growth in constant currency for Oct to Dec. Prior guide: Azure growth of about 45% in constant currency (FY26 Q4 call, Jul 2026), about $32.5B on the year-ago base of $22.4B.'},
+    {company: 'Microsoft', metric: 'fcf', quarter: '2026 Q3', priorText: 'none', estimate: 8.4098, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 18.633, reported: '2026-10-28',
       source: 'Microsoft 10-Q: operating cash flow $58.000B minus additions to property and equipment $39.367B. Down 27% from a year earlier.'},
-    {company: 'Google', metric: 'capex', quarter: '2026 Q3', estimate: 55.7226, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 51.355, reported: '2026-10-28',
+    {company: 'Google', metric: 'capex', quarter: '2026 Q3', priorText: 'none', estimate: 55.7226, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 51.355, reported: '2026-10-28',
       source: 'Alphabet 8-K Ex 99.1: purchases of property and equipment, Jul to Sep 2026.'},
-    {company: 'Google', metric: 'cloud', quarter: '2026 Q3', estimate: 28.7519, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 30.709, reported: '2026-10-28',
+    {company: 'Google', metric: 'cloud', quarter: '2026 Q3', priorText: 'none', estimate: 28.7519, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 30.709, reported: '2026-10-28',
       source: 'Alphabet 8-K Ex 99.1: Google Cloud segment revenue, up 103%.'},
-    {company: 'Google', metric: 'fcf', quarter: '2026 Q3', estimate: -3.3064, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: -9.065, reported: '2026-10-28',
+    {company: 'Google', metric: 'fcf', quarter: '2026 Q3', priorText: 'none', estimate: -3.3064, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: -9.065, reported: '2026-10-28',
       source: 'Alphabet 8-K Ex 99.1: operating cash flow $42.290B minus purchases of property and equipment $51.355B.'},
     // Waiting on the report. Estimates frozen from the Oct 16 workbook.
-    {company: 'Amazon', metric: 'capex', quarter: '2026 Q3', estimate: 58.5355, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-30'},
-    {company: 'Amazon', metric: 'cloud', quarter: '2026 Q3', estimate: 45.5366, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-30'},
-    {company: 'Amazon', metric: 'fcf', quarter: '2026 Q3', estimate: 24.1964, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-30'},
-    {company: 'Oracle', metric: 'capex', quarter: '2026 Q4', estimate: 20.2412, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
-    {company: 'Oracle', metric: 'cloud', quarter: '2026 Q4', estimate: 9.0593, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
-    {company: 'Oracle', metric: 'fcf', quarter: '2026 Q4', estimate: -15.0304, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
+    {company: 'Amazon', metric: 'capex', quarter: '2026 Q3', priorText: 'none', estimate: 58.5355, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-30'},
+    {company: 'Amazon', metric: 'cloud', quarter: '2026 Q3', priorText: 'none', estimate: 45.5366, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-30'},
+    {company: 'Amazon', metric: 'fcf', quarter: '2026 Q3', priorText: 'none', estimate: 24.1964, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-30'},
+    {company: 'Oracle', metric: 'capex', quarter: '2026 Q4', priorText: 'none', estimate: 20.2412, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
+    {company: 'Oracle', metric: 'cloud', quarter: '2026 Q4', priorText: 'no OCI guide', estimate: 9.0593, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null,
+      source: 'FY27 Q1 call (Sep 10) guided total cloud revenue (OCI plus apps) up 65% to 71% for Sep to Nov, with no OCI-only figure.'},
+    {company: 'Oracle', metric: 'fcf', quarter: '2026 Q4', priorText: 'none', estimate: -15.0304, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
   ],
   // Each company's latest total capex guide, from its own earnings call.
   // period: CY2026 = calendar 2026; FY2027 = the company's fiscal year (fiscalYear matches the page's fiscal tags);
@@ -52,8 +55,8 @@ window.capacityActuals = {
       source: 'Meta Q3 2026 call, Oct 21. Includes finance lease principal; the page counts only purchases of property and equipment (Q3 lease principal was $0.96B). No 2027 number yet.'},
     {company: 'Meta', period: 'CY2027', outlook: true, text: 'no guide yet', guided: '2026-10-21', change: 'number with Q4 results',
       source: 'Meta Q3 2026 call, Oct 21: no 2027 capex guide. CFO Susan Li said serving costs for the Muse model will rise as its users grow, and that Meta has kept underestimating its compute needs.'},
-    {company: 'SpaceX', period: '2026 Q4', low: 35, high: 40, guided: '2026-10-20', change: 'first guide, whole company', pageComparable: false,
-      source: 'SpaceX Q3 2026 call, Oct 20: fourth-quarter capex for the whole company. No full-year guide. With $48.1B spent in the first nine months, 2026 lands near $83B to $88B. The page tracks the AI unit only ($18.6B estimate for Q4).'},
+    {company: 'SpaceX', period: '2026 Q4', low: 35, high: 40, prevLow: 18.4, prevHigh: 18.4, prevApprox: true, guided: '2026-10-20', change: 'first number, whole company', pageComparable: false,
+      source: 'SpaceX Q3 2026 call, Oct 20: fourth-quarter capex for the whole company. No full-year guide. With $48.1B spent in the first nine months, 2026 lands near $83B to $88B. The page tracks the AI unit only ($18.6B estimate for Q4). Prior: on the Q2 call (Aug 2026) the CFO said Q3 and Q4 should be very similar to Q2, about $18.4B.'},
     {company: 'Microsoft', period: 'CY2026', low: 170, high: 170, approx: true, prevLow: 175, prevHigh: 175, prevApprox: true, guided: '2026-10-28', change: 'third-party capacity slipped',
       source: 'Microsoft FY27 Q1 call, Oct 28 (Amy Hood): "In Q2, we expect CapEx spend will be over $50 billion. Therefore, for the calendar year, spend should be approximately $170 billion due to the 3P capacity delays." Capex to speed up in Jan to Jun 2027 as delayed third-party capacity arrives. About 75% of capex now goes to short-lived assets. Still free cash flow positive in FY27.'},
     {company: 'Microsoft', period: 'CY2027', outlook: true, text: 'speeds up Jan to Jun', guided: '2026-10-28', change: 'no number',

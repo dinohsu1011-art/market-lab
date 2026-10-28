@@ -529,12 +529,12 @@
       const label = a.company === 'SpaceX' && a.metric === 'capex' ? 'AI capex' : base;
       const color = COLORS[a.company] || 'var(--benchmark)';
       const reported = a.actual != null;
-      const vs = ref => reported && ref != null ? vsLine(a.actual, ref, fmt).replace(/^est [^,]+, /, '') : '';
+      const vs = (ref, v = a.actual) => reported && ref != null ? vsLine(v, ref, fmt).replace(/^est [^,]+, /, '') : '';
       const cls = [i === 0 ? 'group-start' : '', reported ? '' : 'waiting'].filter(Boolean).join(' ');
       return `<tr class="${cls}">${i === 0 ? `<th scope="rowgroup" rowspan="${rows.length}" class="sticky" style="color:${color}">${esc(a.company)}</th>` : ''}`
         + `<td class="metric-col">${esc(label)}</td><td>${esc(a.quarter.slice(5) + " '" + a.quarter.slice(2, 4))}</td>`
-        + cells(a.priorGuide == null ? '' : esc(fmt(a.priorGuide)), a.estimate == null ? nd : esc(fmt(a.estimate)),
-          reported ? esc(fmt(a.actual)) : nd, esc(vs(a.priorGuide)), esc(vs(a.estimate)))
+        + cells(a.priorText ? esc(a.priorText) : a.priorGuide == null ? '' : esc(fmt(a.priorGuide)), a.estimate == null ? nd : esc(fmt(a.estimate)),
+          reported ? esc(fmt(a.actual)) : nd, esc(vs(a.priorGuide, a.priorActual ?? a.actual)), esc(vs(a.estimate)))
         + `<td class="ledger-note"${a.source ? ` title="${esc(a.source)}"` : ''}>${reported ? 'reported ' + esc(shortDate(a.reported)) + (a.source ? ' <span class="ledger-i" aria-hidden="true">i</span>' : '') : (a.due ? 'reports ' + esc(shortDate(a.due)) : 'next report')}</td></tr>`;
     };
     host.innerHTML = `<div class="figures-scroll"><table class="figures-table ledger-table"><thead><tr><th scope="col" class="sticky">Company</th><th scope="col" class="metric-col">Metric</th><th scope="col">Period</th><th scope="col" class="prior">Prior guide</th><th scope="col" class="est-v">Estimate</th><th scope="col" class="act">Actual</th><th scope="col">vs guide</th><th scope="col">vs est</th><th scope="col" class="ledger-note"></th></tr></thead>`
