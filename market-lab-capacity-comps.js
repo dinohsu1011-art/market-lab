@@ -495,8 +495,8 @@
       if (g.period.startsWith('CY')) return sumQuarters(raw, yearKeys(g.period.slice(2)))?.v ?? null;
       return raw[g.period]?.v ?? null;
     };
-    const guideRow = (g, i, rows) => {
-      const color = COLORS[g.company] || 'var(--benchmark)', est = pageSum(g), mid = (g.low + g.high) / 2;
+    const guideRow = (g, i, rows, total) => {
+      const color = COLORS[g.company] || 'var(--ml-ink)', est = total !== undefined ? total : pageSum(g), mid = (g.low + g.high) / 2;
       const b = v => '$' + v + 'B', gap = est == null ? null : Math.round((mid / est - 1) * 100);
       const text = g.low === g.high ? (g.approx ? 'about ' : '') + b(g.low) : `${b(g.low)} to ${b(g.high)}`;
       const period = /^\d{4} Q/.test(g.period) ? g.period.slice(5) + " '" + g.period.slice(2, 4) : g.period.slice(0, 2) + g.period.slice(-2);
@@ -505,7 +505,18 @@
         + `<td class="est">${est == null ? '<span class="nd">–</span>' : esc(fmtB(est))}</td>`
         + `<td>${esc(text)}</td>`
         + `<td>${gap == null ? '' : esc(gap ? fmtPct(gap, 0) : '0%')}</td>`
-        + `<td class="ledger-note" title="${esc(g.source)}">guided ${esc(shortDate(g.guided))}${g.change ? ', ' + esc(g.change) : ''} <span class="ledger-i" aria-hidden="true">i</span></td></tr>`;
+        + `<td class="ledger-note" title="${esc(g.source)}">${g.guided ? 'guided ' + esc(shortDate(g.guided)) : 'five hyperscalers'}${g.change ? ', ' + esc(g.change) : ''} <span class="ledger-i" aria-hidden="true">i</span></td></tr>`;
+    };
+    // Total of the five hyperscaler guides, SpaceX left out as in the capex charts.
+    // Oracle counts on its fiscal 2027 (Jun 2026 to May 2027); the others on calendar 2026.
+    const guideTotal = () => {
+      const gs = (window.capacityActuals?.guidance || []).filter(g => g.company !== 'SpaceX');
+      if (!gs.length) return '';
+      const sum = k => gs.reduce((a, g) => a + g[k], 0), ests = gs.map(pageSum);
+      const total = {company: 'Total', period: 'CY2026', low: sum('low'), high: sum('high'), approx: gs.some(g => g.approx), guided: '',
+        source: `${gs.map(g => g.company).join(', ')}. Oracle counts on its fiscal 2027 (Jun 2026 to May 2027), the rest on calendar 2026. SpaceX is left out, as in the capex charts.`};
+      const est = ests.some(e => e == null) ? null : ests.reduce((a, e) => a + e, 0);
+      return guideRow(total, 0, [total], est).replace('class="guide-row group-start"', 'class="guide-row group-start guide-total"');
     };
     const row = (a, i, rows) => {
       if (a.guide) return guideRow(a, i, rows);
@@ -523,7 +534,7 @@
         + `<td class="ledger-note"${a.source ? ` title="${esc(a.source)}"` : ''}>${reported ? 'reported ' + esc(shortDate(a.reported)) + (a.source ? ' <span class="ledger-i" aria-hidden="true">i</span>' : '') : (a.due ? 'reports ' + esc(shortDate(a.due)) : 'next report')}</td></tr>`;
     };
     host.innerHTML = `<div class="figures-scroll"><table class="figures-table ledger-table"><thead><tr><th scope="col" class="sticky">Company</th><th scope="col" class="metric-col">Metric</th><th scope="col">Period</th><th scope="col" class="est">Estimate</th><th scope="col">Actual or guide</th><th scope="col">vs est</th><th scope="col" class="ledger-note"></th></tr></thead>`
-      + `<tbody>${companies.map(c => groups[c].map(row).join('')).join('')}</tbody></table></div>`;
+      + `<tbody>${companies.map(c => groups[c].map(row).join('')).join('')}${guideTotal()}</tbody></table></div>`;
   }
 
   const d = new Date(data.updatedAt);
