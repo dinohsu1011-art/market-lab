@@ -475,17 +475,17 @@
     const host = document.querySelector('#actualsTable');
     if (!host) return;
     // One block per company: companies with a fresh report first, then by next report date.
-    const ORDER = {capex: 0, cloud: 1, aiRevenue: 1, fcf: 2, capacity: 3};
+    // Within a block: quarter capex, then the capex guides (guidance-array order), then cloud, cash flow, capacity.
+    const ORDER = {capex: 0, cloud: 2, aiRevenue: 2, fcf: 3, capacity: 4};
+    const rank = a => a.guide ? 1 : ORDER[a.metric] ?? 9;
     const groups = {};
     ACTUALS.forEach(a => (groups[a.company] = groups[a.company] || []).push(a));
-    // Each company's capex guide sits at the end of its block.
     (window.capacityActuals?.guidance || []).forEach(g => (groups[g.company] = groups[g.company] || []).push({...g, guide: true}));
     const lastReport = rows => rows.reduce((m, a) => (a.actual != null && (a.reported || '') > m ? a.reported : m), '');
     const nextDue = rows => rows.reduce((m, a) => (a.actual == null && (a.due || '9') < m ? (a.due || '9') : m), '9');
     const companies = Object.keys(groups).sort((x, y) => lastReport(groups[y]).localeCompare(lastReport(groups[x]))
       || nextDue(groups[x]).localeCompare(nextDue(groups[y])) || x.localeCompare(y));
-    companies.forEach(c => groups[c].sort((a, b) => !!a.guide - !!b.guide || (a.guide ? 0 : (a.actual == null) - (b.actual == null)
-      || a.quarter.localeCompare(b.quarter) || (ORDER[a.metric] ?? 9) - (ORDER[b.metric] ?? 9))));
+    companies.forEach(c => groups[c].sort((a, b) => rank(a) - rank(b) || (a.guide ? 0 : a.quarter.localeCompare(b.quarter))));
     // Capex guide rows: the company's own guide beside the page's sum for the same period.
     const capexRaw = Object.fromEntries(flowSeries('capex').map(s => [s.owner, s.raw]));
     const pageSum = g => {
