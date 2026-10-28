@@ -127,6 +127,23 @@ button:disabled {opacity:.4;cursor:default}
 .figures-table .divider {border-left:1.5px solid var(--ml-ink)}
 .figures-table .nd {color:var(--ml-faint)}
 .figures-panel .chart-method {margin:10px 20px 16px;max-width:110ch}
+.figures-table td small.vs {display:block;font-size:11px;font-style:normal;color:var(--ml-muted);margin-top:1px}
+.figures-table td.has-vs {vertical-align:top}
+[data-part=y] {margin-top:14px}
+.ledger-table td,.ledger-table th {text-align:right}
+.ledger-table .ledger-note {text-align:left;color:var(--ml-muted)}
+.ledger-table td.ledger-note[title] {cursor:help}
+.ledger-table tr.waiting td:not(.est) {color:var(--ml-faint)}
+.ledger-i {display:inline-grid;place-items:center;width:13px;height:13px;margin-left:4px;border:1px solid currentColor;border-radius:50%;font:italic 600 9px/1 var(--serif,Georgia);vertical-align:1px}
+/* Clean view: no option buttons, legend reads as a plain key, hidden companies drop out */
+.clean-toggle {font:13px/1.3 var(--sans);padding:4px 10px;border:1px solid var(--rule);border-radius:4px;background:transparent;color:var(--muted);cursor:pointer;transition:background .15s,color .15s}
+.clean-toggle:hover {background:var(--ml-raised);color:var(--ink)}
+.clean-toggle[aria-pressed=true] {color:var(--ink)}
+.clean-toggle:focus-visible {outline:2px solid var(--ml-accent);outline-offset:1px}
+.comps.clean .comp-controls {display:none}
+.comps.clean .comp-key {pointer-events:none;cursor:default}
+.comps.clean .comp-key[aria-pressed=false] {display:none}
+.comp-panel.wide {grid-column:1 / -1}
 .source-key {display:grid;grid-template-columns:repeat(3,minmax(0,auto));justify-content:start;gap:4px 28px;margin:12px 20px 0;font-size:13px}
 .source-key div {display:flex;gap:6px}
 .source-key dt {color:var(--ml-muted)}

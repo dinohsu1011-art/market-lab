@@ -32,7 +32,8 @@ function renderDashboard(data) {
     ...company,
     values: company.values.map((entry,i) => {
       const override = research.quarterlyOverrides?.[company.name]?.[quarters[i].join(' ')];
-      return override ? [override.value,override.status] : entry;
+      const actual = capacityActual(company.name, `${quarters[i][1]} ${quarters[i][0]}`);
+      return actual ? [actual.actual,'reported'] : override ? [override.value,override.status] : entry;
     })
   }))};
   const kgiNames = {AMZN: 'Amazon', GOOGL: 'Google', MSFT: 'Microsoft', META: 'Meta'};
@@ -85,6 +86,8 @@ const capacityTicker = {Amazon: 'AMZN', Google: 'GOOGL', Microsoft: 'MSFT', Meta
 const gw = (v, long) => v == null ? '–' : (Math.abs(v) >= 10 ? v.toFixed(1) : v.toFixed(long ? 2 : 1)) + ' GW';
 const gwCell = v => formatCapacity(v.toFixed(2));
 const displayName = name => name === 'SpaceX' ? 'xAI' : name;
+// Reported GW added in a quarter, from market-lab-capacity-actuals.js ("2026 Q3").
+const capacityActual = (name, quarter) => (window.capacityActuals?.entries || []).find(a => a.metric === 'capacity' && a.actual != null && a.company === name && a.quarter === quarter);
 
 const sinopacCapacity = [
   {name:'AWS', values:[12,30], prior:'25–30', color:'var(--amazon)', kgi:'AMZN'},
@@ -189,10 +192,10 @@ function fleetYear(c, year) {
   return {opening, total: opening + inYear, addition: full ? inYear : null};
 }
 
-function capacityRows() {
+function capacityRows(period = capacityState.period) {
   const {quarters, companies} = chartData;
   const cutoff = capacityCutoff();
-  const annual = capacityState.period === 'annual';
+  const annual = period === 'annual';
   const periods = annual
     ? ['2025', '2026', '2027', '2028'].map(y => ({key: y, label: y + (yearEnd(y) > cutoff ? 'E' : ''), title: `Year-end ${y}${yearEnd(y) > cutoff ? ' (estimate)' : ''}`, estimate: yearEnd(y) > cutoff}))
     : quarters.map(([q, y]) => ({key: `${y} ${q}`, label: q, year: y, title: `${q} ${y}${quarterEnd(q, y) > cutoff ? ' (estimate)' : ''}`, estimate: quarterEnd(q, y) > cutoff}));
@@ -201,6 +204,8 @@ function capacityRows() {
     if (!f) return null;
     const addition = f.missing ? null : f.addition;
     const growth = f.opening > 0 && !f.missing ? (f.total / f.opening - 1) * 100 : null;
+    const actual = annual ? null : capacityActual(c.name, p.key);
+    if (actual) return {fleet: f.total, addition: actual.actual, growth, e: false, est: actual.estimate};
     return {fleet: f.total, addition: Number.isFinite(addition) ? addition : null, growth, e: p.estimate};
   })}));
   return {periods, rows, annual};
@@ -233,6 +238,22 @@ function renderCapacityChart() {
   document.querySelector('#labEstimateNotes').hidden = capacityState.source !== 'kgi';
   const render = {kgi: renderKgiCapacity, sinopac: renderSinopacCapacity, compare: renderBrokerCapacity, jefferies: renderJefferiesCapacity, plans: renderPlansVsSinopac}[capacityState.source];
   render(panel);
+  renderQuarterlyCapacity();
+}
+
+// Every quarter, whatever the chart shows. A reported quarter carries its old estimate.
+function renderQuarterlyCapacity() {
+  const host = document.querySelector('#capacityQuarterTable');
+  if (!host) return;
+  const {periods, rows} = capacityRows('quarterly');
+  const cols = CompChart.dividerFlags(periods.map(p => ({label: `${p.label} '${p.year.slice(2)}`, estimate: p.estimate})));
+  const vs = c => c.est != null ? CompChart.vsLine(c.addition, c.est, v => gwCell(v) + ' GW') : '';
+  CompChart.figuresTable(host, {caption: 'Quarterly', columns: cols, rowGroups: rows.map(r => ({
+    name: r.name + (r.lab ? ' ~' : ''), color: r.color, rows: [
+      {label: 'Fleet GW', fmt: gwCell, cells: r.cells.map(c => c && {v: c.fleet, e: c.e})},
+      {label: 'Added GW', fmt: gwCell, cells: r.cells.map(c => c && c.addition != null ? {v: c.addition, e: c.e, vs: vs(c)} : null)},
+      {label: 'QoQ', fmt: v => CompChart.fmtPct(v, 0), cells: r.cells.map(c => c && c.growth != null ? {v: c.growth, e: c.e} : null)},
+    ]}))});
 }
 
 function renderKgiCapacity(panel) {
@@ -241,7 +262,8 @@ function renderKgiCapacity(panel) {
   const pick = {fleet: 'fleet', additions: 'addition', growth: 'growth'}[measure];
   const fmt = measure === 'growth' ? (v, long) => CompChart.fmtPct(v, long ? 1 : 0) : gw;
   const labNote = 'Implied from Altimeter and SemiAnalysis charts';
-  const series = rows.map(r => ({name: r.name, color: r.color, points: r.cells.map(c => c && c[pick] != null ? {v: c[pick], e: c.e, note: r.lab ? labNote : ''} : null)}));
+  const estNote = c => pick === 'addition' && c.est != null ? CompChart.vsLine(c.addition, c.est, v => gwCell(v) + ' GW') : '';
+  const series = rows.map(r => ({name: r.name, color: r.color, points: r.cells.map(c => c && c[pick] != null ? {v: c[pick], e: c.e, note: r.lab ? labNote : estNote(c)} : null)}));
   CompChart.legend(panel.querySelector('.comp-legend'), series, capacityState.hidden, renderCapacityChart);
   const host = panel.querySelector('.comp-chart');
   const axisFmt = v => measure === 'growth' ? v + '%' : v + ' GW';
@@ -262,7 +284,7 @@ function renderKgiCapacity(panel) {
   CompChart.figuresTable(document.querySelector('#capacityTable'), {caption: 'Company', columns: cols, rowGroups: rows.map(r => ({
     name: r.name + (r.lab ? ' ~' : ''), color: r.color, rows: [
       {label: 'Fleet GW', fmt: gwCell, cells: r.cells.map(c => c && {v: c.fleet, e: c.e})},
-      {label: 'Added GW', fmt: gwCell, cells: r.cells.map(c => c && c.addition != null ? {v: c.addition, e: c.e} : null)},
+      {label: 'Added GW', fmt: gwCell, cells: r.cells.map(c => c && c.addition != null ? {v: c.addition, e: c.e, vs: c.est != null ? CompChart.vsLine(c.addition, c.est, v => gwCell(v) + ' GW') : ''} : null)},
       {label: annual ? 'YoY' : 'QoQ', fmt: v => CompChart.fmtPct(v, 0), cells: r.cells.map(c => c && c.growth != null ? {v: c.growth, e: c.e} : null)},
     ]}))});
   setSourceKey([

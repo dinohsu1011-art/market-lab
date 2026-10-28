@@ -223,10 +223,11 @@
   }
 
   // ---------- figures table: same numbers the chart plots ----------
-  // rowGroups: [{name, color, rows:[{label, cells:[{v,e,text}|null], fmt}]}]
+  // rowGroups: [{name, color, rows:[{label, cells:[{v,e,text,vs}|null], fmt}]}]
+  // A cell's vs line (estimate before the report) prints small under the reported value.
   function figuresTable(host, {columns, rowGroups, caption}) {
     const head = `<tr><th scope="col" class="sticky">${esc(caption || '')}</th><th scope="col" class="metric-col"></th>${columns.map(c => `<th scope="col" class="${c.estimate ? 'est' : ''}${c.divider ? ' divider' : ''}">${esc(c.label)}${c.sub ? `<small>${esc(c.sub)}</small>` : ''}</th>`).join('')}</tr>`;
-    const body = rowGroups.map(g => g.rows.map((r, ri) => `<tr class="${ri === 0 ? 'group-start' : ''}">${ri === 0 ? `<th scope="rowgroup" rowspan="${g.rows.length}" class="sticky" style="color:${g.color}">${esc(g.name)}</th>` : ''}<td class="metric-col">${esc(r.label)}</td>${r.cells.map((c, i) => `<td class="${c && c.e ? 'est' : ''}${columns[i].divider ? ' divider' : ''}">${c == null || c.v == null ? '<span class="nd">–</span>' : esc(c.text ?? r.fmt(c.v))}</td>`).join('')}</tr>`).join('')).join('');
+    const body = rowGroups.map(g => g.rows.map((r, ri) => `<tr class="${ri === 0 ? 'group-start' : ''}">${ri === 0 ? `<th scope="rowgroup" rowspan="${g.rows.length}" class="sticky" style="color:${g.color}">${esc(g.name)}</th>` : ''}<td class="metric-col">${esc(r.label)}</td>${r.cells.map((c, i) => `<td class="${c && c.e ? 'est' : ''}${c && c.vs ? ' has-vs' : ''}${columns[i].divider ? ' divider' : ''}">${c == null || c.v == null ? '<span class="nd">–</span>' : esc(c.text ?? r.fmt(c.v)) + (c.vs ? `<small class="vs">${esc(c.vs)}</small>` : '')}</td>`).join('')}</tr>`).join('')).join('');
     host.innerHTML = `<div class="figures-scroll"><table class="figures-table"><thead>${head}</thead><tbody>${body}</tbody></table></div>`;
   }
 
@@ -240,11 +241,44 @@
     return columns.map((c, i) => ({...c, divider: i === first}));
   };
 
-  window.CompChart = {lineChart, columnChart, pairChart, figuresTable, legend, segmented, dividerFlags, fmtB, fmtPct, COLORS, esc};
+  // Estimate beside a reported value: "est $41.0B, -17%". When either side is
+  // negative a percent means nothing, so the gap is shown in units instead.
+  const vsLine = (actual, est, fmt) => est == null || actual == null ? '' : `est ${fmt(est)}, ` +
+    (actual > 0 && est > 0 ? fmtPct((actual / est - 1) * 100, 0) : (actual >= est ? '+' : '-') + fmt(Math.abs(actual - est)).replace(/^-/, ''));
+
+  window.CompChart = {lineChart, columnChart, pairChart, figuresTable, legend, segmented, dividerFlags, vsLine, fmtB, fmtPct, COLORS, esc};
+
+  // ---------- clean view: hide the option buttons so a chart screenshots clean ----------
+  const CLEAN_KEY = 'equinox.capacity.clean';
+  const comps = document.querySelector('.comps');
+  const cleanBtn = document.querySelector('[data-clean-toggle]');
+  if (comps && cleanBtn) {
+    const setClean = on => {
+      comps.classList.toggle('clean', on);
+      cleanBtn.setAttribute('aria-pressed', String(on));
+      cleanBtn.textContent = on ? 'Show buttons' : 'Hide buttons';
+      try { localStorage.setItem(CLEAN_KEY, on ? '1' : '0'); } catch (_) {}
+    };
+    let start = false;
+    try { start = localStorage.getItem(CLEAN_KEY) === '1'; } catch (_) {}
+    setClean(start);
+    cleanBtn.addEventListener('click', () => setClean(!comps.classList.contains('clean')));
+    addEventListener('keydown', e => {
+      if (e.key !== 'h' || e.metaKey || e.ctrlKey || e.altKey || /INPUT|TEXTAREA|SELECT/.test(e.target.tagName) || e.target.isContentEditable) return;
+      setClean(!comps.classList.contains('clean'));
+    });
+  }
 
   // ---------- cloud + capex from Hyperscaler Comps.xlsx ----------
   const data = window.compsData;
   if (!data) return;
+  const ACTUALS = window.capacityActuals?.entries || [];
+  // A reported actual replaces the workbook estimate for that quarter and keeps the
+  // estimate as est, so tables and tooltips can show both.
+  ACTUALS.filter(a => a.actual != null).forEach(a => {
+    const m = data.companies.find(c => c.name === a.company)?.metrics[a.metric];
+    if (m) m.series[a.quarter] = {...m.series[a.quarter], v: a.actual, e: false, est: a.estimate};
+  });
   const quarterKey = (y, q) => `${y} Q${q}`;
   const prevYearKey = k => quarterKey(Number(k.slice(0, 4)) - 1, k.slice(-1));
   const periodObj = k => ({key: k, label: 'Q' + k.slice(-1), year: k.slice(0, 4), title: `${k.slice(0, 4)} Q${k.slice(-1)} (calendar)`});
@@ -258,6 +292,9 @@
   const markPeriods = (keys, seriesList) => keys.map(k => ({...periodObj(k), estimate: seriesList.every(s => !s[k] || s[k].e)}));
   // Microsoft and Oracle fiscal years differ from the calendar; say which company quarter a point is.
   const fiscalNote = (owner, p) => p && p.fiscal && /^(Microsoft|Oracle)$/.test(owner) ? `Company ${p.fiscal}` : '';
+  const vsB = p => p && p.est != null ? vsLine(p.v, p.est, fmtB) : '';
+  const joinNotes = (...parts) => parts.filter(Boolean).join('; ');
+  const withVs = p => p ? {...p, vs: vsB(p)} : null;
 
   const cloudSeries = () => data.companies.filter(c => c.metrics.cloud).map(c => ({
     name: c.metrics.cloud.label, owner: c.name, color: COLORS[c.name] || 'var(--benchmark)', raw: c.metrics.cloud.series}));
@@ -266,22 +303,26 @@
     name: c.name === 'SpaceX' ? (key === 'capex' ? 'SpaceX (AI)' : 'SpaceX') : c.name,
     short: c.name === 'SpaceX' && key === 'capex' ? 'SpaceX AI' : c.name, owner: c.name,
     color: COLORS[c.name] || 'var(--benchmark)', raw: c.metrics[key].series, field: c.metrics[key].label}));
+  // Growth needs both periods positive. A reported quarter also carries the growth its estimate implied.
   const yoy = (raw, k) => {
     const cur = raw[k], base = raw[prevYearKey(k)];
-    return cur && base && base.v > 0 ? {v: (cur.v / base.v - 1) * 100, e: cur.e} : null;
+    if (!cur || !base || !(base.v > 0) || !(cur.v > 0)) return null;
+    return {v: (cur.v / base.v - 1) * 100, e: cur.e, vs: cur.est > 0 ? 'est ' + fmtPct((cur.est / base.v - 1) * 100, 0) : ''};
   };
   const quarterColumns = periods => dividerFlags(periods.map(p => ({label: `${p.label} '${p.year.slice(2)}`, estimate: p.estimate})));
+  const pctCell = v => fmtPct(v, 0);
 
   function renderCloud() {
     const panel = document.querySelector('#cloudPanel');
-    const list = cloudSeries().map(s => ({...s, raw: onBasis(s.raw, state.cloudBasis)}));
+    const full = cloudSeries();
+    const list = full.map(s => ({...s, raw: onBasis(s.raw, state.cloudBasis)}));
     const reported = state.cloudBasis === 'rep';
     const yoyMode = state.cloudMode === 'yoy';
     const keys = allQuarters(list.map(s => s.raw)).filter(k => !yoyMode || list.some(s => yoy(s.raw, k)));
     const periods = markPeriods(keys, list.map(s => s.raw));
     const series = list.map(s => ({...s, points: keys.map(k => {
       const p = yoyMode ? yoy(s.raw, k) : s.raw[k];
-      return p ? {v: p.v, e: p.e, note: fiscalNote(s.owner, s.raw[k])} : null;
+      return p ? {v: p.v, e: p.e, note: joinNotes(fiscalNote(s.owner, s.raw[k]), yoyMode ? p.vs : vsB(p))} : null;
     })}));
     segmented(panel.querySelector('[data-ctl=mode]'), [['yoy', 'YoY growth'], ['rev', 'Revenue $B']], state.cloudMode, v => { state.cloudMode = v; renderCloud(); });
     segmented(panel.querySelector('[data-ctl=basis]'), BASIS, state.cloudBasis, v => { state.cloudBasis = v; renderCloud(); });
@@ -291,10 +332,12 @@
       label: 'Cloud growth comps', periods, series, hidden: state.cloudHidden,
       fmt: (v, long) => yoyMode ? fmtPct(v, long ? 1 : 0) : fmtB(v), axisFmt: v => yoyMode ? v + '%' : '$' + v + 'B',
     });
-    figuresTable(document.querySelector('#cloudTable'), {caption: 'Segment', columns: quarterColumns(periods), rowGroups: list.map(s => ({
+    // The table always shows every quarter, reported and estimated, whatever the chart shows.
+    const allKeys = allQuarters(full.map(s => s.raw));
+    figuresTable(document.querySelector('#cloudTable'), {caption: 'Quarterly', columns: quarterColumns(markPeriods(allKeys, full.map(s => s.raw))), rowGroups: full.map(s => ({
       name: `${s.name} · ${s.owner}`, color: s.color, rows: [
-        {label: 'Revenue', fmt: fmtB, cells: keys.map(k => s.raw[k] || null)},
-        {label: 'YoY', fmt: v => fmtPct(v, 0), cells: keys.map(k => yoy(s.raw, k))},
+        {label: 'Revenue', fmt: fmtB, cells: allKeys.map(k => withVs(s.raw[k]))},
+        {label: 'YoY', fmt: pctCell, cells: allKeys.map(k => yoy(s.raw, k))},
       ]}))});
   }
 
@@ -307,6 +350,7 @@
   }
   const yearKeys = year => [1, 2, 3, 4].map(q => quarterKey(year, q));
   const trailingKeys = k => { const y = Number(k.slice(0, 4)), q = Number(k.slice(-1)); return [3, 2, 1, 0].map(b => { const n = (y * 4 + q - 1) - b; return quarterKey(Math.floor(n / 4), n % 4 + 1); }); };
+  const growth = (a, b) => a && b && b.v > 0 && a.v > 0 ? {v: (a.v / b.v - 1) * 100, e: a.e} : null;
 
   const FLOWS = {
     capex: {panel: '#capexPanel', table: '#capexTable', method: '#capexMethod', what: 'Capital expenditures', row: 'Capex',
@@ -329,35 +373,87 @@
     panel.querySelector('.panel-heading p').textContent = `${cfg.what}, ${unit}${reported ? ', reported only' : ''}`;
     const host = panel.querySelector('.comp-chart');
     const keys = allQuarters(list.map(s => s.raw));
-    const growth = (a, b) => a && b && b.v > 0 && a.v > 0 ? {v: (a.v / b.v - 1) * 100, e: a.e} : null;
-    const yoyRow = cells => ({label: 'YoY', fmt: v => fmtPct(v, 0), cells});
     if (st.mode === 'annual') {
       const years = [...new Set(keys.map(k => k.slice(0, 4)))].filter(y => list.some(s => sumQuarters(s.raw, yearKeys(y))));
       const series = list.map(s => ({...s, values: years.map(y => sumQuarters(s.raw, yearKeys(y)))}));
       legend(panel.querySelector('.comp-legend'), series, st.hidden, again);
       const groups = years.map(y => ({label: y, title: `Calendar ${y}`, estimate: series.every(s => { const a = s.values[years.indexOf(y)]; return !a || a.parts.every(p => p.e); })}));
       columnChart(host, {label: `${cfg.what}, calendar year`, groups, series, hidden: st.hidden, fmt: fmtB, labelFmt: v => Math.round(v).toString(), axisFmt: axisB});
-      const cols = dividerFlags(years.map((y, i) => ({label: 'CY' + y, estimate: series.some(s => s.values[i]?.e)})));
-      figuresTable(document.querySelector(cfg.table), {caption: 'Company', columns: cols, rowGroups: series.map(s => ({
-        name: s.name, color: s.color, rows: [
-          {label: cfg.row, fmt: fmtB, cells: s.values},
-          yoyRow(years.map((y, i) => growth(s.values[i], sumQuarters(s.raw, yearKeys(y - 1))))),
-        ]}))});
     } else {
       const ttm = st.mode === 'ttm';
       const value = (s, k) => ttm ? sumQuarters(s.raw, trailingKeys(k)) : s.raw[k] || null;
       const shown = keys.filter(k => list.some(s => value(s, k)));
       const periods = markPeriods(shown, list.map(s => s.raw));
-      const series = list.map(s => ({...s, points: shown.map(k => { const p = value(s, k); return p ? {v: p.v, e: p.e, note: p.note || fiscalNote(s.owner, s.raw[k])} : null; })}));
+      const series = list.map(s => ({...s, points: shown.map(k => { const p = value(s, k); return p ? {v: p.v, e: p.e, note: p.note || joinNotes(fiscalNote(s.owner, s.raw[k]), vsB(p))} : null; })}));
       legend(panel.querySelector('.comp-legend'), series, st.hidden, again);
       lineChart(host, {label: `${cfg.what}, ${ttm ? 'trailing 4 quarters' : 'quarterly'}`, periods, series, hidden: st.hidden, fmt: fmtB, axisFmt: axisB});
-      figuresTable(document.querySelector(cfg.table), {caption: 'Company', columns: quarterColumns(periods), rowGroups: series.map(s => ({
-        name: s.name, color: s.color, rows: [
-          {label: ttm ? cfg.row + ' (4Q)' : cfg.row, fmt: fmtB, cells: s.points},
-          yoyRow(shown.map(k => growth(value(s, k), value(s, prevYearKey(k))))),
-        ]}))});
     }
-    document.querySelector(cfg.method).textContent = `${cfg.note} Line items differ by company: ${list.map(s => `${s.owner}, ${s.field.trim()}`).join('; ')}. A calendar year needs all four quarters; ${reported ? 'with reported only, a year appears once all four quarters are reported.' : 'a year that mixes reported and estimated quarters shows a solid base with a hatched top.'} Growth is left blank when either period is negative.`;
+    flowTables(key);
+    document.querySelector(cfg.method).textContent = `${cfg.note} Line items differ by company: ${list.map(s => `${s.owner}, ${s.field.trim()}`).join('; ')}. A calendar year needs all four quarters; a year that mixes reported and estimated quarters counts as an estimate. Growth is left blank when either period is negative. Under a reported quarter, the small line is the estimate this page showed before the report.`;
+  }
+
+  // Quarterly and calendar-year tables, always every period, whatever the chart shows.
+  function flowTables(key) {
+    const cfg = FLOWS[key], list = flowSeries(key), host = document.querySelector(cfg.table);
+    const keys = allQuarters(list.map(s => s.raw));
+    if (!host.querySelector('[data-part]')) host.innerHTML = '<div data-part="q"></div><div data-part="y"></div>';
+    figuresTable(host.querySelector('[data-part=q]'), {caption: 'Quarterly', columns: quarterColumns(markPeriods(keys, list.map(s => s.raw))), rowGroups: list.map(s => ({
+      name: s.name, color: s.color, rows: [
+        {label: cfg.row, fmt: fmtB, cells: keys.map(k => withVs(s.raw[k]))},
+        {label: 'YoY', fmt: pctCell, cells: keys.map(k => yoy(s.raw, k))},
+      ]}))});
+    const years = [...new Set(keys.map(k => k.slice(0, 4)))].filter(y => list.some(s => sumQuarters(s.raw, yearKeys(y))));
+    const cols = dividerFlags(years.map(y => ({label: 'CY' + y, estimate: list.some(s => sumQuarters(s.raw, yearKeys(y))?.e)})));
+    figuresTable(host.querySelector('[data-part=y]'), {caption: 'Calendar year', columns: cols, rowGroups: list.map(s => ({
+      name: s.name, color: s.color, rows: [
+        {label: cfg.row, fmt: fmtB, cells: years.map(y => sumQuarters(s.raw, yearKeys(y)))},
+        {label: 'YoY', fmt: pctCell, cells: years.map(y => growth(sumQuarters(s.raw, yearKeys(y)), sumQuarters(s.raw, yearKeys(y - 1))))},
+      ]}))});
+  }
+
+  // ---------- capex growth: year-over-year % by calendar quarter ----------
+  // SpaceX AI capex starts from a tiny 2025 base (+2,000% in Q2 2026), which would
+  // flatten every other line, so it starts hidden; its key brings it back.
+  const growthState = {basis: 'est', hidden: new Set(['SpaceX (AI)'])};
+  function renderCapexGrowth() {
+    const panel = document.querySelector('#capexGrowthPanel');
+    if (!panel) return;
+    const again = renderCapexGrowth;
+    const list = flowSeries('capex').map(s => ({...s, raw: onBasis(s.raw, growthState.basis)}));
+    const keys = allQuarters(list.map(s => s.raw)).filter(k => list.some(s => yoy(s.raw, k)));
+    const periods = markPeriods(keys, list.map(s => s.raw));
+    const series = list.map(s => ({...s, points: keys.map(k => { const p = yoy(s.raw, k); return p ? {v: p.v, e: p.e, note: joinNotes(fiscalNote(s.owner, s.raw[k]), p.vs)} : null; })}));
+    segmented(panel.querySelector('[data-ctl=basis]'), BASIS, growthState.basis, v => { growthState.basis = v; again(); });
+    legend(panel.querySelector('.comp-legend'), series, growthState.hidden, again);
+    panel.querySelector('.panel-heading p').textContent = `Capital expenditures, year-over-year % by calendar quarter${growthState.basis === 'rep' ? ', reported only' : ''}`;
+    lineChart(panel.querySelector('.comp-chart'), {label: 'Capex growth', periods, series, hidden: growthState.hidden,
+      fmt: (v, long) => fmtPct(v, long ? 1 : 0), axisFmt: v => v + '%'});
+  }
+
+  // ---------- estimates vs actuals ledger ----------
+  const METRIC = {capex: ['Capex', fmtB], fcf: ['Free cash flow', fmtB], cloud: ['Cloud revenue', fmtB],
+    capacity: ['Capacity added', v => (Math.abs(v) >= 10 ? v.toFixed(1) : v.toFixed(2)) + ' GW']};
+  const shortDate = iso => { const d = new Date(iso + 'T12:00:00'); return isNaN(d) ? iso : d.toLocaleDateString('en-US', {month: 'short', day: 'numeric'}); };
+  function renderActuals() {
+    const host = document.querySelector('#actualsTable');
+    if (!host) return;
+    const done = ACTUALS.filter(a => a.actual != null).sort((a, b) => (b.reported || '').localeCompare(a.reported || ''));
+    const waiting = ACTUALS.filter(a => a.actual == null).sort((a, b) => (a.due || '9').localeCompare(b.due || '9') || a.company.localeCompare(b.company));
+    const name = a => a.company === 'SpaceX' && a.metric === 'capex' ? 'SpaceX (AI)' : a.company;
+    const row = a => {
+      const [label, fmt] = METRIC[a.metric] || [a.metric, fmtB];
+      const color = COLORS[a.company] || 'var(--benchmark)';
+      const reported = a.actual != null;
+      const gap = reported ? vsLine(a.actual, a.estimate, fmt).replace(/^est [^,]+, /, '') : '';
+      return `<tr class="${reported ? '' : 'waiting'}"><th scope="row" class="sticky" style="color:${color}">${esc(name(a))}</th>`
+        + `<td class="metric-col">${esc(label)}</td><td>${esc(a.quarter.slice(5) + " '" + a.quarter.slice(2, 4))}</td>`
+        + `<td class="est">${a.estimate == null ? '<span class="nd">–</span>' : esc(fmt(a.estimate))}</td>`
+        + `<td>${reported ? esc(fmt(a.actual)) : '<span class="nd">–</span>'}</td>`
+        + `<td>${reported ? esc(gap) : ''}</td>`
+        + `<td class="ledger-note"${a.source ? ` title="${esc(a.source)}"` : ''}>${reported ? 'reported ' + esc(shortDate(a.reported)) + (a.source ? ' <span class="ledger-i" aria-hidden="true">i</span>' : '') : (a.due ? 'reports ' + esc(shortDate(a.due)) : 'next report')}</td></tr>`;
+    };
+    host.innerHTML = `<div class="figures-scroll"><table class="figures-table ledger-table"><thead><tr><th scope="col" class="sticky">Company</th><th scope="col" class="metric-col">Metric</th><th scope="col">Quarter</th><th scope="col" class="est">Estimate</th><th scope="col">Actual</th><th scope="col">Actual vs est</th><th scope="col" class="ledger-note"></th></tr></thead>`
+      + `<tbody>${done.map(row).join('')}${waiting.map(row).join('')}</tbody></table></div>`;
   }
 
   const d = new Date(data.updatedAt);
@@ -365,5 +461,7 @@
   document.querySelectorAll('[data-comps-source]').forEach(el => { el.textContent = `Cloud, capex and cash flow from ${data.workbook}, saved ${stamp}`; });
   renderCloud();
   renderFlow('capex');
+  renderCapexGrowth();
   renderFlow('fcf');
+  renderActuals();
 })();
