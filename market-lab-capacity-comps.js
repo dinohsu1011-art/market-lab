@@ -411,23 +411,39 @@
       ]}))});
   }
 
-  // ---------- capex growth: year-over-year % by calendar quarter ----------
+  // ---------- capex growth: year-over-year %, by calendar quarter or calendar year ----------
   // SpaceX AI capex starts from a tiny 2025 base (+2,000% in Q2 2026), which would
   // flatten every other line, so it starts hidden; its key brings it back.
-  const growthState = {basis: 'est', hidden: new Set(['SpaceX (AI)'])};
+  const growthState = {mode: 'quarterly', basis: 'est', hidden: new Set(['SpaceX (AI)'])};
   function renderCapexGrowth() {
     const panel = document.querySelector('#capexGrowthPanel');
     if (!panel) return;
     const again = renderCapexGrowth;
     const list = flowSeries('capex').map(s => ({...s, raw: onBasis(s.raw, growthState.basis)}));
-    const keys = allQuarters(list.map(s => s.raw)).filter(k => list.some(s => yoy(s.raw, k)));
-    const periods = markPeriods(keys, list.map(s => s.raw));
-    const series = list.map(s => ({...s, points: keys.map(k => { const p = yoy(s.raw, k); return p ? {v: p.v, e: p.e, note: joinNotes(fiscalNote(s.owner, s.raw[k]), p.vs)} : null; })}));
+    const annual = growthState.mode === 'annual';
+    segmented(panel.querySelector('[data-ctl=mode]'), FLOWS.capex.modes, growthState.mode, v => { growthState.mode = v; again(); });
     segmented(panel.querySelector('[data-ctl=basis]'), BASIS, growthState.basis, v => { growthState.basis = v; again(); });
-    legend(panel.querySelector('.comp-legend'), series, growthState.hidden, again);
-    panel.querySelector('.panel-heading p').textContent = `Capital expenditures, year-over-year % by calendar quarter${growthState.basis === 'rep' ? ', reported only' : ''}`;
-    lineChart(panel.querySelector('.comp-chart'), {label: 'Capex growth', periods, series, hidden: growthState.hidden,
-      fmt: (v, long) => fmtPct(v, long ? 1 : 0), axisFmt: v => v + '%'});
+    panel.querySelector('.panel-heading p').textContent = `Capital expenditures, year-over-year % by calendar ${annual ? 'year' : 'quarter'}${growthState.basis === 'rep' ? ', reported only' : ''}`;
+    const host = panel.querySelector('.comp-chart');
+    const pct = (v, long) => fmtPct(v, long ? 1 : 0);
+    if (annual) {
+      // A calendar year needs all four quarters in both years; a year with any estimated quarter is drawn as an estimate.
+      const yearGrowth = (s, y) => {
+        const cur = sumQuarters(s.raw, yearKeys(y)), g = growth(cur, sumQuarters(s.raw, yearKeys(y - 1)));
+        return g ? {...g, note: cur.note} : null;
+      };
+      const years = [...new Set(allQuarters(list.map(s => s.raw)).map(k => k.slice(0, 4)))].filter(y => list.some(s => yearGrowth(s, y)));
+      const series = list.map(s => ({...s, values: years.map(y => yearGrowth(s, y))}));
+      legend(panel.querySelector('.comp-legend'), series, growthState.hidden, again);
+      const groups = years.map(y => ({label: y, title: `Calendar ${y}`, estimate: series.every(s => { const g = s.values[years.indexOf(y)]; return !g || g.e; })}));
+      columnChart(host, {label: 'Capex growth, calendar year', groups, series, hidden: growthState.hidden, fmt: pct, labelFmt: v => Math.round(v) + '%', axisFmt: v => v + '%'});
+    } else {
+      const keys = allQuarters(list.map(s => s.raw)).filter(k => list.some(s => yoy(s.raw, k)));
+      const periods = markPeriods(keys, list.map(s => s.raw));
+      const series = list.map(s => ({...s, points: keys.map(k => { const p = yoy(s.raw, k); return p ? {v: p.v, e: p.e, note: joinNotes(fiscalNote(s.owner, s.raw[k]), p.vs)} : null; })}));
+      legend(panel.querySelector('.comp-legend'), series, growthState.hidden, again);
+      lineChart(host, {label: 'Capex growth', periods, series, hidden: growthState.hidden, fmt: pct, axisFmt: v => v + '%'});
+    }
   }
 
   // ---------- estimates vs actuals ledger ----------
