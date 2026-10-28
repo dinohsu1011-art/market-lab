@@ -2,7 +2,7 @@
 // The comps workbook re-export overwrites estimates, so the pre-report estimate is
 // frozen here. Add the actual (and reported date + source) when a company reports;
 // the charts and tables then draw that quarter as reported and show the estimate beside it.
-// metric: capex | fcf | cloud ($B, same basis as market-lab-capacity-comps-data.js)
+// metric: capex | fcf | cloud | aiRevenue ($B, same basis as market-lab-capacity-comps-data.js)
 //         capacity (GW added in the quarter)
 // company: the company name used on the page (Microsoft, Google, Amazon, Oracle, Meta, SpaceX).
 // quarter: calendar quarter, "2026 Q3".
@@ -16,6 +16,12 @@ window.capacityActuals = {
     {company: 'Oracle', metric: 'capacity', quarter: '2026 Q3', estimate: 1.0, estimateFrom: 'capacity workbook, Sep 1 (implied)', actual: 0.85, reported: '2026-09-11',
       source: 'Your update, Sep 11: Oracle Q3 2026 landed at 0.85 GW.'},
 
+    {company: 'SpaceX', metric: 'capex', quarter: '2026 Q3', estimate: 16.8834, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 16.444, reported: '2026-10-20',
+      source: 'SpaceX 10-Q (filed Oct 22), segment table: SI (formerly AI) segment capex, three months to Sep 30. Whole-company capex was $19.59B.'},
+    {company: 'SpaceX', metric: 'aiRevenue', quarter: '2026 Q3', estimate: 6.2752, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 7.56, reported: '2026-10-20',
+      source: 'SpaceX 10-Q (filed Oct 22), segment table: SI (formerly AI) segment revenue, three months to Sep 30. Includes Cursor from its acquisition.'},
+    {company: 'SpaceX', metric: 'fcf', quarter: '2026 Q3', estimate: -11.616, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: -9.962, reported: '2026-10-20',
+      source: 'SpaceX 10-Q (filed Oct 22): operating cash flow $9.631B minus purchases of property and equipment $19.593B (nine-month less six-month figures). Whole company.'},
     // Waiting on the report. Estimates frozen from the Oct 16 workbook.
     {company: 'Microsoft', metric: 'capex', quarter: '2026 Q3', estimate: 51.7974, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-28'},
     {company: 'Microsoft', metric: 'cloud', quarter: '2026 Q3', estimate: 32.2504, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-28'},
@@ -26,8 +32,6 @@ window.capacityActuals = {
     {company: 'Amazon', metric: 'capex', quarter: '2026 Q3', estimate: 58.5355, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-30'},
     {company: 'Amazon', metric: 'cloud', quarter: '2026 Q3', estimate: 45.5366, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-30'},
     {company: 'Amazon', metric: 'fcf', quarter: '2026 Q3', estimate: 24.1964, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-30'},
-    {company: 'SpaceX', metric: 'capex', quarter: '2026 Q3', estimate: 16.8834, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
-    {company: 'SpaceX', metric: 'fcf', quarter: '2026 Q3', estimate: -11.616, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
     {company: 'Oracle', metric: 'capex', quarter: '2026 Q4', estimate: 20.2412, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
     {company: 'Oracle', metric: 'cloud', quarter: '2026 Q4', estimate: 9.0593, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
     {company: 'Oracle', metric: 'fcf', quarter: '2026 Q4', estimate: -15.0304, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
@@ -36,5 +40,11 @@ window.capacityActuals = {
   backfill: [
     {company: 'Oracle', metric: 'capex', quarter: '2024 Q1', value: 1.674, fiscal: 'FY24 Q3',
       source: 'Oracle 10-Q, quarter ended Feb 29, 2024: nine-month capex $4.068B minus six-month $2.394B.'},
+    {company: 'SpaceX', metric: 'capex', quarter: '2025 Q3', value: 4.76, fiscal: 'FY25 Q3',
+      source: 'SpaceX 10-Q for Sep 30, 2026, segment table: SI segment capex, three months to Sep 30, 2025.'},
+    {company: 'SpaceX', metric: 'aiRevenue', quarter: '2025 Q3', value: 0.813, fiscal: 'FY25 Q3',
+      source: 'SpaceX 10-Q for Sep 30, 2026, segment table: SI segment revenue, three months to Sep 30, 2025.'},
+    {company: 'SpaceX', metric: 'fcf', quarter: '2025 Q3', value: -3.112, fiscal: 'FY25 Q3',
+      source: 'SpaceX 10-Q filings: operating cash flow $3.769B minus property and equipment $6.881B (nine-month less six-month, 2025).'},
   ],
 };

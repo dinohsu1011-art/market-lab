@@ -468,14 +468,14 @@
   }
 
   // ---------- estimates vs actuals ledger ----------
-  const METRIC = {capex: ['Capex', fmtB], fcf: ['Free cash flow', fmtB], cloud: ['Cloud revenue', fmtB],
+  const METRIC = {capex: ['Capex', fmtB], fcf: ['Free cash flow', fmtB], cloud: ['Cloud revenue', fmtB], aiRevenue: ['AI revenue', fmtB],
     capacity: ['Capacity added', v => (Math.abs(v) >= 10 ? v.toFixed(1) : v.toFixed(2)) + ' GW']};
   const shortDate = iso => { const d = new Date(iso + 'T12:00:00'); return isNaN(d) ? iso : d.toLocaleDateString('en-US', {month: 'short', day: 'numeric'}); };
   function renderActuals() {
     const host = document.querySelector('#actualsTable');
     if (!host) return;
     // One block per company: companies with a fresh report first, then by next report date.
-    const ORDER = {capex: 0, cloud: 1, fcf: 2, capacity: 3};
+    const ORDER = {capex: 0, cloud: 1, aiRevenue: 1, fcf: 2, capacity: 3};
     const groups = {};
     ACTUALS.forEach(a => (groups[a.company] = groups[a.company] || []).push(a));
     const lastReport = rows => rows.reduce((m, a) => (a.actual != null && (a.reported || '') > m ? a.reported : m), '');
