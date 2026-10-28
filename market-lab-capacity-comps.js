@@ -437,15 +437,24 @@
   function renderActuals() {
     const host = document.querySelector('#actualsTable');
     if (!host) return;
-    const done = ACTUALS.filter(a => a.actual != null).sort((a, b) => (b.reported || '').localeCompare(a.reported || ''));
-    const waiting = ACTUALS.filter(a => a.actual == null).sort((a, b) => (a.due || '9').localeCompare(b.due || '9') || a.company.localeCompare(b.company));
-    const name = a => a.company === 'SpaceX' && a.metric === 'capex' ? 'SpaceX (AI)' : a.company;
-    const row = a => {
-      const [label, fmt] = METRIC[a.metric] || [a.metric, fmtB];
+    // One block per company: companies with a fresh report first, then by next report date.
+    const ORDER = {capex: 0, cloud: 1, fcf: 2, capacity: 3};
+    const groups = {};
+    ACTUALS.forEach(a => (groups[a.company] = groups[a.company] || []).push(a));
+    const lastReport = rows => rows.reduce((m, a) => (a.actual != null && (a.reported || '') > m ? a.reported : m), '');
+    const nextDue = rows => rows.reduce((m, a) => (a.actual == null && (a.due || '9') < m ? (a.due || '9') : m), '9');
+    const companies = Object.keys(groups).sort((x, y) => lastReport(groups[y]).localeCompare(lastReport(groups[x]))
+      || nextDue(groups[x]).localeCompare(nextDue(groups[y])) || x.localeCompare(y));
+    companies.forEach(c => groups[c].sort((a, b) => (a.actual == null) - (b.actual == null)
+      || a.quarter.localeCompare(b.quarter) || (ORDER[a.metric] ?? 9) - (ORDER[b.metric] ?? 9)));
+    const row = (a, i, rows) => {
+      const [base, fmt] = METRIC[a.metric] || [a.metric, fmtB];
+      const label = a.company === 'SpaceX' && a.metric === 'capex' ? 'AI capex' : base;
       const color = COLORS[a.company] || 'var(--benchmark)';
       const reported = a.actual != null;
       const gap = reported ? vsLine(a.actual, a.estimate, fmt).replace(/^est [^,]+, /, '') : '';
-      return `<tr class="${reported ? '' : 'waiting'}"><th scope="row" class="sticky" style="color:${color}">${esc(name(a))}</th>`
+      const cls = [i === 0 ? 'group-start' : '', reported ? '' : 'waiting'].filter(Boolean).join(' ');
+      return `<tr class="${cls}">${i === 0 ? `<th scope="rowgroup" rowspan="${rows.length}" class="sticky" style="color:${color}">${esc(a.company)}</th>` : ''}`
         + `<td class="metric-col">${esc(label)}</td><td>${esc(a.quarter.slice(5) + " '" + a.quarter.slice(2, 4))}</td>`
         + `<td class="est">${a.estimate == null ? '<span class="nd">–</span>' : esc(fmt(a.estimate))}</td>`
         + `<td>${reported ? esc(fmt(a.actual)) : '<span class="nd">–</span>'}</td>`
@@ -453,7 +462,7 @@
         + `<td class="ledger-note"${a.source ? ` title="${esc(a.source)}"` : ''}>${reported ? 'reported ' + esc(shortDate(a.reported)) + (a.source ? ' <span class="ledger-i" aria-hidden="true">i</span>' : '') : (a.due ? 'reports ' + esc(shortDate(a.due)) : 'next report')}</td></tr>`;
     };
     host.innerHTML = `<div class="figures-scroll"><table class="figures-table ledger-table"><thead><tr><th scope="col" class="sticky">Company</th><th scope="col" class="metric-col">Metric</th><th scope="col">Quarter</th><th scope="col" class="est">Estimate</th><th scope="col">Actual</th><th scope="col">Actual vs est</th><th scope="col" class="ledger-note"></th></tr></thead>`
-      + `<tbody>${done.map(row).join('')}${waiting.map(row).join('')}</tbody></table></div>`;
+      + `<tbody>${companies.map(c => groups[c].map(row).join('')).join('')}</tbody></table></div>`;
   }
 
   const d = new Date(data.updatedAt);
