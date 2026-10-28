@@ -64,6 +64,7 @@ button:disabled {opacity:.4;cursor:default}
 .comps-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:1fr;gap:20px;align-items:stretch}
 .comp-panel {display:flex;flex-direction:column;overflow:visible}
 .comp-panel .panel-heading {min-height:0;padding:18px 20px 6px}
+.comp-panel .panel-heading p {display:none}
 .comp-controls {display:flex;flex-wrap:wrap;gap:8px 12px;padding:4px 20px 2px}
 .seg {display:inline-flex;flex-wrap:wrap;border:1px solid var(--rule);border-radius:4px;overflow:hidden}
 .seg[hidden] {display:none}
