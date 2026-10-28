@@ -478,13 +478,37 @@
     const ORDER = {capex: 0, cloud: 1, aiRevenue: 1, fcf: 2, capacity: 3};
     const groups = {};
     ACTUALS.forEach(a => (groups[a.company] = groups[a.company] || []).push(a));
+    // Each company's capex guide sits at the end of its block.
+    (window.capacityActuals?.guidance || []).forEach(g => (groups[g.company] = groups[g.company] || []).push({...g, guide: true}));
     const lastReport = rows => rows.reduce((m, a) => (a.actual != null && (a.reported || '') > m ? a.reported : m), '');
     const nextDue = rows => rows.reduce((m, a) => (a.actual == null && (a.due || '9') < m ? (a.due || '9') : m), '9');
     const companies = Object.keys(groups).sort((x, y) => lastReport(groups[y]).localeCompare(lastReport(groups[x]))
       || nextDue(groups[x]).localeCompare(nextDue(groups[y])) || x.localeCompare(y));
-    companies.forEach(c => groups[c].sort((a, b) => (a.actual == null) - (b.actual == null)
-      || a.quarter.localeCompare(b.quarter) || (ORDER[a.metric] ?? 9) - (ORDER[b.metric] ?? 9)));
+    companies.forEach(c => groups[c].sort((a, b) => !!a.guide - !!b.guide || (a.guide ? 0 : (a.actual == null) - (b.actual == null)
+      || a.quarter.localeCompare(b.quarter) || (ORDER[a.metric] ?? 9) - (ORDER[b.metric] ?? 9))));
+    // Capex guide rows: the company's own guide beside the page's sum for the same period.
+    const capexRaw = Object.fromEntries(flowSeries('capex').map(s => [s.owner, s.raw]));
+    const pageSum = g => {
+      const raw = capexRaw[g.company] || {};
+      if (g.pageComparable === false) return null;
+      if (g.fiscalYear) { const ps = Object.values(raw).filter(p => (p.fiscal || '').startsWith(g.fiscalYear + ' ')); return ps.length === 4 ? ps.reduce((a, p) => a + p.v, 0) : null; }
+      if (g.period.startsWith('CY')) return sumQuarters(raw, yearKeys(g.period.slice(2)))?.v ?? null;
+      return raw[g.period]?.v ?? null;
+    };
+    const guideRow = (g, i, rows) => {
+      const color = COLORS[g.company] || 'var(--benchmark)', est = pageSum(g), mid = (g.low + g.high) / 2;
+      const b = v => '$' + v + 'B', gap = est == null ? null : Math.round((mid / est - 1) * 100);
+      const text = g.low === g.high ? (g.approx ? 'about ' : '') + b(g.low) : `${b(g.low)} to ${b(g.high)}`;
+      const period = /^\d{4} Q/.test(g.period) ? g.period.slice(5) + " '" + g.period.slice(2, 4) : g.period.slice(0, 2) + g.period.slice(-2);
+      return `<tr class="guide-row${i === 0 ? ' group-start' : ''}">${i === 0 ? `<th scope="rowgroup" rowspan="${rows.length}" class="sticky" style="color:${color}">${esc(g.company)}</th>` : ''}`
+        + `<td class="metric-col">Capex guide</td><td>${esc(period)}</td>`
+        + `<td class="est">${est == null ? '<span class="nd">–</span>' : esc(fmtB(est))}</td>`
+        + `<td>${esc(text)}</td>`
+        + `<td>${gap == null ? '' : esc(gap ? fmtPct(gap, 0) : '0%')}</td>`
+        + `<td class="ledger-note" title="${esc(g.source)}">guided ${esc(shortDate(g.guided))}${g.change ? ', ' + esc(g.change) : ''} <span class="ledger-i" aria-hidden="true">i</span></td></tr>`;
+    };
     const row = (a, i, rows) => {
+      if (a.guide) return guideRow(a, i, rows);
       const [base, fmt] = METRIC[a.metric] || [a.metric, fmtB];
       const label = a.company === 'SpaceX' && a.metric === 'capex' ? 'AI capex' : base;
       const color = COLORS[a.company] || 'var(--benchmark)';
@@ -498,7 +522,7 @@
         + `<td>${reported ? esc(gap) : ''}</td>`
         + `<td class="ledger-note"${a.source ? ` title="${esc(a.source)}"` : ''}>${reported ? 'reported ' + esc(shortDate(a.reported)) + (a.source ? ' <span class="ledger-i" aria-hidden="true">i</span>' : '') : (a.due ? 'reports ' + esc(shortDate(a.due)) : 'next report')}</td></tr>`;
     };
-    host.innerHTML = `<div class="figures-scroll"><table class="figures-table ledger-table"><thead><tr><th scope="col" class="sticky">Company</th><th scope="col" class="metric-col">Metric</th><th scope="col">Quarter</th><th scope="col" class="est">Estimate</th><th scope="col">Actual</th><th scope="col">Actual vs est</th><th scope="col" class="ledger-note"></th></tr></thead>`
+    host.innerHTML = `<div class="figures-scroll"><table class="figures-table ledger-table"><thead><tr><th scope="col" class="sticky">Company</th><th scope="col" class="metric-col">Metric</th><th scope="col">Period</th><th scope="col" class="est">Estimate</th><th scope="col">Actual or guide</th><th scope="col">vs est</th><th scope="col" class="ledger-note"></th></tr></thead>`
       + `<tbody>${companies.map(c => groups[c].map(row).join('')).join('')}</tbody></table></div>`;
   }
 

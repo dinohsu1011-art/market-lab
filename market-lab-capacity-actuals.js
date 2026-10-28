@@ -36,6 +36,24 @@ window.capacityActuals = {
     {company: 'Oracle', metric: 'cloud', quarter: '2026 Q4', estimate: 9.0593, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
     {company: 'Oracle', metric: 'fcf', quarter: '2026 Q4', estimate: -15.0304, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
   ],
+  // Each company's latest total capex guide, from its own earnings call.
+  // period: CY2026 = calendar 2026; FY2027 = the company's fiscal year (fiscalYear matches the page's fiscal tags);
+  // a quarter ("2026 Q4") is a one-quarter guide. low/high in $B; approx = "about"; change = how it moved from the last guide.
+  // pageComparable: false when the guide covers more than the page tracks (SpaceX: whole company vs AI unit).
+  guidance: [
+    {company: 'Meta', period: 'CY2026', low: 135, high: 145, guided: '2026-10-21', change: 'was $130B to $145B',
+      source: 'Meta Q3 2026 call, Oct 21. Includes finance lease principal; the page counts only purchases of property and equipment (Q3 lease principal was $0.96B). No 2027 number yet.'},
+    {company: 'SpaceX', period: '2026 Q4', low: 35, high: 40, guided: '2026-10-20', change: 'first guide', pageComparable: false,
+      source: 'SpaceX Q3 2026 call, Oct 20: fourth-quarter capex for the whole company. No full-year guide. With $48.1B spent in the first nine months, 2026 lands near $83B to $88B. The page tracks the AI unit only ($18.6B estimate for Q4).'},
+    {company: 'Microsoft', period: 'CY2026', low: 175, high: 175, approx: true, guided: '2026-07-29', change: 'same plan, lease change',
+      source: 'Microsoft FY26 Q4 call, Jul 29. About $175B for calendar 2026 after more data center leases move from finance leases (counted as capex) to operating leases (not counted). Also guided over $50B for Jul to Sep 2026 and fiscal 2027 capex up from fiscal 2026.'},
+    {company: 'Google', period: 'CY2026', low: 195, high: 205, guided: '2026-07-22', change: 'was $180B to $190B',
+      source: 'Alphabet Q2 2026 call, Jul 22. Raised for faster capacity delivery. 2027 capex to "increase significantly", details later.'},
+    {company: 'Amazon', period: 'CY2026', low: 220, high: 220, approx: true, guided: '2026-07-30', change: 'was about $200B',
+      source: 'Amazon Q2 2026 call, Jul 30: about $220B of cash capex in 2026, up from about $200B on higher memory costs.'},
+    {company: 'Oracle', period: 'FY2027', fiscalYear: 'FY27', low: 90, high: 95, guided: '2026-09-10', change: 'kept',
+      source: 'Oracle FY27 Q1 call, Sep 10. Fiscal 2027 runs Jun 2026 to May 2027 (calendar Q3 2026 to Q2 2027). No more than $70B of that is net cash capex after customer prepayments.'},
+  ],
   // Reported quarters missing from the workbook, taken from filings.
   backfill: [
     {company: 'Oracle', metric: 'capex', quarter: '2024 Q1', value: 1.674, fiscal: 'FY24 Q3',
