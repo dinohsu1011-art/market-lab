@@ -154,7 +154,7 @@
         if (g.estimate) svg += `<rect x="${m.l + gi * band + 1}" y="${m.t - 18}" width="${band - 2}" height="${ih + 18}" class="est-band"/>`;
         series.forEach((s, si) => {
           const val = s.values[gi], bx = left + si * bw + gap / 2, w = bw - gap;
-          if (!val) { svg += `<text x="${bx + w / 2}" y="${y(0) - 4}" class="na">n/a</text>`; return; }
+          if (!val) { if (!cfg.quietGaps) svg += `<text x="${bx + w / 2}" y="${y(0) - 4}" class="na">n/a</text>`; return; }
           const color = val.color || s.color;
           const parts = val.parts || [{v: val.v, e: val.e}];
           const solid = parts.filter(p => !p.e).reduce((a, p) => a + p.v, 0);
@@ -383,7 +383,7 @@
     capex: {panel: '#capexPanel', table: '#capexTable', method: '#capexMethod', what: 'Capital expenditures', row: 'Capex',
       modes: [['quarterly', 'Quarterly'], ['annual', 'Calendar year']],
       note: 'Spend shown as a positive number.'},
-    fcf: {panel: '#fcfPanel', table: '#fcfTable', method: '#fcfMethod', what: 'Free cash flow', row: 'FCF',
+    fcf: {panel: '#fcfPanel', table: '#fcfTable', method: '#fcfMethod', what: 'Free cash flow', row: 'FCF', bars: true,
       modes: [['annual', 'Calendar year'], ['ttm', 'Trailing 4 quarters'], ['quarterly', 'Quarterly']],
       note: 'Free cash flow is cash from operations minus capex, as each company or Bloomberg defines it. SpaceX is the whole company, not only its AI unit. Trailing 4 quarters smooths out seasonal swings.'},
   };
@@ -411,9 +411,19 @@
       const value = (s, k) => ttm ? sumQuarters(s.raw, trailingKeys(k)) : s.raw[k] || null;
       const shown = keys.filter(k => list.some(s => value(s, k)));
       const periods = markPeriods(shown, list.map(s => s.raw));
-      const series = list.map(s => ({...s, points: shown.map(k => { const p = value(s, k); return p ? {v: p.v, e: p.e, note: p.note || joinNotes(fiscalNote(s.owner, s.raw[k]), vsB(p))} : null; })}));
-      legend(panel.querySelector('.comp-legend'), series, st.hidden, again);
-      lineChart(host, {label: `${cfg.what}, ${ttm ? 'trailing 4 quarters' : 'quarterly'}`, periods, series, hidden: st.hidden, fmt: fmtB, axisFmt: axisB});
+      const note = (s, k, p) => p.note || joinNotes(fiscalNote(s.owner, s.raw[k]), vsB(p));
+      const label = `${cfg.what}, ${ttm ? 'trailing 4 quarters' : 'quarterly'}`;
+      // Free cash flow swings above and below zero, which reads better as bars.
+      if (cfg.bars) {
+        const groups = periods.map((p, i) => ({label: p.label, sub: i === 0 || periods[i - 1].year !== p.year ? p.year : '', title: p.title, estimate: p.estimate}));
+        const series = list.map(s => ({...s, values: shown.map(k => { const p = value(s, k); return p ? {...p, note: note(s, k, p)} : null; })}));
+        legend(panel.querySelector('.comp-legend'), series, st.hidden, again);
+        columnChart(host, {label, groups, series, hidden: st.hidden, fmt: fmtB, axisFmt: axisB, quietGaps: true});
+      } else {
+        const series = list.map(s => ({...s, points: shown.map(k => { const p = value(s, k); return p ? {v: p.v, e: p.e, note: note(s, k, p)} : null; })}));
+        legend(panel.querySelector('.comp-legend'), series, st.hidden, again);
+        lineChart(host, {label, periods, series, hidden: st.hidden, fmt: fmtB, axisFmt: axisB});
+      }
     }
     flowTables(key);
     document.querySelector(cfg.method).textContent = `${cfg.note} Line items differ by company: ${list.filter(s => !s.total).map(s => `${s.owner}, ${s.field.trim()}`).join('; ')}.${key === 'capex' ? ' Total adds Microsoft, Google, Amazon, Oracle and Meta, only for quarters all five cover; SpaceX is left out.' : ''} A calendar year needs all four quarters; a year that mixes reported and estimated quarters counts as an estimate. Growth is left blank when either period is negative. Under a reported quarter, the small line is the estimate this page showed before the report.`;
