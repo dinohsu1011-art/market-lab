@@ -76,6 +76,12 @@ window.capacityActuals = {
     {company: 'Oracle', period: 'FY2028', fiscalYear: 'FY28', outlook: true, text: 'peak, with FY27', guided: '2026-10-28', change: 'falls in FY29',
       source: 'Oracle investor day, Oct 28: "a period of peak CapEx in fiscal 2027 and 2028, with our CapEx stepping down in fiscal 2029." Asked whether FY28 equals FY27, the CFO pointed to the $37B-per-GW example and said more of the new gigawatts ramp next year than this year. About 10 GW in place by the end of fiscal 2028.'},
   ],
+  // Estimates replaced after a company's own guide made the workbook figure stale. Delete a row
+  // once the workbook is refreshed past it.
+  estimateOverrides: [
+    {company: 'Amazon', metric: 'capex', quarter: '2026 Q4', value: 49.193, workbook: 64.8195,
+      note: 'Set from Amazon\'s guide: about $220B net for 2026 less $172.19B net in Jan to Sep leaves $47.81B, plus about $1.38B of proceeds and incentives (the Q3 level) to match gross purchases. Workbook had $64.8B.'},
+  ],
   // Reported quarters missing from the workbook, taken from filings.
   backfill: [
     {company: 'Oracle', metric: 'capex', quarter: '2024 Q1', value: 1.674, fiscal: 'FY24 Q3',

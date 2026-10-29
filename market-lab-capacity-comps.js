@@ -227,7 +227,7 @@
   // A cell's vs line (estimate before the report) prints small under the reported value.
   function figuresTable(host, {columns, rowGroups, caption}) {
     const head = `<tr><th scope="col" class="sticky">${esc(caption || '')}</th><th scope="col" class="metric-col"></th>${columns.map(c => `<th scope="col" class="${c.estimate ? 'est' : ''}${c.divider ? ' divider' : ''}">${esc(c.label)}${c.sub ? `<small>${esc(c.sub)}</small>` : ''}</th>`).join('')}</tr>`;
-    const body = rowGroups.map(g => g.rows.map((r, ri) => `<tr class="${ri === 0 ? 'group-start' : ''}">${ri === 0 ? `<th scope="rowgroup" rowspan="${g.rows.length}" class="sticky" style="color:${g.color}">${esc(g.name)}</th>` : ''}<td class="metric-col">${esc(r.label)}</td>${r.cells.map((c, i) => `<td class="${c && c.e ? 'est' : ''}${c && c.vs ? ' has-vs' : ''}${columns[i].divider ? ' divider' : ''}">${c == null || c.v == null ? '<span class="nd">–</span>' : esc(c.text ?? r.fmt(c.v)) + (c.vs ? `<small class="vs">${esc(c.vs)}</small>` : '')}</td>`).join('')}</tr>`).join('')).join('');
+    const body = rowGroups.map(g => g.rows.map((r, ri) => `<tr class="${ri === 0 ? 'group-start' : ''}">${ri === 0 ? `<th scope="rowgroup" rowspan="${g.rows.length}" class="sticky" style="color:${g.color}">${esc(g.name)}</th>` : ''}<td class="metric-col">${esc(r.label)}</td>${r.cells.map((c, i) => `<td class="${c && c.e ? 'est' : ''}${c && c.vs ? ' has-vs' : ''}${columns[i].divider ? ' divider' : ''}"${c && c.why ? ` title="${esc(c.why)}"` : ''}>${c == null || c.v == null ? '<span class="nd">–</span>' : esc(c.text ?? r.fmt(c.v)) + (c.vs ? `<small class="vs">${esc(c.vs)}</small>` : '')}</td>`).join('')}</tr>`).join('')).join('');
     host.innerHTML = `<div class="figures-scroll"><table class="figures-table"><thead>${head}</thead><tbody>${body}</tbody></table></div>`;
   }
 
@@ -279,6 +279,12 @@
     const m = data.companies.find(c => c.name === a.company)?.metrics[a.metric];
     if (m) m.series[a.quarter] = {...m.series[a.quarter], v: a.actual, e: false, est: a.estimate};
   });
+  // A company guide can make a workbook estimate stale; these replace it and say why.
+  (window.capacityActuals?.estimateOverrides || []).forEach(o => {
+    const m = data.companies.find(c => c.name === o.company)?.metrics[o.metric];
+    const p = m?.series[o.quarter];
+    if (p && p.e) m.series[o.quarter] = {...p, v: o.value, why: 'from guide, workbook ' + fmtB(o.workbook)};
+  });
   // Reported quarters the workbook starts too late to cover. Never overwrites a workbook value.
   (window.capacityActuals?.backfill || []).forEach(b => {
     const m = data.companies.find(c => c.name === b.company)?.metrics[b.metric];
@@ -296,7 +302,7 @@
   const allQuarters = seriesList => [...new Set(seriesList.flatMap(s => Object.keys(s)))].sort();
   const markPeriods = (keys, seriesList) => keys.map(k => ({...periodObj(k), estimate: seriesList.every(s => !s[k] || s[k].e)}));
   // Microsoft and Oracle fiscal years differ from the calendar; say which company quarter a point is.
-  const fiscalNote = (owner, p) => p && p.fiscal && /^(Microsoft|Oracle)$/.test(owner) ? `Company ${p.fiscal}` : '';
+  const fiscalNote = (owner, p) => [p && p.fiscal && /^(Microsoft|Oracle)$/.test(owner) ? `Company ${p.fiscal}` : '', p?.why].filter(Boolean).join('; ');
   const vsB = p => p && p.est != null ? vsLine(p.v, p.est, fmtB) : '';
   const joinNotes = (...parts) => parts.filter(Boolean).join('; ');
   const withVs = p => p ? {...p, vs: vsB(p)} : null;
