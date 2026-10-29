@@ -292,6 +292,7 @@
   });
   const quarterKey = (y, q) => `${y} Q${q}`;
   const prevYearKey = k => quarterKey(Number(k.slice(0, 4)) - 1, k.slice(-1));
+  const prevQuarterKey = k => k.endsWith('Q1') ? quarterKey(Number(k.slice(0, 4)) - 1, 4) : quarterKey(k.slice(0, 4), Number(k.slice(-1)) - 1);
   const periodObj = k => ({key: k, label: 'Q' + k.slice(-1), year: k.slice(0, 4), title: `${k.slice(0, 4)} Q${k.slice(-1)} (calendar)`});
   const state = {cloudMode: 'yoy', cloudBasis: 'est', cloudHidden: new Set()};
 
@@ -557,6 +558,25 @@
       + `<tbody>${companies.map(c => groups[c].map(row).join('')).join('')}${guideTotal()}</tbody></table></div>`;
   }
 
+  // Backlog (RPO) at each quarter end, from filings. Reported only, so no estimate columns.
+  function renderBacklog() {
+    const host = document.querySelector('#backlogTable');
+    const rows = window.capacityActuals?.backlog || [];
+    if (!host || !rows.length) return;
+    const raw = rows.map(b => Object.fromEntries(Object.entries(b.points).map(([k, [v, fiscal]]) => [k, {v, e: false, why: fiscal && b.company !== 'Google' ? `Company ${fiscal}` : ''}])));
+    const keys = allQuarters(raw).filter(k => k >= '2024 Q1');
+    const added = (r, k) => r[k] && r[prevQuarterKey(k)] ? {v: r[k].v - r[prevQuarterKey(k)].v, e: false} : null;
+    figuresTable(host, {caption: 'Quarter end', columns: quarterColumns(markPeriods(keys, raw)), rowGroups: rows.map((b, i) => ({
+      name: b.company, color: COLORS[b.company], rows: [
+        {label: 'Backlog', fmt: fmtB, cells: keys.map(k => raw[i][k] || null)},
+        {label: 'Added', fmt: v => (v > 0 ? '+' : '') + fmtB(v), cells: keys.map(k => added(raw[i], k))},
+        {label: 'YoY', fmt: pctCell, cells: keys.map(k => yoy(raw[i], k))},
+      ]}))});
+    document.querySelector('#backlogMethod').textContent = 'Backlog is remaining performance obligations: contract revenue signed but not yet recognized. '
+      + rows.map(b => `${b.company}: ${b.what}.`).join(' ') + ' Microsoft (June year-end) and Oracle (May year-end) map to the calendar quarter their period ends in; hover a cell for the company quarter. Added is the change from the quarter before. '
+      + 'Sources: ' + rows.map(b => b.source).join(' ');
+  }
+
   const d = new Date(data.updatedAt);
   const stamp = isNaN(d) ? data.updatedAt : d.toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric'});
   document.querySelectorAll('[data-comps-source]').forEach(el => { el.textContent = `Cloud, capex and cash flow from ${data.workbook}, saved ${stamp}`; });
@@ -565,4 +585,5 @@
   renderCapexGrowth();
   renderFlow('fcf');
   renderActuals();
+  renderBacklog();
 })();

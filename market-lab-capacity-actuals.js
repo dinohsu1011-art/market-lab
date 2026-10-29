@@ -76,6 +76,38 @@ window.capacityActuals = {
     {company: 'Oracle', period: 'FY2028', fiscalYear: 'FY28', outlook: true, text: 'peak, with FY27', guided: '2026-10-28', change: 'falls in FY29',
       source: 'Oracle investor day, Oct 28: "a period of peak CapEx in fiscal 2027 and 2028, with our CapEx stepping down in fiscal 2029." Asked whether FY28 equals FY27, the CFO pointed to the $37B-per-GW example and said more of the new gigawatts ramp next year than this year. About 10 GW in place by the end of fiscal 2028.'},
   ],
+  // Backlog: remaining performance obligations (signed contract revenue not yet recognized), $B at
+  // each quarter end, from 10-Q and 10-K filings. Quarters are calendar quarters; Microsoft and Oracle
+  // map to the calendar quarter their period ends in. Each value is [backlog, company fiscal quarter].
+  backlog: [
+    {company: 'Microsoft', what: 'Total RPO; Microsoft also gives commercial RPO, a little smaller, in its release', ends: 'Mar, Jun, Sep, Dec',
+      points: {'2023 Q1': [201.0, 'FY23 Q3'], '2023 Q2': [229.0, 'FY23 Q4'], '2023 Q3': [216.0, 'FY24 Q1'], '2023 Q4': [229.0, 'FY24 Q2'],
+        '2024 Q1': [242.0, 'FY24 Q3'], '2024 Q2': [275.0, 'FY24 Q4'], '2024 Q3': [266.0, 'FY25 Q1'], '2024 Q4': [304.0, 'FY25 Q2'],
+        '2025 Q1': [321.0, 'FY25 Q3'], '2025 Q2': [375.0, 'FY25 Q4'], '2025 Q3': [398.0, 'FY26 Q1'], '2025 Q4': [631.0, 'FY26 Q2'],
+        '2026 Q1': [633.0, 'FY26 Q3'], '2026 Q2': [684.0, 'FY26 Q4'], '2026 Q3': [683.0, 'FY27 Q1']},
+      source: 'Microsoft 10-Q and 10-K, revenue note. Latest: 10-Q for Sep 30, 2026, filed Oct 28.'},
+    {company: 'Google', what: 'Alphabet RPO, mostly Google Cloud', ends: 'Mar, Jun, Sep, Dec',
+      points: {'2023 Q1': [61.7], '2023 Q2': [60.6], '2023 Q3': [64.9], '2023 Q4': [74.1],
+        '2024 Q1': [72.5], '2024 Q2': [78.8], '2024 Q3': [86.8], '2024 Q4': [93.2],
+        '2025 Q1': [92.4], '2025 Q2': [108.2], '2025 Q3': [157.7], '2025 Q4': [242.8],
+        '2026 Q1': [467.6], '2026 Q2': [519.5], '2026 Q3': [567.7]},
+      source: 'Alphabet 10-Q and 10-K, revenue note. Latest: 10-Q for Sep 30, 2026, filed Oct 29.'},
+    {company: 'Amazon', what: 'Amazon RPO, primarily AWS', ends: 'Mar, Jun, Sep, Dec',
+      points: {'2023 Q1': [122.0], '2023 Q2': [132.1], '2023 Q3': [133.0], '2023 Q4': [155.7],
+        '2024 Q1': [157.7], '2024 Q2': [156.6], '2024 Q3': [164], '2024 Q4': [177],
+        '2025 Q1': [189], '2025 Q2': [195], '2025 Q3': [200], '2025 Q4': [244],
+        '2026 Q1': [364], '2026 Q2': [496], '2026 Q3': [578]},
+      source: 'Amazon 10-Q and 10-K, unearned revenue note ("primarily related to AWS"), rounded to the billion from Q3 2024. Q3 2026 is the AWS backlog from the Oct 29 call.'},
+    {company: 'Oracle', what: 'Oracle RPO', ends: 'Feb, May, Aug, Nov',
+      points: {'2023 Q1': [62.3, 'FY23 Q3'], '2023 Q2': [67.9, 'FY23 Q4'], '2023 Q3': [64.9, 'FY24 Q1'], '2023 Q4': [65.5, 'FY24 Q2'],
+        '2024 Q1': [80.2, 'FY24 Q3'], '2024 Q2': [97.9, 'FY24 Q4'], '2024 Q3': [99.1, 'FY25 Q1'], '2024 Q4': [97.3, 'FY25 Q2'],
+        '2025 Q1': [130.2, 'FY25 Q3'], '2025 Q2': [137.8, 'FY25 Q4'], '2025 Q3': [455.3, 'FY26 Q1'], '2025 Q4': [523.3, 'FY26 Q2'],
+        '2026 Q1': [552.6, 'FY26 Q3'], '2026 Q2': [638.0, 'FY26 Q4'], '2026 Q3': [664.0, 'FY27 Q1']},
+      source: 'Oracle 10-Q and 10-K, revenue note. Latest: 10-Q for Aug 31, 2026, filed Sep 11.'},
+    {company: 'SpaceX', what: 'SpaceX RPO', ends: 'Mar, Jun, Sep, Dec',
+      points: {'2026 Q2': [47.5], '2026 Q3': [63.0]},
+      source: 'SpaceX 10-Q, revenue note. First reported for Jun 30, 2026; latest 10-Q for Sep 30, 2026, filed Oct 22.'},
+  ],
   // Estimates replaced after a company's own guide made the workbook figure stale. Delete a row
   // once the workbook is refreshed past it.
   estimateOverrides: [
