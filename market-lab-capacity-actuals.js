@@ -9,7 +9,7 @@
 // company: the company name used on the page (Microsoft, Google, Amazon, Oracle, Meta, SpaceX).
 // quarter: calendar quarter, "2026 Q3".
 window.capacityActuals = {
-  updatedAt: '2026-10-29',
+  updatedAt: '2026-10-30',
   entries: [
     {company: 'Meta', metric: 'capex', quarter: '2026 Q3', priorText: 'none', estimate: 40.9682, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 33.942, reported: '2026-10-21',
       source: 'Meta 8-K Ex 99.1: purchases of property and equipment. Including finance lease principal ($0.96B) it was $34.91B. FY26 capex guide (with finance leases) $135B to $145B, was $130B to $145B.'},
@@ -36,10 +36,12 @@ window.capacityActuals = {
       source: 'Alphabet 8-K Ex 99.1: Google Cloud segment revenue, up 103%.'},
     {company: 'Google', metric: 'fcf', quarter: '2026 Q3', priorText: 'none', estimate: -3.3064, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: -9.065, reported: '2026-10-28',
       source: 'Alphabet 8-K Ex 99.1: operating cash flow $42.290B minus purchases of property and equipment $51.355B.'},
-    // Waiting on the report. Estimates frozen from the Oct 16 workbook.
-    {company: 'Amazon', metric: 'capex', quarter: '2026 Q3', priorText: 'none', estimate: 58.5355, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-30'},
-    {company: 'Amazon', metric: 'cloud', quarter: '2026 Q3', priorText: 'none', estimate: 45.5366, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-30'},
-    {company: 'Amazon', metric: 'fcf', quarter: '2026 Q3', priorText: 'none', estimate: 24.1964, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: '2026-10-30'},
+    {company: 'Amazon', metric: 'capex', quarter: '2026 Q3', priorText: 'none', estimate: 58.5355, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 77.259, reported: '2026-10-29',
+      source: 'Amazon 8-K Ex 99.1: purchases of property and equipment, Jul to Sep 2026, up 120% from $35.10B. Net of $1.38B proceeds and incentives it was $75.88B, the $75.9B "cash capex" on the call. Kept about $220B for 2026, which leaves about $48B for Oct to Dec after $172.2B net in the first nine months.'},
+    {company: 'Amazon', metric: 'cloud', quarter: '2026 Q3', priorText: 'none', estimate: 45.5366, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: 45.984, reported: '2026-10-29',
+      source: 'Amazon 8-K Ex 99.1: AWS segment net sales, up 39.3%, sixth straight quarter of faster growth. Run rate $184B, backlog $578B. Operating income $17.8B (38.7% margin). Andy Jassy expects AWS to grow over 40% in each of 2027 and 2028.'},
+    {company: 'Amazon', metric: 'fcf', quarter: '2026 Q3', priorText: 'none', estimate: 24.1964, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: -34.837, reported: '2026-10-29',
+      source: 'Amazon 8-K Ex 99.1: operating cash flow $42.422B minus purchases of property and equipment $77.259B. Amazon\'s own definition (net of proceeds and incentives) gives -$33.46B; trailing twelve months -$42.4B.'},
     {company: 'Oracle', metric: 'capex', quarter: '2026 Q4', priorText: 'none', estimate: 20.2412, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null},
     {company: 'Oracle', metric: 'cloud', quarter: '2026 Q4', priorText: 'no OCI guide', estimate: 9.0593, estimateFrom: 'Hyperscaler Comps.xlsx, saved Oct 16', actual: null, due: null,
       source: 'FY27 Q1 call (Sep 10) guided total cloud revenue (OCI plus apps) up 65% to 71% for Sep to Nov, with no OCI-only figure.'},
@@ -65,8 +67,10 @@ window.capacityActuals = {
       source: 'Alphabet Q3 2026 call, Oct 28: kept $195B to $205B for 2026. 2027 capex to "increase significantly", with details on the Q4 call. Purchase commitments reached $924B; started using third-party compute late in Q3.'},
     {company: 'Google', period: 'CY2027', outlook: true, text: 'up significantly', guided: '2026-10-28', change: 'number on Q4 call',
       source: 'Alphabet Q3 2026 call, Oct 28: "We continue to expect our CapEx to increase significantly in 2027 and will provide further details on our Q4 call."'},
-    {company: 'Amazon', period: 'CY2026', low: 220, high: 220, approx: true, prevLow: 200, prevHigh: 200, prevApprox: true, guided: '2026-07-30', change: 'higher memory costs',
-      source: 'Amazon Q2 2026 call, Jul 30: about $220B of cash capex in 2026, up from about $200B on higher memory costs.'},
+    {company: 'Amazon', period: 'CY2026', low: 220, high: 220, approx: true, prevLow: 220, prevHigh: 220, prevApprox: true, guided: '2026-10-29', change: 'kept',
+      source: 'Amazon Q3 2026 call, Oct 29 (Andy Jassy): "We still expect 2026 cash CapEx of approximately $220 billion, the majority for AWS." Cash capex is net of proceeds and incentives; the page counts gross purchases. Q2 call (Jul 30) raised it from about $200B on higher memory costs.'},
+    {company: 'Amazon', period: 'CY2027', outlook: true, text: 'meaningfully more', guided: '2026-10-29', change: 'no number',
+      source: 'Amazon Q3 2026 call, Oct 29 (Andy Jassy): expects "to spend meaningfully more in 2027 with a clear line of sight to attractive financial returns." AWS to grow over 40% in each of 2027 and 2028; very good visibility into 2027, 2028 and some of 2029, as large blocks of capacity (hundreds of MW to 1 GW) are reserved well ahead.'},
     {company: 'Oracle', period: 'FY2027', fiscalYear: 'FY27', low: 90, high: 95, prevLow: 90, prevHigh: 95, guided: '2026-10-28', change: 'kept',
       source: 'Oracle FY27 Q1 call (Sep 10) set $90B to $95B for fiscal 2027 (Jun 2026 to May 2027); no more than $70B is net cash capex. Investor day, Oct 28: capex peaks in fiscal 2027 and 2028 and steps down in fiscal 2029. About 7 GW more capacity over the next two years, about 10 GW by the end of fiscal 2028. A 1 GW site costs about $37B of capex and earns about $16B a year once running. Free cash flow positive in the second half of fiscal 2028 and over $30B in fiscal 2029. A final $20B raise ($10B equity, $10B debt) funds the rest of the build. RPO $664B. No new dollar capex figure.'},
     {company: 'Oracle', period: 'FY2028', fiscalYear: 'FY28', outlook: true, text: 'peak, with FY27', guided: '2026-10-28', change: 'falls in FY29',
