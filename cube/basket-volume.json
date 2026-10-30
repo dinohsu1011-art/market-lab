@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "as_of": "2026-10-27",
+  "as_of": "2026-10-29",
   "baseline": "5-session USD volume vs prior 252-session mean",
   "rows": [
     {
@@ -10,20 +10,20 @@
       "kind": "basket",
       "members": 8,
       "coverage": 1.0,
-      "accel5d": 2.46,
-      "spike1d": 1.71,
+      "accel5d": 1.58,
+      "spike1d": 1.15,
       "drivers": [
         {
           "symbol": "SPCX",
-          "share": 0.93
+          "share": 0.89
         },
         {
           "symbol": "RKLB",
-          "share": 0.04
+          "share": 0.05
         },
         {
           "symbol": "ASTS",
-          "share": 0.02
+          "share": 0.03
         }
       ]
     },
@@ -34,20 +34,20 @@
       "kind": "basket",
       "members": 6,
       "coverage": 0.83,
-      "accel5d": 1.66,
-      "spike1d": 1.24,
+      "accel5d": 1.46,
+      "spike1d": 0.97,
       "drivers": [
         {
           "symbol": "BE",
-          "share": 0.89
+          "share": 0.88
         },
         {
           "symbol": "FTAI",
-          "share": 0.06
+          "share": 0.08
         },
         {
           "symbol": "SEI",
-          "share": 0.04
+          "share": 0.03
         }
       ]
     },
@@ -58,20 +58,20 @@
       "kind": "basket",
       "members": 21,
       "coverage": 1.0,
-      "accel5d": 1.54,
-      "spike1d": 1.29,
+      "accel5d": 1.35,
+      "spike1d": 1.64,
       "drivers": [
         {
           "symbol": "MRNA",
-          "share": 0.43
+          "share": 0.31
         },
         {
           "symbol": "AMGN",
-          "share": 0.09
+          "share": 0.1
         },
         {
           "symbol": "GILD",
-          "share": 0.08
+          "share": 0.09
         }
       ]
     },
@@ -82,8 +82,8 @@
       "kind": "basket",
       "members": 7,
       "coverage": 1.0,
-      "accel5d": 1.37,
-      "spike1d": 1.11,
+      "accel5d": 1.33,
+      "spike1d": 1.49,
       "drivers": [
         {
           "symbol": "CRWD",
@@ -91,35 +91,35 @@
         },
         {
           "symbol": "PANW",
-          "share": 0.28
+          "share": 0.29
         },
         {
           "symbol": "NET",
-          "share": 0.14
+          "share": 0.13
         }
       ]
     },
     {
-      "id": "solutil",
-      "label": "Industrial Solar",
-      "group": "Power, infrastructure & resources",
+      "id": "defense",
+      "label": "Defense & Aero",
+      "group": "Defense, aerospace & frontier",
       "kind": "basket",
-      "members": 10,
+      "members": 19,
       "coverage": 1.0,
-      "accel5d": 1.32,
-      "spike1d": 1.08,
+      "accel5d": 1.33,
+      "spike1d": 1.65,
       "drivers": [
         {
-          "symbol": "BE",
-          "share": 0.84
+          "symbol": "BA",
+          "share": 0.33
         },
         {
-          "symbol": "FSLR",
-          "share": 0.06
+          "symbol": "LMT",
+          "share": 0.13
         },
         {
-          "symbol": "NXT",
-          "share": 0.03
+          "symbol": "RTX",
+          "share": 0.12
         }
       ]
     },
@@ -130,12 +130,12 @@
       "kind": "basket",
       "members": 15,
       "coverage": 0.8,
-      "accel5d": 1.29,
-      "spike1d": 1.07,
+      "accel5d": 1.32,
+      "spike1d": 1.42,
       "drivers": [
         {
           "symbol": "BE",
-          "share": 0.38
+          "share": 0.32
         },
         {
           "symbol": "GEV",
@@ -143,53 +143,31 @@
         },
         {
           "symbol": "CAT",
-          "share": 0.15
+          "share": 0.21
         }
       ]
     },
     {
-      "id": "xlre",
-      "label": "Real Estate · XLRE",
-      "group": "Sectors",
-      "kind": "sector",
-      "members": 1,
-      "coverage": 1.0,
-      "accel5d": 1.24,
-      "spike1d": 1.03,
-      "drivers": []
-    },
-    {
-      "id": "xlp",
-      "label": "Cons. Staples · XLP",
-      "group": "Sectors",
-      "kind": "sector",
-      "members": 1,
-      "coverage": 1.0,
-      "accel5d": 1.21,
-      "spike1d": 0.92,
-      "drivers": []
-    },
-    {
-      "id": "defense",
-      "label": "Defense & Aero",
-      "group": "Defense, aerospace & frontier",
+      "id": "hyperscale",
+      "label": "Hyperscalers",
+      "group": "Technology & AI",
       "kind": "basket",
-      "members": 19,
+      "members": 5,
       "coverage": 1.0,
-      "accel5d": 1.19,
-      "spike1d": 1.78,
+      "accel5d": 1.26,
+      "spike1d": 2.04,
       "drivers": [
         {
-          "symbol": "BA",
-          "share": 0.28
+          "symbol": "META",
+          "share": 0.31
         },
         {
-          "symbol": "LMT",
-          "share": 0.15
+          "symbol": "GOOGL",
+          "share": 0.25
         },
         {
-          "symbol": "HWM",
-          "share": 0.12
+          "symbol": "MSFT",
+          "share": 0.2
         }
       ]
     },
@@ -200,20 +178,68 @@
       "kind": "basket",
       "members": 20,
       "coverage": 1.0,
-      "accel5d": 1.16,
-      "spike1d": 1.2,
+      "accel5d": 1.21,
+      "spike1d": 1.52,
       "drivers": [
         {
-          "symbol": "SPCX",
-          "share": 0.18
+          "symbol": "META",
+          "share": 0.16
         },
         {
-          "symbol": "META",
-          "share": 0.18
+          "symbol": "GOOGL",
+          "share": 0.13
         },
         {
           "symbol": "TSLA",
-          "share": 0.15
+          "share": 0.12
+        }
+      ]
+    },
+    {
+      "id": "epc",
+      "label": "EPC",
+      "group": "Power, infrastructure & resources",
+      "kind": "basket",
+      "members": 11,
+      "coverage": 1.0,
+      "accel5d": 1.2,
+      "spike1d": 1.47,
+      "drivers": [
+        {
+          "symbol": "FIX",
+          "share": 0.29
+        },
+        {
+          "symbol": "PWR",
+          "share": 0.26
+        },
+        {
+          "symbol": "STRL",
+          "share": 0.12
+        }
+      ]
+    },
+    {
+      "id": "solutil",
+      "label": "Industrial Solar",
+      "group": "Power, infrastructure & resources",
+      "kind": "basket",
+      "members": 10,
+      "coverage": 1.0,
+      "accel5d": 1.19,
+      "spike1d": 0.77,
+      "drivers": [
+        {
+          "symbol": "BE",
+          "share": 0.82
+        },
+        {
+          "symbol": "FSLR",
+          "share": 0.07
+        },
+        {
+          "symbol": "NXT",
+          "share": 0.05
         }
       ]
     },
@@ -224,30 +250,183 @@
       "kind": "sector",
       "members": 1,
       "coverage": 1.0,
-      "accel5d": 1.13,
-      "spike1d": 1.09,
+      "accel5d": 1.19,
+      "spike1d": 1.51,
       "drivers": []
     },
     {
-      "id": "epc",
-      "label": "EPC",
+      "id": "xlre",
+      "label": "Real Estate · XLRE",
+      "group": "Sectors",
+      "kind": "sector",
+      "members": 1,
+      "coverage": 1.0,
+      "accel5d": 1.19,
+      "spike1d": 0.97,
+      "drivers": []
+    },
+    {
+      "id": "elecind",
+      "label": "Electric Industrial",
       "group": "Power, infrastructure & resources",
       "kind": "basket",
-      "members": 11,
-      "coverage": 1.0,
-      "accel5d": 1.12,
-      "spike1d": 0.83,
+      "members": 10,
+      "coverage": 0.9,
+      "accel5d": 1.18,
+      "spike1d": 1.5,
       "drivers": [
         {
-          "symbol": "FIX",
+          "symbol": "GEV",
+          "share": 0.39
+        },
+        {
+          "symbol": "CAT",
           "share": 0.3
         },
         {
-          "symbol": "PWR",
-          "share": 0.26
+          "symbol": "ETN",
+          "share": 0.1
+        }
+      ]
+    },
+    {
+      "id": "powersemi",
+      "label": "Power Semis",
+      "group": "Technology & AI",
+      "kind": "basket",
+      "members": 9,
+      "coverage": 1.0,
+      "accel5d": 1.14,
+      "spike1d": 1.29,
+      "drivers": [
+        {
+          "symbol": "NXPI",
+          "share": 0.36
         },
         {
-          "symbol": "EME",
+          "symbol": "MPWR",
+          "share": 0.23
+        },
+        {
+          "symbol": "ON",
+          "share": 0.17
+        }
+      ]
+    },
+    {
+      "id": "photonics",
+      "label": "Photonics",
+      "group": "Technology & AI",
+      "kind": "basket",
+      "members": 7,
+      "coverage": 1.0,
+      "accel5d": 1.08,
+      "spike1d": 1.27,
+      "drivers": [
+        {
+          "symbol": "LITE",
+          "share": 0.5
+        },
+        {
+          "symbol": "COHR",
+          "share": 0.16
+        },
+        {
+          "symbol": "GLW",
+          "share": 0.15
+        }
+      ]
+    },
+    {
+      "id": "xlp",
+      "label": "Cons. Staples · XLP",
+      "group": "Sectors",
+      "kind": "sector",
+      "members": 1,
+      "coverage": 1.0,
+      "accel5d": 1.08,
+      "spike1d": 1.1,
+      "drivers": []
+    },
+    {
+      "id": "fredcoverage1",
+      "label": "Fred Original Coverage",
+      "group": "Fred Coverage",
+      "kind": "basket",
+      "members": 20,
+      "coverage": 1.0,
+      "accel5d": 1.0,
+      "spike1d": 1.25,
+      "drivers": [
+        {
+          "symbol": "MU",
+          "share": 0.14
+        },
+        {
+          "symbol": "META",
+          "share": 0.13
+        },
+        {
+          "symbol": "NVDA",
+          "share": 0.12
+        }
+      ]
+    },
+    {
+      "id": "neocloud",
+      "label": "Neocloud",
+      "group": "Technology & AI",
+      "kind": "basket",
+      "members": 6,
+      "coverage": 1.0,
+      "accel5d": 0.99,
+      "spike1d": 0.86,
+      "drivers": [
+        {
+          "symbol": "NBIS",
+          "share": 0.39
+        },
+        {
+          "symbol": "CRWV",
+          "share": 0.35
+        },
+        {
+          "symbol": "IREN",
+          "share": 0.15
+        }
+      ]
+    },
+    {
+      "id": "xle",
+      "label": "Energy · XLE",
+      "group": "Sectors",
+      "kind": "sector",
+      "members": 1,
+      "coverage": 1.0,
+      "accel5d": 0.98,
+      "spike1d": 0.78,
+      "drivers": []
+    },
+    {
+      "id": "aiserver",
+      "label": "AI Servers",
+      "group": "Technology & AI",
+      "kind": "basket",
+      "members": 6,
+      "coverage": 1.0,
+      "accel5d": 0.97,
+      "spike1d": 0.97,
+      "drivers": [
+        {
+          "symbol": "AAPL",
+          "share": 0.66
+        },
+        {
+          "symbol": "VRT",
+          "share": 0.11
+        },
+        {
+          "symbol": "DELL",
           "share": 0.1
         }
       ]
@@ -259,8 +438,8 @@
       "kind": "basket",
       "members": 3,
       "coverage": 1.0,
-      "accel5d": 1.1,
-      "spike1d": 0.81,
+      "accel5d": 0.97,
+      "spike1d": 1.07,
       "drivers": [
         {
           "symbol": "NET",
@@ -272,197 +451,42 @@
         },
         {
           "symbol": "FSLY",
-          "share": 0.07
-        }
-      ]
-    },
-    {
-      "id": "powersemi",
-      "label": "Power Semis",
-      "group": "Technology & AI",
-      "kind": "basket",
-      "members": 9,
-      "coverage": 1.0,
-      "accel5d": 1.07,
-      "spike1d": 1.14,
-      "drivers": [
-        {
-          "symbol": "NXPI",
-          "share": 0.3
-        },
-        {
-          "symbol": "MPWR",
-          "share": 0.29
-        },
-        {
-          "symbol": "ON",
-          "share": 0.19
-        }
-      ]
-    },
-    {
-      "id": "xle",
-      "label": "Energy · XLE",
-      "group": "Sectors",
-      "kind": "sector",
-      "members": 1,
-      "coverage": 1.0,
-      "accel5d": 1.07,
-      "spike1d": 0.99,
-      "drivers": []
-    },
-    {
-      "id": "semicap",
-      "label": "Semicap",
-      "group": "Technology & AI",
-      "kind": "basket",
-      "members": 5,
-      "coverage": 1.0,
-      "accel5d": 1.05,
-      "spike1d": 0.85,
-      "drivers": [
-        {
-          "symbol": "LRCX",
-          "share": 0.32
-        },
-        {
-          "symbol": "AMAT",
-          "share": 0.28
-        },
-        {
-          "symbol": "ASML",
-          "share": 0.22
-        }
-      ]
-    },
-    {
-      "id": "neocloud",
-      "label": "Neocloud",
-      "group": "Technology & AI",
-      "kind": "basket",
-      "members": 6,
-      "coverage": 1.0,
-      "accel5d": 1.05,
-      "spike1d": 0.97,
-      "drivers": [
-        {
-          "symbol": "CRWV",
-          "share": 0.38
-        },
-        {
-          "symbol": "NBIS",
-          "share": 0.37
-        },
-        {
-          "symbol": "IREN",
-          "share": 0.14
-        }
-      ]
-    },
-    {
-      "id": "elecind",
-      "label": "Electric Industrial",
-      "group": "Power, infrastructure & resources",
-      "kind": "basket",
-      "members": 10,
-      "coverage": 0.9,
-      "accel5d": 1.05,
-      "spike1d": 0.96,
-      "drivers": [
-        {
-          "symbol": "GEV",
-          "share": 0.42
-        },
-        {
-          "symbol": "CAT",
-          "share": 0.24
-        },
-        {
-          "symbol": "ETN",
-          "share": 0.13
-        }
-      ]
-    },
-    {
-      "id": "aiserver",
-      "label": "AI Servers",
-      "group": "Technology & AI",
-      "kind": "basket",
-      "members": 6,
-      "coverage": 1.0,
-      "accel5d": 1.03,
-      "spike1d": 0.99,
-      "drivers": [
-        {
-          "symbol": "AAPL",
-          "share": 0.63
-        },
-        {
-          "symbol": "DELL",
-          "share": 0.12
-        },
-        {
-          "symbol": "IBM",
           "share": 0.08
         }
       ]
     },
     {
-      "id": "hyperscale",
-      "label": "Hyperscalers",
-      "group": "Technology & AI",
-      "kind": "basket",
-      "members": 5,
-      "coverage": 1.0,
-      "accel5d": 0.99,
-      "spike1d": 1.23,
-      "drivers": [
-        {
-          "symbol": "META",
-          "share": 0.42
-        },
-        {
-          "symbol": "MSFT",
-          "share": 0.18
-        },
-        {
-          "symbol": "AMZN",
-          "share": 0.17
-        }
-      ]
-    },
-    {
-      "id": "xlu",
-      "label": "Utilities · XLU",
+      "id": "xlv",
+      "label": "Health Care · XLV",
       "group": "Sectors",
       "kind": "sector",
       "members": 1,
       "coverage": 1.0,
-      "accel5d": 0.99,
-      "spike1d": 0.71,
+      "accel5d": 0.97,
+      "spike1d": 1.57,
       "drivers": []
     },
     {
-      "id": "photonics",
-      "label": "Photonics",
+      "id": "connectivity",
+      "label": "Connectivity",
       "group": "Technology & AI",
       "kind": "basket",
-      "members": 7,
+      "members": 3,
       "coverage": 1.0,
-      "accel5d": 0.97,
-      "spike1d": 1.09,
+      "accel5d": 0.95,
+      "spike1d": 1.54,
       "drivers": [
         {
-          "symbol": "LITE",
-          "share": 0.46
+          "symbol": "MRVL",
+          "share": 0.68
         },
         {
-          "symbol": "COHR",
+          "symbol": "CRDO",
           "share": 0.19
         },
         {
-          "symbol": "GLW",
-          "share": 0.17
+          "symbol": "ALAB",
+          "share": 0.13
         }
       ]
     },
@@ -473,116 +497,20 @@
       "kind": "basket",
       "members": 29,
       "coverage": 1.0,
-      "accel5d": 0.97,
-      "spike1d": 0.84,
+      "accel5d": 0.95,
+      "spike1d": 1.07,
       "drivers": [
         {
           "symbol": "NEE",
-          "share": 0.11
+          "share": 0.09
         },
         {
           "symbol": "VST",
-          "share": 0.1
+          "share": 0.08
         },
         {
-          "symbol": "PCG",
+          "symbol": "AEP",
           "share": 0.06
-        }
-      ]
-    },
-    {
-      "id": "consumerstaples",
-      "label": "Consumer Staples",
-      "group": "Consumer",
-      "kind": "basket",
-      "members": 46,
-      "coverage": 1.0,
-      "accel5d": 0.93,
-      "spike1d": 0.81,
-      "drivers": [
-        {
-          "symbol": "WMT",
-          "share": 0.12
-        },
-        {
-          "symbol": "COST",
-          "share": 0.12
-        },
-        {
-          "symbol": "PG",
-          "share": 0.1
-        }
-      ]
-    },
-    {
-      "id": "coverage1",
-      "label": "Original Coverage",
-      "group": "My Coverage",
-      "kind": "basket",
-      "members": 20,
-      "coverage": 0.95,
-      "accel5d": 0.93,
-      "spike1d": 0.89,
-      "drivers": [
-        {
-          "symbol": "TSLA",
-          "share": 0.58
-        },
-        {
-          "symbol": "GEV",
-          "share": 0.1
-        },
-        {
-          "symbol": "HWM",
-          "share": 0.03
-        }
-      ]
-    },
-    {
-      "id": "fredcoverage1",
-      "label": "Fred Original Coverage",
-      "group": "Fred Coverage",
-      "kind": "basket",
-      "members": 20,
-      "coverage": 1.0,
-      "accel5d": 0.92,
-      "spike1d": 1.0,
-      "drivers": [
-        {
-          "symbol": "META",
-          "share": 0.15
-        },
-        {
-          "symbol": "MU",
-          "share": 0.15
-        },
-        {
-          "symbol": "NVDA",
-          "share": 0.14
-        }
-      ]
-    },
-    {
-      "id": "memory",
-      "label": "Memory",
-      "group": "Technology & AI",
-      "kind": "basket",
-      "members": 5,
-      "coverage": 1.0,
-      "accel5d": 0.89,
-      "spike1d": 0.9,
-      "drivers": [
-        {
-          "symbol": "MU",
-          "share": 0.54
-        },
-        {
-          "symbol": "SNDK",
-          "share": 0.25
-        },
-        {
-          "symbol": "WDC",
-          "share": 0.1
         }
       ]
     },
@@ -593,44 +521,92 @@
       "kind": "basket",
       "members": 7,
       "coverage": 1.0,
-      "accel5d": 0.87,
-      "spike1d": 0.96,
+      "accel5d": 0.93,
+      "spike1d": 1.22,
       "drivers": [
         {
           "symbol": "META",
-          "share": 0.21
+          "share": 0.19
         },
         {
           "symbol": "NVDA",
-          "share": 0.2
+          "share": 0.17
         },
         {
-          "symbol": "TSLA",
-          "share": 0.18
+          "symbol": "GOOGL",
+          "share": 0.15
         }
       ]
     },
     {
-      "id": "connectivity",
-      "label": "Connectivity",
+      "id": "memory",
+      "label": "Memory",
       "group": "Technology & AI",
+      "kind": "basket",
+      "members": 5,
+      "coverage": 1.0,
+      "accel5d": 0.92,
+      "spike1d": 0.84,
+      "drivers": [
+        {
+          "symbol": "MU",
+          "share": 0.55
+        },
+        {
+          "symbol": "SNDK",
+          "share": 0.25
+        },
+        {
+          "symbol": "STX",
+          "share": 0.12
+        }
+      ]
+    },
+    {
+      "id": "semicap",
+      "label": "Semicap",
+      "group": "Technology & AI",
+      "kind": "basket",
+      "members": 5,
+      "coverage": 1.0,
+      "accel5d": 0.9,
+      "spike1d": 0.96,
+      "drivers": [
+        {
+          "symbol": "LRCX",
+          "share": 0.28
+        },
+        {
+          "symbol": "AMAT",
+          "share": 0.28
+        },
+        {
+          "symbol": "ASML",
+          "share": 0.23
+        }
+      ]
+    },
+    {
+      "id": "solresi",
+      "label": "Residential Solar",
+      "group": "Power, infrastructure & resources",
       "kind": "basket",
       "members": 3,
       "coverage": 1.0,
-      "accel5d": 0.87,
-      "spike1d": 0.88,
+      "accel5d": 0.89,
+      "spike1d": 0.71,
       "drivers": [
         {
-          "symbol": "MRVL",
-          "share": 0.61
+          "symbol": "ENPH",
+          "share": 0.71
         },
         {
-          "symbol": "CRDO",
-          "share": 0.23
+          "symbol": "SEDG",
+          "share": 0.17
         },
         {
-          "symbol": "ALAB",
-          "share": 0.16
+          "symbol": "RUN",
+          "share": 0.12
         }
       ]
     },
@@ -642,7 +618,7 @@
       "members": 20,
       "coverage": 1.0,
       "accel5d": 0.87,
-      "spike1d": 0.88,
+      "spike1d": 0.93,
       "drivers": [
         {
           "symbol": "MU",
@@ -650,42 +626,94 @@
         },
         {
           "symbol": "NVDA",
-          "share": 0.18
+          "share": 0.17
         },
         {
-          "symbol": "AMD",
-          "share": 0.1
+          "symbol": "SNDK",
+          "share": 0.09
         }
       ]
     },
     {
-      "id": "xlv",
-      "label": "Health Care · XLV",
+      "id": "xlb",
+      "label": "Materials · XLB",
       "group": "Sectors",
       "kind": "sector",
       "members": 1,
       "coverage": 1.0,
-      "accel5d": 0.86,
-      "spike1d": 0.8,
+      "accel5d": 0.85,
+      "spike1d": 1.17,
       "drivers": []
     },
     {
-      "id": "networking",
-      "label": "Networking",
+      "id": "cpuasic",
+      "label": "CPU + ASIC",
       "group": "Technology & AI",
       "kind": "basket",
-      "members": 2,
+      "members": 5,
       "coverage": 1.0,
       "accel5d": 0.84,
-      "spike1d": 0.8,
+      "spike1d": 1.08,
       "drivers": [
         {
-          "symbol": "CSCO",
-          "share": 0.61
+          "symbol": "INTC",
+          "share": 0.38
         },
         {
-          "symbol": "ANET",
-          "share": 0.39
+          "symbol": "AVGO",
+          "share": 0.3
+        },
+        {
+          "symbol": "MRVL",
+          "share": 0.21
+        }
+      ]
+    },
+    {
+      "id": "consumerstaples",
+      "label": "Consumer Staples",
+      "group": "Consumer",
+      "kind": "basket",
+      "members": 46,
+      "coverage": 1.0,
+      "accel5d": 0.84,
+      "spike1d": 0.86,
+      "drivers": [
+        {
+          "symbol": "COST",
+          "share": 0.12
+        },
+        {
+          "symbol": "WMT",
+          "share": 0.11
+        },
+        {
+          "symbol": "KO",
+          "share": 0.09
+        }
+      ]
+    },
+    {
+      "id": "coverage1",
+      "label": "Original Coverage",
+      "group": "My Coverage",
+      "kind": "basket",
+      "members": 20,
+      "coverage": 0.95,
+      "accel5d": 0.84,
+      "spike1d": 0.66,
+      "drivers": [
+        {
+          "symbol": "TSLA",
+          "share": 0.54
+        },
+        {
+          "symbol": "GEV",
+          "share": 0.12
+        },
+        {
+          "symbol": "HWM",
+          "share": 0.04
         }
       ]
     },
@@ -697,43 +725,19 @@
       "members": 61,
       "coverage": 1.0,
       "accel5d": 0.83,
-      "spike1d": 0.83,
+      "spike1d": 0.99,
       "drivers": [
         {
           "symbol": "TSLA",
-          "share": 0.36
+          "share": 0.3
         },
         {
           "symbol": "AMZN",
-          "share": 0.17
+          "share": 0.21
         },
         {
           "symbol": "HD",
           "share": 0.02
-        }
-      ]
-    },
-    {
-      "id": "cpuasic",
-      "label": "CPU + ASIC",
-      "group": "Technology & AI",
-      "kind": "basket",
-      "members": 5,
-      "coverage": 1.0,
-      "accel5d": 0.82,
-      "spike1d": 0.89,
-      "drivers": [
-        {
-          "symbol": "INTC",
-          "share": 0.38
-        },
-        {
-          "symbol": "AVGO",
-          "share": 0.32
-        },
-        {
-          "symbol": "MRVL",
-          "share": 0.18
         }
       ]
     },
@@ -745,15 +749,15 @@
       "members": 7,
       "coverage": 1.0,
       "accel5d": 0.82,
-      "spike1d": 0.96,
+      "spike1d": 0.73,
       "drivers": [
         {
           "symbol": "NUE",
-          "share": 0.24
+          "share": 0.28
         },
         {
           "symbol": "CLF",
-          "share": 0.21
+          "share": 0.18
         },
         {
           "symbol": "STLD",
@@ -762,26 +766,57 @@
       ]
     },
     {
-      "id": "robotics",
-      "label": "Robotics",
-      "group": "Defense, aerospace & frontier",
+      "id": "software",
+      "label": "Software",
+      "group": "Technology & AI",
       "kind": "basket",
-      "members": 18,
+      "members": 17,
       "coverage": 1.0,
-      "accel5d": 0.81,
-      "spike1d": 0.82,
+      "accel5d": 0.79,
+      "spike1d": 1.12,
       "drivers": [
         {
-          "symbol": "TSLA",
-          "share": 0.83
+          "symbol": "NOW",
+          "share": 0.21
         },
         {
-          "symbol": "APH",
-          "share": 0.05
+          "symbol": "PLTR",
+          "share": 0.21
         },
         {
-          "symbol": "PH",
-          "share": 0.03
+          "symbol": "CRM",
+          "share": 0.09
+        }
+      ]
+    },
+    {
+      "id": "xlu",
+      "label": "Utilities · XLU",
+      "group": "Sectors",
+      "kind": "sector",
+      "members": 1,
+      "coverage": 1.0,
+      "accel5d": 0.78,
+      "spike1d": 1.04,
+      "drivers": []
+    },
+    {
+      "id": "networking",
+      "label": "Networking",
+      "group": "Technology & AI",
+      "kind": "basket",
+      "members": 2,
+      "coverage": 1.0,
+      "accel5d": 0.77,
+      "spike1d": 0.74,
+      "drivers": [
+        {
+          "symbol": "CSCO",
+          "share": 0.64
+        },
+        {
+          "symbol": "ANET",
+          "share": 0.36
         }
       ]
     },
@@ -792,44 +827,9 @@
       "kind": "sector",
       "members": 1,
       "coverage": 1.0,
-      "accel5d": 0.79,
-      "spike1d": 0.65,
+      "accel5d": 0.75,
+      "spike1d": 0.82,
       "drivers": []
-    },
-    {
-      "id": "xlk",
-      "label": "Technology · XLK",
-      "group": "Sectors",
-      "kind": "sector",
-      "members": 1,
-      "coverage": 1.0,
-      "accel5d": 0.77,
-      "spike1d": 0.68,
-      "drivers": []
-    },
-    {
-      "id": "gpu",
-      "label": "GPU",
-      "group": "Technology & AI",
-      "kind": "basket",
-      "members": 3,
-      "coverage": 1.0,
-      "accel5d": 0.74,
-      "spike1d": 0.71,
-      "drivers": [
-        {
-          "symbol": "NVDA",
-          "share": 0.57
-        },
-        {
-          "symbol": "AMD",
-          "share": 0.3
-        },
-        {
-          "symbol": "TSM",
-          "share": 0.13
-        }
-      ]
     },
     {
       "id": "miners",
@@ -838,15 +838,15 @@
       "kind": "basket",
       "members": 21,
       "coverage": 1.0,
-      "accel5d": 0.74,
-      "spike1d": 0.65,
+      "accel5d": 0.71,
+      "spike1d": 0.75,
       "drivers": [
         {
-          "symbol": "NEM",
-          "share": 0.16
+          "symbol": "FCX",
+          "share": 0.14
         },
         {
-          "symbol": "FCX",
+          "symbol": "NEM",
           "share": 0.14
         },
         {
@@ -856,37 +856,37 @@
       ]
     },
     {
-      "id": "xlb",
-      "label": "Materials · XLB",
+      "id": "xlf",
+      "label": "Financials · XLF",
       "group": "Sectors",
       "kind": "sector",
       "members": 1,
       "coverage": 1.0,
-      "accel5d": 0.74,
-      "spike1d": 0.91,
+      "accel5d": 0.71,
+      "spike1d": 0.86,
       "drivers": []
     },
     {
-      "id": "software",
-      "label": "Software",
-      "group": "Technology & AI",
+      "id": "robotics",
+      "label": "Robotics",
+      "group": "Defense, aerospace & frontier",
       "kind": "basket",
-      "members": 17,
+      "members": 18,
       "coverage": 1.0,
-      "accel5d": 0.73,
-      "spike1d": 0.68,
+      "accel5d": 0.69,
+      "spike1d": 0.46,
       "drivers": [
         {
-          "symbol": "PLTR",
-          "share": 0.24
+          "symbol": "TSLA",
+          "share": 0.81
         },
         {
-          "symbol": "NOW",
-          "share": 0.13
+          "symbol": "APH",
+          "share": 0.07
         },
         {
-          "symbol": "CRM",
-          "share": 0.1
+          "symbol": "PH",
+          "share": 0.03
         }
       ]
     },
@@ -897,79 +897,44 @@
       "kind": "sector",
       "members": 1,
       "coverage": 1.0,
-      "accel5d": 0.73,
-      "spike1d": 0.64,
+      "accel5d": 0.69,
+      "spike1d": 0.71,
       "drivers": []
     },
     {
-      "id": "xlf",
-      "label": "Financials · XLF",
+      "id": "gpu",
+      "label": "GPU",
+      "group": "Technology & AI",
+      "kind": "basket",
+      "members": 3,
+      "coverage": 1.0,
+      "accel5d": 0.67,
+      "spike1d": 0.62,
+      "drivers": [
+        {
+          "symbol": "NVDA",
+          "share": 0.57
+        },
+        {
+          "symbol": "AMD",
+          "share": 0.31
+        },
+        {
+          "symbol": "TSM",
+          "share": 0.12
+        }
+      ]
+    },
+    {
+      "id": "xlk",
+      "label": "Technology · XLK",
       "group": "Sectors",
       "kind": "sector",
       "members": 1,
       "coverage": 1.0,
-      "accel5d": 0.72,
-      "spike1d": 0.7,
+      "accel5d": 0.66,
+      "spike1d": 0.66,
       "drivers": []
-    },
-    {
-      "id": "gld",
-      "label": "Gold · GLD",
-      "group": "Power, infrastructure & resources",
-      "kind": "sector",
-      "members": 1,
-      "coverage": 1.0,
-      "accel5d": 0.7,
-      "spike1d": 0.4,
-      "drivers": []
-    },
-    {
-      "id": "solresi",
-      "label": "Residential Solar",
-      "group": "Power, infrastructure & resources",
-      "kind": "basket",
-      "members": 3,
-      "coverage": 1.0,
-      "accel5d": 0.59,
-      "spike1d": 1.17,
-      "drivers": [
-        {
-          "symbol": "ENPH",
-          "share": 0.63
-        },
-        {
-          "symbol": "SEDG",
-          "share": 0.19
-        },
-        {
-          "symbol": "RUN",
-          "share": 0.18
-        }
-      ]
-    },
-    {
-      "id": "nuclear",
-      "label": "Nuclear",
-      "group": "Power, infrastructure & resources",
-      "kind": "basket",
-      "members": 9,
-      "coverage": 1.0,
-      "accel5d": 0.55,
-      "spike1d": 0.57,
-      "drivers": [
-        {
-          "symbol": "CEG",
-          "share": 0.45
-        },
-        {
-          "symbol": "CCJ",
-          "share": 0.14
-        },
-        {
-          "symbol": "OKLO",
-          "share": 0.1
-        }
-      ]
     },
     {
       "id": "japan",
@@ -978,8 +943,8 @@
       "kind": "basket",
       "members": 4,
       "coverage": 1.0,
-      "accel5d": 0.53,
-      "spike1d": 0.49,
+      "accel5d": 0.61,
+      "spike1d": 0.84,
       "drivers": [
         {
           "symbol": "JP5803",
@@ -987,11 +952,46 @@
         },
         {
           "symbol": "JP7011",
-          "share": 0.24
+          "share": 0.26
         },
         {
           "symbol": "JP5802",
-          "share": 0.2
+          "share": 0.18
+        }
+      ]
+    },
+    {
+      "id": "gld",
+      "label": "Gold · GLD",
+      "group": "Power, infrastructure & resources",
+      "kind": "sector",
+      "members": 1,
+      "coverage": 1.0,
+      "accel5d": 0.61,
+      "spike1d": 0.69,
+      "drivers": []
+    },
+    {
+      "id": "nuclear",
+      "label": "Nuclear",
+      "group": "Power, infrastructure & resources",
+      "kind": "basket",
+      "members": 9,
+      "coverage": 1.0,
+      "accel5d": 0.51,
+      "spike1d": 0.52,
+      "drivers": [
+        {
+          "symbol": "CEG",
+          "share": 0.44
+        },
+        {
+          "symbol": "CCJ",
+          "share": 0.13
+        },
+        {
+          "symbol": "OKLO",
+          "share": 0.11
         }
       ]
     }

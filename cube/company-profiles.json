@@ -22200,6 +22200,816 @@
       "country": "United States",
       "updated": "2026-10-28",
       "source": "Yahoo Finance via yfinance"
+    },
+    "T": {
+      "symbol": "T",
+      "name": "AT&T Inc.",
+      "summary": "AT&T Inc. provides telecommunications and technology services worldwide. It operates through two segments, Communications and Latin America. The Communications segment offers wireless voice and data communications services; and sells handsets, wireless data cards, wireless computing devices, carrying cases/protective covers, and wireless chargers through its own company-owned stores, agents, and third-party retail stores. It also provides AT&T Dedicated Internet, fiber ethernet and broadband, fixed wireless, and hosted and managed professional services; and copper-based voice and data, Virtual Private Networks (VPN), wholesale, outsourcing, and IP, as well as customer premises equipment for multinational corporations, small and mid-sized businesses, governmental, and wholesale customers. In addition, this segment offers broadband services, including fiber connections, legacy telephony voice communication services, and other VoIP services and equipment to residential customers. This segment markets its communications services and products under the AT&T, AT&T Business, Cricket, AT&T PREPAID, AT&T Fiber, and AT&T Internet Air brand names. Its Latin America segment provides postpaid and prepaid wireless services in Mexico under the AT&T and Unefon brand names, as well as sells smartphones through its stores, agents and third-party retail stores. The company was formerly known as SBC Communications Inc. and changed its name to AT&T Inc. in 2005. AT&T Inc. was incorporated in 1983 and is based in Dallas, Texas.",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SYY": {
+      "symbol": "SYY",
+      "name": "Sysco Corporation",
+      "summary": "Sysco Corporation, through its subsidiaries, engages in the sale, marketing, and distribution of food and related products to restaurants, healthcare and educational facilities, lodging establishments, and other foodservice customers. It operates through U.S. Foodservice Operations, International Foodservice Operations, SYGMA, and Other segments. The company distributes frozen food, such as meats, seafood, fully prepared entrées, fruits, vegetables, and desserts; canned and dry food; fresh meats and seafood; dairy and beverage products; imported specialties; and fresh produce. It also supplies paper products, including disposable napkins, plates, and cups; tableware comprising glassware and silverware; cookware consisting of pots, pans, and utensils; restaurant and kitchen equipment and supplies; and cleaning supplies. The company operates in the United States, Canada, the United Kingdom, France, Sweden, and internationally. Sysco Corporation was incorporated in 1969 and is headquartered in Houston, Texas.",
+      "sector": "Consumer Defensive",
+      "industry": "Food Distribution",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TAK": {
+      "symbol": "TAK",
+      "name": "Takeda Pharmaceutical Company Limited",
+      "summary": "Takeda Pharmaceutical Company Limited engages in the research, development, manufacture, marketing, and out-licensing of pharmaceutical products. It offers pharmaceutical products in the areas of gastroenterology, rare diseases, plasma-derived therapies, oncology, vaccines, and neuroscience. The company provides its products under the Entyvio, Gattex/Revestive, Takecab/Vocinti, EOHILIA, Takhzyro, Advate, Elaprase, Replagal, Vpriv, Adynovate/Adynovi, Livtencity, ADZYNMA, Gammagard Liquid/Kiovig, Hyqvia, Cuvitru, Flexbumin, Adcetris, Leuplin/Enantone, Ninlaro, Iclusig, FRUZAQLA, Alunbrig, vyvanse/elvanse, Trintellix, and QDENGA brands. It has licensing and collaboration for the development and commercialization of products with Arrowhead Pharmaceuticals, Cour Pharmaceuticals, Engitix, Halozyme, Mirum Pharmaceuticals, Ucsd/Fortis Advisors, Zedira/Dr. Falk Pharma, Ac Immune, Acurastem, Anima Biotech, Biomarin, Denali Therapeutics, Luxna Biotech, Neurocrine Biosciences, Peptidream, Abbvie, Adimab, Ascentage Pharma, Crescendo Biologics, Exelixis, F-Star, Gsk, Heidelberg Pharma, Innovent Biologics, Keros Therapeutics, Kumquat Biosciences, Protagonist Therapeutics, Halozyme, Kamada, Johnson & Johnson/Momenta Pharmaceuticals, Previpharma, Novavax, Bridgene Biosciences, Charles River Laboratories, Iambic Therapeutics, Ipsen, Km Biologics, Massachusetts Institute Of Technology, and Nabla Bio. The company operates in Japan, the United States. Europe, Canada, Latin America, China, Asia, Russia/Commonwealth of Independent States, the Middle East, Oceania, and Africa. The company was founded in 1781 and is headquartered in Chuo, Japan.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "country": "Japan",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TAL": {
+      "symbol": "TAL",
+      "name": "TAL Education Group",
+      "summary": "TAL Education Group provides smart learning solutions in the People's Republic of China. It offers learning services through Xueersi Peiyou small classes, personalized premium services, and online course offerings. The company also develops and provides learning content solutions for learners across print, digital and device-based formats, including print books, books integrated with digital learning experiences, learning devices, and mobile applications. In addition, it offers online education services, including live class and pre-recorded course content through www.xueersi.com. Further, the company engages in development and sale of software, network, and learning devices; investment management and consulting services. TAL Education Group was founded in 2003 and is headquartered in Beijing, the People's Republic of China.",
+      "sector": "Consumer Defensive",
+      "industry": "Education & Training Services",
+      "country": "China",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TAC": {
+      "symbol": "TAC",
+      "name": "TransAlta Corporation",
+      "summary": "TransAlta Corporation engages in the development, production, and sale of electric energy. It operates through Hydro, Wind and Solar, Gas, Energy Transition, and Energy Marketing segments. The Hydro segment holds interest of approximately 922 megawatts (MW) located in Alberta and Canada. The Wind and Solar segment has a net ownership interest of approximately 2,587 MW located in Alberta, Canada, the Unites States, and Western Australia, as well as battery storage facilities. The Gas segment has a net ownership interest of approximately 4834 MW located in Alberta, Canada, the Unites States, and Western Australia. The Energy Transition segment has a net ownership interest of approximately 671 MW located in the United States, as well as operates the Skookumchuck hydro facility in Centralia. The Energy Marketing segment is involved in the trading of electricity, natural gas, and environmental products. TransAlta Corporation was founded in 1909 and is headquartered in Calgary, Canada.",
+      "sector": "Utilities",
+      "industry": "Utilities - Independent Power Producers",
+      "country": "Canada",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TALO": {
+      "symbol": "TALO",
+      "name": "Talos Energy Inc.",
+      "summary": "Talos Energy Inc., through its subsidiaries, engages in the exploration and production of oil and gas in the United States and Mexico. The company operates through two segments: Upstream, and Carbon Capture and Sequestration. It also engages in the exploration and production of natural gas liquid. Talos Energy Inc. was founded in 2011 and is headquartered in Houston, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TAP": {
+      "symbol": "TAP",
+      "name": "Molson Coors Beverage Company",
+      "summary": "Molson Coors Beverage Company manufactures, markets, distributes, and sells beer and other malt beverage products in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It offers flavored malt beverages including hard seltzers, craft, spirits, and ready to drink beverages. The company also provides non-alcoholic beverages including premium mixers and energy drinks. It offers its products under Arnold Palmer Spiked, Aspall Cider, Blue Moon, Beck's, Blue Run Spirits, Cobra, Corona Extra, Coors Original, Fever-Tree, Heineken, Hidra, Leinenkugel's, Madri, Miller Genuine Draft, Molson Ultra, Peroni Nastro Azurro, Pilsner Urquell, Redd's, Rekorderlig, Sharp's, Simply Spiked, Staropramen, Stella Artois, Topo Chico Hard Seltzer, ZOA Energy, and Vizzy Hard Seltzer above premium brands; Bergenbier, Borsodi, Burgasko, Carling, Coors Banquet, Coors Light, Jelen, Miller Lite, Molson Canadian brands, Niksicko, and Oujsko under the premium brands; and Branik, Icehouse, Keystone, Lowenbrau, Miller High Life, Milwaukee's Best, and Steel Reserve under the economy brands. The company was formerly known as Molson Coors Brewing Company and changed its name to Molson Coors Beverage Company in January 2020. Molson Coors Beverage Company was founded in 1774 and is based in Golden, Colorado.",
+      "sector": "Consumer Defensive",
+      "industry": "Beverages - Brewers",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TARS": {
+      "symbol": "TARS",
+      "name": "Tarsus Pharmaceuticals, Inc.",
+      "summary": "Tarsus Pharmaceuticals, Inc., a commercial stage biopharmaceutical company, focuses on the development and commercialization of therapeutic candidates for eye care in the United States. The company offers XDEMVY, a lotilaner ophthalmic solution for the treatment of demodex blepharitis caused by the infestation of Demodex mites. It sells its products to specialty pharmacies and distributors, as well as clinics, hospitals, pharmacies, and federal healthcare programs. The company also develops TP-04, a sterile aqueous gel formulation of lotilaner in Phase 2 trial for the treatment of ocular rosacea; and TP-05, an oral tablet formulation of lotilaner in Phase 2 trial for the prevention of Lyme disease, as well as in pre-clinical studies for community malaria reduction. In addition, it is developing the lotilaner active pharmaceutical ingredient (API) to address diseases in human medicine, including eye care and infectious disease prevention. The company has a development and license agreement with Xi An Grand Chang An Pharmaceutical Co., Ltd. for the development and commercialization of TP-03 in China for the treatment of Demodex blepharitis and meibomian gland disease. Tarsus Pharmaceuticals, Inc. was incorporated in 2016 and is headquartered in Irvine, California.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TBBB": {
+      "symbol": "TBBB",
+      "name": "BBB Foods Inc.",
+      "summary": "BBB Foods Inc., through its subsidiaries, operates a chain of grocery retail stores in Mexico. The company provides spot products comprising food and non-food products, such as clothing, electronics, household goods, and others. It also provides branded and private label products. The company serves low-to-middle income households. BBB Foods Inc. was incorporated in 2004 and is headquartered in Mexico City, Mexico.",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "country": "Mexico",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TBBK": {
+      "symbol": "TBBK",
+      "name": "The Bancorp, Inc.",
+      "summary": "The Bancorp, Inc. operates as the financial holding company for The Bancorp Bank, National Association that provides banking products and services in the United States. It offers a range of deposit products and services, including checking, savings, money market, and commercial accounts. The company also provides securities-backed lines of credit and insurance policy cash value-backed lines of credit; investor advisor financing; financing to investment advisors; Small Business Administration loan; lease financing for commercial and government vehicle fleets; commercial real estate bridge loans, as well as consumer fintech loans comprising short-term extensions of credit, including secured credit card loans, payroll advances, and others. In addition, it offers automated clearing house (ACH) bill, and other payment services; debit and prepaid card issuing services; card and bill payment; account services; data processing services, check imaging, loan processing, electronic bill payment and statement rendering; call center customer support; access to automated teller machine networks; bank accounting and general ledger system; data warehousing services; and software development services. The company was incorporated in 1999 and is headquartered in Wilmington, Delaware.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TD": {
+      "symbol": "TD",
+      "name": "The Toronto-Dominion Bank",
+      "summary": "The Toronto-Dominion Bank, together with its subsidiaries, provides various financial products and services in Canada, the United States, and internationally. It operates through four segments: Canadian Personal and Commercial Banking; U.S. Retail; Wealth Management and Insurance; and Wholesale Banking. The company offers personal deposits, such as chequing, savings, and investment products; financing, investment, cash management, international trade, and banking services to businesses; and financing options to customers at point of sale for automotive and recreational vehicle purchases. It also provides credit cards and payments; real estate secured lending, auto finance, and consumer lending services; point-of-sale payment solutions for large and small businesses; wealth and asset management products, and advice to retail and institutional clients through direct investing, advice-based, and asset management businesses; and property and casualty insurance, as well as life and health insurance products. The company also provides capital markets, and corporate and investment banking products and services, including underwriting and distribution of new debt and equity issues; advice on strategic acquisitions and divestitures; and trading, funding, and investment services to corporations, governments, and institutions. The Toronto-Dominion Bank was founded in 1855 and is headquartered in Toronto, Canada.",
+      "sector": "Financial Services",
+      "industry": "Banks - Diversified",
+      "country": "Canada",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TCBI": {
+      "symbol": "TCBI",
+      "name": "Texas Capital Bancshares, Inc.",
+      "summary": "Texas Capital Bancshares, Inc. operates as the bank holding company for Texas Capital Bank, is a full-service financial services firm that delivers customized solutions to businesses, entrepreneurs, and individual customers. The company offers commercial banking; consumer banking; investment banking solutions, including capital markets, mergers and acquisitions, and syndicated finance, as well as financial sponsor coverage, capital solutions, and institutional services; and wealth management services, such as investment management, financial planning, lockbox and insurance, securities-based lending, estate planning, and business succession, as well as philanthropic, trustee and executor, custom credit, and depository services. It also provides deposit accounts, analyzed accounts, commercial card, SBA and business loans, packaged solutions, and merchant services; liquidity and investments, working capital, international trade and payment, and treasury and credit products; and commercial real estate, homebuilder and community, and mortgage finance. In addition, the company offers payables and receivables management; online and mobile banking; term loans and lines of credit, equipment finance and lease, acquisition finance, and asset-based lending; private wealth advisory solutions; and checking and savings accounts, debit and credit cards, and certificates of deposit, as well as ETF and funds management services. Further, it provides financial institution money market accounts and loan syndication products; commercial loans for financing for working capital, organic growth, and acquisitions; real estate term and construction loans; mortgage warehouse lending services; treasury management, trust, and advisory and escrow services; and letters of credit. The company operates in Austin, Dallas, Fort Worth, Houston, and San Antonio metropolitan areas of Texas, as well as in California and New York. The company was incorporated in 1996 and is headquartered in Dallas, Texas.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TCOM": {
+      "symbol": "TCOM",
+      "name": "Trip.com Group Limited",
+      "summary": "Trip.com Group Limited, through its subsidiaries, operates as a travel service provider for accommodation reservation, transportation ticketing, packaged tours, in-destination, corporate travel management, and other travel-related services in China and internationally. It acts as an agent for hotel-related transactions and selling air tickets, as well as provides train, long-distance bus, and ferry tickets; travel insurance products, such as flight delay, air accident, and baggage loss coverage; and air-ticket delivery, online check-in and seat selection, express security screening, real-time flight status tracker, and airport VIP lounge services. The company also provides travelers bundled packaged-tour products, such as group, semi-group, and customized and packaged tours with various transportation arrangements, including air, cruise, bus, and car rental services. In addition, it offers integrated transportation and accommodation services; ticket, activity, insurance, visa, and tour guide services; and user support, supplier management, and customer relationship management services; and in-destination products and services. Further, the company provides Trip.Biz, a digital first, full-service, corporate travel management business which provides technology-enabled solutions for organizations managing business travel. Additionally, it offers online advertising and financial services, such as marketing planning and travel media services; Omni-Channel Touchpoints for Users; and Open Platform for Ecosystem Partners. It operates under the Ctrip, Qunar, Trip.com, Travix, Travelfusion, and Skyscanner brand names. The company was formerly known as Ctrip.com International, Ltd. and changed its name to Trip.com Group Limited in October 2019. Trip.com Group Limited was founded in 1999 and is based in Singapore.",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "country": "Singapore",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TDC": {
+      "symbol": "TDC",
+      "name": "Teradata Corporation",
+      "summary": "Teradata Corporation, together with its subsidiaries, provides an AI and knowledge platforms in the United States and internationally. It operates in two segments, Product Sales and Consulting Services. The company's AI and Knowledge platform designed for enterprise-grade workloads. Its consulting services include support services for organizations to establish data analytics and AI vision, enable a hybrid ecosystem architecture, and identify and operationalize opportunities. The company serves clients in financial services, healthcare and life sciences, public sector, manufacturing, retail, telecommunications, and travel/transportation sectors through a direct sales force. Teradata Corporation was incorporated in 1979 and is headquartered in San Diego, California.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TDG": {
+      "symbol": "TDG",
+      "name": "TransDigm Group Incorporated",
+      "summary": "TransDigm Group Incorporated designs, produces, and supplies aircraft components in the United States and internationally. The Power & Control segment offers mechanical/electro-mechanical actuators and controls, ignition systems and engine technology, specialized pumps and valves, power conditioning devices, specialized AC/DC electric motors and generators, batteries and chargers, databus and power controls, sensor products, switches and relay panels, hoists, winches and lifting devices, cargo loading and handling systems, delivery systems, and electronic components. Its Airframe segment provides engineered latching and locking devices, engineered rods, engineered connectors and elastomer sealing solutions, cockpit security components and systems, cockpit displays, lavatory components, seat belts and safety restraints, engineered and customized interior surfaces and related components, thermal protection and insulation products, lighting and control technology, parachutes, specialized flight, wind tunnel and jet engine testing services and equipment, and testing and instrumentation solutions, as well as engineered audio, radio, and antenna systems. The Non-Aviation segment offers seat belts and safety restraints; mechanical/electromechanical actuators and controls; hydraulic/electromechanical actuators and fuel valves; refueling systems; and turbine controls. It serves engine and power system and subsystem suppliers, airlines, third party maintenance suppliers, military buying agencies, and repair depots; airframe manufacturers, cabin system and subsystem suppliers, airlines, and third party maintenance suppliers; and off-road vehicle and subsystem suppliers, child restraint system suppliers, and satellite and space system suppliers, as well as manufacturers of heavy equipment. The company was formerly known as TD Holding Corporation and changed its name to TransDigm Group Incorporated in 2006. The company was founded in 1993 and is headquartered in Cleveland, Ohio.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TDOC": {
+      "symbol": "TDOC",
+      "name": "Teladoc Health, Inc.",
+      "summary": "Teladoc Health, Inc. provides virtual healthcare services worldwide. It operates through Teladoc Health Integrated Care and BetterHelp segments. The Integrated Care segment offers virtual medical services, including general medical, expert medical services, specialty medical, chronic condition management, and mental health services, as well as technologies and enterprise telehealth solutions for hospitals and health systems. Its BetterHelp segment operates a mental health platform that provides online counselling and therapy services through websites, mobile applications, phones, and text-based interactions by its licensed clinicians. The company offers its products and services under the Teladoc and BetterHelp brands. It serves employers, health plans, hospitals and health systems, insurance companies, and financial services companies, as well as individual members. The company was formerly known as Teladoc, Inc. and changed its name to Teladoc Health, Inc. in August 2018. Teladoc Health, Inc. was incorporated in 2002 and is headquartered in New York, New York.",
+      "sector": "Healthcare",
+      "industry": "Health Information Services",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TDW": {
+      "symbol": "TDW",
+      "name": "Tidewater Inc.",
+      "summary": "Tidewater Inc., together with its subsidiaries, provides offshore support vessels and marine support services to the offshore energy industry through the operation of a fleet of offshore marine service vessels worldwide. The company operates through five segments: Americas, Asia Pacific, Middle East, Europe/Mediterranean, and West Africa. It offers phases of offshore crude oil and natural gas exploration, field development, production, maintenance, and windfarm development and maintenance activities; towing and anchor handling for mobile offshore drilling units; transportation of supplies and personnel necessary to sustain drilling, workover, and production operations; and field abandonment, dismantlement, and restoration activities. The company also provides offshore construction; seismic and subsea support; various other specialized services, such as pipe laying, cable laying, and geotechnical survey support for windfarm construction. Its vessels consist of anchor handling towing supply vessels, platform supply vessels, and other specialty vessels, as well as crew boats, utility vessels, and offshore tugs. The company serves integrated and independent oil and gas exploration, development, and production companies; mid-sized and smaller independent exploration and production companies; foreign government-owned or government-controlled organizations engaged in the exploration, development, and production of oil and gas; offshore drilling contractors; and other companies that provide services to the offshore energy industry comprising offshore construction companies, windfarm development companies, diving companies, and well stimulation companies. Tidewater Inc. was incorporated in 1956 and is headquartered in Houston, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TDS": {
+      "symbol": "TDS",
+      "name": "Telephone and Data Systems, Inc.",
+      "summary": "Telephone and Data Systems, Inc., a telecommunications company, provides communications services to residential, commercial, and wholesale customers in the United States. It operates through two segments: TDS Telecom and Array. The company offers internet connections and all-home Wi-Fi services, fiber internet, security, and support services; advanced home TV entertainment combined with a digital video recording (DVR) services; TDS TV+, an integrated cloud TV platform that combines linear and on-demand programming, mobile device interfaces, personalized recommendations, and network-based DVR; digital television; local and long-distance telephone service, voice over internet protocol, and enhanced services; wireless services to customers; broadband, IP-based services, and hosted voice and video collaboration services to small- and medium-sized businesses; carrying data and voice traffic services; wholesale services; and communication services in underserved areas. The company is also leases tower spaces to tenants; provides ancillary services. The company sells and distributes its products through third-party direct sales, retail stores, sales agents, and an online platform to sell services and products. Telephone and Data Systems, Inc. was incorporated in 1968 and is headquartered in Chicago, Illinois.",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TDY": {
+      "symbol": "TDY",
+      "name": "Teledyne Technologies Incorporated",
+      "summary": "Teledyne Technologies Incorporated provides enabling technologies for industrial growth markets in the United States, Europe, Asia, and internationally. The Digital Imaging segment provides visible spectrum sensors and digital cameras; and infrared, ultraviolet, visible, and X-ray spectrum products, as well as micro-electromechanical systems and semiconductors, such as analog-to-digital and digital-to-analog converters. This segment offers cooled and uncooled infrared or thermal products, including sensors, camera cores, and camera systems; high-resolution, low-dose X-ray sensors, high-power microwave, and high-energy X-ray subsystems; and instruments for the measurement of physical properties and maritime products, as well as develops and manufactures multi-spectrum electro-optic/infrared imaging systems and associated products, such as lasers, optics, radars, CBRNE (chemical, biological, radiological, nuclear, and explosive) detectors, and unmanned air and ground systems. The Instrumentation segment provides monitoring, control, and electronic test and measurement equipment; and power and communications connectivity devices for distributed instrumentation systems and sensor networks. The Aerospace and Defense Electronics segment offers electronic and optical components and subsystems, data acquisition and communications components and equipment, harsh-environment interconnects, general aviation batteries and other components; and onboard avionics systems and ground-based applications, aircraft data and connectivity solutions, hardware systems, and software applications. The Engineered Systems segment provides systems engineering, integration and advanced technology development, and complex manufacturing solutions for defense, space, environmental, and energy applications; and designs and manufactures electrochemical energy systems and specialty electronics for military applications. The company was founded in 1960 and is headquartered in Thousand Oaks, California.",
+      "sector": "Technology",
+      "industry": "Scientific & Technical Instruments",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TE": {
+      "symbol": "TE",
+      "name": "T1 Energy Inc.",
+      "summary": "T1 Energy Inc. provides energy solutions for solar modules and cells in the United States, Norway and internationally. It manufactures and sells photovoltaic solar modules. The company was formerly known as FREYR Battery, Inc. and changed its name to T1 Energy Inc. in February 2025. T1 Energy Inc. is headquartered in Austin, Texas.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TEAM": {
+      "symbol": "TEAM",
+      "name": "Atlassian Corporation",
+      "summary": "Atlassian Corporation provides a collaboration software that enables organizations to connect all teams through a system of work that unlocks productivity at scale worldwide. The company's product portfolio includes Jira, Confluence, Loom, Jira Service Management, Rovo, Bitbucket, Compass, Jira Product Discovery, Focus, Talent, Trello, and Guard. It also offers Collections, a curated sets of apps and agents built on the Atlassian cloud platform and designed to solve cross-functional customer workflows, including teamwork, service, strategy, software, and product collections. The company was founded in 2002 and is headquartered in Sydney, Australia.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "Australia",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TECH": {
+      "symbol": "TECH",
+      "name": "Bio-Techne Corporation",
+      "summary": "Bio-Techne Corporation, together with its subsidiaries, develops, manufactures, and sells life science reagents, instruments, and services for the research, diagnostics, and bioprocessing markets worldwide. It operates through two segments, Protein Sciences, and Diagnostics and Spatial Biology. The Protein Sciences segment develops and manufactures biological reagents used in various aspects of life science research, diagnostics, and cell and gene therapy, such as cytokines and growth factors, antibodies, small molecules, tissue culture sera, and cell selection technologies. This segment also offers proteomic analytical tools for automated western blot and multiplexed ELISA workflow consists of manual and automated protein analysis instruments and immunoassays for use in quantifying proteins in various biological fluids. Its Diagnostics and Genomics segment develops and manufactures diagnostic products, including controls, calibrators, and diagnostic assays for regulated diagnostics market, advanced tissue-based in-situ hybridization assays for spatial genomic and tissue biopsy analysis, and genetic and oncology kits for research and clinical applications; and sells products for genetic carrier screening, oncology diagnostics, molecular controls, and research, as well as instruments and process control products for hematology, blood chemistry and gases, and coagulation controls and reagents used in various diagnostic applications. The company was formerly known as Techne Corporation and changed its name to Bio-Techne Corporation in November 2014. Bio-Techne Corporation was incorporated in 1976 and is headquartered in Minneapolis, Minnesota.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TECK": {
+      "symbol": "TECK",
+      "name": "Teck Resources Limited",
+      "summary": "Teck Resources Limited engages in research, exploration, development, processing, smelting, refining, and reclamation of mineral properties in Asia, the Americas, and Europe. It operates through Copper and Zinc segments. The company offers copper, zinc, and lead concentrates, as well as refined zinc, lead, and silver. It also produces lead, precious metals, molybdenum, fertilizers, and other metals; and sells refined metals or concentrates. In addition, it explores for gold. The company was formerly known as Teck Cominco Limited and changed its name to Teck Resources Limited in April 2009. Teck Resources Limited was founded in 1913 and is based in Vancouver, Canada.",
+      "sector": "Basic Materials",
+      "industry": "Copper",
+      "country": "Canada",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TEL": {
+      "symbol": "TEL",
+      "name": "TE Connectivity plc",
+      "summary": "TE Connectivity plc, together with its subsidiaries, manufactures and sells connectivity and sensor solutions in Europe, the Middle East, Africa, the AsiaPacific, and the Americas. The company operates through two reportable segments, Transportation Solutions and Industrial Solutions. It provides antennas, application tooling, cable assemblies, connectors, electromagnetic compatibility/electromagnetic interference solutions, energy and power, fiber optics, heat shrink tubing, identification and labeling, medical components, passive components, relays and contactors, sensors, switches, terminals and splices, wires and cables, and wire protection and management solutions. The company also offers training and other services, including 3D printing for production, back shells prototyping, electrical installation training, HarnWare software, machine tooling service and repair, medical device design services, microfluidic devices, and sensor manufacturing services as well as conducts automotive webinars. It serves 5G and wireless equipment, aerospace, appliances, automation and control, automotive, autosport, commercial and industrial vehicles, connected home, data centers and artificial intelligence, defense and military, energy solutions, e-mobility, industrial machinery, intelligent buildings, IoT connectivity, medical technologies, oil and gas/marine, personal electronics and wearable technology, rail, sensor applications, space, and other industries. The company was formerly known as Tyco Electronics Ltd. and changed its name to TE Connectivity plc in March 2011. TE Connectivity plc was founded in 1941 and is based in Ballybrit, Ireland.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Ireland",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TEM": {
+      "symbol": "TEM",
+      "name": "Tempus AI, Inc.",
+      "summary": "Tempus AI, Inc. operates as a healthcare technology company in the United States. It offers the Tempus platform, a closed-loop, full-stack, bi-directional integrations between a clinician's desktop and its laboratory diagnostic capabilities, analytics platform, and repository of multimodal data; and Hub, a clinical application for physicians and other healthcare providers for use in the diagnostics product line as an end-to-end application for healthcare providers for NGS tests. The company also provides Lens, a software application for life sciences and advanced precision research; diagnostics services, such as NGS diagnostics, PCR profiling, and other anatomic and molecular pathology tests; and large-panel solid tumor and hematologic testing through multiple assays, with its core clinical assay (xT and xR) offering large panel DNA, RNA full transcriptome, and incidental germline findings through normal blood or saliva analyses. In addition, it provides genetic tests focused on inherited conditions; an nP assay for pharmacogenomic testing for patients with psychiatric conditions, including depression, general anxiety disorder, bipolar disorder, and other relevant diagnoses; Insights, which licenses libraries of linked, de-identified clinical, molecular, and imaging data; Organoids, a tumor derived biological modeling. Further, the company offers Trials for clinical trial matching services; Next, an AI platform; Algos, an algorithm-based diagnostics application. It has Strategic Collaborations with AstraZeneca AB, Pathos AI, Inc., GlaxoSmithKline, Merck, and Recursion Pharmaceuticals, Inc. Additionally, it also has a strategic collaboration with Blood Cancer United to develop registry for pediatric acute myeloid leukemia. The company was formerly known as Tempus Labs, Inc. and changed its name to Tempus AI, Inc. in January 2023. Tempus AI, Inc. was incorporated in 2015 and is headquartered in Chicago, Illinois.",
+      "sector": "Healthcare",
+      "industry": "Health Information Services",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TENB": {
+      "symbol": "TENB",
+      "name": "Tenable Holdings, Inc.",
+      "summary": "Tenable Holdings, Inc. provides cyber exposure management solutions in the Americas, Europe, the Middle East, Africa, the Asia Pacific, and Japan. Its platforms include Tenable AI Exposure, a solution that helps organizations identify, assess, and reduce security risks associated with the use of artificial intelligence technologies; Tenable Vulnerability Management, a cloud-delivered software as a service that provides organizations with a risk-based view of traditional and modern attack surfaces; Tenable Cloud Security, a cloud security solution for use in exposing and closing priority security gaps caused by misconfigurations, risky entitlements, and vulnerabilities; Tenable Identity Exposure, a solution for end-to-end protection from identity-based threats; and Tenable Web App Scanning, which provides configuration and management of web app scans. The company also provides Tenable Attack Surface Management, an external attack surface management solution; Tenable Security Center, an on-premises vulnerability management solution; and Tenable OT Security, a unified security solution for converged OT/IoT environments that provide threat detection, asset tracking, vulnerability management, and configuration control capabilities to protect OT environments, including industrial networks. In addition, it offers Nessus, a vulnerability assessment solution for cybersecurity industry and enterprise platform; and Nessus Expert, which enables users to programmatically detect cloud infrastructure misconfigurations and vulnerabilities in the design and build phase of the software development lifecycle. Tenable Holdings, Inc. was founded in 2002 and is headquartered in Columbia, Maryland.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TEVA": {
+      "symbol": "TEVA",
+      "name": "Teva Pharmaceutical Industries Limited",
+      "summary": "Teva Pharmaceutical Industries Limited develops, manufactures, markets, and distributes generic and other medicines, and biopharmaceutical products in the United States, Europe, Israel, and internationally. It offers generic medicines in various dosage forms, such as tablets, capsules, injectables, inhalants, liquids, transdermal patches, ointments, and creams; sterile products, hormones, high-potency drugs, and cytotoxic substances in parenteral and solid dosage forms; and generic products with medical devices and combination products. The company also focuses on the central nervous system (CNS), respiratory, oncology, and other areas. It provides active pharmaceutical ingredients, as well as contract manufacturing services; and operates an out-licensing platform that offers a portfolio of products to other pharmaceutical companies. The company also offers BENDEKA and TREANDA injections for the treatment of chronic lymphocytic leukemia and indolent b-cell non-hodgkin's lymphoma; COPAXONE, glatiramer acetate injection to treat patients with relapsing forms of multiple sclerosis; AJOVY for the preventive treatment of migraine in adults; AUSTEDO for the treatment of tardive dyskinesia, chorea associated with Huntington's disease and tardive dyskinesia; UZEDY for the treatment of schizophrenia; QVAR RediHaler to treat asthma; BRALTUS, a long-acting muscarinic antagonist; CINQAIR/CINQAERO injection; DuoResp Spiromax budesonide and formoterol powder inhaler; AirDuo RespiClick fluticasone propionate and salmeterol inhalation powder; and ProAir RespiClick inhalation powder. It offers its OTC products under the SUDOCREM, NasenDuo, DICLOX FORTE, OLFEN Max, and FLEGAMINA brand names. The company has collaboration agreements with MedinCell S.A.; Sanofi; Alvotech; and Biolojic Design Ltd., as well as license agreement with MODAG GmbH. Teva Pharmaceutical Industries Limited was founded in 1901 and is based in Tel Aviv-Yafo, Israel.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "country": "Israel",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TER": {
+      "symbol": "TER",
+      "name": "Teradyne, Inc.",
+      "summary": "Teradyne, Inc. engages in the design, development, manufacture, and sale of automated test systems and robotics products in the United States, Asia Pacific, Europe, the Middle East, and Africa. The company operates through Semiconductor Test, Robotics, and Other segments. The Semiconductor Test segment offers products and services for wafer level and device package testing, and system level testing of semiconductor devices in automotive, industrial, communications, consumer, smartphones, cloud, computer and electronic game, and other applications. This segment also provides FLEX test platform systems; J750 test system to address the volume semiconductor devices, including microcontrollers; Magnum platform that tests memory devices, such as flash memory and DRAM; and ETS platform for semiconductor manufacturers, and assembly and test subcontractors in the analog/mixed signal markets. It serves integrated device manufacturers that integrate the fabrication of silicon wafers into their business; fabless companies that outsource the manufacturing of silicon wafers; foundries; and semiconductor assembly and test providers. The Robotics segment provides collaborative robotic arms and autonomous mobile robots for manufacturing, logistics, and industrial customers. It also provides product test instruments which includes operations related to the design, manufacturing and marketing of products and services for defense/aerospace test, circuit-board test, wireless test systems, and silicon photonics testing. The company has a strategic collaboration with Tokyo Electron Limited for the development of a test cell solution for device screening in AI and data center applications. Teradyne, Inc. was incorporated in 1960 and is headquartered in North Reading, Massachusetts.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TEX": {
+      "symbol": "TEX",
+      "name": "Terex Corporation",
+      "summary": "Terex Corporation manufactures industrial equipment for materials processing machinery, waste and recycling solutions, mobile elevating work platforms, and equipment for the electric utility industry worldwide. The MP segment offers crushers, washing systems, screens, trommels, apron feeders, material handlers, pick and carry cranes, wood processing, biomass and recycling equipment, concrete mixer trucks and concrete pavers, conveyors, and replacement parts under the Terex, Powerscreen, Fuchs, EvoQuip, Canica, Cedarapids, CBI, Simplicity, Franna, Terex Ecotec, Finlay, ProAll, ZenRobotics, Terex Washing Systems, Terex MPS, Terex Jaques, Advance, Bid-Well, MDS, MARCO, MAGNA, Green-Tec, and Terex Recycling Systems brands. Its products are used in construction, infrastructure, and recycling projects; quarrying, mining, and material handling applications; maintenance applications to lift equipment or material; and landscaping and biomass production industries. The Aerials segment provides aerial work platform equipment, and telehandlers under the Terex and Genie brands; and portable material lifts, portable aerial work platforms, trailer-mounted articulating booms, self-propelled articulating and telescopic booms, and scissor lifts for construction and maintenance of industrial, commercial, institutional, and residential buildings and facilities, commercial operations, and tree trimming and various infrastructure projects. The ES segments offers refuse collection bodies, hydraulic cart lifters, automated carry cans, utility equipment, compaction, balers, recycling equipment, diggers derricks, transmission and distribution lines, construction and foundation drilling applications, insulated aerial devices, and cameras under the Heil, Marathon, 3rd Eye, Soft-Pak, Connected Collections, Parts Central, Curotto-Can, and Bayne Thinline brands; and waste hauler software solutions. The company was founded in 1933 and is based in Norwalk, Connecticut.",
+      "sector": "Industrials",
+      "industry": "Farm & Heavy Construction Machinery",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TFC": {
+      "symbol": "TFC",
+      "name": "Truist Financial Corporation",
+      "summary": "Truist Financial Corporation, a financial services company, provides banking and trust services in the Southeastern and Mid-Atlantic United States. The company operates through two segments, Consumer and Small Business Banking; and Wholesale Banking. Its deposit products include noninterest-bearing checking, interest-bearing checking, savings, and money market deposit accounts, as well as certificates of deposit and individual retirement accounts. The company also provides funding; asset management; credit card lending; home equity and mortgage lending; other direct retail lending; home mortgage lending; Investment brokerage services; mobile/online banking; payment solutions; point-of-sale lending; retail and small business deposit products; and small business lending. In addition, it offers asset-based lending, commercial deposit and treasury services; commercial lending; floor plan lending; derivatives; institutional trust services; insurance premium finance; international banking; investment banking and capital markets services; leasing; merchant services; mortgage warehouse lending; real estate lending; supply chain financing; and wealth management/private banking. The company was formerly known as BB&T Corporation and changed its name to Truist Financial Corporation in December 2019. Truist Financial Corporation was founded in 1872 and is headquartered in Charlotte, North Carolina.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TFII": {
+      "symbol": "TFII",
+      "name": "TFI International Inc.",
+      "summary": "TFI International Inc., together with its subsidiaries, provides transportation and logistics services in the United States, Canada, and Mexico. It operates through Less-Than-Truckload (LTL), Truckload (TL), and Logistics segments. The Less-Than-Truckload segment is involved in the pickup, consolidation, transportation, and delivery of smaller loads. The Truckload segment offers expedited transportation, flatbed, tank, container, and dedicated services. This segment also carries full loads directly from the customer to the destination using a closed van or specialized equipment. The Logistics segment provides asset-light logistics services, including brokerage, freight forwarding, and transportation management, as well as small package parcel delivery. As of December 31, 2025, it operates 12,927 trucks, 40,687 trailers, and 6,194 independent contractors. The company was formerly known as TransForce Inc. and changed its name to TFI International Inc. in December 2016. TFI International Inc. was founded in 1957 and is headquartered in Saint-Laurent, Canada.",
+      "sector": "Industrials",
+      "industry": "Trucking",
+      "country": "Canada",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TFPM": {
+      "symbol": "TFPM",
+      "name": "Triple Flag Precious Metals Corp.",
+      "summary": "Triple Flag Precious Metals Corp., a precious metals streaming and royalty company, engages in acquiring and managing precious metals, streams, royalties, and other mineral interests in Australia, Canada, Colombia, Cote d'Ivoire, Mexico, Mongolia, Peru, South Africa, and the United States. The company has a portfolio of streams and royalties providing exposure to copper, gold, silver, nickel, lead, lithium, and zinc. The company was founded in 2016 and is based in Toronto, Canada.",
+      "sector": "Basic Materials",
+      "industry": "Other Precious Metals & Mining",
+      "country": "Canada",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TFX": {
+      "symbol": "TFX",
+      "name": "Teleflex Incorporated",
+      "summary": "Teleflex Incorporated designs, develops, manufactures, and supplies single-use medical devices for common diagnostic and therapeutic procedures in critical care and surgical applications in the United States, Europe, the Middle East, Africa, the Asia Pacific, and internationally. The company offers vascular and emergency medicine products comprising Arrow branded catheters, catheter navigation and tip positioning systems, and intraosseous bone access systems for the administration of intravenous therapies, measurement of blood pressure, and collection of blood samples; intraosseous access systems consisting of EZ-IO intraosseous vascular access systems, and Arrow FAST1 sternal intraosseous infusion systems; and hemostatic products, including external hemostats and trauma products under the QuikClot brand. It also provides interventional products, including various coronary catheters, structural heart support devices, and peripheral intervention products platforms; GuideLiner, Turnpike, and TrapLiner catheters; MANTA vascular closure devices and Arrow OnControl powered bone biopsy systems; and coronary and peripheral medical devices, such as drug-coated balloons, stents, and balloon catheters. In addition, the company offers surgical products, including metal and polymer ligating clips using manual and automatic applier system, fascial closure surgical systems used in laparoscopic surgical procedures, percutaneous surgical systems, powered bariatric staplers, and other surgical instruments under the Weck, MiniLap, Pleur-Evac, Deknatel, KMedic, Pilling, and Titan SGS brands. It serves hospitals, healthcare providers, and medical device manufacturers. The company also sells its products online. Teleflex Incorporated was incorporated in 1943 and is headquartered in Wayne, Pennsylvania.",
+      "sector": "Healthcare",
+      "industry": "Medical Instruments & Supplies",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TGB": {
+      "symbol": "TGB",
+      "name": "Trekor Metals Limited",
+      "summary": "Trekor Metals Limited, a mining company, acquires and develops mineral properties. It explores for copper, molybdenum, gold, niobium, and silver deposits. The company's principal assets consist of 100% owned the Gibraltar mine located in south-central British Columbia; and the Florence Copper project in Arizona. The company was formerly known as Taseko Mines Limited and changed its name Trekor Metals Limited in June 2026. Trekor Metals Limited was incorporated in 1966 and is headquartered in Vancouver, Canada.",
+      "sector": "Basic Materials",
+      "industry": "Copper",
+      "country": "Canada",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TGT": {
+      "symbol": "TGT",
+      "name": "Target Corporation",
+      "summary": "Target Corporation operates as a general merchandise retailer in the United States. It offers apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes; and beauty products, such as skin and bath care, cosmetics, hair care, oral care, deodorant, and shaving products. The company also provides food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat, produce, and food service; electronics which includes video games and consoles, toys, sporting goods, entertainment, and luggage; bed and bath, home décor, school/office supplies, storage, small appliances, kitchenware, greeting cards, party supplies, furniture, lighting, home improvement, and seasonal merchandise; and household essentials, such as household cleaning, paper products, over-the-counter healthcare, vitamins and supplements, baby gear, and pet supplies. In addition, it sells merchandise through periodic design and creative partnerships, and shop-in-shop experience; and in-store amenities. The company sells its products through its stores; and digital channels, including Target.com. Target Corporation was incorporated in 1902 and is headquartered in Minneapolis, Minnesota.",
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TGTX": {
+      "symbol": "TGTX",
+      "name": "TG Therapeutics, Inc.",
+      "summary": "TG Therapeutics, Inc., a commercial stage biopharmaceutical company, focuses on the acquisition, development, and commercialization of novel treatments for B-cell mediated diseases in the United States and internationally. The company provides BRIUMVI, an anti-CD20 monoclonal antibody for the treatment of adult patients with relapsing forms of multiple sclerosis (RMS), including clinically isolated syndrome, relapsing-remitting disease, and active secondary progressive disease in adults. The company's development pipeline comprises Ublituximab IV, glycoengineered anti-CD20 mAb for the treatment of relapsing MS; TG-1701 is an orally available and covalently bound Bruton's tyrosine kinase (BTK) inhibitor that exhibits selectivity to BTK in vitro kinase screening; and TG-1801, a bispecific CD47 and CD19 antibody. Its research pipeline includes various investigational medicines. The company has license agreements with LFB Biotechnologies S.A.S; GTC Biotherapeutics; LFB/GTC LLC; Ildong Pharmaceutical Co. Ltd.; and Jiangsu Hengrui Medicine Co. The company was incorporated in 1993 and is based in Morrisville, North Carolina.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TH": {
+      "symbol": "TH",
+      "name": "Target Hospitality Corp.",
+      "summary": "Target Hospitality Corp. operates as a specialty rental and hospitality services company in North America. It operates through Hospitality & Facilities Services  South, Workforce Hospitality Solutions, and Government segments. The company owns a network of specialty rental accommodation units. It also provides catering and food, maintenance, housekeeping, grounds-keeping, security, health and recreation facilities, workforce community management, concierge, and laundry services. In addition, the company offers construction services. It serves the U.S. government contractors and investment grade natural resource development companies. Target Hospitality Corp. was founded in 1978 and is headquartered in The Woodlands, Texas.",
+      "sector": "Industrials",
+      "industry": "Specialty Business Services",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "THC": {
+      "symbol": "THC",
+      "name": "Tenet Healthcare Corporation",
+      "summary": "Tenet Healthcare Corporation operates as a diversified healthcare services company in the United States. The company operates through two segments: Hospital Operations and Services, and Ambulatory Care. Its general hospitals offer acute care services, operating and recovery rooms, radiology and respiratory therapy services, clinical laboratories, and pharmacies. The company also provides intensive and critical care, and/or coronary care units; cardiovascular, digestive disease, neurosciences, musculoskeletal, and obstetrics services; outpatient services, including physical therapy; tertiary care services, such as cardiothoracic surgery, complex spinal surgery, neonatal intensive care, and neurosurgery services; pediatric quaternary care services through heart, liver, and kidney transplants programs; and limb salvaging vascular procedure, acute level 1 trauma, intravascular stroke care, minimally invasive cardiac valve replacement, imaging technology, surgical robotic, and telemedicine access services. In addition, it offers a range of procedures and services comprising orthopedics, total joint replacement, and spinal and other musculoskeletal procedures; gastroenterology; pain management; otolaryngology; ophthalmology; and urology. Further, the company operates acute care and specialty hospitals, off-campus emergency departments, imaging centers, urgent care centers, and micro-hospitals, as well as ambulatory surgery centers and surgical hospitals. Tenet Healthcare Corporation was founded in 1967 and is headquartered in Dallas, Texas.",
+      "sector": "Healthcare",
+      "industry": "Medical Care Facilities",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "THO": {
+      "symbol": "THO",
+      "name": "THOR Industries, Inc.",
+      "summary": "THOR Industries, Inc. manufactures and sells recreational vehicles (RVs), and related parts and accessories in the United States, Germany, rest of Europe, Canada, and internationally. It operates through three segments: North American Towable Recreational Vehicles; North American Motorized Recreational Vehicles; and European Recreational Vehicles. The company offers travel trailers and motorhomes; Class A, Class C and Class B motorhomes; and fifth wheels under the Airstream Classic, Globetrotter, International, Tradewind, Flying Cloud, Caravel, Bambi, World Traveler, Basecamp, Interstate, Atlas, Rangeline, Jay Flight, Jay Feather, Eagle, Pinnacle, Colt, Range Lite, 3X, Prowler, North Trail, Big Horn, Odyssey, Esteem, Emblem, Insignia, Montana, Springdale, Hideout, Sprinter, Arcadia, Bullet, Fuzion, Raptor, Reign, Passport, Sprout, Cougar, Coleman, Kodiak, Aspen Trail, Astoria, Voltage, Colorado, Sunset Trail, Zinger, Redwood, Classic, Sportsmen, Connect, Ridgeway, Durango, Durango Gold, Sportster X, Sienna, Sonic, Stratus, and SportTrek brands. It also provides gasoline and diesel Class A products under the ACE, Resonate, Hurricane, Windsport, Outlaw, Indigo, Luminate, Vegas, Axis, Rize, Scope, Sequence, Tellaro, Palladium, Talavera, Sanctuary, Tranquility, Four Winds, Chateau, Compass, Gemini, Magnitude, Omni, Inception, Pasadena, Inception HD, Pasadena SV, Palazzo, Riviera, Aria, Allegro, Allegro Bay, Allegro Breeze, Allegro Bus, Allegro Red, Byway, GH1, GH2, GT1, GT2, Midas, Open Trail, Phaeton, Wayfarer, and Zephyr. In addition, the company offers recreational vehicles; and motorized and towable recreational vehicles, including motorcaravans, campervans, urban vehicles, and caravan. Further, it sells RV-related products; and manufactures and sells aluminum extrusions and specialized component products. The company sells its products to independent and non-franchise dealers. THOR Industries, Inc. was founded in 1980 and is based in Elkhart, Indiana.",
+      "sector": "Consumer Cyclical",
+      "industry": "Recreational Vehicles",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "THG": {
+      "symbol": "THG",
+      "name": "The Hanover Insurance Group, Inc.",
+      "summary": "The Hanover Insurance Group, Inc., through its subsidiaries, provides various property and casualty insurance products and services for individuals and businesses in the United States. It operates in four segments: Core Commercial, Specialty, Personal Lines, and Other. The company offers commercial multiple peril, commercial automobile, workers' compensation, and other core commercial coverage; and professional and executive lines, marine, and surety and other, as well as specialty property and casualty products comprising Hanover program business, excess and surplus business, Hanover specialty industrial, and specialty general liability business coverage. It also provides personal automobile; and homeowners and other personal lines, including residences and personal property, liability claims, personal umbrella, inland marine, fire, personal watercraft, personal cyber, and other miscellaneous coverages. In addition, the company offers insurance products for collector cars, motorcycles, off-road vehicles, condominiums, valuable items, business owners, international, and management and professional liability; and for the construction, cultural and educational institutions, financial intuitions, healthcare, human services, life sciences, manufacturing, professional services, real estate, retail, technology, and wholesale and distribution industries. It markets its products and services through independent agents and brokers. The company was formerly known as Allmerica Financial Corp. and changed its name to The Hanover Insurance Group, Inc. in December 2005. The Hanover Insurance Group, Inc. was founded in 1852 and is headquartered in Worcester, Massachusetts.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Property & Casualty",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TIC": {
+      "symbol": "TIC",
+      "name": "TIC Solutions, Inc.",
+      "summary": "TIC Solutions, Inc. provides critical asset integrity services in North America. The company offers testing, inspection, certification, and compliance (TICC) services, including various nondestructive testing (NDT) techniques, such as radiography, ultrasonic testing, magnetic particle inspection, penetrant testing, and visual inspection. Its NDT activities include inspection and evaluation of industrial equipment through various technology-enabled methods to ensure asset integrity, prevent costly outages, failures, and accidents, and meet regulatory requirements without damaging the asset or component. It also provides market rope access technician solutions, including inspection and testing, as well as insulation, coatings and blasting, welding, pipe fitting, hoisting and rigging, and electrical services. In addition, its TICC services include support from consulting engineers with destructive testing, support failure investigation, material selection, corrosion engineering, welding engineering, fracture mechanics, destructive testing, and chemical analysis. Further, it offers geospatial services, such as data collection, data analytics, and software solutions that support asset management and infrastructure planning. The company serves a range of industrial markets, such as chemical, pipeline, refinery, power generation, oilsands, automotive, aerospace, mining, manufacturing, renewable energy, and pulp and paper. TIC Solutions, Inc. was formerly known as Acuren Corporation and changed its name to TIC Solutions, Inc. in October 2025. The company was founded in 1974 and is headquartered in Hollywood, Florida.",
+      "sector": "Industrials",
+      "industry": "Specialty Business Services",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TIGO": {
+      "symbol": "TIGO",
+      "name": "Millicom International Cellular S.A.",
+      "summary": "Millicom International Cellular S.A. engages in the provision cable and mobile services in Latin America. The company offers mobile services, including mobile data and voice, and short message services; and mobile financial services, such as payments, money transfers, international remittances, savings, real-time loans, and micro-insurance. In addition, the company provides fixed services, including broadband, fixed voice, and pay-TV; and fixed-voice and data telecommunications services, managed services, cloud and security solutions, and value-added services; and tower infrastructure and services. The company serves small, medium, and large businesses, as well as residential consumers and governmental entities. It markets its products and services under the Tigo and Tigo Business brands. The company was founded in 1990 and is headquartered in Luxembourg, Luxembourg.",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "country": "Luxembourg",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TJX": {
+      "symbol": "TJX",
+      "name": "The TJX Companies, Inc.",
+      "summary": "The TJX Companies, Inc., together with its subsidiaries, operates as an off-price apparel and home fashions retailer worldwide. It operates through four segments: Marmaxx, HomeGoods, TJX Canada, and TJX International. The company provides family apparel comprising footwear; accessories, such as beauty and jewelry; home fashion products, including home basics, decorative accessories and giftware, as well as furniture, rugs, lighting, soft home, decorative accessories, tabletop, and cookware; pet and gourmet food; and other merchandise. It also offers home decor, furniture, and seasonal home merchandise. The company sells its products through stores and e-commerce sites. The TJX Companies, Inc. was incorporated in 1962 and is headquartered in Framingham, Massachusetts.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Retail",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TILE": {
+      "symbol": "TILE",
+      "name": "Interface, Inc.",
+      "summary": "Interface, Inc. designs, produces, and sells modular carpet products in the United States, Canada, Latin America, Europe, Africa, Asia, and Australia. The company offers modular carpets; luxury vinyl tiles; modular resilient flooring products; rubber flooring; and carpet tiles used in commercial interiors, include offices, educational facilities, healthcare facilities, airports, hospitality spaces, retail spaces, and residential interiors. It also provides carpet replacement, installation, and maintenance services; and other products and services, including TacTiles carpet tile installation system and adhesives and products for carpet installation and maintenance, as well as project management services. The company sells its products under the Interface, FLOR, NORAPLAN, and NORAMENT brands through direct sales to end users and indirect sales through independent contractors, installers and distributors. Interface, Inc. was incorporated in 1973 and is headquartered in Atlanta, Georgia.",
+      "sector": "Consumer Cyclical",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TKO": {
+      "symbol": "TKO",
+      "name": "TKO Group Holdings, Inc.",
+      "summary": "TKO Group Holdings, Inc. operates as a sports and entertainment company. The company operates through three segments: UFC, WWE and IMG. The UFC segment distributes programming content; ticket sales and site fees associated with the business's global live events; partnerships and marketing; and consumer products licensing agreements of UFC-branded products. The WWE segment consists of media rights fees associated with the distribution of its programming content; ticket sales and site fees associated with the business's global live events; partnerships and marketing; and consumer products licensing agreements of WWE-branded products. The IMG segment specializing in media rights management and sales, multi-channel content production and distribution, brand partnerships, strategic consulting, digital services, and event management. This segment also offers hospitality business, offering ticketing, curated guest experiences, live event production and travel management services. It is also involved in the merchandising of video games, apparel, equipment, trading cards, memorabilia, digital goods, and toys. In addition, the company engages in the sponsorships and advertising business, which offers sale of in-venue and in-broadcast advertising assets, content product integration, and digital impressions. The company was incorporated in 2023 and is based in New York, New York. TKO Group Holdings, Inc. is a subsidiary of WME Group, Inc.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TKR": {
+      "symbol": "TKR",
+      "name": "The Timken Company",
+      "summary": "The Timken Company designs, manufactures, and sells engineered bearings and industrial motion products, and related services in the United States and internationally. The company operates in two segments, Engineered Bearings and Industrial Motion. The Engineered Bearings segment provides various bearing products, including tapered, spherical, and cylindrical roller bearings; plain bearings, metal-polymer bearings, and rod end bearings; radial, angular, and precision ball bearings; thrust and specialty ball bearings; journal bearings; and housed or mounted bearings. This segment serves wind energy, agriculture, construction, food and beverage, metals and mining, automotive and truck, aerospace, rail, and other industries under the Timken, GGB, and Fafnir brands. The Industrial Motion segment offers a portfolio of engineered products, such as industrial drives, automatic lubrication systems, linear motion products and systems, chains, belts, couplings, filtration systems, seals, and industrial clutches and brakes, as well as industrial drivetrain and bearing repairing services. This segment serves a range of industries comprising solar energy, automation, construction, agriculture and turf, passenger rail, marine, aerospace, packaging and logistics, medical, and others under the Philadelphia Gear, Cone Drive, Rollon, Nadella, Groeneveld, BEKA, Diamond, Drives, Timken Belts, Spinea, Des-Case, Lagersmit, Lovejoy, CGI, and PT Tech brands. The Timken Company was founded in 1899 and is headquartered in North Canton, Ohio.",
+      "sector": "Industrials",
+      "industry": "Tools & Accessories",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TLN": {
+      "symbol": "TLN",
+      "name": "Talen Energy Corporation",
+      "summary": "Talen Energy Corporation, an independent power producer and infrastructure company, produces and sells electricity, capacity, and ancillary services into wholesale power markets in the United States. The company's plants generate power using a variety of fuels, such as nuclear, fossil, oil, natural gas, and coal power plants. It owns and operates approximately 13.1 GW of power infrastructure. Talen Energy Corporation was incorporated in 2014 and is headquartered in Houston, Texas.",
+      "sector": "Utilities",
+      "industry": "Utilities - Independent Power Producers",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TM": {
+      "symbol": "TM",
+      "name": "Toyota Motor Corporation",
+      "summary": "Toyota Motor Corporation designs, manufactures, assembles, and sells passenger vehicles, minivans and commercial vehicles, and related parts and accessories in Japan, North America, Europe, Asia, Central and South America, Oceania, Africa, the Middle East, and internationally. The company operates through Automotive, Financial Services, and All Other segments. The company offers subcompact and compact cars; mini-vehicles; mid-size, luxury, sports, and specialty cars; recreational and sport-utility vehicles; pickup trucks; minivans; trucks; and buses. It also develops and sells battery and hybrid electric vehicles and batteries. In addition, the company provides financial services, such as retail financing and leasing, wholesale financing, insurance, and credit cards. Further, it operates GAZOO.com, a web portal for automobile information, as well as engages in telecommunications and other businesses. It offers vehicles under the Toyota and Lexus brand names. It has strategic manufacturing alliance with Joby Aviation, Inc. to establish a joint venture to realize air mobility. Toyota Motor Corporation was founded in 1933 and is headquartered in Toyota, Japan.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "country": "Japan",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TMC": {
+      "symbol": "TMC",
+      "name": "TMC the metals company Inc.",
+      "summary": "TMC the metals company Inc., a deep-sea minerals exploration company, focuses on the collection, processing, and refining of polymetallic nodules found on the seafloor in California. It primarily explores for nickel, cobalt, copper, and manganese products. The company holds exploration and commercial rights in two polymetallic nodule contract areas in the Clarion Clipperton Zone of the Pacific Ocean. Its products are used in electric vehicles (EV) and energy storage markets; manganese alloy production required for steel production; and other applications. The company was founded in 2011 and is based in Vancouver, Canada.",
+      "sector": "Basic Materials",
+      "industry": "Other Industrial Metals & Mining",
+      "country": "Canada",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TMDX": {
+      "symbol": "TMDX",
+      "name": "TransMedics Group, Inc.",
+      "summary": "TransMedics Group, Inc., a commercial-stage medical technology company, engages in transforming organ transplant therapy for end-stage organ failure patients in the United States and internationally. The company provides Organ Care System (OCS), a portable organ perfusion, optimization, and monitoring system that utilizes its proprietary and customized technology to replicate near-physiologic conditions for donor organs outside of the human body. Its OCS includes OCS LUNG for the preservation of standard criteria donor lungs for double-lung transplantation; OCS Heart, a technology for preservation of DBD donor hearts deemed unsuitable due to limitations of cold storage and for ex vivo reanimation, functional monitoring, and beating-heart preservation of donation-after-circulatory-death hearts; and OCS Liver for the preservation of DBD and DCD of donor livers. The company also developed national OCS program, a turnkey solution for outsourced organ retrieval; and provides OCS organ management and logistics services, including aviation and ground transportation, and other coordination activity. The company was founded in 1998 and is headquartered in Andover, Massachusetts.",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TME": {
+      "symbol": "TME",
+      "name": "Tencent Music Entertainment Group",
+      "summary": "Tencent Music Entertainment Group operates online music entertainment platforms that provides music streaming, online karaoke, and live streaming services in the People's Republic of China. It provides QQ Music, Kugou Music, and Kuwo Music that enable users to discover, enjoy, and share music in personalized ways; long-form audio content, including audiobooks, podcasts and talk shows, as well as music-oriented video content comprising music videos, live performances, and short videos; and WeSing, which enables users to sing along from its library of karaoke songs and share their performances in audio or video formats with friends. The company also delivers music-centric live streaming services primarily through the Live Streaming tab on QQ Music, Kugou Music, Kuwo Music, WeSing, Kugou Live, and Kuwo Live that provides an interactive online stage for performers and users to showcase their talent and engage with audience base; and Lazy Audio, an audio platform. In addition, it sells artist-related merchandise, such as branded apparel, posters and art prints, and accessories; other music services, such as content licensing, sales of digital albums, sales of customized artist-related merchandises, live performances and concerts, and artist management services; and music subscriptions, as well as offers advertising services across its social entertainment platforms. The company is headquartered in Shenzhen, China. Tencent Music Entertainment Group operates as a subsidiary of Tencent Holdings Limited.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "country": "China",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TMUS": {
+      "symbol": "TMUS",
+      "name": "T-Mobile US, Inc.",
+      "summary": "T-Mobile US, Inc., together with its subsidiaries, provides wireless communications services in the United States, Puerto Rico, and the United States Virgin Islands. The company offers voice, messaging, and data services to postpaid, prepaid, and wholesale and other services customers. It also provides wireless devices, including smartphones, wearables, tablets, home broadband gateways, headsets, and other mobile communication devices, as well as accessories; financing through equipment installment plans; reinsurance for device insurance policies and extended warranty contracts. The company offers services under the T-Mobile, Metro by T-Mobile, and Mint Mobile brands through its owned and operated retail stores, customer care channels, national retailers, and its websites, as well as through T-Mobile, Metro by T-Mobile, and Mint Mobile apps. It also sells devices to dealers and other third-party distributors for resale through independent third-party retail outlets and various third-party websites. It has 700 MHz wireless spectrum licenses. The company was founded in 1994 and is headquartered in Bellevue, Washington. T-Mobile US, Inc. operates as a subsidiary of Deutsche Telekom AG.",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TMO": {
+      "symbol": "TMO",
+      "name": "Thermo Fisher Scientific Inc.",
+      "summary": "Thermo Fisher Scientific Inc. provides life sciences solutions, analytical instruments, specialty diagnostics, and laboratory products and biopharma services internationally. It operates through four segments: Life Sciences Solutions, Analytical Instruments, Specialty Diagnostics, and Laboratory Products and Biopharma Services. The Life Sciences Solutions segment includes reagents, instruments, and consumables for biological and medical research; discovery and production of drugs and vaccines; and diagnosis of infections and diseases. Its Analytical Instruments segment provides instruments, consumables, software, and services for pharmaceutical, biotechnology, academic, government, environmental, and other research and industrial markets, as well as clinical laboratories. The Specialty Diagnostics segment offers clinical diagnostics products, such as liquid ready-to-use and lyophilized immunodiagnostic reagent kits, calibrators, controls, protein detection assays, and instruments; immunodiagnostic offerings comprising developing, manufacturing, and marketing of complete blood-test systems for the clinical diagnosis and monitoring of allergy, asthma and autoimmune diseases; microbiology offerings, such as dehydrated and prepared culture media, collection and transport systems, instrumentation and consumables to detect pathogens in blood, diagnostic and rapid direct specimen tests, quality-control products, and associated products; transplant diagnostics products, including human leukocyte antigen typing and testing for the organ transplant market; and healthcare market channel offerings. Its Laboratory Products and Biopharma Services segment provides laboratory products, research and safety market channel, and pharma services and clinical research. Thermo Fisher Scientific Inc. was founded in 1956 and is headquartered in Waltham, Massachusetts.",
+      "sector": "Healthcare",
+      "industry": "Diagnostics & Research",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TNDM": {
+      "symbol": "TNDM",
+      "name": "Tandem Diabetes Care, Inc.",
+      "summary": "Tandem Diabetes Care, Inc. designs, develops, and commercializes technology solutions for people living with diabetes in the United States and internationally. It's flagship products are the t:slim X2 insulin delivery system; and Tandem Mobi insulin pump, an automated insulin delivery system. The company also sells single-use products, including cartridges for storing and delivering insulin, and infusion sets that connect the insulin pump to the user's body. In addition, it offers Tandem Device Updater used to update the pump software from a personal computer; Tandem Source, a web-based data management platform, which provides a visual way to display diabetes therapy management data from the pumps, integrated CGMs; and Sugarmate, a mobile app used to help people visualize diabetes therapy data. The company has collaboration agreement with the University of Virginia Center for Diabetes Technology for research and development of fully automated closed-loop insulin delivery systems. The company was formerly known as Phluid Inc. and changed its name to Tandem Diabetes Care, Inc. in January 2008. Tandem Diabetes Care, Inc. was incorporated in 2006 and is headquartered in San Diego, California.",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TNET": {
+      "symbol": "TNET",
+      "name": "TriNet Group, Inc.",
+      "summary": "TriNet Group, Inc. provides comprehensive human capital management services for small and medium-sized businesses in the United States. The company offers multi-state payroll processing and tax administration; employee benefits programs, including health insurance and retirement plans; workers' compensation insurance and claims management; employment and benefits law compliance; and other HR related services. It also provides a technology platform, an online and mobile tool that allows users to store, view, and manage HR information and administer various HR transactions, such as payroll processing, tax administration and credits, employee onboarding and termination, employee performance, time and attendance, compensation reporting, expense management, and benefits enrollment and administration, as well as incorporated workforce analytics and allows professional employer organization and administrative services offering clients to generate HR data, payroll, compensation, and other custom reports. The company serves clients in various industries, including technology, professional services, financial services, life sciences, and not-for-profit. It sells its solutions through its direct sales organization. TriNet Group, Inc. was incorporated in 1988 and is headquartered in Dublin, California.",
+      "sector": "Industrials",
+      "industry": "Staffing & Employment Services",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TNGX": {
+      "symbol": "TNGX",
+      "name": "Tango Therapeutics, Inc.",
+      "summary": "Tango Therapeutics, Inc., a precision oncology company, focuses on the discovery and development of drugs in defined patient populations with unmet medical need. The company develops methylthioadenosine -cooperative protein arginine methyltransferase 5 (PRMT5) inhibitors, including TNG462, which is in Phase 1/2 clinical trial for treating pancreatic and lung cancer; and TNG456, a brain-penetrant PRMT5 inhibitor for the treatment of glioblastoma. It is developing TNG260, a co-repressor of repressor element-1 silencing transcription inhibitor to reverse the immune evasion effect of serine-threonine kinase (STK) 11 loss-of-function mutations to treat lung cancer. The company was founded in 2017 and is headquartered in Boston, Massachusetts.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TNK": {
+      "symbol": "TNK",
+      "name": "Teekay Tankers Ltd.",
+      "summary": "Teekay Tankers Ltd., together with its subsidiaries, provides marine transportation services to oil industries in Bermuda and internationally. The company operates in two segments: Tankers and Marine Servies. It offers voyage and time charter services; offshore ship-to-ship transfer of commodities primarily crude oil and refined oil products; and tanker commercial and technical management services. In addition, the company is involved in the vessels management, procurement, and equipment rental businesses. It serves energy and utility companies, oil traders, oil consumers and petroleum product producers, government agencies, and various other entities that depend upon marine transportation. The company was incorporated in 2007 and is based in Hamilton, Bermuda.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "country": "Bermuda",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TNL": {
+      "symbol": "TNL",
+      "name": "Travel + Leisure Co.",
+      "summary": "Travel + Leisure Co., together with its subsidiaries, provides hospitality services and travel products in the United States and internationally. The company operates in two segments, Vacation Ownership; and Travel and Membership. The Vacation Ownership segment develops, markets, and sells vacation ownership interests (VOIs) to individual consumers, as well as offers consumer financing in connection with the sale of VOIs; and property management services at resorts; and This segment also experiences under hospitality and leisure brands, including Club Wyndham, WorldMark, Margaritaville Vacation Club, Sports Illustrated Resorts, Eddie Bauer Adventure Club, And Accor Vacation Club. The Travel and Membership segment operates various travel businesses, including vacation exchange brands, travel technology platforms, travel memberships, and direct-to-consumer rentals. This segment also offers business-to-business private-label travel club solutions and facilitates bookings. Travel + Leisure Co. has a strategic alliance with Hornblower Group, Inc. The company was formerly known as Wyndham Destinations, Inc. and changed its name to Travel + Leisure Co. in February 2021. Travel + Leisure Co. was founded in 1990 and is headquartered in Orlando, Florida.",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TOST": {
+      "symbol": "TOST",
+      "name": "Toast, Inc.",
+      "summary": "Toast, Inc. operates a cloud-based digital technology platform for the restaurant industry in the United States, Ireland, India, and internationally. It offers a platform of software-as-a-service for restaurant operations and point of sale, such as Toast POS; Toast IQ, a conversational artificial intelligence; vendor management; multi-location management; kitchen display system; online ordering and delivery. It offers payroll and team management; inventory and supply chain tools; xtraCHEF by toast, a set of back-office tools for restaurants, including accounts payable automation, inventory management, ingredient price tracking, and recipe costing; financial technology solutions, including integrated payment processing, and restaurant-grade hardware. The company was formerly known as Opti Systems, Inc. and changed its name to Toast, Inc. in May 2012. Toast, Inc. was incorporated in 2011 and is headquartered in Boston, Massachusetts.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TOL": {
+      "symbol": "TOL",
+      "name": "Toll Brothers, Inc.",
+      "summary": "Toll Brothers, Inc., together with its subsidiaries, designs, builds, markets, sells, and arranges finance for a range of detached and attached homes in luxury residential communities in the United States. It designs, builds, markets, and sells condominiums through Toll Brothers City Living. The company also develops a range of single-story living and first-floor primary bedroom suite home designs, as well as communities with recreational amenities, such as golf courses, marinas, pool complexes, country clubs, and fitness and recreation centers; and develops, operates, rents apartments and student housing communities. In addition, it provides various interior fit-out options, such as flooring, wall tile, plumbing, cabinets, fixtures, appliances, lighting, and home-automation and security technologies. Further, the company owns and operates architectural, engineering, mortgage, title, land development, insurance, smart home technology, landscaping, lumber distribution, house component assembly, and component manufacturing operations. It serves luxury first-time, move-up, empty-nester, active-adult, and second-home buyers. The company was founded in 1967 and is headquartered in Fort Washington, Pennsylvania.",
+      "sector": "Consumer Cyclical",
+      "industry": "Residential Construction",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TOWN": {
+      "symbol": "TOWN",
+      "name": "TowneBank",
+      "summary": "TowneBank provides retail and commercial banking services for individuals, commercial enterprises, and professionals in the United States. It operates through four segments: Banking, Mortgage, Resort Vacation Management, and Insurance. The company provides treasury solutions and deposit products, including checking accounts, savings accounts, and various types of time deposit services, such as daily money market accounts and long-term certificates of deposit; transaction accounts and certificates of deposit; and retirement account services comprising individual retirement accounts. It also offers safe deposit boxes, treasury management services, direct deposit of payroll and social security checks, and automatic drafts for various accounts; secured and unsecured loans for financing automobiles, home improvements, education, and personal investments; and secured and unsecured loans for working capital, business expansion, equipment and machinery purchases, fixed- and floating-rate mortgage loans, and larger commercial loans, as well as real estate acquisition, development, and construction loans. In addition, the company can act as a qualified intermediary assisting investors; provides other financial services, such as financial, retirement, and estate planning; and offers assistance on a various investment option, including alternative investments, annuities, margin accounts, convertible bonds, and pension and profit-sharing plans. Further, it provides residential mortgage loans; residential resort property management; property, casualty, life, and health insurance products for businesses, individuals, and community organizations; and commercial and consumer insurance products and financial services, as well as individual and group life and health insurance. Additionally, the company offers online banking, mobile banking, and on-call banking. TowneBank was incorporated in 1998 and is based in Portsmouth, Virginia.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TPB": {
+      "symbol": "TPB",
+      "name": "Turning Point Brands, Inc.",
+      "summary": "Turning Point Brands, Inc., together with its subsidiaries, manufactures, markets, and distributes branded consumer products in the United States and Canada. The company operates through two segments, Zig-Zag Products and Stoker's Products. Its Zig-Zag Products segment markets and distributes rolling papers, tubes, finished cigars, make-your-own cigar wraps, and related products, as well as lighters and other accessories under the Zig-Zag brand. The Stoker's Products segment manufactures and markets moist snuff tobacco and loose-leaf chewing tobacco products under the Stoker's, FRE, Beech-Nut, Durango, Trophy, and Wind River brands. In addition, the company markets and distributes cannabis accessories and tobacco products. It sells its products to wholesale distributors and retail merchants in the independent and chain convenience stores, tobacco outlets, food stores, mass merchandising, drug store, and non-traditional retail channels. The company was formerly known as North Atlantic Holding Company, Inc. and changed its name to Turning Point Brands, Inc. in November 2015. Turning Point Brands, Inc. was founded in 1988 and is headquartered in Louisville, Kentucky.",
+      "sector": "Consumer Defensive",
+      "industry": "Tobacco",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TPG": {
+      "symbol": "TPG",
+      "name": "TPG Inc.",
+      "summary": "TPG Inc. operates as an alternative asset manager in the United States and internationally. The company provides investment management services to TPG Funds, limited partners, separately managed accounts and clients, and other vehicles; advisory, debt and equity arrangement, and underwriting and placement services; and capital structuring and other advice services. In addition, it invests in private equity funds, real estate funds, hedge funds, and credit funds. TPG Inc. was founded in 1992 and is based in Fort Worth, Texas.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TPC": {
+      "symbol": "TPC",
+      "name": "Tutor Perini Corporation",
+      "summary": "Tutor Perini Corporation, a construction company, provides diversified general contracting, construction management, and design-build services to private customers and public agencies in the United States and internationally. It operates through three segments: Civil, Building, and Specialty Contractors. The Civil segment engages in public works construction and the replacement and reconstruction of infrastructure; and offers civil contracting services, including construction and rehabilitation of highways, bridges, tunnels, mass-transit systems, military and other government facilities, and water management and wastewater treatment facilities, as well as provides drilling, foundation, and excavation support for shoring, bridges, piers, roads, and highway projects. The Building segment offers various specialized building markets, such as hospitality and gaming, transportation, healthcare, commercial offices, government facilities, sports and entertainment, education, correctional and detention facilities, biotech, pharmaceutical, industrial, and technology. The Specialty Contractors segment provides electrical, mechanical, plumbing, and fire protection systems, as well as heating, ventilation, and air conditioning services (HVAC) for civil and building construction projects in industrial, commercial, hospitality and gaming, and mass-transit end markets. It also offers pre-construction planning and project management services comprising planning and scheduling of the manpower, equipment, materials, and subcontractor services; and self-performed construction services consisting of site work, concrete forming and placement, and steel erection. The company was formerly known as Perini Corporation and changed its name to Tutor Perini Corporation in May 2009. Tutor Perini Corporation was founded in 1894 and is headquartered in Sylmar, California.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TPR": {
+      "symbol": "TPR",
+      "name": "Tapestry, Inc.",
+      "summary": "Tapestry, Inc. provides accessories and lifestyle brand products in North America, Greater China, rest of Asia, and internationally. The company operates in two segments, Coach and Kate Spade. It offers handbags, fashion designs, business cases, computer bags, messenger style bags, backpacks, travel bags, and totes; accessories, such as small leather goods which includes mini and micro handbags, money pieces, wristlets, pouches, and cosmetic cases, as well as novelty accessories, including address books, time management and travel accessories, sketchbooks, and portfolios; and belts, key rings, technology accessories, gifting, straps, and charms. The company also provides women's and men's footwear, which casual and dress shoes, boots, sneakers, and sandals; and other products which includes outerwear, ready-to-wear, jewelry, watches, eyewear, fragrance, scarves, hats, gloves, and other products. It offers its products through retail and outlet stores, brand e-commerce sites, and concession shop-in-shops, as well as third-party digital platforms, including marketplaces. The company was formerly known as Coach, Inc. and changed its name to Tapestry, Inc. in October 2017. Tapestry, Inc. was founded in 1941 and is headquartered in New York, New York.",
+      "sector": "Consumer Cyclical",
+      "industry": "Luxury Goods",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TPL": {
+      "symbol": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "summary": "Texas Pacific Land Corporation engages in the land and resource management, and water services and operations businesses. The Land and Resource Management segment manages surface acres of land, and oil and gas royalty interest in Permian Basin. This segment also engages in easements, such as transporting oil, gas and related hydrocarbons, power line and utility, and subsurface wellbore easements. In addition, this segment leases its land for processing, storage, and compression facilities and roads; and is involved in sale of materials, such as caliche, sand, and other material, as well as sells land. The Water Services and Operations segment provides full-service water offerings, including water sourcing, produced-water treatment, infrastructure development, and disposal solutions to operators in the Permian Basin. This segment also holds produced water royalties. The company owns a 1/128th nonparticipating perpetual oil and gas royalty interest (NPRI) under approximately 85,000 acres of land; a 1/16th NPRI under approximately 371,000 acres of land; and approximately 33,000 additional net royalty acres, total of approximately 224,000 NRA located in the Permian Basin. The company was founded in 1888 and is headquartered in Dallas, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas E&P",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TRAX": {
+      "symbol": "TRAX",
+      "name": "First Tracks Biotherapeutics, Inc.",
+      "summary": "First Tracks Biotherapeutics, Inc. operates a clinical-stage biotechnology company focused on delivering immunology therapeutics for autoimmune and inflammatory diseases in United States. Its products includes ANB033, a novel anti-CD122 antagonist that targets the shared beta subunit of the IL-15 and IL-2 receptors; Rosnilimab, a antibody engineered to selectively deplete pathogenic T cells in both the periphery and inflamed tissues; and ANB101, a BDCA2-modulating antibody designed to specifically target plasmacytoid dendritic cells (pDCs). First Tracks Biotherapeutics, Inc. was formerly known as Biopharma Co., Inc. and changed its name to First Tracks Biotherapeutics, Inc. in February 2026. First Tracks Biotherapeutics, Inc. was founded in 2019 and is based in San Diego, California.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TREX": {
+      "symbol": "TREX",
+      "name": "Trex Company, Inc.",
+      "summary": "Trex Company, Inc. manufactures and sells composite decking and railing products in the United States. It offers decking products and accessories that can be used for protection against fading, staining, mold, and scratching, including Trex Transcend, which are decking products that can also be used as cladding; Trex Signature; Trex Transcend Lineage; Trex Select; Trex Enhance; Trex Hideaway fastener collection; and Trex DeckLighting, an outdoor lighting system that includes a post cap, deck rail, riser, a soffit, and a recessed deck lights. The company also offers railing products, such as Trex Signature X-Series Railing, Trex Signature aluminum railing, Trex Transcend Railing, Trex Select Railing, Trex Select T-Rail, Trex Enhance Railing; and fencing products, which includes Trex Seclusions that consists of structural posts, bottom rails, pickets, top rails, and decorative post caps. In addition, it acts as a licensor in various licensing agreements with third parties to manufacture and sell products under the Trex name, including Trex Outdoor Furniture; Trex RainEscape, an above joist deck drainage system; Trex Protect joist, beam and rim tape, a self-adhesive butyl tape that protects wooden deck framing/substructure elements; Trex RainEscape Soffit Light, a plug-and-play LED Soffit light that is installed in the under-deck ceiling of a two-story deck; Trex Seal Ledger Flashing Tape, butyl flashing tape with an aluminum liner; Trex Pergola, Pergolas made from low maintenance aluminum reinforced cellular PVC; Trex Lattice outdoor boards; Trex Cornhole boards; Trex Blade, a specialty saw blade for wood-alternative composite decking; Trex SpiralStairs; and Trex Outdoor Kitchen cabinetry. The company sells its products through wholesale distributors, retail lumber dealers, and Home Depot and Lowe's stores. Trex Company, Inc. was founded in 1996 and is headquartered in Winchester, Virginia.",
+      "sector": "Industrials",
+      "industry": "Building Products & Equipment",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TRGP": {
+      "symbol": "TRGP",
+      "name": "Targa Resources Corp.",
+      "summary": "Targa Resources Corp., together with its subsidiaries, owns, operates, acquires, and develops a portfolio of complementary domestic infrastructure assets in North America. It operates in two segments, Gathering and Processing, and Logistics and Transportation. The company is involved in gathering, compressing, treating, processing, transporting, and selling natural gas; storing, fractionating, treating, transporting, and selling natural gas liquids (NGL) and NGL products, including services to liquefied petroleum gas exporters; and gathering, storing, terminaling, purchasing, and selling crude oil. It is involved in the purchase and resale of NGL products; and sale of propane, as well as provision of related logistics services to multi-state retailers, independent retailers, and other end-users. In addition, the company offers NGL balancing services; and transportation services to refineries and petrochemical companies in the Gulf Coast area, as well as purchases, markets, and resells natural gas. The company also leased and owned railcars, tractors, vacuum trucks and pressurized NGL barges. Targa Resources Corp. was incorporated in 2005 and is headquartered in Houston, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TRI": {
+      "symbol": "TRI",
+      "name": "Thomson Reuters Corporation",
+      "summary": "Thomson Reuters Corporation operates as a content and technology company in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates through five segments: Legal Professionals, Corporates, Tax, Audit & Accounting Professionals, Reuters News, and Global Print. The Legal Professionals segment offers research and workflow products focusing on legal research and integrated legal workflow solutions that combine content, tools, and analytics to law firms and governments. The Corporates segment provides a suite of content-driven technologies, including generative AI and integrated compliance workflow solutions to small businesses and multinational organizations. Tax, Audit & Accounting Professionals segment offers research and workflow products to tax, audit, and accounting firms. The Reuters News segment provides business, financial, and international news to media organizations, professional, and news consumers through Reuters News Agency, Reuters.com, Reuters Events, Thomson Reuters products, and to financial firms. The Global Print segment offers legal and tax information primarily in print format. The company was formerly known as The Thomson Corporation and changed its name to Thomson Reuters Corporation in April 2008. The company was founded in 1799 and is headquartered in Toronto, Canada. Thomson Reuters Corporation is a subsidiary of The Woodbridge Company Limited.",
+      "sector": "Industrials",
+      "industry": "Specialty Business Services",
+      "country": "Canada",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TRIP": {
+      "symbol": "TRIP",
+      "name": "Tripadvisor, Inc.",
+      "summary": "Tripadvisor, Inc., an online travel company, engages in the provision of travel guidance products and services worldwide. The company operates through three segments: Experiences, Hotels and Other, and TheFork. The Experiences segment operates an online travel agency for tours, activities, and attractions, and acts as travel guidance platforms for travelers to discover, generate, and share authentic user-generated content in the form of ratings and reviews and opinions for destinations, points-of-interest, experiences, accommodations, restaurants, and cruises. The Hotels and Other segment primarily consist of the Tripadvisor hotel and restaurant guidance platform, which include hotel metasearch, and related advertising offerings primarily for hotels and restaurants. TheFork segment provides an online marketplace, which enables diners to discover and book online reservations at restaurants. Tripadvisor, Inc. was founded in 2000 and is headquartered in Needham, Massachusetts.",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel Services",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TRMB": {
+      "symbol": "TRMB",
+      "name": "Trimble Inc.",
+      "summary": "Trimble Inc. offers technology solutions and platform that enable office professionals and field workers to connect workflows and industry lifecycles in North America, Europe, the Asia Pacific, and internationally. The company provides architecture and interior design; building information modeling, engineering, and virtual design and construction; and construction and owner software products. It also offers field and office software for estimating and job cost management, and project design and visualization; software for 3D design and data sharing; systems to guide and control construction equipment, such as excavators, bulldozers, wheel loaders, motor graders, and paving equipment; systems to monitor, track, and manage assets, equipment, and workers; and software to facilitate the management of the construction process and for sharing and communication of data in real time. In addition, it provides positioning services comprising VRSNow; CenterPoint RTX; FieldPoint RTX; Rangepoint RTX; ViewPoint RTX; and Trimble xFill services. Further, it offers transportation and logistics solutions for shippers, carriers, retailers, and intermediaries, such as carrier transportation management software (TMS) and maintenance solutions to manage core transportation operations and maintenance workflows; transporeon solutions to provide a cloud-based ecosystem that manages the transportation lifecycle from freight sourcing and procurement through transport execution, dock and yard management, and auditing; and MAPS, a mapping and routing solutions that provide the industry standard for truck-specific routing, mileage, and navigation. It sells its technology solutions directly to end users and through software integrations. The company was formerly known as Trimble Navigation Limited and changed its name to Trimble Inc. in October 2016. Trimble Inc. was founded in 1978 and is headquartered in Westminster, Colorado.",
+      "sector": "Technology",
+      "industry": "Scientific & Technical Instruments",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TRMD": {
+      "symbol": "TRMD",
+      "name": "TORM plc",
+      "summary": "TORM plc, a shipping company, owns and operates a fleet of product tankers in the United Kingdom and internationally. It operates in two segments, Tanker and Marine Engineering. The Tanker segment transports refined oil products, such as gasoline, jet fuel, diesel, naphtha, and gas oil, as well as dirty petroleum products, such as residual fuels and crude oil. The Marine Engineering segment engages in developing and producing advanced and green marine equipment. TORM plc was founded in 1889 and is based in London, the United Kingdom.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "country": "United Kingdom",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TRNO": {
+      "symbol": "TRNO",
+      "name": "Terreno Realty Corporation",
+      "summary": "Terreno Realty Corporation an acquirer, owner and operator of industrial real estate in six major coastal U.S. markets. The firm announced today that it has executed new renewal leases totaling 233,000 square feet at Countyline Corporate Park Phase III in Hialeah, Florida. Countyline Corporate Park Buildings 26 and 28 total 422,000 square feet and are currently 100% leased to six tenants with 83,000 square feet expiring April 2027. To facilitate the new leases, Terreno Realty Corporation has executed an early termination effective July 31, 2026, with the tenant that was to expire April 2027. A provider of turbine engine disassembly, repair, logistics and storage services will relocate from 106,000 square feet in Building 28 expiring April 2030 to 83,000 square feet in Building 26. The lease will commence August 1, 2026, and expire March 2035. Terreno Realty Corporation has executed an early renewal and expansion lease with a global wholesale packaging provider in Building 28. The early renewal for 43,000 square feet will commence October 1, 2027, and expire January 2035. The expansion lease for 106,000 square feet is expected to commence November 1, 2026, and will expire in January 2035. After commencement of the new leases Countyline Corporate Park Buildings 26 and 28 will be 100% leased to five tenants. Terreno Realty Corporation acquires, owns and operates industrial real estate in six major coastal U.S. markets: New York City/Northern New Jersey; Los Angeles; Miami; San Francisco Bay Area; Seattle; and Washington, D.C. Terreno Realty Corporation was incorporated on 6th November 2009 and is based in Bellevue, United States.",
+      "sector": "Real Estate",
+      "industry": "REIT - Industrial",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TRN": {
+      "symbol": "TRN",
+      "name": "Trinity Industries, Inc.",
+      "summary": "Trinity Industries, Inc. provides railcar products and services under the TrinityRail trade name in North America. The company operates in two segments, Railcar Leasing and Services Group, and Rail Products Group. The Railcar Leasing and Services Group segment leases freight and tank railcars; originates and manages railcar leases for third-party investors; and provides fleet leasing, management, and administrative services, as well as railcar maintenance and modification services, and other railcar logistics products and services. As of December 31, 2025, it had a fleet of 101,485 railcars. This segment serves industrial shipper and railroad companies operating in refined products and chemicals, energy, agriculture, construction and metals, and consumer products. The Rail Products Group segment manufactures freight and tank railcars for transporting various liquids, gases, and dry cargo; and manufactures and sells railcars and related parts and components. This segment serves railroads, leasing companies, and industrial shippers of products in the refined products and chemicals, energy, agriculture, construction and metals, and consumer products markets. It sells or leases products and services through its own sales personnel and independent sales representatives. The company was incorporated in 1933 and is headquartered in Dallas, Texas.",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TROW": {
+      "symbol": "TROW",
+      "name": "T. Rowe Price Group, Inc.",
+      "summary": "T. Rowe Price Group, Inc. is a publicly owned investment manager. The firm provides its services to individuals, institutional investors, retirement plans, financial intermediaries, and institutions. It launches and manages equity and fixed income mutual funds. The firm invests in the public equity and fixed income markets across the globe. It employs fundamental and quantitative analysis with a bottom-up approach. The firm utilizes in-house and external research to make its investments. It employs socially responsible investing with a focus on environmental, social, and governance issues. It makes investment in late-stage venture capital transactions and usually invests between $3 million and $5 million. The firm was previously known as T. Rowe Group, Inc. and T. Rowe Price Associates, Inc. T. Rowe Price Group, Inc. was founded in 1937 and is based in Baltimore, Maryland, with additional offices in North America, Europe, Asia, Australia.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TRP": {
+      "symbol": "TRP",
+      "name": "TC Energy Corporation",
+      "summary": "TC Energy Corporation operates as an energy infrastructure company in Canada, the United States, and Mexico. It operates through four segments: Canadian Natural Gas Pipelines; U.S. Natural Gas Pipelines; Mexico Natural Gas Pipelines; and Power and Energy Solutions. The company builds and operates a network of 94,171 kilometers of natural gas pipelines, which transports natural gas from supply basins to local distribution companies, power generation plants, industrial facilities, interconnecting pipelines, LNG export terminals, and other businesses. It also has regulated natural gas storage facilities with a total working gas capacity of 532 billion cubic feet. In addition, the company owns or has interests in power generation facilities with approximately 4,650 megawatts; and owns and operates approximately 118 billion cubic feet of non-regulated natural gas storage facilities in Alberta, Ontario, Québec, and New Brunswick. The company was formerly known as TransCanada Corporation and changed its name to TC Energy Corporation in May 2019. TC Energy Corporation was founded in 1951 and is headquartered in Calgary, Canada.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Midstream",
+      "country": "Canada",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TRV": {
+      "symbol": "TRV",
+      "name": "The Travelers Companies, Inc.",
+      "summary": "The Travelers Companies, Inc., through its subsidiaries, provides a range of commercial and personal property, and casualty insurance products and services to businesses, government units, associations, and individuals in the United States, Canada, and internationally. It operates through three segments: Business Insurance, Bond & Specialty Insurance, and Personal Insurance. The Business Insurance segment offers workers' compensation, commercial automobile and property, general liability, commercial multi-peril, employers' liability, public and product liability, professional indemnity, marine, aviation, commercial property and automobile, onshore and offshore energy, construction, terrorism, personal accident, and kidnap and ransom insurance products. This segment operates through select accounts, which serve small businesses; middle accounts that serve mid-sized businesses; national accounts, which serve large companies; and national property and others that serve large and mid-sized customers, commercial trucking industry, and agricultural businesses, as well as markets and distributes its products through brokers, wholesale agents, and program managers. The Bond & Specialty Insurance segment provides surety, fidelity, management and professional liability, and other property and casualty coverages and related risk management services through independent agencies and brokers. The Personal Insurance segment offers property and casualty insurance covering personal risks, primarily automobile and homeowners' insurance to individuals. The Travelers Companies, Inc. was founded in 1853 and is based in New York, New York.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Property & Casualty",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TRU": {
+      "symbol": "TRU",
+      "name": "TransUnion",
+      "summary": "TransUnion operates as a global consumer credit reporting agency that provides risk and information solutions. The company operates in two segments, U.S. Markets and International. The U.S. Markets segment provides credit reporting, credit marketing, analytics and consulting, identity verification, and authentication and debt recovery solutions for financial services industry; and onboarding and transaction processing products, scoring and analytic products, marketing solutions, fraud and identity management solutions, and customer retention solutions, as well select market-specific solutions for insurance, technology, retail and e-commerce, telecommunications, media, tenant and employment screening, collections, and public sectors. It also offers credit reports, scores, and freezes credit monitoring, identity protection and resolution, and financial management for consumers, as well as helps businesses respond to data breach events through its own websites, as well as channels. The International segment offers credit reports, analytics, technology solutions, and other value-added risk management services; consumer services, which helps consumers to manage their personal finances; credit bureaus; and consumer and business credit reporting, insurance and auto information solutions, and commercial credit information services. This segment serves customers in financial services, retail credit, insurance, automotive, collections, public sector, and communications industries through direct and indirect channels. The company was formerly known as TransUnion Holding Company, Inc. and changed its name to TransUnion in March 2015. TransUnion was founded in 1968 and is headquartered in Chicago, Illinois.",
+      "sector": "Financial Services",
+      "industry": "Financial Data & Stock Exchanges",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TS": {
+      "symbol": "TS",
+      "name": "Tenaris S.A.",
+      "summary": "Tenaris S.A., together with its subsidiaries, manufactures and supplies steel pipe products and related services for the energy industry and other industrial applications in North America, South America, Europe, the Middle East and Africa, and the Asia Pacific. It provides steel casings to sustain the walls of oil and gas wells during and after drilling; steel tubing for conducting crude oil and natural gas to the surface after drilling has been completed; steel line pipes to transport crude oil and natural gas from wells to refineries, storage tanks, and loading and distribution centers; and mechanical and structural pipes for the transportation of other forms of gas and liquids under high pressure. The company also offers cold-drawn pipes for use in boilers, superheaters, condensers, heat exchangers, automobile production, and other industrial applications; premium joints and couplings for use in high temperature or high pressure environments under the TenarisHydril brand name; coiled tubing is used for oil and gas drilling and well workovers and for subsea pipelines; sucker rods used in oil extraction activities, tubes used for plumbing and construction applications, and oilfield / hydraulic fracturing services; pipe coating services; and automotive components. In addition, it engages in the sale of energy and raw materials; development, management, and licensing of intellectual property; procurement and trading services; and financial operations, as well as markets steel products. Further, the company manufactures and markets connections; and welded and seamless steel pipes. Tenaris S.A. was incorporated in 2001 and is based in Luxembourg, Luxembourg. Tenaris S.A. operates as a subsidiary of Techint Holdings S.àr.l.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Equipment & Services",
+      "country": "Luxembourg",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TRVI": {
+      "symbol": "TRVI",
+      "name": "Trevi Therapeutics, Inc.",
+      "summary": "Trevi Therapeutics, Inc., a clinical-stage biopharmaceutical company, develops and commercializes investigational therapy for the treatment of chronic cough in patients with idiopathic pulmonary fibrosis (IPF) and non-IPF interstitial lung disease, and refractory chronic cough. The company develops Haduvio, an oral extended-release formulation of nalbuphine, which is in phase 2b Cough Reduction in IPF with nalbuphine ER clinical trial for treatment of chronic cough in patients with IPF, and phase 2a clinical trial in patients with refractory chronic cough. Trevi Therapeutics, Inc. has a license agreement with Keenova Therapeutics plc to develop and commercialize products incorporating nalbuphine hydrochloride in various formulations. Trevi Therapeutics, Inc. was incorporated in 2011 and is headquartered in New Haven, Connecticut.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-30",
+      "source": "Yahoo Finance via yfinance"
     }
   }
 }
