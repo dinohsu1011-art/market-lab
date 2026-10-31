@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "on",
+    "call": "Narrow risk-on",
+    "detail": "Risk is working through a thin group of names.",
+    "summary": "SPY finished the week +0.7%; QQQ +0.9%; high beta versus low beta is +13.5% over one month (92nd percentile); leader breadth is +25.6 points versus the index; 26% of S&P names are above the 50-day; net 52-week highs are +0; Materials leads themes at +2.4%.",
+    "market": "SPY finished the week +0.7%; QQQ +0.9%.",
+    "winners": "Materials +2.4%, Cybersecurity +2.2%, Biotechnology +1.8%.",
+    "laggards": "Neocloud -2.7%, Gas Power -1.1%, Behind-the-meter power -1.1%.",
+    "why": "High beta is working, but participation says the advance remains concentrated; high beta/low beta +13.5%, leader breadth spread +25.6pt, 26% above the 50-day.",
+    "comparison": "Since 2026-10-02, the Narrow risk-on call is unchanged; high beta -1.6pt, leader spread -2.2pt, 50-day breadth +2.2pt. Weekly leadership changed from Photonics to Materials.",
+    "tally": "3 of 4 risk gauges and 2 of 6 participation gauges are above their five-year medians",
+    "volume": "CTVA printed 43.14\u00d7 relative volume on a +3.9% day, while PTC printed 22.43\u00d7 relative volume on a +33.5% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

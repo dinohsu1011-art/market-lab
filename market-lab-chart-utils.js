@@ -2,7 +2,8 @@
   "use strict";
   const NS="http://www.w3.org/2000/svg";
   const el=(name,attrs,text)=>{const n=document.createElementNS(NS,name);Object.entries(attrs||{}).forEach(([k,v])=>n.setAttribute(k,v));if(text!=null)n.textContent=text;return n;};
-  const extent=values=>{let lo=Math.min(...values),hi=Math.max(...values);if(lo===hi){lo-=1;hi+=1;}const pad=(hi-lo)*.08;return[lo-pad,hi+pad];};
+  // floor: the lowest value the series can take (e.g. -100 for a return); padding never pushes the axis below it
+  const extent=(values,floor)=>{let lo=Math.min(...values),hi=Math.max(...values);if(lo===hi){lo-=1;hi+=1;}const pad=(hi-lo)*.08;return[Number.isFinite(floor)?Math.max(floor,lo-pad):lo-pad,hi+pad];};
   function chart(container,series,options={}){
     container.innerHTML="";
     const dual=series.some(s=>s.axis==='right');
@@ -13,12 +14,13 @@
     if(!dates.length||!vals.length){svg.appendChild(el("text",{x:width/2,y:height/2,"text-anchor":"middle",fill:"#78716c"},"No accepted observations for this selection"));return svg;}
     const primary=series.filter(s=>s.axis!=='right').flatMap(s=>s.points.map(p=>p.value)).filter(Number.isFinite);
     const secondary=series.filter(s=>s.axis==='right').flatMap(s=>s.points.map(p=>p.value)).filter(Number.isFinite);
-    const x0=Math.min(...dates),x1=Math.max(...dates),[y0,y1]=options.domain||extent(primary.length?primary:vals),x=d=>m.left+(Date.parse(d)-x0)/(x1-x0||1)*(width-m.left-m.right),y=v=>m.top+(y1-v)/(y1-y0)*(height-m.top-m.bottom);
+    const x0=Math.min(...dates),x1=Math.max(...dates),[y0,y1]=options.domain||extent(primary.length?primary:vals,options.floor),x=d=>m.left+(Date.parse(d)-x0)/(x1-x0||1)*(width-m.left-m.right),y=v=>m.top+(y1-v)/(y1-y0)*(height-m.top-m.bottom);
     const [r0,r1]=secondary.length?extent(secondary):[0,1],ry=v=>m.top+(r1-v)/(r1-r0)*(height-m.top-m.bottom);
     for(let i=0;i<5;i++){const v=y0+(y1-y0)*i/4,yy=y(v);svg.appendChild(el("line",{x1:m.left,x2:width-m.right,y1:yy,y2:yy,stroke:"#e7e5e4"}));svg.appendChild(el("text",{x:m.left-9,y:yy+4,"text-anchor":"end",fill:"#78716c","font-size":"11"},options.format?options.format(v):v.toFixed(1)));}
     if(dual&&secondary.length)for(let i=0;i<5;i++){const v=r0+(r1-r0)*i/4;svg.appendChild(el('text',{x:width-m.right+8,y:ry(v)+4,fill:options.rightColor||'#78716c','font-size':'11'},options.rightFormat?options.rightFormat(v):v.toFixed(0)));}
-    const tickCount=width<480?3:5;
-    for(let i=0;i<tickCount;i++){const d=new Date(x0+(x1-x0)*i/(tickCount-1)),xx=x(d);svg.appendChild(el("text",{x:xx,y:height-12,"text-anchor":i===0?"start":i===tickCount-1?"end":"middle",fill:"#78716c","font-size":"11"},d.toLocaleDateString(undefined,{year:"numeric",month:"short"})));}
+    // Under about six months, month labels repeat, so those ranges label days; a label equal to the previous one is skipped.
+    const tickCount=width<480?3:5,tickFormat=x1-x0<200*864e5?{month:"short",day:"numeric"}:{year:"numeric",month:"short"};let previous="";
+    for(let i=0;i<tickCount;i++){const d=new Date(x0+(x1-x0)*i/(tickCount-1)),xx=x(d),text=d.toLocaleDateString(undefined,{...tickFormat,timeZone:"UTC"});if(text===previous)continue;previous=text;svg.appendChild(el("text",{x:xx,y:height-12,"text-anchor":i===0?"start":i===tickCount-1?"end":"middle",fill:"#78716c","font-size":"11"},text));}
     const colors=["#1d7fc4","#d97706","#059669","#7c3aed"];
     series.forEach((s,idx)=>{
       const Y=s.axis==='right'?ry:y;

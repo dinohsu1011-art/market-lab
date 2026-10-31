@@ -32,7 +32,7 @@
                   white-space:nowrap; font-variant-numeric:tabular-nums; line-height:1.7; }
 
     /* ---------- verdict ---------- */
-    .verdict { display:grid; grid-template-columns:minmax(0,7fr) minmax(0,5fr); gap:40px;
+    .verdict { display:grid; grid-template-columns:minmax(0,1fr); gap:40px;
                align-items:start; padding:34px 0 30px; border-bottom:1px solid var(--stone); }
     .verdict .call { font-family:var(--serif); font-size:34px; line-height:1.18; font-weight:600;
                      letter-spacing:-.02em; margin:0; }
@@ -57,6 +57,8 @@
     /* ---------- gauges ---------- */
     .gauges { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px 34px; }
     .gauges.risk { grid-template-columns:repeat(2,minmax(0,1fr)); }
+    /* Four risk gauges sit two by two; the id outranks the shell's 3-column overview grid. */
+    #riskg.gauges { grid-template-columns:repeat(2,minmax(0,1fr)); }
     .g .glbl { font-size:9.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--steel); }
     .g .gval { font-family:var(--mono); font-size:23px; font-weight:600; letter-spacing:-.02em;
                font-variant-numeric:tabular-nums; margin-top:3px; }
@@ -125,6 +127,7 @@
     .ra .rv { margin-left:auto; font-family:var(--mono); font-size:12px; text-align:right;
               font-variant-numeric:tabular-nums; }
     .ra .rv .s { font-size:10px; color:var(--steel); display:block; }
+    .ra .rv .p { font-size:10px; color:var(--steel); margin-right:4px; }
 
     /* ---------- history chart ---------- */
     .chartwrap { background:var(--white); border:1px solid var(--stone); margin-top:18px;
@@ -152,7 +155,7 @@
       .gauges{grid-template-columns:repeat(2,1fr);} .rot,.ratios{grid-template-columns:1fr;}
     }
   </style>
-<link rel="stylesheet" href="market-lab-shell.css?v=20261029-db963087"><script src="market-lab-shell.js?v=20261029-db963087"></script></head>
+<link rel="stylesheet" href="market-lab-shell.css?v=20261030-ed5975d7"><script src="market-lab-shell.js?v=20261030-ed5975d7"></script></head>
 <body>
 <div class="page">
 
@@ -178,7 +181,6 @@
       </div>
       <div class="tally" id="tally"></div>
     </div>
-    <div class="gauges risk" id="riskg"></div>
   </div>
 
   <section id="weeklyedition">
@@ -199,6 +201,7 @@
     </div>
     <div class="chartwrap"><svg id="rchart"></svg></div>
     <div class="readout" id="rro"></div>
+    <div class="gauges risk" id="riskg" style="margin-top:14px"></div>
     <div class="note">The line is high-beta over low-beta, rebased to the window start —
       falling means risk is being sold whatever the index does. The band underneath is
       leader breadth less index breadth: <b>below zero, the index is being carried by names
@@ -218,7 +221,7 @@
     <div class="shd"><h2>Indexes</h2><div class="leg" id="idxleg"></div></div>
     <table id="idxtbl">
       <thead><tr>
-        <th class="l">Index</th><th>Last</th><th>1w</th><th>1m</th><th>3m</th><th>YTD</th>
+        <th class="l">Index</th><th>Last</th><th class="wk">1w</th><th>1m</th><th>3m</th><th>YTD</th>
         <th>Off 52w high</th><th>vs 50d</th><th>vs 200d</th>
       </tr></thead>
       <tbody></tbody>
@@ -237,7 +240,7 @@
     </div>
     <table id="thtbl">
       <thead><tr>
-        <th class="l">Theme</th><th data-k="r1w">1w</th><th data-k="r1m">1m</th><th data-k="r3m">3m</th>
+        <th class="l">Theme</th><th data-k="r1w" class="wk">1w</th><th data-k="r1m">1m</th><th data-k="r3m">3m</th>
         <th data-k="rank">1m rank</th><th data-k="drank">&Delta;rank</th><th data-k="n">Names</th>
       </tr></thead>
       <tbody></tbody>
@@ -253,14 +256,15 @@
     <table id="voltbl">
       <thead><tr>
         <th class="l">Ticker</th><th class="l">Date</th><th data-k="rvol">rVol</th>
-        <th data-k="chg">Day</th><th data-k="dvol_m">$ volume</th><th data-k="r1w">1w</th>
+        <th data-k="chg">Day</th><th data-k="dvol_m">$ volume</th><th data-k="r1w">5d</th>
         <th data-k="off_high">Off 52w high</th>
       </tr></thead>
       <tbody></tbody>
     </table>
-    <div class="note">A 252-day volume high, over the five sessions just closed, filtered to
-      $10m traded on the day. <b>Measured base rate: 0.51% of name-sessions</b> &mdash; about three
-      a day &mdash; which is why the scan runs over the week rather than the last bar.
+    <div class="note">A 252-day volume high, over the last five US sessions, filtered to
+      $10m traded on the day (foreign listings converted at that day&rsquo;s FX close). 5d is the
+      return over those five sessions. <b>Measured base rate: 0.51% of name-sessions</b>, about three
+      a day, so the scan covers five sessions instead of only the last one.
       <b>ever</b> marks an all-time volume high.</div>
   </section>
 
@@ -295,8 +299,8 @@
   <div class="note" id="foot" style="margin-top:52px;padding-top:16px;border-top:1px solid var(--stone)"></div>
 </div>
 
-<script src="cube/weekend.js?v=20261029-db963087"></script>
-<script src="cube/reviews-index.js?v=20261029-db963087"></script>
+<script src="cube/weekend.js?v=20261030-ed5975d7"></script>
+<script src="cube/reviews-index.js?v=20261030-ed5975d7"></script>
 <script>
 (function () {
   const W = window.QUANT_WEEKEND;
@@ -344,6 +348,10 @@
     return n + (t >= 11 && t <= 13 ? 'th' : ['th','st','nd','rd'][n % 10] || 'th'); };
   const dstr = s => new Date(s + 'T00:00:00').toLocaleDateString('en-US',
         { month: 'short', day: 'numeric', year: 'numeric' });
+
+  // A week the data has not finished is labelled week to date.
+  const wtd = W.week && W.week.complete === false;
+  if (wtd) document.querySelectorAll('th.wk').forEach(t => { t.textContent = 'WTD'; });
 
   // ---------- masthead ----------
   $('#asof').innerHTML = 'updated ' + dstr(W.as_of) + '<br>week of ' + dstr(W.week.start) +
@@ -479,6 +487,7 @@
     d.appendChild(lab);
     d.appendChild(spark(r.spark, 108, 26));
     const v = el('div', 'rv');
+    v.appendChild(el('span', 'p', '1m'));
     const a = el('span', cls(r.r1m), sgn(r.r1m)); v.appendChild(a);
     const b = el('span', 's'); b.textContent = '3m ' + sgn(r.r3m); v.appendChild(b);
     d.appendChild(v);
@@ -503,7 +512,7 @@
   }
   rotList($('#rotin'), rot.filter(r => r.drank > 0).slice(0, 5));
   rotList($('#rotout'), rot.filter(r => r.drank < 0).slice(-5).reverse());
-  $('#thleg').textContent = th.length + ' themes and sectors, ranked by the week';
+  $('#thleg').textContent = th.length + ' themes and sectors, ranked ' + (wtd ? 'week to date' : 'by the week');
 
   function themeRow(r) {
     const tr = el('tr');
@@ -529,9 +538,14 @@
     tr.appendChild(el('td', 'l mute', r.date.slice(5)));
     tr.appendChild(el('td', '', r.rvol == null ? '—' : '×' + r.rvol.toFixed(2)));
     tr.appendChild(el('td', cls(r.chg), sgn(r.chg)));
-    tr.appendChild(el('td', 'mute', '$' + num(r.dvol_m) + 'm'));
-    tr.appendChild(el('td', cls(r.r1w), sgn(r.r1w)));
-    tr.appendChild(el('td', cls(r.off_high), sgn(r.off_high)));
+    tr.appendChild(el('td', 'mute', r.dvol_m == null ? '—' : '$' + num(r.dvol_m) + 'm'));
+    // a name with no bar on the last session: its 5d and off-high stop at `last`
+    const through = r.stale ? 'through ' + r.last : null;
+    [['r1w'], ['off_high']].forEach(([k]) => {
+      const td = el('td', r.stale ? 'mute' : cls(r[k]), sgn(r[k]));
+      if (through) td.title = through;
+      tr.appendChild(td);
+    });
     return tr;
   }
 
@@ -576,14 +590,14 @@
   // ---------- volume edge ----------
   const V = W.volume, F = W.flags;
   const both = V.filter(v => F.some(f => f.t === v.t)).map(v => v.t.toUpperCase());
-  $('#volleg').textContent = V.length + ' names · ' + W.week.sessions + ' sessions';
+  $('#volleg').textContent = V.length + ' names · last 5 sessions';
   if (N) $('#vollede').textContent = N.volume;
   else $('#vollede').innerHTML = V.length
     ? 'Ranked by relative volume. ' + (both.length
         ? '<b>' + both.join(', ') + '</b> also ' + (both.length === 1 ? 'sits' : 'sit') +
           ' in a high tight flag — the overlap is the focus list.'
         : 'None of them also sit in a flag this week, so the focus list is the volume names alone.')
-    : 'No qualifying volume highs in the week just closed.';
+    : 'No qualifying volume highs in the last five sessions.';
   if (V.length) table($('#voltbl'), V, volRow, 'rvol', -1);
   else $('#voltbl').style.display = 'none';
 
@@ -815,7 +829,7 @@
     'wrong for backtesting a threshold.';
 })();
 </script>
-<script src="market-lab-chart-utils.js?v=20261029-db963087"></script>
-<script src="market-lab-reviews.js?v=20261029-db963087"></script>
+<script src="market-lab-chart-utils.js?v=20261030-ed5975d7"></script>
+<script src="market-lab-reviews.js?v=20261030-ed5975d7"></script>
 </body>
 </html>

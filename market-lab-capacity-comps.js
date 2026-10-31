@@ -281,9 +281,13 @@
   });
   // A company guide can make a workbook estimate stale; these replace it and say why.
   (window.capacityActuals?.estimateOverrides || []).forEach(o => {
-    const m = data.companies.find(c => c.name === o.company)?.metrics[o.metric];
+    const c = data.companies.find(c => c.name === o.company), m = c?.metrics[o.metric];
     const p = m?.series[o.quarter];
-    if (p && p.e) m.series[o.quarter] = {...p, v: o.value, why: 'from guide, workbook ' + fmtB(o.workbook)};
+    if (!p || !p.e) return;
+    m.series[o.quarter] = {...p, v: o.value, why: 'from guide, workbook ' + fmtB(o.workbook)};
+    // Free cash flow is operating cash flow minus capex, so a capex change moves it by the same amount the other way.
+    const f = o.metric === 'capex' && c.metrics.fcf?.series[o.quarter];
+    if (f && f.e) c.metrics.fcf.series[o.quarter] = {...f, v: f.v + o.workbook - o.value, why: 'rebased to the capex guide, workbook ' + fmtB(f.v)};
   });
   // Reported quarters the workbook starts too late to cover. Never overwrites a workbook value.
   (window.capacityActuals?.backfill || []).forEach(b => {
@@ -294,6 +298,33 @@
   const prevYearKey = k => quarterKey(Number(k.slice(0, 4)) - 1, k.slice(-1));
   const prevQuarterKey = k => k.endsWith('Q1') ? quarterKey(Number(k.slice(0, 4)) - 1, 4) : quarterKey(k.slice(0, 4), Number(k.slice(-1)) - 1);
   const periodObj = k => ({key: k, label: 'Q' + k.slice(-1), year: k.slice(0, 4), title: `${k.slice(0, 4)} Q${k.slice(-1)} (calendar)`});
+  // Check on estimated free cash flow. FCF + capex is the operating cash flow an estimate implies;
+  // when that moves by more than half the quarter's capex from the same quarter a year earlier,
+  // the workbook row is likely broken. Broken links run in streaks, so a quarter next to one that
+  // fails is held to a tighter bar (two fifths of capex). Those quarters stay out of the charts,
+  // totals and growth; the figures table still shows them, marked left out.
+  const fcfChecks = [];
+  data.companies.forEach(c => {
+    const f = c.metrics.fcf?.series, cx = c.metrics.capex?.series;
+    if (!f || !cx) return;
+    Object.entries(f).forEach(([k, p]) => {
+      const b = f[prevYearKey(k)], bx = cx[prevYearKey(k)];
+      if (!p.e || !cx[k] || !b || !bx) return;
+      const ocf = p.v + cx[k].v, prior = b.v + bx.v;
+      fcfChecks.push({company: c.name, key: k, p, capex: cx[k].v, ocf, prior, ratio: Math.abs(ocf - prior) / cx[k].v});
+    });
+  });
+  const failsMain = fcfChecks.filter(o => o.ratio > 0.5);
+  const nextQuarterKey = k => k.endsWith('Q4') ? quarterKey(Number(k.slice(0, 4)) + 1, 1) : quarterKey(k.slice(0, 4), Number(k.slice(-1)) + 1);
+  const fcfOutliers = fcfChecks.filter(o => o.ratio > 0.5 || (o.ratio > 0.4 &&
+    failsMain.some(m => m.company === o.company && (m.key === prevQuarterKey(o.key) || m.key === nextQuarterKey(o.key)))))
+    .map(o => ({...o, neighbor: o.ratio <= 0.5}));
+  fcfOutliers.forEach(o => { delete data.companies.find(c => c.name === o.company).metrics.fcf.series[o.key]; });
+  const outlierCell = (owner, k) => {
+    const o = fcfOutliers.find(o => o.company === owner && o.key === k);
+    return o ? {v: o.p.v, e: true, vs: 'left out', why: `Left out of the charts and totals: with ${fmtB(o.capex)} of capex it implies ${fmtB(o.ocf)} of operating cash flow, against ${fmtB(o.prior)} a year earlier${o.neighbor ? ', and the quarter next to it fails the same check' : ''}. Check the workbook's free cash flow row for this quarter.`} : null;
+  };
+  const quarterName = k => `Q${k.slice(-1)} '${k.slice(2, 4)}`;
   const state = {cloudMode: 'yoy', cloudBasis: 'est', cloudHidden: new Set()};
 
   // "Reported only" drops every estimate point, so each company stops at its own
@@ -427,7 +458,14 @@
       }
     }
     flowTables(key);
-    document.querySelector(cfg.method).textContent = `${cfg.note} Line items differ by company: ${list.filter(s => !s.total).map(s => `${s.owner}, ${s.field.trim()}`).join('; ')}.${key === 'capex' ? ' Total adds Microsoft, Google, Amazon, Oracle and Meta, only for quarters all five cover; SpaceX is left out.' : ''} A calendar year needs all four quarters; a year that mixes reported and estimated quarters counts as an estimate. Growth is left blank when either period is negative. Under a reported quarter, the small line is the estimate this page showed before the report.`;
+    const outNote = panel.querySelector('[data-outliers]');
+    if (outNote) {
+      const by = {};
+      fcfOutliers.forEach(o => (by[o.company] = by[o.company] || []).push(quarterName(o.key)));
+      outNote.hidden = !fcfOutliers.length;
+      outNote.textContent = fcfOutliers.length ? `Left out as likely workbook errors: ${Object.entries(by).map(([c, qs]) => `${c} ${qs.join(', ')}`).join('; ')}. Years and trailing sums that include them are left out too; the figures table has the values.` : '';
+    }
+    document.querySelector(cfg.method).textContent = `${cfg.note} Line items differ by company: ${list.filter(s => !s.total).map(s => `${s.owner}, ${s.field.trim()}`).join('; ')}.${key === 'capex' ? ' Total adds Microsoft, Google, Amazon, Oracle and Meta, only for quarters all five cover; SpaceX is left out.' : ''} A calendar year needs all four quarters; a year that mixes reported and estimated quarters counts as an estimate. Growth is left blank when either period is negative. Under a reported quarter, the small line is the estimate this page showed before the report.${key === 'fcf' ? ' Check on estimates: free cash flow plus capex is the operating cash flow an estimate implies. When that moves by more than half the quarter\'s capex from the same quarter a year earlier, or by more than two fifths next to a quarter that already fails, the quarter is treated as a workbook error and left out of the chart, calendar years, trailing sums and growth.' : ''}`;
   }
 
   // Quarterly and calendar-year tables, always every period, whatever the chart shows.
@@ -437,7 +475,7 @@
     if (!host.querySelector('[data-part]')) host.innerHTML = '<div data-part="q"></div><div data-part="y"></div>';
     figuresTable(host.querySelector('[data-part=q]'), {caption: 'Quarterly', columns: quarterColumns(markPeriods(keys, list.map(s => s.raw))), rowGroups: list.map(s => ({
       name: s.name, color: s.color, rows: [
-        {label: cfg.row, fmt: fmtB, cells: keys.map(k => withVs(s.raw[k]))},
+        {label: cfg.row, fmt: fmtB, cells: keys.map(k => withVs(s.raw[k]) || (key === 'fcf' ? outlierCell(s.owner, k) : null))},
         {label: 'YoY', fmt: pctCell, cells: keys.map(k => yoy(s.raw, k))},
       ]}))});
     const years = [...new Set(keys.map(k => k.slice(0, 4)))].filter(y => list.some(s => sumQuarters(s.raw, yearKeys(y))));

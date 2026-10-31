@@ -28,22 +28,21 @@
     .hm-range { align-items:center; flex-wrap:wrap; }
     .hm-range .hint { color:var(--ml-faint); font-size:12.5px; margin-left:10px; }
     .hm-range button[data-range="custom"][hidden] { display:none; }
-    .hm-chart #hit { cursor:crosshair; touch-action:pan-y; }
+    .hm-chart #hit { cursor:crosshair; }
+    /* Chrome ignores touch-action on shapes inside an SVG; set it on the root so a sideways finger drag selects a window while vertical swipes still scroll */
+    .hm-chart svg { touch-action:pan-y; }
     .hm-chart .sel { fill:var(--ml-ink); opacity:.08; }
     .hm-chart .seledge { stroke:var(--ml-ink); stroke-width:1; opacity:.45; }
     .hm-range button[aria-pressed="true"] { background:var(--ml-ink); color:var(--ml-bg); border-color:var(--ml-ink); }
-    .hm-figs { display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); border-top:1px solid var(--ml-border); border-bottom:1px solid var(--ml-border); margin-bottom:26px; }
-    .hm-figs > div { padding:16px 16px 14px 0; }
-    .hm-figs > div + div { padding-left:16px; border-left:1px solid var(--ml-border); }
-    .hm-figs .v { font:600 28px/1.1 var(--sans); letter-spacing:-.6px; }
-    .hm-figs .k { color:var(--ml-faint); font-size:12.5px; margin-top:4px; }
-    .hm-figs .v.hero { color:var(--ml-ink); }
+    .hm-sum { color:var(--ml-muted); font-size:15px; max-width:760px; margin:0 0 22px; }
+    .hm-sum strong { color:var(--ml-ink); font-weight:600; }
     .hm-chart { position:relative; }
     .hm-chart svg { display:block; width:100%; overflow:visible; }
     .hm-chart .grid line { stroke:var(--ml-border); }
     .hm-chart .grid text, .hm-chart .axis text { fill:var(--ml-faint); font-size:11.5px; }
     .hm-legend { display:flex; gap:22px; flex-wrap:wrap; font-size:13px; color:var(--ml-muted); margin:0 0 8px; }
     .hm-legend i { display:inline-block; width:18px; height:0; border-top:2.5px solid; vertical-align:middle; margin-right:7px; }
+    .hm-legend b { color:var(--ml-ink); font-weight:600; margin-left:4px; }
     .hm-tip { position:absolute; pointer-events:none; background:var(--ml-surface); border:1px solid var(--ml-border);
       padding:8px 11px; font-size:12.5px; border-radius:4px; white-space:nowrap; opacity:0; transition:opacity .15s; z-index:5; }
     .hm-tip b { font-weight:600; }
@@ -86,14 +85,11 @@
     @media (max-width:900px) {
       .hm-head, .hm-note { grid-template-columns:1fr; gap:22px; }
       .hm-now { border-left:0; padding-left:0; border-top:1px solid var(--ml-border); padding-top:16px; }
-      .hm-figs { grid-template-columns:repeat(2,minmax(0,1fr)); }
-      .hm-figs > div:nth-child(odd) { padding-left:0; border-left:0; }
-      .hm-figs > div { border-bottom:1px solid var(--ml-border); }
       .hm-head h1 { font-size:32px; }
       .hm-wrap { padding:24px 16px 80px; }
     }
   </style>
-<link rel="stylesheet" href="market-lab-shell.css?v=20261029-db963087"><script src="market-lab-shell.js?v=20261029-db963087"></script></head>
+<link rel="stylesheet" href="market-lab-shell.css?v=20261030-ed5975d7"><script src="market-lab-shell.js?v=20261030-ed5975d7"></script></head>
 <body>
   <main class="hm-wrap">
     <header class="hm-head">
@@ -113,14 +109,8 @@
       <span class="hint">Or drag across the chart to pick your own window.</span>
     </div>
 
-    <div class="hm-figs" id="figs"></div>
-
-    <div class="hm-legend">
-      <span><i style="border-color:var(--ml-ink)"></i>Most-hated Mag 7</span>
-      <span><i style="border-color:var(--comp)"></i>Top-ranked Mag 7 (comp)</span>
-      <span><i style="border-color:var(--ml-accent)"></i>Mag 7, equal weight</span>
-      <span><i style="border-color:var(--ml-faint);border-top-style:dashed"></i>S&amp;P 500 · SPY</span>
-    </div>
+    <p class="hm-sum" id="figs"></p>
+    <div class="hm-legend" id="legend"></div>
     <div class="hm-chart" id="chart"><div class="hm-tip" id="tip"></div></div>
     <div class="hm-strip-key" id="stripkey"></div>
 
@@ -133,7 +123,7 @@
     <section class="hm-sec">
       <h2>The comp: buy #1, hold while it stays #1</h2>
       <p>Same scorecard, opposite end. At each month end it buys the name with the <strong>best</strong> average rank and keeps it until another name takes the top spot. A holding tied for #1 is kept. Same checks, same month-end close, so the two lines are a fair fight.</p>
-      <div class="hm-figs" id="vs" style="grid-template-columns:repeat(4,minmax(0,1fr))"></div>
+      <p class="hm-sum" id="vs"></p>
       <div class="hm-scroll"><table class="hm-table" id="toptrades"></table></div>
     </section>
 
@@ -154,7 +144,7 @@
     </aside>
   </main>
 
-  <script src="cube/hatedm7.js?v=20261029-db963087"></script>
+  <script src="cube/hatedm7.js?v=20261030-ed5975d7"></script>
   <script>
   (() => {
     'use strict';
@@ -165,7 +155,8 @@
     const TK = Object.fromEntries(D.universe.map(t => [t, `var(--t-${t.toLowerCase()})`]));
     const pct = (x, d = 1) => (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(d) + '%';
     const cls = x => x > 0 ? 'up' : x < 0 ? 'dn' : 'mut';
-    const big = x => (x >= 0 ? '+' : '−') + Math.abs(x * 100).toLocaleString(undefined, {maximumFractionDigits:0}) + '%';
+    // round first, then pick the sign from the rounded value, so −0.5% reads −1% and −0.4% reads 0%
+    const big = x => { const v = Math.round(Math.abs(x * 100)); return (v === 0 ? '' : x >= 0 ? '+' : '−') + v.toLocaleString() + '%'; };
     const fmtD = s => new Date(s + 'T12:00:00').toLocaleDateString(undefined, {month:'short', day:'numeric', year:'numeric'});
     const fmtM = s => new Date(s + 'T12:00:00').toLocaleDateString(undefined, {month:'short', year:'numeric'});
     const chip = t => `<span class="tk-chip" style="--c:${TK[t]}">${t}</span>`;
@@ -177,13 +168,13 @@
       for (const d of decs) {
         const last = out[out.length - 1];
         if (last && last.t === d.pick) {
-          last.months++; last.exit_date = d.exit_date; last.exit = d.exit; last.open = d.open;
+          last.months++; last.exit_date = d.exit_date; last.exit = d.exit; last.open = d.open; last.cut = d.cut;
           last.ret = (1 + last.ret) * (1 + d.ret) - 1;
           last.mag7 = (1 + last.mag7) * (1 + d.mag7) - 1;
           last.spy = (1 + last.spy) * (1 + d.spy) - 1;
         } else {
           out.push({t:d.pick, buy:d.signal, entry:d.entry, exit_date:d.exit_date, exit:d.exit, months:1,
-                    ret:d.ret, mag7:d.mag7, spy:d.spy, open:d.open});
+                    ret:d.ret, mag7:d.mag7, spy:d.spy, open:d.open, cut:d.cut});
         }
       }
       return out;
@@ -209,6 +200,19 @@
       if (typeof range === 'object') { while (i1 > i0 + 1 && D.dates[i1] > range.b) i1--; }
       const k1 = D.decisions.findIndex(d => d.signal >= D.dates[i1]);
       const decs = D.decisions.slice(k0, k1 < 0 || typeof range !== 'object' ? undefined : Math.max(k0 + 1, k1));
+      const tops = TOP.slice(k0, k0 + decs.length);
+      if (typeof range === 'object') {
+        // the custom button names the window the figures actually cover
+        custom.textContent = `${fmtD(D.dates[i0])} – ${fmtD(D.dates[i1])}`;
+        // cut the last decision at the window's end so its month stops where the chart does;
+        // the name was still held past that day, so the cut position is not a closed trade
+        const j = decs.length - 1, end = D.dates[i1];
+        if (decs[j].exit_date > end) {
+          const a = D.dates.indexOf(decs[j].signal), g = key => D.levels[key][i1] / D.levels[key][a] - 1;
+          const cut = (d, key) => ({...d, exit_date:end, exit:d.entry * (1 + g(key)), ret:g(key), mag7:g('mag7'), spy:g('spy'), cut:true});
+          decs[j] = cut(decs[j], 'hated'); tops[j] = cut(tops[j], 'top');
+        }
+      }
       const pos = positions(decs);
       const dates = D.dates.slice(i0, i1 + 1);
       const L = {};
@@ -218,30 +222,32 @@
       }
       const tot = key => L[key][L[key].length - 1] / 100 - 1;
       const beat = decs.filter(d => d.ret > d.mag7).length;
-      const closed = pos.filter(p => !p.open), wins = closed.filter(p => p.ret > 0).length;
+      const closed = pos.filter(p => !p.open && !p.cut), wins = closed.filter(p => p.ret > 0).length;
       let peak = 0, mdd = 0;
       for (const v of L.hated) { peak = Math.max(peak, v); mdd = Math.min(mdd, v / peak - 1); }
 
-      document.getElementById('figs').innerHTML = [
-        [big(tot('hated')), 'Most-hated Mag 7', 'hero'],
-        [big(tot('top')), 'Top-ranked (comp)', ''],
-        [big(tot('mag7')), 'Mag 7, equal weight', ''],
-        [big(tot('spy')), 'S&P 500 · SPY', ''],
-        [`${beat} / ${decs.length}`, 'months it beat the Mag 7', ''],
-        [`${wins} / ${closed.length}`, 'closed trades that made money', ''],
-        [pct(mdd, 0), 'worst drawdown', ''],
-      ].map(([v, k, c]) => `<div><div class="v ${c}">${v}</div><div class="k">${k}</div></div>`).join('');
+      // window totals ride in the legend; the rest reads as a sentence
+      document.getElementById('legend').innerHTML = [
+        ['var(--ml-ink)', 'Most-hated Mag 7', 'hated'],
+        ['var(--comp)', 'Top-ranked Mag 7 (comp)', 'top'],
+        ['var(--ml-accent)', 'Mag 7, equal weight', 'mag7'],
+        ['var(--ml-faint);border-top-style:dashed', 'S&amp;P 500 · SPY', 'spy'],
+      ].map(([c, k, key]) => `<span><i style="border-color:${c}"></i>${k}<b>${big(tot(key))}</b></span>`).join('');
+      const n = (x, w) => `${x} ${w}${x === 1 ? '' : 's'}`;
+      document.getElementById('figs').innerHTML =
+        `The most-hated pick beat the equal-weight Mag 7 in <strong>${beat} of ${n(decs.length, 'month')}</strong>, ` +
+        (closed.length ? `<strong>${wins} of ${closed.length}</strong> closed trades made money, ` : 'no trade closed inside this window, ') +
+        `and its worst drawdown was <strong>${pct(mdd, 0)}</strong>.`;
 
-      const tops = TOP.slice(k0, k0 + decs.length), tpos = positions(tops);
+      const tpos = positions(tops);
       const same = decs.filter((d, i) => d.pick === tops[i].pick).length;
       const hw = decs.filter((d, i) => d.ret > tops[i].ret).length;
-      const tclosed = tpos.filter(p => !p.open);
-      document.getElementById('vs').innerHTML = [
-        [`${hw} / ${decs.length}`, 'months most-hated beat the comp'],
-        [`${same}`, 'months both held the same name'],
-        [`${tpos.length} vs ${pos.length}`, 'trades: comp vs most-hated'],
-        [`${tclosed.filter(p => p.ret > 0).length} / ${tclosed.length}`, 'comp trades that made money'],
-      ].map(([v, k]) => `<div><div class="v">${v}</div><div class="k">${k}</div></div>`).join('');
+      const tclosed = tpos.filter(p => !p.open && !p.cut), twins = tclosed.filter(p => p.ret > 0).length;
+      document.getElementById('vs').innerHTML =
+        `Most-hated beat the comp in <strong>${hw} of ${n(decs.length, 'month')}</strong>, and the two held the same name in ` +
+        `<strong>${same ? n(same, 'month') : 'none of them'}</strong>. The comp made <strong>${n(tpos.length, 'trade')}</strong> ` +
+        `to most-hated's <strong>${pos.length}</strong>` +
+        (tclosed.length ? `, and <strong>${twins} of its ${tclosed.length}</strong> closed trades made money.` : '.');
 
       drawChart(dates, L, decs);
       drawTrades(pos, 'trades');
@@ -348,7 +354,7 @@
           <td class="l mut">${pos.length - j}</td>
           <td class="l">${chip(p.t)}${p.open ? '<span class="tag">holding</span>' : ''}</td>
           <td class="l">${fmtD(p.buy)}</td><td>${p.entry.toFixed(2)}</td>
-          <td class="l">${p.open ? '<span class="mut">open</span>' : fmtD(p.exit_date)}</td><td>${p.exit.toFixed(2)}</td>
+          <td class="l">${p.open ? '<span class="mut">open</span>' : p.cut ? `<span class="mut">still held ${fmtD(p.exit_date)}</span>` : fmtD(p.exit_date)}</td><td>${p.exit.toFixed(2)}</td>
           <td>${p.months}</td>
           <td class="${cls(p.ret)}"><b>${pct(p.ret)}</b></td>
           <td class="${cls(p.mag7)}">${pct(p.mag7)}</td>
@@ -414,7 +420,6 @@
       range = r;
       const key = typeof r === 'object' ? 'custom' : r;
       custom.hidden = key !== 'custom';
-      if (key === 'custom') custom.textContent = `${fmtM(r.a)} – ${fmtM(r.b)}`;
       buttons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.range === key)));
       try { localStorage.setItem('market-lab.hatedm7.range', typeof r === 'object' ? JSON.stringify(r) : r); } catch (_) {}
       render(r);

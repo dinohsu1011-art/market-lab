@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href='data:,' />
   <title>QQQ vs 10-yr yield — Equinox</title>
   <style>
     /* Two series, two page-local hues so each keeps its identity across themes.
@@ -23,11 +24,9 @@
     .rt-range button { font:500 13px var(--sans); padding:7px 14px; border:1px solid var(--ml-border); background:transparent;
       color:var(--ml-muted); border-radius:4px; cursor:pointer; transition:background .15s, color .15s; }
     .rt-range button[aria-pressed="true"] { background:var(--ml-ink); color:var(--ml-bg); border-color:var(--ml-ink); }
-    .rt-figs { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); border-top:1px solid var(--ml-border); border-bottom:1px solid var(--ml-border); margin-bottom:26px; }
-    .rt-figs > div { padding:16px 16px 14px 0; }
-    .rt-figs > div + div { padding-left:16px; border-left:1px solid var(--ml-border); }
-    .rt-figs .v { font:600 28px/1.1 var(--sans); letter-spacing:-.6px; }
-    .rt-figs .k { color:var(--ml-faint); font-size:12.5px; margin-top:4px; }
+    .rt-sum { margin:0 0 26px; max-width:820px; color:var(--ml-muted); font-size:17px; line-height:1.5; }
+    .rt-sum b { font-weight:600; color:var(--ml-ink); }
+    .rt-sum b.up { color:var(--ml-up); } .rt-sum b.dn { color:var(--ml-down); }
     .rt-chart { position:relative; }
     .rt-chart svg { display:block; width:100%; overflow:visible; }
     .rt-chart .grid line { stroke:var(--ml-border); }
@@ -53,18 +52,16 @@
       .rt-head { grid-template-columns:1fr; gap:20px; }
       .rt-head h1 { font-size:32px; }
       .rt-now { border-left:0; padding-left:0; border-top:1px solid var(--ml-border); padding-top:16px; }
-      .rt-figs { grid-template-columns:repeat(2,minmax(0,1fr)); }
-      .rt-figs > div:nth-child(odd) { padding-left:0; border-left:0; }
-      .rt-figs > div { border-bottom:1px solid var(--ml-border); }
+      .rt-sum { font-size:15px; }
     }
   </style>
-<link rel="stylesheet" href="market-lab-shell.css?v=20261029-db963087"><script src="market-lab-shell.js?v=20261029-db963087"></script></head>
+<link rel="stylesheet" href="market-lab-shell.css?v=20261030-ed5975d7"><script src="market-lab-shell.js?v=20261030-ed5975d7"></script></head>
 <body>
   <main class="rt-wrap">
     <header class="rt-head">
       <div>
         <h1>QQQ vs the 10-year yield</h1>
-        <p>Weekly Friday closes. The bottom pane asks one question: <strong>over the past year, when yields rose, did QQQ rise with them or fall?</strong>
+        <p>Weekly closes. The bottom pane asks one question: <strong>over the past year, when yields rose, did QQQ rise with them or fall?</strong>
           Above zero, the two moved together. Below zero, higher yields were hurting tech.</p>
       </div>
       <div class="rt-now" id="now"></div>
@@ -78,7 +75,7 @@
       <button type="button" data-y="99" aria-pressed="false">Full history</button>
     </div>
 
-    <div class="rt-figs" id="figs"></div>
+    <p class="rt-sum" id="figs"></p>
     <div class="rt-chart" id="chart"><div class="rt-tip" id="tip"></div></div>
 
     <section class="rt-sec">
@@ -93,14 +90,16 @@
     </aside>
   </main>
 
-  <script src="cube/rates.js?v=20261029-db963087"></script>
+  <script src="cube/rates.js?v=20261030-ed5975d7"></script>
   <script>
   (() => {
     'use strict';
     const R = window.QUANT_RATES;
     if (!R) { document.querySelector('.rt-wrap').insertAdjacentHTML('beforeend','<p>Data not built yet.</p>'); return; }
-    const N = R.q.length, t0 = new Date(R.start + 'T12:00:00');
-    const D = Array.from({length:N}, (_, i) => new Date(t0.getTime() + i * 7 * 864e5));
+    const N = R.q.length, t0 = new Date(R.start + 'T12:00:00'), lag = R.lag || '';
+    // Friday labels pulled back to each week's real last session (the current
+    // week ends on R.as_of, not a Friday that has not traded yet).
+    const D = Array.from({length:N}, (_, i) => new Date(t0.getTime() + (i * 7 - (+lag[i] || 0)) * 864e5));
     const fmt = d => d.toLocaleDateString(undefined, {month:'short', day:'numeric', year:'numeric'});
     const pct = (x, d = 1) => (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(d) + '%';
     const pts = x => (x >= 0 ? '+' : '−') + Math.abs(x).toFixed(2) + ' pts';
@@ -113,7 +112,7 @@
 
     function startIndex(y) {
       if (y >= 99) return 0;
-      const cut = new Date(D[N - 1]); cut.setFullYear(cut.getFullYear() - y);
+      const cut = new Date(R.as_of + 'T12:00:00'); cut.setFullYear(cut.getFullYear() - y);
       return Math.max(0, D.findIndex(d => d >= cut));
     }
 
@@ -133,14 +132,12 @@
       const cs = R.c.slice(lo).filter(v => v != null);
       const avg = cs.reduce((a, b) => a + b, 0) / (cs.length || 1);
       const neg = cs.filter(v => v < 0).length / (cs.length || 1);
-      const f = [
-        [pct(dq, 0), 'QQQ over the range', cls(dq)],
-        [pts(dt), '10-year over the range', ''],
-        [R.c[i] == null ? 'n/a' : sg(R.c[i]), 'One-year link now', cls(R.c[i])],
-        [sg(avg), 'Average link over the range', cls(avg)],
-        [Math.round(neg * 100) + '%', 'Weeks where higher yields hurt QQQ', ''],
-      ];
-      document.getElementById('figs').innerHTML = f.map(([v, k, c]) => `<div><div class="v ${c}">${v}</div><div class="k">${k}</div></div>`).join('');
+      const span = years >= 99 ? `Since ${D[lo].toLocaleDateString(undefined, {month:'short', year:'numeric'})}`
+        : years === 1 ? 'Over the past year' : `Over the past ${years} years`;
+      const now = R.c[i] == null ? 'n/a' : sg(R.c[i]);
+      document.getElementById('figs').innerHTML =
+        `${span} QQQ ${dq >= 0 ? 'rose' : 'fell'} <b class="${cls(dq)}">${pct(Math.abs(dq), 0).slice(1)}</b> and the 10-year ${dt >= 0 ? 'rose' : 'fell'} <b>${Math.abs(dt).toFixed(2)} points</b>.
+         The one-year link is <b class="${cls(R.c[i])}">${now}</b> now and averaged <b class="${cls(avg)}">${sg(avg)}</b> over the range. It was below zero in <b>${Math.round(neg * 100)}%</b> of weeks.`;
     }
 
     function draw(lo) {
@@ -227,22 +224,14 @@
     }
 
     function yearTable() {
-      const by = new Map();
-      for (let i = 0; i < N; i++) { const y = D[i].getFullYear(); if (!by.has(y)) by.set(y, []); by.get(y).push(i); }
-      const rows = [];
-      let prevLast = null;
-      for (const [y, idx] of by) {
-        const first = prevLast ?? idx[0], last = idx[idx.length - 1];
-        prevLast = last;
-        const cs = idx.map(i => R.c[i]).filter(v => v != null);
-        const avg = cs.length ? cs.reduce((a, b) => a + b, 0) / cs.length : null;
-        rows.push({y, dq: R.q[last] / R.q[first] - 1, dt: R.t[last] - R.t[first], end: R.t[last], avg, part: idx.length < 50});
-      }
-      rows.reverse();
+      // Calendar years from daily closes (built in export/rates_qqq.py).
+      const rows = (R.years || []).slice().reverse();
+      const tag = r => r.from ? ` <span class="mut">from ${new Date(r.from + 'T12:00:00').toLocaleDateString(undefined, {month:'short', day:'numeric'})}</span>`
+        : r.so_far ? ' <span class="mut">so far</span>' : '';
       const up = css('--ml-up'), dn = css('--ml-down');
       document.getElementById('years').innerHTML =
         `<thead><tr><th class="l">Year</th><th>QQQ</th><th>10-year change</th><th>10-year at year end</th><th>Average link</th><th class="l"></th></tr></thead><tbody>` +
-        rows.map(r => `<tr><td class="l">${r.y}${r.part ? ' <span class="mut">so far</span>' : ''}</td>
+        rows.map(r => `<tr><td class="l">${r.y}${tag(r)}</td>
           <td class="${cls(r.dq)}">${pct(r.dq)}</td><td>${pts(r.dt)}</td><td>${r.end.toFixed(2)}%</td>
           <td class="${r.avg == null ? 'mut' : cls(r.avg)}">${r.avg == null ? 'n/a' : sg(r.avg)}</td>
           <td class="l" style="width:180px">${r.avg == null ? '' : `<span class="bar" style="width:${Math.abs(r.avg) * 120}px;background:${r.avg >= 0 ? up : dn};margin-left:${r.avg >= 0 ? 60 : 60 - Math.abs(r.avg) * 120}px"></span>`}</td></tr>`).join('') + '</tbody>';

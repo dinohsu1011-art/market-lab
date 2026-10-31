@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "",
+    "call": "Mixed",
+    "detail": "Leadership is thin and risk appetite is undecided.",
+    "summary": "SPY finished the week +1.2%; QQQ +1.3%; high beta versus low beta is +11.0% over one month (88th percentile); leader breadth is +26.9 points versus the index; 29% of S&P names are above the 50-day; net 52-week highs are +11; Nuclear leads themes at +8.0%.",
+    "market": "SPY finished the week +1.2%; QQQ +1.3%.",
+    "winners": "Nuclear +8.0%, Connectivity +5.9%, Behind-the-meter power +5.5%.",
+    "laggards": "Semicap -3.0%, Memory -1.4%, Neocloud -0.6%.",
+    "why": "Risk and participation disagree, leaving a rotation-led rather than directional tape; high beta/low beta +11.0%, leader breadth spread +26.9pt, 29% above the 50-day.",
+    "comparison": "Since 2026-10-05, the call moved from Narrow risk-on to Mixed; high beta -2.5pt, leader spread +1.3pt, 50-day breadth +2.7pt. Weekly leadership changed from Materials to Nuclear.",
+    "tally": "2 of 4 risk gauges and 2 of 6 participation gauges are above their five-year medians",
+    "volume": "CTVA printed 43.16\u00d7 relative volume on a +3.9% day, while PTC printed 22.43\u00d7 relative volume on a +33.5% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

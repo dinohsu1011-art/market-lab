@@ -1,0 +1,31 @@
+{
+  "signal": "Close of T; production rules frozen, no parameter search",
+  "entry": "T+1 closing price",
+  "exit": "Entry plus horizon trading sessions",
+  "horizons": [
+    5,
+    10,
+    20,
+    60
+  ],
+  "later_period_starts": "2025-01-01",
+  "overlap": "2*(horizon+1)-session moving-block bootstrap; 1200 resamples; fixed seed",
+  "nonoverlap": "Separate fixed-grid check every horizon+1 sessions",
+  "limitations": [
+    "Current index membership, not point-in-time; survivorship bias.",
+    "Current dataset excludes owner-removed names retrospectively; before-removals sensitivity also reported.",
+    "Later-period check is not a truly untouched prospective test; rules were designed with recent markets visible.",
+    "Index price returns exclude dividends, fees, slippage and financing; no tradable strategy CAGR claimed.",
+    "Many components/horizons are examined; confidence intervals are not corrected for multiple testing.",
+    "Overlapping signals are not independent trades. Small state samples are inconclusive."
+  ],
+  "hashes": {
+    "rules.js": "7add67b1087db3ec95dd0b5467c4fe1ee6d7436b8f9e76b579c3a44ac65995ba",
+    "current/analytics.json": "efdd64072c614a328183bd143e078ee7f49776cddf70f59b07fe0fe036788de3",
+    "current/market-breadth.json": "f8b88376c9a04803ce8a2058e8b298094f11681e7e2bbac78478a40df77c70bb",
+    "gspc-benchmark.csv": "1732ea4677d7d94d1b252accdcfd5efbf8d039b569e5826e8025fc9100c61c69",
+    "ixic-benchmark.csv": "7990e1ee0d013f918c86cf3b84b5e52ba068cb61c3976eb1ff2c47fbda0560ec",
+    "before_removals/analytics.json": "f9397feeba6fe110c8914aec575828015d08df39e2e4b233e6f8a296ecda4525",
+    "before_removals/market-breadth.json": "861dd3f1360688385022230318ad919ab1222f0c9ab34cb0ff577794ee8300cc"
+  }
+}

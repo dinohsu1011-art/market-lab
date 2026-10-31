@@ -6,6 +6,9 @@
     host.innerHTML=`<h3>${esc(row.name||row.symbol)}</h3><p class="overview-source">${[row.sector,row.industry,row.country].filter(Boolean).map(esc).join(' · ')}</p><p>${esc(row.summary)}</p><p class="overview-source">${esc(note)}</p><a href="${esc(profileUrl(row.symbol))}" target="_blank" rel="noopener noreferrer">Company profile ↗</a>`;
   }
   async function live(symbol){
+    // /api only exists on the cloud workspace; GitHub Pages and local previews
+    // would log a 404 per card, so they go straight to the snapshot.
+    if(window.MarketLabCloud?.static!==false)return null;
     const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),6000);
     try{
       const r=await fetch('/api/company-profile?symbol='+encodeURIComponent(String(symbol).toUpperCase()),{signal:ctrl.signal});

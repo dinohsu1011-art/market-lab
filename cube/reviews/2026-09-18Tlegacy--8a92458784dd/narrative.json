@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold and participation is narrow.",
+    "summary": "SPY finished the week -0.3%; QQQ +0.9%; high beta versus low beta is +0.8% over one month (45th percentile); leader breadth is +27.0 points versus the index; 28% of S&P names are above the 50-day; net 52-week highs are -28; Cybersecurity leads themes at +13.8%.",
+    "market": "SPY finished the week -0.3%; QQQ +0.9%.",
+    "winners": "Cybersecurity +13.8%, Connectivity +5.2%, Memory +4.1%.",
+    "laggards": "Power Semis -3.5%, Nuclear -3.3%, Materials -3.2%.",
+    "why": "Weak high beta and narrow participation point to a broad contraction in risk appetite; high beta/low beta +0.8%, leader breadth spread +27.0pt, 28% above the 50-day.",
+    "comparison": "Since 2026-09-16, the Risk-off call is unchanged; high beta +7.5pt, leader spread +10.0pt, 50-day breadth -3.0pt.",
+    "tally": "1 of 4 risk gauges and 2 of 6 participation gauges are above their five-year medians",
+    "volume": "TAP printed 17.56\u00d7 relative volume on a -4.0% day, while BLDR printed 13.51\u00d7 relative volume on a +0.8% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

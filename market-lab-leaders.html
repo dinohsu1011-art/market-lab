@@ -197,10 +197,10 @@
     @media(max-width:650px){.record-sides{grid-template-columns:1fr;gap:12px}.record-sides .record-group-grid{max-height:150px}}
     @media(max-width:540px){#record-groups>.record-group-grid{grid-template-columns:1fr;max-height:220px}}
   </style>
-<link rel="stylesheet" href="market-lab-shell.css?v=20261029-db963087">
-<link rel="stylesheet" href="market-lab-analytics.css?v=20261029-db963087">
-<link rel="stylesheet" href="market-lab-leader-chart.css?v=20261029-db963087">
-<script src="market-lab-shell.js?v=20261029-db963087"></script></head>
+<link rel="stylesheet" href="market-lab-shell.css?v=20261030-ed5975d7">
+<link rel="stylesheet" href="market-lab-analytics.css?v=20261030-ed5975d7">
+<link rel="stylesheet" href="market-lab-leader-chart.css?v=20261030-ed5975d7">
+<script src="market-lab-shell.js?v=20261030-ed5975d7"></script></head>
 <body>
 <main class="main">
   <div class="mast">
@@ -286,14 +286,14 @@
   <p class="note" id="foot"></p>
 </main>
 
-<script src="cube/leaders.js?v=20261029-db963087"></script>
-<script src="market-lab-data.js?v=20261029-db963087"></script>
-<script src="market-lab-chart-panels.js?v=20261029-db963087"></script>
-<script src="market-lab-analytics.js?v=20261029-db963087"></script>
-<script src="market-lab-technical.js?v=20261029-db963087"></script>
-<script src="market-lab-leader-chart.js?v=20261029-db963087"></script>
-<script src="market-lab-records.js?v=20261029-db963087"></script>
-<script src="market-lab-cloud.js?v=20261029-db963087"></script>
+<script src="cube/leaders.js?v=20261030-ed5975d7"></script>
+<script src="market-lab-data.js?v=20261030-ed5975d7"></script>
+<script src="market-lab-chart-panels.js?v=20261030-ed5975d7"></script>
+<script src="market-lab-analytics.js?v=20261030-ed5975d7"></script>
+<script src="market-lab-technical.js?v=20261030-ed5975d7"></script>
+<script src="market-lab-leader-chart.js?v=20261030-ed5975d7"></script>
+<script src="market-lab-records.js?v=20261030-ed5975d7"></script>
+<script src="market-lab-cloud.js?v=20261030-ed5975d7"></script>
 <script>
 (() => {
   const D = window.QUANT_LEADERS;
@@ -426,6 +426,9 @@
   const fmtM = v => v == null ? '—' : v >= 1000 ? (v/1000).toFixed(1) + 'B' : v.toFixed(0) + 'M';
   // RSI carries no sign and no unit, so it gets neither a plus nor a percent.
   const fmtRSI = v => v == null ? '—' : v.toFixed(0);
+  // Data caveats ride on the ticker as a hover note rather than a column.
+  const flagNote = r => r.lag ? ` title="Last close ${esc(r.last)}, a session behind its market, so 1D is blank"`
+    : r.brk ? ` title="Price history breaks on ${esc(r.brk)}, likely an unadjusted split, so returns start there"` : '';
   const OVERSOLD = 30, OVERBOUGHT = 70;
   // [average %, sample count] for the selected calendar month, or null
   const monthStat = r => (r.m && r.m[st.month]) || null;
@@ -453,7 +456,7 @@
     : st.rank === 'rsi' ? `with an RSI(${st.rsiN})`
     : st.rank === 'oversold' ? 'with daily downside extension history'
     : `with a ${rankWin()} number`;
-  const fmtRank = v => isRecord() ? '$'+fmtM(v) : st.rank === 'sigma' ? fmtS(v) : st.rank === 'rvol' ? fmtRV(v)
+  const fmtRank = v => isRecord() ? MarketLabRecords.money(v==null?null:v*1e6) : st.rank === 'sigma' ? fmtS(v) : st.rank === 'rvol' ? fmtRV(v)
     : st.rank === 'rsi' ? fmtRSI(v) : st.rank === 'oversold' ? (v==null?'—':v.toFixed(1)) : fmtP(v);
   const fmtRankValue = (r, win) => fmtRank(rankValue(r,win));
 
@@ -674,7 +677,7 @@
     ];
     return [
     {k:'rank', l:'#',        cls:'rk',  get:(r,i)=>String(i+1)},
-    {k:'t',    l:'Ticker',   left:true, get:r=>`<button type="button" class="leader-chart-trigger" data-leader-chart="${esc(r.t)}" data-name="${esc(r.n)}" aria-controls="leader-chart" aria-expanded="false"><span class="tk">${esc(r.t)}</span><span class="co">${esc(r.n)}</span></button>`},
+    {k:'t',    l:'Ticker',   left:true, get:r=>`<button type="button" class="leader-chart-trigger" data-leader-chart="${esc(r.t)}" data-name="${esc(r.n)}"${flagNote(r)} aria-controls="leader-chart" aria-expanded="false"><span class="tk">${esc(r.t)}</span><span class="co">${esc(r.n)}</span></button>`},
     {k:'dailyUSD',l:'1D volume · USD',get:r=>MarketLabRecords.money(r.turnoverUSD),v:r=>r.turnoverUSD},
     {k:'a',    l:'Type',     left:true, get:r=>`<span class="sec">${esc(ASSET_LABELS[r.a] || 'Stock')}</span>`},
     {k:'s',    l:'Sector',   left:true, get:r=>`<span class="sec">${esc(r.s)}</span>`},
@@ -698,7 +701,7 @@
     {k:'ma200',l:'vs 200d',  get:r=>fmtP(r.ma200), v:r=>r.ma200, colour:true},
     ...(st.rank === 'rsi' ? [] : [rsiCol]),
     {k:'vol',  l:'ann vol',  get:r=>r.vol == null ? '—' : r.vol.toFixed(0) + '%', v:r=>r.vol},
-    {k:'adv',  l:'63D avg · USD',    get:r=>r.adv==null?'—':'$'+fmtM(r.adv), v:r=>r.adv},
+    {k:'adv',  l:'63D avg · USD',    get:r=>MarketLabRecords.money(r.adv==null?null:r.adv*1e6), v:r=>r.adv},
     ];
   };
 
@@ -1416,7 +1419,13 @@
   }).catch(error=>{if(isRecord()){const status=document.getElementById('analytics-selection');status.hidden=false;status.textContent=error.message;}});
   async function volumeColumns(){
     const catalog=await MarketLabAnalytics.loadMembers();
-    for(const r of ROWS){const s=catalog.lookup[r.t.toLowerCase()];if(s&&r.a!=='index'){r.absoluteVolume=s.volume;r.absoluteTurnoverUSD=s.turnoverUSD;r.turnoverUSD=s.turnoverUSD?.['1D']??null;r.adv=s.advUSD??null;}}
+    // Share counts come from the catalog. Turnover and the 63-day average stay
+    // as leaders.js shipped them (a lagging row's 1D already blanked); only rows
+    // that arrived without them borrow the catalog's.
+    for(const r of ROWS){const s=catalog.lookup[r.t.toLowerCase()];if(!s||r.a==='index')continue;
+      r.absoluteVolume=r.lag&&s.volume?{...s.volume,'1D':null}:s.volume;
+      if(r.absoluteTurnoverUSD===undefined){r.absoluteTurnoverUSD=s.turnoverUSD;r.turnoverUSD=s.turnoverUSD?.['1D']??null;r.adv=s.advUSD??null;}
+    }
     return catalog;
   }
   document.getElementById('volume-columns').onchange=async e=>{

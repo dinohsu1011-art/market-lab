@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold and participation is narrow.",
+    "summary": "SPY finished the week -1.2%; QQQ -3.0%; high beta versus low beta is +0.6% over one month (45th percentile); leader breadth is +12.3 points versus the index; 35% of S&P names are above the 50-day; net 52-week highs are +6; Energy \u00b7 XLE leads themes at +3.9%.",
+    "market": "SPY finished the week -1.2%; QQQ -3.0%.",
+    "winners": "Energy \u00b7 XLE +3.9%, Cons. Staples \u00b7 XLP +3.2%, Consumer Staples +2.4%.",
+    "laggards": "Neocloud -18.1%, Photonics -15.8%, Connectivity -13.5%.",
+    "why": "Weak high beta and narrow participation point to a broad contraction in risk appetite; high beta/low beta +0.6%, leader breadth spread +12.3pt, 35% above the 50-day.",
+    "comparison": "Since 2026-10-12, the call moved from Mixed to Risk-off; high beta -1.2pt, leader spread +0.4pt, 50-day breadth -1.4pt.",
+    "tally": "1 of 4 risk gauges and 2 of 6 participation gauges are above their five-year medians",
+    "volume": "WBD printed 20.28\u00d7 relative volume on a +0.0% day, while MDT printed 12.89\u00d7 relative volume on a +2.6% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

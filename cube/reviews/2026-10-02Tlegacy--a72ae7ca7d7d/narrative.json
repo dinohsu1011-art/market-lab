@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "on",
+    "call": "Narrow risk-on",
+    "detail": "Risk is working through a thin group of names.",
+    "summary": "SPY finished the week -0.2%; QQQ +0.7%; high beta versus low beta is +15.1% over one month (95th percentile); leader breadth is +27.8 points versus the index; 24% of S&P names are above the 50-day; net 52-week highs are -18; Photonics leads themes at +12.0%.",
+    "market": "SPY finished the week -0.2%; QQQ +0.7%.",
+    "winners": "Photonics +12.0%, Power Semis +10.3%, Semicap +9.9%.",
+    "laggards": "Metals \u2014 Miners -4.5%, Nuclear -4.3%, Materials -3.9%.",
+    "why": "High beta is working, but participation says the advance remains concentrated; high beta/low beta +15.1%, leader breadth spread +27.8pt, 24% above the 50-day.",
+    "comparison": "Since 2026-10-01, the Narrow risk-on call is unchanged; high beta +1.2pt, leader spread -0.8pt, 50-day breadth +1.8pt.",
+    "tally": "3 of 4 risk gauges and 1 of 6 participation gauges are above their five-year medians",
+    "volume": "CTVA printed 21.23\u00d7 relative volume on a -83.8% day, while FICO printed 16.51\u00d7 relative volume on a -26.5% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

@@ -39,10 +39,10 @@ function renderDashboard(data) {
   const kgiNames = {AMZN: 'Amazon', GOOGL: 'Google', MSFT: 'Microsoft', META: 'Meta'};
   const kgiCompanies = research.kgi.map(c => ({
     name: kgiNames[c.name],
-    outlook: `KGI: ${c.fleet[3]} GW fleet at end-2027; +${c.additions[2]} GW in 2027. Quarterly additions = annual additions ÷ 4.`,
+    outlook: `KGI: ${c.fleet[3]} GW fleet at end-2027; +${c.additions[2]} GW in 2027. Quarterly additions = the year's fleet change ÷ 4.`,
     values: quarters.map(([,year]) => {
-      const i = Number(year) - 2025;
-      return i >= 0 && i < c.additions.length ? [c.additions[i] / 4, 'implied'] : null;
+      const i = Number(year) - 2024;
+      return i >= 1 && i < c.fleet.length ? [(c.fleet[i] - c.fleet[i - 1]) / 4, 'implied'] : null;
     })
   }));
   data = {...data, companies: [...kgiCompanies, ...data.companies.filter(c => !['Amazon','Microsoft','Google','Meta'].includes(c.name)).map(c => ({...c, outlook: (c.name === 'Oracle' ? 'Q2 / Q3 2026: 0.30 / 0.85 GW reported (user updates, Sep 11). ' : 'Prior workbook: ') + c.outlook}))]};
@@ -139,6 +139,12 @@ function labFleet(name,year,quarter=4) {
   if(start==null) return {total:end,opening:null,addition:null};
   return {total:start+(end-start)*quarter/4,opening:start+(end-start)*(quarter-1)/4,addition:(end-start)/4};
 }
+// End-2027 lab capacity two ways: the chart's Altimeter read vs the in-house base case in the AI labs section.
+function labGap() {
+  const base = name => window.capacityResearch.labs.find(l => l.name === name)?.rows.reduce((a, r) => a + r[2], 0);
+  const one = v => v == null ? '–' : Number(v.toFixed(1)) + ' GW';
+  return `their end-2027 read is OpenAI ${one(labYear('OpenAI', 2027))} and Anthropic ${one(labYear('Anthropic', 2027))}, while the separate in-house base case in the AI labs section is OpenAI ${one(base('OpenAI'))} and Anthropic ${one(base('Anthropic'))}.`;
+}
 // Plain statement of which figures the current view plots, shown with the capacity figures.
 function setSourceKey(items) {
   document.querySelector('#sourceKey').innerHTML = items.map(([k,v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join('');
@@ -169,8 +175,10 @@ function fleetQuarter(c, i) {
   }
   const y = Number(year) - 2024, q = Number(quarter.slice(1));
   if (y < 1 || y >= kgi.fleet.length) return null;
+  // Quarterly adds come from the same fleet step as the fleet column, so the table adds up.
+  // KGI's printed annual additions differ from its fleet changes in a few years (annual view keeps them).
   const addition = (kgi.fleet[y] - kgi.fleet[y - 1]) / 4;
-  return {opening: kgi.fleet[y - 1] + addition * (q - 1), addition: kgi.additions[y - 1] / 4, total: kgi.fleet[y - 1] + addition * q};
+  return {opening: kgi.fleet[y - 1] + addition * (q - 1), addition, total: kgi.fleet[y - 1] + addition * q};
 }
 
 function fleetYear(c, year) {
@@ -199,7 +207,9 @@ function capacityRows(period = capacityState.period) {
   const periods = annual
     ? ['2025', '2026', '2027', '2028'].map(y => ({key: y, label: y + (yearEnd(y) > cutoff ? 'E' : ''), title: `Year-end ${y}${yearEnd(y) > cutoff ? ' (estimate)' : ''}`, estimate: yearEnd(y) > cutoff}))
     : quarters.map(([q, y]) => ({key: `${y} ${q}`, label: q, year: y, title: `${q} ${y}${quarterEnd(q, y) > cutoff ? ' (estimate)' : ''}`, estimate: quarterEnd(q, y) > cutoff}));
-  const rows = companies.map(c => ({name: displayName(c.name), lab: c.lab, color: c.color, cells: periods.map((p, i) => {
+  // Lab series carry their source in the name: the AI labs section further down has a separate, lower estimate.
+  // The chart's end label uses the short tag so it fits the right margin.
+  const rows = companies.map(c => ({name: c.lab ? `${c.name} (Altimeter)` : displayName(c.name), short: c.lab ? `${c.name} (Alt.)` : undefined, lab: c.lab, color: c.color, cells: periods.map((p, i) => {
     const f = annual ? fleetYear(c, p.key) : fleetQuarter(c, i);
     if (!f) return null;
     const addition = f.missing ? null : f.addition;
@@ -249,7 +259,7 @@ function renderQuarterlyCapacity() {
   const cols = CompChart.dividerFlags(periods.map(p => ({label: `${p.label} '${p.year.slice(2)}`, estimate: p.estimate})));
   const vs = c => c.est != null ? CompChart.vsLine(c.addition, c.est, v => gwCell(v) + ' GW') : '';
   CompChart.figuresTable(host, {caption: 'Quarterly', columns: cols, rowGroups: rows.map(r => ({
-    name: r.name + (r.lab ? ' ~' : ''), color: r.color, rows: [
+    name: r.name, color: r.color, rows: [
       {label: 'Fleet GW', fmt: gwCell, cells: r.cells.map(c => c && {v: c.fleet, e: c.e})},
       {label: 'Added GW', fmt: gwCell, cells: r.cells.map(c => c && c.addition != null ? {v: c.addition, e: c.e, vs: vs(c)} : null)},
       {label: 'QoQ', fmt: v => CompChart.fmtPct(v, 0), cells: r.cells.map(c => c && c.growth != null ? {v: c.growth, e: c.e} : null)},
@@ -263,7 +273,7 @@ function renderKgiCapacity(panel) {
   const fmt = measure === 'growth' ? (v, long) => CompChart.fmtPct(v, long ? 1 : 0) : gw;
   const labNote = 'Implied from Altimeter and SemiAnalysis charts';
   const estNote = c => pick === 'addition' && c.est != null ? CompChart.vsLine(c.addition, c.est, v => gwCell(v) + ' GW') : '';
-  const series = rows.map(r => ({name: r.name, color: r.color, points: r.cells.map(c => c && c[pick] != null ? {v: c[pick], e: c.e, note: r.lab ? labNote : estNote(c)} : null)}));
+  const series = rows.map(r => ({name: r.name, short: r.short, color: r.color, points: r.cells.map(c => c && c[pick] != null ? {v: c[pick], e: c.e, note: r.lab ? labNote : estNote(c)} : null)}));
   CompChart.legend(panel.querySelector('.comp-legend'), series, capacityState.hidden, renderCapacityChart);
   const host = panel.querySelector('.comp-chart');
   const axisFmt = v => measure === 'growth' ? v + '%' : v + ' GW';
@@ -277,18 +287,18 @@ function renderKgiCapacity(panel) {
     `${heading}, ${measure === 'growth' ? (annual ? 'year-over-year %' : 'quarter-over-quarter %') : 'GW'}, ${annual ? 'by year' : 'by quarter'}`,
     `KGI model, ${annual ? 'by year' : 'by quarter'}`,
     (measure === 'additions'
-      ? (annual ? 'KGI annual additions are used as supplied; they differ from year-end fleet changes in some years. ' : 'KGI quarterly additions are annual additions ÷ 4, a flat split, not commissioning dates. ')
+      ? (annual ? 'KGI annual additions are used as supplied; they differ from year-end fleet changes in some years. ' : 'KGI quarterly additions are the year\'s fleet change ÷ 4, a flat split, not commissioning dates. ')
       : 'KGI fleet steps evenly through each year to match its year-end totals. ')
-    + 'Oracle and xAI start at zero in Q3 2025 and add tracked workbook additions, so they are not whole-company fleets. OpenAI and Anthropic are implied from charts and overlap provider fleets. Periods ending after the KGI note date (Sep 11, 2026) are estimates.');
+    + 'Oracle and xAI start at zero in Q3 2025 and add tracked workbook additions, so they are not whole-company fleets. OpenAI and Anthropic are implied from Altimeter and SemiAnalysis charts and overlap provider fleets; ' + labGap() + ' Periods ending after the KGI note date (Sep 11, 2026) are estimates.');
   const cols = CompChart.dividerFlags(periods.map(p => ({label: annual ? p.label : `${p.label} '${p.year.slice(2)}`, estimate: p.estimate})));
   CompChart.figuresTable(document.querySelector('#capacityTable'), {caption: 'Company', columns: cols, rowGroups: rows.map(r => ({
-    name: r.name + (r.lab ? ' ~' : ''), color: r.color, rows: [
+    name: r.name, color: r.color, rows: [
       {label: 'Fleet GW', fmt: gwCell, cells: r.cells.map(c => c && {v: c.fleet, e: c.e})},
       {label: 'Added GW', fmt: gwCell, cells: r.cells.map(c => c && c.addition != null ? {v: c.addition, e: c.e, vs: c.est != null ? CompChart.vsLine(c.addition, c.est, v => gwCell(v) + ' GW') : ''} : null)},
       {label: annual ? 'YoY' : 'QoQ', fmt: v => CompChart.fmtPct(v, 0), cells: r.cells.map(c => c && c.growth != null ? {v: c.growth, e: c.e} : null)},
     ]}))});
   setSourceKey([
-    ['Source', 'KGI for Amazon, Google, Microsoft and Meta. Your workbook (company disclosures) for Oracle and xAI. OpenAI and Anthropic (~) implied from Altimeter and SemiAnalysis charts.'],
+    ['Source', 'KGI for Amazon, Google, Microsoft and Meta. Your workbook (company disclosures) for Oracle and xAI. OpenAI and Anthropic implied from Altimeter and SemiAnalysis charts.'],
     ['Region', 'Global'],
     ['Years', annual ? '2025 to 2028E' : `${periods[0].label} ${periods[0].year} to ${periods.at(-1).label} ${periods.at(-1).year}E`]
   ]);
@@ -422,5 +432,7 @@ function renderPlansVsSinopac(panel) {
 }
 
 document.querySelector('#capacityMethod').insertAdjacentHTML('afterend','<details id="labEstimateNotes" class="chart-method lab-notes"><summary>OpenAI &amp; Anthropic · estimate methodology</summary><p>Combined GW uses the supplied Altimeter chart: 3.60 / 10.36 / 24.80 / 40.25 for 2025–2028. OpenAI / Anthropic allocations are 58/42, 55/45, 51/49 and 51/49. The supplied SemiAnalysis Tokenomics chart suggests OpenAI leads and the gap narrows by 2Q27. These rounded visual allocations assume a common linear, zero-based scale; its unlabeled y-axis does not establish exact GW ratios. Different hardware efficiencies add uncertainty.</p><p>The 2Q27 split is held through 2028. Quarterly capacity is linearly interpolated between year-end estimates. Annual additions are changes in estimated year-end capacity. Earlier quarterly points and 2029–2030 are unavailable. Lab access overlaps provider fleets and is excluded from provider totals. Global lab scope differs from SinoPac’s U.S. scope. Existing lab scenarios further down the page use their own delivery assumptions.</p><p>Public disclosures provide context for the buildout: <a href="https://openai.com/index/five-new-stargate-sites/" target="_blank" rel="noopener">OpenAI: nearly 7 GW planned Stargate capacity (Sep 2025)</a>; <a href="https://www.anthropic.com/news/anthropic-amazon-compute" target="_blank" rel="noopener">Anthropic / AWS: up to 5 GW, nearly 1 GW by end-2026 (Apr 2026)</a>; <a href="https://www.anthropic.com/news/expanding-our-use-of-google-cloud-tpus-and-services" target="_blank" rel="noopener">Anthropic / Google: over 1 GW expected in 2026 (Oct 2025)</a>. These are overlapping plans with different delivery dates and do not provide comparable installed totals. The split is a modeling assumption informed by the supplied chart; disclosed commitments are not summed to calculate it.</p></details>');
+
+document.querySelector('#researchDashboard .lab-cards')?.insertAdjacentHTML('beforebegin', `<p class="research-note">The capacity chart near the top plots a different estimate for the labs, read from Altimeter and SemiAnalysis charts: at end-2027 it reads OpenAI ${Number(labYear('OpenAI', 2027).toFixed(1))} GW and Anthropic ${Number(labYear('Anthropic', 2027).toFixed(1))} GW, against the base cases here.</p>`);
 
 renderDashboard(window.capacityWorkbook);

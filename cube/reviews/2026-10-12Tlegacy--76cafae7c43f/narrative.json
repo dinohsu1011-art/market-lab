@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "",
+    "call": "Mixed",
+    "detail": "Neither risk appetite nor participation has control.",
+    "summary": "SPY finished the week -0.1%; QQQ -0.7%; high beta versus low beta is +1.8% over one month (52nd percentile); leader breadth is +11.9 points versus the index; 36% of S&P names are above the 50-day; net 52-week highs are +3; Energy \u00b7 XLE leads themes at +1.4%.",
+    "market": "SPY finished the week -0.1%; QQQ -0.7%.",
+    "winners": "Energy \u00b7 XLE +1.4%, Cons. Staples \u00b7 XLP +1.2%, Consumer Staples +1.0%.",
+    "laggards": "Photonics -7.9%, CDN / Edge -5.8%, Connectivity -5.3%.",
+    "why": "Risk and participation disagree, leaving a rotation-led rather than directional tape; high beta/low beta +1.8%, leader breadth spread +11.9pt, 36% above the 50-day.",
+    "comparison": "Since 2026-10-09, the Mixed call is unchanged; high beta -4.7pt, leader spread -5.6pt, 50-day breadth +1.6pt. Weekly leadership changed from Cybersecurity to Energy \u00b7 XLE.",
+    "tally": "2 of 4 risk gauges and 3 of 6 participation gauges are above their five-year medians",
+    "volume": "WBD printed 20.28\u00d7 relative volume on a +0.0% day, while PENG printed 14.04\u00d7 relative volume on a +13.1% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

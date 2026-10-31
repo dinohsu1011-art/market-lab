@@ -26,7 +26,7 @@
       const max=Math.max(1,...ranked.map(r=>r.accel5d));
       const top=ranked.slice(0,12),rest=ranked.slice(12);
       panel.innerHTML=`<header><h2>Basket volume acceleration</h2><span>updated ${esc(data.as_of)}</span></header>`+
-        `<p>Past-5-session dollar volume against each basket's own prior-year pace. Above 1 means heavier trading than usual.</p>`+
+        `<p>Past-5-session dollar volume against each member's own prior-year pace, added up across the basket. Above 1 means heavier trading than usual.</p>`+
         `<table><thead><tr><th>Basket</th><th>5-day pace</th><th>Latest day</th><th>Driven by</th></tr></thead>`+
         `<tbody>${top.map(r=>row(r,max)).join('')}</tbody></table>`+
         (rest.length?`<details><summary>All ${ranked.length} baskets</summary><table><tbody>${rest.map(r=>row(r,max)).join('')}</tbody></table></details>`:'')+

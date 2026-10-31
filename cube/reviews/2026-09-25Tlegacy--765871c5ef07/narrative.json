@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "",
+    "call": "Mixed",
+    "detail": "Leadership is thin and risk appetite is undecided.",
+    "summary": "SPY finished the week +1.3%; QQQ +3.2%; high beta versus low beta is +7.8% over one month (81st percentile); leader breadth is +25.0 points versus the index; 26% of S&P names are above the 50-day; net 52-week highs are -8; Connectivity leads themes at +15.8%.",
+    "market": "SPY finished the week +1.3%; QQQ +3.2%.",
+    "winners": "Connectivity +15.8%, CPU + ASIC +9.2%, Space +8.0%.",
+    "laggards": "Residential Solar -5.6%, Industrial Solar -3.9%, Utilities \u00b7 XLU -3.9%.",
+    "why": "Risk and participation disagree, leaving a rotation-led rather than directional tape; high beta/low beta +7.8%, leader breadth spread +25.0pt, 26% above the 50-day.",
+    "comparison": "Since 2026-09-21, the Mixed call is unchanged; high beta +1.9pt, leader spread -4.1pt, 50-day breadth -3.9pt. Weekly leadership changed from CDN / Edge to Connectivity.",
+    "tally": "2 of 4 risk gauges and 1 of 6 participation gauges are above their five-year medians",
+    "volume": "VKTX printed 22.43\u00d7 relative volume on a +35.7% day, while WBD printed 11.62\u00d7 relative volume on a +10.8% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

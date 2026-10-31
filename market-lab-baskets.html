@@ -36,11 +36,15 @@
     .tk { font-weight:600; }
     .nm { color:var(--ash); }
     .late { color:var(--blue-deep); font-weight:600; }
+    .stale { color:var(--steel); font-weight:400; }
+    .ccy { color:var(--steel); font-size:10.5px; margin-left:3px; }
+    .ml-saved-baskets { margin-top:22px; }
+    .ml-saved-baskets summary { cursor:pointer; font-size:12px; font-weight:600; padding:6px 6px; }
     .pos { color:var(--blue-deep); font-weight:600; } .neg { color:var(--ink); font-weight:600; }
     .note { font-size:12px; color:var(--ash); margin-top:22px; max-width:820px; }
     @media (max-width:860px){ .grid{grid-template-columns:1fr;} }
   </style>
-<link rel="stylesheet" href="market-lab-shell.css?v=20261029-db963087"><script src="market-lab-shell.js?v=20261029-db963087"></script></head>
+<link rel="stylesheet" href="market-lab-shell.css?v=20261030-ed5975d7"><script src="market-lab-shell.js?v=20261030-ed5975d7"></script></head>
 <body>
   <div class="wrap">
     <div class="top">
@@ -52,12 +56,13 @@
     <p class="lede">Theme baskets are equal-weight, daily-rebalanced synthetic indices built from
       the names below — pure-play single-stock exposure alongside the cap-weighted ETFs. Each basket
       <b>broadens as members list</b> — join dates after the basket's inception are shown in blue,
-      and before that date the basket is only its older members. US listings only (foreign
-      exchanges are excluded for trading-calendar alignment).</p>
+      and before that date the basket is only its older members. A few baskets hold Tokyo,
+      Frankfurt or Helsinki listings; their closes are in local currency and they trade on
+      their own exchange calendars, so those baskets line up only loosely with US series.</p>
     <div class="grid" id="grid"></div>
     <p class="note" id="foot"></p>
   </div>
-  <script src="cube/baskets.js?v=20261029-db963087"></script>
+  <script src="cube/baskets.js?v=20261030-ed5975d7"></script>
   <script>
     (() => {
       const D = window.QUANT_BASKETS;
@@ -70,27 +75,31 @@
           <div class="bh"><h3>${esc(b.label)}</h3>
             <div class="ml-basket-actions"><a class="study" href="market-lab-themes.html#${esc(b.id)}">Open chart ↗</a>
             <a class="study" href="market-lab.html#${esc(b.id)}|d3|any|none|h1">Study basket ↗</a></div></div>
-          <div class="bmeta">${b.n} members &middot; equal-weight, rebalanced daily &middot; history from ${esc(b.inception)}</div>
+          <div class="bmeta">${b.n} members &middot; equal-weight, rebalanced daily &middot; <span class="hist">history from ${esc(b.inception)}</span></div>
           <table>
             <tr><th>member</th><th></th><th>in data since</th><th class="r">last close</th><th class="r">last day</th></tr>
             ${b.members.map((m) => `
               <tr><td class="tk">${esc(m.t)}</td><td class="nm">${esc(m.name)}</td>
                 <td class="${m.from > b.inception ? "late" : ""}">${esc(m.from)}</td>
-                <td class="r">${fmt(m.last)}</td>
-                <td class="r ${m.ret1 < 0 ? "neg" : "pos"}">${(m.ret1 >= 0 ? "+" : "") + m.ret1.toFixed(2)}%</td></tr>`).join("")}
+                <td class="r">${fmt(m.last)}${m.ccy ? `<span class="ccy">${esc(m.ccy)}</span>` : ""}</td>
+                ${m.lastd && m.lastd < D.as_of
+                  ? `<td class="r stale" title="No close on ${esc(D.as_of)}; last close and move are from ${esc(m.lastd)}">${esc(m.lastd)}</td>`
+                  : `<td class="r ${m.ret1 < 0 ? "neg" : "pos"}">${(m.ret1 >= 0 ? "+" : "") + m.ret1.toFixed(2)}%</td>`}</tr>`).join("")}
           </table>
         </div>`).join("");
       document.getElementById("foot").textContent =
         "Methodology: basket daily return = simple mean of available members' close-to-close returns that day, " +
         "compounded into an index level (base 100 at inception). Members enter on their first trading day, so early " +
-        "history reflects only the older names. Member prices are split/dividend-adjusted closes. Basket series " +
+        "history reflects only the older names. Member prices are split-adjusted closes, so returns exclude dividends; " +
+        "non-US closes are in local currency. A member with no close on the latest session shows the date of its last " +
+        "close in place of the day's move. The chart starts in 2000 even where member history goes back further. Basket series " +
         "store flat OHLC, so intraday high/low studies don't apply to them. Edit ingestion/baskets.py to change " +
         "membership, then re-run update.py.";
     })();
   </script>
-  <script src="cube/themes.js?v=20261029-db963087"></script>
-  <script src="market-lab-cloud.js?v=20261029-db963087"></script>
-  <script src="market-lab-chart-utils.js?v=20261029-db963087"></script>
-  <script src="market-lab-baskets.js?v=20261029-db963087"></script>
+  <script src="cube/themes.js?v=20261030-ed5975d7"></script>
+  <script src="market-lab-cloud.js?v=20261030-ed5975d7"></script>
+  <script src="market-lab-chart-utils.js?v=20261030-ed5975d7"></script>
+  <script src="market-lab-baskets.js?v=20261030-ed5975d7"></script>
 </body>
 </html>

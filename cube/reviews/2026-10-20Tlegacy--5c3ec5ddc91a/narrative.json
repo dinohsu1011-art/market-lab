@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold into a mixed tape.",
+    "summary": "SPY finished the week +0.8%; QQQ +1.1%; high beta versus low beta is -12.0% over one month (4th percentile); leader breadth is -3.0 points versus the index; 52% of S&P names are above the 50-day; net 52-week highs are +27; Software leads themes at +4.4%.",
+    "market": "SPY finished the week +0.8%; QQQ +1.1%.",
+    "winners": "Software +4.4%, Memory +4.2%, Biotechnology +4.1%.",
+    "laggards": "Japan \u00b7 elec & grid -6.1%, EPC -2.9%, Behind-the-meter power -2.4%.",
+    "why": "The pattern points to rotation away from established high-beta leadership, not indiscriminate index selling; high beta/low beta -12.0%, leader breadth spread -3.0pt, 52% above the 50-day.",
+    "comparison": "Since 2026-10-16, the Risk-off call is unchanged; high beta -4.1pt, leader spread -11.0pt, 50-day breadth +7.0pt. Weekly leadership changed from Consumer Staples to Software.",
+    "tally": "0 of 4 risk gauges and 3 of 6 participation gauges are above their five-year medians",
+    "volume": "WBD printed 20.28\u00d7 relative volume on a +0.0% day, while CLF printed 6.08\u00d7 relative volume on a +16.3% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

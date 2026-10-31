@@ -393,20 +393,20 @@
 
   // ---------- renderers ----------
   function renderStats(r) {
-    const cells = r ? [
-      ["next " + (get(M.horizons, state.h).h === 1 ? "session" : "5 sessions") + " up",
-        r.up == null ? "—" : r.up + "%", ""],
-      ["mean", f2(r.mean), "t = " + (r.t == null ? "—" : r.t)],
-      ["sample", "n = " + r.n, r.n < 15 ? "small — read with care" : ""],
-      ["95% CI", `${f2(r.ci_lo)} · ${f2(r.ci_hi)}`,
-        r.ci_lo == null ? "" : r.ci_lo <= 0 && r.ci_hi >= 0 ? "straddles zero" : "clears zero"],
-    ] : [["no data", "—", "combo pruned (n<3) or live-only"], ["", "—", ""], ["", "—", ""], ["", "—", ""]];
-    $("stats").innerHTML = cells.map(([l, v, s]) =>
-      `<div class="stat"><div class="l">${esc(l)}&nbsp;</div><div class="v">${esc(v)}</div><div class="s">${esc(s)}&nbsp;</div></div>`).join("");
-    if (PIN && PIN.res && r && Number.isFinite(PIN.res.up) && Number.isFinite(r.up)) {
+    // one results sentence (no tile row); the t-stat rides on the mean's tooltip
+    if (!r) { $("stats").textContent = "No data for this combo: it has fewer than 3 events or needs the live server."; return; }
+    const span = get(M.horizons, state.h).h === 1 ? "The next session" : "The next 5 sessions";
+    let html = r.up == null ? `${span}: no up-rate for this combo.`
+      : `${span} ended up <b>${esc(r.up)}%</b> of the time`;
+    if (PIN && PIN.res && Number.isFinite(PIN.res.up) && Number.isFinite(r.up)) {
       const d = (r.up - PIN.res.up).toFixed(1);
-      $("stats").children[0].querySelector(".s").textContent = `pinned ${PIN.res.up}% · Δ ${d >= 0 ? "+" : ""}${d}pp`;
+      html += ` <span class="quiet">(pinned ${PIN.res.up}%, ${d >= 0 ? "+" : ""}${d}pp)</span>`;
     }
+    if (r.up != null) html += ".";
+    html += ` The mean return was <b title="t = ${r.t == null ? "—" : esc(r.t)}">${f2(r.mean)}</b> across <b>${r.n}</b> event${r.n === 1 ? "" : "s"}`;
+    if (r.ci_lo != null) html += `, and the 95% confidence range for that mean runs ${f2(r.ci_lo)} to ${f2(r.ci_hi)}, which ${r.ci_lo <= 0 && r.ci_hi >= 0 ? "straddles" : "clears"} zero`;
+    html += "." + (r.n < 15 ? ` <span class="quiet">Small sample, read with care.</span>` : "");
+    $("stats").innerHTML = html;
   }
 
   async function renderRegimes(cur) {
@@ -484,7 +484,11 @@
   $("pin").onclick = async () => {
     const r = await safeResult();
     if (!r) return;
-    PIN = { label: `${get(M.subjects, state.s).label} · ${trigLabel()} · ${state.wd} · ${state.c}`, res: r };
+    const wdo = get(M.weekdays, state.wd), cnd = get(M.conditions, state.c);
+    const parts = [get(M.subjects, state.s).label, trigLabel()];
+    if (wdo.day != null) parts.push(wdo.label + "s");
+    if (state.c !== "none") parts.push(cnd.label.replace(/\s*\(.*\)\s*$/, ""));
+    PIN = { label: parts.join(" · "), res: r };
     renderPinChip(); update(false);
   };
   function renderPinChip() {
@@ -498,7 +502,7 @@
   // ---------- presets ----------
   const PRESETS = [
     ["NDX bad Fridays", { s: "ndx", t: "d4", wd: "fri", c: "none", h: "h1" }],
-    ["crash Friday + VIX backwardated", { s: "spy", t: "d25", wd: "fri", c: "vix_bw", h: "h1" }],
+    ["crash Friday after VIX stress", { s: "spy", t: "d25", wd: "fri", c: "vixprev_hi", h: "h1" }],
     ["dip-buy in uptrend", { s: "spy", t: "d3", wd: "any", c: "up", h: "h1" }],
     ["semis worst 20 → next week", { s: "smh", t: "w20", wd: "any", c: "none", h: "h5" }],
     ["−2% day while yields rising", { s: "spy", t: "d2", wd: "any", c: "tnx_up", h: "h1" }],
@@ -540,6 +544,10 @@
   let seq = 0;
   async function update(push) {
     const my = ++seq;
+    // ids the cube menus no longer carry fall back to the defaults instead of throwing
+    if (!get(M.conditions, state.c)) state.c = "none";
+    if (!get(M.weekdays, state.wd)) state.wd = "any";
+    if (!get(M.horizons, state.h)) state.h = "h1";
     renderSentence(); renderSlider(); writeHash(push);
     $("histsub").textContent = "· " + get(M.horizons, state.h).label.toLowerCase() + " return";
     const r = await safeResult();
@@ -547,11 +555,14 @@
     renderStats(r); renderHist(r); renderOcc(r);
     renderRegimes(r);
     $("footnote").textContent = r && r.n < 15
-      ? "Small sample — treat the split as descriptive history, not an edge. Pruned combos (n<3) are grayed out in the pickers."
+      ? "Small sample — treat the split as descriptive history, not an edge."
       : "Close-to-close returns; outcome = next trading session(s), holiday-robust. Offline cube CI is a t-approximation.";
   }
 
   async function detect() {
+    // Only serve.py (default :8765, or any page opened with ?live) has the API;
+    // the static build would just log a 404 for the probe.
+    if (location.port !== "8765" && !/[?&]live\b/.test(location.search)) { $("mode").textContent = "Offline · cube"; return; }
     // A fork must never silently switch to another project's local API.
     for (const base of [""]) {
       try {

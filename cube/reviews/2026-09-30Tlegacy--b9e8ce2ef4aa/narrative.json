@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "",
+    "call": "Mixed",
+    "detail": "Leadership is thin and risk appetite is undecided.",
+    "summary": "SPY finished the week -1.1%; QQQ -0.6%; high beta versus low beta is +9.7% over one month (86th percentile); leader breadth is +29.6 points versus the index; 20% of S&P names are above the 50-day; net 52-week highs are -30; Cybersecurity leads themes at +4.5%.",
+    "market": "SPY finished the week -1.1%; QQQ -0.6%.",
+    "winners": "Cybersecurity +4.5%, Semicap +4.1%, Japan \u00b7 elec & grid +2.2%.",
+    "laggards": "Metals \u2014 Miners -5.2%, Neocloud -5.2%, Space -5.1%.",
+    "why": "Risk and participation disagree, leaving a rotation-led rather than directional tape; high beta/low beta +9.7%, leader breadth spread +29.6pt, 20% above the 50-day.",
+    "comparison": "Since 2026-09-28, the Mixed call is unchanged; high beta +4.0pt, leader spread +3.6pt, 50-day breadth -3.6pt.",
+    "tally": "2 of 4 risk gauges and 1 of 6 participation gauges are above their five-year medians",
+    "volume": "FICO printed 16.51\u00d7 relative volume on a -26.5% day, while MDB printed 12.25\u00d7 relative volume on a -18.5% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

@@ -30,6 +30,8 @@
   }
   async function load(){
     const host=document.getElementById('journal');if(!host)return;
+    // The journal API lives in the cloud workspace only; hide it on the static site.
+    if(window.MarketLabCloud?.static){host.hidden=true;document.documentElement.classList.add('no-journal');return;}
     const body=host.querySelector('.body');
     let entries=null;
     try{
@@ -80,5 +82,5 @@
     };
   }
   window.MarketLabJournal={init(bk){books=bk||[];openDraft=null;loading=load();},async openDraft(e){await loading;
-    if(openDraft)openDraft(e);else{const host=document.getElementById('journal');host.open=true;host.scrollIntoView({behavior:'smooth'});}}};
+    if(openDraft)openDraft(e);else{const host=document.getElementById('journal');if(host.hidden)return;host.open=true;host.scrollIntoView({behavior:'smooth'});}}};
 })();

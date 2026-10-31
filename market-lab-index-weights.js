@@ -39,7 +39,7 @@
 
   function render(){
     host.innerHTML=`<header><div><h2>What the indexes are made of</h2>
-      <p class="iw-note">Estimated weights as of ${day(D.as_of)}, from each company's market value. The S&amp;P 500 officially counts only freely traded shares, and the Nasdaq-100 trims its biggest names each quarter (that rule is applied here), so official weights can differ by about a point. Share classes like GOOGL and GOOG are shown as one company.</p></div>
+      <p class="iw-note">Estimated from each company's market value, updated ${day(D.as_of)}. The S&amp;P 500 officially counts only freely traded shares, and the Nasdaq-100 trims its biggest names each quarter (that rule is applied here), so official weights can differ by about a point. Share classes like GOOGL and GOOG are shown as one company.</p></div>
       <div class="iw-toggle" role="group" aria-label="Group by"><button type="button" data-m="co" aria-pressed="${mode==='co'}">Top ${TOP} companies</button><button type="button" data-m="sec" aria-pressed="${mode==='sec'}">By sector</button></div></header>
       <div class="iw-cols">${['spx','ndx'].map(k=>D.indexes[k]?col(D.indexes[k]):'').join('')}</div>`;
     host.querySelectorAll('.iw-toggle button').forEach(b=>b.onclick=()=>{

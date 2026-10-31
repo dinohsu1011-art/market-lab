@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold and participation is narrow.",
+    "summary": "SPY finished the week +0.7%; QQQ +1.1%; high beta versus low beta is -16.5% over one month (1st percentile); leader breadth is -3.2 points versus the index; 59% of S&P names are above the 50-day; net 52-week highs are +7; Photonics leads themes at +5.7%.",
+    "market": "SPY finished the week +0.7%; QQQ +1.1%.",
+    "winners": "Photonics +5.7%, CDN / Edge +4.0%, Behind-the-meter power +3.9%.",
+    "laggards": "Residential Solar -4.4%, Japan \u00b7 elec & grid -2.2%, Comm. Svcs \u00b7 XLC -1.6%.",
+    "why": "Weak high beta and narrow participation point to a broad contraction in risk appetite; high beta/low beta -16.5%, leader breadth spread -3.2pt, 59% above the 50-day.",
+    "comparison": "Since 2026-10-22, the Risk-off call is unchanged; high beta +0.5pt, leader spread -1.6pt, 50-day breadth -1.4pt. Weekly leadership changed from Cybersecurity to Photonics.",
+    "tally": "0 of 4 risk gauges and 2 of 6 participation gauges are above their five-year medians",
+    "volume": "WBD printed 20.28\u00d7 relative volume on a +0.0% day, while FPS printed 6.47\u00d7 relative volume on a -21.5% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

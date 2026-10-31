@@ -20,7 +20,7 @@
       legend.innerHTML=`<span style="color:${breadthColor}">— Breadth % · left</span>`;
       card.querySelector('.ml-breadth-plot').before(legend);
       MarketLabAnalytics.plot(card.querySelector('.ml-breadth-plot'),dates,series,
-        {label:`${universe.label}: breadth on left axis; ${benchmark?.label||'index'} closing price on right axis`,panelKey:'breadth:'+index+':'+period,defaultOverlay:index?'nasdaq':'sp500',domain:[0,100],height:280,format:v=>v.toFixed(0)+'%',rightFormat:v=>v.toLocaleString(undefined,{maximumFractionDigits:0}),
+        {label:`${universe.label}: breadth on left axis; ${benchmark?.label||'index'} closing price on right axis`,panelKey:'breadth:'+index+':'+period,defaultOverlay:{gspc:'sp500',ixic:'nasdaq'}[benchmark?.id],domain:[0,100],height:280,format:v=>v.toFixed(0)+'%',rightFormat:v=>v.toLocaleString(undefined,{maximumFractionDigits:0}),
          onCursor:j=>{const i=indices[j],v=data.pct[i];card.querySelector('header b').textContent=Number.isFinite(v)?v.toFixed(1)+'%':'—';card.querySelector('p').textContent=`${payload.dates[i]} · above the ${period}-day moving average`;}});
     });
     panel.querySelectorAll('[data-ma]').forEach(b=>b.onclick=()=>{period=+b.dataset.ma;draw();});

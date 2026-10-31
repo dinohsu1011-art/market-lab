@@ -23010,6 +23010,816 @@
       "country": "United States",
       "updated": "2026-10-30",
       "source": "Yahoo Finance via yfinance"
+    },
+    "TSCO": {
+      "symbol": "TSCO",
+      "name": "Tractor Supply Company",
+      "summary": "Tractor Supply Company operates as a rural lifestyle retailer in the United States. The company provides various merchandise, including livestock and equine feed and equipment, poultry, fencing, and sprayers and chemicals; companion animal products, such as food, treats, and equipment for dogs, cats, and other small animals, as well as dog wellness products; seasonal and recreation products comprising tractors and riders, lawn and garden, bird feeding, power equipment, and other recreational products; truck, tool, and hardware products, such as truck accessories, trailers, generators, lubricants, batteries, and hardware and tools; and clothing, gift, and décor products consist of clothing, footwear, toys, snacks, and decorative merchandise. It offers its products under the 4health, Paws & Claws, American Farmworks, Producer's Pride, Bit & Bridle, Red Shed, Blue Mountain, Redstone, C.E. Schmidt, Retriever, Country Lane, Ridgecut, Countyline, Royal Wing, Country Tuff, Strive, Dumor, Traveller, Farm Table, Treeline, Groundwork, TSC Tractor Supply Co, Huskee, Untamed, JobSmart, and Impeckable brand names. The company operates its retail stores under the Tractor Supply Company, Petsense by Tractor Supply, and Orscheln Farm and Home names; and operates websites under the TractorSupply.com and Petsense.com names. It sells its products to recreational farmers, ranchers, and others. Tractor Supply Company was founded in 1938 and is based in Brentwood, Tennessee.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "country": "United States",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TSLA": {
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "summary": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The company offers electric vehicles, as well as sells automotive regulatory credits; and non-warranty maintenance services and collision, automotive insurance services, as well as part sales and retail merchandise sale. It also provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; purchase financing and leasing services; services for electric vehicles through its company-owned service locations and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. In addition, the company engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. Further, it provides services and repairs to its energy product customers, including under warranty and extended service plans; and various financing options to its residential customers; lithium-ion battery energy storage products, such as Powerwall and Megapack; energy generation products, including solar panels and solar roof; self-driving development and artificial intelligence software, vehicle control and infotainment software, and battery and powertrain. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was incorporated in 2003 and is headquartered in Austin, Texas.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "country": "United States",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TSEM": {
+      "symbol": "TSEM",
+      "name": "Tower Semiconductor Ltd.",
+      "summary": "Tower Semiconductor Ltd., an independent semiconductor foundry, provides technology, development, and process platforms for integrated circuits in the United States, Japan, rest of Asia, and Europe. It provides customizable process technologies, including SiGe, SiPho, mixed signal CMOS, RF CMOS, CMOS image sensors, non-imaging sensors, wafers, and integrated power management. The company also offers a design enablement platform for a design cycle, as well as transfer optimization and development process services to integrated device manufacturers and fabless companies. It serves consumer applications, personal computers, communications, handsets and smartphones, automotive, industrial, aerospace, and medical device markets. The company was incorporated in 1993 and is headquartered in Migdal Haemek, Israel.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Israel",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TSM": {
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "summary": "Taiwan Semiconductor Manufacturing Company Limited, together with its subsidiaries, manufactures, packages, tests, and sells integrated circuits and other semiconductor devices in Taiwan, China, Europe, the Middle East, Africa, Japan, the United States, and internationally. It provides various wafer fabrication processes, such as processes to manufacture complementary metal- oxide-semiconductor (CMOS) logic, mixed-signal, radio frequency, embedded memory, bipolar CMOS mixed-signal, and others. The company also involved in providing customer and engineering support services; manufacturing of masks; investment in technology start-up companies; research, designing, developing, manufacturing, packaging, testing, and sale of color filters; and investment activities. Its products are used in high performance computing, smartphones, Internet of things, automotive, and digital consumer electronics. Taiwan Semiconductor Manufacturing Company Limited was incorporated in 1987 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TSN": {
+      "symbol": "TSN",
+      "name": "Tyson Foods, Inc.",
+      "summary": "Tyson Foods, Inc., together with its subsidiaries, operates as a food company worldwide. It operates through four segments: Beef, Pork, Chicken, and Prepared Foods. The company processes live fed cattle and hogs; fabricates dressed beef and pork carcasses into primal and sub-primal meat cuts, as well as case ready beef and pork, and fully cooked meats; raises and processes chickens into fresh, frozen, and value-added chicken products, including breaded chicken strips, nuggets, patties, and other ready-to-fix or fully cooked chicken parts; and supplies poultry breeding stock. It also manufactures and markets frozen and refrigerated food products, including ready-to-eat sandwiches, flame-grilled hamburgers, Philly steaks, pepperoni, bacon, breakfast sausage, turkey, lunchmeat, hot dogs, flour and corn tortilla products, appetizers, snacks, prepared meals, ethnic foods, side dishes, meat dishes, breadsticks, and processed meats under the Tyson, Jimmy Dean, Hillshire Farm, Ball Park, Wright, Aidells, Gallo Salame, ibp, and State Fair brands. The company sells its products through its sales staff to grocery retailers, grocery wholesalers, meat distributors, warehouse club stores, military commissaries, industrial food processing companies, chain restaurants or their distributors, live markets, international export companies, and domestic distributors who serve restaurants and food service operations, such as plant and school cafeterias, convenience stores, hospitals, and other vendors, as well as through independent brokers and trading companies. Tyson Foods, Inc. was founded in 1935 and is headquartered in Springdale, Arkansas.",
+      "sector": "Consumer Defensive",
+      "industry": "Farm Products",
+      "country": "United States",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TTAN": {
+      "symbol": "TTAN",
+      "name": "ServiceTitan, Inc.",
+      "summary": "ServiceTitan, Inc. provides an end-to-end cloud-based software platform in the United States, Armenia, and Canada. Its platform connects and manages a range of business workflows, such as advertising, job scheduling and management, dispatching, generating estimates and invoices, payment processing and others. The company offers ServiceTitan, a platform for contractors; FieldRoutes, pest control software; and Aspire, a business management software that offers real-time reports, precise data, accurate job costing for the landscape and clean industries. In addition, the company offers FinTech products that include payment processing and third-party financing solutions. It serves HVAC, plumbing, electrical, garage door, chimney sweep, roofing, irrigation, water treatment, septic, painting, pool service, landscape, lawn care, pest control, air duct cleaning, commercial food equipment, audio visual, alarm, appliance repair, residential remodeling, locksmith, refrigeration, handyman, gutter, siding, dock and door, fire and life safety industries. The company was formerly known as Linxlogic, Inc. and changed its name to ServiceTitan, Inc. in June 2014. The company was incorporated in 2007 and is based in Glendale, California.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TTC": {
+      "symbol": "TTC",
+      "name": "The Toro Company",
+      "summary": "The Toro Company provides professional turf maintenance equipment and services. It operates through Professional and Residential segments. It offers riding and walking mowers, greens rollers, all-wheel drive articulating tractors, turf sprayer, utility vehicles, aeration, bunker maintenance, and other turf equipment; sprinkler heads, controllers, turf sensors, valves, and operating software; and riding rotary and reel mowers and attachments, infield grooming equipment, multipurpose vehicles, debris management products, all-wheel drive articulating tractors, sidewalk snow and ice solution vehicles, and related attachments and accessories. The company also provides zero-turn radius riding mowers, walk behind and stand-on mowers, turf application and renovation, tree care, horizontal directional drills, and drilling guidance and support equipment; walk and ride trenchers, vacuum excavators, utility locators and inspection systems, pipe rehabilitation, and replacement solutions; drive chucks and sub savers, drill pipe, starter rods and quick connects, bits and blades, rock tools, reamers, and swivels; and snow removal and ice management solutions. In addition, it offers rotors, sprinkler bodies and nozzles, valves, drip tubing and subsurface irrigation, and electric control devices; wired and wireless rain, freeze, climate, and soil sensors; drip tape, polyethylene tubing, drip line, emitters, filters, fitting, and software related solutions; stand-on skid steers, walk-behind trenchers, stump grinders, material handlers, and other concrete construction equipment; walk power and zero-turn riding mowers, and snow throwers; and grass and hedge trimmers, blower-vacuums, chainsaws, edgers, cultivators, string mowers, and related parts and accessories. The company sells its products through distributors, dealers, mass retailers, hardware retailers, equipment rental and home centers, and online. The company was founded in 1914 and is headquartered in Bloomington, Minnesota.",
+      "sector": "Industrials",
+      "industry": "Tools & Accessories",
+      "country": "United States",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TT": {
+      "symbol": "TT",
+      "name": "Trane Technologies plc",
+      "summary": "Trane Technologies plc designs, manufactures, sells, and services of solutions for heating, ventilation, air conditioning, and custom and transport refrigeration. It offers air conditioners, exchangers, and handlers; airside and terminal devices; air sourced heat pumps; chillers; coils and condensers; auxiliary power, cold storage, and condensing units; controls contracting and commissioning, decarbonization programs, and gensets; dehumidifiers; energy and water efficiency programs; energy recovery ventilators and power solutions; energy storage; furnaces; home automation; humidifiers; HVAC performance-monitoring products; and indoor air quality assessments and related products for HVAC and transport solutions. The company also provides asset management, building management, bus air purification, bus and rail HVAC, container refrigeration, control, ductless, geothermal, data center and multi-pipe HVAC, package heating and cooling, rail refrigeration, residential air filtration, self and vehicle powered truck refrigeration, temporary heating and cooling, truck refrigeration, unitary, variable refrigerant flow, and trailer refrigeration systems. In addition, it offers industrial process refrigeration, installation contracting, lighting retrofit, medical grade refrigeration, refrigerant reclamation, renewable energy and storage, residential hybrid heating, telematics, thermostats/controls and associated digital, ventilation, and stationary cold storage solutions; packaged rooftop units; rate chambers; residential air filters; thermal energy storage; transport heater products; temperature freezers; energy infrastructure programs and management, repair and maintenance, smart and AI-enabled, and rental services; water source heat pumps; and aftermarket and OEM parts and supplies. The company was formerly known as Ingersoll-Rand Plc and changed its name to Trane Technologies plc in March 2020. The company was founded in 1885 and is headquartered in Swords, Ireland.",
+      "sector": "Industrials",
+      "industry": "Building Products & Equipment",
+      "country": "Ireland",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TTD": {
+      "symbol": "TTD",
+      "name": "The Trade Desk, Inc.",
+      "summary": "The Trade Desk, Inc. operates as a technology company in the United States and internationally. The company creates, manages, and optimizes digital advertising campaigns across ad formats, channels and devices, including CTV and other video, display, audio, and native, on a multitude of devices, such televisions, streaming devices, mobile devices, computers and digital-out-of-home devices. It provides data and other value-added services. It serves advertising agencies, advertisers, and other service providers for agencies or advertisers. The Trade Desk, Inc. was incorporated in 2009 and is headquartered in Ventura, California.",
+      "sector": "Communication Services",
+      "industry": "Advertising Agencies",
+      "country": "United States",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TTE": {
+      "symbol": "TTE",
+      "name": "TotalEnergies SE",
+      "summary": "TotalEnergies SE, an integrated energy company, produces and markets oil and biofuels, natural gas, biogas and low-carbon hydrogen, renewables, and electricity in France, the United States, Europe, Africa, and internationally. It operates through Exploration & Production, Integrated LNG, Integrated Power, Refining & Chemicals, and Marketing & Services segments. The Exploration & Production segment engages in the activities of exploration and production of oil and natural gas, as well as carbon storage. The Integrated LNG segment is involved in the upstream and midstream LNG activities, as well as biogas and synthetic methane activities, as well as gas trading. The Integrated Power segment engages in the generation, storage, electricity trading, and B2B-B2C distribution of gas and electricity. The Refining & Chemicals segment is involved in the industrial hub activities comprising the activities of refining, petrochemicals and specialty chemicals. This segment also includes the activities of oil supply, trading and marine shipping, as well as hydrogen activities. The Marketing & Services segment engages in the marketing activities in the field of petroleum products, as well as corresponding supply and logistics activities. The company was formerly known as TOTAL SE and changed its name to TotalEnergies SE in June 2021. TotalEnergies SE was incorporated in 1924 and is headquartered in Courbevoie, France.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "country": "France",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TTEK": {
+      "symbol": "TTEK",
+      "name": "Tetra Tech, Inc.",
+      "summary": "Tetra Tech, Inc. provides consulting and engineering services focusing on water, environment, and sustainable infrastructure in the United States and internationally. The company operates through two segments, Government Services Group (GSG) and Commercial/International Services Group (CIG). The GSG segment offers consulting and engineering services, including water resources analysis and water management, environmental monitoring, data analytics, government consulting, waste management, and civil infrastructure master planning and resilient engineering design for facilities, as well as transportation and local development projects primarily to government clients, including federal, state, and local, as well as international development agencies. It also offers sustainable solutions, such as energy management consulting, and greenhouse gas inventory assessment, certification, reduction, and management services. The CIG segment provides consulting and engineering services, including natural resources, energy, and utilities, as well as sustainable infrastructure master planning and engineering design for facilities; and transportation and local development projects to commercial and international clients, including the commercial and government sectors. The company offers early data collection and monitoring, data analysis and information management, science and engineering applied research, engineering design, project management, and operations and maintenance services; climate change consulting; greenhouse gas inventory assessment, certification, reduction, and management services; environmental remediation and reconstruction services, industrial water treatment and reuse services; and engineering services, such as data centers, advanced manufacturing, security systems, training and audiovisual facilities, clean rooms, laboratories, medical facilities, and disaster preparedness facilities. The company was founded in 1966 and is headquartered in Pasadena, California.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "country": "United States",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TTMI": {
+      "symbol": "TTMI",
+      "name": "TTM Technologies, Inc.",
+      "summary": "TTM Technologies, Inc. manufactures and sells mission systems, radio frequency (RF) components, RF microwave/microelectronic assemblies, and printed circuit boards (PCBs) and substrates in the United States, Taiwan, and internationally. It operates in three segments, A&D, Commercial, and RF&S Components. The company offers various engineered systems and RF and microwave assemblies; PCBs and IC substrates, custom assemblies and integrated systems, passive and advanced ceramic RF components, hi-reliability multi-chip modules, and beamforming and switching networks; and design-for-manufacturability, PCB layout design, simulation and testing, quick turnaround (QTA) production, and specialized RF assembly and testing. It also provides multi-mode surveillance and weather avoidance radar systems for fixed- and rotary-wing aircraft, Unmanned Aerial Vehicles, and shipboard platforms; AN/APS-153 multi-mode radar; communications suite within the MH-60R/S multi-mission helicopters; and supports maritime surveillance, counter UAS, and advanced air mobility end markets under MOSAIC brand. In addition, the company offers identification friend; monopulse secondary surveillance radars, and air traffic control systems; wired and wireless communication systems; designs, produces, and tests specialized multi-chip RF modules and components; and manufactures off-the-shelf surface mount microwave components. Further, it provides thick-film ceramic substrates, custom designed application specific integrated circuits, and conventional PCBs; custom electronic assemblies; QTA services; and thermal management. The company serves original equipment manufacturers, electronic manufacturing services providers, original design manufacturers, distributors, and government agencies; and aerospace and defense, data center computing, automotive, medical, industrial, instrumentation, and networking markets. TTM Technologies, Inc. was incorporated in 1978 and is headquartered in Santa Ana, California.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "United States",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TTWO": {
+      "symbol": "TTWO",
+      "name": "Take-Two Interactive Software, Inc.",
+      "summary": "Take-Two Interactive Software, Inc. develops, publishes, and markets interactive entertainment solutions for consumers worldwide. The company develops and publishes action/adventure products under the Grand Theft Auto, LA Noire, Max Payne, Midnight Club, and Red Dead Redemption names, as well as other franchises. It also publishes various entertainment properties across various platforms and a range of genres, such as shooter, action, role-playing, strategy, sports, and family/casual entertainment under the BioShock, Mafia, Sid Meier's Civilization, XCOM series, Borderlands, and Tiny Tina's Wonderland names. In addition, the company publishes sports simulation titles comprising NBA 2K series, a basketball video game; the WWE 2K professional wrestling series; mobile titles, including WWE SuperCard; and PGA TOUR 2K. Further, it offers free-to-play mobile games, such as CSR Racing, Dragon City, Empires & Puzzles, FarmVille 3, Game of Thrones: Legends, Golf Rival, Harry Potter: Puzzles & Spells, Hit It Rich!, Match Factory!, Merge Dragons!, Merge Magic!, Monster Legends, NBA 2K, Toon Blast, Top Eleven, Wizard Of Oz Slots Casino, Toy Blast, Words With Friends, and Zynga Poker; and Color Block Jam. The company's products are designed for console gaming systems; and mobiles, such as smartphones, tablets, and personal computers. It provides its products through physical retail, digital download, online platforms, and cloud streaming services. Take-Two Interactive Software, Inc. was incorporated in 1993 and is based in New York, New York.",
+      "sector": "Communication Services",
+      "industry": "Electronic Gaming & Multimedia",
+      "country": "United States",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TVTX": {
+      "symbol": "TVTX",
+      "name": "Travere Therapeutics, Inc.",
+      "summary": "Travere Therapeutics, Inc., a biopharmaceutical company, identifies, develops, and delivers therapies to people living with rare kidney and metabolic diseases in the United States. The company's products include FILSPARI (sparsentan), a once-daily, oral medication designed to target two critical pathways in the disease progression of IgA Nephropathy (endothelin 1 and angiotensin-II); and Thiola and Thiola EC (tiopronin tablets) for the treatment of cystinuria, a rare genetic cystine transport disorder that causes high cystine levels in the urine and the formation of recurring kidney stones. Its clinical-stage programs consist of Sparsentan, a novel investigational product candidate, which has been granted Orphan Drug Designation for the treatment of focal segmental glomerulosclerosis in the U.S. and Europe; and Pegtibatinase, a novel investigational human enzyme replacement candidate being evaluated for the treatment of classical homocystinuria. It has a collaboration agreement with PharmaKrysto Limited for the pre-clinical activities associated with the cystinuria program. Travere Therapeutics, Inc. was formerly known as Retrophin, Inc. and changed its name to Travere Therapeutics, Inc. in November 2020. The company is headquartered in San Diego, California.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TU": {
+      "symbol": "TU",
+      "name": "TELUS Corporation",
+      "summary": "TELUS Corporation, together with its subsidiaries, operates as a telecommunications company in Canada and internationally. It operates through TELUS Technology Solutions, TELUS Health, and TELUS Digital Experience segments. The company offer technology solutions comprising mobile and fixed voice and data telecommunications services and products; and agriculture and consumer goods services, such as software, data management and data analytics-driven smart-food chain, and consumer goods technologies, as well as sells mobile technologies equipment. It also provides data services consisting of internet protocol; television; hosting; managed information technology and cloud-based services; and home and business security and automation. In addition, the company offers integrated health and well-being products, solutions, and services, such as healthcare services; and software and technology solutions, including employee and family assistance programs and benefits administration. Further, it provides digitally enabled customer experience solutions, including digital customer experience management and the digital transformation of IT and customer experience systems; digital trust, safety, and security; AI data services; and generative AI solutions in customer experience. The company was formerly known as TELUS Communications Inc. and changed its name to TELUS Corporation in February 2005. TELUS Corporation was incorporated in 1998 and is based in Vancouver, Canada.",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "country": "Canada",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW": {
+      "symbol": "TW",
+      "name": "Tradeweb Markets Inc.",
+      "summary": "Tradeweb Markets Inc. builds and operates electronic marketplaces in the United States and internationally. The company offers marketplaces that facilitate trading products across various asset classes, including rates, credit, equities, and money markets. It also provides pre-trade data and analytics, such as AI-Price, SNAP+, iNAV for ETFs, integrations, and LSEG market data; and trade execution comprising request-for-quote, request-for-market, request-for-stream, list trading, compression, blast all-to-all, click-to-trade, portfolio trading, session-based, central limit order book, bilateral firm streams, inventory-based, rematch, voice, futures vs. cash spreading, and dealer algorithmic suite. In addition, the company offers trade processing; and post-trade data, analytics, and reporting, which include transaction cost analysis, benchmark prices, and APA. It serves institutional, wholesale, retail, and corporate clients, such as asset managers, hedge funds, insurance companies, central banks, banks and dealers, proprietary trading firms, retail brokerage and financial advisory firms, regional dealers, and corporations. The company was founded in 1996 and is headquartered in New York, New York. Tradeweb Markets Inc. is a subsidiary of Refinitiv Parent Limited.",
+      "sector": "Financial Services",
+      "industry": "Capital Markets",
+      "country": "United States",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW1303": {
+      "symbol": "1303.TW",
+      "name": "Nan Ya Plastics Corporation",
+      "summary": "Nan Ya Plastics Corporation engages in the manufacture and sale of plastic products, polyester fibers, petrochemical products, and electronic materials in Taiwan, China, the United States, and internationally. It provides plastic products, such as PP synthetic paper, adhesives, optical films, outdoor decoration materials, TPU films, synthetic leathers, PU resins, doors, Neuma fire-rated doors and windows, plastic pallets, PVC cling and PE Stectch films, BOPP film, engineering and PVC compounds, unsaturated polyesters, pipes and fittings, rigid sheets, A-PET sheet/rigid films, interior decoration materials, PVC sheets, PVC rigid sheet, injection, decoration and window films, PET films, and PU-DISCs. The company also offers chemicals, including phthalate plasticizers, phthalic anhydride, alcohols, glycols, curing agents, hydrogen peroxide, tetrahydrofuran, butanediol, bisphenol-A, epoxidized soybean oil, stabilizers, liquefied gases, and epoxy. In addition, it offers electronic materials comprising copper clad laminate, glass fabrics, liquid crystal displays, touch panels, copper foils, and PCB inks; and fibers and textiles consisting of draw textured yarn, spin draw yarn, fully oriented yarn, partially oriented yarn, polyester staple fiber, PET resin, polyester film, polyester release film, woven fabric, and knitting fabric. Further, the company provides HV/LV switchgears, cast resin transformers, vacuum contactor switchgears, molds, rollers, and screws and barrels. Its products are used in household items, outdoor sports, transport materials, building materials, coatings, 3C appliances, civil farm, industrial equipment, and other applications. Nan Ya Plastics Corporation was incorporated in 1958 and is headquartered in Kaohsiung, Taiwan.",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW1503": {
+      "symbol": "1503.TW",
+      "name": "Shihlin Electric & Engineering Corp.",
+      "summary": "Shihlin Electric & Engineering Corp. manufactures and sells heavy electrical equipment and machinery and automotive electrical equipment, devices, and related parts in Taiwan, Mainland China, Vietnam, and internationally. The company offers automobile parts, such as alternators, starters, wiper systems, and fan motors; traction motor and motor controller EV powertrains; EV chargers; motorcycle parts, including ISG, AC generator, fuel pumps, and ignition coils; and DC, gear, transaxle motor. It also provides breaker switchgear and systems consisting of miniature circuit breakers, molded case circuit breakers, air circuit breakers, magnetic contactors/switches, manual motor starters, surge protective devices, renewable energy solutions, digital power meter, and automatic transfer switches; and heavy electric systems, such as power and oil immersed transformers, cast resin transformers, pad and pole mounted transformers, PT/CT products, high voltage switches, and capacitors. In addition, the company offers factory automation products that include AC drives, HMI products, AC servo motors and drives, and temperature controllers; and automatic handling systems, as well as digital products. Further, it is involved in the operating, sale, and maintenance of vending machines; manufacture and sale of aluminum alloy die-casting, lathe, cutting, and molding products; trading of mechanical appliances and vehicle components; competitive and recreational sports business; investment and installation businesses; management consulting services; power transmission and generation manufacturing, distribution, and sale; manufacture of machinery and renewable energy equipment; marketing promotions services; manufacturing and sale of high and low pressure switch; and sale and lease of commercial buildings. The company was incorporated in 1955 and is based in Taipei, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW1513": {
+      "symbol": "1513.TW",
+      "name": "Chung-Hsin Electric and Machinery Manufacturing Corp.",
+      "summary": "Chung-Hsin Electric and Machinery Manufacturing Corp. manufactures and sells electric motors and generators in Taiwan and internationally. It operates through Motor Energy; Service; and Engineering and Other segments. It offers power equipment products; power automation products; electricity meter products; system engineering; power project; and generators, and air conditioning products. The company also provides electrical and mechanical, and property management maintenance services; energy management services; engages in urban regeneration; 10kV switchgear, 0.4kV switchgear, DC power switchgear, and neutral grounding resistor for transformer; and manufactures and sells aluminum casting parts for high voltage power supply equipment. In addition, it offers fuel cell products and microgrid energy storage; precision machining components, that includes aerospace parts, semiconductor equipment parts, pressure vessel fabrication, cases components, and power distribution boxes, as well as control boxes, train door, road noise barrier, and MRT platform screen door, as well as machine tools. Further, the company engages in the design and manufacturing of boost/substation, product of GIS operators and medium voltage switchgear; design, operation, and management of parking and charging station; contract and construction of power transmission and distribution system, power monitoring system engineering, electrical pipeline installation, air conditioning electromechanical, and system engineering; contract and construction of turnkey project for wind power generator, hydro power generator and substation; contract and construction of incinerator and pollution control project., etc.; development, sale, and rental of residential and building project; and production and manufacture of aerospace components, precision machining for components and semiconductor components. Chung-Hsin Electric and Machinery Manufacturing Corp. was founded in 1956 and is based in Taoyuan City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW1519": {
+      "symbol": "1519.TW",
+      "name": "Fortune Electric Co., Ltd.",
+      "summary": "Fortune Electric Co., Ltd., together with its subsidiaries, manufactures, processes, and trades transformers, distribution panels, low voltage switches, and substation equipment in Taiwan and internationally. The company offers metal-clad switchgears, gas insulated switches, switchgear panels, motor control centers, and transmission and distribution apparatus, as well as power, distribution, cast resin, and amorphous metal core transformers. It also engages in trade, investment holding, and agents businesses; planning, construction, and operation of electric vehicle charging stations; research, development, and sale of electric vehicle charging-related equipment/systems/technology; and import and export of various commodities and technologies. The company was incorporated in 1969 and is headquartered in Taoyuan City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW1560": {
+      "symbol": "1560.TW",
+      "name": "Kinik Company",
+      "summary": "Kinik Company produces and sells various abrasives, cutting tools, and reclaimed wafers in Taiwan and internationally. It offers conventional grinding wheels, diamond/CBN grinding wheels, DLC coatings, reclaimed wafers, porous ceramic chuck tables, CMP diamond disks, ultra precision machining tools, dicing blades, diamond rollers, wafer grinding wheels, diamond and CBN honey comb wheels, and anti-slip type vacuum chucks. The company was founded in 1953 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Tools & Accessories",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW1590": {
+      "symbol": "1590.TW",
+      "name": "Airtac International Group",
+      "summary": "Airtac International Group manufactures and sells pneumatic control components in Taiwan and internationally. The company offers preparation units and control components comprising solenoid, pneumatic and flow control, ordinary coils, and other valves. It also provides actuators, such as standard, mini, compact, slide table, guided, rodless magnetic, clamp, free mount, and rotary table cylinders; air grippers; GA series, GP series, pressure switch, vacuum components, and other series; and cylinder accessories. In addition, the company offers fitting and tubbing accessories, including shock absorbers, stainless steel one-touch fittings, flame resistant tubes, PU tube, and pneumatic indicators, as well as linear guide products. Its products are used in automotive, machinery manufacturing, metallurgy, electronics, rail transit, environmental protection, lighting, textiles, ceramics, medical equipment, food, packaging, and automated industrial sectors. Airtac International Group was founded in 1988 and is headquartered in Taipei, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2049": {
+      "symbol": "2049.TW",
+      "name": "Hiwin Technologies Corporation",
+      "summary": "Hiwin Technologies Corporation manufactures and sells motion control and systematic technology products in Taiwan, China, Germany, the United States, Japan, and internationally. The company operates through Linear Guideways, Ballscrews, and Other segments. It offers ballscrews, Ball Spline, linear guideways, bearings, DATORKER strain wave gear, end effectors, torque motor rotary tables, and semiconductor subsystem, as well as single and multi-axis robots; and medical robots and equipment. The company also provides ball screws, linear guideways, industrial robots, aerospace automation equipment parts, computer numerical control (CNC) milling machines, and medical equipment. In addition, it engages in the research, development, design, manufacture, and sale of solar cells, electronic components, electric power supplies, electric transmission, and power distribution machinery products, as well as gear cutting tools and machinery; design, integrated application, research, development, manufacture, and sale of thread forming machinery; and manufacture and sale of aerospace parts. The company offers its products under the HIWIN brand name. Hiwin Technologies Corporation was incorporated in 1989 and is headquartered in Taichung, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Tools & Accessories",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2059": {
+      "symbol": "2059.TW",
+      "name": "King Slide Works Co., Ltd.",
+      "summary": "King Slide Works Co., Ltd., together with its subsidiaries, researches, designs, manufactures, distributes, and sells rail kits for cloud servers, network communications, kitchen ware, and consumer electronics in Taiwan, the United States, China, and internationally. The company offers ultra-thin server slide rail kits, electronic device rail kits, and cable management arm for cloud computing data centers, as well as engages in international investment activities. It also provides kitchen and furniture solutions, including metal and wood drawer systems, inner drawers and pull-out systems, undermount slides, ball bearing slides, epoxy coated roller slides, hinges for home furniture, kitchen cabinets and workspace, and consumer electronics solutions. In addition, the company is involved in trading and wholesaling rail kits, slides, and accessories; manufacturing and selling mechanical rail kit products integrated into servers and network-related equipment; and manufacturing and selling rail kits for servers, network communications, data centers, and related peripheral components. Its products are used in home appliances, motorhomes and RVs, office equipment, medical storage, and other applications. King Slide Works Co., Ltd. was incorporated in 1986 and is headquartered in Kaohsiung, Taiwan.",
+      "sector": "Consumer Cyclical",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2301": {
+      "symbol": "2301.TW",
+      "name": "Lite-On Technology Corporation",
+      "summary": "Lite-On Technology Corporation, together with its subsidiaries, engages in the research, design, manufacturing, and sale of optoelectronic semiconductor components and power managements modules in Asia, the Americas, Europe, and internationally. The company offers optoelectronic semiconductors, including visible, UV, and automotive LEDs, couplers, optical sensors, and IR emitters and detectors; energy management solutions, such as data center power supply systems, cloud server chassis, power supply modules, and magnetic components; and consumer electronics comprising 3C accessories and PC power supply, as well as networking adapter. It also provides networking and surveillance products, which include video surveillance products, access control and alarms, networking solutions, and server and motherboard; automotive electronics, such as ADAS, AC charging, and DC charging solutions; and roadway intellimation system comprising roadway lighting intellimation products, intelligent traffic signal systems, and AI predictive maintenance solutions. In addition, the company offers green data center, smart life, clean mobility, and infrastructure solutions. Further, it is involved in general investment; market information collection and after-sales service; manufacturing and sales of mobile phone molds and assembly lines; CD player sale; software development and applications; IT consultation; and solar system engineering. The company was founded in 1975 and is headquartered in Taipei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2308": {
+      "symbol": "2308.TW",
+      "name": "Delta Electronics, Inc.",
+      "summary": "Delta Electronics, Inc., together with its subsidiaries, provides power and thermal management solutions in Mainland China, the United States, Taiwan, Thailand, and internationally. It operates through Power Electronics, Mobility, Automation, and Infrastructure segments. The company offers inductors, transformer components, networking products, EMI filters, solenoids, current sensing resistors, power modules, and stamping and over molding components; embedded power, adapters, industrial and medical power solutions, industrial battery charging, USB socket outlets, and hydrogen power and high voltage power solutions; and DC brushless and EC fans and blowers, automotive thermal and thermal management solutions, liquid cooling and climate thermal solutions, and indoor air quality products. It also provides EV power electronics, traction, and X-in-1 products. In addition, the company offers drive and power quality, motion, control, robot, and manufacturing equipment, as well as field devices, software, and industrial PCs; and building management and control, indoor air quality, LED lighting, smart surveillance, healthy lighting, and building solutions. Further, it provides telecom power systems, networking and rural electrification system, UPS and data center infrastructure, and power quality products; EV charging, energy storage systems, photovoltaic inverters, energy management, wind power converters, solid state transformers, medium voltage drives, high voltage power, automatic test equipment, and hydrogen energy and fuel cell solutions; and business and education multimedia and high-performance projectors, collaboration and signage solutions, and smart campus solutions, as well as DLP, LED, and LCD video walls. Additionally, it provides consulting services for building management and control solutions. Delta Electronics, Inc. was founded in 1971 and is headquartered in Taipei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2303": {
+      "symbol": "2303.TW",
+      "name": "United Microelectronics Corporation",
+      "summary": "United Microelectronics Corporation operates as a semiconductor wafer foundry in Taiwan, China, Hong Kong, Japan, Korea, the United States, Europe, and internationally. It manufactures and sells integrated circuits. The company offers circuit design; mask tooling; wafer fabrication; and assembly and testing services for communication devices, consumer electronics, computer, and other applications. It also provides venture capital and marketing support; consulting and planning; energy technical; solar engineering integrated design; research and development services; and insurance services. United Microelectronics Corporation was incorporated in 1980 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2313": {
+      "symbol": "2313.TW",
+      "name": "Compeq Manufacturing Co., Ltd.",
+      "summary": "Compeq Manufacturing Co., Ltd., together with its subsidiaries, manufactures and sells printed circuit boards for computers in Taiwan, the United States, rest of Asia, Europe, and internationally. The company offers high layer, rigid-flex, flexible, regular multi-layered, and high-density interconnection printed circuit boards. It also provides surface mount technology devices; and module assembly services. In addition, the company is involved in investment; trading; electronic manufacturing; outsourcing processing; plant lease; property management; and equipment leasing activities, as well as provision of electronic technology management and technical consulting services. Compeq Manufacturing Co., Ltd. was founded in 1973 and is headquartered in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2317": {
+      "symbol": "2317.TW",
+      "name": "Hon Hai Precision Industry Co., Ltd.",
+      "summary": "Hon Hai Precision Industry Co., Ltd. provides electronic manufacturing services. The company offers consumer electronics, including smartphones, feature phones, wearable devices, televisions, game consoles, set-top boxes, and audio systems; cloud and networking products comprising routers, servers, edge computing, data centers, and satellite communications and other related equipment; electronic computing equipment, such as desktop computers, laptops, tablets, multi-function devices and printers; and connectors, precision optical components, lenses, electronic components, semiconductor products, and automotive electronic parts. It operates in the United States, Singapore, Ireland, Mainland China, Japan, India, Taiwan, Vietnam, Mexico, and internationally. The company was founded in 1974 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2327": {
+      "symbol": "2327.TW",
+      "name": "Yageo Corporation",
+      "summary": "Yageo Corporation, together with its subsidiaries, manufactures and sells electronic components in China, Europe, the United States, and the rest of Asia. It offers antennas, radio frequency, and microwave; capacitors; circuit protection; custom products; electromechanical devices; EMC; engineering kits; inductors; piezoelectric devices; power supplies; resistors; semiconductors; sensors; signal magnetics and connectors; and transformers. The company's products are used for various applications, including aerospace, defense, and medical; automotive; computing and enterprise systems; consumer; industrial; and telecommunications. Yageo Corporation was founded in 1977 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2330": {
+      "symbol": "2330.TW",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "summary": "Taiwan Semiconductor Manufacturing Company Limited, together with its subsidiaries, manufactures, packages, tests, and sells integrated circuits and other semiconductor devices in Taiwan, China, Europe, the Middle East, Africa, Japan, the United States, and internationally. It provides various wafer fabrication processes, such as processes to manufacture complementary metal- oxide-semiconductor (CMOS) logic, mixed-signal, radio frequency, embedded memory, bipolar CMOS mixed-signal, and others. The company also involved in providing customer and engineering support services; manufacturing of masks; investment in technology start-up companies; research, designing, developing, manufacturing, packaging, testing, and sale of color filters; and investment activities. Its products are used in high performance computing, smartphones, Internet of things, automotive, and digital consumer electronics. Taiwan Semiconductor Manufacturing Company Limited was incorporated in 1987 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2337": {
+      "symbol": "2337.TW",
+      "name": "Macronix International Co., Ltd.",
+      "summary": "Macronix International Co., Ltd. engages in the design, manufacture, and supply of integrated circuits and memory chips. The company provides a range of NOR flash, NAND flash, e MMC, and read-only memory products. It also offers wafer foundry services to IC design and IDM companies; ArmorFlash, a security solution for a range of identification, authentication, and encryption requirements; and LybraFlash, a solution for gigabit flash memory. In addition, the company develops integrated circuit systems and software; and provides after-sales services. It serves the consumer, communications, computing, industrial, automotive, networking, IOT, and other markets. It sells its products in Taiwan, Japan, the United States, Europe, and rest of Asia. The company was founded in 1989 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2344": {
+      "symbol": "2344.TW",
+      "name": "Winbond Electronics Corporation",
+      "summary": "Winbond Electronics Corporation engages in the research, development, production and sales of integrated circuits, various semiconductor components and other system products. The company offers customized memory solutions, including CUBE(3DCaaS), pseudo static random access memory, DDR/SDR, LPDDR/LPSDR, Known Good Die wafer products; electrical simulation, wafer-level speed testing, and other services; redistribution layers; and failure analysis services, as well as low power SDR, DDR, DDR2, DDR3, and DDR4/4X SDRAM products. It also provides specialty DRAM products, such as SDRAM, DDR SDRAM, DDR2 SDRAM, DDR3 SDRAM, and DDR4 SDRAM products; code storage flash memory products comprising serial NOR, 1.2V serial NOR, octal NOR, QspiNAND, OctalNAND, SLC NAND, NAND based MCP, SpiStack, and authentication flash products; TrustME secure flash memory, such as secure flash memory, and secure memory elements; and logic IC products. In addition, the company is involved in the research, development, design, sale, and after-sales service of semiconductors and 6-inch wafer fab production, testing, and foundry services; E-commerce and investment business; semiconductor component design and marketing services; smart factory solutions; semiconductor-related hardware and software system integration design; design, research, testing, sales, and service of integrated circuits and auxiliary equipment; develops automotive and industrial control software and services; customer service and technical support; computer software services; computers and peripherals, and software wholesale; repair, testing, and related technical consulting services; and rental of semiconductor-related equipment. It markets its products through distributors and online. The company's products are used in computer, communication, consumer, automotive, and industrial electronics. Winbond Electronics Corporation was incorporated in 1987 and is headquartered in Taichung, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2345": {
+      "symbol": "2345.TW",
+      "name": "Accton Technology Corporation",
+      "summary": "Accton Technology Corporation develops, manufactures, and sells computer network systems and wireless land area network (LAN) hardware and software products in Taiwan and internationally. The company offers 800G AI/ML fabrics, fiber optical transceivers, hyper network appliances, and edge servers, as well as data centers, metro ethernet, telecommunication networks, school/enterprise networks, and software-defined wide area network. It also provides data center switches, open packet transponders, cloud service appliances, and ethernet BOF; edge-computing; wired and wireless network solutions; carrier access platforms and disaggregated open solutions; and IoT integration solutions. In addition, the company engages in the production and sale of network switches; design, research, development, manufacture, and sale of switching hubs; and provision of information software and information technology services, as well as e-commerce apps, and advertising services. Further, it offers network products; and technical consulting and engineering design services. Additionally, the company provides data center networks, edge computing, cloud networks, carrier access, and IoT integration solutions. Accton Technology Corporation was incorporated in 1988 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2351": {
+      "symbol": "2351.TW",
+      "name": "SDI Corporation",
+      "summary": "SDI Corporation, together with its subsidiaries, manufactures and sells semiconductor lead frames, LED lead frames, stationery and office products, and high precision dies in Taiwan, China, Japan, Malaysia, and internationally. The company engages in the smelting and rolling of metal strips; manufacturing and processing of electronic components and molds; and international trade business. SDI Corporation was founded in 1953 and is headquartered in Changhua, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2357": {
+      "symbol": "2357.TW",
+      "name": "ASUSTeK Computer Inc.",
+      "summary": "ASUSTeK Computer Inc. researches and develops, designs, manufactures, sells, and repairs 3C information products in Taiwan, China, Singapore, Europe, the United States, and internationally. The company provides phone and accessories; laptops for home, work, creators, students, gaming, and accessories; monitors, projectors, all-in-one PCs, tower PCs, gaming tower PCs, NUCs, mini-PCs, and accessories; and motherboards, graphics cards, cases, cooling, power supply units, sound cards, optical drives, data storage, and external graphics docks. It offers networking/IoT/ servers, such as Wifi 7, 6, and routers, whole home mesh Wifi system, and business network solutions. In addition, the company provides wired networking, intelligent robots, AloT and industrial solutions, servers, and smart home; accessories, which include keyboards, mice and mouse pads, headsets and audio, streaming kits, apparel bags and gear, cases and protection, adapters and chargers, docks dongles and cable, power banks, controllers, and gimbal. Further, it offers Internet information services; maintenance and operating services for information hardware; information technology services; communication products; and leases real estate property. Additionally, the company provides ink-jet print heads and digital image output technology, high-speed analog circuits, industrial and medical computers, interface cards, and medical robots; invests in computer peripheral, Internet service, and automotive electronics businesses; and research, develops, sells, and consults information system software; provides marketing support and repair services for medical computers and peripherals. ASUSTeK Computer Inc. was founded in 1989 and is headquartered in Taipei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2360": {
+      "symbol": "2360.TW",
+      "name": "Chroma ATE Inc.",
+      "summary": "Chroma ATE Inc. designs, assembles, manufactures, sells, repairs, and maintains software/hardware for computers and peripherals, computerized automatic test systems, electronic test instruments, signal generators, power supplies, and telecom power supplies in Taiwan, China, the United States, and internationally. The company provides test solutions, such as semiconductor/IC test; automated optical inspection; power electronics; server power and backup battery unit; electric vehicle; battery test and automation; energy storage and power conversion test; passive component; electrical safety; video and color; flat panel display; photonics; LED and driver; photovoltaic; semiconductor/IC; and general-purpose test solutions; battery; photovoltaic/inverter; and turnkey test and automation solutions; automated optical inspection; PXI test and measurement; intelligent manufacturing system, and other solutions. The company also offers warranty, calibration and repair, instrument and test system calibration and repair, customer-site installation, product upgrade, training, technical support, and product support services, as well as replacement parts. Its products are used in information technology, communication, aerospace, and defense industries, as well as hybrid automobiles, LED luminance devices, and solar and fuel cells. The company was incorporated in 1984 and is headquartered in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Scientific & Technical Instruments",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2376": {
+      "symbol": "2376.TW",
+      "name": "Giga-Byte Technology Co., Ltd.",
+      "summary": "Giga-Byte Technology Co., Ltd., together with its subsidiaries, manufactures, processes, and trades in computer hardware peripherals and components in Taiwan, Europe, America, Canada, Singapore, Japan, China, Malaysia, and internationally. It operates through Brand Business Group; and Other Business Group segments. The company offers motherboards, graphic cards, laptops, monitors, storage devices, and desktop. It also provides PC peripherals, such as keyboards, mouse products, headsets, and gaming chairs; and PC components comprising PC cases, CPU coolers, power supply products, PC accessory, and memory and SSD products, as well as DIY kits. In addition, the company offers server and workstation motherboards; AI and rack server; workstation products; direct liquid and immersion cooling; open compute project; add-in cards and expansion module; and e-mobility and embedded computing solutions. Further, it provides product solutions in storage, cloud infrastructure, cooling, software, AIoT, SMB and workstation, edge, high-performance, and AI computing, as well as server and rack-mounted computing products and integrated data centers. Giga-Byte Technology Co., Ltd. was founded in 1986 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2368": {
+      "symbol": "2368.TW",
+      "name": "Gold Circuit Electronics Ltd.",
+      "summary": "Gold Circuit Electronics Ltd. engages in the manufacturing, processing, and trading of electronic equipment products, such as printed circuit boards in Taiwan. Its products are used for AI/ Advanced Server, networking, notebook, handset products, automotive, and IC tests products. The company was founded in 1981 and is headquartered in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2377": {
+      "symbol": "2377.TW",
+      "name": "Micro-Star International Co., Ltd.",
+      "summary": "Micro-Star International Co., Ltd. engages in the manufacture and sale of motherboards, interface cards, notebook computers, and other electronic products in Asia, Europe, the United States, and internationally. Its products portfolio includes laptops, handhelds, monitors and desktop computers, graphics cards, routers, motherboards and PC peripherals, gaming peripherals, network equipment, servers, automotive and autonomous mobile robots, and industrial PC and tablets. The company is also involved in the manufacture, sale, support, after-sales service, and logistics of computers and electronic components. In addition, it provides AIoT solutions. Micro-Star International Co., Ltd. was incorporated in 1986 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2379": {
+      "symbol": "2379.TW",
+      "name": "Realtek Semiconductor Corp.",
+      "summary": "Realtek Semiconductor Corp., together with its subsidiaries, engages in the research, development, production, and sale of various integrated circuits and related application software in Taiwan, Asia, and internationally. It provides communications network ICs, including broadband access controllers, gateway controllers, digital home centers, gigabit ethernet, switch controllers, wireless LAN ICs, and DTV demodulators, as well as Bluetooth, GNSS, and Internet of Things products. The company also offers connected media ICs, such as high speed bridge controllers, network interface controllers, and single-port PHYceiver. In addition, it offers computer peripheral ICs, comprising PC audio codecs, consumer audio codecs, class-D audio amplifiers, PC camera controllers; multimedia ICs; and smart interconnect ICs, including card reader solutions, type-C PD controllers, and USB hubs. Further, it engages in the manufacture and installation of computer equipment; wholesale, retail, and related service of electronic materials and information/software; and provision of information and technical support services, as well as operates as an investment holding company. Realtek Semiconductor Corp. was incorporated in 1987 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2382": {
+      "symbol": "2382.TW",
+      "name": "Quanta Computer Inc.",
+      "summary": "Quanta Computer Inc. manufactures, processes, and sells laptop computers and cloud-computing server related products in the United States, Mainland China, the Netherlands, Japan, and internationally. The company provides notebook PCs; servers, storage devices, and network switches; cameras, including automotive cameras, camera module, and AI dash-camera and AI body-worn camera; and smart healthcare solutions. It also offers mobile computing solutions for the wireless communication of notebook PCs, wireless local area network peripherals, wireless multimedia devices, and wireless information home appliances; and cloud computing and enterprise network solutions for private or hybrid clouds, as well as home entertainment and smart home solutions, including home media centers; smart touch input systems for laptops, desktops, and thin client terminals; smart IoT controllers and sensors; smart speakers; and private servers for home. In addition, the company provides IoT solutions; telco infrastructures and solutions; smart manufacturing and factory solutions; and AR/VR display and smart glasses solutions. The company was incorporated in 1988 and is based in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2383": {
+      "symbol": "2383.TW",
+      "name": "Elite Material Co., Ltd.",
+      "summary": "Elite Material Co., Ltd. engages in the manufacturing and sales of copper clad laminates, electronic-industrial specialty chemical and raw materials, and electronic components in Taiwan, China, and internationally. The company also offers printed circuit boards, prepreg, and adhesive sheets. Its products are used in various industries, including mobile devices, infrastructure, automotives, aerospace, military, industrial, and autonomous driving applications. The company was incorporated in 1992 and is headquartered in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2395": {
+      "symbol": "2395.TW",
+      "name": "Advantech Co., Ltd.",
+      "summary": "Advantech Co., Ltd. engages in the research and development, design, manufacturing, and marketing of embedded computing boards, industrial automation products, and applied and industrial computers. The company operates through Intelligent Systems; Embedded Design-In; IoT Automation; Intelligent Service; and Advantech Service Plus and Others segments. It offers AIOT software, distribution, and services, application focus embedded, arm-based computing platforms, computer on modules, digital signage players, edge AI and intelligence solutions, embedded PCs and single board computers, fan less embedded computers, gaming platform solutions, industrial display systems, industrial flash and memory, industrial motherboards and wireless solutions, and wireless e-paper display solutions. The company also provides automation controllers and I/O, certified solutions, embedded automation computers, gateways and remote terminal units, human machine interfaces, certified, class I division 2 and ATEX, panel PCs, power and energy, and remote I/O and wireless sensing modules, as well as web access software and edge solution ready platform. In addition, it offers data acquisition, box and modular IPC, transportation systems, and rackmount IPC; and industrial computer peripherals, GPU, and motherboards and slot SBC. Further, the company provides intelligent connectivity solutions; cloud, networking, and servers solutions; intelligent healthcare, mobile solutions, logistics, city services, and retail solutions; and industrial mounting. It also offers, edge computing and WISE-edge, embedded solutions and design-in, energy and utilities, iFactory, iHealthcare, industrial and edge servers, industrial equipment builder, intelligent transport, iRetail and iCity services; and design and manufacturing, industrial display, gaming, iLogistics, video solutions, and IoT edge intelligence solutions and services. Advantech Co., Ltd. was incorporated in 1981 and is headquartered in Taipei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2404": {
+      "symbol": "2404.TW",
+      "name": "United Integrated Services Co., Ltd.",
+      "summary": "United Integrated Services Co., Ltd. provides engineering construction services in Taiwan, Mainland China, Singapore, the United states, and Japan. It operates through Engineering and Integration Department; Maintenance and Design Department; and Other segments. The company engages in the undertaking of various water supply engineering, instrumentation engineering, and refrigeration and air conditioning engineering; installation of clean rooms and related transactions; manufacturing of supplies; designing and installation of traffic control systems; and factory computer monitoring systems. It also offers traffic surveillance and control system engineering building services; and technical advisory services for planning and designing projects. In addition, the company provides engineering environment monitoring systems; and electrical and mechanical engineering contracts for transmission and distribution of electric power. Further, the company designs, installs, maintains, and trades in various equipment for computerized automatic engineering monitoring systems; and imports restrained telecom radio frequency equipment. Additionally, the company is involved in the contracting of computer and communication system integration projects, as well as manufacturing and trading of related software and hardware. United Integrated Services Co., Ltd. was incorporated in 1982 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2408": {
+      "symbol": "2408.TW",
+      "name": "Nanya Technology Corporation",
+      "summary": "Nanya Technology Corporation research, develops, manufactures, and sells semiconductor products in Taiwan, Japan, Malaysia, China, the United States, Thailand, Germany, Singapore, Poland and internationally. It offers standard dynamic random-access memory (DRAM), low power DRAM, MCP and eMCP, and KGD products, as well as modules; and other memory products and Elixir brands. The company engages in the import and export of its machinery, equipment, and raw materials. Its products have applications in home and entertainment, office and enterprise, mobile and portable, industrial, and automotive. Nanya Technology Corporation was incorporated in 1995 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2412": {
+      "symbol": "2412.TW",
+      "name": "Chunghwa Telecom Co., Ltd.",
+      "summary": "Chunghwa Telecom Co., Ltd., together with its subsidiaries, operates as an integrated telecommunications service provider in Taiwan and internationally. The company operates through Consumer Business, Enterprise Business, International Business, and Others segments. Its services primarily include mobile, fixed-line, information and communication technology (ICT), and sales and other services. The company provides mobile services, including prepaid and postpaid plans; fixed-line services, such as fixed broadband and voice, leased line, video, and satellite services; and fixed broadband services comprising broadband access, data communication, and Wi-Fi services. It also offers ICT services consisting of cloud, content delivery network, advanced networks defense system, and web application firewall. In addition, it distributes and sells mobile handsets and wearable devices on its mobile network to customers through its directly owned stores, online store, and third-party retailers, as well as offers interconnection services. The company was incorporated in 1996 and is headquartered in Taipei, Taiwan.",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2441": {
+      "symbol": "2441.TW",
+      "name": "Greatek Electronics Inc.",
+      "summary": "Greatek Electronics Inc., together with its subsidiary, provides semiconductor assembly and testing services in Taiwan, rest of Asia, the United States, Europe, and Africa. The company offers wafer and final testing services, including testing program development, platform conversion, devices correlation, engineering, test peripheral equipment, and spare parts development service for logic, mix mode, and analog devices; IC semiconductor package assembly services; final test services; and package design services for electrical and thermal characterization. It also provides leadframe based package services, including wafer bumping; wafer level CSP; ball-grid arrays/LGA; flip chip chip scale packages; quad flat no-leads (QFN)/DFN; flip chip QFN/DFN/SOP/TSOT; P-DIP; transistor outline and small outline transistor; small-outline package/shrink small-outline package/thin shrink small-outline package; small outline j-leaded and plastic leaded chip carrier; and quad flat package (QFP)/low profile QFP/thin QFP. In addition, the company offers metal plating on semiconductor lead frames. The company was formerly known as He Teh Integrated Circuit Co. Ltd. in October 1995. Greatek Electronics Inc. was founded in 1972 and is based in Miaoli, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2449": {
+      "symbol": "2449.TW",
+      "name": "King Yuan Electronics Co., Ltd.",
+      "summary": "King Yuan Electronics Co., Ltd. designs, manufactures, sells, tests, and assembles integrated circuits. It offers test services, such as wafer probing; final test; burn-in; system level testing; and back end service. It also provides Technology Innovation, including wafer level chip scale package (WLCSP); high power burn in; and KYEC Bio Chip Testing, as well as equipment development, spare parts and test program, automation control, and vertical card. It also provides engineering services for Memory applications; consumer electronics testing solutions for games, digital audio, digital TV, set top box, and others; logic and mixed signal IC testing services; liquid crystal display driver test solutions for TFT LCD, Gate Drivers, STN segment/common drivers, LCD controllers/drivers and OLED controllers/drivers; and pupil module solution, CSP FT test solution, high parallelism test solution for area image sensor, low temperature test solution, and light sensor test solutions. In addition, the company offers radio system integration, feasibility studies for cost and performance, circuit design and characterization, evaluation board design service, process definition services; testing, diagnosis, verification, characterization, and debugging services for SOC devices, such as ASIC and ASSP; micro-electro mechanical systems and biochip testing solutions; and technology support services. The company was incorporated in 1987 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2454": {
+      "symbol": "2454.TW",
+      "name": "MediaTek Inc.",
+      "summary": "MediaTek Inc. engages in the research, development, production, manufacture, and marketing of multimedia integrated circuits (ICs) in Taiwan, rest of Asia, and internationally. The company offers multimedia, computer peripherals oriented, consumer-oriented, and other ICs for various applications. It also offers design, test runs, maintenance and repair, and technological consultation services for software and hardware solutions; and sale and delegation patents and circuit layout rights for its ICs products. In addition, the company provides research, marketing, and technical services; intellectual property right management services; and general investing services. The company was incorporated in 1997 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2451": {
+      "symbol": "2451.TW",
+      "name": "Transcend Information, Inc.",
+      "summary": "Transcend Information, Inc., together with its subsidiaries, engages in manufacturing, processing, and trading of computer software and hardware, peripheral equipment, and computer parts in Taiwan, rest of Asia, the United States, Europe, and internationally. The company offers internal and portable solid-state drive, external drive, dashcam, secret recorder, memory card, flash drive, and memory module, as well as care readers, DVD burners, and accessories. It also provides customized services comprising customized screen-printed USB flash drives and preloaded content services. In addition, the company offers embedded solutions, including enterprise grade and industrial SSD solutions, industrial memory cards and modules, industrial flash solutions, and embedded lens module used for gambling entertainment, network communication, smart internet of things, security and defense, automation, embedded, transportation, and medical care applications. Further, it provides embedded software solutions. Transcend Information, Inc. was incorporated in 1989 and is headquartered in Taipei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2455": {
+      "symbol": "2455.TW",
+      "name": "Visual Photonics Epitaxy Co., Ltd.",
+      "summary": "Visual Photonics Epitaxy Co., Ltd. engages in the research and development, manufacture, and sale of microelectronic products in Taiwan, the United States, and internationally. The company offers microelectronics epi wafers, including gallium arsenide (GaAs) heterojunction bipolar transistor (HBT), low turn-on voltage HBT, high voltage HBT, InP HBT and HEMT, GaAs pseudomorphic high electron mobility transistor (PHEMT) and BiHEMT, and GaN epi wafers. It also provides optoelectronics epi wafers, such as GaAs PD, InGaAs PD and APD, Zn diffusion ready InGaAs PD and APD, long wavelength InGaAs PD, F-P and DFB LD, and VCSEL epi wafers; and solar cell epi wafers, as well as customerized epi foundry services. Visual Photonics Epitaxy Co., Ltd. was incorporated in 1996 and is based in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2458": {
+      "symbol": "2458.TW",
+      "name": "ELAN Microelectronics Corporation",
+      "summary": "ELAN Microelectronics Corporation operates as a semiconductor company in Taiwan, Mainland China, Hong Kong, the United States, Europe, and internationally. It offers embedded microcontrollers and systems, digital signal processors, computer peripheral control integrated circuits and systems, fingerprint recognition devices, and credit card applications. The company also provides biometric solutions, including biometric smart cards, pad and button modules, key cap fingerprint modules, biometric USB dongles, under display fingerprint sensors, and fingerprint sensors with coatings/cover glasses, as well as facial recognition solutions. In addition, it offers microcontrollers for general purpose, touch key, PC peripheral, calculator, and telecommunication applications; pen and touch input solutions for laptops and mobiles; and pointstick and touchpad solutions. Further, the company offers Discrete MultiTone chip and client chip; PON to OLT and ONU chip and GHN chip, a new generation home network; and digital image-process chips, webcam and servers, electronic devices, computer and its related products, optical instruments, and driver assistance systems, as well as technical support and information and after sales services. Additionally, it is involved in the wholesale and installation of automotive electronic and other electronic devices, data storage products, and process equipment. The company was incorporated in 1994 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2464": {
+      "symbol": "2464.TW",
+      "name": "Mirle Automation Corporation",
+      "summary": "Mirle Automation Corporation provides automation equipment systems and components in Taiwan, China, and internationally. It operates through Intelligent Automation System and Equipment; and Digital Technology Products and Industrial Controllers segments. The company offers automatic material handling systems, including clean room stocker, rail guided vehicle, auto guide vehicle, autonomous mobile robot, overhead hoist transport, and equipment front end module; automatic storage retrieval system, such as shuttle cart, intelligent logistics locker, pallet type, and intelligent sortation system; intelligent control systems, including Mirle IPC, DC servo drive, and IoT; special purpose equipment consisting of high precision coating and laminating system, optical glass molding press, and vehicle curved glass panel laminating process equipment; and intelligent immersion systems comprising information security, predictive maintenance, big data analysis and AI image platform, warehouse and content management systems, and B2B supply chain e-invoice solutions. It also provides semiconductor intelligent factory automation solution, such as foup and zip stocker, auto guide vehicle, conveyor RGV system, overhead hoist transfer, and lifter; intelligent automation systems comprising FPD transport and vehicle glass panel intelligent production system; intelligent factory logistics solutions; intelligent factory solutions consisting of data security and intelligent factory monitor system; intelligent manufacturing CPS solution, which include material control system, intelligent control system, digital-twins, and war room; banking risk control; and technical analysis services for intelligent factory and logistics automation. In addition, the company is involved in leasing business; developing and sale of software and databases; and construction planning, installation, consulting, and maintenance services. The company was incorporated in 1989 and is based in Hsinchu City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2467": {
+      "symbol": "2467.TW",
+      "name": "C Sun Mfg Ltd.",
+      "summary": "C Sun Mfg Ltd., together with its subsidiaries, provides various processing equipment in Taiwan, China, and internationally. It offers printed circuit board processing equipment, including exposure systems, preheaters, laminators/coaters, Mylar peelers, and other equipment; touch panel processing equipment; semiconductor processing equipment, such as plasma equipment, and peelers and laminators; and equipment for shoes, paintings, and consumables. The company also provides equipment for electronics, liquid crystal displays, textiles, plastics, rubber, printing, chemicals, and aerospace; industrial box and tunnel ovens, UV drying and exposure equipment, automatic equipment, and plasma cleaning equipment; hot air oven; stabilizer oven; and automated priming machine products. It serves customers in industries such as electronics, semiconductors, liquid crystal displays, printed circuit boards, textiles, plastics, rubber, printing, chemicals, and aerospace. The company distributes its products to approximately 20 countries, including Japan, the United States, South Korea, Singapore, Malaysia, Vietnam, Thailand, and India. C Sun Mfg Ltd. was founded in 1966 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2472": {
+      "symbol": "2472.TW",
+      "name": "Lelon Electronics Corp.",
+      "summary": "Lelon Electronics Corp., together with its subsidiaries, develops, manufactures, markets, trades in, and sells electrolytic capacitors internationally. Its electrolytic capacitors include aluminum electrolytic capacitors, such as radial type, SMD, snap-in terminal, screw terminal, and axial; organic conductive polymer capacitors; conductive polymer hybrid capacitors; and flame retardants. The company produces and sells formed aluminum foils and automatic manufacturing equipment. Its products are used in various applications, including automotive electronics, telecommunication, cloud computing, and power electronics. The company was incorporated in 1976 and is headquartered in Taichung, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2474": {
+      "symbol": "2474.TW",
+      "name": "Catcher Technology Co., Ltd.",
+      "summary": "Catcher Technology Co., Ltd., together with its subsidiaries, engages in the manufacture and sale of aluminum and magnesium extrusions, alloy housings, and molds in Taiwan, China, the United States, Singapore, and internationally. Its products include chassis and interior mechanical components; upper case, lower case, keyboard cover, and monitor casings for notebook computers; casings for various server specifications and desktop computers; industrial computer casings and internal parts; and computer accessories, such as plugs and A/V connector casings. The company also produces customized thin and precision-oriented communication application products, including phones and tablet PC products, as well as communication accessories, such as earphones and camera heads. In addition, it manufactures and sells medical devices, which include precision machinery, value added injection molded parts and assemblies, and device assembly services. Further, the company provides ventilation blades, air-power tools, automobiles, TVs, and lightning equipment; manufactures, develops, and sells, various metal products; and engages in international trading, leasing, and investing activities. Catcher Technology Co., Ltd. was founded in 1971 and is headquartered in Tainan City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Metal Fabrication",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2481": {
+      "symbol": "2481.TW",
+      "name": "PANJIT International Inc.",
+      "summary": "PANJIT International Inc. manufactures, processes, assembles, imports, and exports semiconductors in Taiwan, Asia, the Americas, Europe, and internationally. It manufactures and sells wafers, power components, and control modules. The company also engages in the research and development, design, manufacture, and technology consultation of power management ICs, field effect transistors, and fast recovery diodes; and sale of solar electricity. In addition, it offers MOSFET and Schottky products, SiC devices, signal chain and motor control ICs, temperature sensors, IGBTs, diode rectifiers, protection devices, bipolar junction transistors, bridges, and package technology. Its products are used in automotive, power supply, industrial, computing, consumer, and communication applications. The company was incorporated in 1986 and is headquartered in Kaohsiung, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2486": {
+      "symbol": "2486.TW",
+      "name": "I-Chiun Precision Industry Co., Ltd.",
+      "summary": "I-Chiun Precision Industry Co., Ltd. manufactures, processes, and trades machinery and parts, electronic components, electrical components, semiconductor LED lead frames, precision molds, and ceramic circuit boards in Taiwan, China, and internationally. The company offers optoelectronic products, including SMD top and side view, photo coupler, IC leadframe, and power module; and industrial computer case products and components, and precision component products. It also provides head spreader products; TV backlight units; ceramic substrate; and IC lead frame products. In addition, the company is involved in general investment and investment property leasing; investment property leasing activities; manufacturing of other metal products; and manufacturing and trading of direct back-lit module components. I-Chiun Precision Industry Co., Ltd. was incorporated in 1977 and is based in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2492": {
+      "symbol": "2492.TW",
+      "name": "Walsin Technology Corporation",
+      "summary": "Walsin Technology Corporation, together with its subsidiaries, develops, manufactures, and sells passive electronic components in Asia, America, and Europe. It provides chip capacitors, chip resistors, ceramic dielectric powders, and magnetic elements. It also researches, develops, manufactures, and sells integrated electrical protection components, hybrid microwave antenna modules, electric capacitors, thick film printed circuit boards, laminated dielectric filters, and multilayer type microwave communication components and modules; generates solar power electricity; sells photoelectric and sensor devices, and radio frequency devices; and trades in electronic parts. In addition, it offers transformers, coils and magnetic components, computers and peripheral output devices, keypads products, mechanical integrated components, and communication products and components. Further, it provides marketing, warehousing, and commission agency services. The company's products are used in mobile devices, networking, automotive, industrial, power supply, IoT, green energy, PC and peripheral, and lighting applications. Walsin Technology Corporation was incorporated in 1970 and is based in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2603": {
+      "symbol": "2603.TW",
+      "name": "Evergreen Marine Corporation (Taiwan) Ltd.",
+      "summary": "Evergreen Marine Corporation (Taiwan) Ltd., together with its subsidiaries, engages in the shipping carrier and agency, container terminal operations, and commercial port area ship repair businesses in Taiwan, North America, Europe, Asia, and internationally. The company provides cargo loading and discharging, terminal, inland transportation, real estate leasing, security, computer system, terminal logistics, leasing storehouse, management consultancy and self-owned property leasing, and container shipping services; inspections of containers at the custom house; storage, repair, and cleaning for containers; agency services dealing with port formalities; and data processing and information technology consulting services. In addition, it manufactures dry steel containers and parts; distributes containers; invests in transportation-related business, and counter yards and port terminals; and invests in and leases operating machinery and equipment of port terminals. Evergreen Marine Corporation (Taiwan) Ltd. was founded in 1968 and is based in Taipei, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Marine Shipping",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2615": {
+      "symbol": "2615.TW",
+      "name": "Wan Hai Lines Ltd.",
+      "summary": "Wan Hai Lines Ltd. operates as a fully containerized shipping company in Asia, the Middle East, India, Red Sea, the United States, and South America. The company engages in international marine and freight transportation; and management of container. It also provides cargo tracking/terminal info, shipping schedule, documentation, and other services; and storage and logistics, shipping agency, container storage, and information software services. In addition, the company is involved in the sale and rental of vessels and containers; investment business; and management and rental of house, as well as acts as agent for transport affairs. Wan Hai Lines Ltd. was incorporated in 1965 and is based in Taipei, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Marine Shipping",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2881": {
+      "symbol": "2881.TW",
+      "name": "Fubon Financial Holding Co., Ltd.",
+      "summary": "Fubon Financial Holding Co., Ltd. provides various financial products and services in Taiwan, Asia, and internationally. It operates through Banking Business, Property Insurance Business, Life Insurance Business, Securities Business, and Others segments. The company offers insurance products, including property, casualty, life, health, accident, fire, transportation, fishing vessel, car, liability, engineering and nuclear, guarantee and letter of credit, and personal and commercial multiple peril insurance, as well as typhoons, floods, and earthquake insurance products. It also provides retail and consumer, corporate, and investment banking services; brokerage, trading, and underwriting services; and investment and financial management, and foreign exchange. In addition, the company offers deposits and loans, trust, bill finance, and credit card services; invests in foreign financial institutions; and insurance brokerage and agent services. Further, it engages in the venture capital, creditor's rights management, stock and futures brokerage, sales of mutual funds, energy technical services, reinsurance business, asset management, stadium management, and sports activities, as well as invests in and manages real estate properties. Fubon Financial Holding Co., Ltd. was founded in 1961 and is based in Taipei, Taiwan.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Life",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2645": {
+      "symbol": "2645.TW",
+      "name": "Evergreen Aviation Technologies Corporation",
+      "summary": "Evergreen Aviation Technologies Corporation provides aircraft maintenance services to airline partners in Taiwan and internationally. The company's services include ramp maintenance and aircraft on ground (AOG) services. It also offers heavy maintenance visits and base services, aircraft conversion, and component line replacement unit overhauls. Evergreen Aviation Technologies Corporation was founded in 1991 and is based in Taoyuan City, Taiwan. Evergreen Aviation Technologies Corporation operates as a subsidiary of EVA Airways Corp.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2882": {
+      "symbol": "2882.TW",
+      "name": "Cathay Financial Holding Co., Ltd.",
+      "summary": "Cathay Financial Holding Co., Ltd., through its subsidiaries, provides various financial products and services in Taiwan, rest of Asia, and internationally. The company offers consumer banking services, such as deposit and remittance services; and credit services, including secured and unsecured consumer loans, adjustable-rate mortgage, revolving mortgage, and government subsidized mortgage. It also provides corporate banking services, including corporate, sustainable, working capital, capital expenditure, and bill financing; financing for SMEs; loans for six core strategic industries; project lending; syndicated and structured loans; guarantee and acceptance services comprising tender and performance bond, prepayment, loan, promissory note, post-dated check, and medium/long term debt guarantee; trade financing solutions, such as import/export service, supply chain financing, and forfeiting and factoring; and cash management services. In addition, the company offers wealth management solutions; trust business solutions, such as mutual fund and foreign securities service, real estate escrow trust, joint construction trust, urban renewal trust, and real estate inheritance trust; personal trust services, including children's, retirement, insurance, foreign currency money, equity planning, capital contribution, share ownership, dividend transfer, inheritance, and charity trust; corporate trust services, such as employee welfare and escrow trust, and electronic payment service; custodian service for investment trust funds, discretionary investment accounts, foreigners' investments, private equity funds, and investment-linked insurance policies and securities. Further, it offers credit card services; merchant acquiring services; digital banking services through CUBE App and online banking services; and cross-border financial services. The company was founded in 1990 and is headquartered in Taipei, Taiwan.",
+      "sector": "Financial Services",
+      "industry": "Insurance - Life",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW2912": {
+      "symbol": "2912.TW",
+      "name": "President Chain Store Corporation",
+      "summary": "President Chain Store Corporation operates and manages convenience stores, restaurants, drugstores, department stores, supermarkets, and online shopping stores in Taiwan and internationally. It operates through Convenience Stores, Retail Business Group, Logistics Business Group, and Other Operating segments. The company engages in the logistics and storage of publication and e-commerce; trade, enterprise information management and consultancy, and art and cultural exhibition activities; operation of chain restaurants; sports and entertainment business; retail of bread and pastry products; electronic ticketing and electronic payment activities; manufacture of food products; information software business; operation of gas stations; and installment and maintenance of elevators. It is also involved in sale of ice cream, health care products, cosmetics, pharmaceuticals, and daily items; investment and delivery services; logistics, warehousing, and retail businesses; leasing and selling of cleaning instruments; various software and internet- related services; wholesale of merchandises; and trucking services. In addition, the company provides insurance brokerage services; and acts as a collection agent. President Chain Store Corporation was incorporated in 1978 and is based in Taipei, Taiwan.",
+      "sector": "Consumer Defensive",
+      "industry": "Grocery Stores",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3006": {
+      "symbol": "3006.TW",
+      "name": "Elite Semiconductor Microelectronics Technology Inc.",
+      "summary": "Elite Semiconductor Microelectronics Technology Inc. engages in the research, development, production, manufacturing, and sales of dynamic and static random-access memory, flash memory, analog integrated circuit, analog, and digital mixed integrated circuit in Taiwan, Asia, and internationally. It also offers memory IC, mixed signal IC, applications notes, DRAM, flash, MCP, industrial grade, automotive grade, known good die, eMMC, PSRAM, audio, power management, signal conditioner, motor control, RC servo PCBA, voltage regulator, high side switch, photocoupler, H bridge driver, 3 phase gate driver, 3 phase motor control ASIC, and optical sensor. The company was incorporated in 1998 and is based in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3008": {
+      "symbol": "3008.TW",
+      "name": "Largan Precision Co., Ltd.",
+      "summary": "Largan Precision Co., Ltd., together with its subsidiaries, designs, manufactures, and sells precision optical plastic lenses in China, South Korea, Vietnam, Japan, Taiwan, and internationally. The company offers mobile phone lens, voice coil motors, image lens modules, sleep health monitoring products, automotive and contact lenses, silicon carbide crystals, titanium niobate anode materials, and fiber optic lasers and space communications products, as well as video cameras, cameras, monocular and binocular telescopes, fax machines, microscopes, scanners, and lenses for multi-magnification signal readers. It also engages in the manufacturing and processing of image capture devices, image readers, and camcorders; manufacturing of general and optical instruments, as well as battery, wired communication equipment, machinery and equipment, and other communication and transmission equipment; wholesale and retail of medical and photographic equipment; sale of optical components; investment activities; and software development. In addition, the company is involved in health and beauty products; patent licensing and marking services; and import business. It exports its products. The company was incorporated in 1987 and is headquartered in Taichung, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3019": {
+      "symbol": "3019.TW",
+      "name": "Asia Optical Co., Inc.",
+      "summary": "Asia Optical Co., Inc. manufactures, processes, and sells cameras, riflescopes, photocopier lens, scanner lens and optical components in Taiwan and internationally. The company offers optical components, such as injection molded plastic lens, precision glass molding of aspherical lens, precision coating components, glass spherical, and prism/flat glass lens; compact, DSC, projector, and mobile phone lens; AR and MR products; optical communication products; compact lidar module; sports optics, comprising laser range finder and riflescope; and automotive lens. It also provides tooling business division; plastic injection molding; precision stamping division; surface treatment division; pouch case and bags division, as well as crosszone and headphone, non-invasive vascular screening device, DSC, and SMT equipment. In addition, the company offers fiber optics business, imaging products, laser related products, tooling fabrication, IC packaging products, glass materials, plating and surface treatment, and optical products and components. Further, it trades in optical components, image sensors and electronic components, as well as designs, manufactures, and sells mobile consumer electronics products. Additionally, the company offers precision metal and plastic parts for small motors; manufactures and sells DSC, DVD players, DVD pickup heads, and parts; and manufactures, processes, and exports cameras, telescopes, video cameras, copiers, fax machines, optical sights, optical lenses for CD players and related components, and optical lens assemblies. Asia Optical Co., Inc. was founded in 1980 and is headquartered in Taichung, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3017": {
+      "symbol": "3017.TW",
+      "name": "Asia Vital Components Co., Ltd.",
+      "summary": "Asia Vital Components Co., Ltd., together with its subsidiaries, provides total thermal solutions worldwide. It is involved in the manufacturing, installation, processing, sales, and import and export of various electronic components, electronic materials, communication electronic machinery products, auto parts, lighting equipment, and computer peripherals. The company also offers cooling products, such as DC fan, EC fan, thin centrifugal fan and fan array, active heat sink, heat pipe and vapor chamber, far-end radiator, radiator, and compressor radiator; cooling solution for computers, communication equipment, energy, cars, transportation, and other applicable field of industrial cooling; and motherboard and casing products. In addition, it designs and manufactures PC-related system products; development and research of hinge products, as well as its structure, logical, and mechanical build; manufactures web camera modules and cellphone camera modules; and develops touch panel products, including tablet and AIO, industrial products, and LCM+TP. Further, the company provides legal solutions and assists its customers to obtain product recognitions; and systematic assembly, testing, program preload, package, and delivery services. Asia Vital Components Co., Ltd. was incorporated in 1991 and is headquartered in Kaohsiung, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3026": {
+      "symbol": "3026.TW",
+      "name": "Holy Stone Enterprise Co.,Ltd.",
+      "summary": "Holy Stone Enterprise Co.,Ltd. together with its subsidiaries, manufactures and sells of multi-layer ceramic capacitors (MLCC) under the IHHEC brand name in Taiwan, China, the United States, and internationally. The company offers MLCC solutions for PoE circuits, switching power supplies, battery management systems, automotive touchscreen LCD modules, LED lightings, and soft termination MLCCs. It offers Azoteq products, including mouse hall rotation wheel, SAR sensor, and inductive sensing keyboards. In addition, it offers ceramic substrate metallization products; resistors; AMB substrates; and semiconductor products, such as rectified diodes, protection diodes, small signal/Schottky, MOSFET/transistor, timing device, and touch IC controllers, as well as SiC products. Further, the company is involved in the import and export of various integrated circuits, modules and other electronic components; engages in investment business and pharmaceutical research and development; design, develop, manufacture, and retail sale of electronic component, machinery, tools and equipment, and other electronic components; provides biotechnology services; manufactures audio-visual electronic products; and wholesale of pharmaceuticals, western medicine, and medical devices. Additionally, it is involved in wholesale of electrical and precision instruments; computers; machinery and equipment; materials; information equipment; electricity; and electronic materials, as well as patented applications. It serves telecommunication, consumer electronics, automotive electronics, and industrial electronics industries. Holy Stone Enterprise Co.,Ltd. was founded in 1981 and is headquartered in Taipei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3034": {
+      "symbol": "3034.TW",
+      "name": "Novatek Microelectronics Corp.",
+      "summary": "Novatek Microelectronics Corp., a fabless chip design company, designs, develops and sells a range of display driver integrated circuits (IC) and system-on-a-chip (SoC) solutions in Taiwan, Asia, and internationally. The company offers display driver ICs for LCD displays, televisions (TVs), notebook computers, desktop monitors, cameras, tablets, PCs, automotive displays, smartphones, and wearable products. The company also provides SoC solutions, including timing controllers, LCD monitors, TVs, power management, and digital image controllers, as well as CMOS image sensors. In addition, it is involved in the sale, development, testing, and related consulting services for IC system application software. The company was incorporated in 1997 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3036": {
+      "symbol": "3036.TW",
+      "name": "WT Microelectronics Co., Ltd.",
+      "summary": "WT Microelectronics Co., Ltd., together with its subsidiaries, provides electronic component distribution services in the United States, Taiwan, Mainland China, and internationally. The company also provides professional supply chain management; value-added technical support; component application; and product development timeline facilitation services. Its products are used in various fields, such as automotive electronics, industrial and instrument, communication, datacenter and server, consumer electronics, PC and peripherals, and mobile phones. WT Microelectronics Co., Ltd. was founded in 1993 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3037": {
+      "symbol": "3037.TW",
+      "name": "Unimicron Technology Corp.",
+      "summary": "Unimicron Technology Corp., together with its subsidiaries, engages in the manufacturing, processing, and sale of printed circuit boards, electrical equipment, electronic products, and integrated circuit product testing and burn-in systems in Taiwan, China, Asia, the Americas, and internationally. The company offers PCB products, including HDI, ELIC, multi-layer and rigid flex PCBs, and FPC; IC carriers, such as FCCSP, FCBGA, CSP, memory module, and coreless; connectors comprising PCBeam and X-Beam; TP and ECRM, which include glass and film type, as well as EC mirror; and design and sim services, such as EDA profile and thermo-mech solutions. It is also involved in food and beverage business; food manufacturing and sale; trading activities; business management consulting; product inspection; property management; and lighting product manufacturing and sale. The company was incorporated in 1990 and is based in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3035": {
+      "symbol": "3035.TW",
+      "name": "Faraday Technology Corporation",
+      "summary": "Faraday Technology Corporation, together with its subsidiaries, operates as a fabless ASIC/SoC and silicon intellectual property (IP) provider in China, Taiwan, Japan, the United States, and internationally. The company offers ASIC/SoC design services, including architecture exploration, integration express, verification exploration, SoReal! 2.0 virtual platform, and CPU development services; SoC platforms, such as OSKit, FlashKit, HiSpeedKit, and FPGAKit; turnkey solutions comprising process technology, design methodology, fabrication services, package services, test services, failure analysis, and reliability services; and SONOS eFlash platform, UMC 14nm, 28/22nm ASIC solution, FPGA-Go-ASIC service, Al and HPC solitopns, IoT MCU solutions, FinFET ASIC solution, and automotive solutions. It also provides silicon IP products, including analog, digital, IO functional libraries, interface solution, logic core cell libraries, memory compiler, and hot IP solutions. The company was incorporated in 1993 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3042": {
+      "symbol": "3042.TW",
+      "name": "TXC Corporation",
+      "summary": "TXC Corporation engages in the research and development, design, production, and sale of crystal units and oscillator products in Taiwan and internationally. It offers ThermSym OCXO, TCXO, MHz XO, kHZ XO, Controlled Crystal Oscillators (VCXO), Temperature Sensing Crystal (TSX), MHz Crystal, and kHz Crystal. Its products are used in various applications, including telecom and enterprise, automotive, consumer electronics, and mobile communication. TXC Corporation was incorporated in 1983 and is headquartered in Taoyuan city, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3044": {
+      "symbol": "3044.TW",
+      "name": "Tripod Technology Corporation",
+      "summary": "Tripod Technology Corporation processes, manufactures, and sells printed circuit boards and other related components in Taiwan, China, Vietnam, Thailand, South Korea, Malaysia, Mexico, and internationally. The company offers printed circuit boards comprising any layer, double-sided, HDI, heavy copper, multi-layer, high layer count, flexible, rigid-flex, semi-flex, cavity, thermal, embedded ferrite, and hybrid lamination structure. It also engages in the manufacture and wholesale of electronic parts and chemical materials; trading of printed circuit boards and raw materials of electronic parts; manufacture of electronic cash registers; and investment activities. It serves its printed circuit boards for memory modules, thin-film-transistor liquid-crystal display (TFT LCD), hard disk drives, server/workstations, automotive, notebook computer, and handset applications. The company was incorporated in 1991 and is based in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3045": {
+      "symbol": "3045.TW",
+      "name": "Taiwan Mobile Co., Ltd.",
+      "summary": "Taiwan Mobile Co., Ltd. provides telecommunications, broadband, retail, digital, and financial services in Taiwan and internationally. It operates through Telecommunications, Retail, Cable Television and Broadband, and Others segments. The company provides 5g, postpaid, prepaid, e-sim, international call, international roaming, and gaming services. Taiwan Mobile Co., Ltd. was incorporated in 1997 and is based in Taipei, Taiwan.",
+      "sector": "Consumer Cyclical",
+      "industry": "Specialty Retail",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3167": {
+      "symbol": "3167.TW",
+      "name": "Ta Liang Technology Co., Ltd.",
+      "summary": "Ta Liang Technology Co., Ltd. engages in the manufacture and sale of semiconductor inspection products, PCB routing and drilling machines, resin panel cutters, CNC engraving and milling machines, and glass panel processing machines. The company provides PCB routing machines for various applications, including optical modules, mini LED, semiconductor fixtures, mobile phone rigid PCBs, rigid-flex PCBs, and BGA substrates; and PCB drilling machines for AI servo PCB, communication PCB, satellite communication PCB, and vehicle PCB applications. It also offers film plotters; automated edge coating machines; and metrology series, AOI series-wafer level/panel level package, AOI series-die level package, and automation series products. In addition, the company provides FOUP/FOSB automatic optical inspection, wafer micro defects/macro defects automatic optical inspection, and wafer sorter equipment; and UWB positioning/data transmission systems. It has operations in Taiwan, Mainland China, Vietnam, the United States, Thailand, Singapore, South Korea, and internationally. Ta Liang Technology Co., Ltd. was founded in 1969 and is headquartered in Taoyuan City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3090": {
+      "symbol": "3090.TW",
+      "name": "Nichidenbo Corporation",
+      "summary": "Nichidenbo Corporation engages in the distribution of electronic components worldwide. It offers aluminum, ceramic, plastic, film, and solid electrolytic capacitors; surge absorber, high-frequency inductors; metal oxide varistors; and choke coils. The company also provides SP-CAP, OS-CON, DIP EC, SMD PCC, energy polymer CAP, chip resistors, switch button, SMD resistor, tact switch, POS-CAP, HYBRID CAP, SMD EC, and film CAP, metal oxide varistor, battery, relay, and connector products. In addition, it offers power and RF inductor, power transformer, signal magnetic, EMC coils, sensor, actuator, integrated power and vehicle-mounted modules, magnetic material, ceramic, EMS, flexible connection, and components for medical equipment. Nichidenbo Corporation was founded in 1993 and is based in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3189": {
+      "symbol": "3189.TW",
+      "name": "Kinsus Interconnect Technology Corp.",
+      "summary": "Kinsus Interconnect Technology Corp., together with its subsidiaries, engages in the manufacture and sale of electronic products in Taiwan and internationally. It operates through the IC Substrate and Optics segments. The company offers system in package substrate, a carrier substrate that provides a platform for multiple chips or packages or passive components assembly for multi-chip module, multi-chip package, stack die, package in package, and embedded substrates, as well as modules in handset and wearable devices. It also provides plastic ball grid array substrate for microprocessors, controllers, graphic processors, ASIC, and PC chipsets; and flip chip chip scale package substrate for application processors and connectivity applications. In addition, the company offers wire bond chip scale package substrate for application processor, connectivity, power management, and memory applications; radio frequency modules substrate for power amplifier, front end modules, and Wi-Fi connectivity modules applications; and flip chip ball grid array substrate for micro and graphic processors, ASIC, and field programmable gate array applications. Further, it is involved in the manufacture and sale of medical equipment; research, development, manufacture, production, and sale of printed circuit boards, electronic components, and related products, as well as provision of after-sales services; and sale of cosmetic products. Additionally, the company is involved in the wholesale and retail-sale of electronic materials; provision of business operation and management consultation services; production, manufacture, and sale of contact lenses; and investment and trading activities. The company was incorporated in 2000 and is based in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-10-31",
+      "source": "Yahoo Finance via yfinance"
     }
   }
 }

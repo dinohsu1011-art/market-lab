@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "",
+    "call": "Mixed",
+    "detail": "Leadership is thin and risk appetite is undecided.",
+    "summary": "SPY finished the week -0.7%; QQQ -1.1%; high beta versus low beta is +5.7% over one month (73rd percentile); leader breadth is +26.0 points versus the index; 24% of S&P names are above the 50-day; net 52-week highs are -29; Cybersecurity leads themes at +2.9%.",
+    "market": "SPY finished the week -0.7%; QQQ -1.1%.",
+    "winners": "Cybersecurity +2.9%, Semicap +0.6%, Consumer Staples +0.4%.",
+    "laggards": "Behind-the-meter power -5.6%, Connectivity -5.4%, CPU + ASIC -5.3%.",
+    "why": "Risk and participation disagree, leaving a rotation-led rather than directional tape; high beta/low beta +5.7%, leader breadth spread +26.0pt, 24% above the 50-day.",
+    "comparison": "Since 2026-09-25, the Mixed call is unchanged; high beta -2.1pt, leader spread +1.0pt, 50-day breadth -2.0pt. Weekly leadership changed from Connectivity to Cybersecurity.",
+    "tally": "2 of 4 risk gauges and 1 of 6 participation gauges are above their five-year medians",
+    "volume": "VKTX printed 22.43\u00d7 relative volume on a +35.7% day, while MDB printed 12.23\u00d7 relative volume on a -18.5% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

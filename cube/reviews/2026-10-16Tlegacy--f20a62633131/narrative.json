@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold into a mixed tape.",
+    "summary": "SPY finished the week -2.0%; QQQ -5.5%; high beta versus low beta is -7.9% over one month (8th percentile); leader breadth is +8.0 points versus the index; 45% of S&P names are above the 50-day; net 52-week highs are +20; Consumer Staples leads themes at +5.1%.",
+    "market": "SPY finished the week -2.0%; QQQ -5.5%.",
+    "winners": "Consumer Staples +5.1%, Cons. Staples \u00b7 XLP +5.0%, Energy \u00b7 XLE +4.9%.",
+    "laggards": "Neocloud -26.3%, Photonics -24.9%, CDN / Edge -19.7%.",
+    "why": "The pattern points to rotation away from established high-beta leadership, not indiscriminate index selling; high beta/low beta -7.9%, leader breadth spread +8.0pt, 45% above the 50-day.",
+    "comparison": "Since 2026-10-14, the Risk-off call is unchanged; high beta -8.5pt, leader spread -4.3pt, 50-day breadth +10.3pt. Weekly leadership changed from Energy \u00b7 XLE to Consumer Staples.",
+    "tally": "0 of 4 risk gauges and 3 of 6 participation gauges are above their five-year medians",
+    "volume": "WBD printed 20.28\u00d7 relative volume on a +0.0% day, while CRWV printed 5.88\u00d7 relative volume on a +5.9% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

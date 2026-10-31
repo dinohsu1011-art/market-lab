@@ -16,8 +16,11 @@ window.MarketLabReadJSON = async function(response){const bytes=new Uint8Array(a
   const home = page === 'home' || root.dataset.workspace === 'home';
   root.dataset.page = home ? 'themes' : page;
   root.dataset.workspace = home ? 'home' : 'charts';
-  if (page === 'themes' && /^#(?:sectors:|baskets:)/.test(location.hash)) location.replace('market-lab-home.html'+location.hash);
-  if (home && location.hash.includes('|')) location.replace('market-lab-themes.html'+location.hash);
+  // A page that is leaving must not build its header: the body may not exist yet.
+  let leaving = false;
+  const leave = url => { leaving = true; location.replace(url); };
+  if (page === 'themes' && /^#(?:sectors:|baskets:)/.test(location.hash)) leave('market-lab-home.html'+location.hash);
+  if (!leaving && home && location.hash.includes('|')) leave('market-lab-themes.html'+location.hash);
   const colors = () => {
     const css = getComputedStyle(root);
     return Object.fromEntries(['bg','surface','raised','ink','muted','faint','border','accent','up','down']
@@ -74,6 +77,7 @@ window.MarketLabReadJSON = async function(response){const bytes=new Uint8Array(a
   ];
   const navLink = ([id,label,href]) => `<a href="${href}"${page === id ? ' aria-current="page"' : ''}>${label}</a>`;
   function start() {
+    if (leaving || !document.body) return;
     document.body.classList.add('ml-app');
     const header = document.createElement('header');
     header.className = 'ml-header';

@@ -488,8 +488,6 @@ body.ml-app { margin:0; padding-top:var(--ml-header); background:var(--ml-bg); c
 [data-page="studies"] .occ { overflow-x:auto; }
 [data-page="studies"] #regimes { max-height:340px; overflow-y:auto; padding-right:8px; scrollbar-width:thin; }
 [data-page="studies"] .regrow .rv { flex:none; width:58px; font-size:11px; white-space:nowrap; }
-[data-page="drawdowns"] #dist { max-height:480px; overflow:auto; scrollbar-width:thin; }
-[data-page="drawdowns"] #worst { max-height:280px; overflow:auto; scrollbar-width:thin; }
 
 [data-page="baskets"] #grid { display:block; }
 [data-page="baskets"] #grid .card { padding:18px 0 0; overflow-x:auto; }

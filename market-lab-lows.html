@@ -27,6 +27,7 @@
     .lw-macro h2 { font:600 28px/1.12 var(--sans); letter-spacing:-.7px; margin:0; color:var(--ml-ink); }
     .lw-macro p { margin:0; color:var(--ml-muted); font-size:15px; line-height:1.6; }
     .lw-macro .src { margin-top:10px; font-size:12.5px; }
+    .lw-macro .dated { margin-top:12px; font-size:13.5px; line-height:1.5; }
 
     .lw-sec { margin-top:110px; }
     .lw-sec > h2 { font:600 30px/1.1 var(--sans); letter-spacing:-.8px; margin:0 0 8px; }
@@ -40,6 +41,7 @@
     .th .vd { font:700 46px/0.9 var(--sans); letter-spacing:-2px; text-transform:lowercase; color:var(--c); }
     .th h3 { font:600 20px/1.2 var(--sans); letter-spacing:-.3px; margin:14px 0 8px; color:var(--ml-ink); }
     .th .note { color:var(--ml-muted); font-size:13.5px; margin:0; }
+    .th .stale { margin:10px 0 0; font-size:13.5px; font-weight:600; color:var(--ml-ink); }
     .th .tags { margin-top:14px; font-size:12px; color:var(--ml-faint); }
     .th .tags b { color:var(--ml-muted); font-weight:600; }
     .th .body p { margin:0 0 12px; font-size:14px; line-height:1.58; color:var(--ml-ink); }
@@ -122,7 +124,7 @@
       .lw-tools .cnt { margin-left:0; width:100%; }
     }
   </style>
-<link rel="stylesheet" href="market-lab-shell.css?v=20261029-db963087"><script src="market-lab-shell.js?v=20261029-db963087"></script></head>
+<link rel="stylesheet" href="market-lab-shell.css?v=20261030-ed5975d7"><script src="market-lab-shell.js?v=20261030-ed5975d7"></script></head>
 <body>
   <main class="lw-wrap">
     <header class="lw-head">
@@ -186,7 +188,7 @@
     </aside>
   </main>
 
-  <script src="cube/lows-scan.js?v=20261029-db963087"></script>
+  <script src="cube/lows-scan.js?v=20261030-ed5975d7"></script>
   <script>
   (() => {
     'use strict';
@@ -197,37 +199,56 @@
     const S = Object.fromEntries(D.stocks.map(r => [r.t, r]));
     const Q = D.quotes || {};
     const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    const pct = (x, d = 0) => x == null ? '—' : (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(d) + '%';
-    const cls = x => x > 0 ? 'up' : x < 0 ? 'dn' : 'mut';
+    // round first, then pick the sign, so a tiny move reads "0%" rather than "−0%"
+    const pct = (x, d = 0) => { if (x == null) return '—'; const v = +(x * 100).toFixed(d); return (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v).toFixed(d) + '%'; };
+    const cls = x => { const v = +((x || 0) * 100).toFixed(0); return v > 0 ? 'up' : v < 0 ? 'dn' : 'mut'; };
     const fmtD = s => s ? new Date(s + 'T12:00:00').toLocaleDateString(undefined, {month:'short', day:'numeric'}) : '—';
     const fmtY = s => s ? new Date(s + 'T12:00:00').toLocaleDateString(undefined, {month:'short', day:'numeric', year:'numeric'}) : '—';
     const link = s => `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>`;
+    const days = (a, b) => Math.round((new Date(b + 'T12:00:00') - new Date(a + 'T12:00:00')) / 864e5);
+    const age = R.updated ? days(R.updated, D.as_of) : null;   // research age in calendar days
 
     // header
     const nT = D.stocks.filter(r => r.stage === 'turning').length;
     document.getElementById('count').innerHTML =
       `<div><div class="n">${nT}</div><div class="k">turning</div></div>
        <div><div class="n">${D.stocks.length - nT}</div><div class="k">on the low</div></div>
-       <div class="asof">Scan as of ${fmtY(D.as_of)} close · ${D.universe.toLocaleString()} stocks checked${R.updated ? ` · research ${fmtY(R.updated)}` : ''}</div>`;
+       <div class="asof">Scan updated ${fmtY(D.as_of)} close · ${D.universe.toLocaleString()} stocks checked${R.updated ? ` · research updated ${fmtD(R.updated)}${age > 7 ? `, ${age} days earlier` : ''}` : ''}</div>`;
 
     // macro
+    // the research is dated; put today's 10-year from the database beside it
+    const rt = D.rates;
+    const live10 = rt && rt.tnx != null && R.updated
+      ? `Written ${fmtD(R.updated)}.${rt.tnx_then != null ? ` The 10-year was ${rt.tnx_then.toFixed(2)}% then (${fmtD(rt.date_then)} close)` : ''}${rt.tnx_then != null ? ` and ${rt.tnx.toFixed(2)}% on ${fmtD(rt.date)}, ${Math.abs(rt.tnx - rt.tnx_then) < .005 ? 'unchanged' : `${Math.abs(rt.tnx - rt.tnx_then).toFixed(2)} points ${rt.tnx < rt.tnx_then ? 'lower' : 'higher'}`}.` : ` The 10-year closed ${fmtD(rt.date)} at ${rt.tnx.toFixed(2)}%.`}`
+      : '';
     if (R.macro) document.getElementById('macro').innerHTML =
-      `<h2>${esc(R.macro.headline)}</h2><div><p>${esc(R.macro.body)}</p>
+      `<div><h2>${esc(R.macro.headline)}</h2>${live10 ? `<p class="dated">${live10}</p>` : ''}</div><div><p>${esc(R.macro.body)}</p>
        <div class="src">${(R.macro.sources || []).map(link).join(' · ')}</div></div>`;
     else document.getElementById('macro').remove();
-    document.getElementById('method').textContent = R.method || 'Research for this scan has not been written yet.';
+    document.getElementById('method').textContent = (R.method || 'Research for this scan has not been written yet.') +
+      (age > 7 ? ` The verdicts were written ${fmtD(R.updated)}, ${age} days before this scan. The dots are live, so where they disagree with a verdict, the dots are newer.` : '');
 
     // themes
     const order = {ripe:0, wait:1, avoid:2};
     const lasting = {temporary:'looks temporary', mixed:'part temporary, part lasting', structural:'looks lasting'};
     const cause = {sector:'whole group', company:'one or two companies', macro:'rates and oil', mixed:'mixed'};
+    // a dot is filled when the name has turned: a turning scan name, or a quote line with the 5-day over the 20-day
+    const turned = t => S[t] ? S[t].stage === 'turning' : Q[t] && Q[t].off_low != null ? Q[t].up : null;
+    // flag a verdict the live dots now contradict: "ripe" with few turned, "wait"/"avoid" with most turned
+    function stale(th) {
+      const v = th.tickers.map(turned).filter(x => x != null);
+      if (v.length < 2 || !R.updated) return '';
+      const n = v.filter(Boolean).length, sh = n / v.length;
+      const off = th.verdict === 'ripe' ? sh < 1/3 : sh >= 2/3;
+      return off ? `Now ${n} of ${v.length} have turned, which no longer fits ${/^[aeiou]/.test(th.verdict) ? 'an' : 'a'} "${esc(th.verdict)}" call from ${fmtD(R.updated)}.` : '';
+    }
     function track(t) {
       const r = S[t], q = Q[t];
       const off = r ? r.off_low : q ? q.off_low : null;
       if (off == null) return '';
       const on = r ? r.stage === 'turning' : q.up;
       const x = Math.max(0, Math.min(off, .35)) / .35 * 100;
-      const drop = r ? r.drop : q.off_high;
+      const drop = r ? r.drop : q.drop;
       return `<tr title="${esc((r && r.name) || t)}"><td class="t">${esc(t)}</td>
         <td class="trk"><div class="track"><span class="band"></span><span class="d ${on ? 'on' : 'off'}${off > .35 ? ' past' : ''}" style="left:${x}%"></span></div></td>
         <td class="n">${pct(drop)}</td><td class="n ${cls((r || q).r1m)}">${pct((r || q).r1m)}</td></tr>`;
@@ -243,6 +264,7 @@
           <div class="vd">${esc(th.verdict)}</div>
           <h3>${esc(th.title)}</h3>
           <p class="note">${esc(th.verdict_note)}</p>
+          ${(m => m ? `<p class="stale">${m}</p>` : '')(stale(th))}
           <div class="tags"><b>Cause:</b> ${esc(cause[th.cause] || th.cause)} · <b>${esc(lasting[th.lasting] || th.lasting)}</b></div>
         </div>
         <div class="body">
@@ -280,7 +302,7 @@
     function draw() {
       const q = st.q.toLowerCase();
       let rows = D.stocks.filter(r => r.stage === st.stage && (!st.sector || r.sector === st.sector) &&
-        (!q || (r.t + ' ' + r.name + ' ' + r.industry + ' ' + r.themes.join(' ')).toLowerCase().includes(q)));
+        (!q || (r.t + ' ' + (r.also || []).join(' ') + ' ' + r.name + ' ' + r.industry + ' ' + r.themes.join(' ')).toLowerCase().includes(q)));
       const col = COLS.find(c => c[0] === st.sort);
       rows.sort((a, b) => { const x = col[3](a), y = col[3](b); return (x > y ? 1 : x < y ? -1 : 0) * st.dir; });
       document.getElementById('cnt').textContent = `${rows.length} ${st.stage === 'turning' ? 'turning' : 'on the low'}`;

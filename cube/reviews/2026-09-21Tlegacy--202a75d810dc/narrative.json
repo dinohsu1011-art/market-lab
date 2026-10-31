@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "",
+    "call": "Mixed",
+    "detail": "Leadership is thin and risk appetite is undecided.",
+    "summary": "SPY finished the week +1.6%; QQQ +2.8%; high beta versus low beta is +5.9% over one month (74th percentile); leader breadth is +29.1 points versus the index; 30% of S&P names are above the 50-day; net 52-week highs are -18; CDN / Edge leads themes at +12.0%.",
+    "market": "SPY finished the week +1.6%; QQQ +2.8%.",
+    "winners": "CDN / Edge +12.0%, CPU + ASIC +9.1%, Connectivity +8.1%.",
+    "laggards": "Energy \u00b7 XLE -2.9%, Utilities \u00b7 XLU -1.1%, Cons. Staples \u00b7 XLP -1.1%.",
+    "why": "Risk and participation disagree, leaving a rotation-led rather than directional tape; high beta/low beta +5.9%, leader breadth spread +29.1pt, 30% above the 50-day.",
+    "comparison": "Since 2026-09-18, the call moved from Risk-off to Mixed; high beta +5.1pt, leader spread +2.1pt, 50-day breadth +1.9pt. Weekly leadership changed from Cybersecurity to CDN / Edge.",
+    "tally": "2 of 4 risk gauges and 2 of 6 participation gauges are above their five-year medians",
+    "volume": "TAP printed 17.56\u00d7 relative volume on a -4.0% day, while BLDR printed 13.51\u00d7 relative volume on a +0.8% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}
