@@ -23820,6 +23820,816 @@
       "country": "Taiwan",
       "updated": "2026-10-31",
       "source": "Yahoo Finance via yfinance"
+    },
+    "TW3231": {
+      "symbol": "3231.TW",
+      "name": "Wistron Corporation",
+      "summary": "Wistron Corporation, together with its subsidiaries, engages in the design, manufacture, and sale of information technology products in the United States, Europe, China, and internationally. The company develops and produces desktop computers, notebook computers, motherboards, servers, system platforms, multi-CPU computer systems, multimedia computers, network computers, consumer computers, micro-processors, CD-ROMs, PDAs, panel PCs, pocket computers, and interface cards. It also offers professional display systems, industrial PCs, and data storage equipment. The company provides video and internet telephones, video conferencing equipment, telecommunication equipment, VoIP systems, wireless receiver products including mobile phones, wireless LAN cards, and Bluetooth communication modules, as well as networking and communication products. Its consumer electronics offerings include digital satellite TV receivers, set-top boxes, digital video decoders, multimedia appliance products, LCD TVs, electronic audio and visual products, digital cameras, and CD-ROM and DVD-ROM drives. The company also manufactures, processes, and sells automotive electronics and telematics products. In addition, the company designs and merchandises computer software and programs; recycles electronic waste; and offers in vitro diagnostic devices, therapeutic equipment, intelligent assistive devices, diagnostic x-ray units, physiological signal diagnostic devices, and medical data systems. Further, it is involved in the maintenance and cleaning of electronics products; import and export trade business; sale and maintenance of computer products and related parts and components, data storage equipment, and digital monitoring systems; internet platform development; provision and sale of application services and consultation; and repair of electronic products. Wistron Corporation was incorporated in 2001 and is headquartered in Taipei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3406": {
+      "symbol": "3406.TW",
+      "name": "Genius Electronic Optical Co.,Ltd.",
+      "summary": "Genius Electronic Optical Co.,Ltd., an investment holding company, engages in the manufacture, processing, and trade of optical instruments, molds, lighting equipment, and related spare parts in Taiwan and China. The company provides lenses, including medical, car, humanoid robot, industrial AI, and mobile lenses, as well as AR/VR optics. It also engages in lens MTF eccentricity adjustment, COMS image module focusing, image quality analysis and testing, and development of production equipment; design, processing, production, and sale of non-metallic products molds; production assembly; installation and maintenance of LED streetlights, LED lamps, and related products and parts; manufacture of optical electronic devices, other electronic devices, and plastic containers and products; and sale of mechanical parts and components, as well as import and export agent services. The company was incorporated in 1990 and is headquartered in Taichung, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3376": {
+      "symbol": "3376.TW",
+      "name": "Shin Zu Shing Co., Ltd.",
+      "summary": "Shin Zu Shing Co., Ltd. engages in the research, design, development, production, assembly, testing, manufacturing, and trading of various precision springs, stamping parts, hinge components, CNC lathes, and metal injection molding in Taiwan, Singapore, and China. It also produces and sells precision bearings, key brain components, computer peripherals, LCD monitor base bracket, switch shaft and accessories, precision hardware, electronics, molds, and plastic. In addition, the company offers its products for use in notebook computers, LCD screens, digital cameras, electric bicycle parts, and other electronic product parts. The company was formerly known as Zu Shing Spring and Mechanical Co., Ltd. and changed its name to Shin Zu Shing Co., Ltd. in November 1997. Shin Zu Shing Co., Ltd. was founded in 1957 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Metal Fabrication",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3443": {
+      "symbol": "3443.TW",
+      "name": "Global Unichip Corp.",
+      "summary": "Global Unichip Corp. engages in the research and development, production, testing, and sale of embedded memory and logic components, analog components, cell libraries, and EDA tools for various IC applications. It offers ASIC and wafer products, as well as non-recurring engineering services. The company also provides product design, technical support, and consulting services. In addition, it offers SoC design services, such as technology design, design methodology, low power solution, and testability design services; SoC manufacturing services, including packaging, testing and product engineering, and quality and reliability, as well as supply chain management services; and IP portfolio comprising high bandwidth memory IPs, multi-die interLink IPs, mixed-signal front-end IPs, and embedded memory IPs. The company was formerly known as Chuangyi Electronics Corporation and changed its name to Global Unichip Corp. in October 1998. The company was incorporated in 1998 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3450": {
+      "symbol": "3450.TW",
+      "name": "Elite Advanced Laser Corporation",
+      "summary": "Elite Advanced Laser Corporation offers electronic manufacturing services in Taiwan. It provides assembly and testing services for optoelectronic, and optical information and communication, as well as for sensors and power amplifiers. The company also offers visible laser diodes. Elite Advanced Laser Corporation was founded in 2000 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3532": {
+      "symbol": "3532.TW",
+      "name": "Formosa Sumco Technology Corporation",
+      "summary": "Formosa Sumco Technology Corporation engages in the manufacture, sale, and trade of silicon wafers in Taiwan, Japan, and China. It offers polished, annealed, and epitaxial wafers, as well as monocrystalline ingots. Formosa Sumco Technology Corporation was incorporated in 1995 and is based in Taipei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3533": {
+      "symbol": "3533.TW",
+      "name": "Lotes Co., Ltd.",
+      "summary": "Lotes Co., Ltd., together with its subsidiaries, designs, manufactures, and sells precision electronic interconnect components and hardware parts in Taiwan, China, and internationally. It offers CPU, sim card, SPI, and automotive sockets; liquid cooling solutions; memory connectors; slot/edge cards; single and double compression interposers; signal/power solutions, including bus bar, card edge, header, power wafer, and wire to board; and I/O series products, such as audio and power jacks, display port, HDMI, RJ45, SATA/SAS, sim card connector, and USB. The company also provides tact switches; battery holders; board to board solutions; FPC connectors; miniature RF; cable assembly; and automotive solutions comprising BMS, CCS, BOX, bus-bar, ECU, AC, AV, lighting, HV, e-bike, and wire harness series. It exports its products. The company was incorporated in 1986 and is headquartered in Keelung, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3653": {
+      "symbol": "3653.TW",
+      "name": "Jentech Precision Industrial Co., Ltd",
+      "summary": "Jentech Precision Industrial Co., Ltd, together with its subsidiaries, manufactures, processes, and trades in precision tooling, and electronic parts and components in Taiwan and China. The company offers thermal heat spreaders, semiconductor lead frames and injection molding, peripheral device and stamping parts, and communication connectors; air and liquid cooling, and MCU cooler modules; carriers, bolsters, and base plates; stiffeners and vapor chamber lids; power modules, spacers, pin fin heat sinks, and battery cooling management systems; battery and ECU cold plates; LED lead frames; and EMI shielding, frame backlight and panel, connectors, and machined solutions. It also provides metal parts for electrical appliances, electronics, and computers; hardware machinery and its parts; and optoelectronic and automotive materials, as well as engages in metal forging and surface treatment processing activities. The company serves the semiconductor automotive, consumer electronics, telecommunication, and medical devices industries. Jentech Precision Industrial Co., Ltd was incorporated in 1987 and is headquartered in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3661": {
+      "symbol": "3661.TW",
+      "name": "Alchip Technologies, Limited",
+      "summary": "Alchip Technologies, Limited, together with its subsidiaries, engages in the research, design, development, and manufacturing of application specific integrated circuits and system on a chip in the United States, China, Japan, Taiwan, and internationally. It offers ASIC design services, including SoC frontend design, physical backend design, and design for testability, as well as low power, high performance, and advanced package solutions; production services, such as advanced packaging, advanced testing, and product engineering services, as well as quality assurance and policy; and IP services comprising IP integration and verification. The company is also involved in general investment activities; provision of product technical support and consultation services; and software development and services. Its products are used in AI, HPC/supercomputer, mobile phones, entertainment device, networking equipment, and electronic product sectors. The company was founded in 1992 and is headquartered in Taipei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3665": {
+      "symbol": "3665.TW",
+      "name": "BizLink Holding Inc.",
+      "summary": "BizLink Holding Inc., together with its subsidiaries, provides connection harness application solutions in the United States, China, Germany, Malaysia, Taiwan, Italy, Slovak, and internationally. It operates through Computing and Transportation, Industrial Application, and Home Appliance segments. The company offers automotive solutions, including automotive and high voltage wire harnesses, EV busbar, and autonomous driving and EV charging solutions; and data center solutions, such as cables, DAC, loopbacks, power whips, server cables, WDM, connectors, data center busbar and busbar connectors, server connectors, optics, and rack busbar. It also provides industrial and medical solutions comprising AI docking and dangles, industrial and medical wire harnesses and raw cables, medical equipment box build and system integration, semiconductor equipment cables, computerized tomography, magnetic resonance imaging system, medical raw wires, and ultrasound systems; and semiconductor equipment solutions, which consists of box build and system integration. In addition, the company offers prototyping/NPI, box build and system integration, and OEM/ODM/EMS services. Further, it is involved in the manufacture of smart instrumentational sensors and functional materials, telecommunication equipment, and fiberfill moldings; wholesale and retail of computer peripherals; and provision of asset management services. The company serves the AI data center, AI edge, AI humanoid, aerospace and defense, automation and drives, automotive, box build, core and mobile networks, electrical appliances, equipment solutions, industrial robotics and automation system training, machinery, medical cable and system solutions, medical robotics, rolling stock, semiconductor technology, shipbuilding and marine, silicone cable solutions, and system integration industries. It also exports its products. BizLink Holding Inc. was incorporated in 1996 and is based in New Taipei City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3583": {
+      "symbol": "3583.TW",
+      "name": "Scientech Corporation",
+      "summary": "Scientech Corporation engages in the research and development, production, sale, and maintenance of process equipment for semiconductors, liquid crystal displays (LCDs), light-emitting diodes (LEDs), and solar power generation industries. The company offers chemical analysis and biotechnology equipment; remote control system; camera lens; flat panel display; mask/reticle and semiconductor front-end process equipment; MEMS/compound semiconductor/LED products; semiconductor packaging and testing equipment; 3D printing equipment; and wet benches/single wafer wet process equipment, and temporary bonding/de-bonding/glass recycle tools. It serves semiconductor (front-end, back-end, and GaAs), flat panel display, LED, data storage, scientific instruments, and high-tech related industries. The company was incorporated in 1979 and is based in Taipei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronics & Computer Distribution",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3702": {
+      "symbol": "3702.TW",
+      "name": "WPG Holdings Limited",
+      "summary": "WPG Holdings Limited, together with its subsidiaries, operates as a semiconductor components distributor in Taiwan, Mainland China, and internationally. It operates through World Peace Industrial Subgroup, Pingjiazi Group Co., Quandingzi Group Co., Yosun Subgroup, Trigold Group Co., and Others segments. The company distributes electronic components, such as analog and mixed-signal components, discrete and logic components, memory components, passive components, optical components, and electromagnetic and connector components. It also provides procurement, built-to-order, integrated, online, logistics and cross-border, virtual managed inventory systems, and financial support services. In addition, the company engages in the agency and distribution of computer hardware and software, and information products; distribution of electronic products; general investment; general trade; smart warehousing value-added services; import and export trade of electronic materials and components; information services; operation of indoor children's playground; and B2C and O2O e-commerce businesses. Its products are used in automotive, computer, industrial, consumer, communication, and IoT applications. WPG Holdings Limited was founded in 1980 and is headquartered in Taipei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronics & Computer Distribution",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW3711": {
+      "symbol": "3711.TW",
+      "name": "ASE Technology Holding Co., Ltd.",
+      "summary": "ASE Technology Holding Co., Ltd., together with its subsidiaries, provides semiconductor manufacturing services in the United States, Taiwan, rest of Asia, Europe, and internationally. It operates through Packaging, Testing, and EMS. The company offers semiconductor packaging, interconnect materials production, front-end engineering testing, wafer probing, and final testing services, as well as integrated solutions for EMS (electronic manufacturing services) in relation to computing, peripherals, communications, industrial, automotive, and server applications. It also provides turnkey services, such as packaging, testing, and direct shipment of semiconductors to end users; wire bonding, including lead frame and substrate-based packages; advanced packages; heterogeneous integration; and other test-related services. In addition, the company engages in the leasing of properties; development, construction, sale, and management of real estate properties; management of parking lot; leasing of properties for shopping center; and management of commercial complex services and department store trading activities, as well as offers social, marketing and sales, information software, leasing and investing, and after-sales and sales support services. Further, it engages in the substrates production; investment advisory and warehousing management; design and manufacturing of electronic components and new electronic applications; technical advisory; management, training, and consulting of organization and human resources; projection of plastic; manufacture and sale of antennas, RF amplifiers and wave straps, PCBs, and tuners; and research and development activities. ASE Technology Holding Co., Ltd. was founded in 1984 and is based in Kaohsiung, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW4904": {
+      "symbol": "4904.TW",
+      "name": "Far EasTone Telecommunications Co., Ltd.",
+      "summary": "Far EasTone Telecommunications Co., Ltd. provides mobile telecommunications services in Taiwan and internationally. The company offers postpaid products, such as wireless postpaid and broadband, and data booster; prepaid products; and SMS and eSIM products. It also provides mobile communication and lifestyle services, including mobile communication voice, internet access, and related services, as well as mobile phones and accessories; and cable network, enterprise customer services, communications integration services, and related services. The company was incorporated in 1997 and is based in Taipei, Taiwan.",
+      "sector": "Communication Services",
+      "industry": "Telecom Services",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW4919": {
+      "symbol": "4919.TW",
+      "name": "Nuvoton Technology Corporation",
+      "summary": "Nuvoton Technology Corporation, a semiconductor company, engages in the research, design, development, manufacture, and sale of integrated circuits (ICs) in Taiwan and internationally. It offers 6-inch wafers; microcontrollers; microprocessors; analog ICs, application specific SoCs, battery management, cloud computing, DSP / ISPs, image sensors, laser diodes, MOSFET, motor drivers, motor microcontroller, smart home audio, power management, GUI solution, IoT solution, and optical transceiver solutions. The company also provides software and tools. Its products are used in mobility, artificial intelligence, networking, motor, power and energy, automotive, computing, medical, portable devices, audio/video products, and consumer and industrial electronics, as well IoT security and smart home appliances. The company was incorporated in 2008 and is headquartered in Hsinchu City, Taiwan. Nuvoton Technology Corporation operates as a subsidiary of Winbond Electronics Corporation.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW4958": {
+      "symbol": "4958.TW",
+      "name": "Zhen Ding Technology Holding Limited",
+      "summary": "Zhen Ding Technology Holding Limited, together with its subsidiaries, engages in the design, development, manufacture, and sale of printed circuit boards (PCB) products in the United States, Mainland China, Taiwan, Singapore, and internationally. The company offers flexible circuit boards, substrate-like PCBs, high-density interconnect PCBs, rigid printed circuit boards, IC substrates, rigid-flex PCBs, and modules. Its products are used in various applications, including mobile phones, computers, wearables, AR/VR, smart home, other consumer, data center, base station, networking, automotive, and robot and industrial. The company was formerly known as Foxconn Advanced Technology Limited and changed its name to Zhen Ding Technology Holding Limited in June 2011. Zhen Ding Technology Holding Limited was founded in 1995 and is based in Grand Cayman, the Cayman Islands.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Cayman Islands",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW5269": {
+      "symbol": "5269.TW",
+      "name": "ASMedia Technology Inc.",
+      "summary": "ASMedia Technology Inc. engages in the design, development, sale, and technical services of high-speed signal switch, PCIe bridge, and USB controller integrated circuits in Taiwan, the Americas, Asia, and internationally. The company offers SATA bridges and controllers, ASIC solutions, and PDK/KGD products, as well as custom chip solutions. It serves motherboard and OEM companies. ASMedia Technology Inc. was incorporated in 2004 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW5434": {
+      "symbol": "5434.TW",
+      "name": "Topco Scientific Co.,Ltd.",
+      "summary": "Topco Scientific Co.,Ltd. provides precision materials, manufacturing equipment, and components worldwide. The company offers quartz wafer carrier plates, such as synthetic quartz wafer and quartz substrate; furnace quartz, and quartz crucible for single crystal and polycrystalline; and chemicals, such as CMP, photoresist, and specialty gases, and chemicals. It also provides wafers, wafer carriers, and wafer related supplies; photomask and mask carriers; electronic materials, such as protective, packaging, thermal conductive, conductive, and special application materials; SiC and GaN epi wafers and substrates, and Sic reclaim wafers; power device electrical analysis instruments; and IC foundry services. In addition, the company offers turbo compressors and blowers, metal additive manufacturing equipment, atmospheric pressure plasma, horizontal and vertical tube cleaner, high pressure clean system, fire extinguishing systems, and organic solvent dehydration and recycling system, as well as LCD related equipment and services. Further, the company engages in wholesale sale of chemicals; provision of sports training services; wholesale of semiconductor materials, optoelectronic components, and electronic products; wholesale and retail of aquatic products; trading of food; project business development of renewable energy; piping engineering and electrical installation; solar system engineering activities; antifouling treatment agents and light blocking materials; sale of renewable electricity; operation of supermarkets; restaurant management; vacuum pump equipment waste removal maintenance; planning, evaluation of environmental-related projects; international trading; sale and design of integrated circuits; and waste water and clean room environmental engineering activities. It serves semiconductors, package and testing, semiconductor equipment, electronics, LCD, LED, and solar industries. The company was incorporated in 1990 and is headquartered in Taipei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronics & Computer Distribution",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW5871": {
+      "symbol": "5871.TW",
+      "name": "Chailease Holding Company Limited",
+      "summary": "Chailease Holding Company Limited, an investment holding company, provides leasing and financial products and services in Taiwan, Mainland China, ASEAN countries, and internationally. The company offers leasing services, including capital and operating leases for machinery, medical equipment, airplanes, boats, and office equipment; installment sales services for raw materials, semi-finished and finished products, furniture and fixtures, and production equipment, as well as for customers in various industries; factoring services; and direct financing services to SMEs, micro-enterprises, and large corporations. It is also involved in life and property insurance brokerage; financing and investment in solar power plants; collection of overdue receivables; and gasoline wholesale activities. In addition, the company engages in general investment; financial and investment consulting services; ship leasing and chartering; trading; property leasing and management; consulting; aircraft leasing; acquisition, leasing, and assignment of accounts receivable; car installment purchase and sale; brokerage; cloud product software and hardware; rental and installment; solar-related and geothermal energy-related businesses; machinery and equipment sales; auction; real estate financing; development and sale of nutritional and health products; and real estate development services. Chailease Holding Company Limited was founded in 1977 and is headquartered in Taipei, Taiwan.",
+      "sector": "Financial Services",
+      "industry": "Credit Services",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6139": {
+      "symbol": "6139.TW",
+      "name": "L&K Engineering Co., Ltd.",
+      "summary": "L&K Engineering Co., Ltd. provides turnkey engineering services in Taiwan, Hongkong, and internationally. It installs pipes, heating and air conditioning systems; wholesale and retail of medical equipment; imports, exports, customer development and after sales services.L&K Engineering Co., Ltd. was incorporated in 1978 and is headquartered in Taipei, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6196": {
+      "symbol": "6196.TW",
+      "name": "Marketech International Corp.",
+      "summary": "Marketech International Corp., manufactures, sells, imports, and trades in a range of integrated circuits, semiconductors, electrical and computer equipment and materials, chemicals, gas, spare parts, and components in Taiwan, China, the United States, and internationally. The company is involved in factory affairs and mechatronic systems, including clean rooms, automatic supply system of gas and chemicals, monitoring systems, turn-key, and hook-up project services, and other factory systems and electromechanical systems; and designs and manufactures customized equipment. In addition, it engages in contracting for semiconductor automotive supply system and electrical installation construction; international trade; trading, installation, and repair of various machinery equipment and peripherals; consulting services, software execution services, and computer hardware installation; research, trading, and consulting of information system software and hardware appliance; production, development, and implementation of software and provides coding service; design, manufacturing, and installation of automatic production equipment and related parts; and investment and reinvestment activities. Further, it sells cosmetics and daily necessities, and medical devices; installation of industrial machines and equipment and consulting; supply of electronic information and data processing service; medical consulting services; trading of equipment for private 5G wireless communication networks; provision of software management platform and vertical integration of information and communication technology; warehousing logistics services; assembly of air conditioning equipment and testing; design and construction of smart buildings and electronic projects; professional building renovation and decoration services; and design, installation, debugging, and technology services of tunnel systems. The company was incorporated in 1988 and is headquartered in Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6197": {
+      "symbol": "6197.TW",
+      "name": "JPC Connectivity Inc.",
+      "summary": "JPC Connectivity Inc., an investment holding company, manufactures and sells various electronic products and components in Taiwan, China, the United States, Japan, Thailand, the Netherlands, and internationally. The company offers transmission products in datacenter/networking/telecom (DNT) sector, smart connection industry, and Internet of Things areas. It also provides electronic products, comprising cable assemblies; computer peripheral devices; and optoelectronic products. In addition, the company engages in the trade, import, and export of various computer software and hardware and its peripherals; and manufacture and wholesale of wireless communication equipment and apparatus, data storage and processing equipment, wired communication equipment, and apparatus and printers. Its products have applications in AI servers, computing (HPC), data centers, renewable energy, and cloud services. The company was incorporated in 1992 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6213": {
+      "symbol": "6213.TW",
+      "name": "ITEQ Corporation",
+      "summary": "ITEQ Corporation engages in the manufacture and sale of copper clad laminate materials used for fabrication of printed circuit boards in Taiwan, Asia, Europe, and internationally. The company offers mass lamination boards, copper clad laminates, prepreg products, and electronic components, as well as import and export trading of manufacturing equipment. Its products are used in various application areas, such as computational and communications applications, including servers, storage, and switches; radio frequency and microwave devices, such as 5G and mmWaves; automotive applications comprising advanced driver assist systems; and high-density interconnect solutions, which include smartphones. ITEQ Corporation was incorporated in 1997 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6239": {
+      "symbol": "6239.TW",
+      "name": "Powertech Technology Inc.",
+      "summary": "Powertech Technology Inc., together with its subsidiaries, researches, designs, develops, assembles, manufactures, packages, tests, and sells various integrated circuit (IC) products in Taiwan, Japan, Singapore, the United States, Europe, China, Hong Kong, Macao, and internationally. It provides chip probing and final test; IC packaging services, such as wafer level packing, flip chips, wire bond BGA, lead frame, and system in package; module assembly services; and quality management services. The company is also involved in the design, manufacturing, assembly, testing, and sale of semiconductors; metal surface treatment on semiconductor wire frame; and metal plating on semiconductor lead frame, as well as in investment and wafer probing testing activities. In addition, it offers IC assembly, burn in, and system level assembly. Powertech Technology Inc. was incorporated in 1997 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6257": {
+      "symbol": "6257.TW",
+      "name": "Sigurd Microelectronics Corporation",
+      "summary": "Sigurd Microelectronics Corporation, together with its subsidiaries, engages in the design, processing, testing, burn-in treatment, manufacture, and trading of integrated circuits (ICs) in Taiwan, Singapore, America, China, and internationally. It operates through Packaging and Testing, and Trading segments. The company provides advance packages; and test services, including wafer sort chip probing, final test, and test engineering services. It also offers die process services, such as wafer grinding, laser cutting and printing, sawing, tape and reel, direct shipping, wafer back cover lamination, wafer back laser printing, 100% automatic optical inspection after wafer cutting, roll-to-roll sorting, reconstruction, 6-sided die inspection, and other process integrations; backend services, including lead scan, inspection, baking, marking, packing, and drop ship; and other services, such as wafer bumping and assembly; and system level test, burn in services, and laser repair. In addition, the company is involved in the production and sale of recorders and their accessories, copiers, chips testers, televisions, medical equipment and electronic components; integrated circuit development and pollution testing; investments; and electronic information provision services. Its products are used in various applications comprising the metaverse, high-performance computing, wireless communication, mobile devices, automotive, medical, satellite, computers, IoT, artificial intelligence, consumer electronics, and multimedia products. The company serves semiconductor design companies, integrated device manufacturers, and wafer foundries. Sigurd Microelectronics Corporation was incorporated in 1988 and is based in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6278": {
+      "symbol": "6278.TW",
+      "name": "Taiwan Surface Mounting Technology Corp.",
+      "summary": "Taiwan Surface Mounting Technology Corp. engages in the design, processing, manufacturing, and trading of TFT-LCD panels, general electronic information products, and PCB surface mount packaging worldwide. The company provides digital camera and cellular phone LCD panel, notebook and television TFT-LCD panel, LED TV power supply, and LCD TV inverter control boards. It also offers micro projector and touch panel, DVD R/W, TV set, and lighting application control boards, as well as wireless controllers and refrigerator display panels; and digital camera/cellular, automotive dashboard panel, notebook, and PC/LCD television backlight bars. The company was incorporated in 1990 and is headquartered in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6271": {
+      "symbol": "6271.TW",
+      "name": "Tong Hsing Electronic Industries, Ltd.",
+      "summary": "Tong Hsing Electronic Industries, Ltd. engages in the development and production of thick film substrates and customized semiconductor micro-module packaging. It offers ceramic metalized substrate, such as direct plated copper, direct bonded copper, active metal brazing, and thick film printed circuit substrates; CMOS imaging products, including wafer probing and testing, wafer reconstruction, and packaging, and image testing. The company also provides high frequency wireless communication modules and power semiconductors module packaging products; and customized module packaging and testing comprising hybrid integrated circuit modules and biomedical products. Its products are used in automotive, handset, aerospace and network, medical, and others. The company was incorporated in 1974 and is based in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6285": {
+      "symbol": "6285.TW",
+      "name": "WNC Corporation",
+      "summary": "WNC Corporation, together with its subsidiaries, engages in the research, development, manufacture, and sale of satellite, mobile, and portable communication equipment in the Americas, Asia, Europe, and internationally. The company offers wired and wireless communication equipment, networking equipment, electronic components, regulated telecommunication radio frequency equipment, medical devices, electric power generation equipment, transmission and distribution machinery, semi-finished products and peripherals of medical testing equipment, medical diagnostic equipment, smart mobile aids, medical consumables, medical information transmission systems, and information and communications technology products. It also provides software and hardware integration, information software, data processing, and electronic data supply application services, as well as repair and maintenance services for satellite and portable communication products; and real estate development, leasing, and related management services. In addition, the company offers antenna solutions for consumers; 5G/4G, WLAN, customized, NFC, UWB/Bluetooth, and mmWave modules; network access solutions comprising satellite TV, broadband access, enterprise networking, and network infrastructure products; and home control smart home solutions. Further, it provides industry solutions comprising smart energy, identification, and tracking solutions; and automotive solutions, including satellite radios, radar sensors, automotive cameras and cellular modules, infotainment products, and trackers. The company was formerly known as Wistron NeWeb Corporation and changed its name to WNC Corporation in May 2025. WNC Corporation was founded in 1996 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6409": {
+      "symbol": "6409.TW",
+      "name": "Voltronic Power Technology Corp.",
+      "summary": "Voltronic Power Technology Corp., together with its subsidiaries, engages in the manufacture and sale of uninterruptible power systems (UPS) in Taiwan and Mainland China. It offers UPS products, such as DC and standby, line interactive, lithium, single and three phase online UPS, and accessories; PV inverter products, including off-grid, on-grid with energy-storage, solar charge controller, application-specific products, solar accessories, and AVR; energy storage system products and batteries; variable frequency drive products; and AC and DC EV chargers. The company was incorporated in 2008 and is headquartered in Taipei, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6414": {
+      "symbol": "6414.TW",
+      "name": "Ennoconn Corporation",
+      "summary": "Ennoconn Corporation, together with its subsidiaries, provides integrated cloud management services, Industrial IoT, and embedded technology in Taiwan, China, Europe, and internationally. The company operates through three segments: Industrial IoT Business Group, the Intelligent Software and Solutions Business Group, and the Smart Factory and Facility Services Business Group. It offers smart retail solutions, including sales and service, inventory management and smart fulfillment, and targeted marketing solutions; smart manufacturing solutions comprising design and engineering, supply chain, automation, predictive maintenance, and testing and quality control solutions; and smart finance solutions, such as POS, transactional security, and risk assessment software. The company also provides media and entertainment solutions that include gaming solutions, as well as smart city solutions covering public safety and notification systems, traffic management, emergency services, and green energy solutions. In addition, it engages in the manufacturing and sales of industrial computers and IoT devices, intelligent manufacturing system integration, artificial intelligence and information software development services, data processing and cloud computing services, and electronic component design and manufacturing, as well as international trade and import/export of telecommunications radio frequency equipment. Ennoconn Corporation was incorporated in 1999 and is based in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6415": {
+      "symbol": "6415.TW",
+      "name": "Silergy Corp.",
+      "summary": "Silergy Corp. designs, manufactures, and sales of various integrated circuit products and related technical services in China and internationally. The company offers DC-DC and AC-DC regulators, AC and DC LED drives, power and battery management IC's, power modules, protection switch IC's, low dropout regulators, sensors, ESD protection, audio products, amplifiers, data converters, motor and DC LED drivers, voltage reference products, MCU and mixed-signal ICs, clock generators, and embedded processors. Its products are used in automotive, communication, computing, power and building automation, motor and power control, energy storage system, factory automation, medical, electric bicycles, electronic payment, consumer electronics, HEA, and LED lighting applications. The company was incorporated in 2008 and is headquartered in Grand Cayman, Cayman Islands.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Cayman Islands",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6442": {
+      "symbol": "6442.TW",
+      "name": "EZconn Corporation",
+      "summary": "EZconn Corporation, together with its subsidiaries, engages in the assembly, processing, and trading of precision metal parts for various electronic components, electronic products, and various optical fiber components. in Taiwan, Asia, the United States, and Europe. The company offers RF solutions, including RF coaxial connectors, precision adaptors, jumpers, surge arrestors, filters, amplifiers, and dipole antennas; fiber optics products, including integrating optical, electronic, mechanical and materials technologies; equipment distribution. Its products are used for passive optical network, data communication, satellite communication, 5G, IT datacom, automotive, aerospace, broad band, and health care. The company was incorporated in 1996 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6446": {
+      "symbol": "6446.TW",
+      "name": "PharmaEssentia Corporation",
+      "summary": "PharmaEssentia Corporation, a biopharmaceutical company engages in medicine discovery, supplements in developing specialty pharmaceutical reagents, API, and new drug patterns developments in the Americas, Europe, Asia, and Taiwan. Its products include BESREMi, an interferon therapy indicated for polycythemia vera, essential thrombocythemia, PMF, and adult T-cell leukemias. The company also develops Ropeg + anti PD-1; PEG-IL-2 (P11838); PEG-Cytokines; PD-1-IL-2v; ADC; ADCS; NY-ESO-1 TCR-T; and Novel TCR-T for the treatment of solid tumor and immunology. PharmaEssentia Corporation was founded in 1990 and is headquartered in Taipei, Taiwan.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6451": {
+      "symbol": "6451.TW",
+      "name": "ShunSin Technology Holdings Limited",
+      "summary": "ShunSin Technology Holdings Limited engages in the assembly, testing, and sale of various integrated circuits related to semiconductors in Mainland China, the United States, Taiwan, Malaysia, Singapore, Ireland, and internationally. The company's products include system in package module, including 2G/2.5G/3G/4G front end and power Amplifier (PA), multi-mode multi band power amplifier, WiFi front end, mobile WiFi, and antenna switch modules; passive optical components; optical transceivers; thick film integrated circuit; and MEMS modules and sensors, such as accelerometers, gyroscopes, G-sensors, pressure and gesture sensors, light and proximity sensors, BAW filters, and TOF sensors. It offers engineering services, such as assembly and testing. The company was formerly known as Amtec Holdings Limited and changed its name to ShunSin Technology Holdings Limited in August 2013. The company was incorporated in 2008 and is based in Zhongshan, China. ShunSin Technology Holdings Limited is a subsidiary of Foxconn (Far East) Limited.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "China",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6515": {
+      "symbol": "6515.TW",
+      "name": "WinWay Technology Co., Ltd.",
+      "summary": "WinWay Technology Co., Ltd. designs, processes, and sells optoelectronic product test fixtures, integrated circuit test interfaces, and fixtures and their components in Taiwan, the Americas, China, Asia, Europe, and Canada. Its products include test sockets, HyperSocket, coaxial sockets, burn-in sockets, PoP sockets, and CRS sockets; heatsink and manual lid; vertical and WLCSP probe cards; i-Bump interposers; and thermal control products, including ATC, E-Flux 4.0, HEATCon Titan, and chiller, as well as changeover kit and plunger products. The company also provides mechanical, electrical, and thermal simulation services; and technical support and B2B services. The company serves the semiconductor, optical, information technology, and optoelectronics industries. WinWay Technology Co., Ltd. was incorporated in 2001 and is based in Kaohsiung, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6531": {
+      "symbol": "6531.TW",
+      "name": "AP Memory Technology Corporation",
+      "summary": "AP Memory Technology Corporation, together with its subsidiaries, designs, develops, licenses, manufactures, and sells customized memory-related integrated circuit (IC) chip products and technologies in China, Singapore, Taiwan, Europe, the United States, and internationally. The company provides pseudo static random-access memory (PSRAM) and low power double data rate (LPDDR) for IoT, wearables, and display devices; and stack silicon capacitors for temperature and voltage stability. It also offers VHMTM series, a DRAM working with SoC through WoW 3D stacking technology, including VHMStack and VHMInterposer; and S-SiCap interposer IP for computing and AI applications, as well as wearable devices and smart homes. In addition, the company provides product design and R&D technical services. AP Memory Technology Corporation was incorporated in 2011 and is headquartered in Zhubei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6669": {
+      "symbol": "6669.TW",
+      "name": "Wiwynn Corporation",
+      "summary": "Wiwynn Corporation engages in the research, development, design, testing, and sales of semi products, and peripheral equipment and parts in the United States, Europe, Asia, and internationally. The company also offers computer and peripheral equipment, data storage media products, electric appliances, and software products; and provides management consulting, information software, and data processing services. In addition, it provides multi-node and storage server, storage, open rack, edge/ai platform, multi-purpose server, and rack; accessories, including OCP network mezzanine cards and cards for storage; and software and services. Further, the company is involved in the manufacture and sale of cloud data center equipment; and investment activities. Wiwynn Corporation was incorporated in 2012 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6781": {
+      "symbol": "6781.TW",
+      "name": "Advanced Energy Solution Holding Co., Ltd.",
+      "summary": "Advanced Energy Solution Holding Co., Ltd. engages in the manufacture and sale of lithium battery modules in Europe, Asia, the Americas, Oceania, China, Taiwan, Vietnam, and Africa. It offers industrial energy storage lithium-ion batteries, power lithium-ion batteries, precision molds, blisters, plastics, and plastic injection moldings; and spare parts, and related after-sales installation and maintenance services. The company also manufactures power generation, transmission, and distribution machinery; wired and wireless communications machinery and equipment; computer and peripheral equipment; automobiles and parts; bicycles and parts; and general instruments. In addition, it manufactures and wholesales electronic materials; provides energy technology services; and imports and exports goods and technology. Further, the company provides technical services, technology development, technical consultation, technical exchange, technology transfer, and technology promotion services; and manufactures and sells plastic products. Advanced Energy Solution Holding Co., Ltd. was incorporated in 2020 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6789": {
+      "symbol": "6789.TW",
+      "name": "VisEra Technologies Company Ltd.",
+      "summary": "VisEra Technologies Company Ltd. engages in the research, design, manufacture, and sale of color filters, microlenses, image sensors, and micro-optical components and modules in Taiwan, the rest of Asia, the United States, and Europe. The company offers optical devices, such as image, light, optical fingerprint, and time-of-flight (ToF) sensors; and color filter and microlens, meta surface, silicon photonics, multi-film, nano-light-pillar, and special process technologies. It also provides process customization, optical simulation, integrated solutions, and wafer-level characterization, as well as wafer-level testing and optical thin film services. The company's products are used in mobile, automotive, augmented and virtual reality, smart home, and biomedical sensor applications. The company was incorporated in 2003 and is headquartered in Hsinchu City, Taiwan. VisEra Technologies Company Ltd. operates as a subsidiary of Taiwan Semiconductor Manufacturing Company Limited.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6691": {
+      "symbol": "6691.TW",
+      "name": "Yankey Engineering Co., Ltd.",
+      "summary": "Yankey Engineering Co., Ltd. offers engineering services in Taiwan, China, and Thailand. The company designs and installs clean room systems, refrigeration and air conditioning systems, and ice-making systems; and sells materials for these systems. It also provides mechanical, electrical, and plumbing turnkey services for commercial office buildings; and high and low voltage transmission system installation, fire protection system, process pipeline system, water supply and drainage system, process exhaust system, and CCTV and security public address system, as well as green energy technology services. Yankey Engineering Co., Ltd. was founded in 1980 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6805": {
+      "symbol": "6805.TW",
+      "name": "Fositek Corp.",
+      "summary": "Fositek Corp. engages in the design and manufacturing of various metal stamping products in Asia, the United States, and Europe. It offers hinge parts for foldable cell phones, notebook and tablet computers. The company was founded in 2001 and is based in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6919": {
+      "symbol": "6919.TW",
+      "name": "Caliway Biopharmaceuticals Co., Ltd.",
+      "summary": "Caliway Biopharmaceuticals Co., Ltd., together with its subsidiaries, engages in the development of drugs for aesthetic medicine and chronic inflammation. The company develops CBL-514, an investigational drug, which is in Phase 2 clinical trial for non-surgical fat reduction and Dercum's disease, as well as for cellulite treatment. It is also developing CBA-539, which is in preclinical stage for central obesity, hyperpigmentation, and skin aging, as well as offers dietary supplements. The company was incorporated in 2012 and is based in New Taipei City, Taiwan.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW7610": {
+      "symbol": "7610.TW",
+      "name": "Lianyou Metals Co., Ltd.",
+      "summary": "Lianyou Metals Co., Ltd. engages in the smelting, manufacturing and selling powder metallurgy products, hardware wholesale components, and international trade activities in Taiwan, Japan, China, and internationally. The company also primarily produces and processes products, such as sodium tungstate, tungsten ingots, cobalt sulfate. The company was founded in 2018 and is based in Pingtung, Taiwan.",
+      "sector": "Basic Materials",
+      "industry": "Other Industrial Metals & Mining",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW7750": {
+      "symbol": "7750.TW",
+      "name": "Syntec Technology Co., Ltd.",
+      "summary": "Syntec Technology Co., Ltd. engages in the research and development, manufacturing, sales, and maintenance of industrial electronic automation controllers in Taiwan, Asia, and internationally. The company also offers design and technical service of maintenance for factory machinery automation systems. Its products include controllers, motors, and encoders, servo products for metalworking, woodworking, laser and other industries. In addition, the company offers machine tools, electronic control equipment, laser equipment, and electrical machinery. Syntec Technology Co., Ltd. was founded in 1995 and is based in Hsinchu City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW6831": {
+      "symbol": "6831.TW",
+      "name": "Taiwan Microloops Corp.",
+      "summary": "Taiwan Microloops Corp. engages in the manufacture and sale of thermal management core components, vapor chambers, and heat sinks and pipes in Taiwan and internationally. Its products are used in information technology, data center, 5G mobile, 5G base station, and electric vehicles. The company was founded in 2003 and is based in New Taipei City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW7769": {
+      "symbol": "7769.TW",
+      "name": "Hon. Precision, Inc.",
+      "summary": "Hon. Precision, Inc. engages in the manufacture and sale of machinery and related components, automatic control equipment engineering, and machinery installations in Taiwan. The company provides automated test sorting machines and related visual AOI/AI computing processing, normal/high/low temperature control, down force, bar code, network, communication, and database products. It also offers handlers, such as the final test, system-level test, flash test, dynamic random access memory test, automatic optical inspection, and micro-electro-mechanical systems test handler; temperature control solution; laboratory development equipment; and burn-in ovens. The company was founded in 1999 and is headquartered in Taichung, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW8021": {
+      "symbol": "8021.TW",
+      "name": "Topoint Technology Co., Ltd.",
+      "summary": "Topoint Technology Co., Ltd., manufactures and markets micro-drills for printed circuit boards, numerically controlled drilling machines, and peripheral equipment in Taiwan, Mainland China, and internationally. The company offers drill and router bit, as well as slot drills. It also provides mechanical and laser drilling services. In addition, the company engages in international investment and trade; sale of electronic products and electronic components; manufacturing and selling precision equipment and measurement facilities; provision of testing of drill bits and mounting plate blot holes; and offers vacuum coating, cutting tools, and processing metal products. Topoint Technology Co., Ltd. was incorporated in 1996 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Tools & Accessories",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW8028": {
+      "symbol": "8028.TW",
+      "name": "Phoenix Silicon International Corporation",
+      "summary": "Phoenix Silicon International Corporation engages in the wafer process service development, wafering, and wafer thinning businesses in Taiwan. It offers wafer reclaim process services and new test wafer products for semiconductor IC manufacturing process monitoring; and wafer thinning products for conduction resistance and ultra-thin wafer, as well as metal film deposition and etching process for front/back sides of wafers and wafer testing. The company was founded in 1986 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW8039": {
+      "symbol": "8039.TW",
+      "name": "Taiflex Scientific Co., Ltd.",
+      "summary": "Taiflex Scientific Co., Ltd., an investment holding company, engages in the manufacture, wholesale, and retail of electronic parts and components in Taiwan, Mainland China, and internationally. The company offers flexible copper-clad laminate and cover layer; generation and selling of electricity from renewables; and FPC materials such as FCCL, coverlay, bonding sheet, and composited materials for battery, industrial control, automotive applications, comprehensive product specifications, FPC circuit protection, and components. It also provides PTFE CCL which is used in antenna and automotive millimeter wave radar applications; and assembly materials. In addition, the company involved in the trading of electronic materials and coating materials for high polymer film and copper foil. The company was incorporated in 1997 and is headquartered in Kaohsiung, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW8046": {
+      "symbol": "8046.TW",
+      "name": "Nan Ya Printed Circuit Board Corporation",
+      "summary": "Nan Ya Printed Circuit Board Corporation manufactures and sells printed circuit boards (PCBs) in Taiwan, the United States, Mainland China, Korea, and internationally. It offers conventional PCBs that are used in the motherboards of desktops and notebooks, and home electrical appliances; high density connector boards that are used in smartphones, game consoles, GPS, PDAs, automobile appliances, and MP3 players; and soft and hard composite boards used in high-end handheld devices and notebook. The company also provides flip chip substrates comprising pin/land grid arrays for microprocessors; and ball grid arrays for graphic chips, northbridge chipsets, high-end ASIC chipsets, and digital TV chipsets. In addition, it offers wire bond substrates for MCP, southbridge chipsets, communication, and networking applications, as well as for use in memory, portable devices, handsets, consumer electronics, and PC peripheral devices. Further, the company provides electronic product sales and investment; ABF (Ajinomoto Build-upFilm) substrate, and PP (Prepreg) substrate businesses. The company was founded in 1997 and is headquartered in Taipei City, Taiwan. Nan Ya Printed Circuit Board Corporation operates as a subsidiary of Nan Ya Plastics Corporation.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW8210": {
+      "symbol": "8210.TW",
+      "name": "Chenbro Micom Co., Ltd.",
+      "summary": "Chenbro Micom Co., Ltd. engages in the research and development, design, manufacture, processing, and sale of computer peripherals and their consumables and main systems in the United States, China, Taiwan, Singapore, Europe, and internationally. It provides barebone servers; and rackmount, tower server, and PC chassis products. The company offers storage expansion kits; and OEM, ODM, JDM services. In addition, it is involved in the software design and engineering activities; and export and import of computer products and peripherals. The company was incorporated in 1983 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TW8996": {
+      "symbol": "8996.TW",
+      "name": "Kaori Heat Treatment Co., Ltd.",
+      "summary": "Kaori Heat Treatment Co., Ltd. engages in the research, development, manufacture, and sale of heat exchanger and thermal energy products in Taiwan, Asia, the United States, Europe, and internationally. The company offers brazed and gasketed plate heat exchangers, methanol fuel cells, hydrogen generators, and automatic methanol mixers; plate heat exchange inverters; brazing and welding products; fuel cell products; and liquid cooling solutions. It also engages in the manufacture and sales of mechanical hardware; and the development, manufacture, and sales of heat exchange products or thermal products. The company serves refrigeration and HVAC, semiconductor and electronics, energy, machinery and manufacturing, marine and transportation, healthcare, and data center industries. The company was incorporated in 1970 and is headquartered in Taoyuan City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWLO": {
+      "symbol": "TWLO",
+      "name": "Twilio Inc.",
+      "summary": "Twilio Inc., together with its subsidiaries, provides customer engagement platform solutions in the United States and internationally. The company provides various application programming interfaces and software solutions for communications between customers and end users, including messaging, voice, email, video interactions, digital engagement centers, marketing campaigns, and user authentication and identity solutions. It also offers software products to build direct and personalized relationships with their end users, such as Segment, a platform that provides tools to harness the power of contextual data by unifying real-time information collected throughout each customer's journey into a unique profile. Twilio Inc. was incorporated in 2008 and is headquartered in San Francisco, California.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "United States",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO1785": {
+      "symbol": "1785.TWO",
+      "name": "Solar Applied Materials Technology Corporation",
+      "summary": "Solar Applied Materials Technology Corporation manufactures, processes, recycles, refines, and trades sputtering for thin film materials, precious metal materials, and automotive chemicals in Taiwan, China, and internationally. It operates through: Taiwan Solar, Kunshan Solar, and Others segments. It offers precious metal chemicals, including gold, potassium, silver cyanide, Tetraammine dichloropalladium, silver potassium cyanide, silver cyanide, and silver nitrate and plate; and precious metal materials consisting of sterling gold and silver, as well as gold, silver, and platinum bullions. It also provides green certified products, such as potassium gold and silver cyanide, gold slug and kilo bar, and ITO-P and R target; precision machining parts for electrochemical deposition, dry etching, ion implanting, and physical vapor deposition; silver alloy and coated bonding wires for semiconductor IC and LED packaging; probe materials for wafer, packaging, PCB, and LED testing; recycling and refining of precious and rare metals; chemical and physical property analysis; and OEM bonding services for bonding process, backplane warpage flating, and bonding layer ultrasonic inspection. In addition, the company sputtering targets for thin film to use in data storage media, optoelectronic and display, semiconductor industry; evaporation slugs and metal thin films for LED, compound semiconductors, displays, quartz oscillator, solar cell, and other industries; and specialty chemicals comprising coolant, brake fluid, liquid coolant solutions, and e-coolant for electric vehicle. Further, it engages in the investment; import and export business; and services in non-destructive testing, certification, and environmental testing, etc. The company was formerly known as Solar Chemical Co., Ltd and changed its name to Solar Applied Materials Technology Corporation in October 1999. Solar Applied Materials Technology Corporation was founded in 1967 and is headquartered in Tainan City, Taiwan.",
+      "sector": "Basic Materials",
+      "industry": "Specialty Chemicals",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3081": {
+      "symbol": "3081.TWO",
+      "name": "LandMark Optoelectronics Corporation",
+      "summary": "LandMark Optoelectronics Corporation engages in the manufacture and sale of optoelectronic semiconductors in Taiwan, China, the United States, and internationally. It also manufactures and sells indium phosphide and gallium arsenide epi-wafers and chips, and laser diode and light-emitting diode products. It serves telecom, data center, consumer, and industrial and medical industries. LandMark Optoelectronics Corporation was incorporated in 1997 and is headquartered in Tainan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO1815": {
+      "symbol": "1815.TWO",
+      "name": "Fulltech Fiber Glass Corp.",
+      "summary": "Fulltech Fiber Glass Corp., together with its subsidiaries, produces and sells fiberglass yarns and fabrics in Taiwan and China. The company operates through Fiberglass Yarn and Fiberglass Fabric segments. It also undertakes the general investment activities; and offers glass and glass products. The company's products are used in desktop and laptop computers, cellular phones, fiber glass fabrics, printed circuit boards, PDA, sailplane, projection cloth, and insulation tube applications. Fulltech Fiber Glass Corp. was founded in 1999 and is headquartered in Douliu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3105": {
+      "symbol": "3105.TWO",
+      "name": "WIN Semiconductors Corp.",
+      "summary": "WIN Semiconductors Corp., together with its subsidiaries, engages in the research and development, manufacturing, marketing, and sales of gallium arsenide (GaAs) wafers in Taiwan, Asia, the United States, and Europe. It offers GaAs monolithic microwave ICs (MMIC) and radio frequency ICs, as well as develops and trades in hog farming technology. The company also provides foundry services, testing services, and design support services, as well as high frequency packaging and final test services. In addition, it engages in investment, logistics management, and marketing activities; research, manufacture, and sale of high-density gene chips, biochip optical readers, and micro-electrophoresis analyzers; and farm feed development and trading activities. Further, the company develops and sells diagnostic tool for endometrial cancer; and offers information software services, biotechnology and pharmaceutical testing, and biotech research and development activities. The company was incorporated in 1999 and is based in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3131": {
+      "symbol": "3131.TWO",
+      "name": "Grand Process Technology Corporation",
+      "summary": "Grand Process Technology Corporation manufactures and sells semiconductor equipment in Taiwan. The company offers single wafer spin processor, batch type wet bench system, and combo system for advanced IC packaging, IC front end of line, and optoelectronics applications. Grand Process Technology Corporation was founded in 1993 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3163": {
+      "symbol": "3163.TWO",
+      "name": "Browave Corporation",
+      "summary": "Browave Corporation engages in the design, manufacture, and sale of optical fiber communication components in Taiwan and internationally. The company's products include wavelength division multiplexing and optical splitter modules; component, such as WDM, amplifier, and optical splitter devices; optical connectors and MPO/MTP jumpers; and optical parts, including fiber arrays, polarization-maintaining connectors, and free space isolators. Its products are used in CATV/FTTH, 5G telecommunication, and data center applications. The company was founded in 1998 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3211": {
+      "symbol": "3211.TWO",
+      "name": "Dynapack International Technology Corporation",
+      "summary": "Dynapack International Technology Corporation manufactures and sells lithium-ion battery packs in Taiwan, the United States, and internationally. The company offers notebook, tablet PC, and mobile, medical product, industry PDA, robot vacuum cleaner, and wireless charging battery packs, as well as power banks. It also provides energy storage system, battery backup unit, and uninterruptible power system. In addition, the company offers E-bike, E-scooter, rail guided vehicle/ automated guided vehicle, rail shuttle car battery, and electric tricycle battery. Further, the company manufactures and sells nickel-metal hydride battery packs, electronic components, wireless communication modules, and various chargers, as well as engages in technical development of power management systems. The company was formerly known as Hwa-Dah International Technology Corporation and changed its name to Dynapack International Technology Corporation in June 2002. Dynapack International Technology Corporation was incorporated in 1998 and is based in Taoyuan City, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Electrical Equipment & Parts",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3260": {
+      "symbol": "3260.TWO",
+      "name": "ADATA Technology Co., Ltd.",
+      "summary": "ADATA Technology Co., Ltd. manufactures and sells memory products worldwide. The company provides computer memory products, solid state drives (SSDs), external SSDs/external hard drives, USB flash drives, memory cards, power banks, USB cables, and AI translators. It also offers axial flux motors, air-cooled motors, liquid-cooled motors, and motor controllers; and LED lighting products. In addition, the company offers notebooks, PC parts and components, peripherals, keyboard, mouse, and headset. Further, it is involved in venue leasing, culture, and education, creative and art and catering, herb cultivation and farm activities; trades in electronic material and components, and car equipment; and wholesale and retail of food products. Additionally, the company engages in design, manufacture, and selling of semiconductor components, as well as research, develops, manufactures, and sells earphones. Furthermore, it is involved in the agricultural biotech related business. The company was incorporated in 2001 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3264": {
+      "symbol": "3264.TWO",
+      "name": "Ardentec Corporation",
+      "summary": "Ardentec Corporation engages in the provision of semiconductor testing solutions in memory, logic, and mixed-signal ICs to integrated device manufacturers, pure play wafer foundry companies, and fabless design companies in the United States, Taiwan, Singapore, Korea, China, Europe, and internationally. It offers testing services, which include engineering services before mass production, such as test engineering consultations and recommendations for design, test plan and test program development, new product introduction process, test program cross-platform conversion, remote tester usage, complete product characterization, and laser program development and analysis; and mass production engineering services, including suggestions and services of test time reduction, yield analysis and enhancement, laser repair yield analysis and improvement, timely retrieval of test data on secured Internet, test program management system, traceable test program management system, test data analysis and periodical report provision, and outlier management services, as well as stable testing services. The company also provides probe card design and consultant, outsourced manufacturing, maintenance and repair capability, and system tracking of usage and maintenance; wafer level chip scale packaging backend process services; and final test and wafer probing platforms. In addition, it offers certification, quality engineering analysis, and quality system and assurance structure services, as well as quality, information security, and hazardous substance free policy services. The company was founded in 1999 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3293": {
+      "symbol": "3293.TWO",
+      "name": "International Games System Co.,Ltd.",
+      "summary": "International Games System Co.,Ltd. plans, designs, researches, develops, manufactures, markets, services, and licenses arcade, online, and mobile games in Taiwan, the United Kingdom, Curacao, and Malta. The company offers arcade games, such as MONSTER EYE 3,ASPHALT MOTO BLITZ DX, SAILOR'S QUEST VR, HYPERCROSS, Rolling Hero, ASPHALT9:LEGENDS ARCADE DX, Train's Party, Shooting Mania2, Ocean Tale, Bounce Fireball, Pacfish, Kickmania, Dolphin Star, Fancy Racing, Royal Archer, Sweet Kart, DINO ROCK, Fluffy Rider - Racing Park, Fruits Carnival, Fluffy Rider - Water Park, Hero of Robots, Captain Sub, DanzBase, CAPYHAMA, FOTOZONE - Back to Jurassic, Power Truck Special, Go Go Pony, Monster Eye, OVERTAKE DX, Power Truck, MOMI DANZ, ULTRAMOTO VR, Speed Rider 3DX, OVERTAKE VR, Monster Eye2, OVERTAKE, Speed Rider 3, and Costume Party games. It also provides mobile games, including Golden HoYeah Slots, Pool Ace, WE5 Dance, and star31 games. In addition, the company is involved in the planning for arcade games software and hardware; development and production of computer software; sale of self-produced products; and provision of computer system integration, advisory service, technical training, and technical services. International Games System Co.,Ltd. was incorporated in 1989 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Communication Services",
+      "industry": "Electronic Gaming & Multimedia",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3363": {
+      "symbol": "3363.TWO",
+      "name": "FOCI Fiber Optic Communications, Inc.",
+      "summary": "FOCI Fiber Optic Communications, Inc. engages in the design, manufacture, design, consulting, service, and marketing of fiber optic components and integrated modules for communication networks primarily in Taiwan. It engages in planning, design, consultation, and technical services for the integration of optical passive components, optical testing instruments, and optical application systems; patch cords, pigtails, couplers, testers, switches, optical controllers, fiber optic communication equipment rooms, components, and accessories; and related consulting and technical services. The company was founded in 1995 and is based in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3324": {
+      "symbol": "3324.TWO",
+      "name": "Auras Technology Co., Ltd.",
+      "summary": "Auras Technology Co., Ltd. engages in the manufacturing, processing, and retailing of electronic materials and computer cooling modules in China, Taiwan, Ireland, Singapore, the United States, and internationally. The company provides servers for Al-GPU, CPU, and switch; notebook for gaming, commercial, and consumer; PC/VGA for industrial computers, as well as robust and reliable cooling solutions; graphics card; motherboards; smartphones/tablets; and electric vehicle. The company was founded in 1998 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3491": {
+      "symbol": "3491.TWO",
+      "name": "Universal Microwave Technology, Inc.",
+      "summary": "Universal Microwave Technology, Inc. manufactures and sells electronic components in Taiwan, Mainland China, Asia, Europe, the United States, and Oceania. The company operates through Microwave/Millimeter Wave Products; Radio Frequency Products; and Communication Network Engineering Services segment. The company offers diplexers and multiplexers, filters, couplers, OMT products, industrial parts, antennas, radio frequency cables, radio frequency connectors, wire harnesses, waveguide and machined components, microwave, high-frequency communication components, antennas, and RF connectors. It also provides remote mount kit; circulator and isolator; interference filter; low-orbit satellites and microsatellites; telecommunications infrastructure equipment components and materials; communication equipment components; and other electronic components. In addition, the company is involved in the general investment businesses, and communication network engineering services. It serves millimeter wave and 5G, satcom and LEO, wireless backhaul, precision machining, and base station. Universal Microwave Technology, Inc. was founded in 1999 and is headquartered in Keelung, Taiwan.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3374": {
+      "symbol": "3374.TWO",
+      "name": "Xintec Inc.",
+      "summary": "Xintec Inc. operates as a wafer level chip scale packaging company in Asia, the United States, and Europe. The company provides wafer level chip scale packaging, wafer-level back cover packaging, and testing services for semiconductors. It also offers optical sensor chip scale packaging services comprising side-wall interconnect and through silicon via XinTSV, various glass thickness and filters, and glass bonding to wafer with or without cavity; FSI/BSI/stack wafer reconstruction for mobile, automotive, and consumer applications; and specialty RW service with a glass lid for automotive applications. In addition, the company provides micro-electromechanical systems sensor packaging services, such as wafer thinning and bonded wafer partial dicing to reveal bonding pad; CSP, using via last TSV to connect pad on wafer surface toward backside; and dry etching silicon to form large cavities to derive product performance needs; as well as 3D I/O redistribution, power ground enhancement, and dual side connection services. Xintec Inc. was founded in 1987 and is headquartered in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3529": {
+      "symbol": "3529.TWO",
+      "name": "eMemory Technology Inc.",
+      "summary": "eMemory Technology Inc. engages in the research, development, manufacturing, and sales of embedded flash memory in Taiwan and internationally. The company offers security products, such as NeoPUF, a hardware security technology; PUFrt, which delivers a secure hardware root of trust; PUFcc, a crypto coprocessor integrating key generation, storage, and encryption; PUFhsm, an embedded hardware security module; and PUFPQC for post-quantum security. It also provides PUF flash series, including SoC, protecting embedded, NAND, and NOR Flash; NeoBit, a programmable logic device; NeoFuse, an anti-fuse solution; NeoEE, a single-poly embedded memory device; NeoMTP, a single-poly embedded memory device; and EcoBit, an ultra-low-power embedded logic MTP solution. In addition, the company offers NeoFlash, a single-poly embedded NVM device; RRAM, an embedded EEPROM/Flash; and MRAM solutions. It serves 5G, AI, automotive, IoT, mobile computing, and security markets. eMemory Technology Inc. was incorporated in 2000 and is headquartered in Jhubei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3595": {
+      "symbol": "3595.TWO",
+      "name": "Alliance Material Co., Ltd.",
+      "summary": "Alliance Material Co., Ltd. provides optical material cutting products in Taiwan. The company also engages in research, develops, manufactures, and sells precision industrial adhesive insulation products, cutting-edge optoelectronic materials, semiconductor process materials, and communication components. In addition, the company offers cutting processing service, light- shielding and reflection tape, functional products, semiconductor products, protection film, foam tape, and optical glue. The company was founded in 1984 and is headquartered in Zhubei, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO3680": {
+      "symbol": "3680.TWO",
+      "name": "Gudeng Precision Industrial Co., Ltd.",
+      "summary": "Gudeng Precision Industrial Co., Ltd. provides technology services worldwide. The company offers wafer handling solutions, including shipping boxes, cassette boxes, wafer cassettes, and front opening wafer transfer boxes, as well as FOUP products; and reticle handling solutions, such as reticle boxes, nikon / canon reticle boxes, RSP 150, RSP 200, EUV PODs, TFT-LCD large size reticle boxes, assembled large-size reticle boxes, and other accessories. It also provides cleaning, inspection, and maintenance services for its reticle and wafer handling products. In addition, it engages in the manufacture, trading, repair, and maintenance of various precision instruments; manufactures and trades various semiconductor components; provides retail, wholesale, and manufacturing of aircraft and parts; development, leasing, and sale of industrial plant, residential, building, and other real estate properties; invests and manages consulting business; piping engineering and electrical installation; sale of plastic and electronic products; sale and maintenance of automobiles; trading of various alcohol and aluminum foil products; mold manufacturing industry, wholesale, and mechanical equipment manufacturing and; provides investment, venture capital, and management consulting services. Gudeng Precision Industrial Co., Ltd. was incorporated in 1998 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO4749": {
+      "symbol": "4749.TWO",
+      "name": "Advanced Echem Materials Company Limited",
+      "summary": "Advanced Echem Materials Company Limited develops and manufactures special chemical materials for semiconductor and display applications in Taiwan, Mainland China, and internationally. The company offers semiconductor materials, including fingerprint on display sensor materials, CMOS image sensor materials, chip on film materials, packaging materials, IC manufacturing materials, and cleaning chemicals. It also provides TFT photo resist and resin black matrix; and micro LED materials. Advanced Echem Materials Company Limited was founded in 2003 and is headquartered in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO4979": {
+      "symbol": "4979.TWO",
+      "name": "LuxNet Corporation",
+      "summary": "LuxNet Corporation, together with its subsidiaries, manufactures, processes, and sells electronic and active components for optical communication in Taiwan. It offers optical communication laser and photodetector diode components, epitaxial wafers and chips, metal-mounted optical sub-modules, single-phase optical sub-modules, bidirectional and tridirectional optical sub-modules, high-speed optical engines, high-speed active fiber optic cables, and fiber optic communication transceiver modules. The company is also involved in the retail sale of electronic materials. Its products are used in internet, data transmission, and cable television applications. LuxNet Corporation was founded in 1999 and is headquartered in Taoyuan City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO4966": {
+      "symbol": "4966.TWO",
+      "name": "Parade Technologies, Ltd.",
+      "summary": "Parade Technologies, Ltd., operates as a fabless semiconductor company in South Korea, China, Taiwan, Japan, and internationally. It engages in research and development, and marketing, and sale of high-speed interface standards, and touch controller and display processing integrated circuit (IC) chips for products used in computers, consumer electronics, and display panels. The company's products portfolio comprises datacenter active copper cables, high-speed interface ICs, including PCI Express/SATA, USBs, DisplayPorts, HDMIs, and protocol converters; display and touch integrated system ICs, such as touch embedded TCONs and source drivers, touch and gate level shifters, embedded DisplayPort timing controllers, display panel source drivers, Tcons with embedded source drivers and touch, touch and display driver integrated products, and DisplayPort LCD monitor controllers; truetouch touch screen controllers; and automotive ICs, such as touch with embedded drivers, USB, display protocol converters, display Tcons, source drivers, and touch, PCI express interface, HDMI interface, and display interface. Parade Technologies, Ltd. was incorporated in 2005 and is based in Grand Cayman, Cayman Islands.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Cayman Islands",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO4991": {
+      "symbol": "4991.TWO",
+      "name": "GCS Holdings, Inc.",
+      "summary": "GCS Holdings, Inc., together with its subsidiaries, manufactures and sells compound semiconductor wafer and foundry related services in China, the United States, Taiwan, and internationally. It also research, develops, manufactures, and sells optoelectronics technology products and optical chips, as well as grants royalty rights and license for intellectual property. The company engages in the wholesaling and retailing of electronic components; provision of product design, research development, and outsourcing management services; manufacturing and selling of semiconductor discrete devices, as well as photodiodes and avalanche photo diodes for telecommunication systems and data communication networks; and manufacturing, wholesaling, and retailing of telecommunication devices. In addition, it provides foundry services for RF/Wireless and Optoelectronics, proprietary optical wafers, and Advanced Optoelectronics Components. GCS Holdings, Inc. was founded in 1997 and is based in Grand Cayman, the Cayman Islands.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Cayman Islands",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO5274": {
+      "symbol": "5274.TWO",
+      "name": "ASPEED Technology Inc.",
+      "summary": "ASPEED Technology Inc. operates as a fabless integrated circuit (IC) design company in Taiwan, China, the United States, and internationally. The company is involved in the design and sales of multimedia IC, computer peripheral IC, and advanced image processing IC. It also offers 2D VGA, BMC, and KVM over IP for server design and manufacturing firms; analog signal amplification and transmission, digital signal transmission, and digital network packet transmission computer peripheral ICs; and AST1230 SoC, a product that integrates real-time multi-image stitching and audio processing capabilities. In addition, the company engages in wholesale of information software; retail and service industry; international trade; intellectual property; product design; and other industrial and commercial services. ASPEED Technology Inc. was incorporated in 2004 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO5289": {
+      "symbol": "5289.TWO",
+      "name": "Innodisk Corporation",
+      "summary": "Innodisk Corporation researches, develops, manufactures, and sales industrial embedded storage devices in Taiwan, Asia, Japan, Germany, China, Europe, the United States, and internationally. The company offers flash storage products, such as solid state drives (SSDs); SATA Slim, nano SSD, compact flash memory card, SATADOM horizontal and vertical, embedded disk card; SD and MicroSD cards; USB and EDC; and CFexpress. It also provides DRAM modules comprising industrial embedded DRAM memory modules, server workstation memory, wide temperature/ultra-temperature, and special customized solutions. In addition, the company offers embedded peripherals comprising Power over Ethernet, Out of band, CANbus, serial, Digital I/O, LAN, Storage, disk arrays, display cards, camera modules, testing tools, InnoEx Virtual I/O, FGPA, and air sensor module; and software solutions. Its products are used in the aerospace, embedded systems, server applications, casino gaming, in-vehicles, ICAP Air, and AIoT, as well as surveillance, automation, networking, healthcare, and retail markets. nnodisk Corporation was founded in 2005 and is headquartered in New Taipei City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Computer Hardware",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO5347": {
+      "symbol": "5347.TWO",
+      "name": "Vanguard International Semiconductor Corporation",
+      "summary": "Vanguard International Semiconductor Corporation, together with its subsidiaries, engages in manufacturing, selling, packaging, testing, and computer-aided design of integrated circuits and other semiconductor devices in Taiwan and internationally. The company offers various foundry process technologies, including high voltage, ultra-high voltage, bipolar CMOS DMOS, silicon on insulator, discrete, sensors, micro electro mechanical system, and embedded flash, as well as manufactures and sells masks. It also offers multiple project wafer services; mask services comprising frame generation, mask making, tape out/itapeout, and mask repairing; backend services, including front-side metallization, back side grinding and metallization, chip probe, GaN back end, WLCSP and RDL, and backend solutions; and automotive services, as well as provides intelligent manufacturing and management services. Vanguard International Semiconductor Corporation was incorporated in 1994 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO5351": {
+      "symbol": "5351.TWO",
+      "name": "Etron Technology, Inc.",
+      "summary": "Etron Technology, Inc. designs, produces, and sells various integrated circuits in Taiwan, Asia, and internationally. The company offers commercial DRAMs (dynamic random access memory) for high-bandwidth and low-power consumption products, including computer peripherals, communication, and consumer products; industrial DRAMs that are used in surveillance, point of sale systems, smart meters, programmable logic controllers, and human-machine interface platforms; innovative DRAMs for AI, 5G, cloud computing, and automotive; and automotive DRAMs for use in CDs, DVDs, automotive HDDs, navigation products, instrument clusters, audios, automotive cameras, automotive infotainments, and advanced driver assistance systems. It also provides known-good-die-memory integrated circuits and non-volatile flash memory solutions; USB connectivity; and 3D sensing solutions. Etron Technology, Inc. was founded in 1991 and is headquartered in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO5536": {
+      "symbol": "5536.TWO",
+      "name": "Acter Group Corporation Limited",
+      "summary": "Acter Group Corporation Limited provides engineering services in Taiwan, Vietnam, Singapore, Malaysia, and internationally. The company offers clean room engineering services for controlling dust particles in the air and controls temperature, humidity, airflow mode, vibration, noise and other environmental factors; MEP/ HVAC services for signal transmission and feedback control methods; turnkey project services, such as design, planning, procurement, subcontracting, construction management; ventilation engineering services; temperature and humidity monitoring services; and maintenance engineering, comprising repairing, maintaining and cleaning of host equipment, air-conditioning box, and small air-feeder. It also provides environmental engineering, including organizing the effluent and exhaust systems using the pipes; processing water required by production; preventing pollutions caused by effluent, acid gas and alkali gas produced during the process; and providing design, construction, installation, and testing services based on industry characteristics and demand. In addition, the company is involved in equipment sales, pipelines assembly, semiconductor industry automation supply, and system business contracting and design; refrigeration and air conditioning engineering and equipment installation; overseas investment holding; commissioned construction, rent, and sale of commercial buildings; automated supply system business; design and manufacture of gas cabinets, valve boxes, and liquid transport cabinets; chemical supply system business; and mechanical and electrical machinery and related equipment trading. Acter Group Corporation Limited was incorporated in 1979 and is headquartered in Taichung, Taiwan.",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO5483": {
+      "symbol": "5483.TWO",
+      "name": "Sino-American Silicon Products Inc.",
+      "summary": "Sino-American Silicon Products Inc. engages in the research and development, design, manufacturing, and sale of semiconductor silicon materials and related components, varistors, optoelectronics, and communication wafer materials. The company operates through Semiconductor Business Group, Renewable Energy, and Automotive Components segments. It provides multi-crystalline silicon materials, pseudo square mono crystalline wafers, multi crystalline wafers, and solar cells and modules. The company also offers technology and management consulting services; and photovoltaic power generation system integration and installation technical services. In addition, it is involved in device manufacturing and trading; power generation business; energy technology services; semiconductor specialty gases and chemical materials manufacturer; gallium arsenide chip manufacturing and trading; automotive semiconductor manufacturing and sales; battery manufacturing industry; solar module manufacturing and sales, wholesale of electronic materials; energy technology services; energy storage system service business; manufacturing and sales of optoelectronic and communication material substrates; sales and marketing business; trade in epitaxial wafers; manufacturing of electronic components and automotive parts; information software services and other design businesses; research and development and design of electronic components; and research, design, manufacturing, and sales of liquid crystal display driver integrated circuits and other application-specific integrated circuits. It operates in Taiwan, Japan, Korea, the United States, Italy, the Philippines, and internationally. The company was incorporated in 1981 and is based in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductor Equipment & Materials",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "TWO6147": {
+      "symbol": "6147.TWO",
+      "name": "Chipbond Technology Corporation",
+      "summary": "Chipbond Technology Corporation, together with its subsidiaries, engages in the research, development, manufacture, and sale of driver IC and non-driver IC packaging and testing services in Taiwan and internationally. The company offers back and front side metallization processing services; bumping manufacturing services, including gold, solder, and copper bumping services; redistribution layer services; test services; and die processing services, such as wafer grinding/thinning, dicing, and tape-and-reel processes, as well as chip-on-film, chip on glass, chip-on-plastic, packaging attachment, and wafer level chip scale packaging services. It also provides compound semiconductors including SiGe, GaAs, GaN, SiC, and other wafers; flexible tape-and-reel circuit substrate; and chip tray. In addition, it develops, manufactures, packages, tests, sells, and after-sale services of integrated circuit and special materials for semiconductors; invests in, develops, manufactures, and sells electronic components; and manufactures and sales elements. Chipbond Technology Corporation was incorporated in 1997 and is based in Hsinchu City, Taiwan.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "updated": "2026-11-03",
+      "source": "Yahoo Finance via yfinance"
     }
   }
 }

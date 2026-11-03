@@ -1,39 +1,39 @@
 {
   "schema": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-11-02",
   "flags": [
     {
       "id": "spy",
       "label": "SPY below its 200-day average",
       "active": false,
-      "reading": "755.72 vs 728.85"
+      "reading": "752.10 vs 729.15"
     },
     {
       "id": "vix",
       "label": "VIX above VIX3M",
-      "active": false,
-      "reading": "19.42 vs 20.78"
+      "active": null,
+      "reading": "No matching-date observation"
     },
     {
       "id": "breadth",
       "label": "Fewer than 40% above the 50-day average",
       "active": false,
-      "reading": "60.6% of eligible S&P 500 stocks"
+      "reading": "67.4% of eligible S&P 500 stocks"
     },
     {
       "id": "sectors",
       "label": "Three or more bearish sectors",
       "active": false,
-      "reading": "1 of 11 sectors"
+      "reading": "2 of 11 sectors"
     }
   ],
   "active": 0,
-  "known": 4,
-  "status": "No flags",
+  "known": 3,
+  "status": "Incomplete data",
   "sectors": [
     {
       "symbol": "XLK",
-      "bearish": false
+      "bearish": true
     },
     {
       "symbol": "XLC",
@@ -76,9 +76,9 @@
       "bearish": false
     }
   ],
-  "ratio": 1.070030895983522,
-  "vix": 19.42,
-  "vix3m": 20.78,
+  "ratio": null,
+  "vix": null,
+  "vix3m": null,
   "history": [
     {
       "date": "2026-05-12",
