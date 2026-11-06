@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "updated": "2026-11-02",
+  "updated": "2026-11-05",
   "flags": [
     {
       "id": "spy",
       "label": "SPY below its 200-day average",
       "active": false,
-      "reading": "752.10 vs 729.15"
+      "reading": "733.13 vs 730.15"
     },
     {
       "id": "vix",
@@ -18,16 +18,16 @@
       "id": "breadth",
       "label": "Fewer than 40% above the 50-day average",
       "active": false,
-      "reading": "67.4% of eligible S&P 500 stocks"
+      "reading": "63.0% of eligible S&P 500 stocks"
     },
     {
       "id": "sectors",
       "label": "Three or more bearish sectors",
-      "active": false,
-      "reading": "2 of 11 sectors"
+      "active": true,
+      "reading": "3 of 11 sectors"
     }
   ],
-  "active": 0,
+  "active": 1,
   "known": 3,
   "status": "Incomplete data",
   "sectors": [
@@ -49,7 +49,7 @@
     },
     {
       "symbol": "XLE",
-      "bearish": false
+      "bearish": true
     },
     {
       "symbol": "XLF",
@@ -80,18 +80,6 @@
   "vix": null,
   "vix3m": null,
   "history": [
-    {
-      "date": "2026-05-12",
-      "ratio": 1.169538632573652
-    },
-    {
-      "date": "2026-05-13",
-      "ratio": 1.1852266368214885
-    },
-    {
-      "date": "2026-05-14",
-      "ratio": 1.2079953650057937
-    },
     {
       "date": "2026-05-15",
       "ratio": 1.1589799240368963
@@ -559,11 +547,23 @@
     {
       "date": "2026-10-30",
       "ratio": 1.070030895983522
+    },
+    {
+      "date": "2026-11-02",
+      "ratio": 1.021276595744681
+    },
+    {
+      "date": "2026-11-03",
+      "ratio": 1.0211233797407586
+    },
+    {
+      "date": "2026-11-04",
+      "ratio": 1.131848284166165
     }
   ],
   "tmt_momentum": {
-    "updated": "2026-11-02",
-    "reading": -55.9,
+    "updated": "2026-11-05",
+    "reading": -60.7,
     "names": 434,
     "low": {
       "date": "2001-01-31",
@@ -6171,8 +6171,8 @@
         -53.8
       ],
       [
-        "2026-11-02",
-        -55.9
+        "2026-11-05",
+        -60.7
       ]
     ]
   }
