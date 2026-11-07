@@ -228,7 +228,7 @@
       "sector": "Financial Services",
       "industry": "Asset Management",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "A": {
@@ -238,7 +238,7 @@
       "sector": "Healthcare",
       "industry": "Diagnostics & Research",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "AA": {
@@ -248,7 +248,7 @@
       "sector": "Basic Materials",
       "industry": "Aluminum",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "AAL": {
@@ -258,7 +258,7 @@
       "sector": "Industrials",
       "industry": "Airlines",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "AAOI": {
@@ -268,7 +268,7 @@
       "sector": "Technology",
       "industry": "Communication Equipment",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "AAON": {
@@ -278,7 +278,7 @@
       "sector": "Industrials",
       "industry": "Building Products & Equipment",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "AAP": {
@@ -288,17 +288,17 @@
       "sector": "Consumer Cyclical",
       "industry": "Auto Parts",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "AAPL": {
       "symbol": "AAPL",
       "name": "Apple Inc.",
-      "summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allows customers to discover and download applications and digital content, such as books, music, video, games, and podcasts, as well as advertising services include third-party licensing arrangements and its own advertising platforms. In addition, the company offers various subscription-based services, such as Apple Arcade, a game subscription service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience with on-demand radio stations; Apple News+, a subscription news and magazine service; Apple TV, which offers original content and live sports; Apple Card, a co-branded credit card; and Apple Pay, a cashless payment service, as well as licenses its intellectual property. The company serves consumers, and small and mid-sized businesses; and the education, enterprise, and government markets. It distributes third-party applications for its products through the App Store. The company also sells its products through its retail and online stores, and direct sales force; and third-party cellular network carriers and resellers. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
+      "summary": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories, including Apple Watch, AirPods, Beats products, Apple Vision Pro, Apple TV 4K, HomePod, and Apple HomeView, as well as Apple branded and third-party accessories. It also provides advertising services comprising third-party licensing arrangements and own advertising platforms; AppleCare and cloud services; and payment services, including Apple Card and Apple Pay. In addition, the company operates App Store that allow customers to discover and download applications and digital content, such as books, music, video, games, and podcasts. Further, it provides digital content through subscription-based services, including Apple Arcade, a game service; Apple Fitness+, a personalized fitness service; Apple Music, which offers users a curated listening experience; Apple News+, a news and magazine service; and Apple TV, which offers original content and live sports. The company sells its products and resells third-party products through its retail and online stores, and direct sales force; its services through its various service platforms; and third-party cellular network carriers and other resellers. It serves consumer, small and mid-sized business, education, enterprise, and government markets. The company operates in North and South America, European countries, India, the Middle East, Africa, China mainland, Hong Kong, Taiwan, Japan, Australia, New Zealand, and rest of Asia. The company was formerly known as Apple Computer, Inc. and changed its name to Apple Inc. in January 2007. Apple Inc. was founded in 1976 and is headquartered in Cupertino, California.",
       "sector": "Technology",
       "industry": "Consumer Electronics",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ABCB": {
@@ -308,7 +308,7 @@
       "sector": "Financial Services",
       "industry": "Banks - Regional",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ABBV": {
@@ -318,7 +318,7 @@
       "sector": "Healthcare",
       "industry": "Drug Manufacturers - General",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ABCL": {
@@ -328,7 +328,7 @@
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "country": "Canada",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ABG": {
@@ -338,7 +338,7 @@
       "sector": "Consumer Cyclical",
       "industry": "Auto & Truck Dealerships",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ABM": {
@@ -348,7 +348,7 @@
       "sector": "Industrials",
       "industry": "Specialty Business Services",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ABNB": {
@@ -358,7 +358,7 @@
       "sector": "Consumer Cyclical",
       "industry": "Travel Services",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ABSI": {
@@ -368,7 +368,7 @@
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ABT": {
@@ -378,7 +378,7 @@
       "sector": "Healthcare",
       "industry": "Medical Devices",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ABVX": {
@@ -388,27 +388,27 @@
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "country": "France",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ACA": {
       "symbol": "ACA",
-      "name": "Arcosa, Inc.",
+      "name": "Arcosa Inc",
       "summary": "Arcosa, Inc., together with its subsidiaries, provides infrastructure-related products and solutions for the construction, engineered structures, and transportation markets in the United States. The company operates through three segments: Construction Products, Engineered Structures, and Transportation Products. The Construction Products segment offers natural and recycled aggregates; specialty materials; and construction site support equipment, including trench shields and shoring products for residential and non-residential construction, and specialty and other products, as well as for infrastructure construction. The Engineered Structures segment offers utility structures, wind towers, traffic and lighting structures, and telecommunication structures for electricity transmission and distribution, wind power generation, highway road construction, and wireless communication markets. This segment also sells its products to contractors and distributors serving state Departments of Transportation and state and municipality agencies. The Transportation Products segment offers inland barges, fiberglass barge covers, winches, marine hardware, and other transportation and industrial equipment to the commercial marine transportation companies, lessors, and industrial shippers. Arcosa, Inc. was incorporated in 2018 and is headquartered in Dallas, Texas.",
       "sector": "Industrials",
       "industry": "Engineering & Construction",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ACAD": {
       "symbol": "ACAD",
-      "name": "ACADIA Pharmaceuticals Inc.",
+      "name": "Acadia Pharmaceuticals Inc.",
       "summary": "ACADIA Pharmaceuticals Inc., a biopharmaceutical company, focuses on the development and commercialization of medicines for neurological and rare disease in North America. The company offers NUPLAZID (pimavanserin), a selective serotonin inverse agonist/antagonist for the treatment of hallucinations and delusions associated with Parkinson's disease psychosis; and DAYBUE, a novel synthetic analog of the amino-terminal tripeptide of insulin-like growth factor 1 to treat the symptoms of Rett syndrome by reducing neuroinflammation and supporting synaptic function. It also develops remlifanserin, which is in phase 2 clinical trial for the treatment of alzheimer's disease psychosis and lewy body dementia psychosis; ACP-211, which is in phase 2 clinical trial to treat major depressive disorder; ACP-711, which is in phase I clinical trial for the treatment of essential tremor; and ACP-271, a GPR88 agonist for the treatment of tardive dyskinesia and huntington's disease and is in phase I trial. In addition, the company develops ACP-2591, a cGP analogue which is in Phase 1 clinical trial to treat rett syndrome and fragile X syndrome; and STOKE Antisense Oligonucleotide Program, which is in discovery program for SYNGAP1 syndrome. It has a license agreement with Neuren Pharmaceuticals Limited to trofinetide for Rett syndrome and other indications; and a license and collaboration agreement with Stoke Therapeutics, Inc. to discover, develop, and commercialize novel RNA-based medicines for the potential treatment of severe and rare genetic neurodevelopmental diseases of the CNS. The company was formerly known as Receptor Technologies, Inc. and changed its name ACADIA Pharmaceuticals Inc. in 1997. ACADIA Pharmaceuticals Inc. was incorporated in 1993 and is headquartered in San Diego, California.",
       "sector": "Healthcare",
       "industry": "Biotechnology",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ACGL": {
@@ -418,7 +418,7 @@
       "sector": "Financial Services",
       "industry": "Insurance - Diversified",
       "country": "Bermuda",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ACHR": {
@@ -428,7 +428,7 @@
       "sector": "Industrials",
       "industry": "Aerospace & Defense",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ACHC": {
@@ -438,7 +438,7 @@
       "sector": "Healthcare",
       "industry": "Medical Care Facilities",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ACIW": {
@@ -448,7 +448,7 @@
       "sector": "Technology",
       "industry": "Software - Infrastructure",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ACI": {
@@ -458,7 +458,7 @@
       "sector": "Consumer Defensive",
       "industry": "Grocery Stores",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ACLS": {
@@ -468,7 +468,7 @@
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ACM": {
@@ -478,17 +478,17 @@
       "sector": "Industrials",
       "industry": "Engineering & Construction",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ACN": {
       "symbol": "ACN",
       "name": "Accenture plc",
-      "summary": "Accenture plc provides strategy and consulting, industry X, song, and technology and operation services in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It offers systems integration and application management; security; intelligent platform; infrastructure; software engineering; data, AI, cloud; and automation and global delivery services. The company also operates business processes for specific enterprise functions, including finance and accounting, sourcing and procurement, supply chain, marketing and sales, and human resources, as well as industry-specific services, such as platform trust and safety, banking, insurance, network and health services; and designs, manufactures, and assembles automation equipment, robotics, and other commercial hardware products. It serves communications, media, and technology; financial services; banking and capital markets, and insurance; health and public service; consumer goods, retail, travel services; industrial; life science; and chemicals, natural resources, energy, and utilities sectors. Accenture plc has collaboration with Amazon Web Services (AWS) to deliver transformative digital services to public sector, defense, and national security organizations. It has a collaboration with OpenAI to help enterprise clients unlock new levels of innovation and growth by bringing agentic AI systems; has a strategic collaboration with Microsoft and Avanade for the development of an agentic factory intelligence system; and INFRONEER Holdings Inc. and SAP Japan Co., Ltd. to develop a new financial data and insights platform. It also has strategic partnership with Netomi, Inc. to help enterprises reinvent customer experience using agentic AI systems. The company has a strategic alliance with ServiceNow for integrated risk management and third-party risk management solutions. Accenture plc was founded in 1951 and is based in Dublin, Ireland.",
+      "summary": "Accenture plc provides consulting and managed services in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It offers artificial intelligence and data; cloud consulting; cybersecurity consulting; digital engineering and manufacturing; ecosystem partners; emerging technology; finance and risk management consulting; infrastructure and capital projects; digital learning; supply chain consulting; technology consulting; sustainability consulting; and metaverse solutions, as well as customer services. The company also provides proprietary assets and platforms, such as GenWizard, SynOps and reinvention.AI to clients. It serves aerospace and defense, automotive, banking, capital markets, chemicals, communications and media, consumer goods and services, energy, health, high tech, industrial, insurance, life sciences, natural resources, private equity, public service, retail, software and platforms, travel, and utilities industries. Accenture plc was founded in 1951 and is based in Dublin, Ireland.",
       "sector": "Technology",
       "industry": "Information Technology Services",
       "country": "Ireland",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ACMR": {
@@ -498,17 +498,17 @@
       "sector": "Technology",
       "industry": "Semiconductor Equipment & Materials",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ACVA": {
       "symbol": "ACVA",
-      "name": "ACV Auctions Inc.",
-      "summary": "ACV Auctions Inc. provides a wholesale auction marketplace to facilitate business-to-business used vehicle sales between a selling and buying dealership. The company offers marketplace platform includes digital marketplace that connects buyers and sellers by providing auctions, which facilitates real-time transactions of wholesale vehicles; Run List for pre-filtering and pre-screening of vehicles up to 24 hours prior to an auction taking place; ACV transportation service to enable the buyers to see real-time transportation quotes; ACV capital, a short-term inventory financing services for buyers to purchase vehicles; and Go Green customer assurance services for claims against defects in the vehicle. It also provides remarketing centers, which offers value-added services, such as vehicle reconditioning and storage to facilitate auction business with commercial partners, such as fleet, rental car, and financial sector consignors. In addition, the company offers data services, including True360 report, which provides cosmetic and structural vehicle assessments integrated into vehicle history reports for dealer to make wholesale and retail transaction decisions on and off the marketplace; ACV market report provides transaction data and condition reports for comparable used vehicles, including pricing data from third-party sources and allows dealers to determine pricing and valuation strategies for used vehicles; and ACV MAX inventory management software that enables dealers to manage their inventory and set pricing while turning vehicles. Further, it provides data and technology through inspection, such as condition reports, virtual lift solutions, Apex device, and vehicle intelligence platform; and marketplace enablement, comprising MyACV application, private marketplaces, operations automation, live appraisals, and programmatic buying service. ACV Auctions Inc. was incorporated in 2014 and is headquartered in Buffalo, New York.",
+      "name": "ACV Auctions Inc",
+      "summary": "ACV Auctions Inc. provides a wholesale auction marketplace to facilitate business-to-business used vehicle sales between a selling and buying dealership. The company offers marketplace platform includes digital marketplace that connects buyers and sellers by providing auctions, which facilitates real-time transactions of wholesale vehicles; Run List for pre-filtering and pre-screening of vehicles up to 24 hours prior to an auction taking place; ACV transportation service to enable the buyers to see real-time transportation quotes; ACV capital, a short-term inventory financing services for buyers to purchase vehicles; and Go Green customer assurance services for claims against defects in the vehicle. It also provides remarketing centers, which offers value-added services, such as vehicle reconditioning and storage to facilitate auction business with commercial partners, such as fleet, rental car, and financial sector consignors. In addition, the company offers data services, including True360 report, which provides cosmetic and structural vehicle assessments integrated into vehicle history reports for dealer to make wholesale and retail transaction decisions on and off the marketplace; ACV market report provides transaction data and condition reports for comparable used vehicles, including pricing data from third-party sources and allows dealers to determine pricing and valuation strategies for used vehicles; and ACV MAX inventory management software that enables dealers to manage their inventory and set pricing while turning vehicles. Further, it provides data and technology through inspection, such as condition reports, virtual lift solutions, Apex device, and vehicle intelligence platform; and marketplace enablement, comprising MyACV application, private marketplaces, operations automation, live appraisals, and programmatic buying service. ACV Auctions Inc. was incorporated in 2014 and is headquartered in Buffalo, New York. As of October 15, 2026, ACV Auctions Inc. operates as a subsidiary of Copart, Inc.",
       "sector": "Consumer Cyclical",
       "industry": "Auto & Truck Dealerships",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ADBE": {
@@ -518,7 +518,7 @@
       "sector": "Technology",
       "industry": "Software - Application",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ADEA": {
@@ -528,17 +528,17 @@
       "sector": "Technology",
       "industry": "Software - Application",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ADC": {
       "symbol": "ADC",
       "name": "Agree Realty Corporation",
-      "summary": "Agree Realty Corporation is a publicly traded real estate investment trust. The Firm is Rethinking Retail through the acquisition and development of properties net leased to industry-leading, omni-channel retail tenants. As of June 30, 2026, the Company owned and operated a portfolio of 2,825 properties, located in all 50 states and containing approximately 59.6 million square feet of gross leasable area. Agree Realty Corporation was incorporated in 1971 and is based in Royal Oak, United States.",
+      "summary": "Agree Realty Corporation is a publicly traded real estate investment trust. The Firm is Rethinking Retail through the acquisition and development of properties net leased to industry-leading, omni-channel retail tenants. As of September 30, 2026, the Company owned and operated a portfolio of 2,888 properties, located in all 50 states and containing approximately 61.1 million square feet of gross leasable area. Agree Realty Corporation was incorporated in 1971 and is based in Royal Oak, United States.",
       "sector": "Real Estate",
       "industry": "REIT - Retail",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ADI": {
@@ -548,7 +548,7 @@
       "sector": "Technology",
       "industry": "Semiconductors",
       "country": "United States",
-      "updated": "2026-09-17",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     },
     "ADM": {
@@ -26439,6 +26439,486 @@
       "industry": "Oil & Gas Equipment & Services",
       "country": "United States",
       "updated": "2026-11-06",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "BWET": {
+      "symbol": "BWET",
+      "name": "Breakwave Tanker Shipping ETF",
+      "summary": "Freight Futures reflect market expectations for the future cost of transporting crude oil. Each Reference index is published each United Kingdom business day by the London-based Baltic Exchange Ltd. and measures the charter rate for shipping crude oil in a specific size category of cargo ship and for a specific route.",
+      "sector": null,
+      "industry": null,
+      "country": null,
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "EFC": {
+      "symbol": "EFC",
+      "name": "Ellington Financial Inc.",
+      "summary": "Ellington Financial Inc., through its subsidiary, Ellington Financial Operating Partnership LLC, acquires and manages mortgage-related, consumer-related, corporate-related, and other financial assets in the United States. It operates in two segments, Investment Portfolio and Longbridge. The company acquires and manages residential mortgage-backed securities (RMBS) backed by prime jumbo, Alt-A, non-QM, manufactured housing, subprime residential, and single-family-rental mortgage loans; RMBS for which the principal and interest payments are guaranteed by the U.S. government agency or the U.S. government-sponsored entity; residential and commercial mortgage loans; residential mortgage-backed securities; commercial mortgage-backed securities; consumer loans and asset-backed securities backed by consumer loans; investments referencing mortgage servicing rights on traditional forward mortgage loans; collateralized loan obligations; non-mortgage- and mortgage-related derivatives; debt and equity investments in loan origination companies; and other strategic investments. It also offers reverse mortgage loans, including associated financial assets, financing, hedging, and allocated expenses. The company qualifies as a real estate investment trust (REIT) for federal income tax purposes that intends to distribute at least 90% of its taxable income as dividends to shareholders. Ellington Financial Inc. was incorporated in 2007 and is headquartered in Old Greenwich, Connecticut.",
+      "sector": "Real Estate",
+      "industry": "REIT - Mortgage",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "BASF": {
+      "symbol": "BAS.DE",
+      "name": "BASF SE",
+      "summary": "BASF SE operates as a chemical company worldwide. It operates through six segments: Chemicals, Materials, Industrial Solutions, Surface Technologies, Nutrition & Care, and Agricultural Solutions. The Chemicals segment provides petrochemicals and intermediates. The Materials segment offers advanced materials and their precursors for applications and systems comprising isocyanates, polyamides, and inorganic basic products, as well as specialties for the plastics and plastics processing industries. The Industrial Solutions segment develops and markets ingredients and additives for industrial applications, such as polymer dispersions, resins, additives, chemical and refining catalysts, electronic materials, and antioxidants for automotive, petrochemical and petroleum processing, plastics and electronics, construction, electronics, paper coatings, and energy and resources industries. The Surface Technologies segment provides catalysts, battery materials, automotive OEM and refinish coatings, surface treatment, and precious and base metal services for the automotive and chemical industries. The Nutrition & Care segment offers ingredients for consumer applications in the areas of nutrition, home, and personal care applications; and serves the food and feed producers, pharmaceutical, cosmetics, detergents, and cleaner industries, as well as the consumer goods sector. The Agricultural Solutions segment provides seeds and traits, and seed treatment products; fungicides, herbicides, insecticides, and biological crop protection products; and digital solutions. The company engages in engineering and other; rental and leasing; and renewable energy trading, commodity trading activities. BASF SE was founded in 1865 and is headquartered in Ludwigshafen am Rhein, Germany.",
+      "sector": "Basic Materials",
+      "industry": "Chemicals",
+      "country": "Germany",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SCHNEIDER": {
+      "symbol": "SU.PA",
+      "name": "Schneider Electric S.E.",
+      "summary": "Schneider Electric S.E. engages in the energy management and industrial automation businesses worldwide. The company offers inverters, mounting frames, solar panels, other solar equipment, wind farm microgrid, and others; building management systems; power metering systems for buildings; smart monitoring and regulation of electricity or heat in buildings, such as thermostats and controls for lighting systems; cooling systems; insulating products; UPS; transmission and distribution wiring devices for wiring electrical circuits; low voltage electrical products, equipment, and systems; medium voltage switchgears and control gears; demand response and load shifting equipment, systems, and services; communication, software and control equipment, products, systems, and services for energy; and variable speed drives. It also provides modernization and maintenance services for rail transport infrastructure, zero-emissions road transport, infrastructure required for operating urban transport, low-carbon port and airport infrastructure, and electrification and ports' operations; energy management equipment and projects; service plans related to building management and power metering systems in buildings; software and data-driven solutions for building design, planning, and construction; technical consultations, such as energy audits, simulations, and trainings; energy management services; energy performance contracts; leakage control technologies for water supply systems; real-time network modeling and optimization; leakage calculation, control, and reporting; electrical and electronic equipment; remote monitoring and predictive maintenance systems; lifecycle performance management software; product repairing, refurbishing, or remanufacturing services; spare parts; and software as a service. Schneider Electric S.E. was founded in 1836 and is headquartered in Rueil-Malmaison, France.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "France",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "THUNGELA": {
+      "symbol": "TGA.L",
+      "name": "Thungela Resources Limited",
+      "summary": "Thungela Resources Limited engages in the mining and production of thermal coal in South Africa and Australia. It owns interests in and produces its thermal coal from mining operations, consisting of underground and open cast mines in the Mpumalanga province of South Africa, including Greenside colliery, Khwezela colliery, Zibulo colliery, Mafube colliery, and Annea colliery. The company also holds 100% of the Ensham Mine located in Queensland, Australia. It also exports its products to Southeast Asian, the Middle East, and African markets. Thungela Resources Limited was founded in 1945 and is based in Johannesburg, South Africa.",
+      "sector": "Energy",
+      "industry": "Thermal Coal",
+      "country": "South Africa",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "WD": {
+      "symbol": "WD",
+      "name": "Walker & Dunlop, Inc.",
+      "summary": "Walker & Dunlop, Inc., through its subsidiaries, originates, sells, and services a range of multifamily and other commercial real estate financing products and services for owners and developers of real estate in the United States. The company operates through three segments: Capital Markets, Servicing & Asset Management, and Corporate. The company offers first mortgage, second trust, supplemental, construction, mezzanine, preferred equity, and small-balance loans. It also provides finance for multifamily, manufactured housing communities, student housing, affordable housing, small balance loans, and senior housing properties under the Fannie Mae's Delegated Underwriting and Servicing program and Freddie Mac; and construction and permanent loans to developers and owners of multifamily housing, affordable housing, senior housing, and healthcare facilities. In addition, the company acts as a debt broker to work with life insurance companies, banks, and other institutional investors to find debt and/or equity solution for the borrowers' needs; and offers property sales brokerage services to owners and developers of multifamily properties, and commercial real estate and multifamily property appraisals for various investors. Further, it provides multifamily appraisal and valuation services; and real estate-related investment banking and advisory services, including housing market research. Additionally, the company offers servicing and asset-managing the portfolio of loans; originates loans through its principal lending and investing activities; and manages third-party capital invested in tax credit equity funds focused on the LIHTC sector and other commercial real estate sectors. Walker & Dunlop, Inc. was founded in 1937 and is headquartered in Bethesda, Maryland.",
+      "sector": "Financial Services",
+      "industry": "Mortgage Finance",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "WTW": {
+      "symbol": "WTW",
+      "name": "Willis Towers Watson Public Limited Company",
+      "summary": "Willis Towers Watson Public Limited Company operates as an advisory, broking, and solutions company worldwide. The company operates through two segments: Health, Wealth & Career and Risk & Broking. It offers strategy and design consulting, plan management service and support, broking and administration services for health, wellbeing, and other group benefit programs, including medical, dental, disability, life, voluntary benefits, and other coverages; actuarial support, plan design, and administrative services for pension and retirement savings plans; retirement consulting services and solutions; and integrated solutions that consists of investment discretionary management, pension administration, core actuarial, and communication and change management assistance services. The company also provides advice, data, software, and products to address clients' total rewards and talent issues; and risk advice, insurance brokerage, and consulting services in the areas of property and casualty, affinity, risk and analytics, aerospace, construction, global markets direct and facultative, financial, executive and professional risks, credit risk solutions, crisis management, surety, marine, and natural resources. In addition, it offers software and technology, risk and capital management, products and product pricing, financial and regulatory reporting, financial and capital modeling, M&A, outsourcing, and business management services. The company was formerly known as Willis Group Holdings Public Limited Company and changed its name to Willis Towers Watson Public Limited Company in January 2016. Willis Towers Watson Public Limited Company was founded in 1828 and is based in London, the United Kingdom.",
+      "sector": "Financial Services",
+      "industry": "Insurance Brokers",
+      "country": "United Kingdom",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "WULF": {
+      "symbol": "WULF",
+      "name": "TeraWulf Inc.",
+      "summary": "TeraWulf Inc., together with its subsidiaries, owns, develops, operates digital infrastructure in the United States. It also develops and operates bitcoin mining facilities for bitcoin mining and high-performance computing workloads, leveraging clean, cost-effective, and reliable energy. The company was founded in 2021 and is headquartered in Easton, Maryland.",
+      "sector": "Financial Services",
+      "industry": "Capital Markets",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "WU": {
+      "symbol": "WU",
+      "name": "The Western Union Company",
+      "summary": "The Western Union Company provides money movement payments, and digital financial services in the United States and internationally. It operates through two segments, Consumer Money Transfer and Consumer Services. The Consumer Money Transfer segment facilitates money transfers for international cross-border and intra-country transfers, primarily through a network of retail agents and owned locations, as well as through websites and mobile devices. The Consumer Services segments offers bill payment services, money order and media network services, travel money services, check acceptance services, prepaid cards, lending partnerships, and digital wallets. The company was founded in 1851 and is headquartered in Denver, Colorado.",
+      "sector": "Financial Services",
+      "industry": "Credit Services",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "WWD": {
+      "symbol": "WWD",
+      "name": "Woodward, Inc.",
+      "summary": "Woodward, Inc. designs, manufactures, and services control solutions for the aerospace and industrial markets worldwide. It operates through two segments, Aerospace and Industrial. The Aerospace segment offers fuel pumps, metering units, actuators, air valves, specialty valves, fuel nozzles, and thrust reverser actuation systems for turbine engines and nacelles, as well as flight deck controls, actuators, servocontrols, motors, and sensors for aircraft. This segment also provides aftermarket maintenance, repair and overhaul, and other services to commercial airlines, repair facilities, military depots, third party repair shops, and other end users. Its Industrial segment offers actuators, valves, pumps, fuel injection systems, solenoids, ignition systems, control systems, electronics and software, and sensors used on industrial gas turbines, steam turbines, compressors, and reciprocating engines, as well as aftermarket products and related services. The company primarily serves OEMs and equipment packagers. Woodward, Inc. was founded in 1870 and is headquartered in Fort Collins, Colorado.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "WY": {
+      "symbol": "WY",
+      "name": "Weyerhaeuser Company",
+      "summary": "Weyerhaeuser Company is the world's largest private owners of timberlands and today owns or controls more than 10 million acres of timberlands in the U.S., as well as additional public timberlands managed under long-term licenses in Canada. Weyerhaeuser has been a global leader in sustainability for more than a century and manages 100 percent of its timberlands on a fully sustainable basis in compliance with internationally recognized sustainable forestry standards. Weyerhaeuser is also one of the largest manufacturers of wood products in North America and operates additional business lines around product distribution, climate solutions, real estate, energy and natural resources, among others. In 2025, the company generated 6.9 billion dollar in net sales and employed approximately 9,500 people who serve customers worldwide. Weyerhaeuser Company was founded in 1900 and was incorporated in Washington.",
+      "sector": "Real Estate",
+      "industry": "REIT - Specialty",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "WYNN": {
+      "symbol": "WYNN",
+      "name": "Wynn Resorts, Limited",
+      "summary": "Wynn Resorts, Limited designs, develops, and operates integrated resorts. It operates in four segments: Wynn Palace, Wynn Macau, Las Vegas Operations, and Encore Boston Harbor. The Wynn Palace segment operates casino space, private gaming salons, and sky casinos; a luxury hotel tower with suites and villas, as well as a health club, spa, salon, and pool; food and beverage outlets; retail space; meeting and convention space; and a performance lake, an immersive entertainment center, Western and Asian art displays, and a gondola ride. Its Wynn Macau segment operates casino space, private gaming salons, sky casinos, and a poker room; luxury hotel towers with health clubs, spas, a salon, and a pool; food and beverage outlets; retail space; meeting and convention space; a performance lake; and a rotunda show featuring Chinese zodiac-inspired ceilings. The Las Vegas Operations segment operates casino space, private gaming salons, a sky casino, a poker room, and a race and sports book; a luxury hotel tower with suites, villas, swimming pools, private cabanas, full-service spas and salons, and a wedding chapel; food and beverage outlets; meeting and convention space; retail space; a golf course; nightclubs; a beach club; and theaters. Its Encore Boston Harbor segment operates casino space, private and high-limit gaming areas, and a sports book; a luxury hotel tower with suites, a spa, and a salon; food and beverage outlets; a nightclub; retail space; meeting and convention space; a waterfront park; floral displays; and water shuttle services. Wynn Resorts, Limited was incorporated in 2002 and is based in Las Vegas, Nevada.",
+      "sector": "Consumer Cyclical",
+      "industry": "Resorts & Casinos",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "XE": {
+      "symbol": "XE",
+      "name": "X-Energy, Inc.",
+      "summary": "X-Energy, Inc. designs and develops nuclear reactor technology. The company manufactures nuclear fuels. It provides the Xe-100 reactor that is designed to generate 80 megawatts of electric power or 200 megawatts of thermal output (heat) and TRISO-X, a fuel for reactors. The company was founded in 2009 and is headquartered in Rockville, Maryland.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "XEL": {
+      "symbol": "XEL",
+      "name": "Xcel Energy Inc.",
+      "summary": "Xcel Energy Inc., through its subsidiaries, operates as an electric and natural gas delivery company in the United States. It operates through Regulated Electric Utility and Regulated Natural Gas Utility segments. The company generates, purchases, transmits, distributes, and sells electricity through its energy portfolio, including wind, nuclear, hydroelectric, biomass, and solar power from both owned generation facilities and PPAs, as well as its fossil fuel energy portfolio, such as coal and natural gas; sale and resale of wholesale transmission service; and engages in wholesale commodity and trading operations. It also purchases, transports, stores, distributes, and sells natural gas; develops and leases natural gas pipelines and storage facilities; operates interstate natural gas pipeline; and invests in rental housing projects, energy technology companies, and community solar garden nonregulated assets. It serves electric and natural gas customers in portions of Colorado, Michigan, Minnesota, New Mexico, North Dakota, South Dakota, Texas, and Wisconsin. The company was formerly known as Northern States Power company. Xcel Energy Inc. was incorporated in 1909 and is headquartered in Minneapolis, Minnesota.",
+      "sector": "Utilities",
+      "industry": "Utilities - Regulated Electric",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "XENE": {
+      "symbol": "XENE",
+      "name": "Xenon Pharmaceuticals Inc.",
+      "summary": "Xenon Pharmaceuticals Inc., a neuroscience-focused biopharmaceutical company, engages in the discovery, development, and delivery of therapeutics to treat patients with neurological and psychiatric disorders. Its product candidates include Azetukalner, a novel, potent Kv7 potassium channel opener which is in Phase 3 clinical development for the treatment of epilepsy, including focal onset seizures, and primary generalized tonic-clonic seizures, as well as neuropsychiatric disorders, such as major depressive disorder and bipolar depression. In addition, the company's Phase 1 Single Ascending Dose/Multiple Ascending Dose products include XEN1701 targeting the sodium channel and XEN1120 targeting the Kv7 potassium channel for the treatment of pain. The company has a license and collaboration agreement with Neurocrine Biosciences, Inc. for the development of NBI-921355, a Nav1.2/1.6 sodium channel inhibitor that is in Phase 1 clinical trials for the treatment of certain types of epilepsy. Xenon Pharmaceuticals Inc. was incorporated in 1996 and is headquartered in Burnaby, Canada.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "Canada",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "XMTR": {
+      "symbol": "XMTR",
+      "name": "Xometry, Inc.",
+      "summary": "Xometry, Inc. operates an artificial intelligence (AI) powered online manufacturing marketplace in the United States and internationally. The company's marketplace uses AI to assist buyers to source custom-manufactured parts and assemblies and attain instant pricing and lead times. It operates Xometry marketplace, an AI powered online marketplace that connects buyers with suppliers of manufacturing services; Xometry instant quoting engine, which prices transactions based on volume, manufacturing process, material, and location; and Thomasnet, an industrial sourcing platform that features an online directory of industrial suppliers, products, and services, as well as digital marketing services and insights to manufacturers and industrial services providers. The company also provides cloud-based systems, such as Workcenter, a financial service product that facilitates payments and a cloud-based manufacturing execution system; and Teamspace, a cloud-based solution within the Xometry platform that enables customers to collaborate with other users on projects and custom part orders. In addition, it offers computer numerical control (CNC) machining, injection molding, 3D printing, sheet forming and cutting, die casting, urethane casting, tube cutting, and tube bending, as well as finishing, rapid prototyping, and production services. It serves the aerospace, industrial, medical devices, automotive, consumer goods, defense, government, energy, education, and robotics industries. The company was formerly known as NextLine Manufacturing Corp. and changed its name to Xometry, Inc. in June 2015. Xometry, Inc. was incorporated in 2013 and is headquartered in North Bethesda, Maryland.",
+      "sector": "Industrials",
+      "industry": "Industrial Distribution",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "XNCR": {
+      "symbol": "XNCR",
+      "name": "Xencor, Inc.",
+      "summary": "Xencor, Inc., a clinical-stage biopharmaceutical company, focuses on the discovery and development of engineered antibodies for the treatment of cancer and autoimmune diseases. The company provides Ultomiris to treat patients with atypical hemolytic uremic syndrome, generalized myasthenia gravis, and neuromyelitis optica spectrum disororder; and Monjuvi for the treatment of patients with relapsed or refractory diffuse large B-cell lymphoma. It also develops XmAb819, a bispecific antibody to treat renal cell carcinoma; XmAb541, which is in Phase I for the treatment of ovarian cancer; XmAb808, a bispecific antibody that binds to the broadly expressed tumor antigen; XmAb942, which is in clinical development for patients with Crohn's disease and ulcerative colitis; Plamotamab, a bispecific T-cell, which is in Phase Ib study to treat rheumatoid arthritis; and XmAb657 for patients with idiopathic inflammatory myopathies. Further, the company develops Xaluritamig, a bispecific T-cell engager that treats prostate cancer; ASP2138 to treat gastric, gastroesophageal junction, and pancreatic cancers; JNJ-9401 to treat metastatic castration-resistant prostate cancer; Obexelimab, an antibody to treat patients with autoimmune diseases; Tobevibart, a treatment for chronic hepatitis Delta; Zaltenibart to treat paroxysmal nocturnal hemoglobinuria and other alternative pathway disorders; Teropavimab and zinlirvimab to treat human immunodeficiency virus; Novartis, an antibody drug candidate that uses XmAb Fc technologies; and JNJ-1493 to treat B-cell malignancies. The company was incorporated in 1997 and is headquartered in Pasadena, California.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "XNDU": {
+      "symbol": "XNDU",
+      "name": "Xanadu Quantum Technologies Limited",
+      "summary": "Xanadu Quantum Technologies Limited develops and provides photonic quantum computing technology and related software solutions and applications, including cloud-based access to quantum computers and tools for quantum programming and simulation. The company provides access to photonic quantum computers through x-series devices available via the cloud, supporting programmable quantum gates and photon-number resolving detectors. It offers Pennylane, a cross-platform python library that enables a paradigm and quantum differentiable programming that enables integration with machine learning tools; and Catalyst for just-in-time compilation and optimization of quantum algorithms. It also provides users with access to documentation, guides, and community-led resources for quantum machine learning, quantum chemistry simulations, and other quantum computing applications, along with collaboration and support from a team of quantum experts. The company serves professional clients in the quantum computing, software development, and machine learning sectors, as well as advanced users in research and development, including those utilizing high-performance computing and quantum hardware. It has a collaboration with Mitsubishi Chemical to advance semiconductor fabrication technologies using quantum computing algorithms; has a collaboration with ASML to advance lithography for photonic quantum hardware; and has strategic partnership with GLOBALFOUNDRIES Inc. to accelerate utility-scale quantum manufacturing. Xanadu Quantum Technologies Limited was incorporated in 2016 and is based in Toronto, Canada.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "Canada",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "XOM": {
+      "symbol": "XOM",
+      "name": "ExxonMobil Holdings Corporation",
+      "summary": "ExxonMobil Holdings Corporation engages in the exploration and production of crude oil and natural gas in the United States, Canada, and internationally. The company operates through Upstream, Energy Products, Chemical Products, and Specialty Products segments. Its Upstream segment explores for and produces crude oil and natural gas. The Energy Products segment offers fuels, aromatics, and catalysts, as well as licensing services. Its Chemical Products segment manufactures and sells olefins, polyolefins, and intermediates. The Specialty Products segment offers finished lubricants, basestocks, waxes, synthetics, elastomers, and resins. It is also involved in the manufacture, trade, transport, and sale of crude oil, natural gas, petroleum products, petrochemicals, and other specialty products; and pursuit of lower-emission and business opportunities, including carbon capture and storage, hydrogen, lower-emission fuels, Proxxima resin systems, carbon materials, low-carbon data center, and lithium. In addition, the company offers aviation fuel. It sells its products under the Exxon, Esso, and Mobil brands. The company was formerly known as Exxon Mobil Corporation and changed its name to ExxonMobil Holdings Corporation in July 2026. ExxonMobil Holdings Corporation was founded in 1870 and is headquartered in Spring, Texas.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "XP": {
+      "symbol": "XP",
+      "name": "XP Inc.",
+      "summary": "XP Inc. engages in the provision of financial products and services in Brazil. It operates XP Platform, an open product platform that provides clients to access investment products in the market comprising brokerage securities, fixed income securities, mutual, hedge, and private equity funds; derivatives and synthetic instruments; credit cards; loan operations/collateralized credit products; pension and social security funds, and life and travel insurance products; and other investment products comprising real estate funds, and equity and debt capital markets solutions, as well as wealth management services. The company offers brokerage and issuer services to institutional and corporate clients. It also manages mutual funds focused on stocks and macro strategies distributed to retail and to institutional clients; funds and managed portfolios for high-net-worth retail clients, and proprietary treasury funds; and passive mutual funds that track market indexes, and mutual and investment funds focused on fixed income, credit, real estate, infrastructure, and other alternative strategies. In addition, the company offers securities brokerage services for institutional and retail investors; interdealer brokerage services for institutional traders; and commercial and investment banking products, such as loan operations and transactions in the foreign exchange markets and deposits, as well as develops and sells financial education courses and events online and in person to retail clients. It offers its sell products and services through its omni-channel distribution network and online portals. XP Inc. was founded in 2001 and is based in George Town, the Cayman Islands.",
+      "sector": "Financial Services",
+      "industry": "Capital Markets",
+      "country": "Cayman Islands",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "XPEV": {
+      "symbol": "XPEV",
+      "name": "XPeng Inc.",
+      "summary": "XPeng Inc. operates as a physical AI company. It has developed a Physical AI architecture covering Turing AI chips, foundation models, and integrated software and hardware applications. The company's products include smart EVs, robotaxis, and humanoid robots. XPeng Inc. was founded in 2015 and is headquartered in Guangzhou, the People's Republic of China.",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "country": "China",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "XPO": {
+      "symbol": "XPO",
+      "name": "XPO, Inc.",
+      "summary": "XPO, Inc., together with its subsidiaries, provides freight transportation services in the United States, North America, France, the United Kingdom, and rest of Europe. The company operates in two segments, North American Less-Than-Truckload (LTL) and European Transportation. The North American LTL segment provides shippers with geographic density and day-definite domestic and cross-border services to the U.S., Mexico, Canada, and the Caribbean. The European Transportation segment offers dedicated truckload, LTL, truck brokerage, managed transportation, last mile, freight forwarding, and warehousing and multimodal solutions to an extensive base of customers within the consumer, trade, and industrial markets. The company was formerly known as XPO Logistics, Inc. and changed its name to XPO, Inc. in December 2022. The company was founded in 1989 and is based in Greenwich, Connecticut.",
+      "sector": "Industrials",
+      "industry": "Trucking",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "XRAY": {
+      "symbol": "XRAY",
+      "name": "DENTSPLY SIRONA Inc.",
+      "summary": "DENTSPLY SIRONA Inc. develops, manufactures, and markets dental equipment supported by cloud-enabled solutions, dental products, and healthcare consumable products in urology and enterology worldwide. It operates through four segments: Connected Technology Solutions, Essential Dental Solutions, Orthodontic and Implant Solutions, and Wellspect Healthcare. The Connected Technology Solutions segment offers imaging equipment, motorized dental handpieces, treatment centers, and other instruments; and intraoral scanners, 3-D printers, and mills, as well as CEREC, a full-chairside economical restoration of esthetic ceramic dentistry offering. The Essential Dental Solutions segment provides motorized endodontic handpieces, files, sealers, irrigation needles, and other tools for root canal procedures; restorative products; curing light and dental diagnostic systems; ultrasonic scalers and polishers; and dental anesthetics, prophylaxis paste, dental sealants, and impression materials. The Orthodontic and Implant Solutions segment offers SureSmile, a clear aligner solution that includes whitening kits and retainers; VPro, a high frequency vibration technology device; SureSmile Simulator; DS Core platform, which creates 3D visualization of patient outcomes; dental implant products; digital dentures; crown and bridge porcelain products; bone regenerative and restorative solutions; treatment planning software; educational programs; custom abutments; tapered immediate load screws; regenerative bone growth factor; artificial teeth; and precious metal dental alloys. The Wellspect Healthcare segment offers medical devices, including catheters for urinary retention and advanced irrigation systems to help people suffering from chronic or severe constipation. The company was formerly known as DENTSPLY International Inc. and changed its name to DENTSPLY SIRONA Inc. in February 2016. DENTSPLY SIRONA Inc. was founded in 1877 and is headquartered in Charlotte, North Carolina.",
+      "sector": "Healthcare",
+      "industry": "Medical Instruments & Supplies",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "XYL": {
+      "symbol": "XYL",
+      "name": "Xylem Inc.",
+      "summary": "Xylem Inc., together with its subsidiaries, engages in the design, manufacture, and servicing of engineered products and solutions for utility, industrial, and residential and commercial building services settings worldwide. It operates through Water Infrastructure; Applied Water; Measurement and Control Solutions; and Water Solutions and Services segments. The company offers water, wastewater, and storm water pumps and controls and systems; filtration, disinfection, and biological treatment equipment under the Flygt, Ionpure, Leopold, Neptune Benson, Sanitare, Wallace & Tiernan, and Wedeco brands; and pumps, valves, heat exchangers, controls, and dispensing equipment used for water and focuses on the residential, commercial and industrial markets under the Rule, Bell & Gossett, Flojet, Goulds Water Technology, Jabsco, and Lowara brands. It also provides smart meters, network communication devices, data analytics, test instruments, controls, sensor devices, software and managed services, critical infrastructure services, cloud-based analytics, and remote monitoring and data management under the Ebro, Sensus, Sentec, Smith Blair, WTW, YSI, and Xylem Vue brands. In addition, the company offers preventative maintenance services, rapid response mobile services, digitally enabled/outsourced solutions, process and wastewater treatment systems, environmental remediation, odor and corrosion control, filtration, reverse osmosis, continuous deionization, and mobile dewatering equipment and rental services; and municipal services comprising odor and corrosion control services, as well as condition assessment and asset management, and pressure monitoring solutions under the Grindex, Mar Cor, and Godwin brands. Xylem Inc. was formerly known as ITT WCO, Inc. and changed its name to Xylem Inc. in July 2011. The company was incorporated in 2011 and is headquartered in Washington, District Of Columbia.",
+      "sector": "Industrials",
+      "industry": "Specialty Industrial Machinery",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "XYZ": {
+      "symbol": "XYZ",
+      "name": "Block, Inc.",
+      "summary": "Block, Inc., together with its subsidiaries, builds ecosystems focused on commerce and financial products and services in the United States and internationally. It operates through two segments: Square and Cash App. The Square segment offers managed payment services; software solutions; hardware products, such as registers, terminals, stands, and readers for contactless and chips; banking services consisting of lending, instant transfer, and checking and savings accounts; and full-service setup and support services. This segment also provides loyalty, marketing, team management, and payroll services; and gift cards. It also offers Square Handheld, a portable point-of sale device for transaction purposes. The Cash App segment offers financial tools, including peer-to-peer payments, bitcoin, and stock investment brokerage; Cash App Card, a debit card; Cash App Pay, mobile-friendly way for cash app customers to pay at merchants across online and in-person channels; direct deposit, stock brokerage, and tax preparation services; and Afterpay, a buy now, pay later platform. In addition, the company operates TIDAL, a platform for musicians and fans; TBD, an open developer platform focused on making the decentralized financial world accessible; Bitkey, a self-custody bitcoin wallet; and proto. The company was formerly known as Square, Inc. and changed its name to Block, Inc. in December 2021. Block, Inc. was incorporated in 2009 and is based in Oakland, California.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "YELP": {
+      "symbol": "YELP",
+      "name": "Yelp Inc.",
+      "summary": "Yelp Inc. operates a platform that connects consumers with local businesses in the United States and internationally. Its platform covers various categories, including restaurants, shopping, beauty and fitness, health, and other categories, as well as home, local, auto, professional, pets, events, real estate, and financial services. It provides free and paid advertising products to businesses, which include cost-per-click advertising and multi-location Ad products, RepairPal network, and business listing pages. The company also offers Yelp Connect that provides advertisers with a channel to market new offerings, such as new menu items and specials, and communicate business updates to customers; Yelp Guaranteed that provides limited coverage to consumers who hire a yelp guaranteed business through request-a-quote in the event; Nearby Jobs solutions; Yelp Guest Manager, a subscription-based suite of front-of-house management tools for restaurants, nightlife, and certain other venues, which include online reservations, a waitlist management solution, as well as through hostless kiosks, and seating and server rotation management tools; Yelp Fusion Insights program that offers business owners local analytics and insights; and Yelp Fusion, which offers free access to basic information through publicly available APIs and paid access to content and data for consumer-facing enterprise use. In addition, it provides content licensing and consumer-interactive tools. Further, the company offers its products directly through its sales force; indirectly through partners; and online through its website and business app, as well as non-advertising partner arrangements. It has partnership with DOORDASH to provide consumers with a service to place food orders for pickup and delivery. The company was formerly known as Yelp! Inc. and changed its name to Yelp Inc. in November 2005. Yelp Inc. was incorporated in 2004 and is based in San Francisco, California.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "YETI": {
+      "symbol": "YETI",
+      "name": "YETI Holdings, Inc.",
+      "summary": "YETI Holdings, Inc. designs, retails, and distributes outdoor products under the YETI brand name in the United States, Canada, Australia, New Zealand, Europe, and Japan. It offers hard coolers, including the YETI Tundra, YETI Roadie, YETI V Series hard coolers, YETI TANK ice bucket, and YETI Silo 6G water cooler, as well as related accessories comprising locks, dry baskets, beverage holders, and dividers. The company also provides soft cooler bags, such as under the Hopper collection and Daytrip collection; duffel bags, backpacks, luggage, and packing cubes comprising the Panga collection, Crossroads collection, Camino Caryall, SideKick Dry gear case, Cayo collection, and Ranchero collection; cargo and storage solutions that include the LoadOut GoBox, LoadOut bucket, and LoadOut swivel seat names; and outdoor living products, which consist of Trailhead camp chair, Lowlands blanket, Boomer dog bowls, Hondo beach chair, can crusher, and the YETI Fire Pit. In addition, it offers bottles and jugs under the Rambler, Yonder, and Silo collections; cups, mugs, and tumblers under the Rambler collection; Rambler products, including tableware, coffeeware, barware, and containers, as well as insulated bowls and food jars, ceramic-lined mugs and stackable cups, French presses, pitchers, wine chillers, wine tumblers, the beverage bucket, colsters, and cocktail shakers; and cookware. Further, the company provides apparel, such as hats, shirts, and sweatshirts, as well as ice substitutes and other YETI branded products. It sells its products through its direct-to-consumer channel, including websites, corporate sales programs, and retail stores, as well as through its wholesale channel. YETI Holdings, Inc. was founded in 2006 and is headquartered in Austin, Texas.",
+      "sector": "Consumer Cyclical",
+      "industry": "Leisure",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "YMM": {
+      "symbol": "YMM",
+      "name": "Full Truck Alliance Co. Ltd.",
+      "summary": "Full Truck Alliance Co. Ltd., together with its subsidiaries, operates a digital freight platform that connects shippers with truckers to facilitate shipments across distance ranges, cargo weights, and types in the People's Republic of China and Hong Kong. The company offers freight matching services, such as freight listing and brokerage services; and transaction services, as well as various value-added services, such as credit solutions, insurance brokerage, software solutions, electronic toll collection, Intelligent Driving Related Services, and energy services. It also provides technology development and other services. Full Truck Alliance Co. Ltd. was founded in 2011 and is based in Guiyang, China.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "China",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "YOU": {
+      "symbol": "YOU",
+      "name": "Clear Secure, Inc.",
+      "summary": "Clear Secure, Inc. operates a secure identity platform under the CLEAR brand name primarily in the United States. It provides secure identity platform, a multi-layered infrastructure consisting of front-end, including enrollment, verification, and linking, as well as back-end. The company also offers CLEAR Plus, a consumer aviation subscription service, which enables access to predictable entry lanes in airport security checkpoints, as well as access to broader network; and CLEAR mobile app, which is used to enroll new members and improve the experience for existing members. In addition, it provides RESERVE powered by CLEAR to reservation spot for airport locations; Home to Gate, a feature to help travelers plan and time their trip to the airport; CLEAR1, a B2B offering that extends secure identity platform to partners to create friction-free experiences for their customers; CLEAR ID, a free and mobile digital ID that allow any traveler to verify their identity; CLEAR Concierge which enhances the CLEAR value proposition for high-frequency and premium travelers, as well as travelers requiring additional assistance, such as families and senior citizens; CLEAR Perks, a suite of added benefits that help CLEAR members get an even more seamless experience; TSA PreCheck Enrollment Provided by CLEAR, as well as online renewal services; Sora ID, a one-click know your customer that enables adding know your customer services to platform offerings; and a virtual queuing technology. The company has a strategic collaboration with Samsung Electronics America, Inc. for the development of Samsung ID with CLEAR, a digital ID solution that allows users to add a US passport to Samsung Wallet and verify their identity. The company was founded in 2010 and is headquartered in New York, New York. Clear Secure, Inc. is a subsidiary of Alclear Investments, Llc.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "YPF": {
+      "symbol": "YPF",
+      "name": "YPF Sociedad Anónima",
+      "summary": "YPF Sociedad Anónima, an energy company, engages in the oil and gas upstream and downstream activities in South America and Argentina. The company operates through the Upstream, Midstream and Downstream, LNG and Integrated Gas, and New Energies segments. It is involved in the exploration and exploitation of hydrocarbon fields and production of crude oil and natural gas; the refining, transportation and commercialization of refined products; the production, transportation, and commercialization of petrochemical products; the transportation and commercialization of crude oil; and the commercialization of specialties for the agribusiness industry, and of grains and their by-products. The company also offers fertilizers and crop protection products; flours, oils, and grains; asphalts; naphtha; and petroleum coke. In addition, it engages in the natural gas transportation and commercialization to third parties and to the Midstream and Downstream segments; the separation of natural gas liquids and their fractionation, and storage and transportation to produce ethane, propane, butane, and gasoline, as well as its commercialization; the development of liquefied natural gas liquefaction capacity; and power generation activities. The company was incorporated in 1977 and is based in Buenos Aires, Argentina.",
+      "sector": "Energy",
+      "industry": "Oil & Gas Integrated",
+      "country": "Argentina",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "YSS": {
+      "symbol": "YSS",
+      "name": "York Space Systems, Inc.",
+      "summary": "York Space Systems, Inc. operates as a space and defense prime providing a comprehensive suite of mission-critical solutions for national security, government and commercial customers in the United States. It provides space and defense primes with proprietary hardware and software capabilities designed to address customers' requirements across the elements of the space ecosystem throughout the mission lifecycle. The company also engages in the design, production, integration, and operation of spacecraft to manage spacecraft and constellations. It offers S-CLASS, LX-CLASS, and M-CLASS spacecraft, which are satellite platforms to a range of space market needs. In addition, the company provides software that enables versatile integration of a variety of payloads for customers and supply chain commonalities across platforms, as well as software-enabled services. The company was formerly known as Yellowstone Midco Holdings II, LLC and changed its name to York Space Systems, Inc. in January 2026. York Space Systems, Inc. was founded in 2012 and is based in Greenwood Village, Colorado.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "YUM": {
+      "symbol": "YUM",
+      "name": "Yum! Brands, Inc.",
+      "summary": "Yum! Brands, Inc., together with its subsidiaries, develops, operates, and franchises traditional and non-traditional quick service restaurants in the United States, China, and internationally. The company operates in four segments: KFC Division, Taco Bell Division, Pizza Hut Division, and Habit Burger & Grill Division. It also operates restaurants under the KFC, Pizza Hut, Taco Bell, and Habit Burger & Grill brands, which specialize in chicken, Mexican-style food and pizza categories, made-to-order chargrilled burgers, sandwiches, and other products. The company was formerly known as TRICON Global Restaurants, Inc. and changed its name to Yum! Brands, Inc. in May 2002. Yum! Brands, Inc. was incorporated in 1997 and is headquartered in Louisville, Kentucky.",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "YUMC": {
+      "symbol": "YUMC",
+      "name": "Yum China Holdings, Inc.",
+      "summary": "Yum China Holdings, Inc. owns, operates, and franchises restaurants in the People's Republic of China. The company operates through two KFC, Pizza Hut, and All Other segments. It operates restaurants under the KFC, Pizza Hut, Taco Bell, Lavazza, Little Sheep, and Huang Ji Huang concepts. The company also offers online food delivery services. Yum China Holdings, Inc. was founded in 1987 and is headquartered in Shanghai, the People's Republic of China.",
+      "sector": "Consumer Cyclical",
+      "industry": "Restaurants",
+      "country": "China",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "Z": {
+      "symbol": "Z",
+      "name": "Zillow Group, Inc.",
+      "summary": "Zillow Group, Inc. operates a real estate application and website that connects consumers with technology, agents and loan officers, and digital solutions in the United States. The company operates through four categories: Residential, Mortgages, Rentals, and Other. The Residential segment includes agent and software, as well as new construction marketing solutions and StreetEasy for sale products. This segment also offers advertising and marketing solutions for real estate agents, premier agent, SaaS customer relationship management, real estate transaction management, appointment center, and enhanced listing services. The Rentals segment includes advertising and a suite of tools for property managers, landlords, and other rental professionals, as well as rental applications. The Mortgages segment provides mortgage originations through Zillow Home Loans and advertising to mortgage lenders and other mortgage professionals; and title and escrow services. The company also generates revenue from display advertising. It also offers a brand portfolio including Zillow, Zillow Premier Agent, Zillow Rentals, Zillow New Construction, Trulia, StreetEasy, Out East, HotPads, Follow Up Boss, ShowingTime, dotloop and Zillow Closing; and a suite of marketing software and technology solutions for the real estate industry. Zillow Group, Inc. was founded in 2004 and is headquartered in Seattle, Washington.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZBH": {
+      "symbol": "ZBH",
+      "name": "Zimmer Biomet Holdings, Inc.",
+      "summary": "Zimmer Biomet Holdings, Inc., together with its subsidiaries, operates as a medical technology company worldwide. The company designs, manufactures, and markets orthopedic reconstructive products, such as knee and hip products; S.E.T. products, including sports medicine, biologics, foot and ankle, upper extremities, and trauma and CMFT products; sports medicine products for the repair of soft tissue injuries, used in the knee and shoulder; and craniomaxillofacial and thoracic products comprising face and skull reconstruction products, as well as products that fixate and stabilize the bones of the chest to facilitate healing or reconstruction after open-heart surgery, trauma, or for deformities of the chest. It offers technology and data, bone cement, and surgical products; and a suite of integrated digital and robotic technologies that leverage data, data analytics and artificial intelligence. The company's products and solutions are used to treat patients suffering from disorders of, or injuries to, bones, joints, or supporting soft tissues. It serves orthopedic surgeons, neurosurgeons, hospitals, healthcare institutions, stocking distributors, healthcare dealers, and other specialists, as well as agents, healthcare purchasing organizations, or buying groups. It also offers ROSA Robot, which utilizes robotic technologies to assist a surgeon with implant positioning in total knee arthroplasty or partial knee arthroplasty; and the ZBEdge Platform connects robotic and digital technologies together to collect data before, during and after surgery, that can deliver insights to surgeons to assist in making informed decisions on patient care. The company was formerly known as Zimmer Holdings, Inc. and changed its name to Zimmer Biomet Holdings, Inc. in June 2015. Zimmer Biomet Holdings, Inc. was founded in 1927 and is headquartered in Warsaw, Indiana.",
+      "sector": "Healthcare",
+      "industry": "Medical Devices",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZBRA": {
+      "symbol": "ZBRA",
+      "name": "Zebra Technologies Corporation",
+      "summary": "Zebra Technologies Corporation, together with its subsidiaries, operates in the automatic identification and data capture solutions industry worldwide. It operates in two segments, Connected Frontline, and Asset Visibility and Automation. The company designs, manufactures, and sells printers that produce labels, wristbands, tickets, receipts, and plastic cards; dye-sublimination thermal card printers that produce images, which are used for personal identification, access control, and financial transactions; radio frequency identification device (RFID) printers that encode data into passive RFID transponders; accessories and options for printers, including carrying cases, vehicle mounts, and battery chargers; stock and customized thermal labels, receipts, ribbons, plastic cards, and RFID tags for printers; and electronic sensors and temperature-monitoring labels. It also provides various maintenance, technical support, repair, and managed and professional services; fixed readers, RFID enabled mobile computers, and RFID sleds; tags, sensors, exciters, middleware software, and application software; and physical inventory management solutions; rugged and enterprise-grade mobile computing products and accessories, as well as real-time location systems and services. In addition, the company offers barcode scanners and imagers, RFID readers, industrial machine vision cameras, and fixed industrial scanners; point-of-sale solutions, self-serve kiosks, and interactive touchscreen displays; workflow optimization solutions, such as workforce management, workflow execution and task management, and prescriptive analytics, and communications and collaboration solutions; and cloud-based software. The company serves retail and e-commerce, manufacturing, transportation and logistics, healthcare, public sector, and other industries through direct sales force and network of channel partners. The company was founded in 1969 and is headquartered in Lincolnshire, Illinois.",
+      "sector": "Technology",
+      "industry": "Communication Equipment",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZBIO": {
+      "symbol": "ZBIO",
+      "name": "Zenas BioPharma, Inc.",
+      "summary": "Zenas BioPharma, Inc., a clinical-stage biopharma company, engages in the development and commercialization of transformative immunology-based therapies. Its lead product candidate is obexelimab, a bifunctional monoclonal antibody designed to bind CD19 and Fc?RIIb for the treatment of various I&I diseases and various indications, including immunoglobulin G4-related disease, multiple sclerosis, and systemic lupus erythematosus. The company develops ZB002, an anti-TNFa monoclonal antibody; ZB004, a CTLA-4-Ig fusion protein designed to have an extended half-life versus; and ZB001, an anti-IGF-1R monoclonal antibody. The company was formerly known as Zenas BioPharma (Cayman) Limited and changed its name to Zenas BioPharma, Inc. in August 2023. The company was incorporated in 2019 and is headquartered in Waltham, Massachusetts.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZD": {
+      "symbol": "ZD",
+      "name": "Ziff Davis, Inc.",
+      "summary": "Ziff Davis, Inc., together with its subsidiaries, operates as a digital media and internet company in the United States and internationally. It offers online resources for laboratory-based product reviews, technology news, buying guides, and research papers under the PCMag and CNET brands; Mashable for publishing technology and culture content; Spiceworks provides digital content of IT products and services; RetailMeNot, a savings destination platform; VoucherCodes; Offers.com, a coupon and deals website; and event based properties, includes BlackFriday.com, TheBlackFriday.com, BestBlackFriday.com, and DealsofAmerica.com. It also offers gaming and entertainment platforms under the IGN Entertainment and Humble Bundle brands; and information on internet connectivity under the Speedtest, Ookla, Ekahau, Downdetector, and RootMetrics brands. The company also offers digital content and information services for health and wellness consumers under the Everyday Health, DailyOM, Lose It!, Castle Connolly, and Migraine Again brands; pregnancy and parenting content under the BabyCenter, Mom 2.0, Emma's Diary, Medpage Today, and What to Expect brands. In addition, it offers PRIME Education, a medical education program for healthcare professionals; and Health eCareers, a digital portal for healthcare professionals. Further, it provides endpoint and email security, security awareness training, secure backup and file sharing, and virtual private network solutions under the IPVanish, VIPRE, Livedrive, Inspired eLearning, and SugarSync brands; and email marketing and delivery solutions, search engine optimization tools, and voice and text communication services under the Campaigner, iContact, SMTP, Kickbox, Full Contact, MOZ Pro, MOZ Local, Stat Analytics, eVoice, and Line2 brands. The company was formerly known as j2 Global, Inc. and changed its name to Ziff Davis, Inc. in October 2021. The company was incorporated in 2014 and is headquartered in New York, New York.",
+      "sector": "Communication Services",
+      "industry": "Advertising Agencies",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZETA": {
+      "symbol": "ZETA",
+      "name": "Zeta Global Holdings Corp.",
+      "summary": "Zeta Global Holdings Corp. operates an omnichannel data-driven cloud platform that provides enterprises with consumer intelligence and marketing automation software in the United States and internationally. The company operates Zeta Marketing platform, a single platform that enable enterprises to acquire, grow, and retain consumer relationships efficiently and effectively than alternative solutions; and Zeta Messaging, an email service provider, offering end-to-end AI-powered omnichannel messaging capabilities, as well as integrated data management, enterprise-scale delivery and support, and sophisticated omnichannel orchestration. In addition, the company offers Zeta Consumer Data platform (CDP+), a system of record for consumer information, delivers a single, actionable view of customers and prospects that include real-time identifiers and signals, and other key attributes; and Zeta's DSP for customers to maximize the power of paid media to engage the right audiences with precision and efficiency, as well as delivers experiences via desktop, inbox, mobile, CTV and social, and others. Further, it operates Athena by Zeta, an interface to Zeta's AI-native infrastructure layer and intends to power all intelligent decisioning, automation, and user interaction; and Zeta Answers that synthesize trillions of behavioral signals into intent-based scores tied to a unique individual. The company has a strategic partnership with Palantir Technologies Inc. for the development of enterprise AI infrastructure layer that connects operational intelligence, customer intelligence, and marketing execution. Zeta Global Holdings Corp. has a strategic alliance with Fireworks.ai, Inc. to develop the Athena Inference Model (AIM), a collection of specialized open-weight models powering AthenaOS, to help customers generate insights faster, improve efficiency and scale specialized AI across the enterprise. The company was incorporated in 2007 and is headquartered in New York, New York.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZG": {
+      "symbol": "ZG",
+      "name": "Zillow Group, Inc.",
+      "summary": "Zillow Group, Inc. operates a real estate application and website that connects consumers with technology, agents and loan officers, and digital solutions in the United States. The company operates through four categories: Residential, Mortgages, Rentals, and Other. The Residential segment includes agent and software, as well as new construction marketing solutions and StreetEasy for sale products. This segment also offers advertising and marketing solutions for real estate agents, premier agent, SaaS customer relationship management, real estate transaction management, appointment center, and enhanced listing services. The Rentals segment includes advertising and a suite of tools for property managers, landlords, and other rental professionals, as well as rental applications. The Mortgages segment provides mortgage originations through Zillow Home Loans and advertising to mortgage lenders and other mortgage professionals; and title and escrow services. The company also generates revenue from display advertising. It also offers a brand portfolio including Zillow, Zillow Premier Agent, Zillow Rentals, Zillow New Construction, Trulia, StreetEasy, Out East, HotPads, Follow Up Boss, ShowingTime, dotloop and Zillow Closing; and a suite of marketing software and technology solutions for the real estate industry. Zillow Group, Inc. was founded in 2004 and is headquartered in Seattle, Washington.",
+      "sector": "Communication Services",
+      "industry": "Internet Content & Information",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZIM": {
+      "symbol": "ZIM",
+      "name": "ZIM Integrated Shipping Services Ltd.",
+      "summary": "ZIM Integrated Shipping Services Ltd., together with its subsidiaries, provides container shipping and related services in Israel and internationally. The company offers door-to-door and port-to-port transportation services for various types of customers, including end-users, consolidators, and freight forwarders. It also provides ZIMonitor, a reefer cargo tracking service, a device attached to the engine of the reefer, and allows customers to track and monitor, cargo, such as pharmaceuticals, food and delicate electronics. As of December 31, 2025, it operated a fleet of 128 vessels, such as 115 container vessels and 13 vehicle transport vessels, as well as a network of 56 weekly lines. ZIM Integrated Shipping Services Ltd. was incorporated in 1945 and is headquartered in Haifa, Israel.",
+      "sector": "Industrials",
+      "industry": "Marine Shipping",
+      "country": "Israel",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZION": {
+      "symbol": "ZION",
+      "name": "Zions Bancorporation, National Association",
+      "summary": "Zions Bancorporation, National Association provides various banking products and related services primarily in the states of Arizona, California, Colorado, Idaho, Nevada, New Mexico, Oregon, Texas, Utah, Washington, and Wyoming. The company operates through Zions Bank, California Bank & Trust, Amegy Bank, National Bank of Arizona, Nevada State Bank, Vectra Bank Colorado, and The Commerce Bank of Washington segments. It offers commercial and small business banking services to small- and medium-sized businesses, such as commercial, industrial, and owner-occupied lending and leasing; municipal and public finance services; depository account and cash management services; commercial and small business cards; merchant processing services; corporate trust services; and correspondent banking and international lending services. The company also provides capital markets and investment banking services, including loan syndications, foreign exchange services, interest rate derivatives, fixed income securities underwriting, mergers and acquisitions advisory services, advisory and capital raising, commercial mortgage-backed security conduit lending, and power and project financing; and commercial real estate lending services consisting of term and construction/land development financing for commercial and residential purposes. In addition, it offers retail banking services comprising residential mortgages lending, home equity lines of credit, personal lines of credit, installment consumer loans, depository account services, consumer cards, and personal trust services; and wealth management services consisting of investment management, fiduciary and estate, and advanced business succession and estate planning services. The company was formerly known as ZB, National Association and changed its name to Zions Bancorporation, National Association in September 2018. Zions Bancorporation, National Association was founded in 1873 and is headquartered in Salt Lake City, Utah.",
+      "sector": "Financial Services",
+      "industry": "Banks - Regional",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZLAB": {
+      "symbol": "ZLAB",
+      "name": "Zai Lab Limited",
+      "summary": "Zai Lab Limited, a biopharmaceutical company, focuses on discovering, developing, and commercializing products that address medical conditions in the areas of oncology, immunology, neuroscience, and infectious diseases. Its commercial products include Zejula, an orally administered poly (ADP-ribose) polymerase 1/2 inhibitor for treating ovarian cancer; VYVGART, a human IgG1 antibody fragment for generalized myasthenia gravis and chronic inflammatory demyelinating polyneuropathy; NUZYRA for community-acquired bacterial pneumonia and acute bacterial skin and skin structure infections; Optune for glioblastoma multiforme; Qinlock for gastrointestinal stromal tumors; Xacduro for treating hospital-acquired and ventilator-associated bacterial pneumonia caused by a cinetobacter baumannii-calcoaceticus complex; and Augtyro for the treatment of ROS proto-oncogene 1 and non-small cell lung cancer. The company has a strategic collaboration with Tesaro, Inc., NovoCure Ltd., Deciphera Pharmaceuticals, LLC, Paratek Bermuda Ltd., argent BV, Turning Point Therapeutics, Inc., Entasis Therapeutics Holdings Inc., Karuna Therapeutics, Inc., Pfizer Inc., Amgen Inc., and with Boehringer Ingelheim GmbH. The company was incorporated in 2013 and is based in Pudong, China.",
+      "sector": "Healthcare",
+      "industry": "Biotechnology",
+      "country": "China",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZM": {
+      "symbol": "ZM",
+      "name": "Zoom Communications, Inc.",
+      "summary": "Zoom Communications, Inc. provides an Artificial Intelligence-first open work platform for human connection in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. The company offers Zoom Meetings that offers HD video, voice, chat, and content sharing through mobile devices, desktops, laptops, telephones, and conference room systems; Zoom Phone, a cloud phone system; and Zoom Team Chat enables users to share messages, images, files, and content in desktop, laptop, tablet, and mobile devices. It also provides Zoom Docs, a modular workspace; Zoom Whiteboard, an interactive canvas; Zoom Clips for capturing video and screen content; Zoom Rooms, a software-based conference room system; and Workspace Reservation. In addition, the company offers Zoom Contact Center, an omnichannel solution; Zoom Revenue Accelerator, a conversation intelligence software for Zoom Meetings and Zoom Phone; Zoom Events to manage, host, market, and report on all of virtual and hybrid events; Zoom Webinars Plus; and Zoom Webinars which supports interactive video presentations to large audiences. Further, it provides Workvivo, an all-in-one employee experience platform; Zoom Developer Platform and App Marketplace which integrates platform with other applications, platforms, websites, and services; and Zoom Apps. It serves individuals; and education, entertainment/media, enterprise infrastructure, finance, government, healthcare, manufacturing, non-profit/not for profit and social impact, retail/consumer products, and software/Internet industries. The company was formerly known as Zoom Video Communications, Inc. and changed its name to Zoom Communications, Inc. in November 2024. The company was incorporated in 2011 and is headquartered in San Jose, California.",
+      "sector": "Technology",
+      "industry": "Software - Application",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZTO": {
+      "symbol": "ZTO",
+      "name": "ZTO Express (Cayman) Inc.",
+      "summary": "ZTO Express (Cayman) Inc. provides express delivery and other value-added logistics services in the People's Republic of China. It also offers less-than-truckload (LTL) logistics services; integrated logistics solutions for warehousing, distribution, and transportation; and freight forwarding services. The company was founded in 2002 and is headquartered in Shanghai, the People's Republic of China.",
+      "sector": "Industrials",
+      "industry": "Integrated Freight & Logistics",
+      "country": "China",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZTS": {
+      "symbol": "ZTS",
+      "name": "Zoetis Inc.",
+      "summary": "Zoetis Inc. engages in the discovery, development, manufacture, and commercialization of medicines, vaccines, diagnostic products and services, biodevices, genetic tests, and precision animal health solutions for the animal health industry in the United States and internationally. The company commercializes products primarily across companion animals comprising dogs, cats, and horses; and species, including livestock, such as cattle, swine, poultry, fish, and sheep. It also offers parasiticides, vaccines, dermatology, anti-infectives, pain and sedation, other pharmaceutical, and animal health diagnostics. In addition, the company provides animal health diagnostics, including point-of-care diagnostic products, instruments and reagents, rapid immunoassay tests, reference laboratory kits and services, and blood glucose monitors; and other non-pharmaceutical products, which include nutritionals, as well as products and services in biodevices, genetic tests, and precision animal health. It markets its products to veterinarians, livestock producers, and pet owners. The company has collaborated with Blacksmith Medicines, Inc. to discover and develop novel antibiotics for animal health. Zoetis Inc. was incorporated in 2012 and is headquartered in Parsippany, New Jersey.",
+      "sector": "Healthcare",
+      "industry": "Drug Manufacturers - Specialty & Generic",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZS": {
+      "symbol": "ZS",
+      "name": "Zscaler, Inc.",
+      "summary": "Zscaler, Inc. operates as a cloud security company worldwide. The company offers cyberthreat protection products, including Zero Trust SASE, a solution that securely connects workforces, AI agents, workloads, and IoT/OT devices to cloud apps and AI services; Zscaler Internet Access, which provides advanced threat protection, sandbox, and zero trust firewall; Zscaler Private Access solution that includes cyberthreat and data protection, application discovery, secure application access, application segmentation, application protection, and reduced attack surface; Zero Trust Browser, a solution that secures browser-based access to business applications for the extended workforce, including third parties and partners; Zscaler Digital Experience, a solution that monitors end-user experience and helps organizations identify and resolve performance issues across their digital environment; Zero Trust Branch; and Zero Trust Cloud solutions. It also provides Security for AI solution to secure AI adoption across the full AI ecosystem; data security services, including AI-powered data classification and contextual insights, data loss prevention, Saas security, and data security posture management solution. In addition, the company offers Agentic Security Operations solution that enables enterprises to reduce cyber risk by using AI-powered automation; exposure management platform; deception; managed detection and response; agentic security operations center; and threat hunting solutions. It serves automotive, airlines and transportation, conglomerates, consumer goods and retail, energy, financial services, healthcare, insurance, manufacturing, media and communications, public sector and education, technology, and telecommunications services industries. The company was formerly known as SafeChannel, Inc. and changed its name to Zscaler, Inc. in August 2008. Zscaler, Inc. was incorporated in 2007 and is headquartered in Santa Clara, California.",
+      "sector": "Technology",
+      "industry": "Software - Infrastructure",
+      "country": "United States",
+      "updated": "2026-11-07",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "ZWS": {
+      "symbol": "ZWS",
+      "name": "Zurn Elkay Water Solutions Corporation",
+      "summary": "Zurn Elkay Water Solutions Corporation engages in design, procurement, manufacture, and marketing of water management solutions in the United States, Canada, and internationally. It offers water dispensing and filtration products, such as filtered bottle filling stations, water fountains and water dispensers, and filtered faucets under the Elkay and Halsey Taylor brand names; filtered units including water filters; and water safety and control products, such as backflow preventers, fire system valves, pressure reducing valves, and thermostatic mixing valves under the Zurn and Wilkins brand names. The company also provides flow systems products comprising point drains, hydrants, fixture carrier systems, and chemical drainage systems; and oil and grease interceptors and separators, acid neutralization systems, and remote monitoring systems under the Zurn, Green Turtle, and Wade brands. In addition, it offers sensor operated flush valves under the Aquaflush, AquaSense, and AquaVantage brands; heavy-duty commercial faucets under the AquaSpec brand; flush valves and faucets under the Hydro X Power brands; water conserving fixtures under the EcoVantage and Zurn One brands; stainless steel, quartz, fireclay-ceramic, and cast iron sinks under the Elkay brand name; stainless steel sinks and plumbing fixtures under the Just brand; restroom partition systems and lockers under the Hadrian brand name; and hand dryers. Further, the company offers its products to institutional, commercial, waterworks, and residential end markets through independent sales representatives, plumbing wholesalers, and industry-specific distributors in the waterworks, foodservice, industrial, janitorial, sanitation, and sitework industries. The company was formerly known as Zurn Water Solutions Corporation and changed its name to Zurn Elkay Water Solutions Corporation in July 2022. Zurn Elkay Water Solutions Corporation was founded in 1900 and is headquartered in Milwaukee, Wisconsin.",
+      "sector": "Industrials",
+      "industry": "Pollution & Treatment Controls",
+      "country": "United States",
+      "updated": "2026-11-07",
       "source": "Yahoo Finance via yfinance"
     }
   }
