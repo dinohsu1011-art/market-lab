@@ -415,42 +415,53 @@
     capex: {panel: '#capexPanel', table: '#capexTable', method: '#capexMethod', what: 'Capital expenditures', row: 'Capex',
       modes: [['quarterly', 'Quarterly'], ['annual', 'Calendar year']],
       note: 'Spend shown as a positive number.'},
-    fcf: {panel: '#fcfPanel', table: '#fcfTable', method: '#fcfMethod', what: 'Free cash flow', row: 'FCF', bars: true,
+    fcf: {panel: '#fcfPanel', table: '#fcfTable', method: '#fcfMethod', what: 'Free cash flow', row: 'FCF', bars: true, totalToggle: true,
       modes: [['annual', 'Calendar year'], ['ttm', 'Trailing 4 quarters'], ['quarterly', 'Quarterly']],
       note: 'Free cash flow is cash from operations minus capex, as each company or Bloomberg defines it. SpaceX is the whole company, not only its AI unit. Trailing 4 quarters smooths out seasonal swings.'},
   };
-  const flowState = {capex: {mode: 'quarterly', basis: 'est', hidden: new Set()}, fcf: {mode: 'quarterly', basis: 'est', hidden: new Set()}};
+  const flowState = {capex: {mode: 'quarterly', basis: 'est', hidden: new Set()}, fcf: {mode: 'quarterly', basis: 'est', view: 'company', hidden: new Set()}};
+  const VIEWS = [['company', 'By company'], ['total', 'Total']];
 
   function renderFlow(key) {
     const cfg = FLOWS[key], st = flowState[key], again = () => renderFlow(key);
     const panel = document.querySelector(cfg.panel);
-    const list = flowSeries(key).map(s => ({...s, raw: onBasis(s.raw, st.basis)}));
+    const companies = flowSeries(key).map(s => ({...s, raw: onBasis(s.raw, st.basis)}));
     const reported = st.basis === 'rep';
+    // Total view: one bar per period for the five hyperscalers (SpaceX left out, as in the capex total).
+    const totalView = cfg.totalToggle && st.view === 'total';
+    const five = companies.filter(s => !s.total && s.owner !== 'SpaceX');
+    const list = totalView ? [hyperscalerTotal(five)] : companies;
+    const hidden = totalView ? new Set() : st.hidden;
+    const breakdown = pick => totalView ? five.map(s => { const p = pick(s); return p ? `${s.owner} ${fmtB(p.v)}` : ''; }).filter(Boolean).join(', ') : '';
     segmented(panel.querySelector('[data-ctl=mode]'), cfg.modes, st.mode, v => { st.mode = v; again(); });
     segmented(panel.querySelector('[data-ctl=basis]'), BASIS, st.basis, v => { st.basis = v; again(); });
+    const viewHost = panel.querySelector('[data-ctl=view]');
+    if (viewHost) segmented(viewHost, VIEWS, st.view, v => { st.view = v; again(); });
     const unit = {quarterly: '$B per quarter', ttm: '$B, trailing 4 quarters', annual: '$B per calendar year'}[st.mode];
-    panel.querySelector('.panel-heading p').textContent = `${cfg.what}, ${unit}${reported ? ', reported only' : ''}`;
+    panel.querySelector('.panel-heading p').textContent = `${cfg.what}, ${unit}${totalView ? ', five hyperscalers combined' : ''}${reported ? ', reported only' : ''}`;
     const host = panel.querySelector('.comp-chart');
     const keys = allQuarters(list.map(s => s.raw));
     if (st.mode === 'annual') {
       const years = [...new Set(keys.map(k => k.slice(0, 4)))].filter(y => list.some(s => sumQuarters(s.raw, yearKeys(y))));
-      const series = list.map(s => ({...s, values: years.map(y => sumQuarters(s.raw, yearKeys(y)))}));
-      legend(panel.querySelector('.comp-legend'), series, st.hidden, again);
+      const series = list.map(s => ({...s, values: years.map(y => { const a = sumQuarters(s.raw, yearKeys(y)); return a && totalView ? {...a, note: joinNotes(breakdown(c => sumQuarters(c.raw, yearKeys(y))), a.note)} : a; })}));
+      legend(panel.querySelector('.comp-legend'), series, hidden, again);
       const groups = years.map(y => ({label: y, title: `Calendar ${y}`, estimate: series.every(s => { const a = s.values[years.indexOf(y)]; return !a || a.parts.every(p => p.e); })}));
-      columnChart(host, {label: `${cfg.what}, calendar year`, groups, series, hidden: st.hidden, fmt: fmtB, labelFmt: v => Math.round(v).toString(), axisFmt: axisB});
+      columnChart(host, {label: `${cfg.what}, calendar year`, groups, series, hidden, fmt: fmtB, labelFmt: v => Math.round(v).toString(), axisFmt: axisB});
     } else {
       const ttm = st.mode === 'ttm';
       const value = (s, k) => ttm ? sumQuarters(s.raw, trailingKeys(k)) : s.raw[k] || null;
-      const shown = keys.filter(k => list.some(s => value(s, k)));
+      // The total keeps a quarter it can't add up (one company left out) as a visible n/a, so the axis never skips.
+      const has = keys.map(k => list.some(s => value(s, k)));
+      const shown = totalView ? keys.slice(has.indexOf(true), has.lastIndexOf(true) + 1) : keys.filter((k, i) => has[i]);
       const periods = markPeriods(shown, list.map(s => s.raw));
-      const note = (s, k, p) => p.note || joinNotes(fiscalNote(s.owner, s.raw[k]), vsB(p));
+      const note = (s, k, p) => totalView ? joinNotes(breakdown(c => value(c, k)), p.note || vsB(p)) : p.note || joinNotes(fiscalNote(s.owner, s.raw[k]), vsB(p));
       const label = `${cfg.what}, ${ttm ? 'trailing 4 quarters' : 'quarterly'}`;
       // Free cash flow swings above and below zero, which reads better as bars.
       if (cfg.bars) {
         const groups = periods.map((p, i) => ({label: p.label, sub: i === 0 || periods[i - 1].year !== p.year ? p.year : '', title: p.title, estimate: p.estimate}));
         const series = list.map(s => ({...s, values: shown.map(k => { const p = value(s, k); return p ? {...p, note: note(s, k, p)} : null; })}));
-        legend(panel.querySelector('.comp-legend'), series, st.hidden, again);
-        columnChart(host, {label, groups, series, hidden: st.hidden, fmt: fmtB, axisFmt: axisB, quietGaps: true});
+        legend(panel.querySelector('.comp-legend'), series, hidden, again);
+        columnChart(host, {label, groups, series, hidden, fmt: fmtB, axisFmt: axisB, quietGaps: !totalView});
       } else {
         const series = list.map(s => ({...s, points: shown.map(k => { const p = value(s, k); return p ? {v: p.v, e: p.e, note: note(s, k, p)} : null; })}));
         legend(panel.querySelector('.comp-legend'), series, st.hidden, again);
@@ -465,7 +476,7 @@
       outNote.hidden = !fcfOutliers.length;
       outNote.textContent = fcfOutliers.length ? `Left out as likely workbook errors: ${Object.entries(by).map(([c, qs]) => `${c} ${qs.join(', ')}`).join('; ')}. Years and trailing sums that include them are left out too; the figures table has the values.` : '';
     }
-    document.querySelector(cfg.method).textContent = `${cfg.note} Line items differ by company: ${list.filter(s => !s.total).map(s => `${s.owner}, ${s.field.trim()}`).join('; ')}.${key === 'capex' ? ' Total adds Microsoft, Google, Amazon, Oracle and Meta, only for quarters all five cover; SpaceX is left out.' : ''} A calendar year needs all four quarters; a year that mixes reported and estimated quarters counts as an estimate. Growth is left blank when either period is negative. Under a reported quarter, the small line is the estimate this page showed before the report.${key === 'fcf' ? ' Check on estimates: free cash flow plus capex is the operating cash flow an estimate implies. When that moves by more than half the quarter\'s capex from the same quarter a year earlier, or by more than two fifths next to a quarter that already fails, the quarter is treated as a workbook error and left out of the chart, calendar years, trailing sums and growth.' : ''}`;
+    document.querySelector(cfg.method).textContent = `${cfg.note} Line items differ by company: ${list.filter(s => !s.total).map(s => `${s.owner}, ${s.field.trim()}`).join('; ')}.${key === 'capex' ? ' Total adds Microsoft, Google, Amazon, Oracle and Meta, only for quarters all five cover; SpaceX is left out.' : ''}${cfg.totalToggle ? ' The Total view adds Microsoft, Google, Amazon, Oracle and Meta, only for periods all five cover, and leaves SpaceX out as the capex total does; hover a bar for each company\'s part.' : ''} A calendar year needs all four quarters; a year that mixes reported and estimated quarters counts as an estimate. Growth is left blank when either period is negative. Under a reported quarter, the small line is the estimate this page showed before the report.${key === 'fcf' ? ' Check on estimates: free cash flow plus capex is the operating cash flow an estimate implies. When that moves by more than half the quarter\'s capex from the same quarter a year earlier, or by more than two fifths next to a quarter that already fails, the quarter is treated as a workbook error and left out of the chart, calendar years, trailing sums and growth.' : ''}`;
   }
 
   // Quarterly and calendar-year tables, always every period, whatever the chart shows.
