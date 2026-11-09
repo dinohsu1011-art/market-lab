@@ -7,7 +7,10 @@
   <style>
     /* Colours come from the shell tokens so light/dark follow the site switch.
        Lines are neutral by default and only take a colour when they matter:
-       the focused line is the accent, legs are up (long) or down (short). */
+       the Citrindex is the accent, and inside a focused line every company
+       gets its own hue (shorts dashed) so the legs can be told apart. */
+    :root { --ct-leg-l:.56; --ct-leg-c:.14; }
+    :root[data-theme="dark"] { --ct-leg-l:.77; --ct-leg-c:.12; }
     .ct-wrap { max-width:1180px; margin:0 auto; padding:34px 28px 120px; }
     .ct-head { display:grid; grid-template-columns:minmax(0,7fr) minmax(0,5fr); gap:40px; align-items:end; margin-bottom:26px; }
     .ct-head h1 { font:600 40px/1.05 var(--sans); letter-spacing:-1.2px; margin:0 0 12px; color:var(--ml-ink); }
@@ -35,9 +38,12 @@
     .ct-chart .ln { fill:none; stroke-width:1.6; stroke-linejoin:round; stroke-linecap:round; transition:opacity .15s, stroke-width .15s; }
     .ct-chart .ln.base { stroke:var(--ml-muted); opacity:.42; }
     .ct-chart .ln.bench { stroke:var(--ml-faint); stroke-dasharray:5 4; opacity:.8; }
-    .ct-chart .ln.long { stroke:var(--ml-up); opacity:.55; }
-    .ct-chart .ln.short { stroke:var(--ml-down); opacity:.55; stroke-dasharray:4 3; }
-    .ct-chart .ln.main { stroke:var(--ml-accent); stroke-width:2.6; opacity:1; }
+    .ct-chart .ln.long { opacity:.8; }
+    .ct-chart .ln.short { opacity:.8; stroke-dasharray:4 3; }
+    .ct-chart .ln.main { stroke:var(--ml-ink); stroke-width:2.8; opacity:1; }
+    .ct-chart .ln.cx { stroke:var(--ml-accent); stroke-width:2.8; opacity:1; }
+    .ct-chart .ln.qqq { stroke:var(--ml-muted); stroke-dasharray:6 4; opacity:.85; }
+    .ct-chart .dotp { fill:var(--ml-accent); stroke:var(--ml-surface); stroke-width:1.5; }
     .ct-chart .ln.hot { opacity:1; stroke-width:2.6; }
     .ct-chart .ln.base.hot { stroke:var(--ml-ink); }
     .ct-chart .lab { font-size:12px; cursor:pointer; transition:opacity .15s; }
@@ -53,8 +59,28 @@
     .ct-tip .d { color:var(--ml-faint); margin-bottom:4px; }
     .ct-tip .row { display:flex; justify-content:space-between; gap:18px; }
     .ct-tip .row.hot { font-weight:600; }
+    .ct-tip .row i, .ct-legs td.l i { display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:7px; vertical-align:-1px; }
+    .ct-tip .sep { border-top:1px solid var(--ml-border); margin:6px 0 4px; color:var(--ml-faint); padding-top:5px; }
     .ct-key { display:flex; gap:20px; flex-wrap:wrap; font-size:12.5px; color:var(--ml-muted); margin:8px 0 0; min-height:20px; }
     .ct-key i { display:inline-block; width:18px; height:0; border-top:2px solid; vertical-align:middle; margin-right:7px; }
+    .cx { display:grid; grid-template-columns:minmax(0,7fr) minmax(0,5fr); gap:44px; margin:0 0 72px; align-items:start; }
+    .cx h2 { font:600 26px/1.15 var(--sans); letter-spacing:-.6px; margin:0 0 8px; }
+    .cx h2 .v { font-weight:600; margin-left:10px; }
+    .cx-sum { color:var(--ml-muted); font-size:14.5px; margin:0 0 14px; max-width:620px; }
+    .cx-sum strong { color:var(--ml-ink); font-weight:600; }
+    .cx-w h3 { font:600 15px/1.3 var(--sans); margin:4px 0 4px; }
+    .cx-w > p { color:var(--ml-faint); font-size:12.5px; margin:0 0 10px; }
+    .cx-t { width:100%; border-collapse:collapse; font-size:13px; font-variant-numeric:tabular-nums; }
+    .cx-t th { color:var(--ml-faint); font-weight:500; font-size:11.5px; text-align:right; padding:0 6px 6px; border-bottom:1px solid var(--ml-border); }
+    .cx-t td { text-align:right; padding:6px 6px; border-bottom:1px solid var(--ml-border); white-space:nowrap; }
+    .cx-t th.l, .cx-t td.l { text-align:left; }
+    .cx-t td.l { white-space:normal; color:var(--ml-ink); }
+    .cx-t tbody tr { cursor:pointer; transition:background .15s; }
+    .cx-t tbody tr:hover td, .cx-t tbody tr.hot td { background:var(--ml-hover); }
+    .cx-t .sz { display:flex; align-items:center; justify-content:flex-end; gap:7px; }
+    .cx-t .sz b { display:block; height:6px; background:var(--ml-muted); opacity:.45; border-radius:1px; }
+    .cx-t .nt { color:var(--ml-faint); }
+    .cx-t tfoot td { font-weight:600; border-bottom:0; color:var(--ml-ink); }
     .ct-sec { margin-top:56px; }
     .ct-sec h2 { font:600 24px/1.2 var(--sans); letter-spacing:-.5px; margin:0 0 6px; }
     .ct-sec > p { color:var(--ml-muted); margin:0 0 18px; max-width:760px; font-size:14px; }
@@ -87,23 +113,36 @@
     .ct-note li { margin-bottom:8px; }
     .ct-note li strong { color:var(--ml-ink); font-weight:600; }
     @media (max-width:800px) {
-      .ct-head, .ct-note { grid-template-columns:1fr; gap:16px; }
+      .ct-head, .ct-note, .cx { grid-template-columns:1fr; gap:16px; }
       .ct-upd { text-align:left; }
       .ct-head h1 { font-size:32px; }
       .ct-wrap { padding:24px 16px 80px; }
     }
   </style>
-<link rel="stylesheet" href="market-lab-shell.css?v=20261106-a44d9895"><script src="market-lab-shell.js?v=20261106-a44d9895"></script></head>
+<link rel="stylesheet" href="market-lab-shell.css?v=20261106-86794ec0"><script src="market-lab-shell.js?v=20261106-86794ec0"></script></head>
 <body>
   <main class="ct-wrap">
     <header class="ct-head">
       <div>
         <h1>Citrini ideas</h1>
-        <p>The pairs and baskets from <strong>Citrini Research's Nov 4, 2026 issue</strong>, each marked buy-and-hold from the close before.
-          A pair reads as the long's return minus the short's. Baskets keep the issue's weights. Tracked ideas, not positions.</p>
+        <p>The <strong>Citrindex</strong>, Citrini Research's live portfolio, held at the weights in its Nov 8, 2026 holdings file, next to the
+          pairs from the <strong>Nov 4 issue</strong>. Everything is marked buy-and-hold. Tracked ideas, not positions.</p>
       </div>
       <div class="ct-upd" id="upd"></div>
     </header>
+
+    <section class="cx" id="cx">
+      <div>
+        <h2 id="cxH">Citrindex</h2>
+        <p class="cx-sum" id="cxSum"></p>
+        <div class="ct-chart" id="cxChart"><div class="ct-tip" id="cxTip"></div></div>
+      </div>
+      <div class="cx-w">
+        <h3>Theme weights</h3>
+        <p id="cxNote"></p>
+        <table class="cx-t" id="cxW"></table>
+      </div>
+    </section>
 
     <div class="ct-books" role="group" aria-label="Book" id="books"></div>
     <p class="ct-sum" id="sum"></p>
@@ -121,16 +160,16 @@
     <aside class="ct-note">
       <h3>How the lines are built</h3>
       <ul>
-        <li><strong>Buy-and-hold from a fixed close.</strong> The long/short ideas start at the Oct 30 close, the last one before November. The State of the Themes baskets start at the Nov 3 close, the date of their weights. Nothing is rebalanced.</li>
-        <li><strong>Weights are the issue's.</strong> A pair is 100% long and 100% short. Fiscal Primacy is 100% long against 40% short, so it is not dollar-neutral. A leg's contribution is its weight times its return.</li>
-        <li><strong>Cash earns nothing.</strong> The Life Sciences cash sleeve (5.3%) and Paid to Wait's cash are left out of the return.</li>
-        <li><strong>Boomer Software is long only.</strong> The issue runs it against an IGV short but does not give the size.</li>
-        <li><strong>Price return in local currency.</strong> No dividends, no FX, no costs. CCXI has no close before Nov 4, so it is marked from its first close.</li>
+        <li><strong>The Citrindex starts at the Nov 4 close.</strong> Its last rebalance traded after that close, and nothing has traded since. The holdings file gives each stock's weight at the Nov 6 close; those weights are walked back to Nov 4 by each stock's move, then left to drift. Nothing is rebalanced.</li>
+        <li><strong>Size and net.</strong> Size is a theme's share of the index, and the twelve add to 100%. Net is its longs minus its shorts as a share of the index. Dynamic AI is a big book that is close to market-neutral, so its net is small. A theme's "adds" is the points it put on the index.</li>
+        <li><strong>Returns are in US dollars.</strong> Foreign stocks are converted at each day's exchange rate, as the index itself is. Cash earns nothing. Price return, no dividends or costs.</li>
+        <li><strong>The long/short ideas start at the Oct 30 close.</strong> A pair is 100% long and 100% short, in local currency. Fiscal Primacy is 100% long against 40% short. Boomer Software is long only; the issue does not size its IGV short.</li>
+        <li><strong>CCXI</strong> has no close before Nov 4 and Yahoo has no close for it since, so it uses the holdings file's Nov 6 price.</li>
       </ul>
     </aside>
   </main>
 
-  <script src="cube/citrini.js?v=20261106-a44d9895"></script>
+  <script src="cube/citrini.js?v=20261106-86794ec0"></script>
   <script>
   (() => {
     'use strict';
@@ -141,13 +180,14 @@
     const pts = x => (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(1);
     const cls = x => x > 0.00005 ? 'up' : x < -0.00005 ? 'dn' : 'mut';
     const fmtD = (s, y) => new Date(s + 'T12:00:00').toLocaleDateString(undefined, y ? {month:'short', day:'numeric', year:'numeric'} : {month:'short', day:'numeric'});
+    const isIdx = b => b === D.books.idx;
     const short = l => l.label.split(' · ')[0].replace(/ basket$/, '').replace(/ \(long only\)$/, '');
     const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
     const NS = 'http://www.w3.org/2000/svg';
     const el = (tag, attrs = {}, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.append(n); return n; };
 
     $('upd').textContent = 'Updated ' + fmtD(D.meta.as_of, true);
-    let bookKey = 'ls', focusId = null, hotId = null;
+    let bookKey = 'idx', focusId = null, hotId = null;
     const hash = location.hash.slice(1).split(':');
     if (D.books[hash[0]]) { bookKey = hash[0]; if (D.books[bookKey].lines.some(l => l.id === hash[1])) focusId = hash[1]; }
 
@@ -155,7 +195,8 @@
     for (const b of Object.values(D.books)) for (const l of b.lines) {
       const n = l.ret.length - 1;
       l.last = l.ret[n];
-      for (const g of l.legs) { g.last = g.ret[n]; g.c = g.w * g.last; }
+      // golden-angle hue steps keep neighbouring legs far apart on the wheel
+      l.legs.forEach((g, i) => { g.last = g.ret[n]; g.c = g.w * g.last; g.col = `oklch(var(--ct-leg-l) var(--ct-leg-c) ${(i * 137.508 + 28) % 360})`; });
       l.longC = l.legs.filter(g => g.w > 0).reduce((s, g) => s + g.c, 0);
       l.shortC = l.legs.filter(g => g.w < 0).reduce((s, g) => s + g.c, 0);
       l.hasShort = l.legs.some(g => g.w < 0);
@@ -174,7 +215,8 @@
       const up = lines.filter(l => l.last > 0).length, spy = b.bench.SPY.at(-1);
       const beat = lines.filter(l => l.last > spy).length;
       const top = lines[0], bot = lines.at(-1);
-      $('sum').innerHTML = `Since the ${fmtD(b.start)} close, <strong>${up} of ${lines.length}</strong> lines are up and ${beat} are ahead of SPY (${pct(spy)}). ` +
+      const noun = isIdx(b) ? 'themes' : 'lines';
+      $('sum').innerHTML = `Since the ${fmtD(b.start)} close, <strong>${up} of ${lines.length}</strong> ${noun} are up and ${beat} are ahead of SPY (${pct(spy)}). ` +
         `Best: <strong>${esc(short(top))}</strong> <span class="${cls(top.last)}">${pct(top.last)}</span>. ` +
         `Worst: <strong>${esc(short(bot))}</strong> <span class="${cls(bot.last)}">${pct(bot.last)}</span>.`;
     }
@@ -191,7 +233,7 @@
       // what gets drawn: [{id, label, ret, cls}]
       let series;
       if (focus) {
-        series = [...focus.legs].sort((a, c) => c.last - a.last).map(g => ({id: g.t, label: g.t, sub: g.name, ret: g.ret, cls: g.w > 0 ? 'long' : 'short', w: g.w}));
+        series = [...focus.legs].sort((a, c) => c.last - a.last).map(g => ({id: g.t, label: g.t, sub: g.name, ret: g.ret, cls: g.w > 0 ? 'long' : 'short', w: g.w, col: g.col}));
         series.push({id: focus.id, label: short(focus), ret: focus.ret, cls: 'main'});
       } else {
         series = b.lines.map(l => ({id: l.id, label: short(l), ret: l.ret, cls: 'base'}));
@@ -221,6 +263,7 @@
       // base lines first so the focus line sits on top
       for (const s of [bench, ...series]) {
         nodes[s.id] = {ln: el('path', {d: path(s), class: 'ln ' + s.cls}, lines)};
+        if (s.col) nodes[s.id].ln.style.stroke = s.col;
       }
       // end labels, pushed apart so they never overlap
       // A 30-leg basket cannot label every leg: keep the line, SPY and the
@@ -241,7 +284,10 @@
         const lg = el('g', {class: 'lab ' + s.cls, transform: `translate(${m.l + iw + 10},${ly + 4})`}, labs);
         const v = s.ret.at(-1);
         const t1 = el('text', {class: 'v'}, lg); t1.textContent = pct(v); t1.style.fill = `var(--ml-${v >= 0 ? 'up' : 'down'})`;
-        if (!narrow) { const t2 = el('text', {x: 52}, lg); t2.textContent = s.label.length > 24 ? s.label.slice(0, 23) + '…' : s.label; }
+        if (!narrow) {
+          const t2 = el('text', {x: 52}, lg); t2.textContent = s.label.length > 24 ? s.label.slice(0, 23) + '…' : s.label;
+          if (s.col) { t2.style.fill = s.col; t2.style.fontWeight = 600; }
+        }
         nodes[s.id].lab = lg;
         if (!focus && s.cls === 'base') lg.onclick = () => setFocus(s.id);
         lg.onmouseenter = () => setHot(s.id); lg.onmouseleave = () => setHot(null);
@@ -273,11 +319,11 @@
         dots.innerHTML = '';
         const rows = [...all].sort((a, c) => c.ret[i] - a.ret[i]);
         for (const s of rows) if (s.cls !== 'base' || s.id === hotId) {
-          const c = s.cls === 'main' ? 'accent' : s.cls === 'long' ? 'up' : s.cls === 'short' ? 'down' : s.cls === 'bench' ? 'faint' : 'ink';
-          el('circle', {cx: x(i), cy: y(s.ret[i]), r: s.cls === 'main' || s.id === hotId ? 4 : 2.5, class: 'dot', fill: `var(--ml-${c})`}, dots);
+          const c = s.col || `var(--ml-${s.cls === 'main' ? 'ink' : s.cls === 'bench' ? 'faint' : 'ink'})`;
+          el('circle', {cx: x(i), cy: y(s.ret[i]), r: s.cls === 'main' || s.id === hotId ? 4 : 2.5, class: 'dot'}, dots).style.fill = c;
         }
         tip.innerHTML = `<div class="d">${fmtD(b.dates[i], true)}</div>` + rows.slice(0, 32).map(s =>
-          `<div class="row${s.id === hotId || s.cls === 'main' ? ' hot' : ''}"><span>${esc(s.label)}</span><span class="${cls(s.ret[i])}">${pct(s.ret[i])}</span></div>`).join('');
+          `<div class="row${s.id === hotId || s.cls === 'main' ? ' hot' : ''}"><span>${s.col ? `<i style="background:${s.col}"></i>` : ''}${esc(s.label)}${s.cls === 'short' ? ' <span class="mut">short</span>' : ''}</span><span class="${cls(s.ret[i])}">${pct(s.ret[i])}</span></div>`).join('');
         tip.style.opacity = 1;
         const tw = tip.offsetWidth, sx = x(i) * r.width / W;
         tip.style.left = (sx + 16 + tw > r.width ? sx - tw - 16 : sx + 16) + 'px';
@@ -286,8 +332,8 @@
       svg.onmouseleave = () => { cross.style.opacity = 0; tip.style.opacity = 0; dots.innerHTML = ''; };
       // key + focus header
       $('key').innerHTML = focus
-        ? `<span><i style="border-color:var(--ml-accent)"></i>${esc(short(focus))}</span><span><i style="border-color:var(--ml-up)"></i>Long legs</span>` +
-          (focus.hasShort ? `<span><i style="border-color:var(--ml-down);border-top-style:dashed"></i>Short legs</span>` : '') +
+        ? `<span><i style="border-color:var(--ml-ink);border-top-width:3px"></i>${esc(short(focus))}</span><span>Each company has its own colour</span>` +
+          (focus.hasShort ? `<span><i style="border-color:var(--ml-muted);border-top-style:dashed"></i>Dashed = short</span>` : '') +
           `<span><i style="border-color:var(--ml-faint);border-top-style:dashed"></i>SPY</span>`
         : `<span><i style="border-color:var(--ml-faint);border-top-style:dashed"></i>SPY</span><span class="mut">Hover a line to pick it out. Click it to see its legs.</span>`;
       $('focus').innerHTML = focus
@@ -303,27 +349,97 @@
       const spy = b.bench.SPY.at(-1);
       const legTable = l => {
         const legs = [...l.legs].sort((a, c) => c.c - a.c);
-        return `<table class="ct-legs"><thead><tr><th class="l">Leg</th><th class="l">Company</th><th class="l">Side</th><th>Weight</th><th>Return</th><th>Adds (pts)</th></tr></thead><tbody>` +
-          legs.map(g => `<tr><td class="l"><b>${esc(g.t)}</b></td><td class="l nmc" title="${esc(g.name)}">${esc(g.name)}</td>` +
+        const ix = isIdx(b), wf = w => (Math.abs(w) * 100).toFixed(1).replace(/\.0$/, '') + '%';
+        return `<table class="ct-legs"><thead><tr><th class="l">Leg</th><th class="l">Company</th><th class="l">Side</th><th>${ix ? 'In theme' : 'Weight'}</th>${ix ? '<th>In index</th>' : ''}<th>Return</th><th>Adds (pts)</th></tr></thead><tbody>` +
+          legs.map(g => `<tr><td class="l"><i style="background:${g.col}"></i><b>${esc(g.t)}</b></td><td class="l nmc" title="${esc(g.name)}">${esc(g.name)}</td>` +
             `<td class="l"><span class="side ${g.w > 0 ? 'up' : 'dn'}">${g.w > 0 ? 'Long' : 'Short'}</span></td>` +
-            `<td>${(Math.abs(g.w) * 100).toFixed(1).replace(/\.0$/, '')}%</td><td class="${cls(g.last)}">${pct(g.last)}</td><td class="${cls(g.c)}">${pts(g.c)}</td></tr>`).join('') +
-          `</tbody><tfoot><tr><td class="l" colspan="5">Total</td><td class="${cls(l.last)}">${pts(l.last)}</td></tr></tfoot></table>`;
+            `<td>${wf(g.w)}</td>${ix ? `<td class="mut">${(Math.abs(g.wi) * 100).toFixed(2)}%</td>` : ''}<td class="${cls(g.last)}">${pct(g.last)}</td><td class="${cls(g.c)}">${pts(g.c)}</td></tr>`).join('') +
+          `</tbody><tfoot><tr><td class="l" colspan="${ix ? 6 : 5}">Total</td><td class="${cls(l.last)}">${pts(l.last)}</td></tr></tfoot></table>`;
       };
-      $('ledger').innerHTML = `<thead><tr><th class="l">Line</th><th>Since ${fmtD(b.start)}</th><th>vs SPY</th><th>Longs add</th><th>Shorts add</th><th class="l">Best leg</th><th class="l">Worst leg</th></tr></thead><tbody>` +
+      const ix = isIdx(b);
+      $('ledgerTitle').textContent = ix ? 'Every theme' : 'Every line';
+      $('ledger').innerHTML = `<thead><tr><th class="l">${ix ? 'Theme' : 'Line'}</th>${ix ? '<th>Size</th>' : ''}<th>Since ${fmtD(b.start)}</th><th>vs SPY</th><th>Longs add</th><th>Shorts add</th><th class="l">Best leg</th><th class="l">Worst leg</th></tr></thead><tbody>` +
         lines.map(l => {
           const open = l.id === focusId;
           const [nm, tk] = l.label.split(' · ');
           return `<tr class="line${open ? ' x' : ''}" data-id="${l.id}">` +
             `<td class="l"><span class="nm">${esc(nm.replace(/ \(long only\)$/, ''))}</span>${tk ? `<span class="tk">${esc(tk)}</span>` : ''}${/long only/.test(nm) ? '<span class="tk">long only</span>' : ''}</td>` +
+            (ix ? `<td class="mut">${(l.alloc * 100).toFixed(1)}%</td>` : '') +
             `<td class="${cls(l.last)}">${pct(l.last)}<span class="bar" style="width:${Math.round(Math.abs(l.last) / maxAbs * 60)}px;background:var(--ml-${l.last >= 0 ? 'up' : 'down'})"></span></td>` +
             `<td class="${cls(l.last - spy)}">${pts(l.last - spy)}</td>` +
             `<td class="${cls(l.longC)}">${pts(l.longC)}</td>` +
             `<td class="${l.hasShort ? cls(l.shortC) : 'mut'}">${l.hasShort ? pts(l.shortC) : '–'}</td>` +
             `<td class="l">${esc(l.best.t)} <span class="${cls(l.best.c)}">${pts(l.best.c)}</span></td>` +
             `<td class="l">${esc(l.worst.t)} <span class="${cls(l.worst.c)}">${pts(l.worst.c)}</span></td></tr>` +
-            (open ? `<tr class="legs"><td colspan="7">${legTable(l)}</td></tr>` : '');
+            (open ? `<tr class="legs"><td colspan="${ix ? 8 : 7}">${legTable(l)}</td></tr>` : '');
         }).join('') + '</tbody>';
       $('ledger').querySelectorAll('tr.line').forEach(tr => tr.onclick = () => setFocus(tr.dataset.id === focusId ? null : tr.dataset.id, true));
+    }
+
+    // ---- Citrindex: the whole index against QQQ and the S&P 500 ----
+    function cx() {
+      const X = D.books.idx;
+      if (!X) { $('cx').hidden = true; return; }
+      const I = X.index, n = X.dates.length, q = X.bench.QQQ.at(-1), sp = X.bench.SPY.at(-1), v = I.ret.at(-1);
+      $('cxH').innerHTML = `Citrindex <span class="v ${cls(v)}">${pct(v)}</span>`;
+      $('cxSum').innerHTML = `Since the ${fmtD(X.start)} rebalance close, against <strong>QQQ</strong> <span class="${cls(q)}">${pct(q)}</span> ` +
+        `and the <strong>S&amp;P 500</strong> <span class="${cls(sp)}">${pct(sp)}</span>. ` +
+        `It holds ${Math.round(I.long * 100)}% long and ${Math.round(-I.short * 100)}% short, with ${Math.round(I.cash * 100)}% in cash.`;
+      $('cxNote').textContent = `Weights at the ${fmtD(X.weights)} close, from the Nov 8 holdings file. Click a theme to chart its stocks.`;
+      // weights table
+      const rows = X.lines, maxA = Math.max(...rows.map(l => l.alloc));
+      $('cxW').innerHTML = `<thead><tr><th class="l">Theme</th><th>Size</th><th>Net</th><th>Return</th><th>Adds</th></tr></thead><tbody>` +
+        rows.map(l => { const c = l.contrib.at(-1); return `<tr data-id="${l.id}"><td class="l">${esc(l.label)}</td>` +
+          `<td><span class="sz">${(l.alloc * 100).toFixed(1)}%<b style="width:${Math.round(l.alloc / maxA * 44)}px"></b></span></td>` +
+          `<td class="nt">${(l.w_now * 100).toFixed(1)}%</td><td class="${cls(l.last)}">${pct(l.last)}</td><td class="${cls(c)}">${pts(c)}</td></tr>`; }).join('') +
+        `</tbody><tfoot><tr><td class="l">Citrindex</td><td>100%</td><td class="nt">${(I.net * 100).toFixed(1)}%</td><td class="${cls(v)}">${pct(v)}</td><td class="${cls(v)}">${pts(v)}</td></tr></tfoot>`;
+      $('cxW').querySelectorAll('tbody tr').forEach(tr => tr.onclick = () => { bookKey = 'idx'; setFocus(tr.dataset.id, true); });
+      // chart
+      const host = $('cxChart'), tip = $('cxTip');
+      host.querySelector('svg')?.remove();
+      const W = host.clientWidth || 640, H = Math.max(260, Math.min(340, W * 0.5)), narrow = W < 520;
+      const m = {l: 44, r: narrow ? 100 : 128, t: 12, b: 28}, iw = W - m.l - m.r, ih = H - m.t - m.b;
+      const S = [{id: 'cx', label: 'Citrindex', ret: I.ret, cls: 'cx'}, {id: 'QQQ', label: 'QQQ', ret: X.bench.QQQ, cls: 'qqq'},
+                 {id: 'SPY', label: 'S&P 500', ret: X.bench.SPY, cls: 'bench'}];
+      let lo = Math.min(0, ...S.flatMap(s => s.ret)), hi = Math.max(0, ...S.flatMap(s => s.ret));
+      const pad = (hi - lo) * 0.08 || 0.01; lo -= pad; hi += pad;
+      const x = i => m.l + (n === 1 ? iw / 2 : i * iw / (n - 1)), y = v => m.t + (hi - v) / (hi - lo) * ih;
+      const svg = el('svg', {viewBox: `0 0 ${W} ${H}`, height: H}); host.prepend(svg);
+      const span = hi - lo, raw = span / 5, mag = 10 ** Math.floor(Math.log10(raw));
+      const step = [1, 2, 2.5, 5, 10].map(k => k * mag).find(s => s >= raw), g = el('g', {class: 'grid'}, svg);
+      for (let v = Math.ceil(lo / step) * step; v <= hi; v += step) {
+        el('line', {x1: m.l, x2: m.l + iw, y1: y(v), y2: y(v), class: Math.abs(v) < step / 1e3 ? 'zero' : ''}, g);
+        el('text', {x: m.l - 8, y: y(v) + 4, 'text-anchor': 'end'}, g).textContent = (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v * 100).toFixed(step < 0.01 ? 1 : 0) + '%';
+      }
+      const every = Math.ceil(n / Math.max(2, Math.floor(iw / 70)));
+      X.dates.forEach((d, i) => { if (i % every === 0 || i === n - 1) el('text', {x: x(i), y: H - 8, 'text-anchor': 'middle'}, svg).textContent = fmtD(d); });
+      for (const s of [...S].reverse()) el('path', {d: s.ret.map((v, i) => (i ? 'L' : 'M') + x(i).toFixed(1) + ',' + y(v).toFixed(1)).join(''), class: 'ln ' + s.cls}, svg);
+      if (n < 30) I.ret.forEach((v, i) => el('circle', {cx: x(i), cy: y(v), r: 3, class: 'dotp'}, svg));
+      const ends = S.map(s => ({s, y: y(s.ret.at(-1))})).sort((a, c) => a.y - c.y);
+      for (let i = 1; i < ends.length; i++) ends[i].y = Math.max(ends[i].y, ends[i - 1].y + 15);
+      for (const {s, y: ly} of ends) {
+        const lg = el('g', {class: 'lab' + (s.cls === 'cx' ? ' main' : ''), transform: `translate(${m.l + iw + 10},${ly + 4})`}, svg);
+        const t1 = el('text', {class: 'v'}, lg); t1.textContent = pct(s.ret.at(-1)); t1.style.fill = `var(--ml-${s.ret.at(-1) >= 0 ? 'up' : 'down'})`;
+        el('text', {x: 50}, lg).textContent = narrow && s.id === 'cx' ? 'Index' : narrow && s.id === 'SPY' ? 'S&P' : s.label;
+      }
+      const cross = el('line', {class: 'cross', y1: m.t, y2: m.t + ih}, svg);
+      svg.onmousemove = ev => {
+        const r = svg.getBoundingClientRect(), px = (ev.clientX - r.left) * W / r.width;
+        if (px < m.l - 10 || px > m.l + iw + 10) { cross.style.opacity = 0; tip.style.opacity = 0; return; }
+        const i = Math.max(0, Math.min(n - 1, Math.round((px - m.l) / iw * (n - 1))));
+        cross.setAttribute('x1', x(i)); cross.setAttribute('x2', x(i)); cross.style.opacity = .6;
+        const th = [...X.lines].sort((a, c) => c.contrib[i] - a.contrib[i]);
+        const pick = th.length > 6 ? [...th.slice(0, 3), ...th.slice(-3)] : th;
+        tip.innerHTML = `<div class="d">${fmtD(X.dates[i], true)}</div>` +
+          S.map(s => `<div class="row${s.cls === 'cx' ? ' hot' : ''}"><span>${s.label}</span><span class="${cls(s.ret[i])}">${pct(s.ret[i])}</span></div>`).join('') +
+          `<div class="sep">Points added by theme</div>` +
+          pick.map(l => `<div class="row"><span>${esc(l.label.length > 26 ? l.label.slice(0, 25) + '…' : l.label)}</span><span class="${cls(l.contrib[i])}">${pts(l.contrib[i])}</span></div>`).join('');
+        tip.style.opacity = 1;
+        const tw = tip.offsetWidth, sx = x(i) * r.width / W;
+        tip.style.left = (sx + 16 + tw > r.width ? sx - tw - 16 : sx + 16) + 'px';
+        tip.style.top = Math.max(0, Math.min(H - tip.offsetHeight, (ev.clientY - r.top) - tip.offsetHeight / 2)) + 'px';
+      };
+      svg.onmouseleave = () => { cross.style.opacity = 0; tip.style.opacity = 0; };
     }
 
     function setFocus(id, fromTable) {
@@ -335,8 +451,8 @@
       history.replaceState(null, '', '#' + bookKey + (focusId ? ':' + focusId : ''));
       renderBooks(); summary(b); chart(b); ledger(b);
     }
-    render();
-    let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => chart(D.books[bookKey]), 120); });
+    cx(); render();
+    let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { cx(); chart(D.books[bookKey]); }, 120); });
   })();
   </script>
 </body>
