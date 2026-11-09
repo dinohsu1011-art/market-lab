@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Citrini ideas — Equinox</title>
+  <style>
+    /* Colours come from the shell tokens so light/dark follow the site switch.
+       Lines are neutral by default and only take a colour when they matter:
+       the focused line is the accent, legs are up (long) or down (short). */
+    .ct-wrap { max-width:1180px; margin:0 auto; padding:34px 28px 120px; }
+    .ct-head { display:grid; grid-template-columns:minmax(0,7fr) minmax(0,5fr); gap:40px; align-items:end; margin-bottom:26px; }
+    .ct-head h1 { font:600 40px/1.05 var(--sans); letter-spacing:-1.2px; margin:0 0 12px; color:var(--ml-ink); }
+    .ct-head p { margin:0; color:var(--ml-muted); font-size:15px; max-width:640px; }
+    .ct-head p strong { color:var(--ml-ink); font-weight:600; }
+    .ct-upd { color:var(--ml-faint); font-size:13px; text-align:right; }
+    .ct-books { display:flex; gap:4px; flex-wrap:wrap; margin:0 0 18px; }
+    .ct-books button, .ct-back { font:500 13px var(--sans); padding:7px 14px; border:1px solid var(--ml-border); background:transparent;
+      color:var(--ml-muted); border-radius:4px; cursor:pointer; transition:background .15s, color .15s; }
+    .ct-books button span { color:var(--ml-faint); font-weight:400; margin-left:6px; }
+    .ct-books button[aria-pressed="true"] { background:var(--ml-ink); color:var(--ml-bg); border-color:var(--ml-ink); }
+    .ct-books button[aria-pressed="true"] span { color:inherit; opacity:.7; }
+    .ct-sum { color:var(--ml-muted); font-size:15px; max-width:800px; margin:0 0 18px; min-height:2.8em; }
+    .ct-sum strong { color:var(--ml-ink); font-weight:600; }
+    .ct-focus { display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; margin:0 0 6px; min-height:34px; }
+    .ct-focus h2 { font:600 20px/1.2 var(--sans); letter-spacing:-.4px; margin:0; }
+    .ct-focus .k { color:var(--ml-faint); font-size:13px; }
+    .ct-back { padding:5px 11px; }
+    .ct-back:hover, .ct-books button:hover:not([aria-pressed="true"]) { background:var(--ml-hover); color:var(--ml-ink); }
+    .ct-chart { position:relative; }
+    .ct-chart svg { display:block; width:100%; overflow:visible; touch-action:pan-y; }
+    .ct-chart .grid line { stroke:var(--ml-border); }
+    .ct-chart .grid line.zero { stroke:var(--ml-faint); stroke-dasharray:2 3; }
+    .ct-chart text { fill:var(--ml-faint); font-size:11.5px; }
+    .ct-chart .ln { fill:none; stroke-width:1.6; stroke-linejoin:round; stroke-linecap:round; transition:opacity .15s, stroke-width .15s; }
+    .ct-chart .ln.base { stroke:var(--ml-muted); opacity:.42; }
+    .ct-chart .ln.bench { stroke:var(--ml-faint); stroke-dasharray:5 4; opacity:.8; }
+    .ct-chart .ln.long { stroke:var(--ml-up); opacity:.55; }
+    .ct-chart .ln.short { stroke:var(--ml-down); opacity:.55; stroke-dasharray:4 3; }
+    .ct-chart .ln.main { stroke:var(--ml-accent); stroke-width:2.6; opacity:1; }
+    .ct-chart .ln.hot { opacity:1; stroke-width:2.6; }
+    .ct-chart .ln.base.hot { stroke:var(--ml-ink); }
+    .ct-chart .lab { font-size:12px; cursor:pointer; transition:opacity .15s; }
+    .ct-chart .lab .v { font-weight:600; }
+    .ct-chart .lab.dim { opacity:.35; }
+    .ct-chart .lab.hot { opacity:1; }
+    .ct-chart .lab.hot text, .ct-chart .lab.main text { fill:var(--ml-ink); }
+    .ct-chart .hitln { fill:none; stroke:transparent; stroke-width:12; cursor:pointer; }
+    .ct-chart .cross { stroke:var(--ml-faint); stroke-width:1; opacity:0; }
+    .ct-chart .dot { stroke:var(--ml-surface); stroke-width:1.5; }
+    .ct-tip { position:absolute; pointer-events:none; background:var(--ml-surface); border:1px solid var(--ml-border);
+      padding:8px 11px; font-size:12.5px; border-radius:4px; white-space:nowrap; opacity:0; transition:opacity .15s; z-index:5; min-width:180px; }
+    .ct-tip .d { color:var(--ml-faint); margin-bottom:4px; }
+    .ct-tip .row { display:flex; justify-content:space-between; gap:18px; }
+    .ct-tip .row.hot { font-weight:600; }
+    .ct-key { display:flex; gap:20px; flex-wrap:wrap; font-size:12.5px; color:var(--ml-muted); margin:8px 0 0; min-height:20px; }
+    .ct-key i { display:inline-block; width:18px; height:0; border-top:2px solid; vertical-align:middle; margin-right:7px; }
+    .ct-sec { margin-top:56px; }
+    .ct-sec h2 { font:600 24px/1.2 var(--sans); letter-spacing:-.5px; margin:0 0 6px; }
+    .ct-sec > p { color:var(--ml-muted); margin:0 0 18px; max-width:760px; font-size:14px; }
+    .ct-scroll { overflow-x:auto; }
+    .ct-table { width:100%; border-collapse:collapse; font-size:13.5px; font-variant-numeric:tabular-nums; }
+    .ct-table th { text-align:right; color:var(--ml-faint); font-weight:500; font-size:12px; padding:8px 10px; border-bottom:1px solid var(--ml-border); white-space:nowrap; }
+    .ct-table td { text-align:right; padding:9px 10px; border-bottom:1px solid var(--ml-border); white-space:nowrap; }
+    .ct-table th.l, .ct-table td.l { text-align:left; }
+    .ct-table tr.line { cursor:pointer; }
+    .ct-table tr.line:hover td { background:var(--ml-hover); }
+    .ct-table tr.line td:first-child::before { content:"›"; display:inline-block; width:14px; color:var(--ml-faint); transition:transform .15s; }
+    .ct-table tr.line.x td:first-child::before { transform:rotate(90deg); }
+    .ct-table tr.line.x td { background:color-mix(in srgb,var(--ml-accent) 8%,transparent); }
+    .ct-table td .nm { font-weight:600; color:var(--ml-ink); }
+    .ct-table td .tk { color:var(--ml-faint); margin-left:6px; }
+    .ct-table .bar { display:inline-block; height:7px; border-radius:2px; vertical-align:middle; margin-left:8px; opacity:.75; }
+    .ct-table tr.legs > td { padding:2px 0 18px 24px; background:var(--ml-raised); }
+    .ct-legs { width:100%; border-collapse:collapse; font-size:12.5px; font-variant-numeric:tabular-nums; }
+    .ct-legs th { color:var(--ml-faint); font-weight:500; text-align:right; padding:9px 10px 4px; }
+    .ct-legs td { text-align:right; padding:5px 10px; }
+    .ct-legs th.l, .ct-legs td.l { text-align:left; }
+    .ct-legs td.l b { font-weight:600; }
+    .ct-legs td.nmc { color:var(--ml-muted); max-width:280px; overflow:hidden; text-overflow:ellipsis; }
+    .ct-legs .side { font-size:11.5px; font-weight:600; }
+    .ct-legs tfoot td { border-top:1px solid var(--ml-border); color:var(--ml-muted); padding-top:7px; }
+    .up { color:var(--ml-up); } .dn { color:var(--ml-down); } .mut { color:var(--ml-faint); }
+    .ct-note { margin-top:56px; display:grid; grid-template-columns:minmax(0,4fr) minmax(0,8fr); gap:40px; border-top:1px solid var(--ml-border); padding-top:26px; }
+    .ct-note h3 { font:600 15px/1.3 var(--sans); margin:0; }
+    .ct-note ul { margin:0; padding-left:18px; color:var(--ml-muted); font-size:13.5px; }
+    .ct-note li { margin-bottom:8px; }
+    .ct-note li strong { color:var(--ml-ink); font-weight:600; }
+    @media (max-width:800px) {
+      .ct-head, .ct-note { grid-template-columns:1fr; gap:16px; }
+      .ct-upd { text-align:left; }
+      .ct-head h1 { font-size:32px; }
+      .ct-wrap { padding:24px 16px 80px; }
+    }
+  </style>
+<link rel="stylesheet" href="market-lab-shell.css?v=20261106-a44d9895"><script src="market-lab-shell.js?v=20261106-a44d9895"></script></head>
+<body>
+  <main class="ct-wrap">
+    <header class="ct-head">
+      <div>
+        <h1>Citrini ideas</h1>
+        <p>The pairs and baskets from <strong>Citrini Research's Nov 4, 2026 issue</strong>, each marked buy-and-hold from the close before.
+          A pair reads as the long's return minus the short's. Baskets keep the issue's weights. Tracked ideas, not positions.</p>
+      </div>
+      <div class="ct-upd" id="upd"></div>
+    </header>
+
+    <div class="ct-books" role="group" aria-label="Book" id="books"></div>
+    <p class="ct-sum" id="sum"></p>
+
+    <div class="ct-focus" id="focus"></div>
+    <div class="ct-chart" id="chart"><div class="ct-tip" id="tip"></div></div>
+    <div class="ct-key" id="key"></div>
+
+    <section class="ct-sec">
+      <h2 id="ledgerTitle">Every line</h2>
+      <p id="ledgerNote">Ranked by return since the base close. Click a line to chart its legs and see what each one added.</p>
+      <div class="ct-scroll"><table class="ct-table" id="ledger"></table></div>
+    </section>
+
+    <aside class="ct-note">
+      <h3>How the lines are built</h3>
+      <ul>
+        <li><strong>Buy-and-hold from a fixed close.</strong> The long/short ideas start at the Oct 30 close, the last one before November. The State of the Themes baskets start at the Nov 3 close, the date of their weights. Nothing is rebalanced.</li>
+        <li><strong>Weights are the issue's.</strong> A pair is 100% long and 100% short. Fiscal Primacy is 100% long against 40% short, so it is not dollar-neutral. A leg's contribution is its weight times its return.</li>
+        <li><strong>Cash earns nothing.</strong> The Life Sciences cash sleeve (5.3%) and Paid to Wait's cash are left out of the return.</li>
+        <li><strong>Boomer Software is long only.</strong> The issue runs it against an IGV short but does not give the size.</li>
+        <li><strong>Price return in local currency.</strong> No dividends, no FX, no costs. CCXI has no close before Nov 4, so it is marked from its first close.</li>
+      </ul>
+    </aside>
+  </main>
+
+  <script src="cube/citrini.js?v=20261106-a44d9895"></script>
+  <script>
+  (() => {
+    'use strict';
+    const D = window.QUANT_CITRINI;
+    const $ = id => document.getElementById(id);
+    if (!D) { $('sum').textContent = 'Data not built yet.'; return; }
+    const pct = (x, d = 1) => (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(d) + '%';
+    const pts = x => (x >= 0 ? '+' : '−') + Math.abs(x * 100).toFixed(1);
+    const cls = x => x > 0.00005 ? 'up' : x < -0.00005 ? 'dn' : 'mut';
+    const fmtD = (s, y) => new Date(s + 'T12:00:00').toLocaleDateString(undefined, y ? {month:'short', day:'numeric', year:'numeric'} : {month:'short', day:'numeric'});
+    const short = l => l.label.split(' · ')[0].replace(/ basket$/, '').replace(/ \(long only\)$/, '');
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    const NS = 'http://www.w3.org/2000/svg';
+    const el = (tag, attrs = {}, parent) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.append(n); return n; };
+
+    $('upd').textContent = 'Updated ' + fmtD(D.meta.as_of, true);
+    let bookKey = 'ls', focusId = null, hotId = null;
+    const hash = location.hash.slice(1).split(':');
+    if (D.books[hash[0]]) { bookKey = hash[0]; if (D.books[bookKey].lines.some(l => l.id === hash[1])) focusId = hash[1]; }
+
+    // per-line stats, worked out once
+    for (const b of Object.values(D.books)) for (const l of b.lines) {
+      const n = l.ret.length - 1;
+      l.last = l.ret[n];
+      for (const g of l.legs) { g.last = g.ret[n]; g.c = g.w * g.last; }
+      l.longC = l.legs.filter(g => g.w > 0).reduce((s, g) => s + g.c, 0);
+      l.shortC = l.legs.filter(g => g.w < 0).reduce((s, g) => s + g.c, 0);
+      l.hasShort = l.legs.some(g => g.w < 0);
+      const byC = [...l.legs].sort((a, c) => c.c - a.c);
+      l.best = byC[0]; l.worst = byC[byC.length - 1];
+    }
+
+    function renderBooks() {
+      $('books').innerHTML = Object.entries(D.books).map(([k, b]) =>
+        `<button type="button" data-k="${k}" aria-pressed="${k === bookKey}">${esc(b.title)}<span>from ${fmtD(b.start)}</span></button>`).join('');
+      $('books').querySelectorAll('button').forEach(btn => btn.onclick = () => { bookKey = btn.dataset.k; focusId = null; render(); });
+    }
+
+    function summary(b) {
+      const lines = [...b.lines].sort((a, c) => c.last - a.last);
+      const up = lines.filter(l => l.last > 0).length, spy = b.bench.SPY.at(-1);
+      const beat = lines.filter(l => l.last > spy).length;
+      const top = lines[0], bot = lines.at(-1);
+      $('sum').innerHTML = `Since the ${fmtD(b.start)} close, <strong>${up} of ${lines.length}</strong> lines are up and ${beat} are ahead of SPY (${pct(spy)}). ` +
+        `Best: <strong>${esc(short(top))}</strong> <span class="${cls(top.last)}">${pct(top.last)}</span>. ` +
+        `Worst: <strong>${esc(short(bot))}</strong> <span class="${cls(bot.last)}">${pct(bot.last)}</span>.`;
+    }
+
+    // ---- chart ----
+    function chart(b) {
+      const host = $('chart'), tip = $('tip');
+      host.querySelector('svg')?.remove();
+      const W = host.clientWidth || 900, H = Math.max(320, Math.min(460, W * 0.42));
+      const narrow = W < 640;
+      const m = {l: 44, r: narrow ? 92 : 210, t: 12, b: 28};
+      const iw = W - m.l - m.r, ih = H - m.t - m.b;
+      const focus = b.lines.find(l => l.id === focusId);
+      // what gets drawn: [{id, label, ret, cls}]
+      let series;
+      if (focus) {
+        series = [...focus.legs].sort((a, c) => c.last - a.last).map(g => ({id: g.t, label: g.t, sub: g.name, ret: g.ret, cls: g.w > 0 ? 'long' : 'short', w: g.w}));
+        series.push({id: focus.id, label: short(focus), ret: focus.ret, cls: 'main'});
+      } else {
+        series = b.lines.map(l => ({id: l.id, label: short(l), ret: l.ret, cls: 'base'}));
+      }
+      const bench = {id: 'SPY', label: 'SPY', ret: b.bench.SPY, cls: 'bench'};
+      const all = [...series, bench];
+      let lo = Math.min(0, ...all.flatMap(s => s.ret)), hi = Math.max(0, ...all.flatMap(s => s.ret));
+      const pad = (hi - lo) * 0.08 || 0.01; lo -= pad; hi += pad;
+      const n = b.dates.length;
+      const x = i => m.l + (n === 1 ? iw / 2 : i * iw / (n - 1));
+      const y = v => m.t + (hi - v) / (hi - lo) * ih;
+      const svg = el('svg', {viewBox: `0 0 ${W} ${H}`, height: H});
+      host.prepend(svg);
+      // y grid on round steps
+      const span = hi - lo, raw = span / 5, mag = 10 ** Math.floor(Math.log10(raw));
+      const step = [1, 2, 2.5, 5, 10].map(k => k * mag).find(s => s >= raw);
+      const g = el('g', {class: 'grid'}, svg);
+      for (let v = Math.ceil(lo / step) * step; v <= hi; v += step) {
+        const yy = y(v);
+        el('line', {x1: m.l, x2: m.l + iw, y1: yy, y2: yy, class: Math.abs(v) < step / 1e3 ? 'zero' : ''}, g);
+        el('text', {x: m.l - 8, y: yy + 4, 'text-anchor': 'end'}, g).textContent = (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v * 100).toFixed(step < 0.01 ? 1 : 0) + '%';
+      }
+      b.dates.forEach((d, i) => { const t = el('text', {x: x(i), y: H - 8, 'text-anchor': 'middle'}, svg); t.textContent = fmtD(d); });
+      const path = s => s.ret.map((v, i) => (i ? 'L' : 'M') + x(i).toFixed(1) + ',' + y(v).toFixed(1)).join('');
+      const lines = el('g', {}, svg), labs = el('g', {}, svg), hits = el('g', {}, svg);
+      const nodes = {};
+      // base lines first so the focus line sits on top
+      for (const s of [bench, ...series]) {
+        nodes[s.id] = {ln: el('path', {d: path(s), class: 'ln ' + s.cls}, lines)};
+      }
+      // end labels, pushed apart so they never overlap
+      // A 30-leg basket cannot label every leg: keep the line, SPY and the
+      // legs at each end; the rest still show in the hover tooltip.
+      const gap = 15, room = Math.min(16, Math.floor(ih / gap) + 1);
+      let labelled = all;
+      if (all.length > room) {
+        const legs = all.filter(s => s.cls === 'long' || s.cls === 'short').sort((a, c) => c.ret.at(-1) - a.ret.at(-1));
+        const k = Math.max(1, Math.floor((room - 3) / 2));
+        const keep = new Set([...legs.slice(0, k), ...legs.slice(-k)].map(s => s.id));
+        labelled = all.filter(s => keep.has(s.id) || !(s.cls === 'long' || s.cls === 'short'));
+      }
+      const ends = labelled.map(s => ({s, y: y(s.ret.at(-1))})).sort((a, c) => a.y - c.y);
+      for (let i = 1; i < ends.length; i++) ends[i].y = Math.max(ends[i].y, ends[i - 1].y + gap);
+      const over = ends.length ? ends.at(-1).y - (m.t + ih) : 0;
+      if (over > 0) { ends.at(-1).y -= over; for (let i = ends.length - 2; i >= 0; i--) ends[i].y = Math.min(ends[i].y, ends[i + 1].y - gap); }
+      for (const {s, y: ly} of ends) {
+        const lg = el('g', {class: 'lab ' + s.cls, transform: `translate(${m.l + iw + 10},${ly + 4})`}, labs);
+        const v = s.ret.at(-1);
+        const t1 = el('text', {class: 'v'}, lg); t1.textContent = pct(v); t1.style.fill = `var(--ml-${v >= 0 ? 'up' : 'down'})`;
+        if (!narrow) { const t2 = el('text', {x: 52}, lg); t2.textContent = s.label.length > 24 ? s.label.slice(0, 23) + '…' : s.label; }
+        nodes[s.id].lab = lg;
+        if (!focus && s.cls === 'base') lg.onclick = () => setFocus(s.id);
+        lg.onmouseenter = () => setHot(s.id); lg.onmouseleave = () => setHot(null);
+      }
+      // wide invisible strokes make thin lines easy to hover and click
+      for (const s of series) {
+        const h = el('path', {d: path(s), class: 'hitln'}, hits);
+        h.onmouseenter = () => setHot(s.id); h.onmouseleave = () => setHot(null);
+        if (!focus) h.onclick = () => setFocus(s.id);
+      }
+      const cross = el('line', {class: 'cross', y1: m.t, y2: m.t + ih}, svg);
+      const dots = el('g', {}, svg);
+      function setHot(id) {
+        hotId = id;
+        for (const [k, nd] of Object.entries(nodes)) {
+          nd.ln.classList.toggle('hot', k === id);
+          if (id && k !== id && nd.ln.classList.contains('base')) nd.ln.style.opacity = .18; else nd.ln.style.opacity = '';
+          nd.lab?.classList.toggle('hot', k === id);
+          nd.lab?.classList.toggle('dim', !!id && k !== id);
+        }
+        if (id) nodes[id].ln.parentNode.append(nodes[id].ln);
+      }
+      // crosshair + tooltip: every drawn line at the nearest session
+      svg.onmousemove = ev => {
+        const r = svg.getBoundingClientRect(), px = (ev.clientX - r.left) * W / r.width;
+        if (px < m.l - 10 || px > m.l + iw + 10) { cross.style.opacity = 0; tip.style.opacity = 0; dots.innerHTML = ''; return; }
+        const i = Math.max(0, Math.min(n - 1, Math.round((px - m.l) / iw * (n - 1))));
+        cross.setAttribute('x1', x(i)); cross.setAttribute('x2', x(i)); cross.style.opacity = .6;
+        dots.innerHTML = '';
+        const rows = [...all].sort((a, c) => c.ret[i] - a.ret[i]);
+        for (const s of rows) if (s.cls !== 'base' || s.id === hotId) {
+          const c = s.cls === 'main' ? 'accent' : s.cls === 'long' ? 'up' : s.cls === 'short' ? 'down' : s.cls === 'bench' ? 'faint' : 'ink';
+          el('circle', {cx: x(i), cy: y(s.ret[i]), r: s.cls === 'main' || s.id === hotId ? 4 : 2.5, class: 'dot', fill: `var(--ml-${c})`}, dots);
+        }
+        tip.innerHTML = `<div class="d">${fmtD(b.dates[i], true)}</div>` + rows.slice(0, 32).map(s =>
+          `<div class="row${s.id === hotId || s.cls === 'main' ? ' hot' : ''}"><span>${esc(s.label)}</span><span class="${cls(s.ret[i])}">${pct(s.ret[i])}</span></div>`).join('');
+        tip.style.opacity = 1;
+        const tw = tip.offsetWidth, sx = x(i) * r.width / W;
+        tip.style.left = (sx + 16 + tw > r.width ? sx - tw - 16 : sx + 16) + 'px';
+        tip.style.top = Math.max(0, Math.min(H - tip.offsetHeight, (ev.clientY - r.top) - tip.offsetHeight / 2)) + 'px';
+      };
+      svg.onmouseleave = () => { cross.style.opacity = 0; tip.style.opacity = 0; dots.innerHTML = ''; };
+      // key + focus header
+      $('key').innerHTML = focus
+        ? `<span><i style="border-color:var(--ml-accent)"></i>${esc(short(focus))}</span><span><i style="border-color:var(--ml-up)"></i>Long legs</span>` +
+          (focus.hasShort ? `<span><i style="border-color:var(--ml-down);border-top-style:dashed"></i>Short legs</span>` : '') +
+          `<span><i style="border-color:var(--ml-faint);border-top-style:dashed"></i>SPY</span>`
+        : `<span><i style="border-color:var(--ml-faint);border-top-style:dashed"></i>SPY</span><span class="mut">Hover a line to pick it out. Click it to see its legs.</span>`;
+      $('focus').innerHTML = focus
+        ? `<button type="button" class="ct-back" id="back">← All lines</button><h2>${esc(focus.label)}</h2><span class="k">${focus.legs.length} legs · <span class="${cls(focus.last)}">${pct(focus.last)}</span></span>`
+        : '';
+      if (focus) $('back').onclick = () => setFocus(null);
+    }
+
+    // ---- ledger ----
+    function ledger(b) {
+      const lines = [...b.lines].sort((a, c) => c.last - a.last);
+      const maxAbs = Math.max(...lines.map(l => Math.abs(l.last)), 1e-6);
+      const spy = b.bench.SPY.at(-1);
+      const legTable = l => {
+        const legs = [...l.legs].sort((a, c) => c.c - a.c);
+        return `<table class="ct-legs"><thead><tr><th class="l">Leg</th><th class="l">Company</th><th class="l">Side</th><th>Weight</th><th>Return</th><th>Adds (pts)</th></tr></thead><tbody>` +
+          legs.map(g => `<tr><td class="l"><b>${esc(g.t)}</b></td><td class="l nmc" title="${esc(g.name)}">${esc(g.name)}</td>` +
+            `<td class="l"><span class="side ${g.w > 0 ? 'up' : 'dn'}">${g.w > 0 ? 'Long' : 'Short'}</span></td>` +
+            `<td>${(Math.abs(g.w) * 100).toFixed(1).replace(/\.0$/, '')}%</td><td class="${cls(g.last)}">${pct(g.last)}</td><td class="${cls(g.c)}">${pts(g.c)}</td></tr>`).join('') +
+          `</tbody><tfoot><tr><td class="l" colspan="5">Total</td><td class="${cls(l.last)}">${pts(l.last)}</td></tr></tfoot></table>`;
+      };
+      $('ledger').innerHTML = `<thead><tr><th class="l">Line</th><th>Since ${fmtD(b.start)}</th><th>vs SPY</th><th>Longs add</th><th>Shorts add</th><th class="l">Best leg</th><th class="l">Worst leg</th></tr></thead><tbody>` +
+        lines.map(l => {
+          const open = l.id === focusId;
+          const [nm, tk] = l.label.split(' · ');
+          return `<tr class="line${open ? ' x' : ''}" data-id="${l.id}">` +
+            `<td class="l"><span class="nm">${esc(nm.replace(/ \(long only\)$/, ''))}</span>${tk ? `<span class="tk">${esc(tk)}</span>` : ''}${/long only/.test(nm) ? '<span class="tk">long only</span>' : ''}</td>` +
+            `<td class="${cls(l.last)}">${pct(l.last)}<span class="bar" style="width:${Math.round(Math.abs(l.last) / maxAbs * 60)}px;background:var(--ml-${l.last >= 0 ? 'up' : 'down'})"></span></td>` +
+            `<td class="${cls(l.last - spy)}">${pts(l.last - spy)}</td>` +
+            `<td class="${cls(l.longC)}">${pts(l.longC)}</td>` +
+            `<td class="${l.hasShort ? cls(l.shortC) : 'mut'}">${l.hasShort ? pts(l.shortC) : '–'}</td>` +
+            `<td class="l">${esc(l.best.t)} <span class="${cls(l.best.c)}">${pts(l.best.c)}</span></td>` +
+            `<td class="l">${esc(l.worst.t)} <span class="${cls(l.worst.c)}">${pts(l.worst.c)}</span></td></tr>` +
+            (open ? `<tr class="legs"><td colspan="7">${legTable(l)}</td></tr>` : '');
+        }).join('') + '</tbody>';
+      $('ledger').querySelectorAll('tr.line').forEach(tr => tr.onclick = () => setFocus(tr.dataset.id === focusId ? null : tr.dataset.id, true));
+    }
+
+    function setFocus(id, fromTable) {
+      focusId = id; hotId = null; render();
+      if (id && fromTable) $('focus').scrollIntoView({behavior: 'smooth', block: 'start'});
+    }
+    function render() {
+      const b = D.books[bookKey];
+      history.replaceState(null, '', '#' + bookKey + (focusId ? ':' + focusId : ''));
+      renderBooks(); summary(b); chart(b); ledger(b);
+    }
+    render();
+    let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => chart(D.books[bookKey]), 120); });
+  })();
+  </script>
+</body>
+</html>
