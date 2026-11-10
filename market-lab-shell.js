@@ -178,15 +178,17 @@ window.MarketLabReadJSON = async function(response){const bytes=new Uint8Array(a
     const actions=menu('chart-actions','More',[document.getElementById('savebasket'),document.getElementById('downloadchart'),document.getElementById('cloudstatus')]);
     actions.querySelector('summary').setAttribute('aria-label','Chart actions');
     actions.querySelector('#downloadchart').textContent='Download PNG';
+    const analogNode=document.getElementById('analogwrap');
+    const analogs=analogNode?menu('chart-analogs','Past period',[analogNode]):null;
     const reset=document.getElementById('stock-chart-reset'),overlay=document.getElementById('stock-chart-overlays'),readout=document.getElementById('readout');
-    toolbar.replaceChildren(...[period,measure,overlay,options,document.getElementById('stock-chart-measure'),reset,detail,actions,readout].filter(Boolean));
+    toolbar.replaceChildren(...[period,measure,overlay,analogs,options,document.getElementById('stock-chart-measure'),reset,detail,actions,readout].filter(Boolean));
     document.querySelector('.mast').after(toolbar);
     controlRows.forEach(row=>row.remove());
     document.getElementById('anchor').setAttribute('aria-label','Price anchor');
     document.getElementById('bench').setAttribute('aria-label','Comparison benchmark');
     [detail,actions].forEach(wrapper=>wrapper.addEventListener('click',e=>{if(e.target.closest('button'))wrapper.open=false;}));
     document.getElementById('anchor').addEventListener('change',()=>{clearDateErrors();period.open=false;});
-    [period,measure,options,detail,actions].forEach(wrapper=>{
+    [period,measure,analogs,options,detail,actions].filter(Boolean).forEach(wrapper=>{
       wrapper.addEventListener('toggle',()=>{
         if(!wrapper.open)return;
         toolbar.querySelectorAll('.ml-choice[open]').forEach(other=>{if(other!==wrapper)other.open=false;});

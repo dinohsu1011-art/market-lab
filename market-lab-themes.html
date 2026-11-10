@@ -159,6 +159,28 @@
     .sector-controls[hidden], .theme-controls[hidden], #themedetails[hidden],
     #sectorRangeGroup[hidden], #stock-chart-overlays[hidden] { display:none; }
     .sector-controls { padding-top:14px; }
+    /* past-period analogs */
+    .ml-chart-controls #chart-analogs > .ml-chart-popover { width:300px; gap:10px; }
+    #chart-analogs[data-count] > summary::after { content:" · " attr(data-count); }
+    .an-analogs { display:flex; flex-direction:column; gap:10px; }
+    .an-field { display:flex; flex-direction:column; gap:4px; font-size:12px; color:var(--ml-muted); }
+    .an-field select { width:100%; }
+    .an-dates { display:flex; align-items:center; gap:6px; }
+    .an-dates input { flex:1; min-width:0; padding:5px 6px; border:1px solid var(--ml-border); border-radius:4px;
+                      background:var(--ml-surface); color:var(--ml-ink); font:13px var(--sans); }
+    :root[data-theme="dark"] .an-dates input { color-scheme:dark; }
+    [data-page="themes"] .ml-chart-controls .ml-chart-popover #an-add {
+      align-self:flex-start; border:1px solid var(--ml-border); padding:6px 12px; min-height:0; }
+    .an-msg { margin:0; font-size:12px; color:var(--ml-down); }
+    .an-msg:empty { display:none; }
+    .an-list { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px; }
+    .an-list:empty { display:none; }
+    .an-list li { display:grid; grid-template-columns:22px 1fr auto; align-items:center; gap:8px;
+                  padding:6px 0; border-top:1px solid var(--ml-border); font-size:13px; color:var(--ml-ink); }
+    .an-list li small { display:block; font-size:11.5px; color:var(--ml-muted); }
+    .an-list button { border:0; background:none; color:var(--ml-muted); font-size:16px; cursor:pointer; padding:0 4px; }
+    .an-list button:hover { color:var(--ml-ink); }
+    .an-foot { margin:0; font-size:11.5px; line-height:1.45; color:var(--ml-faint); }
     .sector-view-note { color:var(--steel); font:10px var(--mono); }
     #chart .sector-card { cursor:pointer; }
     #chart .sector-card:hover > rect, #chart .sector-card:focus > rect { stroke:var(--ink); stroke-width:2; }
@@ -273,11 +295,11 @@
     @media (max-width:900px){ .shell{grid-template-columns:1fr;} .rail{height:auto;position:static;}
       .list{max-height:260px;} .main{padding:20px 16px 60px;} .mast h1{font-size:30px;} }
   </style>
-  <link rel="stylesheet" href="market-lab-shell.css?v=20261106-86794ec0" />
-  <link rel="stylesheet" href="market-lab-analytics.css?v=20261106-86794ec0" />
-  <link rel="stylesheet" href="market-lab-technical.css?v=20261106-86794ec0" />
-  <link rel="stylesheet" href="market-lab-screener.css?v=20261106-86794ec0" />
-  <script src="market-lab-shell.js?v=20261106-86794ec0"></script>
+  <link rel="stylesheet" href="market-lab-shell.css?v=20261106-e1a2282a" />
+  <link rel="stylesheet" href="market-lab-analytics.css?v=20261106-e1a2282a" />
+  <link rel="stylesheet" href="market-lab-technical.css?v=20261106-e1a2282a" />
+  <link rel="stylesheet" href="market-lab-screener.css?v=20261106-e1a2282a" />
+  <script src="market-lab-shell.js?v=20261106-e1a2282a"></script>
 </head>
 <body>
 <div class="shell">
@@ -393,6 +415,19 @@
       </div>
       <button id="stock-chart-reset" type="button" hidden>Reset zoom</button>
       <div id="stock-chart-overlays" hidden></div>
+      <div id="analogwrap" class="an-analogs">
+        <label class="an-field"><span>Asset</span><select id="an-asset"></select></label>
+        <div class="an-field"><span>Past period</span>
+          <div class="an-dates"><input type="date" id="an-from" aria-label="Past period start">
+            <span aria-hidden="true">to</span><input type="date" id="an-to" aria-label="Past period end"></div></div>
+        <label class="an-field"><span>Line up</span><select id="an-align">
+          <option value="cal">Same dates this year</option>
+          <option value="now">Start at the last close</option></select></label>
+        <button type="button" class="chart-action" id="an-add">Add dotted line</button>
+        <p id="an-msg" class="an-msg" role="status"></p>
+        <ul id="an-list" class="an-list"></ul>
+        <p class="an-foot">Each dotted line replays a past period from where the chart stands today. Past patterns, not a forecast.</p>
+      </div>
       <span id="cloudstatus" class="ml-cloud-status" role="status"></span>
       <button class="chart-action" id="savebasket" type="button">Save basket</button>
       <button class="chart-action" id="downloadchart" type="button" title="Download this chart as a PNG image">PNG</button>
@@ -472,34 +507,34 @@
     </div>
   </form>
 </dialog>
-<script src="market-lab-cloud.js?v=20261106-86794ec0"></script>
-<script src="market-lab-chart-utils.js?v=20261106-86794ec0"></script>
-<link rel="stylesheet" href="market-lab-trends.css?v=20261106-86794ec0">
-<script src="market-lab-trend-math.js?v=20261106-86794ec0"></script>
-<script src="market-lab-data.js?v=20261106-86794ec0"></script>
-<script src="market-lab-trends.js?v=20261106-86794ec0"></script>
-<script src="market-lab-chart-panels.js?v=20261106-86794ec0"></script>
-<script src="market-lab-breadth.js?v=20261106-86794ec0"></script>
-<script src="market-lab-analytics.js?v=20261106-86794ec0"></script>
-<script src="market-lab-overextension.js?v=20261106-86794ec0"></script>
-<script src="market-lab-price-overlay.js?v=20261106-86794ec0"></script>
-<script src="market-lab-chart-zoom.js?v=20261106-86794ec0"></script>
-<script src="market-lab-daily-volatility.js?v=20261106-86794ec0"></script>
-<script src="market-lab-technical.js?v=20261106-86794ec0"></script>
-<script src="market-lab-company.js?v=20261106-86794ec0"></script>
-<script src="market-lab-company-overview.js?v=20261106-86794ec0"></script>
-<script src="market-lab-basket-volume.js?v=20261106-86794ec0"></script>
-<script src="market-lab-book.js?v=20261106-86794ec0"></script>
-<link rel="stylesheet" href="market-lab-book.css?v=20261106-86794ec0">
-<link rel="stylesheet" href="market-lab-basket-volume.css?v=20261106-86794ec0">
-<script defer src="market-lab-market-watch.js?v=20261106-86794ec0"></script>
-<link rel="stylesheet" href="market-lab-market-watch.css?v=20261106-86794ec0">
-<script src="market-lab-stock-details.js?v=20261106-86794ec0"></script>
-<link rel="stylesheet" href="market-lab-records.css?v=20261106-86794ec0">
-<script src="market-lab-records.js?v=20261106-86794ec0"></script>
-<script src="cube/themes.js?v=20261106-86794ec0"></script>
-<script src="cube/pe-bands.js?v=20261106-86794ec0"></script>
-<script src="cube/sectors.js?v=20261106-86794ec0"></script>
+<script src="market-lab-cloud.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-chart-utils.js?v=20261106-e1a2282a"></script>
+<link rel="stylesheet" href="market-lab-trends.css?v=20261106-e1a2282a">
+<script src="market-lab-trend-math.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-data.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-trends.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-chart-panels.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-breadth.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-analytics.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-overextension.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-price-overlay.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-chart-zoom.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-daily-volatility.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-technical.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-company.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-company-overview.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-basket-volume.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-book.js?v=20261106-e1a2282a"></script>
+<link rel="stylesheet" href="market-lab-book.css?v=20261106-e1a2282a">
+<link rel="stylesheet" href="market-lab-basket-volume.css?v=20261106-e1a2282a">
+<script defer src="market-lab-market-watch.js?v=20261106-e1a2282a"></script>
+<link rel="stylesheet" href="market-lab-market-watch.css?v=20261106-e1a2282a">
+<script src="market-lab-stock-details.js?v=20261106-e1a2282a"></script>
+<link rel="stylesheet" href="market-lab-records.css?v=20261106-e1a2282a">
+<script src="market-lab-records.js?v=20261106-e1a2282a"></script>
+<script src="cube/themes.js?v=20261106-e1a2282a"></script>
+<script src="cube/pe-bands.js?v=20261106-e1a2282a"></script>
+<script src="cube/sectors.js?v=20261106-e1a2282a"></script>
 <script>
 (async () => {
   const D = window.QUANT_THEMES;
@@ -676,6 +711,7 @@
     span: 'YTD', i1: 0, i2: N-1,
     mode: 'cum', bench: 'qqq', log: false, anchor: null, peBasis: 1, corrWin: 63,
     focus: null, cursor: null, moveFrame: 'd',
+    analogs: [],   // [{id, from, to, align:'cal'|'now'}] dotted past-period lines
     tr: readBasis()
   };
   st.sel.forEach(assign);
@@ -924,7 +960,7 @@
             l=(32+2*e+2*i-h-k)%7, m=Math.floor((a+11*h+22*l)/451), n=h+l-7*m+114;
       return iso(new Date(Date.UTC(y, Math.floor(n/31)-1, n%31+1-2)));
     };
-    for (let y = +DATES[0].slice(0,4); y <= +DATES[N-1].slice(0,4); y++){
+    for (let y = +DATES[0].slice(0,4); y <= +DATES[N-1].slice(0,4) + 3; y++){
       // New Year's Day on a Saturday is not made up on Dec 31
       if (new Date(Date.UTC(y,0,1)).getUTCDay() !== 6) out.add(observed(y,0,1));
       out.add(nth(y,0,1,3)); out.add(nth(y,1,1,3)); out.add(goodFriday(y));
@@ -1271,6 +1307,110 @@
              avgN: s === s0 ? null : s.n, avgOf: s0.avg ? (s0.memberIds||[]).length : null };
   }
 
+  // ---------- past-period analogs ----------
+  // A past stretch of one charted asset, drawn dotted and joined to that asset's
+  // line. "Same dates this year" moves the period forward by whole years, so
+  // Nov–Dec 2018 lands on Nov–Dec of the chart's year: the part before the
+  // chart's last bar overlays what has already happened and the rest runs past
+  // it as a projection. "Start at the last close" puts the period's first bar on
+  // the last bar. Either way the dotted line is scaled to meet the solid one at
+  // the join, so it reads as "if the path from here repeats that period".
+  // Positions step in New York sessions; past the data they are generated
+  // weekdays less NYSE holidays.
+  const FUT = [];
+  function futDate(k){
+    while (FUT.length <= k){
+      const t = new Date((FUT.length ? FUT[FUT.length-1] : DATES[N-1]) + 'T00:00:00Z');
+      do t.setUTCDate(t.getUTCDate() + 1);
+      while (t.getUTCDay() === 0 || t.getUTCDay() === 6 || US_CLOSED.has(t.toISOString().slice(0,10)));
+      FUT.push(t.toISOString().slice(0,10));
+    }
+    return FUT[k];
+  }
+  const axisDate = i => i < N ? DATES[i] : futDate(i - N);
+  const US_N = US_CUM[N-1];
+  const USX = []; DATES.forEach((_, i) => { if (isUsSession(i)) USX.push(i); });
+  const posOf = i => i >= N ? US_N + (i - N) : US_CUM[usOnOrBefore(i)] - 1;
+  const atPos = p => p < 0 ? null : p < US_N ? USX[p] : N + (p - US_N);
+  function posOnOrAfterDate(d){
+    if (d > DATES[N-1]){ let k = 0; while (futDate(k) < d) k++; return US_N + k; }
+    const i = idxOnOrAfter(d);
+    return US_CUM[i] - (isUsSession(i) ? 1 : 0);
+  }
+  const shiftYear = (d, dy) => {
+    const y = +d.slice(0,4) + dy, md = d.slice(5);
+    const leap = y % 4 === 0 && (y % 100 !== 0 || y % 400 === 0);
+    return y + '-' + (md === '02-29' && !leap ? '02-28' : md);
+  };
+  const analogOk = id => { const s = SER[id];
+    return !!s && !['reco','reconame'].includes(s.kind) && !(s.handoff && s.handoff.role); };
+  const fmtDay = d => `${MONTHS[+d.slice(5,7)-1]} ${+d.slice(8,10)}, ${d.slice(0,4)}`;
+  function analogBars(a){
+    const s0 = SER[a.id]; if (!s0 || a.from > DATES[N-1]) return null;
+    const f = idxOnOrAfter(a.from), t = usOnOrBeforeDate(a.to);
+    if (t <= f) return null;
+    const s = s0.avg ? avgLevels(s0, f) : s0; if (!s) return null;
+    const bars = [];
+    for (let i = f; i <= t; i++){
+      if (!isUsSession(i)) continue;
+      const v = lvAt(s, i); if (v != null && v > 0) bars.push({ d: DATES[i], v });
+    }
+    return bars.length >= 2 ? bars : null;
+  }
+  // -> {pts:[{x, v, d, r}], join, err}. `v` is on the chart's own scale.
+  function placeAnalog(a, base){
+    const bars = analogBars(a);
+    if (!bars) return { err: 'No prices for that period' };
+    const now = usOnOrBefore(st.i2), pNow = posOf(now), nowD = DATES[now];
+    const gAt = i => { for (let k = Math.min(i, st.i2) - st.i1; k >= 0; k--)
+                         if (base.g[k] != null) return base.g[k]; return null; };
+    let J = 0, pJ = pNow, ref = now;
+    if (a.align !== 'now'){
+      const Y = +nowD.slice(0,4), y0 = +bars[0].d.slice(0,4);
+      const spans = dy => shiftYear(bars[0].d, dy) <= nowD && shiftYear(bars[bars.length-1].d, dy) >= nowD;
+      const dy = spans(Y - y0) ? Y - y0 : spans(Y - y0 - 1) ? Y - y0 - 1 : Y - y0;
+      const sh = bars.map(b => shiftYear(b.d, dy));
+      if (sh[0] <= nowD && sh[sh.length-1] >= nowD){
+        J = sh.findLastIndex(d => d <= nowD);
+      } else {
+        pJ = posOnOrAfterDate(sh[0]);
+        ref = pJ <= pNow ? atPos(pJ) : now;
+      }
+    }
+    const gRef = gAt(ref);
+    if (gRef == null) return { err: 'Falls before the chart start' };
+    const vJ = bars[J].v, pts = [];
+    bars.forEach((b, k) => {
+      const x = atPos(pJ + k - J);
+      if (x == null || x < st.i1) return;
+      pts.push({ x, v: gRef * b.v / vJ, d: b.d, r: b.v / vJ - 1 });
+    });
+    if (pts.length < 2) return { err: 'Falls before the chart start' };
+    return { pts, join: bars[J].d, ahead: pts[pts.length-1].x > st.i2 };
+  }
+  function analogLayer(data){
+    if (st.mode !== 'cum' && st.mode !== 'idx') return [];
+    const firstOf = {};
+    return st.analogs.map((a, k) => {
+      const base = data.find(d => d.id === a.id && !d.reco);
+      if (!base){ a.err = 'Add ' + (SER[a.id]?.label.split(' · ')[0] || a.id) + ' to the chart to see it'; return null; }
+      const r = placeAnalog(a, base); a.err = r.err || null;
+      if (r.err) return null;
+      const color = firstOf[a.id] ? assign('an:' + a.id + a.from + a.to) : base.color;
+      firstOf[a.id] = true;
+      return { ...r, k, a, color, base: base.id };
+    }).filter(Boolean);
+  }
+  function analogName(a, bars){
+    const short = (SER[a.id]?.label || a.id).split(' · ')[0];
+    const y1 = (bars ? bars[0].d : a.from).slice(2,4), y2 = (bars ? bars[bars.length-1].d : a.to).slice(2,4);
+    return short + ' ’' + y1 + (y1 === y2 ? '' : '–’' + y2);
+  }
+  function analogFull(a){
+    const bars = analogBars(a), f = bars ? bars[0].d : a.from, t = bars ? bars[bars.length-1].d : a.to;
+    return `${fmtDay(f)} to ${fmtDay(t)}`;
+  }
+
   // ---------- reco-book maths ----------
   // A reco book charts each recommended name rebased to *its own* recommendation
   // close (not the window start), so every line reads "% since we called it".
@@ -1569,10 +1709,12 @@
   svg.setAttribute('aria-description','Drag horizontally across a period to zoom. Use Reset zoom to return to the previous full range, or use the date fields to choose dates.');
   const stockZoom=MarketLabChartZoom.mount(svg,document.getElementById('stock-chart-reset'),{
     getContext:()=>geom&&landingView==='theme'&&st.sel.length?{
-      ...geom,from:st.i1,to:st.i2,dates:DATES,
+      ...geom,from:st.i1,to:geom.i2x??st.i2,
+      dates:(geom.i2x??0)>=N?DATES.concat(Array.from({length:geom.i2x-N+1},(_,k)=>futDate(k))):DATES,
       snapshot:{i1:st.i1,i2:st.i2,span:st.span,anchor:st.anchor,anchorValue:document.getElementById('anchor').value}
     }:null,
     onZoom:(from,to)=>{
+      to=Math.min(to,N-1);from=Math.max(0,Math.min(from,to-2));
       st.i1=from;st.i2=to;st.span=null;st.anchor=null;st.cursor=null;
       document.getElementById('anchor').value='';syncCtl();render();
     },
@@ -1594,7 +1736,9 @@
     if (box.length !== 4 || box.some(v => !Number.isFinite(v)) || !svg.innerHTML.trim()) return;
     const [, , width, height] = box, head = 58;
     const selected = st.sel.map(id => SER[id] && SER[id].label).filter(Boolean);
-    const title = selected.length ? selected.join(' · ') : 'Theme returns';
+    const dotted = (geom?.analogs || []).map(A => `${analogName(A.a)} ${analogFull(A.a)}`);
+    const title = (selected.length ? selected.join(' · ') : 'Theme returns')
+      + (dotted.length ? '  ·  dotted: ' + dotted.join(', ') : '');
     const shortTitle = title.length > 150 ? title.slice(0, 147) + '…' : title;
     const styles = `text{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}`
       + `.m{font-family:"SF Mono",Menlo,monospace;font-variant-numeric:tabular-nums}`;
@@ -1626,6 +1770,55 @@
     image.src = source;
   }
   downloadChartButton.addEventListener('click', downloadChartPng);
+
+  // ---------- past-period menu ----------
+  const anAsset = document.getElementById('an-asset'), anFrom = document.getElementById('an-from'),
+        anTo = document.getElementById('an-to'), anAlign = document.getElementById('an-align'),
+        anMsg = document.getElementById('an-msg'), anList = document.getElementById('an-list');
+  [anFrom, anTo].forEach(inp => { inp.min = DATES[0]; inp.max = DATES[N-1]; });
+  function syncAnalogUi(){
+    if (!anAsset) return;
+    const ids = st.sel.filter(analogOk), prev = anAsset.value;
+    anAsset.replaceChildren(...ids.map(id => new Option(SER[id].label.split(' · ')[0], id)));
+    anAsset.value = ids.includes(prev) ? prev : (ids.includes(st.focus) ? st.focus : ids[0] || '');
+    document.getElementById('an-add').disabled = !ids.length;
+    if (!anFrom.value){
+      // a starting suggestion: the same two months a year earlier
+      const d = DATES[st.i2], y = +d.slice(0,4) - 1, m = +d.slice(5,7);
+      anFrom.value = `${y}-${String(m).padStart(2,'0')}-01`;
+      const e = new Date(Date.UTC(y, m + 1, 0));
+      anTo.value = e.toISOString().slice(0,10);
+    }
+    const lineMode = st.mode === 'cum' || st.mode === 'idx';
+    anList.replaceChildren(...st.analogs.map((a, k) => {
+      const li = document.createElement('li');
+      const color = (geom?.analogs || []).find(A => A.k === k)?.color || colorOf[a.id] || '#a8a29e';
+      const note = !lineMode ? 'Shows on Cumulative % and Index' : a.err || '';
+      li.innerHTML = `<svg width="22" height="8" aria-hidden="true"><line x1="2" y1="4" x2="20" y2="4"
+          stroke="${color}" stroke-width="2.2" stroke-dasharray="0.1 4.2" stroke-linecap="round"/></svg>
+        <span>${esc(analogName(a))} · ${esc(analogFull(a))}<small>${a.align === 'now' ? 'From the last close' : 'Same dates this year'}${note ? ' · ' + esc(note) : ''}</small></span>
+        <button type="button" data-an-remove="${k}" aria-label="Remove ${esc(analogName(a))}">&#215;</button>`;
+      return li;
+    }));
+    const wrap = document.getElementById('chart-analogs');
+    if (wrap){ if (st.analogs.length) wrap.dataset.count = st.analogs.length; else delete wrap.dataset.count; }
+  }
+  anList?.addEventListener('click', e => {
+    const b = e.target.closest('[data-an-remove]'); if (!b) return;
+    st.analogs.splice(+b.dataset.anRemove, 1); render();
+  });
+  document.getElementById('an-add')?.addEventListener('click', () => {
+    const id = anAsset.value, from = anFrom.value, to = anTo.value;
+    anMsg.textContent = '';
+    if (!id) { anMsg.textContent = 'Add an asset to the chart first.'; return; }
+    if (!from || !to || from >= to) { anMsg.textContent = 'Pick a start date before the end date.'; return; }
+    const a = { id, from, to, align: anAlign.value === 'now' ? 'now' : 'cal' };
+    if (!analogBars(a)) { anMsg.textContent = 'No prices for that period.'; return; }
+    if (st.analogs.some(o => o.id === a.id && o.from === a.from && o.to === a.to && o.align === a.align)) return;
+    st.analogs.push(a);
+    if (st.mode !== 'cum' && st.mode !== 'idx'){ st.mode = 'cum'; syncCtl(); }
+    render();
+  });
 
   // ---------- period-return heatmap ----------
   const heat = document.getElementById('heat');
@@ -1987,7 +2180,7 @@
                 : days > 25 ? (d => d.slice(0,7))
                 : (d => d);            // short windows tick every session
     for (let i = i1; i <= i2; i++){
-      const k = keyFn(DATES[i]);
+      const k = keyFn(axisDate(i));
       if (k !== lastKey){ out.push(i); lastKey = k; }
     }
     if (out.length > 14){ const step = Math.ceil(out.length/12); return out.filter((_,j) => j%step===0); }
@@ -2643,6 +2836,7 @@
     if(homePage&&landingView==='theme'){writeHash();location.assign('market-lab-themes.html'+location.hash);return;}
     if (landingView !== 'theme'){ renderSectorLanding(); return; }
     syncLandingChrome(true);
+    syncAnalogUi();
     const initialMode=st.mode;
     const corrOk = syncCorrAvailability();
     if(st.mode!==initialMode)syncCtl();
@@ -2678,9 +2872,13 @@
       updateSummaries([], null); renderHeat([]); renderSeas([]); return;
     }
     const px = { x0:L, x1:W-R, y0:T, y1:H-B };
+    const AN = analogLayer(data);
+    // the x axis runs past the last bar when a dotted period projects forward
+    const i2x = AN.reduce((m, a) => Math.max(m, a.pts[a.pts.length-1].x), st.i2);
 
     let lo = Infinity, hi = -Infinity;
     data.forEach(d => d.g.forEach(v => { if (v != null){ if (v<lo) lo=v; if (v>hi) hi=v; } }));
+    AN.forEach(a => a.pts.forEach(p => { if (p.v<lo) lo=p.v; if (p.v>hi) hi=p.v; }));
     if (!isFinite(lo)) { lo = 1; hi = 1; }
     const useLog = st.log && st.mode !== 'dd' && lo > 0;
     const tr = v => useLog ? Math.log(v) : v;
@@ -2688,7 +2886,7 @@
     const pad = (thi - tlo) * 0.06 || Math.abs(tlo)*0.05 || 0.02;
     tlo -= pad; thi += pad;
     const Y = v => px.y1 - (tr(v) - tlo) / (thi - tlo) * (px.y1 - px.y0);
-    const X = i => px.x0 + (i - st.i1) / Math.max(1, st.i2 - st.i1) * (px.x1 - px.x0);
+    const X = i => px.x0 + (i - st.i1) / Math.max(1, i2x - st.i1) * (px.x1 - px.x0);
 
     const label = v => st.mode === 'idx' ? fmtNum(v*100) : fmtPct(v-1);
     const ticks = niceTicks(useLog ? Math.exp(tlo) : tlo, useLog ? Math.exp(thi) : thi, useLog)
@@ -2707,11 +2905,11 @@
     });
     // x ticks — drop any that would crowd the one before it
     let lastX = -1e9, lastMon = null;
-    xTicks(st.i1, st.i2).forEach(i => {
-      const x = X(i), d = DATES[i];
+    xTicks(st.i1, i2x).forEach(i => {
+      const x = X(i), d = axisDate(i);
       if (x - lastX < 36) return;
       lastX = x;
-      const days = st.i2 - st.i1;
+      const days = i2x - st.i1;
       const mon = MONTHS[+d.slice(5,7)-1];
       // short windows read day-by-day: name the month once, then just the dates
       const txt = days > 1500 ? d.slice(0,4)
@@ -2736,6 +2934,28 @@
       if (R && C) g += alphaBand(R, C, X, Y, stride);
     }
     const ends = [];
+    if (i2x > st.i2){
+      // the stretch past the chart's last bar: only dotted lines live here
+      const xn = X(st.i2);
+      g += `<rect class="an-ahead" x="${xn.toFixed(1)}" y="${px.y0}" width="${(px.x1-xn).toFixed(1)}"
+             height="${px.y1-px.y0}" fill="#fafaf9" pointer-events="none"/>`;
+      g += `<line x1="${xn.toFixed(1)}" y1="${px.y0}" x2="${xn.toFixed(1)}" y2="${px.y1}"
+             stroke="#e7e5e4" stroke-width="1" stroke-dasharray="3 3" pointer-events="none"/>`;
+    }
+    AN.forEach(A => {
+      const dim = st.focus && st.focus !== A.base;
+      const dpath = A.pts.map((p, j) => `${j ? 'L' : 'M'}${X(p.x).toFixed(1)} ${Y(p.v).toFixed(1)}`).join(' ');
+      g += `<path data-analog="${A.k}" d="${dpath}" fill="none" stroke="${A.color}" stroke-width="2"
+             stroke-dasharray="0.1 4.2" stroke-linecap="round" stroke-linejoin="round"
+             opacity="${dim ? 0.12 : 0.95}" pointer-events="none"/>`;
+      const jp = A.pts.find(p => p.d === A.join);
+      if (jp) g += `<circle cx="${X(jp.x).toFixed(1)}" cy="${Y(jp.v).toFixed(1)}" r="3.2" fill="#fff"
+             stroke="${A.color}" stroke-width="1.5" opacity="${dim ? 0.15 : 1}" pointer-events="none"/>`;
+      const tail = A.pts[A.pts.length-1];
+      ends.push({ id:'an:' + A.k, y:Y(tail.v), color:A.color, analog:true,
+                  label: analogName(A.a) + ' · ' + analogFull(A.a), name: analogName(A.a),
+                  val: label(tail.v), dim });
+    });
     const inHeld = (i, wins) => wins.some(([e,x]) => i >= e && (x == null || i <= x));
     const pathKs = d => {
       const ks = [];
@@ -2830,18 +3050,22 @@
       const nx = px.x1 + 10;
       const removeX = W - 12;
       const pillW = removeX - nx - 12;
-      const shortLabel = e.label.split(' · ')[0];
+      const shortLabel = e.name || e.label.split(' · ')[0];
       const maxNameChars = W < 600 ? 6 : 11;
-      const name = shortLabel.length > maxNameChars ? shortLabel.slice(0,maxNameChars-1)+'…' : shortLabel;
+      const yrAt = e.analog ? shortLabel.lastIndexOf(' ’') : -1;   // keep the year on a dotted line's label
+      const name = shortLabel.length <= maxNameChars ? shortLabel
+        : yrAt > 0 ? shortLabel.slice(0, Math.max(2, maxNameChars - (shortLabel.length - yrAt) - 1)) + '…' + shortLabel.slice(yrAt)
+        : shortLabel.slice(0,maxNameChars-1)+'…';
       const small = W < 600, textColor = MarketLab.contrastText(e.color);
       g += `<g class="endlabel" data-end-id="${esc(e.id)}" opacity="${e.dim?0.2:1}">
         <title>${esc(e.label)}</title>
         <rect x="${nx-3}" y="${(e.y-11).toFixed(1)}" width="${(removeX-nx+12).toFixed(1)}" height="22"
               fill="transparent"/>
-        <rect x="${nx-3}" y="${(e.y-10).toFixed(1)}" width="${pillW}" height="21" rx="3" fill="${e.color}"/>
-        <text x="${nx+3}" y="${(e.y+(small?-1:3.6)).toFixed(1)}" font-size="${small?8:10}" fill="${textColor}"
-              font-weight="550" pointer-events="none">${esc(name)}</text>
-        <text x="${small ? nx+3 : nx+pillW-9}" y="${(e.y+(small?8:3.6)).toFixed(1)}" font-size="${small?8:10}" fill="${textColor}" text-anchor="${small?'start':'end'}" pointer-events="none">${e.val}</text>
+        <rect x="${nx-3}" y="${(e.y-10).toFixed(1)}" width="${pillW}" height="21" rx="3"
+              ${e.analog ? `fill="#fff" stroke="${e.color}" stroke-width="1.3" stroke-dasharray="2 2"` : `fill="${e.color}"`}/>
+        <text x="${nx+3}" y="${(e.y+(small?-1:3.6)).toFixed(1)}" font-size="${small?8:10}" fill="${e.analog?e.color:textColor}"
+              font-weight="${e.analog?650:550}" pointer-events="none">${esc(name)}</text>
+        <text x="${small ? nx+3 : nx+pillW-9}" y="${(e.y+(small?8:3.6)).toFixed(1)}" font-size="${small?8:10}" fill="${e.analog?e.color:textColor}" font-weight="${e.analog?650:400}" text-anchor="${small?'start':'end'}" pointer-events="none">${e.val}</text>
         <text class="label-remove" data-remove="${esc(e.id)}" role="button" tabindex="0"
               aria-label="Remove ${esc(e.label)} from chart" x="${removeX.toFixed(1)}"
               y="${(e.y+3.6).toFixed(1)}" font-size="12" fill="#78716c"
@@ -2889,10 +3113,11 @@
     svg.innerHTML = `<g id="plot">${g}</g><g id="cross"></g>
       <rect x="${px.x0}" y="${px.y0}" width="${px.x1-px.x0}" height="${px.y1-px.y0}"
             fill="transparent" id="hit"/><g id="recomarks">${marks}</g>`;
-    geom = { px, X, Y, data, label, W, H,
+    geom = { px, X, Y, data, label, W, H, i2x, analogs: AN,
       ruler:{kind:st.mode==='dd'?'points':st.mode==='rel'?'relative':'return',format:label,
         valueAtY:y=>{const v=tlo+(px.y1-y)/(px.y1-px.y0)*(thi-tlo);return useLog?Math.exp(v):v;}} };
     syncStockOverlay();
+    syncAnalogUi();
     readout.textContent = windowNote();
     updateSummaries(data, null);
     // Period returns are price returns in every mode; Drawdown and Relative lines
@@ -2921,6 +3146,7 @@
   svg.addEventListener('mouseleave', () => { recoTip.style.display = 'none'; });
   function removeEndLabel(target){
     const id = target && target.getAttribute && target.getAttribute('data-remove');
+    if (id && id.startsWith('an:')){ st.analogs.splice(+id.slice(3), 1); render(); return true; }
     if (!id || !st.sel.includes(id)) return false;
     toggle(id);
     return true;
@@ -2945,9 +3171,9 @@
     const { px } = geom;
     if (x < px.x0 || x > px.x1){ clearCross(); return; }
     const frac = (x - px.x0) / (px.x1 - px.x0);
-    const i = Math.round(st.i1 + frac * (st.i2 - st.i1));
+    const i = Math.round(st.i1 + frac * ((geom.i2x ?? st.i2) - st.i1));
     st.cursor = i;
-    stockOverlay.cursor(DATES[i]);
+    stockOverlay.cursor(DATES[Math.min(i, st.i2)]);
     const cx = geom.X(i);
     let g = `<line x1="${cx.toFixed(1)}" y1="${px.y0}" x2="${cx.toFixed(1)}" y2="${px.y1}"
               stroke="#0c0a09" stroke-width="1" opacity=".22"/>`;
@@ -2992,8 +3218,15 @@
       g += `<circle cx="${cx.toFixed(1)}" cy="${geom.Y(v).toFixed(1)}" r="3" fill="${d.color}"
              opacity="${st.focus && st.focus!==d.id ? .15 : 1}"/>`;
     });
+    const anNotes = [];
+    (geom.analogs || []).forEach(A => {
+      const p = A.pts.find(q => q.x === i); if (!p) return;
+      g += `<circle cx="${cx.toFixed(1)}" cy="${geom.Y(p.v).toFixed(1)}" r="3" fill="#fff"
+             stroke="${A.color}" stroke-width="1.5"/>`;
+      anNotes.push(`${analogName(A.a)} on ${p.d}: ${fmtPct(p.r)} vs ${A.join}`);
+    });
     // date tag pinned to the crosshair on the x-axis, clamped to stay in-frame
-    const dd = DATES[i];
+    const dd = axisDate(i);
     const dlbl = `${MONTHS[+dd.slice(5,7)-1]} ${+dd.slice(8,10)}, ${dd.slice(0,4)}`;
     const pillW = dlbl.length * 6.1 + 14, pillH = 16;
     const pillX = Math.max(px.x0, Math.min(cx - pillW/2, px.x1 - pillW));
@@ -3002,8 +3235,8 @@
     g += `<text class="m" x="${(pillX+pillW/2).toFixed(1)}" y="${(px.y1+14).toFixed(1)}"
            text-anchor="middle" fill="#ffffff" font-size="10.5">${dlbl}</text>`;
     document.getElementById('cross').innerHTML = g;
-    readout.textContent = `${DATES[i]}  ·  from ${st.anchor ? DYN_NOTE[st.anchor] : DATES[st.i1]}`
-                          + alphaNote(i);
+    readout.textContent = `${dd}  ·  from ${st.anchor ? DYN_NOTE[st.anchor] : DATES[st.i1]}`
+                          + alphaNote(i) + anNotes.map(t => '  ·  ' + t).join('');
     updateSummaries(geom.data, i, true);
   });
   svg.addEventListener('mouseleave', clearCross);
@@ -3876,6 +4109,7 @@
     const h = [st.sel.join(','), st.mode, st.log?'log':'lin', DATES[st.i1], DATES[st.i2],
                st.bench, 'fy'+st.peBasis, 'cw'+st.corrWin, st.tr?'div1':'div0'];
     if(basketDrill)h.push(['basket',encodeURIComponent(basketDrill),sectorMetric,sectorRange,...(sectorMetric==='custom'&&sectorCustom?sectorCustom:[])].join(':'));
+    if(st.analogs.length)h.push('an:'+st.analogs.map(a=>[encodeURIComponent(a.id),a.from,a.to,a.align].join('~')).join(','));
     history.replaceState(null, '', '#' + h.join('|'));
   }
   function basketFromHash(value){
@@ -3899,6 +4133,13 @@
     }
     landingView='theme';
     const [sel, mode, scale, a, b, bench, peBasis, corrWin, divs,context] = h.split('|');
+    const anTok = h.split('|').find(p => p.startsWith('an:'));
+    st.analogs = !anTok ? [] : anTok.slice(3).split(',').map(t => {
+      const [id, from, to, align] = t.split('~'); let k = id;
+      try { k = decodeURIComponent(id); } catch {}
+      return SER[k] && typedDate(from||'') && typedDate(to||'') && from < to
+        ? { id:k, from, to, align: align === 'now' ? 'now' : 'cal' } : null;
+    }).filter(Boolean);
     if(context?.startsWith('basket:')){
       const [,id,metric,range,from,to]=context.split(':');basketDrill=basketFromHash(id);
       if(basketDrill)landingUniverse='baskets';
@@ -3993,9 +4234,9 @@
   });
 })();
 </script>
-<script src="market-lab-momentum.js?v=20261106-86794ec0"></script>
-<link rel="stylesheet" href="market-lab-home-momentum.css?v=20261106-86794ec0">
-<script src="market-lab-home-momentum.js?v=20261106-86794ec0"></script>
-<script src="market-lab-screener.js?v=20261106-86794ec0"></script>
+<script src="market-lab-momentum.js?v=20261106-e1a2282a"></script>
+<link rel="stylesheet" href="market-lab-home-momentum.css?v=20261106-e1a2282a">
+<script src="market-lab-home-momentum.js?v=20261106-e1a2282a"></script>
+<script src="market-lab-screener.js?v=20261106-e1a2282a"></script>
 </body>
 </html>
