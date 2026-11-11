@@ -6,14 +6,14 @@
   <title>Trading notebook · Equinox</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
   <style>
-    /* Two bound notepads side by side (Dino, 2026-11-11, second pass: "elegant and pure").
-       Cloth head binding with a foil-stamped name, a block of fine paper, a silk ribbon.
-       Blueprint: dot-grid paper; contents page of trade ideas, then one page per idea
-       with execution, result and a success/failure mark (blind-embossed seal).
-       Gospel: plain paper; rules and philosophy as one numbered list.
-       Click a page to flip it up. nb-data is written by research/market-reads/notebook.py.
+    /* Trading notebook (Dino, 2026-11-11).
+       Gospel: a black leather bible at the top. Click to open it, click a page to turn it.
+       Verses are Dino's rules and philosophy; quotes carry the author's name.
+       Blueprint (Dino's trades) and Claude (my calls + $100 paper book): bound ledger pads,
+       idea on the left, result on the right, oldest first, open rows highlighted.
+       nb-data is written by research/market-reads/notebook.py.
        Show only Dino's content: no helper lines or captions. */
     :root {
       --np-navy:#1d2740; --np-ox:#5e1d1c; --np-green:#1f3a31; --np-foil-a:#f1e6c6; --np-foil-b:#b89d6e;
@@ -29,7 +29,6 @@
     .nb-head h1 { font:500 44px/1 var(--np-disp); letter-spacing:-.4px; margin:0; color:var(--ml-ink); }
     .nb-upd { color:var(--ml-faint); font-size:13px; margin:0; }
 
-    .nb-desk { display:grid; grid-template-columns:1fr 1fr; gap:72px; align-items:start; }
     .pad { position:relative; padding-bottom:58px; animation:np-in .5s cubic-bezier(.2,.7,.2,1) backwards; }
     .pad-ox { animation-delay:.08s; }
     @keyframes np-in { from { opacity:0; transform:translateY(12px); } }
@@ -75,55 +74,18 @@
     .folio button:focus-visible { outline:1px solid var(--np-soft); }
     .folio[hidden] { display:none; }
 
-    /* Blueprint: contents */
-    .trk { list-style:none; margin:0; padding:0; }
-    .trk button { all:unset; box-sizing:border-box; width:100%; display:grid; grid-template-columns:56px 1fr 18px; align-items:baseline; column-gap:10px;
-      padding:10px 0; cursor:pointer; }
-    .trk li + li button { border-top:1px solid var(--np-hair); }
-    .trk .d { font:italic 400 13.5px/1 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-faint); }
-    .trk .t { display:flex; align-items:baseline; font:500 20px/1.2 var(--np-disp); color:var(--np-ink); transition:color .15s; }
-    .trk .t::after { content:""; flex:1; min-width:18px; margin:0 6px 0 12px; border-bottom:1px dotted rgba(29,39,64,.35); transform:translateY(-4px); }
-    .trk button:hover .t, .trk button:focus-visible .t { color:var(--np-navy); text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:5px; }
-    .trk .g { align-self:center; display:grid; place-items:center; }
     .glyph { width:16px; height:16px; fill:none; stroke-width:1.4; stroke-linecap:round; stroke-linejoin:round; }
     .glyph.success { stroke:var(--np-ink); }
     .glyph.failure { stroke:var(--np-fail); }
     .glyph.open { stroke:var(--np-faint); stroke-width:1; }
 
-    /* Blueprint: one page per date, every idea from that date on it */
-    .pg-date { display:block; margin:0 0 22px; font:italic 500 28px/1 var(--np-disp); font-variant-numeric:oldstyle-nums; color:var(--np-ink); }
-    .ent { position:relative; padding:20px 0 22px; border-top:1px solid var(--np-hair); }
-    .idea { margin:0 0 8px; padding-right:64px; font:600 22px/1.15 var(--np-disp); color:var(--np-ink); }
-    .said { position:relative; margin:0 0 14px; font:italic 400 14px/1.5 var(--np-text); color:var(--np-soft); }
-    .said::before { content:"\201C"; position:absolute; left:-.55em; top:-.02em; color:var(--np-faint); }
-    .said::after { content:"\201D"; color:var(--np-faint); }
-    .flds { display:grid; grid-template-columns:1fr 1fr; gap:22px; margin:0; }
-    .fld dt { margin:0 0 3px; font:italic 400 12.5px/1 var(--np-text); color:var(--np-faint); }
-    .fld dd { margin:0; min-height:22px; padding-bottom:2px; border-bottom:1px solid var(--np-hair); font:400 14.5px/1.45 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-ink); }
-    .marks { display:flex; gap:22px; margin-top:14px; }
-    .marks button { all:unset; display:flex; align-items:center; gap:10px; cursor:pointer; font:400 13.5px/1 var(--np-text); color:var(--np-soft); transition:color .15s; }
-    .marks button:hover, .marks button[aria-pressed="true"] { color:var(--np-ink); }
-    .marks button[data-mark="failure"][aria-pressed="true"] { color:var(--np-fail); }
-    .marks button:focus-visible { outline:1px solid var(--np-soft); outline-offset:5px; }
-    .marks .ring { width:11px; height:11px; border:1px solid currentColor; border-radius:50%; display:grid; place-items:center; }
-    .marks .ring::after { content:""; width:5px; height:5px; border-radius:50%; background:currentColor; transform:scale(0); transition:transform .15s; }
-    .marks button[aria-pressed="true"] .ring::after { transform:scale(1); }
-    .seal { position:absolute; top:14px; right:0; width:56px; height:56px; opacity:0; transform:rotate(-12deg) scale(.9);
-      transition:opacity .25s, transform .25s; pointer-events:none; }
-    .seal.on { opacity:1; transform:rotate(-12deg) scale(1); }
-    .seal svg { width:100%; height:100%; fill:none; overflow:visible; }
-    .seal .r1 { stroke-width:1.2; } .seal .r2 { stroke-width:.6; } .seal .gl { stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
-    .seal text { font:500 8.6px var(--np-text); letter-spacing:2.6px; fill:currentColor; stroke:none; }
-    .seal.success { color:var(--np-navy); } .seal.failure { color:var(--np-fail); }
-    .seal svg * { stroke:currentColor; }
-    .seal svg { filter:drop-shadow(0 1px 0 rgba(255,255,255,.9)) drop-shadow(0 -.5px 0 rgba(0,0,0,.12)); opacity:.86; }
-
-    /* Claude: a ledger. The call on the left, its result on the right, oldest first. */
-    .pad-wide { margin-top:80px; animation-delay:.16s; }
+    /* Ledgers: the idea on the left, its result on the right, oldest first. */
+    .pad-wide { margin-top:96px; }
+    #claude { animation-delay:.16s; }
     .pad-green .pad-top { background-color:var(--np-green); }
     .pad-green .ribbon { background-color:var(--np-green); left:50%; }
-    .pad-green .pg { min-height:560px; }
-    .pad-green .pg::before { content:""; position:absolute; top:0; bottom:0; left:50%; width:3px; margin-left:-2px; pointer-events:none;
+    .pad-wide .pg { min-height:560px; }
+    .pad-wide .pg::before { content:""; position:absolute; top:0; bottom:0; left:50%; width:3px; margin-left:-2px; pointer-events:none;
       border-left:1px solid var(--np-hair); border-right:1px solid var(--np-hair); }
     .pad-top .bk { position:absolute; right:30px; top:50%; transform:translateY(-50%); font:italic 500 19px/1 var(--np-disp); font-variant-numeric:lining-nums tabular-nums;
       background:linear-gradient(170deg, var(--np-foil-a) 20%, var(--np-foil-b) 55%, var(--np-foil-a) 85%); -webkit-background-clip:text; background-clip:text; color:transparent; }
@@ -134,6 +96,10 @@
     .ldg .d { font:italic 400 13.5px/1 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-faint); }
     .ldg .t { font:500 19px/1.3 var(--np-disp); color:var(--np-ink); }
     .ldg .a, .ldg .p { display:block; margin-top:5px; font:italic 400 14px/1.3 var(--np-text); color:var(--np-green); }
+    .pad-navy .ldg .a, .pad-navy .ldg .p { color:var(--np-navy); }
+    .ldg .mk { all:unset; cursor:pointer; display:grid; place-items:center; width:22px; height:22px; margin:-3px 0 0 -2px; }
+    .ldg .mk .glyph { transform:none; }
+    .ldg .mk:focus-visible { outline:1px solid var(--np-soft); outline-offset:2px; }
     .ldg .p { font-style:normal; font-variant-numeric:lining-nums tabular-nums; }
     .ldg .x { font:400 15px/1.35 var(--np-text); color:var(--np-soft); font-variant-numeric:lining-nums; }
     .ldg .g .glyph { width:16px; height:16px; transform:translateY(3px); }
@@ -141,27 +107,72 @@
       background:linear-gradient(100deg, rgba(247,214,72,0) 0, rgba(247,214,72,.5) 1.5%, rgba(247,214,72,.38) 40%, rgba(247,214,72,.46) 96%, rgba(247,214,72,0) 100%); }
     .glyph.hit { stroke:var(--np-ink); } .glyph.miss { stroke:var(--np-fail); }
 
-    /* Gospel */
-    .gos { list-style:none; margin:0; padding:0; counter-reset:g; }
-    .gos li { display:grid; grid-template-columns:44px 1fr; column-gap:8px; padding:0 0 30px; margin:0 0 30px; border-bottom:1px solid var(--np-hair); }
-    .gos li:last-child { border-bottom:0; }
-    .gos .n { font:italic 400 30px/1.1 var(--np-disp); color:var(--np-ox); font-variant-numeric:oldstyle-nums; }
-    .gos .tx { display:block; font:500 33px/1.12 var(--np-disp); letter-spacing:-.2px; color:var(--np-ink); }
-    .gos .dt { display:block; margin-top:12px; font:italic 400 14px/1 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-faint); }
+    /* Gospel: a black leather bible. Cover and leaves turn on the spine. */
+    .bible-wrap { display:flex; justify-content:center; margin:0 0 40px; }
+    .bible { --pw:380px; --ph:540px; --lip:11px; --gilt:#c9a44f; position:relative; width:calc(var(--pw) * 2); height:var(--ph);
+      margin:var(--lip) 0 calc(var(--lip) + 70px); transform:translateX(calc(var(--pw) / -2)); transition:transform .9s cubic-bezier(.45,.05,.25,1);
+      outline:none; animation:np-in .6s cubic-bezier(.2,.7,.2,1) backwards; }
+    .bible.open { transform:none; }
+    .bible:focus-visible .bb-edge { outline:1px solid var(--ml-faint); outline-offset:8px; }
+    .bb-leather { background-color:#151311;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .075 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+        radial-gradient(120% 90% at 30% 20%, rgba(255,255,255,.07), rgba(255,255,255,0) 60%), linear-gradient(160deg, #1f1b18, #0e0c0b); }
+    /* Back cover with the gilt fore-edge of the text block showing beneath */
+    .bb-edge { position:absolute; z-index:1; left:50%; top:calc(var(--lip) * -1); width:calc(var(--pw) + var(--lip)); height:calc(var(--ph) + var(--lip) * 2);
+      border-radius:0 13px 13px 0;
+      box-shadow:1px 1px 0 #7d5f26, 2px 2px 0 #ecd28a, 3px 3px 0 #c39d48, 4px 4px 0 #f2dc98, 5px 5px 0 #a98436, 6px 6px 0 #18140f, 7px 7px 0 #0d0b0a,
+        0 46px 60px -30px rgba(10,8,6,.55), 0 4px 14px rgba(10,8,6,.18); }
+    .bb-edge::after { content:""; position:absolute; top:var(--lip); bottom:var(--lip); left:0; right:var(--lip); background:#3a1312;
+      box-shadow:inset 14px 0 18px -10px rgba(0,0,0,.6); }
+    .bb-ribbon { position:absolute; z-index:0; left:calc(50% + var(--pw) * .64); top:calc(var(--ph) - 20px); width:13px; height:98px; background:#7e1717;
+      background-image:linear-gradient(90deg, rgba(255,255,255,.16), rgba(255,255,255,0) 45%, rgba(0,0,0,.25));
+      clip-path:polygon(0 0, 100% 0, 100% 100%, 50% 84%, 0 100%); transform:rotate(-3deg); transform-origin:top center; }
+    .sheet { position:absolute; left:50%; top:0; width:var(--pw); height:var(--ph); transform-origin:left center; transform-style:preserve-3d;
+      transform:perspective(2600px) rotateY(0deg); transition:transform .9s cubic-bezier(.45,.05,.25,1); cursor:pointer; }
+    .sheet.flip { transform:perspective(2600px) rotateY(-180deg); }
+    .sheet.cover { top:calc(var(--lip) * -1); width:calc(var(--pw) + var(--lip)); height:calc(var(--ph) + var(--lip) * 2); }
+    .face { position:absolute; inset:0; overflow:hidden; backface-visibility:hidden; -webkit-backface-visibility:hidden; }
+    .face.bk { transform:rotateY(180deg); }
+    .cover .fr { border-radius:0 13px 13px 0; }
+    .cover .fr::before { content:""; position:absolute; inset:24px 24px 24px 34px; border:1px solid var(--gilt); outline:1px solid var(--gilt); outline-offset:-6px; border-radius:2px 6px 6px 2px; opacity:.9; }
+    .cover .fr::after { content:""; position:absolute; top:0; bottom:0; left:13px; width:3px;
+      background:linear-gradient(90deg, rgba(0,0,0,.55), rgba(255,255,255,.07) 60%, rgba(0,0,0,.2)); }
+    .cover h2 { position:absolute; left:10px; right:0; top:34%; margin:0; text-align:center; font:400 78px/1 "UnifrakturMaguntia", var(--np-disp);
+      background:linear-gradient(170deg, #f6e6b4 15%, #c49a45 48%, #f0d896 70%, #a8822f 92%); -webkit-background-clip:text; background-clip:text; color:transparent;
+      filter:drop-shadow(0 1px 0 rgba(0,0,0,.7)) drop-shadow(0 -1px 0 rgba(255,236,180,.12)); }
+    .cover .bk { border-radius:13px 0 0 13px; }
+    .cover .bk::after { content:""; position:absolute; top:var(--lip); bottom:var(--lip); left:var(--lip); right:0; background:#3a1312;
+      box-shadow:inset -14px 0 18px -10px rgba(0,0,0,.6); }
+    .leaf .face { background:#f6f1e4; }
+    .leaf .fr { border-radius:0 4px 4px 0; box-shadow:inset 16px 0 22px -14px rgba(60,40,10,.3); }
+    .leaf .bk { border-radius:4px 0 0 4px; box-shadow:inset -16px 0 22px -14px rgba(60,40,10,.3); }
+    .leaf:last-of-type .fr { box-shadow:inset 16px 0 22px -14px rgba(60,40,10,.3), 1px 0 0 var(--gilt); }
+    .bb-pg { position:absolute; inset:0; padding:54px 46px 56px 50px; font:400 17px/1.55 var(--np-text); color:#221d18; text-align:justify;
+      hyphens:auto; -webkit-hyphens:auto; font-variant-numeric:oldstyle-nums; }
+    .bk .bb-pg { padding:54px 50px 56px 46px; }
+    .vs { margin:0 0 1.05em; clear:both; }
+    .bb-pg { hyphenate-limit-chars:8 4 4; }
+    .vs .vn { margin-right:.3em; font:600 .62em/1 var(--np-text); vertical-align:.5em; color:#9b2f24; font-variant-numeric:lining-nums; }
+    .vs .dc { float:left; margin:.08em .1em 0 0; font:400 3.9em/.8 "UnifrakturMaguntia", var(--np-disp); color:#9b2f24; }
+    .vs .by { display:block; margin-top:.3em; text-align:right; font-variant:small-caps; letter-spacing:.06em; color:#5b5249; }
 
     @media (max-width:900px) {
       .nb-wrap { padding:28px 16px 100px; }
       .nb-head { flex-direction:column; gap:6px; margin-bottom:36px; }
-      .nb-desk { grid-template-columns:1fr; gap:48px; }
       .pg { min-height:540px; padding:44px 28px 84px 36px; }
-      .flds { grid-template-columns:1fr; gap:12px; }
-      .gos .tx { font-size:28px; }
-      .pad-wide { margin-top:48px; }
-      .pad-green .pg::before { display:none; }
+      .pad-wide { margin-top:56px; }
+      .pad-wide .pg::before { display:none; }
+      .bible { --pw:calc(100vw - 52px); --ph:500px; width:var(--pw); transform:none; }
+      .bible.open { transform:none; }
+      .bible .bb-edge, .bible .sheet { left:0; }
+      .bible .bb-ribbon { left:calc(var(--pw) * .64); }
+      .bible .sheet.flip { opacity:0; transition:transform .9s cubic-bezier(.45,.05,.25,1), opacity .35s .45s; }
+      .cover h2 { font-size:64px; }
+      .bb-pg, .bk .bb-pg { padding:44px 30px 44px 34px; font-size:16px; }
       .ldg li { grid-template-columns:1fr; row-gap:10px; }
       .pad-top .bk { right:18px; font-size:16px; }
     }
-    @media (prefers-reduced-motion:reduce) { .pad { animation:none; } .pg, .pg::after, .seal { transition:none; } }
+    @media (prefers-reduced-motion:reduce) { .pad, .bible { animation:none; } .pg, .pg::after, .bible, .sheet { transition:none; } }
   </style>
 <link rel="stylesheet" href="market-lab-shell.css?v=20261109-73f57fc7"><script src="market-lab-shell.js?v=20261109-73f57fc7"></script></head>
 <body>
@@ -171,21 +182,19 @@
       <p class="nb-upd">Updated Nov 11, 2026</p>
     </header>
 
-    <div class="nb-desk">
-      <section class="pad pad-navy" id="blueprint" tabindex="0" aria-label="Blueprint">
-        <div class="pad-top"><h2>Blueprint</h2></div>
-        <div class="pad-pages"></div>
-        <span class="ribbon" aria-hidden="true"></span>
-        <nav class="folio" aria-label="Blueprint pages"><button class="prev" aria-label="Previous page">&lsaquo;</button><span></span><button class="next" aria-label="Next page">&rsaquo;</button></nav>
-      </section>
-
-      <section class="pad pad-ox" id="gospel" tabindex="0" aria-label="Gospel">
-        <div class="pad-top"><h2>Gospel</h2></div>
-        <div class="pad-pages"></div>
-        <span class="ribbon" aria-hidden="true"></span>
-        <nav class="folio" aria-label="Gospel pages"><button class="prev" aria-label="Previous page">&lsaquo;</button><span></span><button class="next" aria-label="Next page">&rsaquo;</button></nav>
+    <div class="bible-wrap">
+      <section class="bible" id="gospel" tabindex="0" aria-label="Gospel" aria-expanded="false">
+        <span class="bb-ribbon" aria-hidden="true"></span>
+        <div class="bb-edge bb-leather" aria-hidden="true"></div>
       </section>
     </div>
+
+    <section class="pad pad-navy pad-wide" id="blueprint" tabindex="0" aria-label="Blueprint">
+      <div class="pad-top"><h2>Blueprint</h2><span class="bk"></span></div>
+      <div class="pad-pages"></div>
+      <span class="ribbon" aria-hidden="true"></span>
+      <nav class="folio" aria-label="Blueprint pages"><button class="prev" aria-label="Previous page">&lsaquo;</button><span></span><button class="next" aria-label="Next page">&rsaquo;</button></nav>
+    </section>
 
     <section class="pad pad-green pad-wide" id="claude" tabindex="0" aria-label="Claude">
       <div class="pad-top"><h2>Claude</h2><span class="bk"></span></div>
@@ -204,6 +213,8 @@
    "said": "qqq up to 700-710 area by sometime next week on this multi week short squeeze, and then a short term reversal due to anthropic ipo, jensen hearing, to retest some lows ... for execution i will short in that range",
    "execution": [],
    "result": "",
+   "pnl": "",
+   "end": "",
    "mark": null
   },
   {
@@ -213,6 +224,8 @@
    "said": "shorting the weakest ai names in that range (aaoi)",
    "execution": [],
    "result": "",
+   "pnl": "",
+   "end": "",
    "mark": null
   },
   {
@@ -222,6 +235,8 @@
    "said": "long strongest ai names on those retests (AMD, BE, COHR, donot need to expand beyond these)",
    "execution": [],
    "result": "",
+   "pnl": "",
+   "end": "",
    "mark": null
   },
   {
@@ -231,6 +246,8 @@
    "said": "i am also shorting mcd tonight on this tech rebound and its overextended to the upside on RSI",
    "execution": [],
    "result": "",
+   "pnl": "",
+   "end": "",
    "mark": null
   },
   {
@@ -240,14 +257,24 @@
    "said": "add QQQ longs into 705-710 region and flip short. look to relong 680",
    "execution": [],
    "result": "",
+   "pnl": "",
+   "end": "",
    "mark": null
   }
  ],
+ "mine": "",
  "gospel": [
   {
    "n": 1,
    "date": "Nov 11",
-   "text": "Set a plan, follow the plan."
+   "text": "Set a plan, follow the plan.",
+   "by": ""
+  },
+  {
+   "n": 2,
+   "date": "Nov 11",
+   "text": "Does this theme solve a problem or fulfill a need that is so universal and urgent that it could rearrange the existing market structure? Most truly revolutionary paradigm shifts do one of two things: reduce suffering or increase connection.",
+   "by": "Citrini"
   }
  ],
  "calls": [
@@ -433,13 +460,6 @@
   function markOf(i) { return Object.prototype.hasOwnProperty.call(local, i.id) ? local[i.id] : i.mark; }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   var PATH = { success: 'M4 12.5 L9.5 18 L20 6', failure: 'M6 6 L18 18 M18 6 L6 18', hit: 'M4 12.5 L9.5 18 L20 6', miss: 'M6 6 L18 18 M18 6 L6 18', open: 'M12 5 A7 7 0 1 1 11.99 5' };
-  function seal(m) {
-    var good = m === 'success' || m === 'hit', word = m.toUpperCase(), g = good ? 'M38 50.5 L46 58.5 L62 40' : 'M40 40 L60 60 M60 40 L40 60';
-    return '<svg viewBox="0 0 100 100" aria-hidden="true"><defs><path id="arc-' + m + '" d="M50 50 m-35 0 a35 35 0 1 1 70 0 a35 35 0 1 1 -70 0"/></defs>' +
-      '<circle class="r1" cx="50" cy="50" r="46"/><circle class="r2" cx="50" cy="50" r="42.5"/><circle class="r2" cx="50" cy="50" r="27"/>' +
-      '<text><textPath href="#arc-' + m + '" startOffset="0">' + word + ' \u00B7 ' + word + ' \u00B7 </textPath></text>' +
-      '<path class="gl" d="' + g + '"/></svg>';
-  }
   function glyph(kind) { return '<svg class="glyph ' + kind + '" viewBox="0 0 24 24" aria-hidden="true"><path d="' + PATH[kind] + '"/></svg>'; }
 
   function pad(el, pages) {
@@ -464,82 +484,124 @@
     return { go: go, stack: stack };
   }
 
-  // Blueprint: contents page, then one page per date holding every idea from that date.
-  var ideas = D.ideas, days = [], dayOf = {};
-  ideas.forEach(function (it) {
-    if (!(it.date in dayOf)) { dayOf[it.date] = days.length; days.push({ date: it.date, items: [] }); }
-    days[dayOf[it.date]].items.push(it);
-  });
-  var tracker = '<ul class="trk">' + ideas.map(function (it) {
-    return '<li><button data-go="' + (dayOf[it.date] + 1) + '"><span class="d">' + esc(it.date) + '</span><span class="t">' + esc(it.title) + '</span><span class="g" data-id="' + esc(it.id) + '"></span></button></li>';
-  }).join('') + '</ul>';
-  function lines(arr) { return arr.map(function (x) { return '<div>' + esc(x) + '</div>'; }).join(''); }
-  function entry(it) {
-    var mk = ['success', 'failure'].map(function (m) {
-      return '<button data-mark="' + m + '" data-id="' + esc(it.id) + '" aria-pressed="false"><span class="ring"></span>' + (m === 'success' ? 'Success' : 'Failure') + '</button>';
-    }).join('');
-    return '<section class="ent"><h3 class="idea">' + esc(it.title) + '</h3>' +
-      (it.said ? '<p class="said">' + esc(it.said) + '</p>' : '') +
-      '<dl class="flds"><div class="fld"><dt>Execution</dt><dd>' + lines(it.execution) + '</dd></div>' +
-      '<div class="fld"><dt>Result</dt><dd>' + (it.result ? '<div>' + esc(it.result) + '</div>' : '') + '</dd></div></dl>' +
-      '<div class="marks">' + mk + '</div><div class="seal" data-stamp="' + esc(it.id) + '"></div></section>';
+  // A ledger row: date and idea on the left; end date, result and P&L on the right.
+  function row(o) {
+    return '<li' + (o.open ? ' class="open"' : '') + (o.id ? ' data-row="' + esc(o.id) + '"' : '') + '>' +
+      '<div class="l"><span class="d">' + esc(o.date) + '</span><div><span class="t">' + esc(o.text) + '</span>' +
+      (o.action ? '<span class="a">' + esc(o.action) + '</span>' : '') + '</div></div>' +
+      '<div class="r"><span class="d">' + esc(o.end || '') + '</span><div><span class="x">' + esc(o.detail || '') + '</span>' +
+      (o.pnl ? '<span class="p">' + esc(o.pnl) + '</span>' : '') + '</div><span class="g">' + (o.g || '') + '</span></div></li>';
   }
-  var pages = [tracker].concat(days.map(function (d) {
-    return '<span class="pg-date">' + esc(d.date) + '</span>' + d.items.map(entry).join('');
-  }));
-  var bp = pad(document.getElementById('blueprint'), pages);
-  function paint(id) {
-    var it = ideas.filter(function (x) { return x.id === id; })[0], m = markOf(it);
-    bp.stack.querySelectorAll('.g[data-id="' + id + '"]').forEach(function (g) { g.innerHTML = glyph(m || 'open'); });
-    bp.stack.querySelectorAll('[data-mark][data-id="' + id + '"]').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.mark === m); });
-    var st = bp.stack.querySelector('[data-stamp="' + id + '"]');
-    if (st) { st.className = 'seal' + (m ? ' on ' + m : ''); if (m) st.innerHTML = seal(m); }
+  function ledger(el, rows, per) {
+    var pages = [];
+    for (var k = 0; k < rows.length; k += per) pages.push('<ol class="ldg">' + rows.slice(k, k + per).join('') + '</ol>');
+    return pages.length ? pad(el, pages) : null;
   }
-  ideas.forEach(function (it) { paint(it.id); });
-  bp.stack.addEventListener('click', function (e) {
-    var g = e.target.closest('[data-go]');
-    if (g) { bp.go(+g.dataset.go); return; }
-    var b = e.target.closest('[data-mark]');
+
+  // Blueprint: Dino's trades. The ring on the right marks an idea a success or a failure.
+  var ideas = D.ideas || [];
+  function isOpen(it) { return !markOf(it) && !it.result; }
+  function mk(it) {
+    var m = markOf(it);
+    return '<button class="mk" data-id="' + esc(it.id) + '" title="' + (m === 'success' ? 'Success' : m === 'failure' ? 'Failure' : 'Mark success or failure') + '">' + glyph(m || 'open') + '</button>';
+  }
+  var bp = ledger(document.getElementById('blueprint'), ideas.map(function (it) {
+    return row({ id: it.id, open: isOpen(it), date: it.date, text: it.title, action: (it.execution || []).join('; '),
+                 end: it.end, detail: it.result, pnl: it.pnl, g: mk(it) });
+  }), 10);
+  document.querySelector('#blueprint .bk').textContent = D.mine || '';
+  if (bp) bp.stack.addEventListener('click', function (e) {
+    var b = e.target.closest('.mk');
     if (!b) return;
-    var it = ideas.filter(function (x) { return x.id === b.dataset.id; })[0];
-    local[it.id] = markOf(it) === b.dataset.mark ? null : b.dataset.mark;
-    save(); paint(it.id);
+    var it = ideas.filter(function (x) { return x.id === b.dataset.id; })[0], m = markOf(it);
+    local[it.id] = m === 'success' ? 'failure' : m === 'failure' ? null : 'success';
+    save();
+    var li = bp.stack.querySelector('[data-row="' + it.id + '"]');
+    li.classList.toggle('open', isOpen(it));
+    li.querySelector('.g').innerHTML = mk(it);
   });
 
-  // Gospel: rules and philosophy, four to a page.
-  var G = D.gospel, per = 4, gp = [];
-  for (var i = 0; i < Math.max(1, G.length); i += per) {
-    gp.push('<ol class="gos">' + G.slice(i, i + per).map(function (g) {
-      return '<li><span class="n">' + g.n + '</span><div><span class="tx">' + esc(g.text) + '</span><span class="dt">' + esc(g.date) + '</span></div></li>';
-    }).join('') + '</ol>');
-  }
-  pad(document.getElementById('gospel'), gp);
-
-  // Claude: one ledger, oldest call first. Call on the left; end date and result on the right.
-  var C = D.calls || [], cper = 10, cp = [];
-  for (var c0 = 0; c0 < C.length; c0 += cper) {
-    cp.push('<ol class="ldg">' + C.slice(c0, c0 + cper).map(function (c) {
-      var open = c.result === 'open';
-      return '<li' + (open ? ' class="open"' : '') + '>' +
-        '<div class="l"><span class="d">' + esc(c.date) + '</span><div><span class="t">' + esc(c.text) + '</span>' +
-        (c.action ? '<span class="a">' + esc(c.action) + '</span>' : '') + '</div></div>' +
-        '<div class="r"><span class="d">' + esc(c.end) + '</span><div><span class="x">' + esc(c.detail) + '</span>' +
-        (c.pnl ? '<span class="p">' + esc(c.pnl) + '</span>' : '') + '</div><span class="g">' + (open ? '' : glyph(c.result)) + '</span></div></li>';
-    }).join('') + '</ol>');
-  }
-  if (cp.length) pad(document.getElementById('claude'), cp);
+  // Claude: my calls, graded, with the $100 paper book.
+  ledger(document.getElementById('claude'), (D.calls || []).map(function (c) {
+    var open = c.result === 'open';
+    return row({ open: open, date: c.date, text: c.text, action: c.action, end: c.end, detail: c.detail, pnl: c.pnl, g: open ? '' : glyph(c.result) });
+  }), 10);
   document.querySelector('#claude .bk').textContent = D.book || '';
 
-  // Both notepads stay the same size: each paper block takes the taller one's height.
-  var stacks = Array.prototype.slice.call(document.querySelectorAll('.nb-desk .pad-pages'));
-  function equalize() {
-    stacks.forEach(function (st) { st.style.minHeight = ''; });
-    var h = Math.max.apply(null, stacks.map(function (st) { return st.offsetHeight; }));
-    stacks.forEach(function (st) { st.style.minHeight = h + 'px'; });
+  // Gospel: a bible. The cover and each leaf turn on the spine; a leaf carries a page on each side.
+  var bib = document.getElementById('gospel'), narrow = window.matchMedia('(max-width:900px)');
+  function verse(g, i) {
+    var t = String(g.text), body;
+    if (g.by) t = '“' + t + '”';
+    if (i === 0 && !g.by) body = '<span class="dc">' + esc(t.charAt(0)) + '</span>' + esc(t.slice(1));
+    else body = '<span class="vn">' + g.n + '</span>' + esc(t);
+    return '<p class="vs">' + body + (g.by ? '<span class="by">' + esc(g.by) + '</span>' : '') + '</p>';
   }
-  equalize();
-  window.addEventListener('resize', equalize);
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(equalize);
+  function paginate() {
+    var probe = document.createElement('div');
+    probe.className = 'sheet leaf'; probe.style.visibility = 'hidden';
+    probe.innerHTML = '<div class="face fr"><div class="bb-pg"></div></div>';
+    bib.appendChild(probe);
+    var box = probe.querySelector('.bb-pg'), pages = [], cur = [];
+    (D.gospel || []).forEach(function (g, i) {
+      var v = verse(g, i);
+      box.innerHTML = cur.concat(v).join('');
+      if (box.scrollHeight > box.clientHeight + 1 && cur.length) { pages.push(cur); cur = []; }
+      cur.push(v);
+    });
+    if (cur.length) pages.push(cur);
+    probe.remove();
+    return pages.map(function (p) { return p.join(''); });
+  }
+  var sheets = [], flipped = 0, most = 1;
+  function face(side, html) { return '<div class="face ' + side + '">' + (html == null ? '' : '<div class="bb-pg">' + html + '</div>') + '</div>'; }
+  function build() {
+    sheets.forEach(function (s) { s.remove(); });
+    var pages = paginate(), one = narrow.matches, leaves = [];
+    if (one) pages.forEach(function (p) { leaves.push([p, '']); });
+    else for (var k = 0; k < Math.max(1, pages.length); k += 2) leaves.push([pages[k] || '', pages[k + 1] || '']);
+    var html = '<div class="sheet cover"><div class="face fr bb-leather"><h2>Gospel</h2></div><div class="face bk bb-leather"></div></div>' +
+      leaves.map(function (l) { return '<div class="sheet leaf">' + face('fr', l[0]) + face('bk', l[1]) + '</div>'; }).join('');
+    bib.insertAdjacentHTML('beforeend', html);
+    sheets = Array.prototype.slice.call(bib.querySelectorAll('.sheet'));
+    var last = leaves[leaves.length - 1];
+    most = sheets.length - (last && last[1] ? 0 : 1);   // a last back page with verses on it can be turned to
+    flipped = 0; place();
+  }
+  function place(moving) {
+    var n = sheets.length;
+    sheets.forEach(function (s, i) {
+      var f = i < flipped;
+      s.classList.toggle('flip', f);
+      s.style.zIndex = i === moving ? n + 5 : f ? i + 2 : n - i + 2;
+    });
+    bib.classList.toggle('open', flipped > 0);
+    bib.setAttribute('aria-expanded', flipped > 0);
+  }
+  function turn(to) {
+    to = Math.max(0, Math.min(most, to));
+    if (to === flipped) return;
+    var moving = to > flipped ? flipped : to;
+    flipped = to; place(moving);
+    var s = sheets[moving];
+    s.addEventListener('transitionend', function done(e) { if (e.propertyName !== 'transform') return; s.removeEventListener('transitionend', done); place(); });
+  }
+  bib.addEventListener('click', function (e) {
+    var s = e.target.closest('.sheet');
+    if (!s) { turn(flipped ? 0 : 1); return; }
+    var i = sheets.indexOf(s);
+    if (i < flipped) turn(i);                                   // a left page: turn it back
+    else turn(flipped < most ? flipped + 1 : 0);                // a right page: turn it; the last one closes the book
+  });
+  bib.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' || e.key === ' ') { turn(flipped ? 0 : 1); e.preventDefault(); }
+    if (e.key === 'ArrowRight') { turn(flipped < most ? flipped + 1 : 0); e.preventDefault(); }
+    if (e.key === 'ArrowLeft') { turn(flipped - 1); e.preventDefault(); }
+    if (e.key === 'Escape') turn(0);
+  });
+  build();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(build);
+  if (narrow.addEventListener) narrow.addEventListener('change', build);
 })();
 </script>
 </body>
