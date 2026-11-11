@@ -8,99 +8,118 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
   <style>
-    /* Design language: hardbound trading notebook (chosen by Dino, 2026-11-11).
-       A two-page spread on a navy linen cover. Left page = blueprint (rules, in ink),
-       right page = gospel (beliefs). Ink means kept; pencil means a draft not kept yet.
-       One motif: ink vs pencil. Fraunces for ink, Caveat for pencil, dot-grid paper.
-       Content is copied from research/market-reads/blueprint.md and gospel.md and is
-       refreshed only when Dino asks. Never put calls, plans or trades on this page. */
+    /* Two notepads side by side (Dino, 2026-11-11). Blueprint: spiral-top graph pad,
+       the trade-idea journal (tracker page, then one page per idea with execution,
+       result and a success/failure mark). Gospel: glued-top ruled pad, rules and
+       philosophy in one numbered list. Click a page to flip it up and over.
+       The nb-data block is written by research/market-reads/notebook.py from
+       my-journal.json. Show only Dino's content: no helper lines or captions. */
     :root {
-      --nb-cover:#22303b; --nb-cover-edge:#18222a;
-      --nb-paper:#f7f6f1; --nb-paper-edge:#e6e3da; --nb-dot:#d3d0c6;
-      --nb-ink:#1c2840; --nb-ink-soft:#4a5468; --nb-pencil:#73777d;
-      --nb-ribbon:#a8362f; --nb-ribbon-dark:#7f2621;
-      --nb-ink-font:"Fraunces", Georgia, serif; --nb-hand:"Caveat", "Bradley Hand", cursive;
+      --np-blue:#22303b; --np-blue-hi:#2e3f4c; --np-red:#7a2a26; --np-red-hi:#8f3530;
+      --np-paper:#f8f7f2; --np-edge:#dedbd1; --np-grid:#d5dde2; --np-rule:#c9d3dc; --np-margin:rgba(168,54,47,.38);
+      --np-ink:#1c2840; --np-ink-soft:#4a5468; --np-pencil:#7a7e84; --np-fail:#a8362f;
+      --np-ink-font:"Fraunces", Georgia, serif; --np-hand:"Caveat", "Bradley Hand", cursive;
     }
     :root[data-theme="dark"] {
-      --nb-cover:#0f161b; --nb-cover-edge:#0a0f13;
-      --nb-paper:#dedbd1; --nb-paper-edge:#c9c5ba; --nb-dot:#bcb8ad;
-      --nb-ink:#1a2438; --nb-ink-soft:#434c5e; --nb-pencil:#62666c;
-      --nb-ribbon:#9a322c; --nb-ribbon-dark:#6f211c;
+      --np-blue:#141e26; --np-blue-hi:#1c2833; --np-red:#5a1f1c; --np-red-hi:#6b2622;
+      --np-paper:#dedbd1; --np-edge:#c3bfb3; --np-grid:#c4cbcf; --np-rule:#b9c1c8; --np-margin:rgba(154,50,44,.4);
+      --np-ink:#1a2438; --np-ink-soft:#434c5e; --np-pencil:#62666c; --np-fail:#9a322c;
     }
-    .nb-wrap { max-width:1220px; margin:0 auto; padding:40px 28px 140px; }
-    .nb-head { display:flex; justify-content:space-between; align-items:baseline; gap:24px; margin:0 0 30px; }
-    .nb-head h1 { font:500 40px/1.05 var(--nb-ink-font); letter-spacing:-.8px; margin:0; color:var(--ml-ink); font-variation-settings:"opsz" 96; }
+    .nb-wrap { max-width:1240px; margin:0 auto; padding:40px 28px 140px; }
+    .nb-head { display:flex; justify-content:space-between; align-items:baseline; gap:24px; margin:0 0 44px; }
+    .nb-head h1 { font:500 40px/1.05 var(--np-ink-font); letter-spacing:-.8px; margin:0; color:var(--ml-ink); font-variation-settings:"opsz" 96; }
     .nb-upd { color:var(--ml-faint); font-size:13px; margin:0; }
 
-    .nb-book { position:relative; display:grid; grid-template-columns:1fr 1fr; padding:13px 15px 15px 13px;
-      background:var(--nb-cover); border-radius:5px 9px 9px 5px;
-      background-image:repeating-linear-gradient(45deg, rgba(255,255,255,.025) 0 1px, transparent 1px 3px),
-                       repeating-linear-gradient(-45deg, rgba(0,0,0,.08) 0 1px, transparent 1px 3px);
-      box-shadow:0 1px 0 var(--nb-cover-edge), 0 40px 70px -40px rgba(8,16,24,.55), 0 14px 24px -18px rgba(8,16,24,.4); }
-    .nb-page { position:relative; min-height:760px; color:var(--nb-ink);
-      background-color:var(--nb-paper);
-      background-image:radial-gradient(circle, var(--nb-dot) 1.05px, transparent 1.4px);
-      background-size:22px 22px; background-position:11px 11px;
-      animation:nb-in .4s ease-out backwards; }
-    .nb-left { padding:70px 64px 90px 104px; border-radius:2px 0 0 2px;
-      box-shadow:-1px 0 0 var(--nb-paper-edge), -3px 0 0 var(--nb-paper), -4px 0 0 var(--nb-paper-edge); }
-    .nb-right { padding:70px 72px 90px 76px; border-radius:0 3px 3px 0; animation-delay:.08s;
-      box-shadow:1px 0 0 var(--nb-paper-edge), 3px 0 0 var(--nb-paper), 4px 0 0 var(--nb-paper-edge), 6px 0 0 var(--nb-paper), 7px 0 0 var(--nb-paper-edge); }
-    /* The fold: each page darkens toward the spine. */
-    .nb-page::after { content:""; position:absolute; top:0; bottom:0; width:70px; pointer-events:none; }
-    .nb-left::after { right:0; background:linear-gradient(to left, rgba(20,24,30,.16), rgba(20,24,30,.04) 30%, transparent); }
-    .nb-right::after { left:0; background:linear-gradient(to right, rgba(20,24,30,.14), rgba(20,24,30,.03) 30%, transparent); }
-    @keyframes nb-in { from { opacity:0; transform:translateY(10px); } }
+    .nb-desk { display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:start; }
+    .pad { position:relative; animation:np-in .4s ease-out backwards; }
+    .pad-red { animation-delay:.08s; }
+    @keyframes np-in { from { opacity:0; transform:translateY(10px); } }
+    .pad:focus-visible { outline:2px solid var(--ml-faint); outline-offset:8px; }
 
-    .nb-ribbon { position:absolute; z-index:3; left:calc(50% + 14px); top:-6px; width:13px; height:calc(100% + 58px);
-      background:linear-gradient(to right, var(--nb-ribbon-dark), var(--nb-ribbon) 35%, var(--nb-ribbon) 70%, var(--nb-ribbon-dark));
-      clip-path:polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 11px), 0 100%);
-      box-shadow:1px 0 2px rgba(0,0,0,.2); transform:rotate(.6deg); transform-origin:top center; }
+    /* Bindings */
+    .pad-top { position:relative; z-index:20; height:66px; border-radius:6px 6px 2px 2px; display:flex; align-items:center; padding:0 30px; }
+    .pad-top h2 { margin:0; font:italic 400 31px/1 var(--np-ink-font); letter-spacing:-.5px; color:#efece4; font-variation-settings:"opsz" 144; }
+    .pad-blue .pad-top { background:linear-gradient(to bottom, var(--np-blue-hi), var(--np-blue)); box-shadow:0 1px 0 rgba(0,0,0,.25); }
+    .pad-blue .pad-top::after { content:""; position:absolute; left:26px; right:26px; bottom:-13px; height:26px;
+      background:linear-gradient(to bottom, #8e949b, #f1f2f3 42%, #a3a9af 70%, #6d737a);
+      -webkit-mask:repeating-linear-gradient(90deg, #000 0 5px, transparent 5px 17px); mask:repeating-linear-gradient(90deg, #000 0 5px, transparent 5px 17px);
+      border-radius:3px; filter:drop-shadow(0 2px 1px rgba(0,0,0,.25)); }
+    .pad-red .pad-top { height:58px; border-radius:3px 3px 0 0; background:linear-gradient(to bottom, var(--np-red-hi), var(--np-red));
+      box-shadow:0 3px 4px -2px rgba(0,0,0,.35); }
 
-    .nb-page h2 { font:italic 400 58px/1 var(--nb-ink-font); letter-spacing:-1.4px; margin:0 0 54px; font-variation-settings:"opsz" 144; }
-    .nb-rules { list-style:none; margin:0 0 70px; padding:0; }
-    .nb-rule { position:relative; display:grid; grid-template-columns:62px 1fr; column-gap:18px; margin:0 0 34px; }
-    .nb-rule .n { font:400 84px/.82 var(--nb-ink-font); font-variation-settings:"opsz" 144; color:var(--nb-ink); }
-    .nb-rule .text { font:500 33px/1.12 var(--nb-ink-font); letter-spacing:-.4px; margin:4px 0 12px; font-variation-settings:"opsz" 72; }
-    .nb-rule .how { font:italic 400 16px/1.5 var(--nb-ink-font); color:var(--nb-ink-soft); margin:0; max-width:430px; }
-    .nb-date { position:absolute; left:-86px; top:6px; font:600 21px/1 var(--nb-hand); color:var(--nb-pencil); transform:rotate(-6deg); white-space:nowrap; }
+    /* The page stack */
+    .pad-pages { position:relative; display:grid; perspective:2000px; background:var(--np-paper);
+      box-shadow:0 1px 0 var(--np-edge), 0 3px 0 var(--np-paper), 0 4px 0 var(--np-edge), 0 6px 0 var(--np-paper), 0 7px 0 var(--np-edge),
+                 0 30px 50px -30px rgba(8,16,24,.45); }
+    .pg { grid-area:1/1; position:relative; min-height:660px; padding:52px 44px 84px 44px; color:var(--np-ink); background-color:var(--np-paper);
+      transform-origin:top center; transition:transform .55s cubic-bezier(.33,.66,.25,1); backface-visibility:hidden; -webkit-backface-visibility:hidden;
+      cursor:pointer; box-shadow:0 1px 0 var(--np-edge); }
+    .pg.gone { transform:rotateX(178deg); pointer-events:none; }
+    .pad-blue .pg { background-image:linear-gradient(var(--np-grid) 1px, transparent 1px), linear-gradient(90deg, var(--np-grid) 1px, transparent 1px);
+      background-size:20px 20px; background-position:-1px 12px; }
+    .pad-red .pg { padding-left:96px; background-image:linear-gradient(90deg, transparent 70px, var(--np-margin) 70px 71px, transparent 71px),
+      repeating-linear-gradient(to bottom, transparent 0 31px, var(--np-rule) 31px 32px); background-position:0 0, 0 20px; }
 
-    .nb-page h3 { font:600 15px/1 var(--nb-ink-font); letter-spacing:.2px; margin:0 0 20px; color:var(--nb-ink); }
-    .nb-check { list-style:none; margin:0; padding:0; display:grid; gap:13px; max-width:460px; }
-    .nb-check li { display:grid; grid-template-columns:22px 104px 1fr; align-items:baseline; gap:10px; font:400 15.5px/1.4 var(--nb-ink-font); color:var(--nb-ink-soft); }
-    .nb-check li::before { content:""; width:12px; height:12px; border:1.5px solid var(--nb-ink); border-radius:1px 2px 1px 3px; transform:translateY(1px) rotate(-3deg); }
-    .nb-check li:nth-child(even)::before { transform:translateY(1px) rotate(2.5deg); }
-    .nb-check b { font-weight:600; color:var(--nb-ink); }
+    .folio { position:absolute; z-index:30; right:26px; bottom:22px; display:flex; align-items:center; gap:4px; font:400 13px/1 var(--np-ink-font); color:var(--np-ink-soft); }
+    .folio button { all:unset; cursor:pointer; padding:4px 8px; font:400 18px/1 var(--np-ink-font); color:var(--np-ink-soft); border-radius:3px; }
+    .folio button:hover { color:var(--np-ink); }
+    .folio button:disabled { opacity:.25; cursor:default; }
+    .folio button:focus-visible { outline:1.5px solid var(--np-ink-soft); }
+    .folio[hidden] { display:none; }
 
-    .nb-corner { position:absolute; right:66px; top:84px; font:400 22px/1 var(--nb-hand); color:var(--nb-pencil); transform:rotate(4deg); }
-    .nb-drafts { list-style:none; margin:0; padding:0; display:grid; gap:24px; }
-    .nb-drafts li { position:relative; padding-left:30px; font:400 27px/1.18 var(--nb-hand); color:var(--nb-pencil); cursor:help; transition:color .15s; }
-    .nb-drafts li::before { content:""; position:absolute; left:2px; top:12px; width:10px; height:10px; border:1.6px solid var(--nb-pencil); border-radius:50% 45% 55% 48%; transform:rotate(20deg); }
-    .nb-drafts li:hover { color:var(--nb-ink-soft); }
-    .nb-drafts li b { font-weight:600; }
+    /* Blueprint: tracker */
+    .trk { list-style:none; margin:0; padding:0; }
+    .trk button { all:unset; box-sizing:border-box; width:100%; display:grid; grid-template-columns:70px 1fr 30px; align-items:center; gap:12px;
+      padding:6px 4px; min-height:40px; cursor:pointer; border-radius:2px; transition:background .15s; }
+    .trk button:hover, .trk button:focus-visible { background:rgba(28,40,64,.05); }
+    .trk .d { font:600 22px/1 var(--np-hand); color:var(--np-pencil); }
+    .trk .t { font:400 28px/1.05 var(--np-hand); color:var(--np-ink); }
+    .glyph { width:22px; height:22px; fill:none; stroke-width:2.4; stroke-linecap:round; stroke-linejoin:round; }
+    .trk .g { display:grid; place-items:center; }
+    .glyph.success { stroke:var(--np-ink); }
+    .glyph.failure { stroke:var(--np-fail); }
+    .glyph.open { stroke:var(--np-pencil); stroke-width:1.6; }
 
-    .nb-folio { position:absolute; bottom:38px; font:400 13px/1 var(--nb-ink-font); color:var(--nb-ink-soft); letter-spacing:.5px; }
-    .nb-left .nb-folio { left:104px; }
-    .nb-right .nb-folio { right:72px; }
+    /* Blueprint: one idea */
+    .pg-date { position:absolute; top:34px; right:44px; font:600 23px/1 var(--np-hand); color:var(--np-pencil); transform:rotate(-3deg); }
+    .idea { margin:34px 0 14px; font:600 44px/1 var(--np-hand); color:var(--np-ink); }
+    .said { margin:0 0 40px; font:400 23px/1.22 var(--np-hand); color:var(--np-ink-soft); max-width:520px; }
+    .said::before { content:"\201C"; } .said::after { content:"\201D"; }
+    .fld { display:grid; grid-template-columns:96px 1fr; gap:14px; align-items:baseline; margin:0 0 22px; }
+    .fld dt { font:italic 400 15px/1 var(--np-ink-font); color:var(--np-ink-soft); }
+    .fld dd { margin:0; min-height:30px; border-bottom:1.3px solid rgba(28,40,64,.28); font:400 26px/1.15 var(--np-hand); color:var(--np-ink); }
+    .fld dd div + div { margin-top:4px; }
+    .marks { display:flex; gap:26px; margin-top:38px; }
+    .marks button { all:unset; display:flex; align-items:center; gap:9px; cursor:pointer; font:400 16px/1 var(--np-ink-font); color:var(--np-ink-soft); }
+    .marks button:hover, .marks button[aria-pressed="true"] { color:var(--np-ink); }
+    .marks button:focus-visible { outline:1.5px solid var(--np-ink-soft); outline-offset:4px; }
+    .marks .box { position:relative; width:17px; height:17px; border:1.6px solid var(--np-ink); border-radius:1px 3px 2px 2px; transform:rotate(-2deg); }
+    .marks .box svg { position:absolute; left:-3px; top:-7px; width:24px; height:24px; opacity:0; transition:opacity .15s; }
+    .marks button[aria-pressed="true"] .box svg { opacity:1; }
+    .stamp { position:absolute; right:40px; top:150px; padding:8px 16px 6px; border:3px double currentColor; border-radius:4px;
+      font:600 26px/1 var(--np-ink-font); letter-spacing:3px; text-transform:uppercase; transform:rotate(-11deg) scale(1.25); opacity:0;
+      transition:opacity .15s, transform .15s; pointer-events:none; mix-blend-mode:multiply; }
+    .stamp.on { opacity:.82; transform:rotate(-11deg) scale(1); }
+    .stamp.success { color:var(--np-ink); } .stamp.failure { color:var(--np-fail); }
+
+    /* Gospel */
+    .gos { list-style:none; margin:0; padding:0; }
+    .gos li { position:relative; display:grid; grid-template-columns:52px 1fr; column-gap:10px; margin:0 0 32px; }
+    .gos .n { font:400 64px/.86 var(--np-ink-font); color:var(--np-ink); font-variation-settings:"opsz" 144; }
+    .gos .tx { font:500 30px/1.07 var(--np-ink-font); letter-spacing:-.3px; color:var(--np-ink); padding-top:4px; font-variation-settings:"opsz" 72; }
+    .gos .dt { position:absolute; left:-84px; top:10px; font:600 20px/1 var(--np-hand); color:var(--np-pencil); transform:rotate(-6deg); white-space:nowrap; }
 
     @media (max-width:900px) {
       .nb-wrap { padding:26px 16px 90px; }
       .nb-head { flex-direction:column; gap:6px; }
-      .nb-book { grid-template-columns:1fr; padding:9px; }
-      .nb-ribbon, .nb-page::after { display:none; }
-      .nb-page { min-height:0; padding:52px 26px 70px 64px; box-shadow:none; }
-      .nb-right { border-top:1px solid var(--nb-paper-edge); }
-      .nb-left .nb-folio, .nb-right .nb-folio { left:auto; right:26px; }
-      .nb-date { left:-56px; font-size:18px; }
-      .nb-rule { grid-template-columns:44px 1fr; column-gap:12px; }
-      .nb-rule .n { font-size:60px; }
-      .nb-rule .text { font-size:27px; }
-      .nb-page h2 { font-size:46px; margin-bottom:40px; }
-      .nb-corner { position:static; display:block; margin:-26px 0 30px; }
-      .nb-check li { grid-template-columns:22px 1fr; }
-      .nb-check li span { grid-column:2; }
+      .nb-desk { grid-template-columns:1fr; gap:56px; }
+      .pg { min-height:520px; padding:44px 24px 76px; }
+      .pad-red .pg { padding-left:84px; }
+      .idea { font-size:38px; }
+      .stamp { right:18px; top:120px; font-size:21px; }
+      .fld { grid-template-columns:1fr; gap:6px; }
     }
-    @media (prefers-reduced-motion:reduce) { .nb-page { animation:none; } }
+    @media (prefers-reduced-motion:reduce) { .pad { animation:none; } .pg, .stamp { transition:none; } }
   </style>
 <link rel="stylesheet" href="market-lab-shell.css?v=20261109-73f57fc7"><script src="market-lab-shell.js?v=20261109-73f57fc7"></script></head>
 <body>
@@ -110,48 +129,146 @@
       <p class="nb-upd">Updated Nov 11, 2026</p>
     </header>
 
-    <div class="nb-book">
-      <span class="nb-ribbon" aria-hidden="true"></span>
-
-      <section class="nb-page nb-left" aria-labelledby="nbBlueprint">
-        <h2 id="nbBlueprint">Blueprint</h2>
-        <ol class="nb-rules">
-          <li class="nb-rule">
-            <span class="nb-date" title="Added Nov 11, 2026">Nov 11</span>
-            <span class="n">1</span>
-            <div>
-              <p class="text">Set a plan, follow the plan.</p>
-              <p class="how">Every trade names the plan it came from. A trade without one is off plan.</p>
-            </div>
-          </li>
-        </ol>
-
-        <h3>Every plan holds</h3>
-        <ul class="nb-check">
-          <li><b>Trigger</b><span>the price or event that starts the trade</span></li>
-          <li><b>Action</b><span>what gets bought or shorted, and nothing beyond it</span></li>
-          <li><b>Exit if wrong</b><span>the price or event that says the idea failed</span></li>
-          <li><b>Target</b><span>where it comes off if it works</span></li>
-          <li><b>Size</b><span>how much</span></li>
-          <li><b>Tied to</b><span>the call the trade is built on</span></li>
-        </ul>
-        <span class="nb-folio">1</span>
+    <div class="nb-desk">
+      <section class="pad pad-blue" id="blueprint" tabindex="0" aria-label="Blueprint">
+        <div class="pad-top"><h2>Blueprint</h2></div>
+        <div class="pad-pages"></div>
+        <nav class="folio" aria-label="Blueprint pages"><button class="prev" aria-label="Previous page">&lsaquo;</button><span></span><button class="next" aria-label="Next page">&rsaquo;</button></nav>
       </section>
 
-      <section class="nb-page nb-right" aria-labelledby="nbGospel">
-        <h2 id="nbGospel">Gospel</h2>
-        <span class="nb-corner">pencil until kept</span>
-        <ul class="nb-drafts">
-          <li title="Draft, Nov 11, 2026. Not kept yet."><b>Buy strength on the pullback.</b> When the market retests its lows, buy the names that held up best.</li>
-          <li title="Draft, Nov 11, 2026. Not kept yet."><b>Short weakness into the rally.</b> When the market is stretched up, short the names that bounced least.</li>
-          <li title="Draft, Nov 11, 2026. Not kept yet."><b>Fade a stretched move.</b> A stock far above its range on RSI tends to give some back.</li>
-          <li title="Draft, Nov 11, 2026. Not kept yet."><b>Squeezes run to a target,</b> then the next catalyst turns them.</li>
-          <li title="Draft, Nov 11, 2026. Not kept yet."><b>The big picture sets the tone.</b> No fresh read on cloud spending until the big cloud providers report, so expect chop and trade the range.</li>
-          <li title="Draft, Nov 11, 2026. Not kept yet."><b>Keep the list short.</b> Trade only the names in the plan.</li>
-        </ul>
-        <span class="nb-folio">2</span>
+      <section class="pad pad-red" id="gospel" tabindex="0" aria-label="Gospel">
+        <div class="pad-top"><h2>Gospel</h2></div>
+        <div class="pad-pages"></div>
+        <nav class="folio" aria-label="Gospel pages"><button class="prev" aria-label="Previous page">&lsaquo;</button><span></span><button class="next" aria-label="Next page">&rsaquo;</button></nav>
       </section>
     </div>
   </main>
+
+<script id="nb-data" type="application/json">{
+ "ideas": [
+  {
+   "id": "p1111-short-qqq",
+   "date": "Nov 11",
+   "title": "Short QQQ at 700 to 710",
+   "said": "qqq up to 700-710 area by sometime next week on this multi week short squeeze, and then a short term reversal due to anthropic ipo, jensen hearing, to retest some lows ... for execution i will short in that range",
+   "execution": [],
+   "result": "",
+   "mark": null
+  },
+  {
+   "id": "p1111-short-aaoi",
+   "date": "Nov 11",
+   "title": "Short AAOI when QQQ hits 700 to 710",
+   "said": "shorting the weakest ai names in that range (aaoi)",
+   "execution": [],
+   "result": "",
+   "mark": null
+  },
+  {
+   "id": "p1111-long-retest",
+   "date": "Nov 11",
+   "title": "Buy AMD, BE, COHR on the retest",
+   "said": "long strongest ai names on those retests (AMD, BE, COHR, donot need to expand beyond these)",
+   "execution": [],
+   "result": "",
+   "mark": null
+  },
+  {
+   "id": "p1111-short-mcd",
+   "date": "Nov 11",
+   "title": "Short MCD",
+   "said": "i am also shorting mcd tonight on this tech rebound and its overextended to the upside on RSI",
+   "execution": [],
+   "result": "",
+   "mark": null
+  }
+ ],
+ "gospel": [
+  {
+   "n": 1,
+   "date": "Nov 11",
+   "text": "Set a plan, follow the plan."
+  }
+ ]
+}</script>
+<script>
+(function () {
+  var D = JSON.parse(document.getElementById('nb-data').textContent);
+  var KEY = 'eqx.nb.marks', local = {};
+  try { local = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) {}
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(local)); } catch (e) {} }
+  function markOf(i) { return Object.prototype.hasOwnProperty.call(local, i.id) ? local[i.id] : i.mark; }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  var PATH = { success: 'M3 12.5 L8.5 18 L20 4', failure: 'M5 5 L19 19 M19 5 L5 19', open: 'M12 4.5 C16.5 4.3 19.6 7.6 19.4 12 C19.2 16.4 15.8 19.6 11.8 19.4 C7.6 19.2 4.4 16 4.6 11.8 C4.8 7.8 7.8 4.7 12 4.5' };
+  function glyph(kind) { return '<svg class="glyph ' + kind + '" viewBox="0 0 24 24" aria-hidden="true"><path d="' + PATH[kind] + '"/></svg>'; }
+
+  function pad(el, pages) {
+    var stack = el.querySelector('.pad-pages'), fol = el.querySelector('.folio'), num = fol.querySelector('span');
+    var prev = fol.querySelector('.prev'), next = fol.querySelector('.next'), n = pages.length, cur = 0;
+    stack.innerHTML = pages.map(function (h, i) { return '<article class="pg" style="z-index:' + (n - i) + '">' + h + '</article>'; }).join('');
+    var pgs = Array.prototype.slice.call(stack.children);
+    fol.hidden = n < 2;
+    function go(k) {
+      cur = Math.max(0, Math.min(n - 1, k));
+      pgs.forEach(function (p, i) { p.classList.toggle('gone', i < cur); p.inert = i !== cur; p.setAttribute('aria-hidden', i !== cur); });
+      num.textContent = (cur + 1) + ' / ' + n; prev.disabled = cur === 0; next.disabled = cur === n - 1;
+    }
+    stack.addEventListener('click', function (e) { if (e.target.closest('button')) return; go(cur === n - 1 ? 0 : cur + 1); });
+    prev.addEventListener('click', function () { go(cur - 1); });
+    next.addEventListener('click', function () { go(cur + 1); });
+    el.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { go(cur + 1); e.preventDefault(); }
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { go(cur - 1); e.preventDefault(); }
+    });
+    go(0);
+    return { go: go, stack: stack };
+  }
+
+  // Blueprint: tracker page, then one page per idea.
+  var ideas = D.ideas;
+  var tracker = '<ul class="trk">' + ideas.map(function (it, k) {
+    return '<li><button data-go="' + (k + 1) + '"><span class="d">' + esc(it.date) + '</span><span class="t">' + esc(it.title) + '</span><span class="g" data-id="' + esc(it.id) + '"></span></button></li>';
+  }).join('') + '</ul>';
+  function lines(arr) { return arr.map(function (x) { return '<div>' + esc(x) + '</div>'; }).join(''); }
+  var pages = [tracker].concat(ideas.map(function (it) {
+    var mk = ['success', 'failure'].map(function (m) {
+      return '<button data-mark="' + m + '" data-id="' + esc(it.id) + '" aria-pressed="false"><span class="box">' + glyph(m) + '</span>' + (m === 'success' ? 'Success' : 'Failure') + '</button>';
+    }).join('');
+    return '<span class="pg-date">' + esc(it.date) + '</span>' +
+      '<h3 class="idea">' + esc(it.title) + '</h3>' +
+      (it.said ? '<p class="said">' + esc(it.said) + '</p>' : '') +
+      '<dl><div class="fld"><dt>Execution</dt><dd>' + lines(it.execution) + '</dd></div>' +
+      '<div class="fld"><dt>Result</dt><dd>' + (it.result ? '<div>' + esc(it.result) + '</div>' : '') + '</dd></div></dl>' +
+      '<div class="marks">' + mk + '</div><div class="stamp" data-stamp="' + esc(it.id) + '"></div>';
+  }));
+  var bp = pad(document.getElementById('blueprint'), pages);
+  function paint(id) {
+    var it = ideas.filter(function (x) { return x.id === id; })[0], m = markOf(it);
+    bp.stack.querySelectorAll('.g[data-id="' + id + '"]').forEach(function (g) { g.innerHTML = glyph(m || 'open'); });
+    bp.stack.querySelectorAll('[data-mark][data-id="' + id + '"]').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.mark === m); });
+    var st = bp.stack.querySelector('[data-stamp="' + id + '"]');
+    if (st) { st.className = 'stamp' + (m ? ' on ' + m : ''); if (m) st.textContent = m === 'success' ? 'Success' : 'Failure'; }
+  }
+  ideas.forEach(function (it) { paint(it.id); });
+  bp.stack.addEventListener('click', function (e) {
+    var g = e.target.closest('[data-go]');
+    if (g) { bp.go(+g.dataset.go); return; }
+    var b = e.target.closest('[data-mark]');
+    if (!b) return;
+    var it = ideas.filter(function (x) { return x.id === b.dataset.id; })[0];
+    local[it.id] = markOf(it) === b.dataset.mark ? null : b.dataset.mark;
+    save(); paint(it.id);
+  });
+
+  // Gospel: rules and philosophy, four to a page.
+  var G = D.gospel, per = 4, gp = [];
+  for (var i = 0; i < Math.max(1, G.length); i += per) {
+    gp.push('<ol class="gos">' + G.slice(i, i + per).map(function (g) {
+      return '<li><span class="dt">' + esc(g.date) + '</span><span class="n">' + g.n + '</span><span class="tx">' + esc(g.text) + '</span></li>';
+    }).join('') + '</ol>');
+  }
+  pad(document.getElementById('gospel'), gp);
+})();
+</script>
 </body>
 </html>
