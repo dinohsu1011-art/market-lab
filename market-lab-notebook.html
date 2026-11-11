@@ -77,11 +77,11 @@
 
     /* Blueprint: contents */
     .trk { list-style:none; margin:0; padding:0; }
-    .trk button { all:unset; box-sizing:border-box; width:100%; display:grid; grid-template-columns:62px 1fr 18px; align-items:baseline; column-gap:10px;
-      padding:13px 0; cursor:pointer; }
+    .trk button { all:unset; box-sizing:border-box; width:100%; display:grid; grid-template-columns:56px 1fr 18px; align-items:baseline; column-gap:10px;
+      padding:10px 0; cursor:pointer; }
     .trk li + li button { border-top:1px solid var(--np-hair); }
-    .trk .d { font:italic 400 15px/1 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-faint); }
-    .trk .t { display:flex; align-items:baseline; font:500 25px/1.15 var(--np-disp); color:var(--np-ink); transition:color .15s; }
+    .trk .d { font:italic 400 13.5px/1 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-faint); }
+    .trk .t { display:flex; align-items:baseline; font:500 20px/1.2 var(--np-disp); color:var(--np-ink); transition:color .15s; }
     .trk .t::after { content:""; flex:1; min-width:18px; margin:0 6px 0 12px; border-bottom:1px dotted rgba(29,39,64,.35); transform:translateY(-4px); }
     .trk button:hover .t, .trk button:focus-visible .t { color:var(--np-navy); text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:5px; }
     .trk .g { align-self:center; display:grid; place-items:center; }
@@ -90,24 +90,25 @@
     .glyph.failure { stroke:var(--np-fail); }
     .glyph.open { stroke:var(--np-faint); stroke-width:1; }
 
-    /* Blueprint: one idea */
-    .pg-date { display:block; margin:0 0 18px; font:italic 400 15px/1 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-faint); }
-    .idea { margin:0 0 26px; padding-right:116px; font:500 42px/1.04 var(--np-disp); letter-spacing:-.3px; color:var(--np-ink); }
-    .said { position:relative; margin:0 0 48px; max-width:470px; font:italic 400 18px/1.55 var(--np-text); color:var(--np-soft); }
+    /* Blueprint: one page per date, every idea from that date on it */
+    .pg-date { display:block; margin:0 0 22px; font:italic 500 28px/1 var(--np-disp); font-variant-numeric:oldstyle-nums; color:var(--np-ink); }
+    .ent { position:relative; padding:20px 0 22px; border-top:1px solid var(--np-hair); }
+    .idea { margin:0 0 8px; padding-right:64px; font:600 22px/1.15 var(--np-disp); color:var(--np-ink); }
+    .said { position:relative; margin:0 0 14px; font:italic 400 14px/1.5 var(--np-text); color:var(--np-soft); }
     .said::before { content:"\201C"; position:absolute; left:-.55em; top:-.02em; color:var(--np-faint); }
     .said::after { content:"\201D"; color:var(--np-faint); }
-    .fld { margin:0 0 26px; }
-    .fld dt { margin:0 0 6px; font:italic 400 15px/1 var(--np-text); color:var(--np-faint); }
-    .fld dd { margin:0; min-height:30px; padding-bottom:4px; border-bottom:1px solid var(--np-hair); font:400 19px/1.45 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-ink); }
-    .marks { display:flex; gap:30px; margin-top:44px; }
-    .marks button { all:unset; display:flex; align-items:center; gap:10px; cursor:pointer; font:400 17px/1 var(--np-text); color:var(--np-soft); transition:color .15s; }
+    .flds { display:grid; grid-template-columns:1fr 1fr; gap:22px; margin:0; }
+    .fld dt { margin:0 0 3px; font:italic 400 12.5px/1 var(--np-text); color:var(--np-faint); }
+    .fld dd { margin:0; min-height:22px; padding-bottom:2px; border-bottom:1px solid var(--np-hair); font:400 14.5px/1.45 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-ink); }
+    .marks { display:flex; gap:22px; margin-top:14px; }
+    .marks button { all:unset; display:flex; align-items:center; gap:10px; cursor:pointer; font:400 13.5px/1 var(--np-text); color:var(--np-soft); transition:color .15s; }
     .marks button:hover, .marks button[aria-pressed="true"] { color:var(--np-ink); }
     .marks button[data-mark="failure"][aria-pressed="true"] { color:var(--np-fail); }
     .marks button:focus-visible { outline:1px solid var(--np-soft); outline-offset:5px; }
-    .marks .ring { width:13px; height:13px; border:1px solid currentColor; border-radius:50%; display:grid; place-items:center; }
-    .marks .ring::after { content:""; width:7px; height:7px; border-radius:50%; background:currentColor; transform:scale(0); transition:transform .15s; }
+    .marks .ring { width:11px; height:11px; border:1px solid currentColor; border-radius:50%; display:grid; place-items:center; }
+    .marks .ring::after { content:""; width:5px; height:5px; border-radius:50%; background:currentColor; transform:scale(0); transition:transform .15s; }
     .marks button[aria-pressed="true"] .ring::after { transform:scale(1); }
-    .seal { position:absolute; top:58px; right:54px; width:92px; height:92px; opacity:0; transform:rotate(-12deg) scale(.9);
+    .seal { position:absolute; top:14px; right:0; width:56px; height:56px; opacity:0; transform:rotate(-12deg) scale(.9);
       transition:opacity .25s, transform .25s; pointer-events:none; }
     .seal.on { opacity:1; transform:rotate(-12deg) scale(1); }
     .seal svg { width:100%; height:100%; fill:none; overflow:visible; }
@@ -130,8 +131,7 @@
       .nb-head { flex-direction:column; gap:6px; margin-bottom:36px; }
       .nb-desk { grid-template-columns:1fr; gap:48px; }
       .pg { min-height:540px; padding:44px 28px 84px 36px; }
-      .idea { font-size:36px; max-width:none; padding-right:84px; }
-      .seal { top:40px; right:20px; width:76px; height:76px; }
+      .flds { grid-template-columns:1fr; gap:12px; }
       .gos .tx { font-size:28px; }
     }
     @media (prefers-reduced-motion:reduce) { .pad { animation:none; } .pg, .pg::after, .seal { transition:none; } }
@@ -248,22 +248,28 @@
     return { go: go, stack: stack };
   }
 
-  // Blueprint: tracker page, then one page per idea.
-  var ideas = D.ideas;
-  var tracker = '<ul class="trk">' + ideas.map(function (it, k) {
-    return '<li><button data-go="' + (k + 1) + '"><span class="d">' + esc(it.date) + '</span><span class="t">' + esc(it.title) + '</span><span class="g" data-id="' + esc(it.id) + '"></span></button></li>';
+  // Blueprint: contents page, then one page per date holding every idea from that date.
+  var ideas = D.ideas, days = [], dayOf = {};
+  ideas.forEach(function (it) {
+    if (!(it.date in dayOf)) { dayOf[it.date] = days.length; days.push({ date: it.date, items: [] }); }
+    days[dayOf[it.date]].items.push(it);
+  });
+  var tracker = '<ul class="trk">' + ideas.map(function (it) {
+    return '<li><button data-go="' + (dayOf[it.date] + 1) + '"><span class="d">' + esc(it.date) + '</span><span class="t">' + esc(it.title) + '</span><span class="g" data-id="' + esc(it.id) + '"></span></button></li>';
   }).join('') + '</ul>';
   function lines(arr) { return arr.map(function (x) { return '<div>' + esc(x) + '</div>'; }).join(''); }
-  var pages = [tracker].concat(ideas.map(function (it) {
+  function entry(it) {
     var mk = ['success', 'failure'].map(function (m) {
       return '<button data-mark="' + m + '" data-id="' + esc(it.id) + '" aria-pressed="false"><span class="ring"></span>' + (m === 'success' ? 'Success' : 'Failure') + '</button>';
     }).join('');
-    return '<span class="pg-date">' + esc(it.date) + '</span>' +
-      '<h3 class="idea">' + esc(it.title) + '</h3>' +
+    return '<section class="ent"><h3 class="idea">' + esc(it.title) + '</h3>' +
       (it.said ? '<p class="said">' + esc(it.said) + '</p>' : '') +
-      '<dl><div class="fld"><dt>Execution</dt><dd>' + lines(it.execution) + '</dd></div>' +
+      '<dl class="flds"><div class="fld"><dt>Execution</dt><dd>' + lines(it.execution) + '</dd></div>' +
       '<div class="fld"><dt>Result</dt><dd>' + (it.result ? '<div>' + esc(it.result) + '</div>' : '') + '</dd></div></dl>' +
-      '<div class="marks">' + mk + '</div><div class="seal" data-stamp="' + esc(it.id) + '"></div>';
+      '<div class="marks">' + mk + '</div><div class="seal" data-stamp="' + esc(it.id) + '"></div></section>';
+  }
+  var pages = [tracker].concat(days.map(function (d) {
+    return '<span class="pg-date">' + esc(d.date) + '</span>' + d.items.map(entry).join('');
   }));
   var bp = pad(document.getElementById('blueprint'), pages);
   function paint(id) {
