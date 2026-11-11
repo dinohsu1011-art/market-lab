@@ -16,7 +16,7 @@
        Click a page to flip it up. nb-data is written by research/market-reads/notebook.py.
        Show only Dino's content: no helper lines or captions. */
     :root {
-      --np-navy:#1d2740; --np-ox:#5e1d1c; --np-foil-a:#f1e6c6; --np-foil-b:#b89d6e;
+      --np-navy:#1d2740; --np-ox:#5e1d1c; --np-green:#1f3a31; --np-foil-a:#f1e6c6; --np-foil-b:#b89d6e;
       --np-paper:#fbfaf6; --np-sheet:#f1efe8; --np-edge:#dcd8cd; --np-dot:rgba(29,39,64,.17); --np-hair:rgba(29,39,64,.16);
       --np-ink:#1f2230; --np-soft:#5b5f6b; --np-faint:#9a9ca3; --np-fail:#9b2f24;
       --np-disp:"Cormorant Garamond", "Cormorant", Garamond, serif; --np-text:"EB Garamond", Garamond, Georgia, serif;
@@ -118,6 +118,20 @@
     .seal svg * { stroke:currentColor; }
     .seal svg { filter:drop-shadow(0 1px 0 rgba(255,255,255,.9)) drop-shadow(0 -.5px 0 rgba(0,0,0,.12)); opacity:.86; }
 
+    /* Claude: wide ruled pad under the two, one page per read date, two columns */
+    .pad-wide { margin-top:80px; animation-delay:.16s; }
+    .pad-green .pad-top { background-color:var(--np-green); }
+    .pad-green .ribbon { background-color:var(--np-green); left:50%; }
+    .pad-green .pg { min-height:560px; background-image:repeating-linear-gradient(to bottom, transparent 0 27px, rgba(31,58,49,.11) 27px 28px); background-position:0 52px; }
+    .pad-green .trk, .cols { columns:2; column-gap:72px; }
+    .pad-green .trk li, .pad-green .ent { break-inside:avoid; }
+    .pad-green .trk li + li button { border-top:0; }
+    .pad-green .trk button { border-bottom:1px solid var(--np-hair); }
+    .ent .hz { display:block; margin:0 0 5px; font:italic 400 12.5px/1 var(--np-text); color:var(--np-faint); }
+    .cols .ent { padding-top:16px; }
+    .cols .ent:first-child { border-top:0; padding-top:0; }
+    .glyph.hit { stroke:var(--np-ink); } .glyph.miss { stroke:var(--np-fail); }
+
     /* Gospel */
     .gos { list-style:none; margin:0; padding:0; counter-reset:g; }
     .gos li { display:grid; grid-template-columns:44px 1fr; column-gap:8px; padding:0 0 30px; margin:0 0 30px; border-bottom:1px solid var(--np-hair); }
@@ -133,6 +147,8 @@
       .pg { min-height:540px; padding:44px 28px 84px 36px; }
       .flds { grid-template-columns:1fr; gap:12px; }
       .gos .tx { font-size:28px; }
+      .pad-wide { margin-top:48px; }
+      .pad-green .trk, .cols { columns:1; }
     }
     @media (prefers-reduced-motion:reduce) { .pad { animation:none; } .pg, .pg::after, .seal { transition:none; } }
   </style>
@@ -159,6 +175,13 @@
         <nav class="folio" aria-label="Gospel pages"><button class="prev" aria-label="Previous page">&lsaquo;</button><span></span><button class="next" aria-label="Next page">&rsaquo;</button></nav>
       </section>
     </div>
+
+    <section class="pad pad-green pad-wide" id="claude" tabindex="0" aria-label="Claude">
+      <div class="pad-top"><h2>Claude</h2></div>
+      <div class="pad-pages"></div>
+      <span class="ribbon" aria-hidden="true"></span>
+      <nav class="folio" aria-label="Claude pages"><button class="prev" aria-label="Previous page">&lsaquo;</button><span></span><button class="next" aria-label="Next page">&rsaquo;</button></nav>
+    </section>
   </main>
 
 <script id="nb-data" type="application/json">{
@@ -206,6 +229,201 @@
    "date": "Nov 11",
    "text": "Set a plan, follow the plan."
   }
+ ],
+ "calls": [
+  {
+   "date": "Nov 9",
+   "items": [
+    {
+     "id": "1109-spy-giveback",
+     "horizon": "near term",
+     "text": "Relief rally gives some back (SPY lower after 5 sessions)",
+     "reason": "Since 1997 there were 19 separate days when SPY rose 1.5% or more while VIX fell 18% or more. SPY was lower 5 sessions later in 13 of them (median -1.0%), though higher 21 sessions later in 13. October CPI lands Nov 10 and Nvidia reports Nov 17, one day after the check.",
+     "check": "Nov 16",
+     "result": "open",
+     "detail": "no sessions yet"
+    }
+   ]
+  },
+  {
+   "date": "Nov 5",
+   "items": [
+    {
+     "id": "1105-vix-avg20",
+     "horizon": "going forward",
+     "text": "Fear doesn't fade fast (VIX averages 20 or more over 10 sessions)",
+     "reason": "Since 1997 there were 26 separate days when SPY fell 3.5% or more. VIX averaged 20+ over the next 10 sessions in 24 of them; the two misses started with VIX at 18 and 26, below today's 28.2. Nvidia reports Nov 17, inside the window.",
+     "check": "Nov 19",
+     "result": "open",
+     "detail": "22.78 avg after 2/10 sessions, on track"
+    }
+   ]
+  },
+  {
+   "date": "Nov 2",
+   "items": [
+    {
+     "id": "1102-nvda-beats",
+     "horizon": "secondary",
+     "text": "NVDA beats SPY over 21 sessions",
+     "reason": "NVDA is down 13.6% in 21 sessions and 15.5% off its high while SPY is 3.5% off. Since 1999 that setup saw NVDA beat SPY over the next 21 sessions 14 of 20 times (median +9.8 pts). The chip selloff came from Intel's guidance, not Nvidia's, and Nvidia reports Nov 17 inside the window.",
+     "check": "Dec 2",
+     "result": "open",
+     "detail": "-11.65 pts after 5/21 sessions, off track"
+    },
+    {
+     "id": "1102-xlv-trails",
+     "horizon": "secondary",
+     "text": "Health care trails the S&P (XLV trails SPY over 5 sessions)",
+     "reason": "XLV is up 11.1% in 21 sessions, 13.4 points ahead of SPY, at a record. The 7 other times since 2002 that XLV beat SPY by 10+ points in 21 sessions, it trailed SPY over the next 5 sessions every time (median -2.4 pts). Small sample, and a real selloff after the election or jobs report could keep money in safe sectors.",
+     "check": "Nov 9",
+     "result": "miss",
+     "detail": "+1.94 pts over 5 sessions"
+    }
+   ]
+  },
+  {
+   "date": "Oct 29",
+   "items": [
+    {
+     "id": "1029-googl-lags",
+     "horizon": "stock",
+     "text": "GOOGL trails SPY over 21 sessions",
+     "reason": "Cash flow just turned negative and the market is punishing that pattern after the fact: META is still trailing SPY by 4.5 points five sessions after its print. Amazon's capex jump after hours keeps the same worry in front of investors.",
+     "check": "Nov 30",
+     "result": "open",
+     "detail": "+3.69 pts after 7/21 sessions, off track"
+    }
+   ]
+  },
+  {
+   "date": "Oct 22",
+   "items": [
+    {
+     "id": "1022-vol-stays",
+     "horizon": "going forward",
+     "text": "Volatility stays up (VIX averages 18 or more over 10 sessions)",
+     "reason": "",
+     "check": "Nov 5",
+     "result": "hit",
+     "detail": "19.57 avg over 10 sessions"
+    },
+    {
+     "id": "1022-meta-lags",
+     "horizon": "stock",
+     "text": "META trails SPY over 21 sessions",
+     "reason": "First cash outflow in over a decade lands right as the market punishes AI spending; MSFT, GOOGL and AMZN report next week and can add to the capex worry.",
+     "check": "Nov 20",
+     "result": "open",
+     "detail": "+0.32 pts after 12/21 sessions, off track"
+    }
+   ]
+  },
+  {
+   "date": "Oct 21",
+   "items": [
+    {
+     "id": "1021-down-lean",
+     "horizon": "near term",
+     "text": "Downside lean (SPY lower after 5 sessions)",
+     "reason": "",
+     "check": "Oct 28",
+     "result": "hit",
+     "detail": "-0.10% over 5 sessions"
+    },
+    {
+     "id": "1021-defensives",
+     "horizon": "going forward",
+     "text": "Defensives keep leading (XLV beats QQQ over 10 sessions)",
+     "reason": "",
+     "check": "Nov 4",
+     "result": "hit",
+     "detail": "+10.58 pts over 10 sessions"
+    },
+    {
+     "id": "1021-tired-rally",
+     "horizon": "bigger picture",
+     "text": "Tired, late-stage rally (SPY makes no new closing high over 21 sessions)",
+     "reason": "",
+     "check": "Nov 19",
+     "result": "open",
+     "detail": "best close -0.87% vs prior high after 13/21 sessions, on track"
+    }
+   ]
+  },
+  {
+   "date": "Oct 20",
+   "items": [
+    {
+     "id": "1020-tech-lags",
+     "horizon": "going forward",
+     "text": "Tech keeps lagging (QQQ trails RSP over 10 sessions)",
+     "reason": "",
+     "check": "Nov 3",
+     "result": "hit",
+     "detail": "-6.08 pts over 10 sessions"
+    },
+    {
+     "id": "1020-no-flush",
+     "horizon": "going forward",
+     "text": "Rotation, not a broad selloff (RSP down less than 3% over 10 sessions)",
+     "reason": "",
+     "check": "Nov 3",
+     "result": "hit",
+     "detail": "+1.58% over 10 sessions"
+    },
+    {
+     "id": "1020-no-snapback",
+     "horizon": "going forward",
+     "text": "No sharp chip snapback (SMH beats SPY by less than 3 points over 10 sessions)",
+     "reason": "",
+     "check": "Nov 3",
+     "result": "hit",
+     "detail": "-3.18 pts over 10 sessions"
+    }
+   ]
+  },
+  {
+   "date": "Oct 16",
+   "items": [
+    {
+     "id": "1016-vix",
+     "horizon": "near term",
+     "text": "VIX stays high (5-session average at or above 18)",
+     "reason": "",
+     "check": "Oct 23",
+     "result": "hit",
+     "detail": "18.18 avg over 5 sessions"
+    },
+    {
+     "id": "1016-chip-bounce",
+     "horizon": "near term",
+     "text": "Chips bounce after 8 down days (SMH up over 5 sessions)",
+     "reason": "",
+     "check": "Oct 23",
+     "result": "miss",
+     "detail": "-2.33% over 5 sessions"
+    },
+    {
+     "id": "1016-chips-lag",
+     "horizon": "going forward",
+     "text": "Chips don't lead again yet (SMH trails equal-weight RSP over 10 sessions)",
+     "reason": "",
+     "check": "Oct 30",
+     "result": "hit",
+     "detail": "-5.18 pts over 10 sessions"
+    },
+    {
+     "id": "1016-rotation",
+     "horizon": "bigger picture",
+     "text": "Money leaves AI winners but stays in stocks (equal-weight RSP beats QQQ over 21 sessions)",
+     "reason": "",
+     "check": "Nov 16",
+     "result": "open",
+     "detail": "+7.49 pts after 16/21 sessions, on track"
+    }
+   ]
+  }
  ]
 }</script>
 <script>
@@ -216,9 +434,9 @@
   function save() { try { localStorage.setItem(KEY, JSON.stringify(local)); } catch (e) {} }
   function markOf(i) { return Object.prototype.hasOwnProperty.call(local, i.id) ? local[i.id] : i.mark; }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-  var PATH = { success: 'M4 12.5 L9.5 18 L20 6', failure: 'M6 6 L18 18 M18 6 L6 18', open: 'M12 5 A7 7 0 1 1 11.99 5' };
+  var PATH = { success: 'M4 12.5 L9.5 18 L20 6', failure: 'M6 6 L18 18 M18 6 L6 18', hit: 'M4 12.5 L9.5 18 L20 6', miss: 'M6 6 L18 18 M18 6 L6 18', open: 'M12 5 A7 7 0 1 1 11.99 5' };
   function seal(m) {
-    var word = m === 'success' ? 'SUCCESS' : 'FAILURE', g = m === 'success' ? 'M38 50.5 L46 58.5 L62 40' : 'M40 40 L60 60 M60 40 L40 60';
+    var good = m === 'success' || m === 'hit', word = m.toUpperCase(), g = good ? 'M38 50.5 L46 58.5 L62 40' : 'M40 40 L60 60 M60 40 L40 60';
     return '<svg viewBox="0 0 100 100" aria-hidden="true"><defs><path id="arc-' + m + '" d="M50 50 m-35 0 a35 35 0 1 1 70 0 a35 35 0 1 1 -70 0"/></defs>' +
       '<circle class="r1" cx="50" cy="50" r="46"/><circle class="r2" cx="50" cy="50" r="42.5"/><circle class="r2" cx="50" cy="50" r="27"/>' +
       '<text><textPath href="#arc-' + m + '" startOffset="0">' + word + ' \u00B7 ' + word + ' \u00B7 </textPath></text>' +
@@ -299,8 +517,31 @@
   }
   pad(document.getElementById('gospel'), gp);
 
+  // Claude: contents page, then one page per read date, newest first. Graded by grade.py.
+  var C = D.calls || [], cp = [];
+  if (C.length) {
+    cp.push('<ul class="trk">' + C.map(function (d, k) {
+      return d.items.map(function (c) {
+        var g = c.result === 'open' ? 'open' : c.result;
+        return '<li><button data-go="' + (k + 1) + '"><span class="d">' + esc(d.date) + '</span><span class="t">' + esc(c.text) + '</span><span class="g">' + glyph(g) + '</span></button></li>';
+      }).join('');
+    }).join('') + '</ul>');
+    C.forEach(function (d) {
+      cp.push('<span class="pg-date">' + esc(d.date) + '</span><div class="cols">' + d.items.map(function (c) {
+        var done = c.result === 'hit' || c.result === 'miss';
+        return '<section class="ent"><span class="hz">' + esc(c.horizon) + '</span><h3 class="idea">' + esc(c.text) + '</h3>' +
+          (c.reason ? '<p class="said">' + esc(c.reason) + '</p>' : '') +
+          '<dl class="flds"><div class="fld"><dt>Check on</dt><dd>' + esc(c.check) + '</dd></div>' +
+          '<div class="fld"><dt>Result</dt><dd>' + esc(c.detail) + '</dd></div></dl>' +
+          '<div class="seal' + (done ? ' on ' + (c.result === 'hit' ? 'success' : 'failure') : '') + '">' + (done ? seal(c.result) : '') + '</div></section>';
+      }).join('') + '</div>');
+    });
+    var cl = pad(document.getElementById('claude'), cp);
+    cl.stack.addEventListener('click', function (e) { var g = e.target.closest('[data-go]'); if (g) cl.go(+g.dataset.go); });
+  }
+
   // Both notepads stay the same size: each paper block takes the taller one's height.
-  var stacks = Array.prototype.slice.call(document.querySelectorAll('.pad-pages'));
+  var stacks = Array.prototype.slice.call(document.querySelectorAll('.nb-desk .pad-pages'));
   function equalize() {
     stacks.forEach(function (st) { st.style.minHeight = ''; });
     var h = Math.max.apply(null, stacks.map(function (st) { return st.offsetHeight; }));
