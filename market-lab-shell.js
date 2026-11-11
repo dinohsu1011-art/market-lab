@@ -73,6 +73,7 @@ window.MarketLabReadJSON = async function(response){const bytes=new Uint8Array(a
     ['lows','Near their lows','market-lab-lows.html'],
     ['hatedm7','Most-hated Mag 7','market-lab-hatedm7.html'],
     ['citrini','Citrini ideas','market-lab-citrini.html'],
+    ['notebook','Trading notebook','market-lab-notebook.html'],
     ['rates','QQQ vs 10-yr yield','market-lab-rates.html'],
     ['studies','Historical studies','market-lab.html'],
   ];

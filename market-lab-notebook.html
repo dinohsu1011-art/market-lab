@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trading notebook · Equinox</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
+  <style>
+    /* Design language: hardbound trading notebook (chosen by Dino, 2026-11-11).
+       A two-page spread on a navy linen cover. Left page = blueprint (rules, in ink),
+       right page = gospel (beliefs). Ink means kept; pencil means a draft not kept yet.
+       One motif: ink vs pencil. Fraunces for ink, Caveat for pencil, dot-grid paper.
+       Content is copied from research/market-reads/blueprint.md and gospel.md and is
+       refreshed only when Dino asks. Never put calls, plans or trades on this page. */
+    :root {
+      --nb-cover:#22303b; --nb-cover-edge:#18222a;
+      --nb-paper:#f7f6f1; --nb-paper-edge:#e6e3da; --nb-dot:#d3d0c6;
+      --nb-ink:#1c2840; --nb-ink-soft:#4a5468; --nb-pencil:#73777d;
+      --nb-ribbon:#a8362f; --nb-ribbon-dark:#7f2621;
+      --nb-ink-font:"Fraunces", Georgia, serif; --nb-hand:"Caveat", "Bradley Hand", cursive;
+    }
+    :root[data-theme="dark"] {
+      --nb-cover:#0f161b; --nb-cover-edge:#0a0f13;
+      --nb-paper:#dedbd1; --nb-paper-edge:#c9c5ba; --nb-dot:#bcb8ad;
+      --nb-ink:#1a2438; --nb-ink-soft:#434c5e; --nb-pencil:#62666c;
+      --nb-ribbon:#9a322c; --nb-ribbon-dark:#6f211c;
+    }
+    .nb-wrap { max-width:1220px; margin:0 auto; padding:40px 28px 140px; }
+    .nb-head { display:flex; justify-content:space-between; align-items:baseline; gap:24px; margin:0 0 30px; }
+    .nb-head h1 { font:500 40px/1.05 var(--nb-ink-font); letter-spacing:-.8px; margin:0; color:var(--ml-ink); font-variation-settings:"opsz" 96; }
+    .nb-upd { color:var(--ml-faint); font-size:13px; margin:0; }
+
+    .nb-book { position:relative; display:grid; grid-template-columns:1fr 1fr; padding:13px 15px 15px 13px;
+      background:var(--nb-cover); border-radius:5px 9px 9px 5px;
+      background-image:repeating-linear-gradient(45deg, rgba(255,255,255,.025) 0 1px, transparent 1px 3px),
+                       repeating-linear-gradient(-45deg, rgba(0,0,0,.08) 0 1px, transparent 1px 3px);
+      box-shadow:0 1px 0 var(--nb-cover-edge), 0 40px 70px -40px rgba(8,16,24,.55), 0 14px 24px -18px rgba(8,16,24,.4); }
+    .nb-page { position:relative; min-height:760px; color:var(--nb-ink);
+      background-color:var(--nb-paper);
+      background-image:radial-gradient(circle, var(--nb-dot) 1.05px, transparent 1.4px);
+      background-size:22px 22px; background-position:11px 11px;
+      animation:nb-in .4s ease-out backwards; }
+    .nb-left { padding:70px 64px 90px 104px; border-radius:2px 0 0 2px;
+      box-shadow:-1px 0 0 var(--nb-paper-edge), -3px 0 0 var(--nb-paper), -4px 0 0 var(--nb-paper-edge); }
+    .nb-right { padding:70px 72px 90px 76px; border-radius:0 3px 3px 0; animation-delay:.08s;
+      box-shadow:1px 0 0 var(--nb-paper-edge), 3px 0 0 var(--nb-paper), 4px 0 0 var(--nb-paper-edge), 6px 0 0 var(--nb-paper), 7px 0 0 var(--nb-paper-edge); }
+    /* The fold: each page darkens toward the spine. */
+    .nb-page::after { content:""; position:absolute; top:0; bottom:0; width:70px; pointer-events:none; }
+    .nb-left::after { right:0; background:linear-gradient(to left, rgba(20,24,30,.16), rgba(20,24,30,.04) 30%, transparent); }
+    .nb-right::after { left:0; background:linear-gradient(to right, rgba(20,24,30,.14), rgba(20,24,30,.03) 30%, transparent); }
+    @keyframes nb-in { from { opacity:0; transform:translateY(10px); } }
+
+    .nb-ribbon { position:absolute; z-index:3; left:calc(50% + 14px); top:-6px; width:13px; height:calc(100% + 58px);
+      background:linear-gradient(to right, var(--nb-ribbon-dark), var(--nb-ribbon) 35%, var(--nb-ribbon) 70%, var(--nb-ribbon-dark));
+      clip-path:polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 11px), 0 100%);
+      box-shadow:1px 0 2px rgba(0,0,0,.2); transform:rotate(.6deg); transform-origin:top center; }
+
+    .nb-page h2 { font:italic 400 58px/1 var(--nb-ink-font); letter-spacing:-1.4px; margin:0 0 54px; font-variation-settings:"opsz" 144; }
+    .nb-rules { list-style:none; margin:0 0 70px; padding:0; }
+    .nb-rule { position:relative; display:grid; grid-template-columns:62px 1fr; column-gap:18px; margin:0 0 34px; }
+    .nb-rule .n { font:400 84px/.82 var(--nb-ink-font); font-variation-settings:"opsz" 144; color:var(--nb-ink); }
+    .nb-rule .text { font:500 33px/1.12 var(--nb-ink-font); letter-spacing:-.4px; margin:4px 0 12px; font-variation-settings:"opsz" 72; }
+    .nb-rule .how { font:italic 400 16px/1.5 var(--nb-ink-font); color:var(--nb-ink-soft); margin:0; max-width:430px; }
+    .nb-date { position:absolute; left:-86px; top:6px; font:600 21px/1 var(--nb-hand); color:var(--nb-pencil); transform:rotate(-6deg); white-space:nowrap; }
+
+    .nb-page h3 { font:600 15px/1 var(--nb-ink-font); letter-spacing:.2px; margin:0 0 20px; color:var(--nb-ink); }
+    .nb-check { list-style:none; margin:0; padding:0; display:grid; gap:13px; max-width:460px; }
+    .nb-check li { display:grid; grid-template-columns:22px 104px 1fr; align-items:baseline; gap:10px; font:400 15.5px/1.4 var(--nb-ink-font); color:var(--nb-ink-soft); }
+    .nb-check li::before { content:""; width:12px; height:12px; border:1.5px solid var(--nb-ink); border-radius:1px 2px 1px 3px; transform:translateY(1px) rotate(-3deg); }
+    .nb-check li:nth-child(even)::before { transform:translateY(1px) rotate(2.5deg); }
+    .nb-check b { font-weight:600; color:var(--nb-ink); }
+
+    .nb-corner { position:absolute; right:66px; top:84px; font:400 22px/1 var(--nb-hand); color:var(--nb-pencil); transform:rotate(4deg); }
+    .nb-drafts { list-style:none; margin:0; padding:0; display:grid; gap:24px; }
+    .nb-drafts li { position:relative; padding-left:30px; font:400 27px/1.18 var(--nb-hand); color:var(--nb-pencil); cursor:help; transition:color .15s; }
+    .nb-drafts li::before { content:""; position:absolute; left:2px; top:12px; width:10px; height:10px; border:1.6px solid var(--nb-pencil); border-radius:50% 45% 55% 48%; transform:rotate(20deg); }
+    .nb-drafts li:hover { color:var(--nb-ink-soft); }
+    .nb-drafts li b { font-weight:600; }
+
+    .nb-folio { position:absolute; bottom:38px; font:400 13px/1 var(--nb-ink-font); color:var(--nb-ink-soft); letter-spacing:.5px; }
+    .nb-left .nb-folio { left:104px; }
+    .nb-right .nb-folio { right:72px; }
+
+    @media (max-width:900px) {
+      .nb-wrap { padding:26px 16px 90px; }
+      .nb-head { flex-direction:column; gap:6px; }
+      .nb-book { grid-template-columns:1fr; padding:9px; }
+      .nb-ribbon, .nb-page::after { display:none; }
+      .nb-page { min-height:0; padding:52px 26px 70px 64px; box-shadow:none; }
+      .nb-right { border-top:1px solid var(--nb-paper-edge); }
+      .nb-left .nb-folio, .nb-right .nb-folio { left:auto; right:26px; }
+      .nb-date { left:-56px; font-size:18px; }
+      .nb-rule { grid-template-columns:44px 1fr; column-gap:12px; }
+      .nb-rule .n { font-size:60px; }
+      .nb-rule .text { font-size:27px; }
+      .nb-page h2 { font-size:46px; margin-bottom:40px; }
+      .nb-corner { position:static; display:block; margin:-26px 0 30px; }
+      .nb-check li { grid-template-columns:22px 1fr; }
+      .nb-check li span { grid-column:2; }
+    }
+    @media (prefers-reduced-motion:reduce) { .nb-page { animation:none; } }
+  </style>
+<link rel="stylesheet" href="market-lab-shell.css?v=20261109-73f57fc7"><script src="market-lab-shell.js?v=20261109-73f57fc7"></script></head>
+<body>
+  <main class="nb-wrap">
+    <header class="nb-head">
+      <h1>Trading notebook</h1>
+      <p class="nb-upd">Updated Nov 11, 2026</p>
+    </header>
+
+    <div class="nb-book">
+      <span class="nb-ribbon" aria-hidden="true"></span>
+
+      <section class="nb-page nb-left" aria-labelledby="nbBlueprint">
+        <h2 id="nbBlueprint">Blueprint</h2>
+        <ol class="nb-rules">
+          <li class="nb-rule">
+            <span class="nb-date" title="Added Nov 11, 2026">Nov 11</span>
+            <span class="n">1</span>
+            <div>
+              <p class="text">Set a plan, follow the plan.</p>
+              <p class="how">Every trade names the plan it came from. A trade without one is off plan.</p>
+            </div>
+          </li>
+        </ol>
+
+        <h3>Every plan holds</h3>
+        <ul class="nb-check">
+          <li><b>Trigger</b><span>the price or event that starts the trade</span></li>
+          <li><b>Action</b><span>what gets bought or shorted, and nothing beyond it</span></li>
+          <li><b>Exit if wrong</b><span>the price or event that says the idea failed</span></li>
+          <li><b>Target</b><span>where it comes off if it works</span></li>
+          <li><b>Size</b><span>how much</span></li>
+          <li><b>Tied to</b><span>the call the trade is built on</span></li>
+        </ul>
+        <span class="nb-folio">1</span>
+      </section>
+
+      <section class="nb-page nb-right" aria-labelledby="nbGospel">
+        <h2 id="nbGospel">Gospel</h2>
+        <span class="nb-corner">pencil until kept</span>
+        <ul class="nb-drafts">
+          <li title="Draft, Nov 11, 2026. Not kept yet."><b>Buy strength on the pullback.</b> When the market retests its lows, buy the names that held up best.</li>
+          <li title="Draft, Nov 11, 2026. Not kept yet."><b>Short weakness into the rally.</b> When the market is stretched up, short the names that bounced least.</li>
+          <li title="Draft, Nov 11, 2026. Not kept yet."><b>Fade a stretched move.</b> A stock far above its range on RSI tends to give some back.</li>
+          <li title="Draft, Nov 11, 2026. Not kept yet."><b>Squeezes run to a target,</b> then the next catalyst turns them.</li>
+          <li title="Draft, Nov 11, 2026. Not kept yet."><b>The big picture sets the tone.</b> No fresh read on cloud spending until the big cloud providers report, so expect chop and trade the range.</li>
+          <li title="Draft, Nov 11, 2026. Not kept yet."><b>Keep the list short.</b> Trade only the names in the plan.</li>
+        </ul>
+        <span class="nb-folio">2</span>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
