@@ -298,6 +298,17 @@
     }).join('') + '</ol>');
   }
   pad(document.getElementById('gospel'), gp);
+
+  // Both notepads stay the same size: each paper block takes the taller one's height.
+  var stacks = Array.prototype.slice.call(document.querySelectorAll('.pad-pages'));
+  function equalize() {
+    stacks.forEach(function (st) { st.style.minHeight = ''; });
+    var h = Math.max.apply(null, stacks.map(function (st) { return st.offsetHeight; }));
+    stacks.forEach(function (st) { st.style.minHeight = h + 'px'; });
+  }
+  equalize();
+  window.addEventListener('resize', equalize);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(equalize);
 })();
 </script>
 </body>
