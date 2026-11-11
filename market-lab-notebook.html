@@ -6,120 +6,135 @@
   <title>Trading notebook · Equinox</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   <style>
-    /* Two notepads side by side (Dino, 2026-11-11). Blueprint: spiral-top graph pad,
-       the trade-idea journal (tracker page, then one page per idea with execution,
-       result and a success/failure mark). Gospel: glued-top ruled pad, rules and
-       philosophy in one numbered list. Click a page to flip it up and over.
-       The nb-data block is written by research/market-reads/notebook.py from
-       my-journal.json. Show only Dino's content: no helper lines or captions. */
+    /* Two bound notepads side by side (Dino, 2026-11-11, second pass: "elegant and pure").
+       Cloth head binding with a foil-stamped name, a block of fine paper, a silk ribbon.
+       Blueprint: dot-grid paper; contents page of trade ideas, then one page per idea
+       with execution, result and a success/failure mark (blind-embossed seal).
+       Gospel: plain paper; rules and philosophy as one numbered list.
+       Click a page to flip it up. nb-data is written by research/market-reads/notebook.py.
+       Show only Dino's content: no helper lines or captions. */
     :root {
-      --np-blue:#22303b; --np-blue-hi:#2e3f4c; --np-red:#7a2a26; --np-red-hi:#8f3530;
-      --np-paper:#f8f7f2; --np-edge:#dedbd1; --np-grid:#d5dde2; --np-rule:#c9d3dc; --np-margin:rgba(168,54,47,.38);
-      --np-ink:#1c2840; --np-ink-soft:#4a5468; --np-pencil:#7a7e84; --np-fail:#a8362f;
-      --np-ink-font:"Fraunces", Georgia, serif; --np-hand:"Caveat", "Bradley Hand", cursive;
+      --np-navy:#1d2740; --np-ox:#5e1d1c; --np-foil-a:#f1e6c6; --np-foil-b:#b89d6e;
+      --np-paper:#fbfaf6; --np-sheet:#f1efe8; --np-edge:#dcd8cd; --np-dot:rgba(29,39,64,.17); --np-hair:rgba(29,39,64,.16);
+      --np-ink:#1f2230; --np-soft:#5b5f6b; --np-faint:#9a9ca3; --np-fail:#9b2f24;
+      --np-disp:"Cormorant Garamond", "Cormorant", Garamond, serif; --np-text:"EB Garamond", Garamond, Georgia, serif;
     }
     :root[data-theme="dark"] {
-      --np-blue:#141e26; --np-blue-hi:#1c2833; --np-red:#5a1f1c; --np-red-hi:#6b2622;
-      --np-paper:#dedbd1; --np-edge:#c3bfb3; --np-grid:#c4cbcf; --np-rule:#b9c1c8; --np-margin:rgba(154,50,44,.4);
-      --np-ink:#1a2438; --np-ink-soft:#434c5e; --np-pencil:#62666c; --np-fail:#9a322c;
+      --np-paper:#ece9e1; --np-sheet:#dedad0; --np-edge:#c9c4b8; --np-navy:#1a2338; --np-ox:#561a19;
     }
-    .nb-wrap { max-width:1240px; margin:0 auto; padding:40px 28px 140px; }
-    .nb-head { display:flex; justify-content:space-between; align-items:baseline; gap:24px; margin:0 0 44px; }
-    .nb-head h1 { font:500 40px/1.05 var(--np-ink-font); letter-spacing:-.8px; margin:0; color:var(--ml-ink); font-variation-settings:"opsz" 96; }
+    .nb-wrap { max-width:1220px; margin:0 auto; padding:48px 32px 160px; }
+    .nb-head { display:flex; justify-content:space-between; align-items:baseline; gap:24px; margin:0 0 56px; }
+    .nb-head h1 { font:500 44px/1 var(--np-disp); letter-spacing:-.4px; margin:0; color:var(--ml-ink); }
     .nb-upd { color:var(--ml-faint); font-size:13px; margin:0; }
 
-    .nb-desk { display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:start; }
-    .pad { position:relative; animation:np-in .4s ease-out backwards; }
-    .pad-red { animation-delay:.08s; }
-    @keyframes np-in { from { opacity:0; transform:translateY(10px); } }
-    .pad:focus-visible { outline:2px solid var(--ml-faint); outline-offset:8px; }
+    .nb-desk { display:grid; grid-template-columns:1fr 1fr; gap:72px; align-items:start; }
+    .pad { position:relative; padding-bottom:58px; animation:np-in .5s cubic-bezier(.2,.7,.2,1) backwards; }
+    .pad-ox { animation-delay:.08s; }
+    @keyframes np-in { from { opacity:0; transform:translateY(12px); } }
+    .pad:focus-visible { outline:none; }
+    .pad:focus-visible .pad-pages { outline:1px solid var(--ml-faint); outline-offset:10px; }
 
-    /* Bindings */
-    .pad-top { position:relative; z-index:20; height:66px; border-radius:6px 6px 2px 2px; display:flex; align-items:center; padding:0 30px; }
-    .pad-top h2 { margin:0; font:italic 400 31px/1 var(--np-ink-font); letter-spacing:-.5px; color:#efece4; font-variation-settings:"opsz" 144; }
-    .pad-blue .pad-top { background:linear-gradient(to bottom, var(--np-blue-hi), var(--np-blue)); box-shadow:0 1px 0 rgba(0,0,0,.25); }
-    .pad-blue .pad-top::after { content:""; position:absolute; left:26px; right:26px; bottom:-13px; height:26px;
-      background:linear-gradient(to bottom, #8e949b, #f1f2f3 42%, #a3a9af 70%, #6d737a);
-      -webkit-mask:repeating-linear-gradient(90deg, #000 0 5px, transparent 5px 17px); mask:repeating-linear-gradient(90deg, #000 0 5px, transparent 5px 17px);
-      border-radius:3px; filter:drop-shadow(0 2px 1px rgba(0,0,0,.25)); }
-    .pad-red .pad-top { height:58px; border-radius:3px 3px 0 0; background:linear-gradient(to bottom, var(--np-red-hi), var(--np-red));
-      box-shadow:0 3px 4px -2px rgba(0,0,0,.35); }
+    /* Cloth head binding, name stamped in foil */
+    .pad-top { position:relative; z-index:20; height:48px; display:flex; align-items:center; justify-content:center; border-radius:2px 2px 0 0;
+      background-color:var(--np-navy);
+      background-image:repeating-linear-gradient(0deg, rgba(255,255,255,.035) 0 1px, transparent 1px 3px),
+                       repeating-linear-gradient(90deg, rgba(0,0,0,.09) 0 1px, transparent 1px 3px),
+                       linear-gradient(to bottom, rgba(255,255,255,.06), rgba(0,0,0,.14));
+      box-shadow:0 2px 3px -1px rgba(0,0,0,.28); }
+    .pad-ox .pad-top { background-color:var(--np-ox); }
+    .pad-top h2 { margin:0; font:italic 500 24px/1 var(--np-disp); letter-spacing:.6px;
+      background:linear-gradient(170deg, var(--np-foil-a) 20%, var(--np-foil-b) 55%, var(--np-foil-a) 85%);
+      -webkit-background-clip:text; background-clip:text; color:transparent; filter:drop-shadow(0 -1px 0 rgba(0,0,0,.35)); }
 
-    /* The page stack */
-    .pad-pages { position:relative; display:grid; perspective:2000px; background:var(--np-paper);
-      box-shadow:0 1px 0 var(--np-edge), 0 3px 0 var(--np-paper), 0 4px 0 var(--np-edge), 0 6px 0 var(--np-paper), 0 7px 0 var(--np-edge),
-                 0 30px 50px -30px rgba(8,16,24,.45); }
-    .pg { grid-area:1/1; position:relative; min-height:660px; padding:52px 44px 84px 44px; color:var(--np-ink); background-color:var(--np-paper);
-      transform-origin:top center; transition:transform .55s cubic-bezier(.33,.66,.25,1); backface-visibility:hidden; -webkit-backface-visibility:hidden;
-      cursor:pointer; box-shadow:0 1px 0 var(--np-edge); }
-    .pg.gone { transform:rotateX(178deg); pointer-events:none; }
-    .pad-blue .pg { background-image:linear-gradient(var(--np-grid) 1px, transparent 1px), linear-gradient(90deg, var(--np-grid) 1px, transparent 1px);
-      background-size:20px 20px; background-position:-1px 12px; }
-    .pad-red .pg { padding-left:96px; background-image:linear-gradient(90deg, transparent 70px, var(--np-margin) 70px 71px, transparent 71px),
-      repeating-linear-gradient(to bottom, transparent 0 31px, var(--np-rule) 31px 32px); background-position:0 0, 0 20px; }
+    /* The paper block */
+    .pad-pages { position:relative; z-index:2; display:grid; perspective:2400px; background:var(--np-paper);
+      box-shadow:0 1px 0 var(--np-edge), 0 2px 0 var(--np-sheet), 0 3px 0 var(--np-edge), 0 4px 0 var(--np-sheet), 0 5px 0 var(--np-edge),
+                 0 6px 0 var(--np-sheet), 0 7px 0 var(--np-edge), 0 40px 60px -36px rgba(10,14,24,.42), 0 2px 10px rgba(10,14,24,.05); }
+    .pg { grid-area:1/1; position:relative; min-height:680px; padding:64px 60px 92px; color:var(--np-ink); background-color:var(--np-paper);
+      transform-origin:top center; transition:transform .7s cubic-bezier(.45,.05,.25,1), box-shadow .7s; backface-visibility:hidden; -webkit-backface-visibility:hidden;
+      cursor:pointer; }
+    .pg::after { content:""; position:absolute; inset:0; pointer-events:none; opacity:0; transition:opacity .7s;
+      background:linear-gradient(to bottom, rgba(10,14,24,.0), rgba(10,14,24,.18)); }
+    .pg.gone { transform:rotateX(176deg); pointer-events:none; }
+    .pg.gone::after { opacity:1; }
+    .pad-navy .pg { background-image:radial-gradient(circle at 1px 1px, var(--np-dot) 1px, transparent 1.3px); background-size:22px 22px; background-position:19px 19px; }
 
-    .folio { position:absolute; z-index:30; right:26px; bottom:22px; display:flex; align-items:center; gap:4px; font:400 13px/1 var(--np-ink-font); color:var(--np-ink-soft); }
-    .folio button { all:unset; cursor:pointer; padding:4px 8px; font:400 18px/1 var(--np-ink-font); color:var(--np-ink-soft); border-radius:3px; }
+    /* Silk ribbon marker */
+    .ribbon { position:absolute; z-index:1; left:64px; bottom:6px; width:10px; height:60px; background:var(--np-navy);
+      background-image:linear-gradient(90deg, rgba(255,255,255,.12), rgba(255,255,255,0) 40%, rgba(0,0,0,.18));
+      clip-path:polygon(0 0, 100% 0, 100% 100%, 50% 82%, 0 100%); transform:rotate(2deg); transform-origin:top center; }
+    .pad-ox .ribbon { background-color:var(--np-ox); left:auto; right:72px; transform:rotate(-2deg); }
+
+    .folio { position:absolute; z-index:30; left:0; right:0; bottom:78px; display:flex; justify-content:center; align-items:center; gap:10px;
+      font:400 14px/1 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-faint); pointer-events:none; }
+    .folio button { all:unset; pointer-events:auto; cursor:pointer; padding:4px 8px; font:400 20px/1 var(--np-disp); color:var(--np-faint); transition:color .15s; }
     .folio button:hover { color:var(--np-ink); }
-    .folio button:disabled { opacity:.25; cursor:default; }
-    .folio button:focus-visible { outline:1.5px solid var(--np-ink-soft); }
+    .folio button:disabled { opacity:.3; cursor:default; }
+    .folio button:focus-visible { outline:1px solid var(--np-soft); }
     .folio[hidden] { display:none; }
 
-    /* Blueprint: tracker */
+    /* Blueprint: contents */
     .trk { list-style:none; margin:0; padding:0; }
-    .trk button { all:unset; box-sizing:border-box; width:100%; display:grid; grid-template-columns:70px 1fr 30px; align-items:center; gap:12px;
-      padding:6px 4px; min-height:40px; cursor:pointer; border-radius:2px; transition:background .15s; }
-    .trk button:hover, .trk button:focus-visible { background:rgba(28,40,64,.05); }
-    .trk .d { font:600 22px/1 var(--np-hand); color:var(--np-pencil); }
-    .trk .t { font:400 28px/1.05 var(--np-hand); color:var(--np-ink); }
-    .glyph { width:22px; height:22px; fill:none; stroke-width:2.4; stroke-linecap:round; stroke-linejoin:round; }
-    .trk .g { display:grid; place-items:center; }
+    .trk button { all:unset; box-sizing:border-box; width:100%; display:grid; grid-template-columns:62px 1fr 18px; align-items:baseline; column-gap:10px;
+      padding:13px 0; cursor:pointer; }
+    .trk li + li button { border-top:1px solid var(--np-hair); }
+    .trk .d { font:italic 400 15px/1 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-faint); }
+    .trk .t { display:flex; align-items:baseline; font:500 25px/1.15 var(--np-disp); color:var(--np-ink); transition:color .15s; }
+    .trk .t::after { content:""; flex:1; min-width:18px; margin:0 6px 0 12px; border-bottom:1px dotted rgba(29,39,64,.35); transform:translateY(-4px); }
+    .trk button:hover .t, .trk button:focus-visible .t { color:var(--np-navy); text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:5px; }
+    .trk .g { align-self:center; display:grid; place-items:center; }
+    .glyph { width:16px; height:16px; fill:none; stroke-width:1.4; stroke-linecap:round; stroke-linejoin:round; }
     .glyph.success { stroke:var(--np-ink); }
     .glyph.failure { stroke:var(--np-fail); }
-    .glyph.open { stroke:var(--np-pencil); stroke-width:1.6; }
+    .glyph.open { stroke:var(--np-faint); stroke-width:1; }
 
     /* Blueprint: one idea */
-    .pg-date { position:absolute; top:34px; right:44px; font:600 23px/1 var(--np-hand); color:var(--np-pencil); transform:rotate(-3deg); }
-    .idea { margin:34px 0 14px; font:600 44px/1 var(--np-hand); color:var(--np-ink); }
-    .said { margin:0 0 40px; font:400 23px/1.22 var(--np-hand); color:var(--np-ink-soft); max-width:520px; }
-    .said::before { content:"\201C"; } .said::after { content:"\201D"; }
-    .fld { display:grid; grid-template-columns:96px 1fr; gap:14px; align-items:baseline; margin:0 0 22px; }
-    .fld dt { font:italic 400 15px/1 var(--np-ink-font); color:var(--np-ink-soft); }
-    .fld dd { margin:0; min-height:30px; border-bottom:1.3px solid rgba(28,40,64,.28); font:400 26px/1.15 var(--np-hand); color:var(--np-ink); }
-    .fld dd div + div { margin-top:4px; }
-    .marks { display:flex; gap:26px; margin-top:38px; }
-    .marks button { all:unset; display:flex; align-items:center; gap:9px; cursor:pointer; font:400 16px/1 var(--np-ink-font); color:var(--np-ink-soft); }
+    .pg-date { display:block; margin:0 0 18px; font:italic 400 15px/1 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-faint); }
+    .idea { margin:0 0 26px; padding-right:116px; font:500 42px/1.04 var(--np-disp); letter-spacing:-.3px; color:var(--np-ink); }
+    .said { position:relative; margin:0 0 48px; max-width:470px; font:italic 400 18px/1.55 var(--np-text); color:var(--np-soft); }
+    .said::before { content:"\201C"; position:absolute; left:-.55em; top:-.02em; color:var(--np-faint); }
+    .said::after { content:"\201D"; color:var(--np-faint); }
+    .fld { margin:0 0 26px; }
+    .fld dt { margin:0 0 6px; font:italic 400 15px/1 var(--np-text); color:var(--np-faint); }
+    .fld dd { margin:0; min-height:30px; padding-bottom:4px; border-bottom:1px solid var(--np-hair); font:400 19px/1.45 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-ink); }
+    .marks { display:flex; gap:30px; margin-top:44px; }
+    .marks button { all:unset; display:flex; align-items:center; gap:10px; cursor:pointer; font:400 17px/1 var(--np-text); color:var(--np-soft); transition:color .15s; }
     .marks button:hover, .marks button[aria-pressed="true"] { color:var(--np-ink); }
-    .marks button:focus-visible { outline:1.5px solid var(--np-ink-soft); outline-offset:4px; }
-    .marks .box { position:relative; width:17px; height:17px; border:1.6px solid var(--np-ink); border-radius:1px 3px 2px 2px; transform:rotate(-2deg); }
-    .marks .box svg { position:absolute; left:-3px; top:-7px; width:24px; height:24px; opacity:0; transition:opacity .15s; }
-    .marks button[aria-pressed="true"] .box svg { opacity:1; }
-    .stamp { position:absolute; right:40px; top:150px; padding:8px 16px 6px; border:3px double currentColor; border-radius:4px;
-      font:600 26px/1 var(--np-ink-font); letter-spacing:3px; text-transform:uppercase; transform:rotate(-11deg) scale(1.25); opacity:0;
-      transition:opacity .15s, transform .15s; pointer-events:none; mix-blend-mode:multiply; }
-    .stamp.on { opacity:.82; transform:rotate(-11deg) scale(1); }
-    .stamp.success { color:var(--np-ink); } .stamp.failure { color:var(--np-fail); }
+    .marks button[data-mark="failure"][aria-pressed="true"] { color:var(--np-fail); }
+    .marks button:focus-visible { outline:1px solid var(--np-soft); outline-offset:5px; }
+    .marks .ring { width:13px; height:13px; border:1px solid currentColor; border-radius:50%; display:grid; place-items:center; }
+    .marks .ring::after { content:""; width:7px; height:7px; border-radius:50%; background:currentColor; transform:scale(0); transition:transform .15s; }
+    .marks button[aria-pressed="true"] .ring::after { transform:scale(1); }
+    .seal { position:absolute; top:58px; right:54px; width:92px; height:92px; opacity:0; transform:rotate(-12deg) scale(.9);
+      transition:opacity .25s, transform .25s; pointer-events:none; }
+    .seal.on { opacity:1; transform:rotate(-12deg) scale(1); }
+    .seal svg { width:100%; height:100%; fill:none; overflow:visible; }
+    .seal .r1 { stroke-width:1.2; } .seal .r2 { stroke-width:.6; } .seal .gl { stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+    .seal text { font:500 8.6px var(--np-text); letter-spacing:2.6px; fill:currentColor; stroke:none; }
+    .seal.success { color:var(--np-navy); } .seal.failure { color:var(--np-fail); }
+    .seal svg * { stroke:currentColor; }
+    .seal svg { filter:drop-shadow(0 1px 0 rgba(255,255,255,.9)) drop-shadow(0 -.5px 0 rgba(0,0,0,.12)); opacity:.86; }
 
     /* Gospel */
-    .gos { list-style:none; margin:0; padding:0; }
-    .gos li { position:relative; display:grid; grid-template-columns:52px 1fr; column-gap:10px; margin:0 0 32px; }
-    .gos .n { font:400 64px/.86 var(--np-ink-font); color:var(--np-ink); font-variation-settings:"opsz" 144; }
-    .gos .tx { font:500 30px/1.07 var(--np-ink-font); letter-spacing:-.3px; color:var(--np-ink); padding-top:4px; font-variation-settings:"opsz" 72; }
-    .gos .dt { position:absolute; left:-84px; top:10px; font:600 20px/1 var(--np-hand); color:var(--np-pencil); transform:rotate(-6deg); white-space:nowrap; }
+    .gos { list-style:none; margin:0; padding:0; counter-reset:g; }
+    .gos li { display:grid; grid-template-columns:44px 1fr; column-gap:8px; padding:0 0 30px; margin:0 0 30px; border-bottom:1px solid var(--np-hair); }
+    .gos li:last-child { border-bottom:0; }
+    .gos .n { font:italic 400 30px/1.1 var(--np-disp); color:var(--np-ox); font-variant-numeric:oldstyle-nums; }
+    .gos .tx { display:block; font:500 33px/1.12 var(--np-disp); letter-spacing:-.2px; color:var(--np-ink); }
+    .gos .dt { display:block; margin-top:12px; font:italic 400 14px/1 var(--np-text); font-variant-numeric:oldstyle-nums; color:var(--np-faint); }
 
     @media (max-width:900px) {
-      .nb-wrap { padding:26px 16px 90px; }
-      .nb-head { flex-direction:column; gap:6px; }
-      .nb-desk { grid-template-columns:1fr; gap:56px; }
-      .pg { min-height:520px; padding:44px 24px 76px; }
-      .pad-red .pg { padding-left:84px; }
-      .idea { font-size:38px; }
-      .stamp { right:18px; top:120px; font-size:21px; }
-      .fld { grid-template-columns:1fr; gap:6px; }
+      .nb-wrap { padding:28px 16px 100px; }
+      .nb-head { flex-direction:column; gap:6px; margin-bottom:36px; }
+      .nb-desk { grid-template-columns:1fr; gap:48px; }
+      .pg { min-height:540px; padding:44px 28px 84px 36px; }
+      .idea { font-size:36px; max-width:none; padding-right:84px; }
+      .seal { top:40px; right:20px; width:76px; height:76px; }
+      .gos .tx { font-size:28px; }
     }
-    @media (prefers-reduced-motion:reduce) { .pad { animation:none; } .pg, .stamp { transition:none; } }
+    @media (prefers-reduced-motion:reduce) { .pad { animation:none; } .pg, .pg::after, .seal { transition:none; } }
   </style>
 <link rel="stylesheet" href="market-lab-shell.css?v=20261109-73f57fc7"><script src="market-lab-shell.js?v=20261109-73f57fc7"></script></head>
 <body>
@@ -130,15 +145,17 @@
     </header>
 
     <div class="nb-desk">
-      <section class="pad pad-blue" id="blueprint" tabindex="0" aria-label="Blueprint">
+      <section class="pad pad-navy" id="blueprint" tabindex="0" aria-label="Blueprint">
         <div class="pad-top"><h2>Blueprint</h2></div>
         <div class="pad-pages"></div>
+        <span class="ribbon" aria-hidden="true"></span>
         <nav class="folio" aria-label="Blueprint pages"><button class="prev" aria-label="Previous page">&lsaquo;</button><span></span><button class="next" aria-label="Next page">&rsaquo;</button></nav>
       </section>
 
-      <section class="pad pad-red" id="gospel" tabindex="0" aria-label="Gospel">
+      <section class="pad pad-ox" id="gospel" tabindex="0" aria-label="Gospel">
         <div class="pad-top"><h2>Gospel</h2></div>
         <div class="pad-pages"></div>
+        <span class="ribbon" aria-hidden="true"></span>
         <nav class="folio" aria-label="Gospel pages"><button class="prev" aria-label="Previous page">&lsaquo;</button><span></span><button class="next" aria-label="Next page">&rsaquo;</button></nav>
       </section>
     </div>
@@ -199,7 +216,14 @@
   function save() { try { localStorage.setItem(KEY, JSON.stringify(local)); } catch (e) {} }
   function markOf(i) { return Object.prototype.hasOwnProperty.call(local, i.id) ? local[i.id] : i.mark; }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-  var PATH = { success: 'M3 12.5 L8.5 18 L20 4', failure: 'M5 5 L19 19 M19 5 L5 19', open: 'M12 4.5 C16.5 4.3 19.6 7.6 19.4 12 C19.2 16.4 15.8 19.6 11.8 19.4 C7.6 19.2 4.4 16 4.6 11.8 C4.8 7.8 7.8 4.7 12 4.5' };
+  var PATH = { success: 'M4 12.5 L9.5 18 L20 6', failure: 'M6 6 L18 18 M18 6 L6 18', open: 'M12 5 A7 7 0 1 1 11.99 5' };
+  function seal(m) {
+    var word = m === 'success' ? 'SUCCESS' : 'FAILURE', g = m === 'success' ? 'M38 50.5 L46 58.5 L62 40' : 'M40 40 L60 60 M60 40 L40 60';
+    return '<svg viewBox="0 0 100 100" aria-hidden="true"><defs><path id="arc-' + m + '" d="M50 50 m-35 0 a35 35 0 1 1 70 0 a35 35 0 1 1 -70 0"/></defs>' +
+      '<circle class="r1" cx="50" cy="50" r="46"/><circle class="r2" cx="50" cy="50" r="42.5"/><circle class="r2" cx="50" cy="50" r="27"/>' +
+      '<text><textPath href="#arc-' + m + '" startOffset="0">' + word + ' \u00B7 ' + word + ' \u00B7 </textPath></text>' +
+      '<path class="gl" d="' + g + '"/></svg>';
+  }
   function glyph(kind) { return '<svg class="glyph ' + kind + '" viewBox="0 0 24 24" aria-hidden="true"><path d="' + PATH[kind] + '"/></svg>'; }
 
   function pad(el, pages) {
@@ -232,14 +256,14 @@
   function lines(arr) { return arr.map(function (x) { return '<div>' + esc(x) + '</div>'; }).join(''); }
   var pages = [tracker].concat(ideas.map(function (it) {
     var mk = ['success', 'failure'].map(function (m) {
-      return '<button data-mark="' + m + '" data-id="' + esc(it.id) + '" aria-pressed="false"><span class="box">' + glyph(m) + '</span>' + (m === 'success' ? 'Success' : 'Failure') + '</button>';
+      return '<button data-mark="' + m + '" data-id="' + esc(it.id) + '" aria-pressed="false"><span class="ring"></span>' + (m === 'success' ? 'Success' : 'Failure') + '</button>';
     }).join('');
     return '<span class="pg-date">' + esc(it.date) + '</span>' +
       '<h3 class="idea">' + esc(it.title) + '</h3>' +
       (it.said ? '<p class="said">' + esc(it.said) + '</p>' : '') +
       '<dl><div class="fld"><dt>Execution</dt><dd>' + lines(it.execution) + '</dd></div>' +
       '<div class="fld"><dt>Result</dt><dd>' + (it.result ? '<div>' + esc(it.result) + '</div>' : '') + '</dd></div></dl>' +
-      '<div class="marks">' + mk + '</div><div class="stamp" data-stamp="' + esc(it.id) + '"></div>';
+      '<div class="marks">' + mk + '</div><div class="seal" data-stamp="' + esc(it.id) + '"></div>';
   }));
   var bp = pad(document.getElementById('blueprint'), pages);
   function paint(id) {
@@ -247,7 +271,7 @@
     bp.stack.querySelectorAll('.g[data-id="' + id + '"]').forEach(function (g) { g.innerHTML = glyph(m || 'open'); });
     bp.stack.querySelectorAll('[data-mark][data-id="' + id + '"]').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.mark === m); });
     var st = bp.stack.querySelector('[data-stamp="' + id + '"]');
-    if (st) { st.className = 'stamp' + (m ? ' on ' + m : ''); if (m) st.textContent = m === 'success' ? 'Success' : 'Failure'; }
+    if (st) { st.className = 'seal' + (m ? ' on ' + m : ''); if (m) st.innerHTML = seal(m); }
   }
   ideas.forEach(function (it) { paint(it.id); });
   bp.stack.addEventListener('click', function (e) {
@@ -264,7 +288,7 @@
   var G = D.gospel, per = 4, gp = [];
   for (var i = 0; i < Math.max(1, G.length); i += per) {
     gp.push('<ol class="gos">' + G.slice(i, i + per).map(function (g) {
-      return '<li><span class="dt">' + esc(g.date) + '</span><span class="n">' + g.n + '</span><span class="tx">' + esc(g.text) + '</span></li>';
+      return '<li><span class="n">' + g.n + '</span><div><span class="tx">' + esc(g.text) + '</span><span class="dt">' + esc(g.date) + '</span></div></li>';
     }).join('') + '</ol>');
   }
   pad(document.getElementById('gospel'), gp);
