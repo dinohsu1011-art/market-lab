@@ -172,6 +172,66 @@
       .ldg li { grid-template-columns:1fr; row-gap:10px; }
       .pad-top .bk { right:18px; font-size:16px; }
     }
+
+    /* Edit mode: a pen beside the date. Edits save to market-lab-notebook-journal.json through the GitHub API. */
+    .nb-tools { display:flex; align-items:baseline; gap:14px; }
+    .nb-pen { all:unset; cursor:pointer; display:grid; place-items:center; width:30px; height:30px; margin:-8px -6px -8px 0; border-radius:50%;
+      color:var(--ml-faint); transition:color .15s, background-color .15s; }
+    .nb-pen:hover { color:var(--ml-ink); }
+    .nb-pen:focus-visible { outline:1px solid var(--ml-faint); }
+    .nb-pen svg { width:17px; height:17px; fill:none; stroke:currentColor; stroke-width:1.4; stroke-linecap:round; stroke-linejoin:round; }
+    .editing .nb-pen { color:var(--np-paper); background:var(--np-navy); }
+    .pad-top .add { all:unset; position:absolute; left:26px; top:50%; transform:translateY(-50%); cursor:pointer; display:none;
+      font:400 28px/1 var(--np-disp); color:var(--np-foil-a); opacity:.8; padding:0 6px; }
+    .pad-top .add:hover { opacity:1; }
+    .pad-top .add:focus-visible { outline:1px solid var(--np-foil-a); }
+    .editing #blueprint .add { display:block; }
+    .editing #blueprint .ldg li { cursor:text; }
+    .editing #blueprint .ldg li:hover .t { text-decoration:underline; text-decoration-color:var(--np-hair); text-underline-offset:4px; }
+    .editing .bible .sheet { cursor:text; }
+
+    .nb-dlg { width:min(640px, calc(100vw - 32px)); max-height:calc(100vh - 64px); padding:44px 48px 36px; border:0; border-radius:2px;
+      background:var(--np-paper); color:var(--np-ink); font:400 16px/1.45 var(--np-text); color-scheme:light;
+      box-shadow:0 1px 0 var(--np-edge), 0 2px 0 var(--np-sheet), 0 3px 0 var(--np-edge), 0 40px 80px -30px rgba(10,14,24,.55); }
+    .nb-dlg::backdrop { background:rgba(14,16,24,.42); }
+    .nb-dlg[open] { animation:np-in .3s cubic-bezier(.2,.7,.2,1); }
+    .nb-dlg h3 { margin:0 0 26px; font:italic 500 28px/1 var(--np-disp); color:var(--np-ink); }
+    .nb-dlg .fld { display:block; margin:0 0 18px; }
+    .nb-dlg .fld > span { display:block; margin:0 0 5px; font:italic 400 14px/1 var(--np-text); color:var(--np-soft); }
+    .nb-dlg input, .nb-dlg textarea, .nb-dlg select { box-sizing:border-box; width:100%; padding:7px 0 6px; border:0; border-bottom:1px solid var(--np-hair);
+      border-radius:0; background:transparent; color:var(--np-ink); font:400 17px/1.4 var(--np-text); }
+    .nb-dlg textarea { resize:vertical; min-height:64px; }
+    .nb-dlg input:focus, .nb-dlg textarea:focus, .nb-dlg select:focus { outline:none; border-bottom-color:var(--np-navy); }
+    .nb-dlg .two { display:grid; grid-template-columns:1fr 1fr; column-gap:28px; }
+    .nb-dlg .marks { display:flex; gap:6px; }
+    .nb-dlg .marks button { all:unset; cursor:pointer; display:flex; align-items:center; gap:7px; padding:6px 12px 6px 9px; border-radius:2px;
+      font:400 15px/1 var(--np-text); color:var(--np-soft); }
+    .nb-dlg .marks button[aria-pressed="true"] { background:var(--np-sheet); color:var(--np-ink); }
+    .nb-dlg .marks button:focus-visible { outline:1px solid var(--np-soft); }
+    .nb-dlg .fills, .nb-dlg .verses { margin:0 0 18px; }
+    .nb-dlg .fill { display:grid; grid-template-columns:128px 78px 64px 1fr 82px 24px; column-gap:10px; align-items:center; margin:0 0 6px; }
+    dialog.nb-dlg select { appearance:none; -webkit-appearance:none; cursor:pointer; color:var(--np-ink); background:transparent;
+      border:0; border-bottom:1px solid var(--np-hair); border-radius:0; padding:7px 0 6px; font:400 17px/1.4 var(--np-text); }
+    .nb-dlg .verse { display:grid; grid-template-columns:1fr 24px; column-gap:12px; padding:0 0 14px; margin:0 0 14px; border-bottom:1px solid var(--np-hair); }
+    .nb-dlg .verse textarea { border-bottom:0; min-height:48px; }
+    .nb-dlg .verse input { width:50%; justify-self:end; text-align:right; font-variant:small-caps; letter-spacing:.04em; }
+    .nb-dlg .verse .side { display:flex; flex-direction:column; gap:2px; }
+    .nb-dlg .x { all:unset; cursor:pointer; display:grid; place-items:center; width:24px; height:24px; color:var(--np-faint); font:400 18px/1 var(--np-disp); }
+    .nb-dlg .x:hover { color:var(--np-fail); }
+    .nb-dlg .x.mv:hover { color:var(--np-ink); }
+    .nb-dlg .more { all:unset; display:inline-block; cursor:pointer; font:italic 400 15px/1 var(--np-text); color:var(--np-navy); padding:4px 0; margin:0 0 24px; }
+    .nb-dlg .more:hover { text-decoration:underline; text-underline-offset:3px; }
+    .nb-dlg .foot { display:flex; align-items:center; gap:18px; margin-top:30px; }
+    .nb-dlg .foot .msg { flex:1; font:italic 400 14px/1.3 var(--np-text); color:var(--np-soft); }
+    .nb-dlg .foot .msg.bad { color:var(--np-fail); }
+    .nb-dlg .btn { all:unset; cursor:pointer; padding:9px 18px; border-radius:2px; font:500 15px/1 var(--np-text); color:var(--np-soft); }
+    .nb-dlg .btn:hover { color:var(--np-ink); }
+    .nb-dlg .btn.go { background:var(--np-navy); color:var(--np-paper); }
+    .nb-dlg .btn.go:hover { background:#141c30; }
+    .nb-dlg .btn.del { padding-left:0; color:var(--np-fail); }
+    .nb-dlg .btn:focus-visible, .nb-dlg .more:focus-visible, .nb-dlg .x:focus-visible { outline:1px solid var(--np-soft); }
+    .nb-dlg .btn[disabled] { opacity:.5; cursor:default; }
+    @media (max-width:900px) { .nb-dlg { padding:32px 22px 26px; } .nb-dlg .fill { grid-template-columns:1fr 1fr 1fr; row-gap:4px; } .nb-dlg .fill .x { justify-self:end; } }
     @media (prefers-reduced-motion:reduce) { .pad, .bible { animation:none; } .pg, .pg::after, .bible, .sheet { transition:none; } }
   </style>
 <link rel="stylesheet" href="market-lab-shell.css?v=20261110-7ca9be11"><script src="market-lab-shell.js?v=20261110-7ca9be11"></script></head>
@@ -179,7 +239,7 @@
   <main class="nb-wrap">
     <header class="nb-head">
       <h1>Trading notebook</h1>
-      <p class="nb-upd">Updated Nov 11, 2026</p>
+      <div class="nb-tools"><p class="nb-upd">Updated Nov 11, 2026</p><button class="nb-pen" type="button" title="Edit" aria-label="Edit" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 4.5 L19.5 8.5 L8.5 19.5 L4 20 L4.5 15.5 Z M13.5 6.5 L17.5 10.5"/></svg></button></div>
     </header>
 
     <div class="bible-wrap">
@@ -190,7 +250,7 @@
     </div>
 
     <section class="pad pad-navy pad-wide" id="blueprint" tabindex="0" aria-label="Blueprint">
-      <div class="pad-top"><h2>Blueprint</h2><span class="bk"></span></div>
+      <div class="pad-top"><button class="add" type="button" title="New idea" aria-label="New idea">+</button><h2>Blueprint</h2><span class="bk"></span></div>
       <div class="pad-pages"></div>
       <span class="ribbon" aria-hidden="true"></span>
       <nav class="folio" aria-label="Blueprint pages"><button class="prev" aria-label="Previous page">&lsaquo;</button><span></span><button class="next" aria-label="Next page">&rsaquo;</button></nav>
@@ -205,102 +265,85 @@
   </main>
 
 <script id="nb-data" type="application/json">{
- "ideas": [
-  {
-   "id": "p1111-short-qqq",
-   "date": "Nov 11",
-   "title": "Short QQQ at 700 to 710",
-   "said": "qqq up to 700-710 area by sometime next week on this multi week short squeeze, and then a short term reversal due to anthropic ipo, jensen hearing, to retest some lows ... for execution i will short in that range",
-   "execution": [],
-   "result": "",
-   "pnl": "",
-   "end": "",
-   "mark": null
-  },
-  {
-   "id": "p1111-short-aaoi",
-   "date": "Nov 11",
-   "title": "Short AAOI when QQQ hits 700 to 710",
-   "said": "shorting the weakest ai names in that range (aaoi)",
-   "execution": [],
-   "result": "",
-   "pnl": "",
-   "end": "",
-   "mark": null
-  },
-  {
-   "id": "p1111-long-retest",
-   "date": "Nov 11",
-   "title": "Buy AMD, BE, COHR on the retest",
-   "said": "long strongest ai names on those retests (AMD, BE, COHR, donot need to expand beyond these)",
-   "execution": [],
-   "result": "",
-   "pnl": "",
-   "end": "",
-   "mark": null
-  },
-  {
-   "id": "p1111-short-mcd",
-   "date": "Nov 11",
-   "title": "Short MCD",
-   "said": "i am also shorting mcd tonight on this tech rebound and its overextended to the upside on RSI",
-   "execution": [],
-   "result": "",
-   "pnl": "",
-   "end": "",
-   "mark": null
-  },
-  {
-   "id": "p1111-qqq-long-flip",
-   "date": "Nov 11",
-   "title": "Long QQQ into 705 to 710, flip short, relong 680",
-   "said": "add QQQ longs into 705-710 region and flip short. look to relong 680",
-   "execution": [],
-   "result": "",
-   "pnl": "",
-   "end": "",
-   "mark": null
-  }
- ],
- "mine": "",
- "gospel": [
-  {
-   "n": 1,
-   "date": "Nov 11",
-   "text": "Set a plan, follow the plan.",
-   "by": ""
-  },
-  {
-   "n": 2,
-   "date": "Nov 11",
-   "text": "Does this theme solve a problem or fulfill a need that is so universal and urgent that it could rearrange the existing market structure? Most truly revolutionary paradigm shifts do one of two things: reduce suffering or increase connection.",
-   "by": "Citrini"
-  },
-  {
-   "n": 3,
-   "date": "Nov 11",
-   "text": "It's not whether you're right or wrong; it's how much you make when you're right and how much you lose when you're wrong.",
-   "by": "Druckenmiller"
-  },
-  {
-   "n": 4,
-   "date": "Nov 11",
-   "text": "Warren Buffett, Carl Icahn, George Soros: they all only have one thing in common. And it's the exact opposite of what they teach in a business school. It is to make large, concentrated bets where they have a lot of conviction.",
-   "by": "Druckenmiller"
-  },
-  {
-   "n": 5,
-   "date": "Nov 11",
-   "text": "I follow the old Soros rule, invest and then investigate.",
-   "by": "Druckenmiller"
-  },
-  {
-   "n": 6,
-   "date": "Nov 11",
-   "text": "Soros used to say the crowd's right 80% of the time. You just can't be caught in the other 20% because you can get your head handed to you.",
-   "by": "Druckenmiller"
-  }
- ],
+ "journal": {
+  "plans": [
+   {
+    "id": "p1111-short-qqq",
+    "date": "2026-11-11",
+    "title": "Short QQQ at 700 to 710",
+    "said": "qqq up to 700-710 area by sometime next week on this multi week short squeeze, and then a short term reversal due to anthropic ipo, jensen hearing, to retest some lows ... for execution i will short in that range"
+   },
+   {
+    "id": "p1111-short-aaoi",
+    "date": "2026-11-11",
+    "title": "Short AAOI when QQQ hits 700 to 710",
+    "said": "shorting the weakest ai names in that range (aaoi)"
+   },
+   {
+    "id": "p1111-long-retest",
+    "date": "2026-11-11",
+    "title": "Buy AMD, BE, COHR on the retest",
+    "said": "long strongest ai names on those retests (AMD, BE, COHR, donot need to expand beyond these)"
+   },
+   {
+    "id": "p1111-short-mcd",
+    "date": "2026-11-11",
+    "title": "Short MCD",
+    "said": "i am also shorting mcd tonight on this tech rebound and its overextended to the upside on RSI"
+   },
+   {
+    "id": "p1111-qqq-long-flip",
+    "date": "2026-11-11",
+    "title": "Long QQQ into 705 to 710, flip short, relong 680",
+    "said": "add QQQ longs into 705-710 region and flip short. look to relong 680"
+   }
+  ],
+  "trades": [],
+  "gospel": [
+   {
+    "id": "g1",
+    "added": "2026-11-11",
+    "text": "Set a plan, follow the plan.",
+    "said": "Rule #1: Set a plan, follow the plan."
+   },
+   {
+    "id": "g2",
+    "added": "2026-11-11",
+    "text": "Does this theme solve a problem or fulfill a need that is so universal and urgent that it could rearrange the existing market structure? Most truly revolutionary paradigm shifts do one of two things: reduce suffering or increase connection.",
+    "by": "Citrini",
+    "said": "\"Does this theme solve a problem or fulfill a need that is so universal and urgent that it could rearrange the existing market structure? Most truly revolutionary paradigm shifts do one of two things: reduce suffering or increase connection.\" -Citrini"
+   },
+   {
+    "id": "g3",
+    "added": "2026-11-11",
+    "text": "It's not whether you're right or wrong; it's how much you make when you're right and how much you lose when you're wrong.",
+    "by": "Druckenmiller",
+    "said": "add drucks first 4 quotes only"
+   },
+   {
+    "id": "g4",
+    "added": "2026-11-11",
+    "text": "Warren Buffett, Carl Icahn, George Soros: they all only have one thing in common. And it's the exact opposite of what they teach in a business school. It is to make large, concentrated bets where they have a lot of conviction.",
+    "by": "Druckenmiller",
+    "said": "add drucks first 4 quotes only"
+   },
+   {
+    "id": "g5",
+    "added": "2026-11-11",
+    "text": "I follow the old Soros rule, invest and then investigate.",
+    "by": "Druckenmiller",
+    "said": "add drucks first 4 quotes only"
+   },
+   {
+    "id": "g6",
+    "added": "2026-11-11",
+    "text": "Soros used to say the crowd's right 80% of the time. You just can't be caught in the other 20% because you can get your head handed to you.",
+    "by": "Druckenmiller",
+    "said": "add drucks first 4 quotes only"
+   }
+  ]
+ },
+ "stamp": "2026-11-11",
  "calls": [
   {
    "id": "1016-vix",
@@ -488,34 +531,92 @@
 <script>
 (function () {
   var D = JSON.parse(document.getElementById('nb-data').textContent);
-  var KEY = 'eqx.nb.marks', local = {};
-  try { local = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) {}
-  function save() { try { localStorage.setItem(KEY, JSON.stringify(local)); } catch (e) {} }
-  function markOf(i) { return Object.prototype.hasOwnProperty.call(local, i.id) ? local[i.id] : i.mark; }
+  var J = D.journal || { plans: [], trades: [], gospel: [] }, SHA = null;
+  var API = 'https://api.github.com/repos/dinohsu1011-art/market-lab/contents/market-lab-notebook-journal.json';
+  var KEY = 'eqx.nb.marks', TOK = 'eqx.nb.key', local = {};
+  function get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function put(k, v) { try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch (e) {} }
+  try { local = JSON.parse(get(KEY)) || {}; } catch (e) {}
+  function save() { put(KEY, JSON.stringify(local)); }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   var PATH = { success: 'M4 12.5 L9.5 18 L20 6', failure: 'M6 6 L18 18 M18 6 L6 18', hit: 'M4 12.5 L9.5 18 L20 6', miss: 'M6 6 L18 18 M18 6 L6 18', open: 'M12 5 A7 7 0 1 1 11.99 5' };
   function glyph(kind) { return '<svg class="glyph ' + kind + '" viewBox="0 0 24 24" aria-hidden="true"><path d="' + PATH[kind] + '"/></svg>'; }
 
-  function pad(el, pages) {
+  // The journal to page rows, the same way notebook.py builds them.
+  function short(d) { return d ? new Date(d + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : ''; }
+  function num(x) { return String(+(+x).toPrecision(6)); }
+  function money(x) { return (x >= 0 ? '+' : '-') + '$' + Math.abs(x).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
+  function signed(x) { return (x >= 0 ? '+' : '-') + Math.abs(x).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
+  function result(trades) {
+    var lots = {}, pnl = {}, order = [], closed = false, end = '';
+    trades.slice().sort(function (a, b) { return a.date < b.date ? -1 : a.date > b.date ? 1 : 0; }).forEach(function (t) {
+      var q = +t.qty, px = +t.price, tk = t.ticker, sign = (t.side === 'buy' || t.side === 'cover') ? 1 : -1;
+      var held = lots[tk] || (lots[tk] = []);
+      while (q && held.length && (held[0][0] > 0) !== (sign > 0)) {
+        var lq = held[0][0], lpx = held[0][1], m = Math.min(q, Math.abs(lq));
+        if (!(tk in pnl)) { pnl[tk] = 0; order.push(tk); }
+        pnl[tk] += m * (px - lpx) * (lq > 0 ? 1 : -1);
+        closed = true; end = t.date; q -= m;
+        held[0][0] = lq - m * (lq > 0 ? 1 : -1);
+        if (!held[0][0]) held.shift();
+      }
+      if (q) held.push([sign * q, px]);
+    });
+    if (!closed) return { text: '', pnl: null, end: '' };
+    var open = Object.keys(lots).some(function (k) { return lots[k].length; }), sum = 0;
+    var txt = order.map(function (tk) { sum += pnl[tk]; return tk + ' ' + signed(pnl[tk]); }).join(', ');
+    return { text: txt + (open ? ' (partly open)' : ''), pnl: sum, end: open ? '' : end };
+  }
+  function derive() {
+    var total = null;
+    var ideas = (J.plans || []).map(function (p) {
+      var mine = (J.trades || []).filter(function (t) { return t.plan === p.id; }), r = result(mine);
+      if (r.pnl !== null) total = (total || 0) + r.pnl;
+      var end = p.closed || r.end;
+      return { id: p.id, date: short(p.date), title: p.title, mark: p.mark || null, result: p.result || r.text,
+               pnl: r.pnl !== null ? money(r.pnl) : '', end: end ? short(end) : '',
+               execution: mine.slice().sort(function (a, b) { return a.date < b.date ? -1 : 1; })
+                 .map(function (t) { return short(t.date) + ': ' + t.side + ' ' + num(t.qty) + ' ' + t.ticker + ' at ' + num(t.price); }) };
+    });
+    var gospel = (J.gospel || []).map(function (g, i) { return { n: i + 1, text: g.text, by: g.by || '' }; });
+    return { ideas: ideas, gospel: gospel, mine: total !== null ? money(total) : '' };
+  }
+  function stamp() {
+    var all = [D.stamp || ''];
+    (J.plans || []).forEach(function (p) { all.push(p.date); });
+    (J.gospel || []).forEach(function (g) { all.push(g.added); });
+    (J.trades || []).forEach(function (t) { all.push(t.date); });
+    var d = all.filter(Boolean).sort().pop();
+    if (d) document.querySelector('.nb-upd').textContent = 'Updated ' + new Date(d + 'T12:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+
+  // A bound pad: pages stack and turn; set() swaps the pages without rebinding.
+  function pad(el) {
     var stack = el.querySelector('.pad-pages'), fol = el.querySelector('.folio'), num = fol.querySelector('span');
-    var prev = fol.querySelector('.prev'), next = fol.querySelector('.next'), n = pages.length, cur = 0;
-    stack.innerHTML = pages.map(function (h, i) { return '<article class="pg" style="z-index:' + (n - i) + '">' + h + '</article>'; }).join('');
-    var pgs = Array.prototype.slice.call(stack.children);
-    fol.hidden = n < 2;
+    var prev = fol.querySelector('.prev'), next = fol.querySelector('.next'), pgs = [], n = 0, cur = 0, self = { stack: stack };
     function go(k) {
       cur = Math.max(0, Math.min(n - 1, k));
       pgs.forEach(function (p, i) { p.classList.toggle('gone', i < cur); p.inert = i !== cur; p.setAttribute('aria-hidden', i !== cur); });
       num.textContent = (cur + 1) + ' / ' + n; prev.disabled = cur === 0; next.disabled = cur === n - 1;
     }
-    stack.addEventListener('click', function (e) { if (e.target.closest('button')) return; go(cur === n - 1 ? 0 : cur + 1); });
+    self.set = function (pages) {
+      n = pages.length;
+      stack.innerHTML = pages.map(function (h, i) { return '<article class="pg" style="z-index:' + (n - i) + '">' + h + '</article>'; }).join('');
+      pgs = Array.prototype.slice.call(stack.children);
+      fol.hidden = n < 2;
+      go(Math.min(cur, n - 1));
+    };
+    self.go = go;
+    self.turnable = function () { return true; };
+    stack.addEventListener('click', function (e) { if (e.target.closest('button') || !self.turnable(e)) return; go(cur === n - 1 ? 0 : cur + 1); });
     prev.addEventListener('click', function () { go(cur - 1); });
     next.addEventListener('click', function () { go(cur + 1); });
     el.addEventListener('keydown', function (e) {
+      if (e.target !== el) return;
       if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { go(cur + 1); e.preventDefault(); }
       if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { go(cur - 1); e.preventDefault(); }
     });
-    go(0);
-    return { go: go, stack: stack };
+    return self;
   }
 
   // A ledger row: date and idea on the left; end date, result and P&L on the right.
@@ -526,37 +627,46 @@
       '<div class="r"><span class="d">' + esc(o.end || '') + '</span><div><span class="x">' + esc(o.detail || '') + '</span>' +
       (o.pnl ? '<span class="p">' + esc(o.pnl) + '</span>' : '') + '</div><span class="g">' + (o.g || '') + '</span></div></li>';
   }
-  function ledger(el, rows, per) {
+  function ledger(p, rows, per) {
     var pages = [];
     for (var k = 0; k < rows.length; k += per) pages.push('<ol class="ldg">' + rows.slice(k, k + per).join('') + '</ol>');
-    return pages.length ? pad(el, pages) : null;
+    p.set(pages.length ? pages : ['<ol class="ldg"></ol>']);
   }
 
   // Blueprint: Dino's trades. The ring on the right marks an idea a success or a failure.
-  var ideas = D.ideas || [];
+  var bpEl = document.getElementById('blueprint'), bp = pad(bpEl), view = derive();
+  function markOf(it) { return !token() && Object.prototype.hasOwnProperty.call(local, it.id) ? local[it.id] : it.mark; }
   function isOpen(it) { return !markOf(it) && !it.result; }
   function mk(it) {
     var m = markOf(it);
     return '<button class="mk" data-id="' + esc(it.id) + '" title="' + (m === 'success' ? 'Success' : m === 'failure' ? 'Failure' : 'Mark success or failure') + '">' + glyph(m || 'open') + '</button>';
   }
-  var bp = ledger(document.getElementById('blueprint'), ideas.map(function (it) {
-    return row({ id: it.id, open: isOpen(it), date: it.date, text: it.title, action: (it.execution || []).join('; '),
-                 end: it.end, detail: it.result, pnl: it.pnl, g: mk(it) });
-  }), 10);
-  document.querySelector('#blueprint .bk').textContent = D.mine || '';
-  if (bp) bp.stack.addEventListener('click', function (e) {
+  function drawBlueprint() {
+    ledger(bp, view.ideas.map(function (it) {
+      return row({ id: it.id, open: isOpen(it), date: it.date, text: it.title, action: it.execution.join('; '),
+                   end: it.end, detail: it.result, pnl: it.pnl, g: mk(it) });
+    }), 10);
+    bpEl.querySelector('.bk').textContent = view.mine || '';
+  }
+  bp.turnable = function (e) { return !editing() || !e.target.closest('li'); };
+  bp.stack.addEventListener('click', function (e) {
     var b = e.target.closest('.mk');
-    if (!b) return;
-    var it = ideas.filter(function (x) { return x.id === b.dataset.id; })[0], m = markOf(it);
-    local[it.id] = m === 'success' ? 'failure' : m === 'failure' ? null : 'success';
-    save();
-    var li = bp.stack.querySelector('[data-row="' + it.id + '"]');
-    li.classList.toggle('open', isOpen(it));
-    li.querySelector('.g').innerHTML = mk(it);
+    if (b) {
+      var it = view.ideas.filter(function (x) { return x.id === b.dataset.id; })[0], m = markOf(it);
+      var nx = m === 'success' ? 'failure' : m === 'failure' ? null : 'success';
+      if (token()) { it.mark = nx; drawBlueprint(); commit(function (j) { var p = find(j.plans, it.id); if (p) p.mark = nx; }, 'mark ' + it.title).catch(function () {}); return; }
+      local[it.id] = nx; save();
+      var li = bp.stack.querySelector('[data-row="' + it.id + '"]');
+      li.classList.toggle('open', isOpen(it));
+      li.querySelector('.g').innerHTML = mk(it);
+      return;
+    }
+    var li2 = e.target.closest('li[data-row]');
+    if (li2 && editing()) ideaForm(li2.dataset.row);
   });
 
   // Claude: my calls, graded, with the $100 paper book.
-  ledger(document.getElementById('claude'), (D.calls || []).map(function (c) {
+  ledger(pad(document.getElementById('claude')), (D.calls || []).map(function (c) {
     var open = c.result === 'open';
     return row({ open: open, date: c.date, text: c.text, action: c.action, end: c.end, detail: c.detail, pnl: c.pnl, g: open ? '' : glyph(c.result) });
   }), 10);
@@ -577,7 +687,7 @@
     probe.innerHTML = '<div class="face fr"><div class="bb-pg"></div></div>';
     bib.appendChild(probe);
     var box = probe.querySelector('.bb-pg'), pages = [], cur = [];
-    (D.gospel || []).forEach(function (g, i) {
+    view.gospel.forEach(function (g, i) {
       var v = verse(g, i);
       box.innerHTML = cur.concat(v).join('');
       if (box.scrollHeight > box.clientHeight + 1 && cur.length) { pages.push(cur); cur = []; }
@@ -589,7 +699,8 @@
   }
   var sheets = [], flipped = 0, most = 1;
   function face(side, html) { return '<div class="face ' + side + '">' + (html == null ? '' : '<div class="bb-pg">' + html + '</div>') + '</div>'; }
-  function build() {
+  function build(keep) {
+    var was = keep ? flipped : 0;
     sheets.forEach(function (s) { s.remove(); });
     var pages = paginate(), one = narrow.matches, leaves = [];
     if (one) pages.forEach(function (p) { leaves.push([p, '']); });
@@ -600,7 +711,7 @@
     sheets = Array.prototype.slice.call(bib.querySelectorAll('.sheet'));
     var last = leaves[leaves.length - 1];
     most = sheets.length - (last && last[1] ? 0 : 1);   // a last back page with verses on it can be turned to
-    flipped = 0; place();
+    flipped = Math.min(was, most); place();
   }
   function place(moving) {
     var n = sheets.length;
@@ -621,6 +732,7 @@
     s.addEventListener('transitionend', function done(e) { if (e.propertyName !== 'transform') return; s.removeEventListener('transitionend', done); place(); });
   }
   bib.addEventListener('click', function (e) {
+    if (editing()) { gospelForm(); return; }
     var s = e.target.closest('.sheet');
     if (!s) { turn(flipped ? 0 : 1); return; }
     var i = sheets.indexOf(s);
@@ -628,14 +740,204 @@
     else turn(flipped < most ? flipped + 1 : 0);                // a right page: turn it; the last one closes the book
   });
   bib.addEventListener('keydown', function (e) {
-    if (e.key === 'Enter' || e.key === ' ') { turn(flipped ? 0 : 1); e.preventDefault(); }
+    if (e.key === 'Enter' || e.key === ' ') { editing() ? gospelForm() : turn(flipped ? 0 : 1); e.preventDefault(); }
     if (e.key === 'ArrowRight') { turn(flipped < most ? flipped + 1 : 0); e.preventDefault(); }
     if (e.key === 'ArrowLeft') { turn(flipped - 1); e.preventDefault(); }
     if (e.key === 'Escape') turn(0);
   });
-  build();
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(build);
-  if (narrow.addEventListener) narrow.addEventListener('change', build);
+
+  function render(keep) { view = derive(); drawBlueprint(); build(keep); stamp(); }
+  render();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { build(true); });
+  if (narrow.addEventListener) narrow.addEventListener('change', function () { build(); });
+
+  // ---- Editing. The journal lives in the site repo; saves go through the GitHub contents API. ----
+  var pen = document.querySelector('.nb-pen');
+  function token() { return get(TOK); }
+  function editing() { return document.body.classList.contains('editing'); }
+  function setEditing(on) { document.body.classList.toggle('editing', on); pen.setAttribute('aria-pressed', on); pen.title = on ? 'Done editing' : 'Edit'; }
+  function today() { var d = new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+  var seq = 0;
+  function uid(p) { return p + Date.now().toString(36) + (seq++).toString(36); }
+  function find(list, id) { return (list || []).filter(function (x) { return x.id === id; })[0]; }
+  function decode(b64) { var bin = atob(b64.replace(/\s/g, '')), u = new Uint8Array(bin.length); for (var i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return new TextDecoder().decode(u); }
+  function encode(s) { var u = new TextEncoder().encode(s), bin = ''; for (var i = 0; i < u.length; i++) bin += String.fromCharCode(u[i]); return btoa(bin); }
+  function headers() { var h = { Accept: 'application/vnd.github+json' }, t = token(); if (t) h.Authorization = 'Bearer ' + t; return h; }
+  function fail(r) { var e = new Error(r.status === 401 || r.status === 403 ? 'key' : r.status === 409 ? 'conflict' : 'HTTP ' + r.status); e.status = r.status; return e; }
+  function load() {
+    return fetch(API + '?ref=main&t=' + Date.now(), { headers: headers(), cache: 'no-store' }).then(function (r) {
+      if (!r.ok) throw fail(r);
+      return r.json();
+    }).then(function (m) { SHA = m.sha; return JSON.parse(decode(m.content)); });
+  }
+  // Apply one edit to the newest copy and save it; a clash with another save retries on a fresh copy.
+  var queue = Promise.resolve();
+  function attempt(edit, what, n) {
+    return load().then(function (j) {
+      edit(j);
+      var body = { message: 'Notebook edit: ' + what, content: encode(JSON.stringify(j, null, 1) + '\n'), sha: SHA, branch: 'main' };
+      return fetch(API, { method: 'PUT', headers: Object.assign({ 'Content-Type': 'application/json' }, headers()), body: JSON.stringify(body) })
+        .then(function (r) { if (!r.ok) throw fail(r); return r.json(); })
+        .then(function (m) { SHA = m.content.sha; J = j; render(true); });
+    }).catch(function (e) {
+      if ((e.status === 409 || e.status === 422) && n < 2) return attempt(edit, what, n + 1);
+      throw e;
+    });
+  }
+  function commit(edit, what) {
+    var p = queue.then(function () { return attempt(edit, what, 0); }).catch(function (e) {
+      if (e.message === 'key') { put(TOK, null); setEditing(false); }
+      render(true);
+      throw e;
+    });
+    queue = p.catch(function () {});
+    return p;
+  }
+
+  // Dialog helpers: everything is built with DOM nodes and .value, so nothing typed is parsed as HTML.
+  function el(tag, attrs, kids) {
+    var n = document.createElement(tag);
+    Object.keys(attrs || {}).forEach(function (k) { if (k === 'text') n.textContent = attrs[k]; else if (k in n && k !== 'list') n[k] = attrs[k]; else n.setAttribute(k, attrs[k]); });
+    (kids || []).forEach(function (c) { if (c) n.appendChild(c); });
+    return n;
+  }
+  function field(label, input) { return el(input.tagName === 'DIV' ? 'div' : 'label', { className: 'fld' }, [el('span', { text: label }), input]); }
+  function dialog(title, body, actions) {
+    var d = el('dialog', { className: 'nb-dlg' }), msg = el('span', { className: 'msg' });
+    d.appendChild(el('h3', { text: title }));
+    body.forEach(function (b) { d.appendChild(b); });
+    var foot = el('div', { className: 'foot' }, [actions.left || null, msg]);
+    var cancel = el('button', { type: 'button', className: 'btn', text: 'Cancel', onclick: function () { d.close(); } });
+    var ok = el('button', { type: 'button', className: 'btn go', text: actions.ok || 'Save' });
+    ok.onclick = function () {
+      var p = actions.save(msg);
+      if (!p || !p.then) return;
+      ok.disabled = true; msg.className = 'msg'; msg.textContent = 'Saving…';
+      p.then(function () { d.close(); }, function (e) {
+        ok.disabled = false; msg.className = 'msg bad';
+        msg.textContent = e.message === 'key' ? 'Key rejected.' : 'Couldn’t save (' + e.message + ').';
+      });
+    };
+    foot.appendChild(cancel); foot.appendChild(ok); d.appendChild(foot);
+    d.addEventListener('close', function () { d.remove(); });
+    document.body.appendChild(d); d.showModal();
+    function fit(t) { t.style.height = 'auto'; t.style.height = t.scrollHeight + 2 + 'px'; }
+    d.addEventListener('input', function (e) { if (e.target.tagName === 'TEXTAREA') fit(e.target); });
+    d.querySelectorAll('textarea').forEach(fit);
+    return d;
+  }
+
+  function keyForm(note) {
+    var inp = el('input', { type: 'password', autocomplete: 'off', spellcheck: false, placeholder: 'github_pat_…' });
+    var left = token() ? el('button', { type: 'button', className: 'btn del', text: 'Forget key', onclick: function () { put(TOK, null); setEditing(false); d.close(); } }) : null;
+    var d = dialog('GitHub key', [field('Key', inp)], { ok: 'Use key', left: left, save: function (msg) {
+      var v = inp.value.trim();
+      if (!v) { msg.className = 'msg bad'; msg.textContent = 'Paste the key first.'; return; }
+      put(TOK, v);
+      return load().then(function (j) { J = j; render(true); setEditing(true); }, function (e) { put(TOK, null); throw e; });
+    } });
+    if (note) { var m = d.querySelector('.msg'); m.className = 'msg bad'; m.textContent = note; }
+    inp.focus();
+  }
+  pen.addEventListener('click', function () {
+    if (editing()) { setEditing(false); return; }
+    if (!token()) { keyForm(); return; }
+    load().then(function (j) { J = j; render(true); setEditing(true); }, function (e) {
+      if (e.message === 'key') { put(TOK, null); keyForm('That key didn’t work. Paste it again.'); }
+    });
+  });
+  bpEl.querySelector('.add').addEventListener('click', function (e) { e.stopPropagation(); ideaForm(null); });
+
+  function ideaForm(id) {
+    var p = find(J.plans, id) || { date: today(), title: '', said: '', mark: null };
+    var fills = (J.trades || []).filter(function (t) { return id && t.plan === id; }).map(function (t) { return Object.assign({}, t); });
+    var date = el('input', { type: 'date', value: p.date || today() });
+    var closed = el('input', { type: 'date', value: p.closed || '' });
+    var title = el('input', { type: 'text', value: p.title || '' });
+    var said = el('textarea', { rows: 3, value: p.said || '' });
+    var res = el('input', { type: 'text', value: p.result || '' });
+    var mark = p.mark || null, marks = el('div', { className: 'marks' });
+    [['open', null, 'Open'], ['success', 'success', 'Success'], ['failure', 'failure', 'Failure']].forEach(function (m) {
+      var b = el('button', { type: 'button' });
+      b.innerHTML = glyph(m[0]); b.appendChild(document.createTextNode(m[2]));
+      b.setAttribute('aria-pressed', mark === m[1]);
+      b.onclick = function () { mark = m[1]; Array.prototype.forEach.call(marks.children, function (c) { c.setAttribute('aria-pressed', c === b); }); };
+      marks.appendChild(b);
+    });
+    var box = el('div', { className: 'fills' });
+    function fillRow(t) {
+      var d = el('input', { type: 'date', value: t.date || today() });
+      var side = el('select', {}, ['buy', 'sell', 'short', 'cover'].map(function (s) { return el('option', { value: s, text: s }); }));
+      side.value = t.side || 'buy';
+      var qty = el('input', { type: 'number', step: 'any', min: '0', placeholder: 'Qty', value: t.qty != null ? t.qty : '' });
+      var tk = el('input', { type: 'text', placeholder: 'Ticker', value: t.ticker || '' });
+      var px = el('input', { type: 'number', step: 'any', min: '0', placeholder: 'Price', value: t.price != null ? t.price : '' });
+      var r = el('div', { className: 'fill' }, [d, side, qty, tk, px, el('button', { type: 'button', className: 'x', title: 'Remove fill', text: '×', onclick: function () { r.remove(); } })]);
+      r._read = function () { return { id: t.id || uid('t'), date: d.value, side: side.value, qty: +qty.value, ticker: tk.value.trim().toUpperCase(), price: +px.value }; };
+      r._ok = function () { return d.value && tk.value.trim() && +qty.value > 0 && +px.value > 0; };
+      r._blank = function () { return !tk.value.trim() && !qty.value && !px.value; };
+      box.appendChild(r);
+    }
+    fills.forEach(fillRow);
+    var add = el('button', { type: 'button', className: 'more', text: '+ Fill', onclick: function () { fillRow({}); } });
+    var del = id ? el('button', { type: 'button', className: 'btn del', text: 'Delete', onclick: function () {
+      if (!confirm('Delete this idea and its fills?')) return;
+      commit(function (j) {
+        j.plans = (j.plans || []).filter(function (x) { return x.id !== id; });
+        j.trades = (j.trades || []).filter(function (x) { return x.plan !== id; });
+      }, 'delete ' + p.title).then(function () { dlg.close(); }, function (e) { var m = dlg.querySelector('.msg'); m.className = 'msg bad'; m.textContent = 'Couldn’t delete (' + e.message + ').'; });
+    } }) : null;
+    var dlg = dialog(id ? 'Idea' : 'New idea', [
+      el('div', { className: 'two' }, [field('Date', date), field('Closed', closed)]),
+      field('Idea', title), field('Notes', said), field('Mark', marks),
+      el('div', { className: 'fld' }, [el('span', { text: 'Fills' })]), box, add, field('Result', res)
+    ], { left: del, save: function (msg) {
+      var rows = Array.prototype.filter.call(box.children, function (r) { return !r._blank(); });
+      if (!title.value.trim()) { msg.className = 'msg bad'; msg.textContent = 'The idea needs a name.'; return; }
+      if (rows.some(function (r) { return !r._ok(); })) { msg.className = 'msg bad'; msg.textContent = 'Each fill needs a date, qty, ticker and price.'; return; }
+      var pid = id || uid('p'), keep = {
+        id: pid, date: date.value || today(), title: title.value.trim(), said: said.value.trim(),
+        mark: mark, closed: closed.value, result: res.value.trim() };
+      var trades = rows.map(function (r) { var t = r._read(); t.plan = pid; return t; });
+      return commit(function (j) {
+        var q = find(j.plans, pid);
+        if (!q) { q = { id: pid }; (j.plans = j.plans || []).push(q); }
+        ['date', 'title', 'said', 'mark', 'closed', 'result'].forEach(function (f) { if (keep[f]) q[f] = keep[f]; else delete q[f]; });
+        if (!q.said && !id) q.said = 'added on site';
+        j.trades = (j.trades || []).filter(function (t) { return t.plan !== pid; }).concat(trades);
+      }, (id ? 'edit ' : 'add ') + keep.title);
+    } });
+    title.focus();
+  }
+
+  function gospelForm() {
+    var list = el('div', { className: 'verses' });
+    function verseRow(g) {
+      var t = el('textarea', { rows: 2, value: g.text || '' }), by = el('input', { type: 'text', placeholder: 'By', value: g.by || '' });
+      var side = el('div', { className: 'side' }, [
+        el('button', { type: 'button', className: 'x mv', title: 'Move up', text: '↑', onclick: function () { if (r.previousSibling) list.insertBefore(r, r.previousSibling); } }),
+        el('button', { type: 'button', className: 'x mv', title: 'Move down', text: '↓', onclick: function () { if (r.nextSibling) list.insertBefore(r.nextSibling, r); } }),
+        el('button', { type: 'button', className: 'x', title: 'Remove verse', text: '×', onclick: function () { r.remove(); } })]);
+      var r = el('div', { className: 'verse' }, [el('div', {}, [t, by]), side]);
+      r._read = function () {
+        var o = Object.assign({}, g, { text: t.value.trim(), by: by.value.trim() });
+        if (!o.id) { o.id = uid('g'); o.added = today(); o.said = 'added on site'; }
+        if (!o.by) delete o.by;
+        return o;
+      };
+      list.appendChild(r);
+      return t;
+    }
+    (J.gospel || []).forEach(verseRow);
+    var add = el('button', { type: 'button', className: 'more', text: '+ Verse', onclick: function () { verseRow({}).focus(); } });
+    dialog('Gospel', [list, add], { save: function () {
+      var verses = Array.prototype.map.call(list.children, function (r) { return r._read(); }).filter(function (g) { return g.text; });
+      return commit(function (j) { j.gospel = verses; }, 'gospel');
+    } });
+  }
+
+  // The newest copy, so edits made elsewhere show before the next rebuild.
+  load().then(function (j) { J = j; render(true); }, function (e) { if (e.message === 'key') put(TOK, null); });
 })();
 </script>
 </body>
