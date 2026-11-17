@@ -36,7 +36,7 @@
 .fin-chart .tip span{float:right;margin-left:14px;font-variant-numeric:tabular-nums}
 
 /* grid */
-.fin-wrap{overflow-x:auto;border:1px solid var(--ml-border);border-radius:8px;background:var(--ml-surface)}
+.fin-wrap{overflow:auto;max-height:calc(100vh - 32px);overscroll-behavior:contain;border:1px solid var(--ml-border);border-radius:8px;background:var(--ml-surface)}
 table.fin{border-collapse:separate;border-spacing:0;width:100%;font-variant-numeric:tabular-nums;font-size:15px}
 .fin th,.fin td{padding:0 12px;height:38px;white-space:nowrap;text-align:right;border-bottom:1px solid transparent}
 .fin thead th{position:sticky;top:0;background:var(--ml-surface);font-weight:600;font-size:14px;border-bottom:1px solid var(--ml-border);z-index:2}
@@ -130,3 +130,32 @@ table.fin{border-collapse:separate;border-spacing:0;width:100%;font-variant-nume
 .fin-page .tk li span{color:var(--ml-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .fin-page .tk li[aria-selected="true"],.fin-page .tk li:hover{background:var(--ml-hover)}
 .fin-page .tk li.none{color:var(--ml-muted);cursor:default}
+.fin td.txt{font-size:13px;white-space:nowrap;color:var(--ml-ink)}
+
+/* Muse model tab (META): editable inputs look like estimate cells, results are plain text */
+.fin-page [hidden]{display:none !important}
+.muse-bar{display:flex;justify-content:flex-end;margin:0 0 14px}
+.muse-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:start}
+.muse-grid .fin-wrap{overflow-x:auto}
+table.fin.mt th.lab,table.fin.mt td.lab{min-width:210px;width:46%;white-space:normal;line-height:1.25;padding-top:6px;padding-bottom:6px}
+table.fin.mt thead th.lab{font-size:15px}
+table.fin.mt thead th{height:44px}
+table.fin.mt td{min-width:74px}
+table.fin.mt td.inp input{min-width:0;width:100%}
+table.fin.mt tr.out td:not(.lab){color:var(--ml-ink)}
+table.fin.mt tr.out.total td{font-weight:600}
+table.fin.mt td.pos{background:color-mix(in srgb,var(--ml-up,#2f7d4f) 14%,transparent)}
+table.fin.mt td.neg{color:var(--ml-down)}
+table.fin.mt td[data-sens]{cursor:help}
+.muse-chart{margin:0}
+.muse-chart .key{display:flex;gap:4px 18px;margin:0 0 8px}
+.muse-chart .key i.rv,.muse-chart rect.rv,.muse-chart .rv rect{background:var(--fin-bar-a);fill:var(--fin-bar-a)}
+.muse-chart .key i.cs,.muse-chart .cs rect{background:#c2843a;fill:#c2843a}
+.muse-chart svg text{font-size:12px;fill:var(--ml-muted)}
+.muse-chart svg text.sc{font-size:13px;fill:var(--ml-ink);font-weight:600}
+.muse-chart line.base{stroke:var(--ml-border)}
+@media (max-width:1180px){.muse-grid{grid-template-columns:1fr}}
+
+.muse-top{margin:0 0 22px}
+.fin-chart .key i.ln{height:3px;vertical-align:3px}
+.muse-grid .fin-wrap{max-height:none}

@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Financials — Equinox</title>
-  <link rel="stylesheet" href="market-lab-financials.css?v=20261113-b1709fad">
-<link rel="stylesheet" href="market-lab-shell.css?v=20261113-b1709fad"><script src="market-lab-shell.js?v=20261113-b1709fad"></script></head>
+  <link rel="stylesheet" href="market-lab-financials.css?v=20261113-e3d03752">
+<link rel="stylesheet" href="market-lab-shell.css?v=20261113-e3d03752"><script src="market-lab-shell.js?v=20261113-e3d03752"></script></head>
 <body>
 <div class="fin-page">
   <div class="mast">
@@ -39,6 +39,7 @@
     <button type="button" role="tab" data-tab="is" aria-selected="true">Income statement</button>
     <button type="button" role="tab" data-tab="seg" aria-selected="false">Segments</button>
     <button type="button" role="tab" data-tab="kpi" aria-selected="false">KPIs</button>
+    <button type="button" role="tab" data-tab="muse" aria-selected="false" hidden>Muse model</button>
   </div>
 
   <section class="fin-chart" id="chart" hidden></section>
@@ -46,7 +47,10 @@
   <div class="fin-wrap" id="wrap">
     <table class="fin" id="grid"></table>
   </div>
+
+  <section class="muse" id="muse" hidden></section>
 </div>
-<script src="market-lab-financials.js?v=20261113-b1709fad"></script>
+<script src="market-lab-financials-muse.js?v=20261113-e3d03752"></script>
+<script src="market-lab-financials.js?v=20261113-e3d03752"></script>
 </body>
 </html>

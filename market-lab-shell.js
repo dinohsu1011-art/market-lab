@@ -58,15 +58,15 @@ window.MarketLabReadJSON = async function(response){const bytes=new Uint8Array(a
 
   const links = [
     ['home','Home','market-lab-home.html'],
-    ['brief','Brief','market-lab-brief.html'],
+    ['financials','Financials','market-lab-financials.html'],
     ['themes','Charts','market-lab-themes.html'],
+  ];
+  const more = [
+    ['brief','Brief','market-lab-brief.html'],
     ['leaders','Leaders','market-lab-leaders.html'],
     ['analytics','Analytics','market-lab-analytics.html'],
     ['macro','Macro','market-lab-macro.html'],
     ['weekend','Reviews','market-lab-weekend.html'],
-  ];
-  const more = [
-    ['financials','Financials','market-lab-financials.html'],
     ['calls','Earnings calls','market-lab-calls.html'],
     ['capacity','Data center capacity','market-lab-capacity.html'],
     ['baskets','Baskets','market-lab-baskets.html'],
