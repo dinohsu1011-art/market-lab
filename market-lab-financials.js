@@ -62,6 +62,8 @@
   const save = () => { store.set(KEY, {ov, mode}); store.set(VIEW, view); };
   const ok = v => v != null && isFinite(v);
 
+  let MODELS = [];
+  const modelOf = t => MODELS.includes(t) ? t : t === 'GOOG' && MODELS.includes('GOOGL') ? 'GOOGL' : null;   // GOOG shares the GOOGL model
   function setup(data) {
     D = data; HIST = D.quarters.length;
     Q = D.quarters.map((q, i) => Object.assign({}, q, {i, est: false}));
@@ -74,7 +76,8 @@
     }
     GROUPS = (D.segment_groups || []).map((g, gi) => ({gi, label: g.label, rows: g.rows.map(r => ({key: `${gi}|${r.name}`, name: r.name, values: r.values.slice(), gap: new Set()}))}));
     // KPI tab rows: reported figures only, estimate columns stay blank
-    KG = (D.kpi_groups || []).map((g, gi) => ({gi: `k${gi}`, label: g.label, rows: g.rows.map(r => ({...r, key: `${gi}|${r.name}`}))}));
+    // ids by name, so a group added later (like Adjusted) does not shift saved collapse/chart picks
+    KG = (D.kpi_groups || []).map(g => ({gi: `k:${g.label}`, label: g.label, rows: g.rows.map(r => ({...r, key: `${g.label}|${r.name}`}))}));
     // The newest segment set drives the forecast. When a company skipped restating some quarters
     // (NVDA FY26 Q3-Q4), fill them from the mix of the reported quarters on each side so year-ago
     // growth works. Those cells are marked as estimates in the grid.
@@ -107,6 +110,12 @@
     const mb = document.querySelector('.fin-tabs [data-tab="muse"]');
     if (mb) mb.hidden = D.ticker !== 'META';
     if (view.tab === 'muse' && (!mb || mb.hidden)) view.tab = 'is';
+    const xb = document.querySelector('.fin-tabs [data-tab="model"]');
+    if (xb) xb.hidden = !modelOf(D.ticker);
+    if (view.tab === 'model' && (!xb || xb.hidden)) view.tab = 'is';
+    const ab = document.querySelector('.fin-tabs [data-tab="adj"]');
+    if (ab) ab.hidden = !(D.adjustments || []).length;
+    if (view.tab === 'adj' && (!ab || ab.hidden)) view.tab = 'is';
     document.querySelectorAll('.fin-tabs button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === view.tab)));
     $('co-name').textContent = D.name;
     $('co-tk').textContent = D.ticker;
@@ -114,9 +123,11 @@
   }
 
   // ---------- drivers ----------
-  // this quarter's edit, else the nearest edit to its left, else the default
+  // this quarter's edit, else the nearest edit to its left, else the default. Edits are saved by
+  // fiscal quarter id, so they survive data rebuilds; once an edited quarter is reported, its edit
+  // still carries into the estimate quarters after it.
   function look(k, i) {
-    for (let j = i; j >= HIST; j--) { const v = ov[`${k}|${Q[j].id}`]; if (v != null) return {v, j}; }
+    for (let j = i; j >= 0; j--) { const v = ov[`${k}|${Q[j].id}`]; if (v != null) return {v, j}; }
     return null;
   }
   const drv = (k, i, def) => { const h = look(k, i); return h ? h.v : def; };
@@ -205,8 +216,11 @@
   // the columns on screen: the chosen From/To range, with or without estimates
   function shownCols() {
     const fyOf = id => +String(id).slice(2, 6), lo = view.from, hi = view.to;
+    // Adjustments tab: start where the earnings releases start
+    const a0 = view.tab === 'adj' ? Math.min(...(D.adjustments || []).flatMap(b => Object.keys(b.q).map(Number))) : -1;
     return columns().filter(c => {
       if (c.est && view.est === false) return false;
+      if (Math.max(...c.idx) < a0) return false;
       if (view.period === 'q') return (!lo || c.key >= lo) && (!hi || c.key <= hi);
       return (!lo || c.fy >= fyOf(lo)) && (!hi || c.fy <= fyOf(hi));
     });
@@ -321,7 +335,7 @@
       rows.push({grp: g.label, gi: g.gi});
       g.rows.forEach((r, k) => {
         KPI[r.key] = r;
-        const id = `kpi|${r.key}`, kind = r.unit === 'usd' ? 'v' : r.unit === 'pct' ? 'p' : r.unit === 'text' ? 't' : 'k';
+        const id = `kpi|${r.key}`, kind = r.unit === 'usd' ? 'v' : r.unit === 'pct' ? 'p' : r.unit === 'text' ? 't' : r.unit === 'eps' ? 's' : 'k';
         const subs = [];
         if (kind !== 'p' && kind !== 't') subs.push({id: `kpig|${r.key}`, label: `${r.name} % chg YoY`, kind: 'p', sub: 1, seg: g.gi, f: c => growth(id, c)});
         if (r.ofrev) subs.push({id: `kpim|${r.key}`, label: `${r.name} % of revenue`, kind: 'p', sub: 1, seg: g.gi, f: c => { const v = val(id, c), t = val('rev', c); return v == null || !t ? null : v / t; }});
@@ -332,7 +346,31 @@
     });
     return rows;
   };
-  const allRows = () => view.tab === 'is' ? IS_ROWS() : view.tab === 'kpi' ? KPI_ROWS() : SEG_ROWS();
+  // Adjustments tab: each adjusted figure built up from the reported one, quarter by quarter from the
+  // earnings releases. A year is the sum of its four quarters ($ lines only; per-share years stay blank).
+  const ADJ_ROWS = () => {
+    const rows = [];
+    (D.adjustments || []).forEach((b, bi) => {
+      const gi = `a:${b.name}`, kind = b.unit === 'eps' ? 's' : 'v';
+      // an item missing from a quarter counts as 0 in the year, and shows as a dash when it is in none of them
+      const cell = (c, pick, item) => {
+        if (c.idx.length > 1 && kind === 's') return null;
+        let t = 0, any = false;
+        for (const i of c.idx) {
+          const q = b.q[String(i)]; if (!q) return null;
+          const v = pick(q);
+          if (ok(v)) { t += v; any = true; } else if (!item) return null;
+        }
+        return any ? t : null;
+      };
+      rows.push({grp: b.name, gi});
+      rows.push({id: `adj|${bi}|s`, label: b.start, kind, main: 1, seg: gi, cls: 'rule', ab: b, f: c => cell(c, q => q.start)});
+      b.items.forEach((it, k) => rows.push({id: `adj|${bi}|${k}`, label: it, kind, sub: 1, seg: gi, ab: b, f: c => cell(c, q => (q.adj || [])[k], 1)}));
+      rows.push({id: `adj|${bi}|t`, label: b.name, kind, main: 1, cls: 'total', seg: gi, ab: b, f: c => cell(c, q => q.total)});
+    });
+    return rows;
+  };
+  const allRows = () => view.tab === 'is' ? IS_ROWS() : view.tab === 'kpi' ? KPI_ROWS() : view.tab === 'adj' ? ADJ_ROWS() : SEG_ROWS();
   const hidden = () => (view.hide = view.hide || {})[D.ticker] || [];
   const rows = () => allRows().filter(r => r.grp || ((view.pct || r.kind !== 'p' || r.main) && !((r.hg ?? r.seg) != null && hidden().includes(r.hg ?? r.seg))));
   // segments tab default: the newest set, plus older versions of the same set reaching back
@@ -355,7 +393,7 @@
     return pick.flatMap(g => g.rows.map(r => `seg|${r.key}`));
   }
   const checked = () => {
-    if (!view.checked[view.tab]) view.checked[view.tab] = view.tab === 'is' ? ['rev'] : view.tab === 'kpi' ? KPI_ROWS().filter(r => r.main && r.kind !== 't').slice(0, 1).map(r => r.id) : chain();
+    if (!view.checked[view.tab]) view.checked[view.tab] = view.tab === 'is' ? ['rev'] : view.tab === 'kpi' ? KPI_ROWS().filter(r => r.main && r.kind !== 't').slice(0, 1).map(r => r.id) : view.tab === 'adj' ? ['adj|0|t'] : chain();
     return view.checked[view.tab];
   };
   const isGap = (r, c) => r.gap && !c.est && c.idx.some(i => r.gap.has(i));
@@ -385,9 +423,20 @@
   const grid = $('grid'), wrap = $('wrap');
   let cols = [], rws = [];
 
+  const modelDocs = {};
   function render(scroll) {
+    const mdl = view.tab === 'model' && !!window.EquinoxModel;
     const muse = view.tab === 'muse' && !!window.EquinoxMuse;
-    $('muse').hidden = !muse; wrap.hidden = muse; document.querySelector('.fin-bar').hidden = muse;
+    $('muse').hidden = !muse; $('model').hidden = !mdl;
+    wrap.hidden = muse || mdl; document.querySelector('.fin-bar').hidden = muse || mdl;
+    if (mdl) {
+      $('chart').hidden = true;
+      const t = modelOf(D.ticker), here = D.ticker;
+      (modelDocs[t] = modelDocs[t] || getJSON(`models/${t}.json`)).then(doc => {
+        if (view.tab === 'model' && D.ticker === here) window.EquinoxModel.mount($('model'), t, doc);
+      }).catch(() => { delete modelDocs[t]; $('model').textContent = 'The model sheets could not be loaded.'; });
+      return;
+    }
     if (muse) {
       $('chart').hidden = true;
       const r25 = Q.filter(q => q.fy === 2025 && !q.est).map(q => D.lines.rev[q.i]);
@@ -402,7 +451,7 @@
     rws = rows();
     const ck = checked();
     const firstEst = cols.findIndex((c, k) => c.est && (view.newest ? k === cols.length - 1 || !cols[k + 1].est : k === 0 || !cols[k - 1].est));
-    const head = `<thead><tr><th class="lab" scope="col">${{is: 'Income statement', seg: 'Segments', kpi: 'KPIs'}[view.tab]}</th>${cols.map((c, k) =>
+    const head = `<thead><tr><th class="lab" scope="col">${{is: 'Income statement', seg: 'Segments', kpi: 'KPIs', adj: 'Adjustments'}[view.tab]}</th>${cols.map((c, k) =>
       `<th scope="col" class="${c.est ? 'est' : ''}${k === firstEst ? ' first-est' : ''}">${c.label}${c.est ? 'E' : ''}<small>${c.date}</small></th>`).join('')}</tr></thead>`;
     const body = rws.map((r, ri) => {
       if (r.grp) return `<tr class="grp"><td class="lab">${r.gi == null ? r.grp : `<button type="button" class="gt" data-grp="${r.gi}" aria-expanded="${!hidden().includes(r.gi)}">${r.grp}</button>`}</td>${cols.map((c, k) => `<td class="${c.est ? 'est' : ''}${k === firstEst ? ' first-est' : ''}"></td>`).join('')}</tr>`;
@@ -444,7 +493,10 @@
         td.classList.toggle('neg', ok(v) && v < 0);
         const gp = !!isGap(r, c);
         td.classList.toggle('gap', gp);
-        if (gp) td.title = 'Not reported on this basis. Estimated from the segment mix before and after.'; else td.removeAttribute('title');
+        const aq = r.ab && c.idx.length === 1 ? r.ab.q[String(c.idx[0])] : null;
+        const tip = gp ? 'Not reported on this basis. Estimated from the segment mix before and after.'
+          : aq && aq.same ? 'No adjustments this quarter' : aq && aq.restated ? 'From the next year\'s release, on the restated basis' : '';
+        if (tip) td.title = tip; else td.removeAttribute('title');
       }
     });
     chart();
@@ -470,6 +522,8 @@
     fill(true);
     t.value = toInput(r.f(c), r.kind);
   });
+  // an edit still being typed when the page closes is saved too
+  window.addEventListener('pagehide', () => { const a = document.activeElement; if (a && grid.contains(a) && a.matches('td input')) a.dispatchEvent(new Event('change', {bubbles: true})); });
   $('chart').addEventListener('click', e => {
     const b = e.target.closest('button[data-cm]'); if (!b) return;
     view.cmode = b.dataset.cm; save(); chart();
@@ -477,7 +531,7 @@
   grid.addEventListener('click', e => {
     const gt = e.target.closest('button[data-grp]');
     if (gt) {
-      const gi = /^k/.test(gt.dataset.grp) ? gt.dataset.grp : Number(gt.dataset.grp), h = hidden();
+      const gi = /^\d+$/.test(gt.dataset.grp) ? Number(gt.dataset.grp) : gt.dataset.grp, h = hidden();
       view.hide[D.ticker] = h.includes(gi) ? h.filter(x => x !== gi) : [...h, gi];
       save(); render(); return;
     }
@@ -703,7 +757,7 @@
     rws.filter(r => !r.grp).forEach(r => lines.push([`"${r.label}"`, ...cols.map(c => { const v = r.f(c); if (r.kind === 't') return v ? `"${v}"` : ''; return !ok(v) ? '' : (r.kind === 'v' && view.units === 'B' ? v / 1000 : v).toFixed(r.kind === 'p' ? 4 : 2); })].join(',')));
     const a = document.createElement('a');
     a.href = URL.createObjectURL(new Blob([lines.join('\n')], {type: 'text/csv'}));
-    a.download = `${D.ticker}-${{is: 'income-statement', seg: 'segments', kpi: 'kpis'}[view.tab]}-${view.period === 'q' ? 'quarterly' : 'annual'}.csv`;
+    a.download = `${D.ticker}-${{is: 'income-statement', seg: 'segments', kpi: 'kpis', adj: 'adjustments'}[view.tab]}-${view.period === 'q' ? 'quarterly' : 'annual'}.csv`;
     a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   };
 
@@ -737,8 +791,8 @@
   });
   pick.addEventListener('blur', () => setTimeout(() => { plist.hidden = true; if (D) pick.value = D.ticker; }, 150));
   plist.addEventListener('mousedown', e => { const li = e.target.closest('li[data-t]'); if (li) { e.preventDefault(); choose(li.dataset.t); } });
-  getJSON('financials/index.json').then(list => {
-    LIST = list;
+  Promise.all([getJSON('financials/index.json'), getJSON('models/index.json').catch(() => [])]).then(([list, models]) => {
+    LIST = list; MODELS = models;
     const t = list.some(c => c.ticker === view.ticker) ? view.ticker : list[0].ticker;
     pick.value = t;
     return open(t);

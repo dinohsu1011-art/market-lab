@@ -159,3 +159,19 @@ table.fin.mt td[data-sens]{cursor:help}
 .muse-top{margin:0 0 22px}
 .fin-chart .key i.ln{height:3px;vertical-align:3px}
 .muse-grid .fin-wrap{max-height:none}
+
+/* Model tab: the coverage model's build sheets, live */
+.mdl-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 14px}
+.mdl-bar .spacer{flex:1}
+.fin.mdl th,.fin.mdl td{height:30px;padding:0 10px;font-size:14px}
+.fin.mdl td.inp{padding:0 3px}
+.fin.mdl td.inp input{padding:3px 6px;min-width:68px}
+.fin.mdl th.lab,.fin.mdl td.lab{min-width:260px;max-width:340px;overflow:hidden;text-overflow:ellipsis}
+.fin.mdl th.fy,.fin.mdl td.fy{font-weight:600;box-shadow:inset 1px 0 0 var(--ml-border)}
+.fin.mdl tr.gap td{height:12px}
+.fin.mdl tr.grp td.lab{font-weight:600}
+.fin.mdl tr.total td{font-weight:600}
+.fin.mdl tr.rule td{border-bottom-color:var(--ml-border)}
+.fin.mdl td.fx{cursor:default}
+.fin.mdl td.fx:hover{background:var(--fin-est)}
+.fin.mdl td.edited{color:var(--fin-edit);font-weight:600}
