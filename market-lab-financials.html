@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Financials — Equinox</title>
+  <link rel="stylesheet" href="market-lab-financials.css?v=20261113-b1709fad">
+<link rel="stylesheet" href="market-lab-shell.css?v=20261113-b1709fad"><script src="market-lab-shell.js?v=20261113-b1709fad"></script></head>
+<body>
+<div class="fin-page">
+  <div class="mast">
+    <h1><span id="co-name"></span> <b id="co-tk"></b></h1>
+    <div class="tk"><input id="co" type="search" placeholder="Ticker" autocomplete="off" spellcheck="false" aria-label="Search by ticker" role="combobox" aria-controls="co-list"><ul id="co-list" role="listbox" hidden></ul></div>
+  </div>
+
+  <div class="fin-bar" role="toolbar" aria-label="Table options">
+    <div class="seg" id="period" role="group" aria-label="Period">
+      <button type="button" data-v="q" aria-pressed="true">Quarterly</button>
+      <button type="button" data-v="a" aria-pressed="false">Annual</button>
+    </div>
+    <div class="seg" id="units" role="group" aria-label="Units">
+      <button type="button" data-v="M" aria-pressed="true">M</button>
+      <button type="button" data-v="B" aria-pressed="false">B</button>
+    </div>
+    <div class="seg" id="dec" role="group" aria-label="Decimals">
+      <button type="button" data-v="1" aria-pressed="true">.0</button>
+      <button type="button" data-v="2" aria-pressed="false">.00</button>
+    </div>
+    <span class="range"><select id="from" aria-label="From"></select><span>to</span><select id="to" aria-label="To"></select></span>
+    <label class="tog"><input type="checkbox" id="est" checked> Estimates</label>
+    <label class="tog"><input type="checkbox" id="pct" checked> % rows</label>
+    <label class="tog"><input type="checkbox" id="rev"> Newest first</label>
+    <span class="spacer"></span>
+    <button type="button" id="dl">Download CSV</button>
+    <button type="button" id="reset">Reset estimates</button>
+  </div>
+
+  <div class="fin-tabs" role="tablist" aria-label="Statement">
+    <button type="button" role="tab" data-tab="is" aria-selected="true">Income statement</button>
+    <button type="button" role="tab" data-tab="seg" aria-selected="false">Segments</button>
+    <button type="button" role="tab" data-tab="kpi" aria-selected="false">KPIs</button>
+  </div>
+
+  <section class="fin-chart" id="chart" hidden></section>
+
+  <div class="fin-wrap" id="wrap">
+    <table class="fin" id="grid"></table>
+  </div>
+</div>
+<script src="market-lab-financials.js?v=20261113-b1709fad"></script>
+</body>
+</html>

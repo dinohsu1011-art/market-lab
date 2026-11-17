@@ -66,6 +66,8 @@ window.MarketLabReadJSON = async function(response){const bytes=new Uint8Array(a
     ['weekend','Reviews','market-lab-weekend.html'],
   ];
   const more = [
+    ['financials','Financials','market-lab-financials.html'],
+    ['calls','Earnings calls','market-lab-calls.html'],
     ['capacity','Data center capacity','market-lab-capacity.html'],
     ['baskets','Baskets','market-lab-baskets.html'],
     ['heatmaps','Heatmaps','market-lab-heatmaps.html'],

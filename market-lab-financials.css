@@ -1,0 +1,132 @@
+/* Financials: editable statement grid. Uses the shell's --ml-* tokens. */
+:root{--fin-est:#f4f6f5;--fin-input:#ffffff;--fin-edit:#9a5b13;--fin-bar-a:#3d5566;--fin-bar-e:#a9b9c4}
+:root[data-theme="dark"]{--fin-est:#202b33;--fin-input:#16212a;--fin-edit:#f0b264;--fin-bar-a:#9fb6c7;--fin-bar-e:#4f6474}
+
+.fin-page{max-width:1320px;margin:0 auto;padding:26px 28px 90px;font-size:15px}
+.fin-page .mast{display:flex;justify-content:space-between;align-items:baseline;gap:16px;border-bottom:1px solid var(--ml-border);padding-bottom:12px;margin:6px 0 18px}
+.fin-page .mast h1{font-size:30px;margin:0;letter-spacing:-.02em;font-weight:600}
+.fin-page .mast h1 b{font-weight:400;color:var(--ml-muted);font-size:20px;margin-left:6px;letter-spacing:.02em}
+.fin-page .mast>span{color:var(--ml-muted);font-size:13px;white-space:nowrap}
+
+.fin-bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin:0 0 16px}
+.fin-bar .spacer{flex:1}
+.fin-page button,.fin-page select{font:inherit;font-size:14px;color:var(--ml-ink);background:var(--ml-raised);border:1px solid var(--ml-border);border-radius:4px;padding:6px 11px;cursor:pointer;transition:background-color 150ms ease}
+.fin-page button:hover{background:var(--ml-hover)}
+.seg{display:inline-flex}
+.seg button{border-radius:0;margin-left:-1px}
+.seg button:first-child{border-radius:4px 0 0 4px;margin-left:0}
+.seg button:last-child{border-radius:0 4px 4px 0}
+.seg button[aria-pressed="true"]{background:var(--ml-ink);color:var(--ml-bg);border-color:var(--ml-ink);position:relative}
+.tog,.sel{display:inline-flex;align-items:center;gap:7px;font-size:14px;color:var(--ml-muted);cursor:pointer}
+.tog input{accent-color:var(--ml-ink);width:15px;height:15px;margin:0}
+
+.fin-tabs{display:flex;gap:2px;border-bottom:1px solid var(--ml-border);margin:0 0 14px}
+.fin-tabs button{background:transparent;border:0;border-radius:0;padding:9px 16px 10px;font-size:15px;color:var(--ml-muted);border-bottom:2px solid transparent;margin-bottom:-1px}
+.fin-tabs button:hover{background:transparent;color:var(--ml-ink)}
+.fin-tabs button[aria-selected="true"]{color:var(--ml-ink);border-bottom-color:var(--ml-ink);font-weight:600}
+
+/* chart of checked rows */
+.fin-chart{background:var(--ml-surface);border:1px solid var(--ml-border);border-radius:8px;padding:14px 18px 10px;margin:0 0 14px;position:relative}
+.fin-chart svg{display:block;width:100%;height:auto;overflow:visible}
+.fin-chart text{font-size:12px;fill:var(--ml-muted);font-variant-numeric:tabular-nums}
+.fin-chart .key{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:13px;color:var(--ml-muted);margin:0 0 6px}
+.fin-chart .key i{display:inline-block;width:12px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.fin-chart .tip{position:absolute;pointer-events:none;background:var(--ml-raised);border:1px solid var(--ml-border);border-radius:6px;padding:7px 10px;font-size:13px;line-height:1.45;opacity:0;transition:opacity 150ms ease;z-index:2;white-space:nowrap}
+.fin-chart .tip.on{opacity:1}
+.fin-chart .tip span{float:right;margin-left:14px;font-variant-numeric:tabular-nums}
+
+/* grid */
+.fin-wrap{overflow-x:auto;border:1px solid var(--ml-border);border-radius:8px;background:var(--ml-surface)}
+table.fin{border-collapse:separate;border-spacing:0;width:100%;font-variant-numeric:tabular-nums;font-size:15px}
+.fin th,.fin td{padding:0 12px;height:38px;white-space:nowrap;text-align:right;border-bottom:1px solid transparent}
+.fin thead th{position:sticky;top:0;background:var(--ml-surface);font-weight:600;font-size:14px;border-bottom:1px solid var(--ml-border);z-index:2}
+.fin thead th.est{background:var(--fin-est)}
+.fin thead th small{display:block;font-weight:400;font-size:11px;color:var(--ml-faint);line-height:1;margin-top:-2px}
+.fin th.lab,.fin td.lab{position:sticky;left:0;text-align:left;background:var(--ml-surface);z-index:1;min-width:290px;border-right:1px solid var(--ml-border)}
+.fin thead th.lab{z-index:3;font-size:16px}
+.fin td.est{background:var(--fin-est)}
+.fin td.first-est,.fin th.first-est{box-shadow:inset 1px 0 0 var(--ml-muted)}
+.fin tbody tr:hover td{background:var(--ml-hover)}
+.fin tbody tr:hover td.lab{background:var(--ml-hover)}
+
+.fin .lab label{display:flex;align-items:center;gap:10px;cursor:pointer}
+.fin .lab input[type=checkbox]{accent-color:var(--ml-ink);width:16px;height:16px;margin:0;flex:none}
+.fin tr.total td{font-weight:600}
+.fin tr.rule td{border-bottom:1px solid var(--ml-border)}
+.fin tr.sub td{color:var(--ml-muted);font-style:italic;font-size:14px}
+.fin tr.sub td.lab{padding-left:38px}
+.fin tr.sub td.lab label{gap:10px}
+.fin tr.sub td.lab label input{margin-left:-26px}
+.fin .neg{color:var(--ml-down)}
+.fin tr.sub .neg{color:var(--ml-down)}
+
+/* editable estimate cells */
+.fin td.inp{padding:0 4px}
+.fin td.inp input{font:inherit;font-style:normal;color:var(--ml-ink);text-align:right;width:100%;min-width:76px;box-sizing:border-box;background:var(--fin-input);border:1px solid var(--ml-border);border-radius:3px;padding:5px 8px;font-variant-numeric:tabular-nums;transition:border-color 150ms ease}
+.fin td.inp input:hover{border-color:var(--ml-faint)}
+.fin td.inp input:focus{outline:none;border-color:var(--ml-ink)}
+.fin td.inp.edited input{color:var(--fin-edit);font-weight:600}
+.fin td.flash{animation:fin-flash 400ms ease}
+@keyframes fin-flash{from{color:var(--fin-edit)}to{color:inherit}}
+
+@media (max-width:760px){
+  .fin-page{padding:18px 16px 70px}
+  .fin th.lab,.fin td.lab{min-width:190px}
+}
+
+/* label cell: name on the left, % rev / YoY switch on the right */
+.fin td.lab .lr{display:flex;align-items:center;gap:10px}
+.fin td.lab .lr label{flex:1;min-width:0}
+.fin .mode{display:inline-flex;font-style:normal;flex:none}
+.fin .mode button{font-size:12px;line-height:1.2;padding:3px 7px;border-radius:0;margin-left:-1px;color:var(--ml-muted);background:transparent}
+.fin .mode button:first-child{border-radius:3px 0 0 3px;margin-left:0}
+.fin .mode button:last-child{border-radius:0 3px 3px 0}
+.fin .mode button[aria-pressed="true"]{background:var(--ml-ink);color:var(--ml-bg);border-color:var(--ml-ink)}
+.fin td.inp.carried input{color:var(--fin-edit)}
+
+/* company picker and segment group headings */
+.fin-page .mast select{font-size:15px;padding:6px 10px;min-width:110px}
+.fin tr.grp td{height:40px;border-bottom:1px solid var(--ml-border);vertical-align:bottom;padding-bottom:6px}
+.fin tr.grp td.lab{font-weight:600;font-size:14px;color:var(--ml-ink)}
+.fin tbody tr.grp:hover td{background:var(--ml-surface)}
+.fin tbody tr.grp:hover td.est{background:var(--fin-est)}
+.fin tr.grp td.lab .gt{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--ml-ink)}
+.fin tr.grp td.lab .gt::before{content:"";width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid var(--ml-muted);transition:transform 150ms ease}
+.fin tr.grp td.lab .gt[aria-expanded="false"]::before{transform:rotate(-90deg)}
+.fin tr.grp td.lab .gt[aria-expanded="false"]{color:var(--ml-muted)}
+.fin tr.grp td.lab .gt:focus-visible{outline:2px solid var(--ml-ink);outline-offset:3px}
+.fin td.gap{color:var(--ml-faint);font-style:italic;cursor:help}
+
+/* chart mode switch and pies */
+.fin-chart .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin:0 0 6px}
+.fin-chart .ctop .key{margin:4px 0 0}
+.fin-chart .cm{flex:none}
+.fin-chart .cm button{font-size:13px;padding:4px 10px}
+.fin-chart .pies{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding:10px 4px 6px}
+.fin-chart figure{margin:0}
+.fin-chart figcaption{display:flex;align-items:baseline;gap:10px;margin:0 0 10px;font-size:15px}
+.fin-chart figcaption span{color:var(--ml-muted);font-size:13px}
+.fin-chart .pies svg{width:200px;max-width:100%;margin:0 auto 12px}
+.fin-chart .pies ul{list-style:none;margin:0;padding:0;font-size:13px}
+.fin-chart .pies li{display:grid;grid-template-columns:14px 1fr auto 78px;align-items:center;gap:8px;padding:3px 0;border-bottom:1px solid var(--ml-border)}
+.fin-chart .pies li i{width:10px;height:10px;border-radius:2px}
+.fin-chart .pies li span{font-variant-numeric:tabular-nums;font-weight:600}
+.fin-chart .pies li em{font-style:normal;color:var(--ml-muted);text-align:right;font-variant-numeric:tabular-nums}
+.fin-chart .pies .none{color:var(--ml-muted);font-size:14px}
+
+/* fiscal column heads, range picker, ticker search */
+.fin thead th{height:50px;line-height:1.2}
+.fin thead th small{margin-top:3px}
+.fin-chart .tip small{color:var(--ml-muted);margin-left:6px}
+.fin-bar .range{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--ml-muted)}
+.fin-bar .range select{padding:6px 8px}
+.fin-page .tk{position:relative}
+.fin-page .tk input{font:inherit;font-size:15px;font-weight:600;letter-spacing:.02em;width:150px;padding:7px 11px;border:1px solid var(--ml-border);border-radius:4px;background:var(--ml-raised);color:var(--ml-ink);text-transform:uppercase}
+.fin-page .tk input::placeholder{text-transform:none;font-weight:400;color:var(--ml-faint)}
+.fin-page .tk input:focus{outline:none;border-color:var(--ml-ink)}
+.fin-page .tk ul{position:absolute;right:0;top:calc(100% + 4px);z-index:20;list-style:none;margin:0;padding:4px 0;min-width:260px;max-height:340px;overflow:auto;background:var(--ml-raised);border:1px solid var(--ml-border);border-radius:6px;box-shadow:0 10px 30px rgba(10,10,10,.12)}
+.fin-page .tk li{display:flex;gap:12px;align-items:baseline;padding:7px 12px;cursor:pointer;font-size:14px}
+.fin-page .tk li b{min-width:52px}
+.fin-page .tk li span{color:var(--ml-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fin-page .tk li[aria-selected="true"],.fin-page .tk li:hover{background:var(--ml-hover)}
+.fin-page .tk li.none{color:var(--ml-muted);cursor:default}

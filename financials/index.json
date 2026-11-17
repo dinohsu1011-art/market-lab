@@ -1,0 +1,70 @@
+[
+ {
+  "ticker": "AAPL",
+  "name": "Apple"
+ },
+ {
+  "ticker": "AMZN",
+  "name": "Amazon"
+ },
+ {
+  "ticker": "BE",
+  "name": "Bloom Energy"
+ },
+ {
+  "ticker": "CAT",
+  "name": "Caterpillar"
+ },
+ {
+  "ticker": "ETN",
+  "name": "Eaton"
+ },
+ {
+  "ticker": "FLEX",
+  "name": "Flex"
+ },
+ {
+  "ticker": "GEV",
+  "name": "GE Vernova"
+ },
+ {
+  "ticker": "GLW",
+  "name": "Corning"
+ },
+ {
+  "ticker": "GOOG",
+  "name": "Alphabet"
+ },
+ {
+  "ticker": "META",
+  "name": "Meta Platforms"
+ },
+ {
+  "ticker": "MSFT",
+  "name": "Microsoft"
+ },
+ {
+  "ticker": "NVDA",
+  "name": "NVIDIA"
+ },
+ {
+  "ticker": "ORCL",
+  "name": "Oracle"
+ },
+ {
+  "ticker": "PWR",
+  "name": "Quanta Services"
+ },
+ {
+  "ticker": "SPCX",
+  "name": "SpaceX"
+ },
+ {
+  "ticker": "TSLA",
+  "name": "Tesla"
+ },
+ {
+  "ticker": "VRT",
+  "name": "Vertiv"
+ }
+]
