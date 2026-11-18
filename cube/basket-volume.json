@@ -266,8 +266,8 @@
       "label": "Consumer Staples",
       "group": "Consumer",
       "kind": "basket",
-      "members": 46,
-      "coverage": 0.98,
+      "members": 45,
+      "coverage": 1.0,
       "accel5d": 1.03,
       "spike1d": 1.09,
       "drivers": [

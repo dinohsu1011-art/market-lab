@@ -1,6 +1,6 @@
 /* Financials: editable statement grid. Uses the shell's --ml-* tokens. */
-:root{--fin-est:#f4f6f5;--fin-input:#ffffff;--fin-edit:#9a5b13;--fin-bar-a:#3d5566;--fin-bar-e:#a9b9c4}
-:root[data-theme="dark"]{--fin-est:#202b33;--fin-input:#16212a;--fin-edit:#f0b264;--fin-bar-a:#9fb6c7;--fin-bar-e:#4f6474}
+:root{--fin-drv:#1d4ed8;--fin-drv-bg:#eef3ff;--fin-est:#f4f6f5;--fin-input:#ffffff;--fin-edit:#9a5b13;--fin-bar-a:#3d5566;--fin-bar-e:#a9b9c4}
+:root[data-theme="dark"]{--fin-drv:#8fb3ff;--fin-drv-bg:#1b2a44;--fin-est:#202b33;--fin-input:#16212a;--fin-edit:#f0b264;--fin-bar-a:#9fb6c7;--fin-bar-e:#4f6474}
 
 .fin-page{max-width:1320px;margin:0 auto;padding:26px 28px 90px;font-size:15px}
 .fin-page .mast{display:flex;justify-content:space-between;align-items:baseline;gap:16px;border-bottom:1px solid var(--ml-border);padding-bottom:12px;margin:6px 0 18px}
@@ -62,10 +62,10 @@ table.fin{border-collapse:separate;border-spacing:0;width:100%;font-variant-nume
 
 /* editable estimate cells */
 .fin td.inp{padding:0 4px}
-.fin td.inp input{font:inherit;font-style:normal;color:var(--ml-ink);text-align:right;width:100%;min-width:76px;box-sizing:border-box;background:var(--fin-input);border:1px solid var(--ml-border);border-radius:3px;padding:5px 8px;font-variant-numeric:tabular-nums;transition:border-color 150ms ease}
+.fin td.inp input{font:inherit;font-style:normal;color:var(--fin-drv);text-align:right;width:100%;min-width:76px;box-sizing:border-box;background:var(--fin-input);border:1px solid var(--ml-border);border-radius:3px;padding:5px 8px;font-variant-numeric:tabular-nums;transition:border-color 150ms ease}
 .fin td.inp input:hover{border-color:var(--ml-faint)}
 .fin td.inp input:focus{outline:none;border-color:var(--ml-ink)}
-.fin td.inp.edited input{color:var(--fin-edit);font-weight:600}
+.fin td.inp.edited input{color:var(--fin-drv);font-weight:700;background:var(--fin-drv-bg)}
 .fin td.flash{animation:fin-flash 400ms ease}
 @keyframes fin-flash{from{color:var(--fin-edit)}to{color:inherit}}
 
@@ -82,7 +82,7 @@ table.fin{border-collapse:separate;border-spacing:0;width:100%;font-variant-nume
 .fin .mode button:first-child{border-radius:3px 0 0 3px;margin-left:0}
 .fin .mode button:last-child{border-radius:0 3px 3px 0}
 .fin .mode button[aria-pressed="true"]{background:var(--ml-ink);color:var(--ml-bg);border-color:var(--ml-ink)}
-.fin td.inp.carried input{color:var(--fin-edit)}
+.fin td.inp.carried input{color:var(--fin-drv);background:var(--fin-drv-bg)}
 
 /* company picker and segment group headings */
 .fin-page .mast select{font-size:15px;padding:6px 10px;min-width:110px}
@@ -127,6 +127,10 @@ table.fin{border-collapse:separate;border-spacing:0;width:100%;font-variant-nume
 .fin-bar .range{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--ml-muted)}
 .fin-bar .range select{padding:6px 8px}
 .fin-page .tk{position:relative}
+/* No company picked yet, or none with financials: only the heading, the search box and a line of text show. */
+.fin-page.blank .fin-bar,.fin-page.blank .fin-tabs,.fin-page.blank #chart,.fin-page.blank #wrap,.fin-page.blank #muse,.fin-page.blank #model{display:none}
+.fin-empty{color:var(--ml-muted);font-size:15px;margin:28px 0}
+.fin-empty.note{font-size:14px;margin:-6px 0 18px;max-width:72ch}
 .fin-page .tk input{font:inherit;font-size:15px;font-weight:600;letter-spacing:.02em;width:150px;padding:7px 11px;border:1px solid var(--ml-border);border-radius:4px;background:var(--ml-raised);color:var(--ml-ink);text-transform:uppercase}
 .fin-page .tk input::placeholder{text-transform:none;font-weight:400;color:var(--ml-faint)}
 .fin-page .tk input:focus{outline:none;border-color:var(--ml-ink)}
@@ -169,6 +173,9 @@ table.fin.mt td[data-sens]{cursor:help}
 /* Model tab: the coverage model's build sheets, live */
 .mdl-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 14px}
 .mdl-bar .spacer{flex:1}
+.mdl-key{font-size:13px;color:var(--ml-muted)}
+.mdl-key b{color:var(--fin-drv);font-weight:600}
+.fin td.linked{color:var(--ml-ink)}
 .fin.mdl th,.fin.mdl td{height:30px;padding:0 10px;font-size:14px}
 .fin.mdl td.inp{padding:0 3px}
 .fin.mdl td.inp input{padding:3px 6px;min-width:68px}
@@ -182,4 +189,4 @@ table.fin.mt td[data-sens]{cursor:help}
 .fin.mdl tr.rule td{border-bottom-color:var(--ml-border)}
 .fin.mdl td.fx{cursor:default}
 .fin.mdl td.fx:hover{background:var(--fin-est)}
-.fin.mdl td.edited{color:var(--fin-edit);font-weight:600}
+.fin.mdl td.fx.edited{color:var(--fin-edit);font-weight:600}

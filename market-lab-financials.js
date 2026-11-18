@@ -39,7 +39,7 @@
   }
 
   // ---------- company state ----------
-  let D, Q, HIST, GROUPS, KG, FSEG, segMode, hasOox, ov, mode, KEY, M, MET, SKIP = new Set();
+  let D, Q, HIST, GROUPS, KG, FSEG, segMode, hasOox, ov, mode, KEY, M, MET, SKIP = new Set(), LINK = null;
   const MET0 = {
     gp:  {pct: ['gm', 'Gross margin'], yoy: ['gp_g', 'Gross profit % chg YoY']},
     rd:  {pct: ['rdp', 'R&D % of revenue'], yoy: ['rd_g', 'R&D % chg YoY']},
@@ -68,8 +68,8 @@
 
   let MODELS = [];
   const modelOf = t => MODELS.includes(t) ? t : null;
-  function setup(data) {
-    D = data; HIST = D.quarters.length;
+  function setup(data, model) {
+    D = data; HIST = D.quarters.length; LINK = null;
     Q = D.quarters.map((q, i) => Object.assign({}, q, {i, est: false}));
     let {fy, fq} = D.quarters[HIST - 1];
     let [ey, em] = D.quarters[HIST - 1].end.split('-').map(Number);
@@ -106,6 +106,15 @@
       return isFinite(s) && Math.abs(s / D.lines.rev[i] - 1) < .01;
     });
     if (!segMode) FSEG = [];
+    // A coverage model with links drives the segments: each linked segment's estimate quarters come
+    // from its driver sheet (Drivers tab), and revenue is the sum of the segments. The newest quarter
+    // has to add up to revenue; older quarters may be on another basis.
+    const fd = model && window.EquinoxModel && window.EquinoxModel.feed(D.ticker, model);
+    if (fd && g0) {
+      const rows = g0.rows.filter(r => ok(r.values[HIST - 1]));
+      const s = rows.reduce((t, r) => t + r.values[HIST - 1], 0);
+      if (rows.some(r => fd.links[r.name]) && Math.abs(s / D.lines.rev[HIST - 1] - 1) < .01) { LINK = fd; FSEG = rows; segMode = true; }
+    }
     setMet();
     hasOox = !SKIP.has('oox') && (D.lines.oox || []).some(v => ok(v) && Math.abs(v) > .5);
     KEY = `equinox.fin.v1.${D.ticker}`;
@@ -187,7 +196,7 @@
     for (let i = HIST; i < T; i++) {
       const ya = i - 4;
       if (segMode) {
-        FSEG.forEach(r => { L.seg[r.key][i] = L.seg[r.key][ya] * (1 + drv(`seg:${r.name}`, i, defSeg[r.key](i))); });
+        FSEG.forEach(r => { const a = L.seg[r.key], lv = fromModel(r, i, a); a[i] = lv != null ? lv : a[ya] * (1 + drv(`seg:${r.name}`, i, defSeg[r.key](i))); });
         L.rev[i] = FSEG.reduce((t, r) => t + L.seg[r.key][i], 0);
       } else {
         L.rev[i] = L.rev[ya] * (1 + drv('g', i, defG(i)));
@@ -205,6 +214,18 @@
     }
     for (let i = 0; i < HIST; i++) if (!ok(L.eps[i]) && ok(L.ni[i]) && ok(L.sh[i])) L.eps[i] = L.ni[i] / L.sh[i];
     M = L;
+  }
+
+  // a linked segment's estimate: the driver-sheet value, or (how = growth) the reported segment grown at the
+  // driver sheet's year-over-year rate, for models whose segment basis differs from the filing
+  const isLinked = r => !!(LINK && FSEG.includes(r) && LINK.links[r.name]);
+  function fromModel(r, i, a) {
+    if (!isLinked(r)) return null;
+    const l = LINK.links[r.name], q = Q[i], m = LINK.get(r.name, q.fy, q.fq);
+    if (m == null) return null;
+    if (l.how !== 'growth') return m;
+    const p = Q[i - 4], m0 = LINK.get(r.name, p.fy, p.fq);
+    return ok(m0) && m0 !== 0 && ok(a[i - 4]) ? a[i - 4] * m / m0 : null;
   }
 
   // ---------- columns (quarters or fiscal years) ----------
@@ -272,9 +293,9 @@
     const md = modeOf(m), [k, label] = MET[m][md];
     return {id: `${m}_d`, label, kind: 'p', sub: 1, cls, drv: k, mode: m, f: md === 'pct' ? ratio(m, 'rev') : c => growth(m, c)};
   }
-  const revG = () => ({id: 'rev_g', label: 'Revenue % chg YoY', kind: 'p', sub: 1, f: c => growth('rev', c), drv: 'g'});
+  const revG = () => ({id: 'rev_g', label: 'Revenue % chg YoY', kind: 'p', sub: 1, f: c => growth('rev', c), drv: LINK ? null : 'g', lk: !!LINK});
   const IS_ROWS = () => relabel(([
-    {id: 'rev', label: 'Total revenue', kind: 'v', cls: 'total', f: c => val('rev', c)},
+    {id: 'rev', label: 'Total revenue', kind: 'v', cls: 'total', f: c => val('rev', c), lk: !!LINK},
     revG(),
     {id: 'cogs', label: 'Cost of sales', kind: 'v', cls: 'rule', f: c => val('cogs', c)},
     {id: 'gp', label: 'Gross profit', kind: 'v', cls: 'total', f: c => val('gp', c)},
@@ -309,15 +330,15 @@
     GROUPS.forEach(g => {
       rows.push({grp: g.label, gi: g.gi});
       g.rows.forEach((r, k) => {
-        const editable = g.gi === 0 && FSEG.includes(r);
+        const lk = g.gi === 0 && isLinked(r), editable = g.gi === 0 && FSEG.includes(r) && !lk;
         const last = k === g.rows.length - 1;
-        rows.push({id: `seg|${r.key}`, label: r.name, name: r.name, kind: 'v', seg: g.gi, gap: r.gap, f: c => val(`seg|${r.key}`, c)});
-        rows.push({id: `segg|${r.key}`, label: `${r.name} % chg YoY`, kind: 'p', sub: 1, seg: g.gi, f: c => growth(`seg|${r.key}`, c), drv: editable ? `seg:${r.name}` : null});
+        rows.push({id: `seg|${r.key}`, label: r.name, name: r.name, kind: 'v', seg: g.gi, gap: r.gap, lk, f: c => val(`seg|${r.key}`, c)});
+        rows.push({id: `segg|${r.key}`, label: `${r.name} % chg YoY`, kind: 'p', sub: 1, seg: g.gi, lk, f: c => growth(`seg|${r.key}`, c), drv: editable ? `seg:${r.name}` : null});
         rows.push({id: `segm|${r.key}`, label: `${r.name} % of revenue`, kind: 'p', sub: 1, seg: g.gi, gap: r.gap, cls: last ? '' : 'rule', f: c => { const v = val(`seg|${r.key}`, c), t = val('rev', c); return v == null || !t ? null : v / t; }});
       });
     });
     rows.push({grp: 'Total'});
-    rows.push({id: 'rev', label: 'Total revenue', kind: 'v', cls: 'total', f: c => val('rev', c)});
+    rows.push({id: 'rev', label: 'Total revenue', kind: 'v', cls: 'total', f: c => val('rev', c), lk: !!LINK});
     rows.push(revG());
     return rows;
   };
@@ -332,8 +353,9 @@
     rows.push({...revG(), hg: 'krev', cls: G0 ? 'rule' : ''});
     if (G0) G0.rows.forEach((r, k) => {
       const last = k === G0.rows.length - 1;
-      rows.push({id: `seg|${r.key}`, label: r.name, name: r.name, kind: 'v', main: 1, seg: G0.gi, hg: 'krev', gap: r.gap, f: c => val(`seg|${r.key}`, c)});
-      rows.push({id: `segg|${r.key}`, label: `${r.name} % chg YoY`, kind: 'p', sub: 1, seg: G0.gi, hg: 'krev', cls: last ? '' : 'rule', f: c => growth(`seg|${r.key}`, c), drv: FSEG.includes(r) ? `seg:${r.name}` : null});
+      const lk = isLinked(r);
+      rows.push({id: `seg|${r.key}`, label: r.name, name: r.name, kind: 'v', main: 1, seg: G0.gi, hg: 'krev', gap: r.gap, lk, f: c => val(`seg|${r.key}`, c)});
+      rows.push({id: `segg|${r.key}`, label: `${r.name} % chg YoY`, kind: 'p', sub: 1, seg: G0.gi, hg: 'krev', cls: last ? '' : 'rule', lk, f: c => growth(`seg|${r.key}`, c), drv: FSEG.includes(r) && !lk ? `seg:${r.name}` : null});
     });
     KG.forEach(g => {
       rows.push({grp: g.label, gi: g.gi});
@@ -498,7 +520,10 @@
         const gp = !!isGap(r, c);
         td.classList.toggle('gap', gp);
         const aq = r.ab && c.idx.length === 1 ? r.ab.q[String(c.idx[0])] : null;
+        const lt = r.lk && c.est;
+        td.classList.toggle('linked', !!lt);
         const tip = gp ? 'Not reported on this basis. Estimated from the segment mix before and after.'
+          : lt ? (r.id === 'rev' || r.id === 'rev_g' ? 'The sum of the segments. Linked segments come from the Drivers tab.' : 'From the Drivers tab. Change the blue driver cells there.')
           : aq && aq.same ? 'No adjustments this quarter' : aq && aq.restated ? 'From the next year\'s release, on the restated basis' : '';
         if (tip) td.title = tip; else td.removeAttribute('title');
       }
@@ -790,8 +815,36 @@
   const pick = $('co'), plist = $('co-list');
   let LIST = [], hi = 0;
   const getJSON = u => fetch(u, {cache: 'no-cache'}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); });
-  function open(t) {
-    return getJSON(`financials/${t}.json`).then(d => { view.ticker = t; view.checked = {}; save(); setup(d); render(true); });
+  const LAST = 'equinox.company.last.v1';
+  const menu = t => { try { window.MarketLab.menu(t); } catch (_) {} };
+  // With no company named, or one without financials, the page stays blank instead of showing another company.
+  function blank(t) {
+    D = undefined;
+    document.querySelector('.fin-page').classList.add('blank');
+    $('empty').hidden = false; $('empty').classList.remove('note');
+    $('empty').textContent = t ? `There are no financials for ${t} yet. Search for another company.` : 'Search for a company to see its financials.';
+    $('co-name').textContent = 'Financials';
+    $('co-tk').textContent = t || '';
+    document.title = 'Financials — Equinox';
+    pick.value = '';
+    if (t) menu(t);
+  }
+  // Share classes that use another class's financials. The address, menu links and last company keep the ticker asked for.
+  const NOTE = {'BRK-A': 'Berkshire Hathaway files one set of financials, shown here under BRK-B. Per-share figures are for one Class B share. One Class A share converts into 1,500 Class B shares.'};
+  let as = '';
+  function open(t, asked = t) {
+    const mt = modelOf(t);
+    const md = mt ? (modelDocs[mt] = modelDocs[mt] || getJSON(`models/${mt}.json`)).catch(() => { delete modelDocs[mt]; return null; }) : Promise.resolve(null);
+    return Promise.all([getJSON(`financials/${t}.json`), md]).then(([d, doc]) => {
+      view.ticker = t; view.checked = {}; save();
+      document.querySelector('.fin-page').classList.remove('blank');
+      $('empty').hidden = !NOTE[asked]; $('empty').classList.toggle('note', !!NOTE[asked]); $('empty').textContent = NOTE[asked] || '';
+      setup(d, doc); render(true);
+      pick.value = t; as = asked;
+      if (location.hash !== '#' + encodeURIComponent(asked)) history.replaceState(history.state, '', '#' + encodeURIComponent(asked));
+      try { localStorage.setItem(LAST, asked); } catch (_) {}
+      menu(asked);
+    }).catch(() => blank(asked));
   }
   const matches = () => {
     const q = pick.value.trim().toUpperCase();
@@ -804,7 +857,7 @@
     plist.innerHTML = m.length ? m.map((c, k) => `<li role="option" data-t="${c.ticker}" aria-selected="${k === hi}"><b>${c.ticker}</b><span>${c.name}</span></li>`).join('') : '<li class="none">No match</li>';
     plist.hidden = false;
   };
-  const choose = t => { plist.hidden = true; pick.value = t; pick.blur(); if (t !== D.ticker) open(t); };
+  const choose = t => { plist.hidden = true; pick.value = t; pick.blur(); if (!D || t !== D.ticker) open(t); };
   pick.addEventListener('focus', () => { pick.select(); hi = 0; showList(); });
   pick.addEventListener('input', () => { hi = 0; showList(); });
   pick.addEventListener('keydown', e => {
@@ -812,9 +865,9 @@
     if (e.key === 'ArrowDown') { hi = Math.min(hi + 1, m.length - 1); showList(); e.preventDefault(); }
     else if (e.key === 'ArrowUp') { hi = Math.max(hi - 1, 0); showList(); e.preventDefault(); }
     else if (e.key === 'Enter') { const x = LIST.find(c => c.ticker === pick.value.trim().toUpperCase()) || m[hi]; if (x) choose(x.ticker); }
-    else if (e.key === 'Escape') { plist.hidden = true; pick.value = D.ticker; pick.blur(); }
+    else if (e.key === 'Escape') { plist.hidden = true; pick.value = D ? D.ticker : ''; pick.blur(); }
   });
-  pick.addEventListener('blur', () => setTimeout(() => { plist.hidden = true; if (D) pick.value = D.ticker; }, 150));
+  pick.addEventListener('blur', () => setTimeout(() => { plist.hidden = true; pick.value = D ? D.ticker : ''; }, 150));
   plist.addEventListener('mousedown', e => { const li = e.target.closest('li[data-t]'); if (li) { e.preventDefault(); choose(li.dataset.t); } });
   Promise.all([getJSON('financials/index.json'), getJSON('models/index.json').catch(() => [])]).then(([list, models]) => {
     LIST = list; MODELS = models;
@@ -822,13 +875,14 @@
     try { for (const k of ['equinox.fin.v1.', 'equinox.fin.model.v1.']) { const o = localStorage.getItem(k + 'GOOG');
       if (o != null && localStorage.getItem(k + 'GOOGL') == null) localStorage.setItem(k + 'GOOGL', o); } } catch (_) {}
     const has = x => list.some(c => c.ticker === x);
-    const same = x => x === 'GOOG' ? 'GOOGL' : x;
-    const asked = () => { let h = ''; try { h = decodeURIComponent(location.hash.slice(1)); } catch (_) {} return same(h.trim().toUpperCase()); };
-    // the address can name the company (market-lab-financials.html#AMD); otherwise the last one viewed
-    addEventListener('hashchange', () => { const h = asked(); if (has(h) && D && h !== D.ticker) { pick.value = h; open(h); } });
-    const t = has(asked()) ? asked() : has(same(view.ticker)) ? same(view.ticker) : list[0].ticker;
-    pick.value = t;
-    return open(t);
+    const same = x => ({GOOG: 'GOOGL', 'BRK-A': 'BRK-B'})[x] || x;
+    const asked = () => { let h = ''; try { h = decodeURIComponent(location.hash.slice(1)); } catch (_) {} return h.trim().toUpperCase(); };
+    const go = x => { const t = same(x); if (!has(t)) return blank(x); if (!D || t !== D.ticker || x !== as) return open(t, x); };
+    // the address can name the company (market-lab-financials.html#AMD); otherwise the last company viewed anywhere on the site
+    addEventListener('hashchange', () => { const h = asked(); if (h) go(h); });
+    let last = ''; try { last = localStorage.getItem(LAST) || ''; } catch (_) {}
+    const t = asked() || last.toUpperCase();
+    return t ? go(t) : blank();
   }).catch(() => {
     pick.hidden = true;
     setup(sample()); render(true);

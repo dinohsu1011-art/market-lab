@@ -18,7 +18,7 @@
       "id": "breadth",
       "label": "Fewer than 40% above the 50-day average",
       "active": false,
-      "reading": "58.5% of eligible S&P 500 stocks"
+      "reading": "58.4% of eligible S&P 500 stocks"
     },
     {
       "id": "sectors",

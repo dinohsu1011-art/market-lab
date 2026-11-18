@@ -15161,16 +15161,6 @@
       "updated": "2026-10-11",
       "source": "Yahoo Finance via yfinance"
     },
-    "KVUE": {
-      "symbol": "KVUE",
-      "name": "Kenvue Inc.",
-      "summary": "Kenvue Inc. operates as a consumer health company in the United States, rest of North America, Europe, the Middle East, Africa, the Asia-Pacific, and Latin America. It operates in three segments: Self Care, Skin Health and Beauty, and Essential Health. The company offers over-the-counter medicine for cough, cold and allergy, pain care, digestive health, smoking cessation, and eye care, as well as other naturally inspired and self-care products, digital diagnostics, and telemedicine; face and body care, hair, sun, and other care products; oral and baby care, women's health, wound care, and other essential health products; tampons; cosmetics; and vitamins and supplements. It sells its products under the Benadryl, Calpol, Motrin, Nicorette, Rhinocort, Tylenol, Zarbee's Naturals, and Zyrtec; Aveeno, Dr.Ci:Labo, Le Petit Marseillais, Lubriderm, Neutrogena, OGX, and Rogaine; BAND-AID, Carefree, Desitin, Johnson's, Listerine, o.b., and Stayfree; and ORSL, Clean & Clear, Versalie, Benylin, Daktarin, Imodium, Johnson's Baby, Johnson's Adult, Maui Moisture, Microlax, Motilium, Neosporin, Neostrata, Pepcid, Pulmicort, Regaine, Sudafed, and Visine/Vispring/Visclear brands. Kenvue Inc. was incorporated in 2022 and is headquartered in Summit, New Jersey.",
-      "sector": "Consumer Defensive",
-      "industry": "Household & Personal Products",
-      "country": "United States",
-      "updated": "2026-10-11",
-      "source": "Yahoo Finance via yfinance"
-    },
     "KURA": {
       "symbol": "KURA",
       "name": "Kura Oncology, Inc.",
@@ -19457,16 +19447,6 @@
       "summary": "Public Storage, a member of the S&P 500, is a REIT that primarily acquires, develops, owns, and operates self-storage facilities. At June 30, 2026, The firm: (i) owned and/or operated 3,584 self-storage facilities located in 40 states with approximately 259 million net rentable square feet in the United States and (ii) owned a 35% common equity interest in Shurgard Self Storage Limited (Euronext Brussels: SHUR), which owned 335 self-storage facilities located in seven Western European countries with approximately 19 million net rentable square feet operated under the Shurgard brand. Public Storage is headquartered in Frisco, Texas. Public Storage was incorporated in 1972 in Maryland.",
       "sector": "Real Estate",
       "industry": "REIT - Industrial",
-      "country": "United States",
-      "updated": "2026-10-22",
-      "source": "Yahoo Finance via yfinance"
-    },
-    "PSKY": {
-      "symbol": "PSKY",
-      "name": "Paramount Skydance Corp",
-      "summary": "Paramount Skydance Corporation operates as a media and entertainment company worldwide. It operates in three segments: Studios, Direct-to-Consumer, and TV Media. The company operates CBS Television Network, a domestic broadcast television network; CBS Stations, a television station; international free-to-air networks comprising Network 10, Channel 5, Telefe, and Chilevisión; and domestic premium and basic cable networks, such as Nickelodeon, MTV, CMT, Comedy Central, BET, Paramount+ with SHOWTIME, Paramount Network, The Smithsonian Channel, BET Media Group, CBS Sports Network, and international extensions of these brands. It also provides domestic and international television studio operations, including CBS Studios, Paramount Television Studios, and Showtime; CBS Media Ventures, which produces and distributes first-run syndicated programming; and digital properties consist of CBS News and CBS Sports HQ. In addition, the company offers a portfolio of domestic and international pay and free streaming services, including Paramount+, Pluto TV, and BET+. Further, it produces and acquires films, series, and short-form content for release and licensing worldwide, including in theaters, on streaming services, on television, through home entertainment, and DVDs, Blu-ray; and operates a portfolio consisting of Paramount Pictures, Paramount Players, Paramount Animation, Nickelodeon Studio, and Miramax. It provides production, distribution, and advertising solutions. The company was founded in 1914 and is headquartered in New York, New York.",
-      "sector": "Communication Services",
-      "industry": "Entertainment",
       "country": "United States",
       "updated": "2026-10-22",
       "source": "Yahoo Finance via yfinance"
@@ -25613,7 +25593,7 @@
     },
     "VMRK": {
       "symbol": "VMRK",
-      "name": "AvalonBay Communities, Inc.",
+      "name": "Vivmark Residential",
       "summary": "Vivmark Residential focused on building, buying, and managing high-quality apartment communities across major U.S. metro areas. The company owns or held investments in more than 184,000 rental apartments across premier U.S. markets and over 11,100 apartments under construction. Vivmark Residential based in Chicago, Illinois.",
       "sector": "Real Estate",
       "industry": "REIT - Residential",
@@ -25968,16 +25948,6 @@
       "sector": "Industrials",
       "industry": "Waste Management",
       "country": "Canada",
-      "updated": "2026-11-06",
-      "source": "Yahoo Finance via yfinance"
-    },
-    "WBD": {
-      "symbol": "WBD",
-      "name": "Warner Bros. Discovery Inc",
-      "summary": "Warner Bros. Discovery, Inc. operates as a media and entertainment company worldwide. It operates through three segments: Streaming, Studios, and Global Linear Networks. The Streaming segment offers streaming services, such as HBO Max and discovery+, and premium pay-TV services, including HBO and certain premium sports streaming products for mobile and connected TV devices. The Studios segment engages in the production and release of feature films for initial exhibition in theaters, production and initial licensing of television programs to third parties and its networks/streaming services. This segment also distributes films and television programs to various third-party and internal television, streaming services, and physical and digital home entertainment markets; related consumer products and themed experience licensing; and publishes, develops, licenses, and distributes content for the interactive space in platforms, including console, handheld, mobile, and PC-based gaming for both internal and third-party game titles. The Global Linear Networks segment provides general and lifestyle entertainment networks, news networks; and hosts international media networks and global sports networks. In addition, the company offers a portfolio of content and products for television, film, streaming, interactive gaming, publishing, themed experiences, and consumer products under the Discovery Channel, HBO Max, discovery+, CNN, DC, TNT Sports, Eurosport, HBO, HGTV, Food Network, OWN, Investigation Discovery, TLC, Magnolia Network, TNT, TBS, truTV, Travel Channel, Animal Planet, Science Channel, Warner Bros. Motion Picture Group, Warner Bros. Television Group, Warner Bros. Pictures Animation, Warner Bros. Games, New Line Cinema, Cartoon Network, Adult Swim, Turner Classic Movies, Discovery en Espanol, Hogar de HGTV, and other brands. The company was incorporated in 2008 and is based in New York, New York. As of October 6, 2026, Warner Bros. Discovery, Inc. operates as a subsidiary of Skydance Corporation.",
-      "sector": "Communication Services",
-      "industry": "Entertainment",
-      "country": "United States",
       "updated": "2026-11-06",
       "source": "Yahoo Finance via yfinance"
     },
@@ -27149,6 +27119,16 @@
       "industry": "Computer Hardware",
       "country": "China",
       "updated": "2026-11-10",
+      "source": "Yahoo Finance via yfinance"
+    },
+    "SKYD": {
+      "symbol": "SKYD",
+      "name": "Skydance Corp",
+      "summary": "Paramount Skydance Corporation operates as a media and entertainment company worldwide. It operates in three segments: Studios, Direct-to-Consumer, and TV Media. The company operates CBS Television Network, a domestic broadcast television network; CBS Stations, a television station; international free-to-air networks comprising Network 10, Channel 5, Telefe, and Chilevisión; and domestic premium and basic cable networks, such as Nickelodeon, MTV, CMT, Comedy Central, BET, Paramount+ with SHOWTIME, Paramount Network, The Smithsonian Channel, BET Media Group, CBS Sports Network, and international extensions of these brands. It also provides domestic and international television studio operations, including CBS Studios, Paramount Television Studios, and Showtime; CBS Media Ventures, which produces and distributes first-run syndicated programming; and digital properties consist of CBS News and CBS Sports HQ. In addition, the company offers a portfolio of domestic and international pay and free streaming services, including Paramount+, Pluto TV, and BET+. Further, it produces and acquires films, series, and short-form content for release and licensing worldwide, including in theaters, on streaming services, on television, through home entertainment, and DVDs, Blu-ray; and operates a portfolio consisting of Paramount Pictures, Paramount Players, Paramount Animation, Nickelodeon Studio, and Miramax. It provides production, distribution, and advertising solutions. The company was founded in 1914 and is headquartered in New York, New York.",
+      "sector": "Communication Services",
+      "industry": "Entertainment",
+      "country": "United States",
+      "updated": "2026-10-22",
       "source": "Yahoo Finance via yfinance"
     }
   }

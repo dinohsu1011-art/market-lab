@@ -976,6 +976,10 @@
   "name": "Flex"
  },
  {
+  "ticker": "FLNC",
+  "name": "Fluence Energy"
+ },
+ {
   "ticker": "FLR",
   "name": "Fluor"
  },
@@ -2028,6 +2032,10 @@
   "name": "Sunrun"
  },
  {
+  "ticker": "RVMD",
+  "name": "Revolution Medicines"
+ },
+ {
   "ticker": "RVTY",
   "name": "Revvity"
  },
@@ -2076,6 +2084,10 @@
   "name": "Sprouts Farmers Market"
  },
  {
+  "ticker": "SHLS",
+  "name": "Shoals Technologies Group"
+ },
+ {
   "ticker": "SHOP",
   "name": "Shopify"
  },
@@ -2086,6 +2098,10 @@
  {
   "ticker": "SJM",
   "name": "The J. M. Smucker"
+ },
+ {
+  "ticker": "SKYD",
+  "name": "Skydance"
  },
  {
   "ticker": "SLB",
@@ -2308,6 +2324,10 @@
   "name": "Twilio"
  },
  {
+  "ticker": "TWST",
+  "name": "Twist Bioscience"
+ },
+ {
   "ticker": "TXN",
   "name": "Texas Instruments"
  },
@@ -2412,6 +2432,10 @@
   "name": "Vulcan Materials"
  },
  {
+  "ticker": "VMRK",
+  "name": "Vivmark Residential"
+ },
+ {
   "ticker": "VPG",
   "name": "Vishay Precision Group"
  },
@@ -2430,6 +2454,10 @@
  {
   "ticker": "VRTX",
   "name": "Vertex Pharmaceuticals"
+ },
+ {
+  "ticker": "VSH",
+  "name": "Vishay Intertechnology"
  },
  {
   "ticker": "VST",

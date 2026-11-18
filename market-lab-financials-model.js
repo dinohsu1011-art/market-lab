@@ -243,7 +243,10 @@
   }
 
   let M = null, B = null, T = null, view = {sheet: null}, ov = {}, links = {}, layout = null, el = null, reads = null;
-  const DRV = '*drivers';
+  // sub-tab order: the build sheets first, the Excel "Segments" roll-up last (it only adds them up)
+  const ROLL = /^segments$/i;
+  const order = () => { const a = M.sheets.map(s => s.name); return a.length > 1 ? [...a.filter(n => !ROLL.test(n)), ...a.filter(n => ROLL.test(n))] : a; };
+  const tabName = n => ROLL.test(n) && M.sheets.length > 1 ? 'Segments roll-up' : n;
 
   // Each sheet: header row (quarter labels), the flag row under it (1 = actual), body rows.
   function shape(s) {
@@ -369,9 +372,10 @@
         const edited = ov[okey(L, row, col)] != null;
         if (cst.b) cc.push('b');
         if (cst.i) cc.push('i');
-        if ((!x.fn && typeof x.v === 'number') || (est[k] && typedVal(x) !== undefined)) {
+        const read = reads.has(L.s.name + '!' + (row.r * 1024 + col.c));
+        if (est[k] && isInput(x) && (read || edited)) {
           cc.push('inp'); if (edited) cc.push('edited');
-          return `<td class="${cc.join(' ')}" data-r="${row.r}" data-c="${col.c}" data-s="${esc(L.s.name)}"><input inputmode="decimal" aria-label="${esc(row.label.trim() || 'Row ' + row.r)}, ${esc(col.label)}" title="Clear to undo"></td>`;
+          return `<td class="${cc.join(' ')}" data-r="${row.r}" data-c="${col.c}" data-s="${esc(L.s.name)}"><input inputmode="decimal" aria-label="${esc(row.label.trim() || 'Row ' + row.r)}, ${esc(col.label)}" title="Driver input. Type a new value; clear it to undo"></td>`;
         }
         if (x.fn) cc.push('fx');
         const lk = links[okey(L, row, col)];
@@ -399,42 +403,18 @@
     });
   }
 
-  // The Drivers view: every input in an estimate column that something in the model reads, gathered
-  // from all build sheets under their own headings, with the first sheet's headline lines on top.
-  const hasVals = (L, row) => L.cols.some(col => B.cell(L.s.name, row.r, col.c));
   const isInput = x => x && (x.fn ? typedVal(x) !== undefined : typeof x.v === 'number');
-  function drivers() {
-    const out = [], first = layout.get(M.sheets[0].name);
-    // headline: the first block of the first sheet, plus its operating income (or gross profit) block
-    const blocks = [[]];
-    for (const row of first.rows) { if (!row.label.trim() && !hasVals(first, row)) { if (blocks[blocks.length - 1].length) blocks.push([]); } else blocks[blocks.length - 1].push(row); }
-    const prof = b => b.some(r => /operating income|gross profit|ebit\b/i.test(r.label));
-    const pick = [blocks[0], prof(blocks[0]) ? null : blocks.slice(1).find(prof)].filter(Boolean);
-    if (pick.length) out.push(table({...first, rows: pick.flatMap((b, i) => i ? [{r: -1, label: '', key: '', st: {}}, ...b] : b)}));
-    for (const s of M.sheets) {
-      const L = layout.get(s.name), rows = [];
-      let head = null;
-      for (const row of L.rows) {
-        if (row.label.trim() && !hasVals(L, row)) { head = row; continue; }
-        const live = L.cols.some(col => isEst(L, col) && isInput(B.cell(s.name, row.r, col.c)) && reads.has(s.name + '!' + (row.r * 1024 + col.c)));
-        if (!live) continue;
-        if (head) { if (rows.length) rows.push({r: -1, label: '', key: '', st: {}}); rows.push(head); head = null; }
-        rows.push(row);
-      }
-      if (rows.length) out.push(table({...L, rows, title: s.name}));
-    }
-    return out.join('') || '<p class="mdl-none">No inputs found.</p>';
-  }
 
   function draw() {
-    const names = [DRV, ...M.sheets.map(s => s.name)];
-    if (!names.includes(view.sheet)) view.sheet = DRV;
+    const names = order();
+    if (!names.includes(view.sheet)) view.sheet = names[0];
     const edits = Object.keys(ov).length;
-    el.innerHTML = `<div class="mdl-bar"><div class="seg" role="group" aria-label="Sheet">${names.map(n =>
-      `<button type="button" data-sheet="${esc(n)}" aria-pressed="${n === view.sheet}">${n === DRV ? 'Drivers' : esc(n)}</button>`).join('')}</div><span class="spacer"></span>` +
+    el.innerHTML = `<div class="mdl-bar"><div class="seg" role="group" aria-label="Driver sheet">${names.map(n =>
+      `<button type="button" data-sheet="${esc(n)}" aria-pressed="${n === view.sheet}">${esc(tabName(n))}</button>`).join('')}</div>` +
+      `<span class="mdl-key"><b>Blue</b> = driver you can change. Black = formula.</span><span class="spacer"></span>` +
       `<button type="button" data-backup title="Save every edit on the Financials page, all companies, to a file">Back up</button>` +
       `<button type="button" data-restore title="Load edits from a backup file">Restore</button>` +
-      `<button type="button" data-reset${edits ? '' : ' disabled'} title="${esc(M.file)}, saved ${M.saved}">Reset edits</button></div>` + (view.sheet === DRV ? drivers() : table(layout.get(view.sheet)));
+      `<button type="button" data-reset${edits ? '' : ' disabled'} title="${esc(M.file)}, saved ${M.saved}">Reset edits</button></div>` + table(layout.get(view.sheet));
     fill(false);
   }
 
@@ -549,9 +529,8 @@
   let UN = [], RE = [];
   const snap = () => JSON.stringify({ov, links});
   const mark = was => { if (was === snap()) return; UN.push(was); if (UN.length > 200) UN.shift(); RE = []; };
-  function mount(target, ticker, doc) {
-    el = target;
-    if (!wired) { wire(); wired = true; }
+  // read the model's saved edits for this company (shared by the Drivers tab and the Financials tabs)
+  function load(ticker, doc) {
     if (T !== ticker || M !== doc) {
       T = ticker; M = doc; B = new Book(doc);
       if (B.bad.length) console.warn('Model formulas not read:', B.bad.slice(0, 10));
@@ -561,8 +540,47 @@
       view = store.get('equinox.fin.model.view', {sheet: null});
       applyOv();
     }
+  }
+  function mount(target, ticker, doc) {
+    el = target;
+    if (!wired) { wire(); wired = true; }
+    load(ticker, doc);
     draw();
   }
 
-  root.EquinoxModel = {mount, Calc};
+  // The Financials tabs read a segment's estimate from the driver-sheet rows it is linked to
+  // (doc.links). Returns null when the model has no links. get(name, fy, fq) gives the summed rows
+  // for that fiscal quarter, with the model's edits applied, or null when the model has no such column.
+  function feed(ticker, doc) {
+    const lk = doc && doc.links;
+    if (!lk || !Object.keys(lk).length) return null;
+    const cache = new Map();
+    const where = ref => {
+      if (cache.has(ref)) return cache.get(ref);
+      const i = ref.indexOf('|'), sh = ref.slice(0, i), rk = ref.slice(i + 1);
+      const L0 = layout.get(sh);
+      const row = L0 && L0.rows.find(x => x.key === rk);
+      const cols = new Map(L0 ? L0.cols.filter(c => !c.fy).map(c => [c.label.replace(/[eE]$/, ''), c.c]) : []);
+      const w = row ? {sh, r: row.r, cols} : null;
+      cache.set(ref, w); return w;
+    };
+    return {
+      links: lk,
+      get(name, fy, fq) {
+        const l = lk[name]; if (!l) return null;
+        if (T !== ticker || M !== doc) load(ticker, doc);
+        let t = 0;
+        for (const ref of l.from) {
+          const w = where(ref), c = w && w.cols.get(`Q${fq} ${fy}`);
+          if (!c) return null;
+          const v = B.value(w.sh, w.r, c);
+          if (typeof v !== 'number' || !isFinite(v)) return null;
+          t += v;
+        }
+        return t;
+      },
+    };
+  }
+
+  root.EquinoxModel = {mount, feed, Calc};
 })(typeof window !== 'undefined' ? window : globalThis);

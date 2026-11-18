@@ -115,9 +115,9 @@ try { if (/^#GOOG$/i.test(location.hash)) history.replaceState(null, '', locatio
   // Laggards is a part of the Leaders page, so the address decides which of the two is open.
   const here = () => page === 'movers' && location.hash === '#laggards' ? 'laggards' : page;
   // The left menu: the pages of this section, with the open page's own sections nested under it.
-  // Company pages pass the open ticker so Overview and Earnings calls stay on that company.
+  // Company pages pass the open ticker so every page in the Company menu stays on that company.
   const LAST = 'equinox.company.last.v1';
-  // Overview, Earnings calls and Guidance in the bar open the last company viewed, or the screener before any has been opened.
+  // Overview, Financials, Earnings calls and Guidance in the bar open the last company viewed, or the screener before any has been opened.
   function coLinks() {
     let t = ''; try { t = localStorage.getItem(LAST) || ''; } catch (_) {}
     document.querySelectorAll('.eq-bar a[data-co]').forEach(a => { a.href = a.dataset.co + (t ? '#' + encodeURIComponent(t) : ''); });
@@ -141,7 +141,7 @@ try { if (/^#GOOG$/i.test(location.hash)) history.replaceState(null, '', locatio
     const links = (current ? current[3] : []).map(([id, label, href, group]) => {
       if (group) { const head = document.createElement('p'); head.className = 'eq-group'; head.textContent = group; nodes.push(head); }
       const a = document.createElement('a'); a.textContent = label;
-      a.href = href + (inCompany && ticker && id !== 'financials' ? '#' + encodeURIComponent(ticker) : '');
+      a.href = href + (inCompany && ticker ? '#' + encodeURIComponent(ticker) : '');
       if (open === id && !(page === 'company' && !ticker)) a.setAttribute('aria-current', 'page');
       nodes.push(a);
       return a;
@@ -206,7 +206,7 @@ try { if (/^#GOOG$/i.test(location.hash)) history.replaceState(null, '', locatio
       document.head.append(icon);
     }
     const open = here();
-    const coIds = new Set(sections.find(section => section[0] === 'company')[3].map(([id]) => id).filter(id => id !== 'financials'));
+    const coIds = new Set(sections.find(section => section[0] === 'company')[3].map(([id]) => id));
     const co = (id, href) => coIds.has(id) ? ` data-co="${href}"` : '';
     const link = ([id, label, href]) => `<a href="${href}" data-id="${id}"${co(id, href)}${id === open ? ' aria-current="page"' : ''}>${label}</a>`;
     const groups = items => items.reduce((out, item) => { if (item[3] || !out.length) out.push([item[3] || '', []]); out[out.length - 1][1].push(item); return out; }, []);
