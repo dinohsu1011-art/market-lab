@@ -1,0 +1,73 @@
+{
+ "ticker": "EXE",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000067/exe-ex_991x20260930x8kxpr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000027/exe-ex_991x20260331x8kxpr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000008/exe-ex_991x20251231x8kxpr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/895126/000089512625000097/exe-ex_991x20250930x8kxpr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/895126/000089512625000083/exe-ex_991x20250630x8kxpr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/895126/000089512625000052/exe-ex_991x20250331x8kxpr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/895126/000089512625000020/exe-ex_991x20241231x8kxpr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/895126/000089512624000133/exe-ex_991x20240930x8kxpr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/895126/000089512624000106/chk-ex_991x20240630x8kxpr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/895126/000089512624000053/chk-ex_991x20240331x8kxpr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/895126/000089512624000010/chk-ex_991x20231231x8kxpr.htm",
+   "release_ok": true
+  }
+ ],
+ "ir": "https://investors.expandenergy.com/",
+ "results": "https://investors.expandenergy.com/events-presentations"
+}

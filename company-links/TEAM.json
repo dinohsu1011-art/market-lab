@@ -1,0 +1,53 @@
+{
+ "ticker": "TEAM",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000049/ex991q1fy27.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000031/ex991q4fy26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000024/ex991q3fy26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000008/ex991q2fy26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000064/ex991q1fy26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000028/ex991q4fy25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000005/ex991q2fy25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1650372/000165037224000054/ex991q1fy25.htm",
+   "release_ok": true
+  }
+ ]
+}

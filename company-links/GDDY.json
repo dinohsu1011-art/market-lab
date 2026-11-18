@@ -1,0 +1,133 @@
+{
+ "ticker": "GDDY",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000117/gddyex991-20260930xq3earni.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000035/gddyex991-20260331xq1earni.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1609711/000160971126000008/gddyex991x20251231xq4earni.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1609711/000160971125000075/gddyex991-20250331xq1earni.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1609711/000160971125000018/gddyex991x20241231xq4earni.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1609711/000160971124000165/gddyex991-20240930xq3earni.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1609711/000160971124000132/gddyex991-20240630xq2earni.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1609711/000160971124000070/gddyex991-20240331xq1earni.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1609711/000160971124000016/a12312023-ex991q4earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1609711/000160971123000165/gddyex991-20230930xq3earni.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1609711/000160971123000127/gddyex991-20230630xq2earni.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1609711/000160971123000080/gddyex991-20230331xq1earni.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/1609711/000160971123000028/a12312022-ex991q4earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/03/godaddy-gddy-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/04/godaddy-gddy-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/11/godaddy-gddy-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/godaddy-inc-gddy-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/godaddy-inc-gddy-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/06/godaddy-inc-gddy-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/12/godaddy-inc-gddy-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/05/godaddy-inc-gddy-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/05/godaddy-inc-gddy-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/07/godaddy-inc-gddy-q1-2020-earnings-call-transcript.aspx"
+  }
+ ]
+}

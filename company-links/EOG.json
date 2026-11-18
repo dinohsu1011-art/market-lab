@@ -1,0 +1,210 @@
+{
+ "ticker": "EOG",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000226/exh99-1110526.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000147/exh99-1080426.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000102/exh99-1050526.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000052/exh99-1022426.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118925000129/exh99-1110625.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118925000019/exh99-1050125.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/28/eog-resources-eog-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118925000010/exh99-1022725.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/08/eog-resources-eog-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118924000046/exh99-1110724.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/02/eog-resources-eog-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118924000030/exh99-1080124.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/03/eog-resources-eog-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118924000020/exh99-1050224.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/23/eog-resources-eog-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118924000009/exh99-1022224.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/03/eog-resources-eog-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118923000050/exh99-1110223.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/04/eog-resources-eog-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118923000039/exh99-1080323.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/05/eog-resources-eog-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118923000023/exh99-1050423.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/24/eog-resources-eog-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/821189/000082118923000014/exh99-1022323.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/04/eog-resources-eog-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/05/eog-resources-eog-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/06/eog-resources-eog-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/25/eog-resources-eog-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/06/eog-resources-eog-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/eog-resources-eog-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/07/eog-resources-eog-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/26/eog-resources-eog-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/06/eog-resources-eog-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/07/eog-resources-eog-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/09/eog-resources-inc-eog-q1-2020-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/28/eog-resources-inc-eog-q4-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/07/eog-resources-inc-eog-q3-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/02/eog-resources-inc-eog-q2-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/03/eog-resources-inc-eog-q1-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/27/eog-resources-inc-eog-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/02/eog-resources-inc-eog-q3-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/03/eog-resources-inc-eog-q2-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/04/eog-resources-inc-eog-q1-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/28/eog-resources-inc_-eog-q4-2017-earnings-conference.aspx"
+  },
+  {
+   "id": "2017 Q3",
+   "date": "2017-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/11/06/eog-resources-eog-q3-2017-earnings-conference-call.aspx"
+  }
+ ],
+ "ir": "https://investors.eogresources.com"
+}

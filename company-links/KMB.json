@@ -1,0 +1,200 @@
+{
+ "ticker": "KMB",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000162828026070514/kmbq32026ex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000162828026052113/kmbq22026ex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000162828026027718/kmbq120268kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000162828026003514/kmb2025q48kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000162828025047278/kmbq320258kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000005578525000076/kmbq220258kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000005578525000034/kmbq120258kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/28/kimberly-clark-kmb-q4-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000005578525000005/kmb2024q48kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/22/kimberly-clark-kmb-q3-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000005578524000091/kmbq320248kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/23/kimberly-clark-kmb-q2-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000005578524000081/kmbq220248kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/23/kimberly-clark-kmb-q1-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000005578524000053/kmbq120248kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/24/kimberly-clark-kmb-q4-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000005578524000006/kmb2023q48kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/24/kimberly-clark-kmb-q3-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000005578523000061/kmbq320238kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/25/kimberly-clark-kmb-q2-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000005578523000053/kmbq220238kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000005578523000027/kmbq120238kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/25/kimberly-clark-kmb-q4-2022-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/55785/000005578523000005/kmb2022q48kex-991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/25/kimberly-clark-kmb-q3-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/26/kimberly-clark-kmb-q2-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/22/kimberly-clark-kmb-q1-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/27/kimberly-clark-kmb-q4-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/25/kimberly-clark-corporation-kmb-q3-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/23/kimberly-clark-corporation-kmb-q2-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/23/kimberly-clark-corp-kmb-q1-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/25/kimberly-clark-corp-kmb-q4-2020-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/22/kimberly-clark-corp-kmb-q3-2020-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/23/kimberly-clark-corp-kmb-q2-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/22/kimberly-clark-corp-kmb-q1-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/23/kimberly-clark-corp-kmb-q4-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/23/kimberly-clark-corp-kmb-q2-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/22/kimberly-clark-corp-kmb-q1-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/23/kimberly-clark-kmb-q4-2018-earnings-conference-cal.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/22/kimberly-clark-corporation-kmb-q3-2018-earnings-co.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/24/kimberly-clark-corporation-kmb-q2-2018-earnings-co.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/23/kimberly-clark-corporation-kmb-q1-2018-earnings-co.aspx"
+  }
+ ],
+ "ir": "https://www.investor.kimberly-clark.com"
+}

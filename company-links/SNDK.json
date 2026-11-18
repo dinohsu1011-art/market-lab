@@ -1,0 +1,35 @@
+{
+ "ticker": "SNDK",
+ "ir": "https://investor.sandisk.com/",
+ "results": "https://investor.sandisk.com/news-events/presentations",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-10-29",
+   "slides": "https://investor.sandisk.com/static-files/4ca97b6e-7da4-4d52-b4ac-0e80f462716f",
+   "slides_kind": "slides",
+   "release": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results"
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-05",
+   "slides": "https://investor.sandisk.com/static-files/c75d1bee-c5c9-4e5a-8605-302c1aeac59b",
+   "slides_kind": "slides",
+   "release": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-fourth-quarter-2026-financial-results"
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-04-30",
+   "slides": "https://investor.sandisk.com/static-files/8ea78860-f8e5-4f1c-ada3-c554437d6281",
+   "slides_kind": "slides",
+   "release": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-third-quarter-2026-financial-results"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-01-29",
+   "slides": "https://investor.sandisk.com/static-files/1b7ca99b-f84a-4294-9f56-690b32fce69a",
+   "slides_kind": "slides",
+   "release": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-second-quarter-2026-financial-results"
+  }
+ ]
+}

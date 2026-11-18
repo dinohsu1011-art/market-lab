@@ -1,0 +1,23 @@
+{
+ "ticker": "FIX",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926118156/fix-ex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926017529/fix-20260219xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1035983/000155837025009535/fix-20250724xex99d1.htm",
+   "release_ok": true
+  }
+ ]
+}

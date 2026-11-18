@@ -1,0 +1,161 @@
+{
+ "ticker": "PGR",
+ "ir": "https://investors.progressive.com/home/default.aspx",
+ "results": "https://investors.progressive.com/financials/financial-results/default.aspx",
+ "quarters": [
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-06",
+   "slides": "https://s202.q4cdn.com/605347829/files/doc_financials/2025/q1/interactive/index.html",
+   "slides_kind": "letter",
+   "release": "https://investors.progressive.com/financials/financial-news-releases/news-details/2025/Progressive-Reports-March-2025-Results/default.aspx",
+   "transcript": "https://ng.investing.com/news/transcripts/earnings-call-transcript-progressive-q1-2025-sees-record-growth-stock-dips-93CH-1901996"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-03-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/03/04/progressive-pgr-q4-2024-earnings-call-transcript/",
+   "slides": "https://s202.q4cdn.com/605347829/files/doc_financials/2024/q4/Q4_2024_Investor-Relations.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.progressive.com/financials/financial-news-releases/news-details/2025/Progressive-Reports-December-2024-Results/default.aspx"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/05/progressive-pgr-q3-2024-earnings-call-transcript/",
+   "slides": "https://s202.q4cdn.com/605347829/files/doc_financials/2024/q3/interactive/index.html",
+   "slides_kind": "letter",
+   "release": "https://investors.progressive.com/financials/financial-news-releases/news-details/2024/Progressive-Reports-September-2024-Results/default.aspx"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "slides": "https://s202.q4cdn.com/605347829/files/doc_financials/2024/q2/Q2_2024_Investor_Relations_8-6-24.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.progressive.com/financials/financial-news-releases/news-details/2024/Progressive-Reports-June-2024-Results/default.aspx",
+   "transcript": "https://www.investing.com/news/stock-market-news/earnings-call-progressive-maintains-growth-amid-industry-ad-spend-cuts-93CH-3559661"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-07",
+   "slides": "https://s202.q4cdn.com/605347829/files/doc_financials/2024/q1/interactive/index.html",
+   "slides_kind": "letter",
+   "release": "https://investors.progressive.com/financials/financial-news-releases/news-details/2024/Progressive-Reports-March-2024-Results/default.aspx",
+   "transcript": "https://www.investing.com/news/stock-market-news/earnings-call-progressive-highlights-solid-q1-growth-ai-integration-93CH-3425472"
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/27/progressive-pgr-q4-2023-earnings-call-transcript/",
+   "slides": "https://s202.q4cdn.com/605347829/files/doc_events/2024/02/2023q4_presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.progressive.com/financials/financial-news-releases/news-details/2024/Progressive-Reports-December-2023-Results/default.aspx"
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/01/progressive-pgr-q3-2023-earnings-call-transcript/",
+   "slides": "https://s202.q4cdn.com/605347829/files/doc_financials/2023/q3/interactive/index.html",
+   "slides_kind": "letter",
+   "release": "https://investors.progressive.com/financials/financial-news-releases/news-details/2023/Progressive-Reports-September-2023-Results/default.aspx"
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/02/progressive-pgr-q2-2023-earnings-call-transcript/",
+   "slides": "https://s202.q4cdn.com/605347829/files/doc_financials/2023/Q2/q2-23-investor-relations.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.progressive.com/financials/financial-news-releases/news-details/2023/Progressive-Reports-June-2023-Results/default.aspx"
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/04/progressive-pgr-q1-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/28/progressive-pgr-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/02/progressive-pgr-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/03/progressive-pgr-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/03/progressive-pgr-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-03-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/03/01/progressive-pgr-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/progressive-pgr-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/progressive-pgr-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/progressive-pgr-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-03-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/03/02/progressive-pgr-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/05/progressive-pgr-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/06/progressive-pgr-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/progressive-corp-pgr-q1-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-03-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/04/progressive-corp-pgr-q4-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/08/progressive-corp-pgr-q2-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/progressive-corp-pgr-q1-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/28/progressive-corp-pgr-q4-2018-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/progressive-corp-pgr-q3-2018-earnings-conference-c.aspx"
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+/* Industry page. This sheet loads before market-lab-eq.css, so every rule is scoped to #live or #plain
+   to win over the shared ones. #live holds the call analysis drawn by market-lab-calls.js. */
+:root{--st-for2:#1f5f8b;--st-for1:#94bdd8;--st-neutral:#e4e0d8;--st-against1:#eda29a;--st-against2:#b8312f;--st-mark:#ffffff}
+:root[data-theme="dark"]{--st-for2:#3a86bd;--st-for1:#7fa9c6;--st-neutral:#46525b;--st-against1:#d98f88;--st-against2:#d2453f;--st-mark:#ffffff}
+#live[hidden],#plain[hidden]{display:none}
+#live>section:first-of-type,#plain>section:first-of-type{padding-top:44px}
+#plain .lede{margin-top:18px;color:var(--muted)}
+#live td.none,#plain td.none{font-weight:400;color:var(--faint)}
+#live td.name,#plain td.name{max-width:520px}
+
+/* headings that hold their own controls */
+#live h2{flex-wrap:wrap;row-gap:6px}
+#live h2.ask{display:block;line-height:1.45}
+#live h2.ask select{font:inherit;color:var(--ink);background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23888' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 4px center;border:0;border-bottom:1px solid var(--faint);border-radius:0;padding:0 20px 0 0;margin:0 2px;appearance:none;-webkit-appearance:none;cursor:pointer;transition:border-color .15s}
+#live h2.ask select:hover{border-color:var(--ink)}
+#live .seg{display:inline-flex;gap:18px}
+#live .seg button{border:0;background:none;padding:0;font:inherit;color:var(--faint);cursor:pointer;transition:color .15s}
+#live .seg button:hover{color:var(--muted)}
+#live .seg button[aria-pressed="true"]{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:7px}
+
+/* stance by call */
+#live .stance-legend{display:flex;flex-wrap:wrap;gap:6px 20px;font-size:14px;color:var(--muted);margin:-6px 0 18px}
+#live .stance-legend span{display:inline-flex;align-items:center;gap:7px}
+#live .sw{width:14px;height:10px;border-radius:2px;display:inline-block;flex:none}
+#live .stance-wrap{overflow-x:auto}
+#live .stance-wrap svg{display:block;min-width:760px;width:100%;height:auto}
+#live .stance-wrap .cell{cursor:pointer}
+#live .stance-wrap .cell:focus{outline:none}
+#live .stance-wrap .cell:focus-visible rect,#live .stance-wrap .cell.on rect{stroke:var(--ink);stroke-width:1.6}
+#live .stance-wrap .cell:hover rect{stroke:var(--ink);stroke-width:1}
+#live .stance-quote{display:grid;gap:10px;align-content:start;justify-items:start;margin-top:28px;min-height:150px}
+#live .stance-quote.enter{animation:rise .35s ease-out both}
+#live .q-when{font-size:16px;font-weight:600}
+#live .q-when span{color:var(--muted);font-weight:400;margin-left:10px}
+#live .q-score{display:inline-flex;align-items:center;gap:8px;font-size:15px;color:var(--muted)}
+#live .calls-quote{margin:6px 0 0;font:400 24px/1.4 var(--serif);max-width:60ch}
+#live .calls-who{font-size:15px;font-weight:600}
+#live .calls-who span{font-weight:400;color:var(--muted)}
+#live .calls-why{font-size:16px;line-height:1.55;max-width:68ch;margin:0}
+#live .calls-note{font-size:14px;color:var(--muted);margin:0}
+#live .stance-quote a,#live .qmeta a{color:var(--accent);font-weight:600;font-size:15px;text-decoration:none}
+#live .stance-quote a:hover,#live .qmeta a:hover{text-decoration:underline}
+
+/* changes of stance */
+#live .turns,#live .qlist{list-style:none;margin:0;padding:0}
+#live .turns li,#live .qlist li{border-bottom:1px solid var(--border)}
+#live .turn{border:0;background:none;font:inherit;color:inherit;text-align:left;display:grid;grid-template-columns:150px minmax(0,1fr);gap:4px 24px;width:100%;padding:16px 0;cursor:pointer}
+#live .turn:hover .when b{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
+#live .turn .when{font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+#live .turn .when b{display:block;color:var(--ink);font-size:16px;font-weight:600}
+#live .turn .what{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;font-size:15px}
+#live .turn .why{grid-column:2;font-size:16px;line-height:1.55;margin:0;max-width:72ch}
+#live .turn .tq{grid-column:2;font-size:15px;margin:0;color:var(--muted);max-width:72ch}
+#live .move{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--muted)}
+
+/* how often a topic comes up */
+#live .lines{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:0 0 16px}
+#live .series-key{display:flex;flex-wrap:wrap;gap:2px 4px;margin-left:-10px}
+#live .series-key button{display:inline-flex;align-items:center;gap:8px;border:0;background:none;font:400 14px var(--sans);color:var(--muted);padding:5px 10px;border-radius:6px;cursor:pointer;transition:color .15s,background-color .15s}
+#live .series-key button:hover{color:var(--ink);background:var(--raised)}
+#live .series-key button i{width:14px;height:3px;border-radius:2px;display:inline-block}
+#live .series-key button[aria-pressed="false"]{color:var(--faint)}
+#live .series-key button[aria-pressed="false"] i{opacity:.25}
+#live .series-key .chip span{color:var(--faint);font-size:15px;line-height:1}
+#live .series-key .chip:hover span{color:var(--ink)}
+#live input[type=search],#live .fine select,#live .calls-controls select{height:36px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--ink);font:400 14px var(--sans);padding:0 12px}
+#live input[type=search]::placeholder{color:var(--faint)}
+#live #add{width:170px}
+#live #add[hidden]{display:none}
+#live .fine{margin-left:auto;display:inline-flex;gap:8px}
+#live .fine select,#live .calls-controls select{padding:0 8px;max-width:230px}
+#live .calls-chart{position:relative}
+#live .calls-chart svg{display:block;width:100%;height:auto;overflow:visible}
+#live .calls-chart .tip{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-size:14px;line-height:1.5;min-width:180px;opacity:0;transition:opacity .15s;z-index:2}
+#live .calls-chart .tip.on{opacity:1}
+#live .calls-chart .tip b{display:block;margin-bottom:3px}
+#live .calls-chart .tip i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:7px}
+#live .calls-chart .tip span{float:right;margin-left:16px;font-variant-numeric:tabular-nums}
+
+/* search the saved quotes */
+#live .calls-controls{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center;margin:0 0 14px}
+#live .calls-controls label{display:inline-flex;gap:8px;align-items:center;font-size:14px;color:var(--muted)}
+#live #q{flex:1 1 340px;height:44px;font-size:16px;padding:0 14px}
+#live .search-sum{font-size:14px;color:var(--muted);margin:6px 0 4px}
+#live .qlist li{padding:14px 0}
+#live .qmeta{font-size:14px;color:var(--muted);display:flex;flex-wrap:wrap;gap:2px 14px;align-items:baseline}
+#live .qmeta b{color:var(--ink);font-weight:600;font-size:15px}
+#live .qmeta a{font-size:14px}
+#live .qtext{margin:6px 0 0;font-size:17px;line-height:1.55;max-width:74ch}
+#live .qtext mark{background:color-mix(in srgb,var(--accent) 22%,transparent);color:inherit;border-radius:2px;padding:0 1px}
+
+/* methodology */
+#live .method{margin-top:72px;border-top:1px solid var(--border);padding:16px 0}
+#live .method summary{cursor:pointer;font-weight:600;font-size:15px}
+#live .method .body{font-size:15px;line-height:1.65;max-width:78ch;margin-top:10px;color:var(--muted)}
+#live .method h3{font:600 15px var(--sans);color:var(--ink);margin:20px 0 4px}
+#live .method table{font-size:14px;margin-top:6px}
+#live .method th,#live .method td{padding:8px 0 8px 20px;vertical-align:top;font-weight:400}
+#live .method th:first-child,#live .method td:first-child{padding-left:0;color:var(--ink)}
+#live .method th:last-child,#live .method td:last-child{text-align:left;white-space:normal}
+@media (max-width:900px){#live .turn{grid-template-columns:1fr}#live .turn .why,#live .turn .tq{grid-column:1}}

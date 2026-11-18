@@ -1,0 +1,113 @@
+{
+ "ticker": "GEV",
+ "ir": "https://www.gevernova.com/investors",
+ "results": "https://www.gevernova.com/investors/reports-filings",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/28/ge-vernova-gev-q3-2026-earnings-call-transcript/",
+   "slides": "https://www.gevernova.com/sites/default/files/gev_webcast_presentation_10282026.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.gevernova.com/sites/default/files/gev_webcast_pressrelease_10282026.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-22",
+   "slides": "https://www.gevernova.com/sites/default/files/gev_webcast_presentation_07222026.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.gevernova.com/sites/default/files/gev_webcast_pressrelease_07222026.pdf",
+   "transcript": "https://www.gevernova.com/sites/default/files/gev_webcast_transcript_07222026.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/04/22/ge-vernova-gev-q1-2026-earnings-transcript/",
+   "slides": "https://www.gevernova.com/sites/default/files/gev_webcast_presentation_04222026.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.gevernova.com/sites/default/files/gev_webcast_pressrelease_04222026.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/01/28/ge-vernova-gev-q4-2025-earnings-call-transcript/",
+   "slides": "https://www.gevernova.com/sites/default/files/gev_webcast_presentation_01282026.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.gevernova.com/sites/default/files/gev_webcast_pressrelease_01282026.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-23",
+   "slides": "https://www.gevernova.com/sites/default/files/gev_webcast_presentation_07232025.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.gevernova.com/sites/default/files/gev_webcast_pressrelease_07232025.pdf",
+   "transcript": "https://www.gevernova.com/sites/default/files/gev_webcast_transcript_07232025.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "slides": "https://www.gevernova.com/sites/default/files/2025-04/gev_webcast_presentation_04232025.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.gevernova.com/sites/default/files/2025-04/gev_webcast_pressrelease_04232025.pdf",
+   "transcript": "https://www.gevernova.com/sites/default/files/2025-04/gev_webcast_transcript_04232025.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-22",
+   "slides": "https://www.gevernova.com/sites/default/files/2025-04/gev_webcast_presentation_01222025.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.gevernova.com/sites/default/files/2025-04/gev_webcast_pressrelease_01222025.pdf",
+   "transcript": "https://www.gevernova.com/sites/default/files/2025-04/gev_webcast_transcript_01222025.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "slides": "https://www.gevernova.com/sites/default/files/gev_webcast_presentation_10232024.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.gevernova.com/sites/default/files/2025-04/gev_webcast_pressrelease_10232024.pdf",
+   "transcript": "https://www.gevernova.com/sites/default/files/2025-04/gev_webcast_transcript_10232024.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1996810/000199681024000065/gev2q2024earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1996810/000199681024000004/gev1q2024earningsrelease.htm",
+   "release_ok": true
+  }
+ ],
+ "events": [
+  {
+   "title": "2025 Investor Update: presentation",
+   "kind": "slides",
+   "url": "https://www.gevernova.com/sites/default/files/gev_webcast_presentation_12092025.pdf",
+   "ok": true,
+   "date": "2025-12-09"
+  },
+  {
+   "title": "2025 Investor Update: event page (replay and transcript)",
+   "kind": "page",
+   "url": "https://www.gevernova.com/investors/events/2025-investor-update",
+   "ok": true,
+   "date": "2025-12-09"
+  },
+  {
+   "title": "2024 Investor Update: event page (slides, replay and transcript)",
+   "kind": "page",
+   "url": "https://www.gevernova.com/investors/events/2024-investor-update",
+   "ok": true,
+   "date": "2024-12-10"
+  },
+  {
+   "title": "2024 Investor Day: event page",
+   "kind": "page",
+   "url": "https://www.gevernova.com/investors/2024-investor-day",
+   "ok": true,
+   "date": "2024-03-06"
+  }
+ ]
+}

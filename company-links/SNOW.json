@@ -1,0 +1,77 @@
+{
+ "ticker": "SNOW",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-09-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/fy2027q2earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-05-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000027/fy2027q1earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-02-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026011631/fy2026q4earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-08-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000177/fy2026q2earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000016/fy2025q4earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1640147/000164014724000242/fy2025q3earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1640147/000164014724000203/fy2025q2earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1640147/000164014724000122/fy2025q1earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1640147/000164014724000031/fy2024q4earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1640147/000164014723000253/fy2024q3earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1640147/000164014723000193/fy2024q2earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1640147/000164014723000073/burkepressrelease.htm",
+   "release_ok": true
+  }
+ ]
+}

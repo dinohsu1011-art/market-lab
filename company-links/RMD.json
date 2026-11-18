@@ -1,0 +1,209 @@
+{
+ "ticker": "RMD",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312526437783/d170451dex991.htm",
+   "release_ok": true,
+   "slides": "https://investor.resmed.com/_assets/_5bcd8acc7e1b5c73a62283d752dd0b96/resmed/db/2598/48783/presentation/RMD_1Q27_Earnings_Presentation_29OCT26.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312526337962/d158732dex991.htm",
+   "release_ok": true,
+   "slides": "https://investor.resmed.com/_assets/_5bcd8acc7e1b5c73a62283d752dd0b96/resmed/db/2598/48748/presentation/RMD_4Q26+Earnings+Presentation_06AUG26_vF.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312526197192/d146862dex991.htm",
+   "release_ok": true,
+   "slides": "https://investor.resmed.com/_assets/_5bcd8acc7e1b5c73a62283d752dd0b96/resmed/db/2598/48537/presentation/RMD_3Q26+Earnings+Presentation_30APR26_vF.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312526029326/d80310dex991.htm",
+   "release_ok": true,
+   "slides": "https://investor.resmed.com/_assets/_5bcd8acc7e1b5c73a62283d752dd0b96/resmed/db/2598/48536/presentation/RMD_2Q26_Earnings_Presentation_29JAN26_vF.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312525170512/d926247dex991.htm",
+   "release_ok": true,
+   "slides": "https://investor.resmed.com/_assets/_5bcd8acc7e1b5c73a62283d752dd0b96/resmed/db/2598/48534/presentation/RMD_4Q25_Earnings_Presentation_31JUL25_vF.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312525091357/d830100dex991.htm",
+   "release_ok": true,
+   "slides": "https://investor.resmed.com/_assets/_5bcd8acc7e1b5c73a62283d752dd0b96/resmed/db/2598/48533/presentation/RMD_3Q25_Earnings_Presentation_23APR25_vF.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://investor.resmed.com/_assets/_5bcd8acc7e1b5c73a62283d752dd0b96/resmed/db/2598/48533/webcast_transcript/RMD_3Q25_Earnings_Transcript_23APR25_vF.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312525017218/d888970dex991.htm",
+   "release_ok": true,
+   "slides": "https://investor.resmed.com/_assets/_5bcd8acc7e1b5c73a62283d752dd0b96/resmed/db/2598/48532/presentation/RMD_2Q25_Earnings_Presentation_30JAN25_vF.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://investor.resmed.com/_assets/_5bcd8acc7e1b5c73a62283d752dd0b96/resmed/db/2598/48532/webcast_transcript/RMD_2Q25_Earnings_Transcript_vF_30JAN25.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312524242806/d859390dex991.htm",
+   "release_ok": true,
+   "slides": "https://investor.resmed.com/_assets/_5bcd8acc7e1b5c73a62283d752dd0b96/resmed/db/2598/48531/presentation/RMD_1Q25_Earnings_Presentation_24OCT24_vF.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://investor.resmed.com/_assets/_5bcd8acc7e1b5c73a62283d752dd0b96/resmed/db/2598/48531/webcast_transcript/RMD_1Q25_Earnings_Transcript_vF_24OCT24.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312524191487/d805836dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312524113883/d817936dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-01-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312524014223/d685328dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312523264072/d547248dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312523202850/d510491dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312523122110/d477335dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-01-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/943819/000119312523016231/d369496dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-08-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/11/resmed-rmd-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/28/resmed-rmd-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/27/resmed-rmd-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/29/resmed-rmd-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/06/resmed-rmd-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/resmed-rmd-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/29/resmed-rmd-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/resmed-rmd-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/06/resmed-rmd-q4-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/01/resmed-inc-rmd-q3-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/resmed-inc-rmd-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/24/resmed-inc-rmd-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/25/resmed-inc-rmd-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/03/resmed-inc-rmd-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/25/resmed-rmd-q2-2019-earnings-conference-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/26/resmed-inc-rmd-q1-2019-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/01/22/resmed-inc-rmd-q2-2018-earnings-conference-call-tr.aspx"
+  }
+ ],
+ "ir": "https://investor.resmed.com/",
+ "results": "https://investor.resmed.com/quarterly-earnings/financial-results"
+}

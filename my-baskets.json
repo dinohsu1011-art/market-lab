@@ -602,6 +602,13 @@
     "6501.T",
     "siemens_energy"
    ]
+  },
+  {
+   "id": "most-hated-mag7",
+   "name": "Most-hated Mag 7",
+   "members": [
+    "GOOGL"
+   ]
   }
  ]
 }

@@ -1,0 +1,125 @@
+{
+ "ticker": "WST",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000118/a3q26earningsdeck-final.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000047/a1q26earningsdeck-final.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/105770/000010577026000005/a4q25earningsdeck-final.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/105770/000010577025000029/exh991q12025earningsreleas.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/105770/000010577025000029/westq12025presentation-f.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/105770/000010577025000007/exh991q42024earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/105770/000010577024000075/exh991q32024earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/105770/000010577024000060/exh991-q22024earningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/105770/000010577024000025/exh991-earningsreleasexq12.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/105770/000010577024000009/exh991-q42023earningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/105770/000010577023000018/exh991q12023earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/105770/000010577023000004/exh991q42022earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/28/west-pharmaceutical-services-wst-q2-2022-earnings/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/29/west-pharmaceutical-services-wst-q1-2022-earnings/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/17/west-pharmaceutical-services-wst-q4-2021-earnings/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/west-pharmaceutical-services-wst-q3-2021-earnings/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/29/west-pharmaceutical-services-wst-q2-2021-earnings/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/west-pharmaceutical-services-wst-q1-2021-earnings/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/18/west-pharmaceutical-services-wst-q4-2020-earnings/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/22/west-pharmaceutical-services-wst-q3-2020-earnings/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/23/west-pharmaceutical-services-wst-q2-2020-earnings.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/23/west-pharmaceutical-services-wst-q1-2020-earnings.aspx"
+  }
+ ],
+ "ir": "https://investor.westpharma.com"
+}

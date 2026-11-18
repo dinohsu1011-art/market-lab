@@ -1,0 +1,77 @@
+{
+ "ticker": "MAA",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/912595/000119312526436173/maa-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/912595/000119312526191620/maa-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/912595/000095017025061071/maa-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/912595/000095017025014487/maa-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/912595/000095017024119008/maa-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/912595/000095017024088601/maa-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/912595/000095017024051311/maa-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/912595/000095017024012216/maa-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/912595/000095017023055196/maa-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/912595/000095017023034730/maa-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/912595/000095017023014824/maa-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/912595/000095017023001608/maa-ex99_1.htm",
+   "release_ok": true
+  }
+ ]
+}

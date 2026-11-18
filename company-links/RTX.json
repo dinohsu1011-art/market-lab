@@ -1,0 +1,161 @@
+{
+ "ticker": "RTX",
+ "ir": "https://investors.rtx.com/",
+ "results": "https://investors.rtx.com/events-and-presentations",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/20/rtx-rtx-q3-2026-earnings-call-transcript/",
+   "slides": "https://investors.rtx.com/static-files/0c5441fa-025b-4f41-870c-047e352056a9",
+   "slides_kind": "slides",
+   "release": "https://investors.rtx.com/static-files/46b42314-8297-41ea-91cd-4e4ddd2e9518"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-23",
+   "slides": "https://investors.rtx.com/static-files/4974fa8e-e918-4e2e-aac6-4da956d6fd50",
+   "slides_kind": "slides",
+   "release": "https://investors.rtx.com/static-files/369fdead-8ef6-4c51-a3c8-0fc05a553897"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-21",
+   "slides": "https://investors.rtx.com/static-files/2c351bfe-d90c-4990-9910-a5dbd4e6b23b",
+   "slides_kind": "slides",
+   "release": "https://investors.rtx.com/static-files/8012d8c5-a619-4a80-aac4-a0312c5d645b"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-27",
+   "slides": "https://investors.rtx.com/static-files/10494d39-c1d0-4ff0-b945-1db5288a923b",
+   "slides_kind": "slides",
+   "release": "https://investors.rtx.com/static-files/6d2e2fd9-aa0e-40e2-aa9f-a4051a058306"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-21",
+   "slides": "https://investors.rtx.com/static-files/3b3532ea-0446-460c-85b4-22fdf6a7f3c7",
+   "slides_kind": "slides",
+   "release": "https://investors.rtx.com/static-files/0eefba79-19ae-4f37-abd3-90afd79db264"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-22",
+   "slides": "https://investors.rtx.com/static-files/4431ddf8-4a87-4a15-b16c-2cbfafe7e843",
+   "slides_kind": "slides",
+   "release": "https://investors.rtx.com/static-files/875f7ec8-aada-491e-9734-10a697326903"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-22",
+   "slides": "https://investors.rtx.com/static-files/107f79d8-a2cf-4b65-84af-f466d1984dd5",
+   "slides_kind": "slides",
+   "release": "https://investors.rtx.com/static-files/1c27d7f0-ef17-400a-bc5a-1accaaaff56b",
+   "transcript": "https://investors.rtx.com/static-files/6f411d02-e0c9-45f6-acb9-642712bbadc3"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/28/rtx-rtx-q4-2024-earnings-call-transcript/",
+   "slides": "https://investors.rtx.com/static-files/cae2e5c0-50ad-4686-9acd-7830c2ece42e",
+   "slides_kind": "slides",
+   "release": "https://investors.rtx.com/static-files/ceebbf85-eb69-4563-a303-c62ad9918fba"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/22/rtx-rtx-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/101829/000010182924000036/a2024-10x228xkerexhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/25/rtx-rtx-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/101829/000010182924000026/a2024-07x258xkerexhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/23/rtx-rtx-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/101829/000010182924000011/a2024-04x238xkerexhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/23/rtx-rtx-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/101829/000010182924000005/a2024-01x238xkerexhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/24/rtx-rtx-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/101829/000010182923000034/a2023-10x248xkerexhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/25/rtx-rtx-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/101829/000010182923000030/a2023-07x258xkerexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/101829/000010182923000013/a2023-04x258xkerexhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/24/raytheon-technologies-rtx-q4-2022-earnings-call-tr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/101829/000010182923000005/a2023-01x248xkerexhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/25/raytheon-technologies-rtx-q3-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/26/raytheon-technologies-rtx-q2-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/28/raytheon-technologies-rtx-q1-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/25/raytheon-technologies-rtx-q4-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/26/raytheon-technologies-corp-rtx-q3-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/27/raytheon-technologies-corp-rtx-q2-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/raytheon-technologies-corp-rtx-q1-2021-earnings-ca/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/26/raytheon-technologies-corp-rtx-q4-2020-earnings-ca/"
+  }
+ ]
+}

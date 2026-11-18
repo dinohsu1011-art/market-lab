@@ -1,0 +1,162 @@
+{
+ "ticker": "MNST",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465926123387/tm2629095d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465926092046/tm2622396d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465926057188/tm2613885d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465925107778/tm2530426d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465925046150/tm2514442d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/27/monster-beverage-mnst-q4-2024-earnings-call-transc/",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465925018243/tm257767d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/07/monster-beverage-mnst-q3-2024-earnings-call-transc/",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465924115332/tm2427782d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465924086781/tm2421078d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465924056393/tm2413295d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465924028756/tm241011d2_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465923113794/tm2324499d2_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465923087294/tm2322746d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465923056023/tm2314653d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/865752/000110465923026733/tm237882d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/monster-beverage-corporation-mnst-q3-2021-earnings/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/monster-beverage-corporation-mnst-q2-2021-earnings/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/07/monster-beverage-corp-mnst-q1-2021-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/26/monster-beverage-corp-mnst-q4-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/05/monster-beverage-corp-mnst-q3-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/05/monster-beverage-corp-mnst-q2-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/08/monster-beverage-corp-mnst-q1-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/28/monster-beverage-corp-mnst-q4-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/08/monster-beverage-corp-mnst-q3-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/08/monster-beverage-corp-mnst-q2-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/03/monster-beverage-corp-mnst-q1-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/28/monster-beverage-mnst-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/07/monster-beverage-corp-mnst-q3-2018-earnings-confer.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/08/monster-beverage-mnst-q2-2018-earnings-conference.aspx"
+  }
+ ],
+ "ir": "https://investors.monsterbevcorp.com"
+}

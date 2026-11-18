@@ -1,0 +1,191 @@
+{
+ "ticker": "SRE",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220826000051/ex99_1x20260930xearningsta.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220826000027/ex99_1x20260331xearningsta.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220826000008/ex99_1x20251231xearningsta.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220825000062/ex99_1x20250930xearningsta.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220825000045/ex99_1x20250630xearningsta.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220825000023/ex99_1x20250331xearningsta.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220825000008/ex99_1x20241231xearningsta.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220824000043/ex99_1q32024earningstables.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220824000024/ex99_1q22024earningstables.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220824000013/ex99_1q12024earningstables.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220824000004/ex99_1x20231231x10-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220823000055/ex99_1q32023earningstables.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220823000040/ex99_1q22023earningstables.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220823000024/ex99_1q12023earningstables.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1032208/000103220823000005/ex99_1x20221231x10-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/04/sempra-energy-sre-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/06/sempra-energy-sre-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/25/sempra-energy-sre-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/05/sempra-energy-sre-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/sempra-energy-sre-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/sempra-energy-sre-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/25/sempra-energy-sre-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/05/sempra-energy-sre-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/06/sempra-energy-sre-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/04/sempra-energy-sre-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/27/sempra-energy-sre-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/01/sempra-energy-sre-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/02/sempra-energy-sre-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/07/sempra-energy-sre-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/26/sempra-energy-sre-q4-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/07/sempra-energy-sre-q3-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/06/sempra-energy-sre-q2-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/07/sempra-energy-sre-q1-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2017 Q3",
+   "date": "2017-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/10/31/sempra-energy-sre-q3-2017-earnings-conference-call.aspx"
+  }
+ ],
+ "ir": "https://investor.sempra.com/"
+}

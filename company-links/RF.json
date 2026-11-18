@@ -1,0 +1,188 @@
+{
+ "ticker": "RF",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000032/rf-2026331xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1281761/000128176125000058/rf-2025630xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/1281761/000128176125000028/rf-20250331xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/17/regions-financial-rf-q4-2024-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1281761/000128176125000003/rf-20241231xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/18/regions-financial-rf-q3-2024-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1281761/000128176124000094/rf-2024930xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/19/regions-financial-rf-q2-2024-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1281761/000128176124000040/rf-2024630xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/19/regions-financial-rf-q1-2024-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1281761/000128176124000022/rf-2024331xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/19/regions-financial-rf-q4-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1281761/000128176124000003/rf-20231231xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/20/regions-financial-rf-q3-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1281761/000128176123000048/rf-2023930xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/21/regions-financial-rf-q2-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1281761/000128176123000039/rf-2023630xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1281761/000128176123000027/rf-2023331xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/20/regions-financial-rf-q4-2022-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1281761/000128176123000003/rf-20221231xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/21/regions-financial-rf-q3-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/22/regions-financial-rf-q2-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/22/regions-financial-rf-q1-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/20/regions-financial-rf-q4-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/22/regions-financial-corporation-rf-q3-2021-earnings/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/23/regions-financial-corporation-rf-q2-2021-earnings/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/23/regions-financial-corp-rf-q1-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/22/regions-financial-corp-rf-q4-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/20/regions-financial-corp-rf-q3-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/17/regions-financial-corp-rf-q2-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/17/regions-financial-corp-rf-q1-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/17/regions-financial-corp-rf-q4-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/22/regions-financial-corp-rf-q3-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/19/regions-financial-corp-rf-q2-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/18/regions-financial-corp-rf-q1-2019-earnings-confere.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/18/regions-financial-corp-rf-q4-2018-earnings-confere.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/23/regions-financial-corp-rf-q3-2018-earnings-confere.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/20/regions-financial-corporation-rf-q2-2018-earnings.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-01-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/01/19/regions-financial-corporation-rf-q4-2017-earnings.aspx"
+  }
+ ],
+ "ir": "https://ir.regions.com/",
+ "results": "https://ir.regions.com/financial-information/quarterly-investor-info/default.aspx"
+}

@@ -1,0 +1,35 @@
+{
+ "ticker": "RGLD",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000049/rgld-20261104xexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000038/rgld-20260805xexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000026/rgld-20260506xexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/85535/000008553526000005/rgld-20260218xexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/85535/000008553525000119/rgld-20250806xexx991.htm",
+   "release_ok": true
+  }
+ ]
+}

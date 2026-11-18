@@ -1,0 +1,237 @@
+{
+ "ticker": "ABBV",
+ "ir": "https://investors.abbvie.com/",
+ "results": "https://investors.abbvie.com/financial-releases",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-30",
+   "slides": "https://investors.abbvie.com/static-files/11ea5ca5-2893-407f-903d-7c0ecf66cb0a",
+   "slides_kind": "pipeline update slides",
+   "slides_ok": true,
+   "release": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-third-quarter-2026-financial-results",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/30/abbvie-abbv-q3-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-31",
+   "slides": "https://investors.abbvie.com/static-files/de1828c0-47ed-42cb-8573-24fe42ceb748",
+   "slides_kind": "pipeline update slides",
+   "slides_ok": true,
+   "release": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-second-quarter-2026-financial-results",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/08/03/abbvie-abbv-q2-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "slides": "https://investors.abbvie.com/static-files/5bb173b5-053e-4e6e-b028-c82cf2ee96a0",
+   "slides_kind": "pipeline update slides",
+   "slides_ok": true,
+   "release": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-first-quarter-2026-financial-results",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/04/29/abbvie-abbv-q1-2026-earnings-transcript/"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-04",
+   "slides": "https://investors.abbvie.com/static-files/a88f5dbd-340e-4cfc-ba72-39bf41ec207e",
+   "slides_kind": "pipeline update slides",
+   "slides_ok": true,
+   "release": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-full-year-and-fourth-quarter-2025-financial",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/02/04/abbvie-abbv-q4-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-31",
+   "slides": "https://investors.abbvie.com/static-files/f270b0f4-666c-4cb1-841d-5fde4a1838cc",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-third-quarter-2025-financial-results",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/10/31/abbvie-q3-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-31",
+   "slides": "https://investors.abbvie.com/static-files/a3a87cb9-4571-48a0-aa85-d355ae65a371",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-second-quarter-2025-financial-results",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/08/05/abbvie-abbv-q2-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-25",
+   "slides": "https://investors.abbvie.com/static-files/3f892a1f-9727-4aae-b39d-29f8dd904cb5",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-first-quarter-2025-financial-results",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-31",
+   "slides": "https://investors.abbvie.com/static-files/40321791-a852-4854-af07-d45e2d6590ef",
+   "slides_kind": "pipeline update slides",
+   "slides_ok": true,
+   "release": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-full-year-and-fourth-quarter-2024-financial",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/31/abbvie-abbv-q4-2024-earnings-call-transcript/"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/30/abbvie-abbv-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1551152/000155115224000036/abbv-20240930xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/25/abbvie-abbv-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1551152/000155115224000026/abbv-20240630xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/26/abbvie-abbv-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1551152/000155115224000016/abbv-20240331xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/02/abbvie-abbv-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1551152/000155115224000007/abbv-20231231xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/27/abbvie-abbv-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1551152/000155115223000040/abbv-20230930xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/27/abbvie-abbv-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1551152/000155115223000028/abbv-20230630xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/04/28/abbvie-abbv-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1551152/000155115223000019/abbv-20230331xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/09/abbvie-abbv-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1551152/000155115223000006/abbv-20221231xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/28/abbvie-abbv-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/29/abbvie-abbv-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/30/abbvie-abbv-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/03/abbvie-abbv-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/29/abbvie-abbv-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/31/abbvie-abbv-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/30/abbvie-abbv-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/03/abbvie-abbv-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/31/abbvie-abbv-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/abbvie-abbv-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/01/abbvie-inc-abbv-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/07/abbvie-inc-abbv-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/01/abbvie-inc-abbv-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/26/abbvie-inc-abbv-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/25/abbvie-inc-abbv-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/25/abbvie-inc-abbv-q4-2018-earnings-conference-call-t.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/02/abbvie-inc-abbv-q3-2018-earnings-conference-call-t.aspx"
+  }
+ ],
+ "events": [
+  {
+   "title": "AbbVie Long-Term Guidance and Pipeline Update",
+   "date": "2024-02-02",
+   "url": "https://investors.abbvie.com/static-files/aefa6da8-17b6-4527-906f-bebc7aab2d5d",
+   "kind": "slides",
+   "ok": true
+  }
+ ]
+}

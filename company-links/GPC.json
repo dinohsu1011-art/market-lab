@@ -1,0 +1,154 @@
+{
+ "ticker": "GPC",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000037/gpc-earnq32026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000004098726000015/gpc-earnq12026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000119312526053013/d44894dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000004098725000141/gpc-earnq22025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000004098725000067/gpc-earnq12025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000004098725000022/gpc-earnq42024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000004098724000205/gpc-earnq32024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000004098724000175/gpc-earnq22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000004098724000066/gpc-earnq12024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000004098724000020/gpc-earnq42023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000004098723000084/gpc-earnq32023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000004098723000055/gpc-earnq22023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000004098723000013/gpc-earnq12023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/40987/000004098723000005/gpc-earnq42022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/21/genuine-parts-company-gpc-q3-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/22/genuine-parts-company-gpc-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/22/genuine-parts-co-gpc-q1-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/17/genuine-parts-co-gpc-q4-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/22/genuine-parts-co-gpc-q3-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/30/genuine-parts-co-gpc-q2-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/genuine-parts-co-gpc-q1-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/19/genuine-parts-co-gpc-q4-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/17/genuine-parts-co-gpc-q3-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/18/genuine-parts-co-gpc-q2-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/18/genuine-parts-co-gpc-q1-2019-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/19/genuine-parts-company-gpc-q4-2018-earnings-confere.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/18/genuine-parts-co-gpc-q3-2018-earnings-conference-c.aspx"
+  }
+ ]
+}

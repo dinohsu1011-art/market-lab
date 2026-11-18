@@ -1,0 +1,29 @@
+{
+ "ticker": "PPC",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/802481/000080248126000077/a2026_q3ppcex991earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/802481/000080248126000049/a2026_q2ppcex991earningsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/802481/000080248126000028/a2026_q1ppcex991earningsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/802481/000080248126000007/a2025_q4xppcearningsrelease.htm",
+   "release_ok": true
+  }
+ ]
+}

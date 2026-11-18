@@ -1,0 +1,162 @@
+{
+ "ticker": "AMT",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000154/pressreleaseq32026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000094/pressreleaseq12026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000032/pressreleaseq42025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350725000147/pressreleaseq32025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350725000100/pressreleaseq12025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/25/american-tower-amt-q4-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350725000022/pressreleaseq42024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/29/american-tower-amt-q3-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350724000128/pressreleaseq32024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/30/american-tower-amt-q2-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350724000103/pressreleaseq22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/01/american-tower-amt-q1-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350724000081/pressreleaseq12024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/27/american-tower-amt-q4-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350724000009/pressreleaseq42023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/26/american-tower-amt-q3-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350723000158/pressreleaseq32023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/27/american-tower-amt-q2-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350723000140/pressreleaseq22023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350723000112/pressreleaseq12023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/23/american-tower-amt-q4-2022-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1053507/000105350723000021/pressreleaseq42022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/27/american-tower-amt-q3-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/28/american-tower-amt-q2-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/27/american-tower-amt-q1-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/24/american-tower-amt-q4-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/american-tower-amt-q3-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/29/american-tower-amt-q2-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/american-tower-amt-q1-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/american-tower-amt-q3-2020-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/american-tower-amt-q2-2020-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/29/american-tower-corp-amt-q1-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/american-tower-corp-amt-q3-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/03/american-tower-corp-amt-q1-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/02/american-tower-amt-q1-2018-earnings-conference-cal.aspx"
+  }
+ ]
+}

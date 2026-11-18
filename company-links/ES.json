@@ -1,0 +1,160 @@
+{
+ "ticker": "ES",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465926122703/tm2628949d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465926088698/tm2621633d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://investors.eversource.com/static-files/1d6e3db3-05c5-4464-891a-1218e63f4fd5",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465926056267/tm2613673d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465926014302/tm266120d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465925072711/tm2522153d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465925043530/tm2513789d1_ex99-1.htm",
+   "release_ok": true,
+   "transcript": "https://www.investing.com/news/transcripts/earnings-call-transcript-eversource-energy-q1-2025-shows-strong-revenue-93CH-4020209"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465925011521/tm254636d2_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://investors.eversource.com/static-files/fb82de61-9cd9-462e-a140-9b18c239cea7",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://investors.eversource.com/static-files/3ccccdd3-57e4-4ce7-936a-0f7fed1ca716"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465924113912/tm2427357d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465924084368/tm2420517d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465924055831/tm2413187d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465924022557/tm245877d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465923114448/tm2329915d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465923085829/tm2322421d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465923055512/tm2314460d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/72741/000110465923019714/tm236481d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/eversource-energy-es-q3-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/30/eversource-energy-es-q2-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/10/eversource-energy-es-q1-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/17/eversource-energy-es-q4-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/07/eversource-energy-es-q1-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/20/eversource-energy-es-q4-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/06/eversource-energy-es-q3-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/02/eversource-energy-es-q2-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/eversource-energy-es-q1-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/21/eversource-energy-es-q4-2018-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/02/eversource-energy-es-q3-2018-earnings-conference-c.aspx"
+  }
+ ],
+ "ir": "https://investors.eversource.com/",
+ "results": "https://investors.eversource.com/news-events/events"
+}

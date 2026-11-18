@@ -1,0 +1,122 @@
+{
+ "ticker": "T",
+ "ir": "https://investors.att.com/",
+ "results": "https://investors.att.com/financial-reports/quarterly-earnings",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "slides": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2026/3Q-2026/3Q26_ATT_Earnings_Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2026/3Q-2026/3Q26_ATT_Earnings_Release.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-22",
+   "slides": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2026/1Q-2026/1Q26_ATT_Earnings_Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2026/1Q-2026/ATT_1Q26_Earnings_Release.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-28",
+   "slides": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2025/4Q-2025/4Q25_ATT_Earnings_Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2025/4Q-2025/ATT_4Q25_Earnings_Release.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "slides": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2025/1Q-2025/1Q25_ATT_Earnings.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2025/1Q-2025/1Q25_ATT_News_Release.pdf",
+   "transcript": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/1q25-earnings-transcript-2025-04-23.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/27/att-t-q4-2024-earnings-call-transcript/",
+   "slides": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2024/4Q24/4Q24_ATT_Earnings.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2024/4Q24/4Q24_Earnings_Press_Release.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/23/att-t-q3-2024-earnings-call-transcript/",
+   "slides": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2024/3Q24/3Q24_ATT_Earnings.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2024/3Q24/3Q24_ATT_Earnings_Release.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/24/att-t-q2-2024-earnings-call-transcript/",
+   "slides": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2024/2Q24/2Q24_ATT_Earnings.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2024/2Q24/2Q24_ATT_News_Release.pdf"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/24/att-t-q1-2024-earnings-call-transcript/",
+   "slides": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2024/1Q24/1Q24_ATT_Earnings.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.att.com/~/media/Files/A/ATT-IR-V2/financial-reports/quarterly-earnings/2024/1Q24/1Q24_ATT_News_Release.pdf"
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/24/att-t-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/732717/000073271724000006/t-4q2023exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/19/att-t-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/732717/000073271723000054/t-3q2023exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/26/att-t-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/732717/000073271723000043/t-2q2023exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/732717/000073271723000019/t-1q2023exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/25/att-t-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/732717/000073271723000007/t-4q2022exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/20/att-t-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/21/att-t-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/25/att-inc-t-q1-2018-earnings-conference-call-transcr.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/01/31/att-inc-t-q4-2017-earnings-conference-call-transcr.aspx"
+  }
+ ]
+}

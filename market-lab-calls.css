@@ -6,8 +6,20 @@
 .calls-page .mast{display:flex;justify-content:space-between;align-items:baseline;gap:16px;border-bottom:1px solid var(--ml-border);padding-bottom:12px;margin:6px 0 22px}
 .calls-page .mast h1{font-size:30px;margin:0;letter-spacing:-.02em;font-weight:600}
 .calls-page .mast span{color:var(--ml-muted);font-size:13px;white-space:nowrap}
-.calls-page section{background:var(--ml-surface);border:1px solid var(--ml-border);border-radius:8px;padding:18px 20px 20px;margin:0 0 16px}
-.calls-page section>h2{font-size:19px;font-weight:600;letter-spacing:-.01em;margin:0 0 12px}
+.calls-page section{margin:0 0 56px}
+.calls-page section h2{font-size:24px;font-weight:600;letter-spacing:-.02em;line-height:1.5;margin:0 0 14px}
+.calls-page h2.ask select{font:inherit;color:var(--ml-ink);background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23888' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 4px center;border:0;border-bottom:2px solid var(--ml-ink);border-radius:0;padding:0 20px 0 2px;appearance:none;-webkit-appearance:none;cursor:pointer}
+.calls-page h2.ask select:hover{background-color:var(--ml-hover)}
+.calls-page .lines{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;margin:0 0 14px}
+.calls-page .lines .series-key{margin:0}
+.calls-page .lines #add{min-width:0;width:170px;padding:4px 10px;font-size:13px}
+.calls-page .lines .fine{margin-left:auto;display:inline-flex;gap:6px}
+.calls-page .lines .fine select{font-size:13px;padding:4px 8px;color:var(--ml-muted);background:transparent}
+.series-key .chip span{color:var(--ml-faint);font-size:15px;line-height:1;margin-left:1px}
+.series-key .chip:hover span{color:var(--ml-ink)}
+.calls-page #search input[type=search]{flex:1 1 320px;font-size:16px;padding:10px 14px}
+.calls-page .stance-head h2{margin:0;display:inline-flex;flex-wrap:wrap;align-items:center;gap:10px}
+.calls-page .stance-head .seg button{font-size:15px;font-weight:500;letter-spacing:0}
 .calls-page a{color:var(--ml-ink);text-decoration:underline;text-underline-offset:3px}
 .calls-page a:hover{color:var(--ml-accent)}
 .calls-controls{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin:0 0 14px}
@@ -16,6 +28,7 @@
 .calls-page button,.calls-view button{cursor:pointer;transition:background-color 150ms ease}
 .calls-page button:hover,.calls-view button:hover{background:var(--ml-hover)}
 .calls-page button[aria-pressed="true"],.calls-view button[aria-pressed="true"]{border-color:var(--ml-ink)}
+.calls-page .seg button[aria-pressed="true"]{background:var(--ml-ink);color:var(--ml-surface);position:relative}
 .calls-page input[type=search]{min-width:260px}
 .seg{display:inline-flex}.seg button{border-radius:0;margin-left:-1px}.seg button:first-child{border-radius:4px 0 0 4px;margin-left:0}.seg button:last-child{border-radius:0 4px 4px 0}
 
@@ -81,7 +94,7 @@
 .move{display:inline-flex;align-items:center;gap:5px;font-size:13px}
 
 /* methodology */
-.calls-page details.method{background:var(--ml-surface);border:1px solid var(--ml-border);border-radius:8px;padding:14px 20px}
+.calls-page details.method{border-top:1px solid var(--ml-border);padding:14px 0}
 .calls-page details.method summary{cursor:pointer;font-weight:600;font-size:15px}
 .calls-page details.method .body{font-size:14px;line-height:1.65;max-width:78ch;margin-top:10px}
 .calls-page details.method h3{font-size:14px;margin:18px 0 4px}
@@ -114,3 +127,4 @@
 .call-marker:hover path{stroke:var(--ml-ink);stroke-width:1.5}
 @media (prefers-reduced-motion:reduce){.stance-quote.enter{animation:none}.turn,.calls-page button{transition:none}}
 @media(max-width:700px){.calls-page{padding:18px 14px 50px}.calls-page .mast{flex-wrap:wrap}.calls-page input[type=search]{min-width:0;width:100%}.turn{grid-template-columns:1fr}.turn .why,.turn .tq{grid-column:1}}
+.calls-page #search select{max-width:220px}

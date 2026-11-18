@@ -1,0 +1,65 @@
+{
+ "ticker": "MS",
+ "ir": "https://www.morganstanley.com/about-us-ir",
+ "results": "https://www.morganstanley.com/about-us-ir/earnings-releases",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-14",
+   "slides": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/finsup3q2026/finsup3q2026.pdf",
+   "slides_kind": "supplement",
+   "release": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/3q2026.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-15",
+   "slides": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/finsup2q2026/finsup2q2026.pdf",
+   "slides_kind": "supplement",
+   "release": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/2q2026.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-15",
+   "slides": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/finsup1q2026/finsup1q2026.pdf",
+   "slides_kind": "supplement",
+   "release": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/1q2026.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-15",
+   "slides": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/4q2025-strategic-update.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/4q2025.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-16",
+   "slides": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/finsup2q2025/finsup2q2025.pdf",
+   "slides_kind": "supplement",
+   "release": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/2q2025.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-11",
+   "slides": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/finsup1q2025/finsup1q2025.pdf",
+   "slides_kind": "supplement",
+   "release": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/1q2025.pdf",
+   "transcript": "https://www.investing.com/news/transcripts/earnings-call-transcript-morgan-stanley-beats-q1-2025-expectations-with-strong-eps-93CH-3981816"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-16",
+   "slides": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/4q2024-strategic-update.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/4q2024.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-16",
+   "slides": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/finsup3q2024/finsup3q2024.pdf",
+   "slides_kind": "supplement",
+   "release": "https://www.morganstanley.com/content/dam/msdotcom/en/about-us-ir/shareholder/3q2024.pdf",
+   "transcript": "https://uk.investing.com/news/transcripts/earnings-call-transcript-morgan-stanley-q3-2024-beats-earnings-forecast-93CH-3877965"
+  }
+ ]
+}

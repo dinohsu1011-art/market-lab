@@ -1,0 +1,183 @@
+{
+ "ticker": "BDX",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000162828026070511/ex9919302026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000162828026053790/ex9916302026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000162828026031638/ex9913312026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000162828026006182/ex99112312025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000162828025049835/ex99109302025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000001079525000069/ex99106302025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000001079525000036/ex99103312025.htm",
+   "release_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/becton-dickinson-and-company-nysebdx-q2-2025-earnings-call-transcript-1523829/"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000001079525000019/ex99112312024.htm",
+   "release_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/becton-dickinson-and-company-nysebdx-q1-2025-earnings-call-transcript-1445962/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000001079524000078/ex99109302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000001079524000064/ex99106302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000001079524000036/ex99103312024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000001079524000015/ex99112312023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-11-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000001079523000087/ex99109302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000001079523000072/ex99106302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000001079523000038/ex99103312023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/10795/000001079523000026/ex99112312022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/becton-dickinson-and-company-bdx-q4-2021-earnings/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/becton-dickinson-and-company-bdx-q3-2021-earnings/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/06/becton-dickinson-co-bdx-q2-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/04/becton-dickinson-co-bdx-q1-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/06/becton-dickinson-co-bdx-q4-2020-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/06/becton-dickinson-co-bdx-q3-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/07/becton-dickinson-co-bdx-q2-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/06/becton-dickinson-co-bdx-q1-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/05/becton-dickinson-co-bdx-q4-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/06/becton-dickinson-co-bdx-q3-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-05-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/09/becton-dickinson-co-bdx-q2-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/05/becton-dickinson-and-co-bdx-q1-2019-earnings-confe.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/06/becton-dickinson-co-bdx-q4-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/02/becton-dickinson-and-company-bdx-q3-2018-earnings.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/03/becton-dickinson-and-company-bdx-q2-2018-earnings.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/07/becton-dickinson-bdx-q1-2018-earnings-conference-c.aspx"
+  }
+ ]
+}

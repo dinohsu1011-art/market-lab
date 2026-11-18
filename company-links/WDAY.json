@@ -1,0 +1,165 @@
+{
+ "ticker": "WDAY",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-08-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/08/31/workday-wday-q2-2027-earnings-call-transcript/",
+   "slides": "https://s21.q4cdn.com/950027458/files/doc_earnings/2027/q2/presentation/Q2-FY27-Investor-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000042/wday-07312026x991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-05-21",
+   "slides": "https://s21.q4cdn.com/950027458/files/doc_earnings/2027/q1/presentation/Q1-FY27-Investor-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000024/wday-04302026x991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2025-11-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1327811/000132781125000196/wday-10312025x991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/25/workday-wday-q4-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1327811/000132781125000040/wday-1312025x991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2024-11-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/27/workday-wday-q3-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1327811/000132781124000233/wday-10312024x991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-08-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/22/workday-wday-q2-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1327811/000132781124000163/wday-07312024x991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-05-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/23/workday-wday-q1-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1327811/000132781124000089/wday-04302024x991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/26/workday-wday-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1327811/000132781124000031/wday-1312024x991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2023-11-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/28/workday-wday-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1327811/000132781123000200/wday-10312023x991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-08-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/24/workday-wday-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1327811/000132781123000149/wday-07312023x991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-05-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/25/workday-wday-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1327811/000132781123000077/wday-04302023x991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/27/workday-wday-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1327811/000132781123000022/wday-01312023x991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2022-11-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/29/workday-wday-q3-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2022-08-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/26/workday-wday-q2-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-05-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/27/workday-wday-q1-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2021-11-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/18/workday-inc-wday-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2021-08-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/26/workday-inc-wday-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-05-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/26/workday-inc-wday-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/25/workday-inc-wday-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2020-11-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/20/workday-inc-wday-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2020-08-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/27/workday-inc-wday-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-05-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/28/workday-inc-wday-q1-2021-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/27/workday-inc-wday-q4-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2019-12-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/12/03/workday-inc-wday-q3-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-08-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/29/workday-inc-wday-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-05-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/28/workday-inc-wday-q1-2019-earnings-call-transcript.aspx"
+  }
+ ],
+ "ir": "https://investor.workday.com/",
+ "results": "https://investor.workday.com/financials/quarterly-results/default.aspx"
+}

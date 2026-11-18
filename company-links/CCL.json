@@ -1,0 +1,144 @@
+{
+ "ticker": "CCL",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-09-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000104/a20263qearningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-06-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/815097/000081509725000047/a20252qearningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-03-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/03/21/carnival-corp-ccl-q1-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/815097/000081509725000019/a20251qearningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-12-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/12/20/carnival-corp-ccl-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/815097/000081509724000078/a20244qearningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-09-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/09/30/carnival-corp-ccl-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/815097/000081509724000069/a20243qearningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-06-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/06/25/carnival-corp-ccl-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/815097/000081509724000052/a20242qearningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-03-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/03/27/carnival-corp-ccl-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/815097/000081509724000033/a20241qearningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-12-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/12/21/carnival-corp-ccl-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/815097/000081509723000071/a20234qearningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-09-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/09/29/carnival-corp-ccl-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/815097/000081509723000062/a20233qearningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-06-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/06/26/carnival-corp-ccl-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/815097/000081509723000045/a20232qearningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-03-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/815097/000081509723000030/a20231qbusinessupdate8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-12-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/12/21/carnival-corp-ccl-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-09-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/09/30/carnival-ccl-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-06-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/06/28/carnival-ccl-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-03-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/03/22/carnival-ccl-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-12-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/20/carnival-corporation-ccl-q4-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-09-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/09/24/carnival-corporation-ccl-q3-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-06-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/06/24/carnival-corp-plc-ccl-q2-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/07/carnival-corp-plc-ccl-q1-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/11/carnival-corp-plc-ccl-q4-2020-earnings-call-transc/"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-09-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/09/26/carnival-plc-ccl-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-03-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/03/26/carnival-corp-ccl-q1-2019-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-09-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/09/28/carnival-ccl-q3-2018-earnings-conference-call-tran.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-03-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/03/26/carnival-ccl-q1-2018-earnings-conference-call-tran.aspx"
+  }
+ ]
+}

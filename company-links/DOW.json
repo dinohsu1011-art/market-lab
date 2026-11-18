@@ -1,0 +1,169 @@
+{
+ "ticker": "DOW",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178826000155/exhibit991enrschedules3q26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178826000131/exhibit991enrschedules1q26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178826000011/exhibit991enrschedules4q25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178825000142/exhibit991enrschedules2q25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178825000125/exhibit991enrschedules1q25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/30/dow-dow-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178825000005/exhibit991enrschedules4q24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/24/dow-dow-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178824000147/exhibit991enrschedules3q24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/25/dow-dow-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178824000135/exhibit991enrschedules2q24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/25/dow-dow-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178824000126/exhibit991enrschedules1q24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/25/dow-dow-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178824000003/exhibit991enrschedules4q23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/24/dow-dow-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178823000137/exhibit991enrschedules3q23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/25/dow-dow-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178823000125/exhibit991enrschedules2q23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178823000113/exhibit991enrschedules1q23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/26/dow-dow-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751788/000175178823000004/exhibit991enrschedules4q22.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/20/dow-dow-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/21/dow-dow-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/21/dow-dow-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/27/the-dow-chemical-company-dow-q4-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/21/the-dow-chemical-company-dow-q3-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/22/the-dow-chemical-company-dow-q2-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/22/the-dow-chemical-company-dow-q1-2021-earnings-call/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/28/the-dow-chemical-company-dow-q4-2020-earnings-call/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/22/the-dow-chemical-company-dow-q3-2020-earnings-call/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/24/the-dow-chemical-company-dow-q2-2020-earnings-call.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/dow-chemical-co-dow-q1-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/29/dow-chemical-co-dow-q4-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/24/dow-chemical-co-dow-q3-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/25/dow-inc-dow-q2-2019-earnings-call-transcript.aspx"
+  }
+ ],
+ "ir": "https://investors.dow.com",
+ "results": "https://investors.dow.com/en/reporting"
+}

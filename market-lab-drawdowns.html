@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Drawdowns — Equinox</title>
+  <title>Drawdowns · Equinox</title>
   <style>
     :root {
       --white:#ffffff; --fog:#fafaf9; --ink:#0c0a09; --ash:#78716c;
@@ -57,7 +57,48 @@
     .ongoing { display:inline-block; margin-left:10px; padding:2px 9px; border:1px dashed var(--platinum);
                border-radius:999px; font-size:11.5px; color:var(--ash); }
   </style>
-<link rel="stylesheet" href="market-lab-shell.css?v=20261113-7ebfc70e"><script src="market-lab-shell.js?v=20261113-7ebfc70e"></script></head>
+<link rel="stylesheet" href="market-lab-shell.css?v=20261117-c7c5d6d0"><script src="market-lab-shell.js?v=20261117-c7c5d6d0"></script>
+  <style>
+    /* Look shared with the newer pages: site fonts and colors, open sections instead of boxes. */
+    body { font-family:var(--sans); font-size:16px; background:var(--ml-bg); color:var(--ml-ink); -webkit-font-smoothing:antialiased; }
+    .ml-has-context > .wrap, .wrap { max-width:1180px; padding:48px 40px 120px; }
+    .top { margin-bottom:10px; }
+    .top h1 { font:400 46px/1.08 var(--eq-serif,"Newsreader",Georgia,serif); letter-spacing:-.015em; }
+    .top .meta { font-size:13px; color:var(--ml-faint); }
+    .lede, [data-page="drawdowns"] .lede { font-size:16px; color:var(--ml-muted); max-width:70ch; margin:0 0 44px; }
+    .card { background:none; border:0; border-radius:0; box-shadow:none; padding:0; margin-bottom:56px; }
+    .card h3 { font:400 26px/1.2 var(--eq-serif,"Newsreader",Georgia,serif); margin:0 0 14px; }
+    .card .sub, [data-page="drawdowns"] .card .sub { font:400 13px var(--sans); color:var(--ml-faint); margin-left:10px; }
+    .cols, [data-page="drawdowns"] .cols { gap:56px; }
+    table { font-size:15px; font-variant-numeric:tabular-nums; }
+    th { font-size:13px; font-weight:400; color:var(--ml-muted); padding:8px 0 8px 16px; border-bottom:1px solid var(--ml-border); }
+    td { padding:8px 0 8px 16px; border-bottom:1px solid var(--ml-border); }
+    th:first-child, td:first-child { padding-left:0; }
+    .bkt { font-weight:600; }
+    .dim { color:var(--ml-faint); }
+    .bktbar { height:10px; border-radius:2px; background:var(--ml-accent); }
+    tr.deep .bktbar { background:var(--ml-ink); opacity:.7; }
+    tr.now td { background:var(--ml-raised); }
+    tr.now td:first-child { box-shadow:-10px 0 0 var(--ml-raised); }
+    tr.now td:last-child { box-shadow:10px 0 0 var(--ml-raised); }
+    .nowlab { font-weight:600; color:var(--ml-ink); margin-left:10px; }
+    .bktbar + .nowlab { margin-left:10px; }
+    td.bar .nowlab:first-child { margin-left:0; }
+    .cumrow { padding:9px 0; border-bottom:1px solid var(--ml-border); font-size:15px; }
+    .cumrow b { font-size:15px; }
+    .cumrow .freq { color:var(--ml-ink); }
+    .dec td, .dec th { padding-left:8px; }
+    .dec td.c { border-radius:0; }
+    .tip { background:var(--ml-surface); border-color:var(--ml-border); color:var(--ml-ink); font:400 13px/1.55 var(--sans); }
+    .note { font-size:14px; color:var(--ml-muted); max-width:70ch; margin-top:0; }
+    .ongoing { display:block; margin:8px 0 0; padding:0; border:0; border-radius:0; font:400 14px var(--sans); color:var(--ml-muted); }
+    #timeline text { font-family:var(--sans); }
+    #zoomreset { font:600 13px var(--sans) !important; background:none !important; border:1px solid var(--ml-border) !important; color:var(--ml-ink) !important; border-radius:6px !important; }
+    .tabs button, [data-page="drawdowns"] #tabs button { font-family:var(--sans); font-size:14px; background:none; border:0; box-shadow:none; color:var(--ml-muted); border-radius:6px; transition:color .15s, background-color .15s; }
+    .tabs button.on { background:var(--ml-raised); color:var(--ml-ink); border:0; box-shadow:none; }
+    .tabs button .now { display:block; font-size:12px; font-weight:400; color:var(--ml-faint); margin-top:1px; }
+    .tabs button:focus-visible { outline:2px solid var(--ml-accent); outline-offset:1px; }
+  </style></head>
 <body>
   <div class="wrap">
     <div class="top">
@@ -67,65 +108,65 @@
         <a href="market-lab-leaders.html">leaders</a> &middot;
         <a href="market-lab-baskets.html">baskets</a> <span id="asof"></span></div>
     </div>
-    <p class="lede">A pullback = decline from the running all-time high until a <b>new high</b> is
-      reclaimed, counted once at its maximum close-to-close depth. Dips that stay under 3% are ignored;
-      rallies-and-dips <i>inside</i> a long bear are not separate episodes.</p>
+    <p class="lede">A pullback runs from a record high until the index makes a new one. Each is counted once, at its deepest daily close. Dips that stay under 3% are left out.</p>
     <div class="tabs" id="tabs"></div>
 
     <div class="cols">
       <div class="card">
-        <h3>Distribution by max depth <span class="sub" id="dist-sub"></span></h3>
+        <h3>How deep pullbacks go <span class="sub" id="dist-sub"></span></h3>
         <div id="dist"></div>
       </div>
       <div>
         <div class="card">
-          <h3>How often — at least X% <span class="sub">annualized</span></h3>
+          <h3>How often</h3>
           <div id="cum"></div>
         </div>
         <div class="card">
-          <h3>Worst episodes <span class="sub">&ge;20% from high</span></h3>
+          <h3>Worst pullbacks <span class="sub">20% or more below the high</span></h3>
           <div id="worst"></div>
         </div>
       </div>
     </div>
 
     <div class="card">
-      <h3>Same distribution, by decade <span class="sub" id="dec-sub">&middot; episodes assigned to the decade of their peak</span></h3>
+      <h3>By decade <span class="sub" id="dec-sub">each pullback counted in the decade of its high</span></h3>
       <div id="decade"></div>
     </div>
 
     <div class="card">
-      <h3>Timeline <span class="sub">&middot; daily drawdown from ATH; dots mark troughs — hover a dot for its odds &amp; recurrence, <b>drag a date range to zoom</b>, double-click to reset</span><span class="ongoing" id="ongoing" style="display:none;"></span>
-        <button id="zoomreset" style="display:none; float:right; font-family:var(--font); font-size:11.5px; padding:3px 10px; cursor:pointer; background:var(--white); border:1px solid var(--platinum); border-radius:7px; color:var(--ink);">reset zoom</button>
+      <h3>Timeline <span class="sub">distance below the high each day. Dots mark the low of each pullback. Drag across dates to zoom, double-click to reset.</span><span class="ongoing" id="ongoing" style="display:none;"></span>
+        <button id="zoomreset" style="display:none; float:right; font-family:var(--font); font-size:11.5px; padding:3px 10px; cursor:pointer; background:var(--white); border:1px solid var(--platinum); border-radius:7px; color:var(--ink);">Reset zoom</button>
         <span id="zoomrange" class="sub" style="float:right; margin-right:10px;"></span></h3>
       <div id="timeline"></div>
     </div>
 
-    <p class="note">Depths are close-based (intraday lows run ~1–2pp deeper). Decades have unequal data
-      coverage — the first and last columns are partial. NDX history starts 1985, so it never saw 1973–74.
-      Down and recovery times in the table are medians for each depth band. Rows with one or two events are events, not rates. Regenerated automatically by update.py.</p>
+    <p class="note">Depths use daily closes. Lows during the day run 1 to 2 points deeper. The first and last decades are partial. Nasdaq-100 history starts in 1985, so it never saw the 1973 to 1974 fall. Times to the bottom and to recover are the middle value for each row. A row with one or two pullbacks describes those events, not a rate.</p>
   </div>
   <div class="tip" id="tip"></div>
-  <script src="cube/drawdowns.js?v=20261113-7ebfc70e"></script>
+  <script src="cube/drawdowns.js?v=20261117-c7c5d6d0"></script>
   <script>
     (() => {
       const D = window.QUANT_DRAWDOWNS;
       const $ = (id) => document.getElementById(id);
-      if (!D) { $("dist").textContent = "cube/drawdowns.js missing — run: python -m export.cube"; return; }
+      if (!D) { $("dist").textContent = "This did not load. Refresh to try again."; return; }
       const EDGES = [[3,4],[4,5],[5,6],[6,7],[7,8],[8,9],[9,10],
                      [10,12],[12,14],[14,16],[16,18],[18,20],
                      [20,23],[23,26],[26,29],[29,32],[32,35],[35,38],[38,41],[41,1e9]];
-      const LBL = EDGES.map(([a,b]) => b > 100 ? "41%+" : `${a}–${b}%`);
+      const LBL = EDGES.map(([a,b]) => b > 100 ? "41% or more" : `${a} to ${b}%`);
       const med = (a) => { if (!a.length) return null; const s=[...a].sort((x,y)=>x-y), m=s.length>>1;
         return s.length % 2 ? s[m] : Math.round((s[m-1] + s[m]) / 2); };
-      const days = (v) => v == null ? "—" : (v >= 365 ? (v/365.25).toFixed(1)+"y" : v+"d");
-      $("asof").textContent = "· updated " + D.as_of;
+      const days = (v) => v == null ? "" : (v >= 365 ? (v/365.25).toFixed(1)+" yrs" : v+" days");
+      // where an index sits today: how far its latest close is below its record high
+      const nowDD = (ix) => Math.max(0, -ix.daily.dd[ix.daily.dd.length - 1]);
+      const nowTxt = (v) => v < 0.05 ? "at the high" : v.toFixed(1) + "% below the high";
+      $("asof").textContent = "Updated " + new Date(D.as_of + "T12:00:00").toLocaleDateString("en-US", { month:"short", day:"numeric", year:"numeric" });
 
       let cur = 0, view = null;   // view = {t0,t1} ms — null = full range
       const tabs = $("tabs");
       D.indexes.forEach((ix, i) => {
         const b = document.createElement("button");
-        b.textContent = `${ix.label} (${ix.years.toFixed(0)}y)`;
+        b.innerHTML = `${ix.label}<span class="now">Now: ${nowTxt(nowDD(ix))}</span>`;
+        b.title = `${ix.years.toFixed(0)} years of history`;
         b.onclick = () => { cur = i; view = null; render(); };
         tabs.appendChild(b);
       });
@@ -133,18 +174,21 @@
       function render() {
         [...tabs.children].forEach((b, i) => b.classList.toggle("on", i === cur));
         const ix = D.indexes[cur], eps = ix.episodes, yrs = ix.years;
-        $("dist-sub").textContent = `· ${eps.length} pullbacks ≥3% in ${yrs.toFixed(0)} years`;
+        $("dist-sub").textContent = `${eps.length} pullbacks of 3% or more in ${yrs.toFixed(0)} years`;
 
         // 1. bucket distribution
         const buckets = EDGES.map(([a,b]) => eps.filter(e => e.depth >= a && e.depth < b));
         const maxN = Math.max(...buckets.map(s => s.length), 1);
-        $("dist").innerHTML = `<table><tr><th>max depth</th><th style="text-align:left"></th><th>n</th><th>once every</th><th>pk→trough</th><th>recovery</th></tr>` +
+        const now = nowDD(ix), nowLab = `<span class="nowlab">Now: ${nowTxt(now)}</span>`;
+        const nowRow = EDGES.findIndex(([a,b]) => now >= a && now < b);
+        $("dist").innerHTML = `<table><tr><th>Deepest point</th><th style="text-align:left"></th><th>Count</th><th>Once every</th><th>Time to bottom</th><th>Time to recover</th></tr>` +
+          (nowRow < 0 ? `<tr class="now"><td class="bkt">Under 3%</td><td class="bar" style="text-align:left" colspan="5">${nowLab}</td></tr>` : "") +
           buckets.map((s, i) => {
             const n = s.length;
-            const oe = n ? (yrs/n >= 1 ? (yrs/n).toFixed(1)+" yrs" : "<1 yr") : "—";
+            const oe = n ? (yrs/n >= 1 ? (yrs/n).toFixed(1)+" yrs" : "under 1 yr") : "";
             const p2t = med(s.map(e => e.p2t)), rec = med(s.filter(e => e.rec != null).map(e => e.rec));
-            return `<tr class="${EDGES[i][0] >= 20 ? "deep" : ""}"><td class="bkt">${LBL[i]}</td>` +
-              `<td style="text-align:left;width:34%"><span class="bktbar" style="width:${n ? Math.max(3, n/maxN*100) : 0}%"></span></td>` +
+            return `<tr class="${EDGES[i][0] >= 20 ? "deep" : ""}${i === nowRow ? " now" : ""}"><td class="bkt">${LBL[i]}</td>` +
+              `<td class="bar" style="text-align:left;width:${i === nowRow ? "auto" : "34%"}"><span class="bktbar" style="width:${n ? Math.max(3, n/maxN*100)*(nowRow < 0 ? 1 : .4) : 0}%"></span>${i === nowRow ? nowLab : ""}</td>` +
               `<td>${n || '<span class="dim">0</span>'}</td><td>${oe}</td>` +
               `<td class="dim">${days(p2t)}</td><td class="dim">${days(rec)}</td></tr>`;
           }).join("") + `</table>`;
@@ -153,15 +197,15 @@
         $("cum").innerHTML = [3,5,10,15,20,30,41].map(t => {
           const n = eps.filter(e => e.depth >= t).length;
           const f = n/yrs;
-          const txt = f >= 0.95 ? `${f.toFixed(1)}× per year` : `every ${(yrs/n).toFixed(1)} yrs`;
-          return `<div class="cumrow"><span>≥ <b>${t}%</b></span><span class="dim">${n}×</span><span class="freq">${n ? txt : "never"}</span></div>`;
+          const txt = f >= 0.95 ? `${f.toFixed(1)} times a year` : `every ${(yrs/n).toFixed(1)} yrs`;
+          return `<div class="cumrow${n && now >= t ? " cur" : ""}"><span><b>${t}%</b> or more</span><span class="dim">${n} times</span><span class="freq">${n ? txt : "never"}</span></div>`;
         }).join("");
 
         // 3. worst episodes
         const worst = eps.filter(e => e.depth >= 20).sort((a,b) => b.depth - a.depth);
         $("worst").innerHTML = worst.map(e =>
           `<div class="cumrow"><span><b>−${Math.round(e.depth)}%</b> <span class="dim">${e.peak.slice(0,7)}</span></span>` +
-          `<span class="dim">${days(e.p2t)} down</span><span>${e.rec != null ? days(e.rec) + " to recover" : "ongoing"}</span></div>`).join("") || `<div class="dim">none</div>`;
+          `<span class="dim">${days(e.p2t)} down</span><span>${e.rec != null ? days(e.rec) + " to recover" : "not yet recovered"}</span></div>`).join("") || `<div class="dim">None</div>`;
 
         // 4. by decade
         const decs = [];
@@ -173,28 +217,28 @@
           const s = Math.max(d, +ix.start.slice(0,4)), e = Math.min(d+9, +ix.end.slice(0,4));
           return e - s + 1;
         });
-        $("decade").innerHTML = `<table class="dec"><tr><th>max depth</th>` +
-          decs.map((d,i) => `<th>${d}s<br><span style="font-weight:400">${decYears[i]}y</span></th>`).join("") + `</tr>` +
+        $("decade").innerHTML = `<table class="dec"><tr><th>Deepest point</th>` +
+          decs.map((d,i) => `<th>${d}s<br><span style="font-weight:400">${decYears[i]} yrs</span></th>`).join("") + `</tr>` +
           grid.map((row, bi) => `<tr><td class="bkt">${LBL[bi]}</td>` + row.map(c =>
-            `<td class="c" style="background:color-mix(in srgb,var(--ml-accent) ${c ? (10 + 50*c/maxC).toFixed(1) : 0}%,transparent)">${c || '<span class="dim">·</span>'}</td>`).join("") + `</tr>`).join("") +
-          `<tr style="border-top:2px solid var(--stone)"><td class="bkt">all ≥3%</td>` +
+            `<td class="c" style="background:color-mix(in srgb,var(--ml-accent) ${c ? (10 + 50*c/maxC).toFixed(1) : 0}%,transparent)">${c || ''}</td>`).join("") + `</tr>`).join("") +
+          `<tr><td class="bkt">All pullbacks</td>` +
           decs.map(d => `<td><b>${eps.filter(e => Math.floor(+e.peak.slice(0,4)/10)*10 === d).length}</b></td>`).join("") + `</tr>` +
-          `<tr><td class="bkt dim">of which ≥10%</td>` +
+          `<tr><td class="bkt dim">10% or deeper</td>` +
           decs.map(d => `<td class="dim">${eps.filter(e => e.depth >= 10 && Math.floor(+e.peak.slice(0,4)/10)*10 === d).length}</td>`).join("") + `</tr></table>`;
 
         // 5. timeline (zoomable — see drawTimeline)
         drawTimeline(ix);
 
         const og = eps.find(e => e.rec == null);
-        $("ongoing").style.display = og ? "inline-block" : "none";
+        $("ongoing").style.display = og ? "block" : "none";
         if (og) {
           const st = ddStats(eps, ix.years, og.depth, { excl: og });
           const last = st.since != null
-            ? `${st.since.toLocaleString()}d ago (${st.lastT})` : "none prior";
+            ? `${st.since.toLocaleString()} days ago` : "never before";
           $("ongoing").textContent =
-            `current: −${og.depth}% from the ${og.peak} high — if it bottoms here: ` +
-            `${st.share.toFixed(0)}% of pullbacks went at least this deep · ${st.yrPct.toFixed(0)}% of years had one · ` +
-            `last ≥${og.depth}%: ${last}`;
+            `This pullback has reached ${og.depth}% from the ${og.peak} high. ` +
+            `${st.share.toFixed(0)}% of pullbacks went at least this deep, and ${st.yrPct.toFixed(0)}% of years had one. ` +
+            `The last one this deep bottomed ${last}.`;
         }
       }
 
@@ -209,7 +253,7 @@
         const since = lastT ? Math.round((anchor - new Date(lastT)) / 86400e3) : null;
         return { share, yrPct, lastT, since };
       }
-      const fmtGap = (d) => d.toLocaleString() + "d" + (d >= 365 ? ` (~${(d/365.25).toFixed(1)}y)` : "");
+      const fmtGap = (d) => d.toLocaleString() + " days" + (d >= 365 ? ` (about ${(d/365.25).toFixed(1)} yrs)` : "");
 
       function drawTimeline(ix) {
         const eps = ix.episodes;
@@ -234,11 +278,11 @@
         const Y = (d) => top + d / maxD * (bot - top);
 
         let s = `<defs><clipPath id="plotclip"><rect x="${L}" y="${top - 2}" width="${R - L}" height="${bot - top + 4}"/></clipPath></defs>`;
-        s += `<line x1="${L}" y1="${top}" x2="${R}" y2="${top}" stroke="#d6d3d1" stroke-width="1"/>`;
+        s += `<line x1="${L}" y1="${top}" x2="${R}" y2="${top}" stroke="var(--ml-border)" stroke-width="1"/>`;
         for (const g of [3, 5, 10, 20, 30, 50, 80]) {
           if (g < maxD && g / maxD > 0.08)
-            s += `<line x1="${L}" y1="${Y(g)}" x2="${R}" y2="${Y(g)}" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 5"/>` +
-                 `<text x="${L-6}" y="${Y(g)+4}" text-anchor="end" font-size="10" fill="#a8a29e">−${g}%</text>`;
+            s += `<line x1="${L}" y1="${Y(g)}" x2="${R}" y2="${Y(g)}" stroke="var(--ml-border)" stroke-width="1" stroke-dasharray="3 5"/>` +
+                 `<text x="${L-6}" y="${Y(g)+4}" text-anchor="end" font-size="11" fill="var(--ml-faint)">−${g}%</text>`;
         }
         const spanY = (t1 - t0) / 31557600000;
         if (spanY >= 2.5) {
@@ -246,7 +290,7 @@
           const yA = new Date(t0).getUTCFullYear(), yB = new Date(t1).getUTCFullYear();
           for (let yr = Math.ceil(yA / step) * step; yr <= yB; yr += step) {
             const x = X(Date.UTC(yr, 0, 1));
-            if (x >= L && x <= R) s += `<text x="${x.toFixed(1)}" y="${bot + 18}" text-anchor="middle" font-size="10" fill="#a8a29e">${yr}</text>`;
+            if (x >= L && x <= R) s += `<text x="${x.toFixed(1)}" y="${bot + 18}" text-anchor="middle" font-size="11" fill="var(--ml-faint)">${yr}</text>`;
           }
         } else {
           const stepM = spanY >= 0.7 ? 3 : 1;
@@ -257,7 +301,7 @@
             const t = Date.UTC(yy, mm, 1);
             if (t > t1) break;
             const x = X(t);
-            if (x >= L && x <= R) s += `<text x="${x.toFixed(1)}" y="${bot + 18}" text-anchor="middle" font-size="10" fill="#a8a29e">${new Date(t).toISOString().slice(0, 7)}</text>`;
+            if (x >= L && x <= R) s += `<text x="${x.toFixed(1)}" y="${bot + 18}" text-anchor="middle" font-size="11" fill="var(--ml-faint)">${new Date(t).toISOString().slice(0, 7)}</text>`;
             mm += stepM;
           }
         }
@@ -286,16 +330,16 @@
           // recurrence stats for "this deep or deeper" — gap measured to the
           // PREVIOUS occurrence before this event (not anchored to today)
           const st = ddStats(eps, ix.years, e.depth, { excl: e, before: e.trough, anchor: e.trough });
-          const prevTxt = st.lastT ? `${fmtGap(st.since)} prior (${st.lastT})` : "first this deep in the data";
-          const tipTxt = `−${e.depth}% · peak ${e.peak} → trough ${e.trough} (${days(e.p2t)})` +
-                         (e.rec != null ? ` · recovered in ${days(e.rec)}` : " · ONGOING") +
+          const prevTxt = st.lastT ? `${fmtGap(st.since)} earlier (${st.lastT})` : "first this deep in the data";
+          const tipTxt = `−${e.depth}%, high ${e.peak}, low ${e.trough} (${days(e.p2t)})` +
+                         (e.rec != null ? `, recovered in ${days(e.rec)}` : ", not yet recovered") +
                          `&#10;${st.share.toFixed(0)}% of pullbacks went at least this deep` +
-                         `&#10;chance in any year: ${st.yrPct.toFixed(0)}%` +
+                         `&#10;${st.yrPct.toFixed(0)}% of years had one` +
                          `&#10;previous one this deep: ${prevTxt}`;
           s += `<circle cx="${X(ms(e.trough)).toFixed(1)}" cy="${Y(e.depth).toFixed(1)}" r="${r.toFixed(1)}" ` +
                `fill="${deep ? "var(--ml-ink)" : mid ? "var(--ml-accent)" : "var(--ml-surface)"}" stroke="${deep ? "var(--ml-ink)" : "var(--ml-accent)"}" ` +
                `stroke-width="1.4" data-tip="${tipTxt}" style="cursor:crosshair"/>`;
-          if (e.depth >= 30) s += `<text x="${X(ms(e.trough)).toFixed(1)}" y="${(Y(e.depth)+r+12).toFixed(1)}" text-anchor="middle" font-size="10" font-weight="600" fill="#0c0a09">−${Math.round(e.depth)}%</text>`;
+          if (e.depth >= 30) s += `<text x="${X(ms(e.trough)).toFixed(1)}" y="${(Y(e.depth)+r+12).toFixed(1)}" text-anchor="middle" font-size="11" font-weight="600" fill="var(--ml-ink)">−${Math.round(e.depth)}%</text>`;
         });
         // live marker: the in-progress pullback (or current distance from ATH),
         // always plotted at the latest date
@@ -306,23 +350,23 @@
           let liveTip;
           if (ogEp) {
             const st = ddStats(eps, ix.years, ogEp.depth, { excl: ogEp });
-            liveTip = `NOW (${ix.end}): −${ogEp.depth}% pullback in progress · peak ${ogEp.peak} · trough so far ${ogEp.trough}` +
-                      `&#10;today: −${curDD.toFixed(1)}% from ATH` +
-                      `&#10;if it bottoms here: ${st.share.toFixed(0)}% of pullbacks went at least this deep · ${st.yrPct.toFixed(0)}% of years had one` +
-                      `&#10;last ≥${ogEp.depth}%: ${st.lastT ? fmtGap(st.since) + " ago (" + st.lastT + ")" : "none prior"}`;
+            liveTip = `Now (${ix.end}): ${nowTxt(curDD)}` +
+                      `&#10;This pullback began at the ${ogEp.peak} high and has reached ${ogEp.depth}% (${ogEp.trough})` +
+                      `&#10;${st.share.toFixed(0)}% of pullbacks went at least this deep, ${st.yrPct.toFixed(0)}% of years had one` +
+                      `&#10;last one this deep: ${st.lastT ? fmtGap(st.since) + " ago (" + st.lastT + ")" : "never before"}`;
           } else {
-            liveTip = `NOW (${ix.end}): −${curDD.toFixed(1)}% from ATH — below the 3% pullback threshold`;
+            liveTip = `Now (${ix.end}): ${nowTxt(curDD)}, too small to count as a pullback`;
           }
           const lr = 3.5 + Math.min(liveDepth, 60) / 9;
-          const lx = X(endMs).toFixed(1), ly = Y(Math.max(liveDepth, 0.3)).toFixed(1);
-          s += `<circle cx="${lx}" cy="${ly}" r="${(lr + 3).toFixed(1)}" fill="none" stroke="#3ba6f1" stroke-width="1.2" stroke-dasharray="2 3" pointer-events="none"/>` +
-               `<circle cx="${lx}" cy="${ly}" r="${lr.toFixed(1)}" fill="#3ba6f1" stroke="#1d7fc4" stroke-width="1.5" data-tip="${liveTip}" style="cursor:crosshair"/>`;
+          const lx = X(endMs).toFixed(1), ly = Y(Math.max(curDD, 0.3)).toFixed(1);
+          s += `<circle cx="${lx}" cy="${ly}" r="${lr.toFixed(1)}" fill="var(--ml-surface)" stroke="var(--ml-ink)" stroke-width="2" data-tip="${liveTip}" style="cursor:crosshair"/>` +
+               `<text x="${(X(endMs) - lr - 8).toFixed(1)}" y="${(+ly + 4).toFixed(1)}" text-anchor="end" font-size="12" font-weight="600" fill="var(--ml-ink)" stroke="var(--ml-bg)" stroke-width="4" paint-order="stroke" pointer-events="none">Now: ${nowTxt(curDD)}</text>`;
         }
         $("timeline").innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="drawdown timeline" style="touch-action:none; user-select:none; cursor:crosshair;">${s}</svg>`;
 
         $("zoomreset").style.display = view ? "inline-block" : "none";
         $("zoomrange").textContent = view
-          ? `${new Date(t0).toISOString().slice(0,10)} → ${new Date(t1).toISOString().slice(0,10)} · ${vis.length} episodes` : "";
+          ? `${new Date(t0).toISOString().slice(0,10)} to ${new Date(t1).toISOString().slice(0,10)}, ${vis.length} pullbacks` : "";
 
         // brush-to-zoom
         const svg = $("timeline").querySelector("svg");
@@ -332,7 +376,7 @@
           brush = { x0: Math.max(L, Math.min(R, toVB(e))), x1: null };
           const el = document.createElementNS("http://www.w3.org/2000/svg", "rect");
           el.setAttribute("y", top); el.setAttribute("height", bot - top);
-          el.setAttribute("fill", "#3ba6f1"); el.setAttribute("opacity", "0.16");
+          el.setAttribute("fill", "var(--ml-accent)"); el.setAttribute("opacity", "0.16");
           svg.appendChild(el); brush.el = el;
           svg.setPointerCapture(e.pointerId); e.preventDefault();
         };
@@ -340,7 +384,7 @@
         // brushing or over an episode dot, whose own tooltip takes precedence)
         const xhair = document.createElementNS("http://www.w3.org/2000/svg", "line");
         xhair.setAttribute("y1", top); xhair.setAttribute("y2", bot);
-        xhair.setAttribute("stroke", "#a8a29e"); xhair.setAttribute("stroke-dasharray", "2 4");
+        xhair.setAttribute("stroke", "var(--ml-faint)"); xhair.setAttribute("stroke-dasharray", "2 4");
         xhair.setAttribute("pointer-events", "none"); xhair.style.display = "none";
         svg.appendChild(xhair);
         svg.onpointermove = (e) => {
@@ -365,7 +409,7 @@
           if (lo > a && Math.abs(wmsAll[lo - 1] - t) < Math.abs(wmsAll[lo] - t)) lo--;
           const px = X(wmsAll[lo]).toFixed(1);
           xhair.setAttribute("x1", px); xhair.setAttribute("x2", px); xhair.style.display = "";
-          svg.dataset.tip = `${wd[lo]} · ${wv[lo] <= -0.05 ? "−" + Math.abs(wv[lo]).toFixed(1) + "% from ATH" : "at ATH"}`;
+          svg.dataset.tip = `${wd[lo]}: ${nowTxt(Math.abs(wv[lo]))}`;
         };
         svg.onpointerleave = () => { xhair.style.display = "none"; delete svg.dataset.tip; };
         svg.onpointerup = () => {

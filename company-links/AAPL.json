@@ -1,0 +1,233 @@
+{
+ "ticker": "AAPL",
+ "ir": "https://investor.apple.com/investor-relations/default.aspx",
+ "results": "https://investor.apple.com/investor-relations/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-11-02",
+   "slides": "https://www.apple.com/newsroom/pdfs/fy2026q4/FY26_Q4_Consolidated_Financial_Statements.pdf",
+   "slides_kind": "financial statements",
+   "slides_ok": true,
+   "release": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/11/02/apple-aapl-q4-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-07-30",
+   "slides": "https://www.apple.com/newsroom/pdfs/fy2026q3/FY26_Q3_Consolidated_Financial_Statements.pdf",
+   "slides_kind": "financial statements",
+   "slides_ok": true,
+   "release": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/08/07/apple-aapl-q3-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-04-30",
+   "slides": "https://www.apple.com/newsroom/pdfs/fy2026q2/FY26_Q2_Consolidated_Financial_Statements.pdf",
+   "slides_kind": "financial statements",
+   "slides_ok": true,
+   "release": "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/04/30/apple-aapl-q2-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-01-29",
+   "slides": "https://www.apple.com/newsroom/pdfs/fy2026-q1/FY26_Q1_Consolidated_Financial_Statements.pdf",
+   "slides_kind": "financial statements",
+   "slides_ok": true,
+   "release": "https://www.apple.com/newsroom/2026/01/apple-reports-first-quarter-results/",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/01/29/apple-aapl-q1-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-10-30",
+   "slides": "https://www.apple.com/newsroom/pdfs/fy2025-q4/FY25_Q4_Consolidated_Financial_Statements.pdf",
+   "slides_kind": "financial statements",
+   "slides_ok": true,
+   "release": "https://www.apple.com/newsroom/2025/10/apple-reports-fourth-quarter-results/",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/10/31/apple-q4-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-07-31",
+   "slides": "https://www.apple.com/newsroom/pdfs/fy2025-q3/FY25_Q3_Consolidated_Financial_Statements.pdf",
+   "slides_kind": "financial statements",
+   "slides_ok": true,
+   "release": "https://www.apple.com/newsroom/2025/07/apple-reports-third-quarter-results/",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/08/01/apple-aapl-q3-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-05-01",
+   "slides": "https://www.apple.com/newsroom/pdfs/fy2025-q2/FY25_Q2_Consolidated_Financial_Statements.pdf",
+   "slides_kind": "financial statements",
+   "slides_ok": true,
+   "release": "https://www.apple.com/newsroom/2025/05/apple-reports-second-quarter-results/",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-01-30",
+   "slides": "https://www.apple.com/newsroom/pdfs/fy2025-q1/FY25_Q1_Consolidated_Financial_Statements.pdf",
+   "slides_kind": "financial statements",
+   "slides_ok": true,
+   "release": "https://www.apple.com/newsroom/2025/01/apple-reports-first-quarter-results/",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/30/apple-aapl-q1-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/31/apple-aapl-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000120/a8-kex991q4202409282024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000080/a8-kex991q3202406292024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000067/a8-kex991q2202403302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000005/a8-kex991q1202412302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000104/a8-kex991q4202309302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000075/a8-kex991q3202307012023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000063/a8-kex991q2202304012023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/02/apple-aapl-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000005/a8-kex991q1202312312022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/27/apple-aapl-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/28/apple-aapl-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/29/apple-aapl-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/28/apple-aapl-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/29/apple-aapl-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/28/apple-aapl-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/apple-aapl-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/28/apple-aapl-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/apple-aapl-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/apple-aapl-q3-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/apple-inc-aapl-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/28/apple-inc-aapl-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/30/apple-inc-aapl-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/30/apple-inc-aapl-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/30/apple-inc-aapl-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/29/apple-inc-aapl-q1-2019-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/apple-inc-aapl-q4-2018-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/31/apple-inc-aapl-q3-2018-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/01/apple-inc-aapl-q2-2018-earnings-conference-call-tr.aspx"
+  }
+ ],
+ "events": []
+}

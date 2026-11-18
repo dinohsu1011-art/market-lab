@@ -1,0 +1,109 @@
+{
+ "ticker": "META",
+ "ir": "https://investor.atmeta.com/home/default.aspx",
+ "results": "https://investor.atmeta.com/financials/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "slides": "https://s21.q4cdn.com/399680738/files/content_files/Earnings-Presentation-Q3-2026.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s21.q4cdn.com/399680738/files/content_files/Meta-09-30-2026-Exhibit-99-1_FINAL.pdf",
+   "release_ok": true,
+   "transcript": "https://s21.q4cdn.com/399680738/files/content_files/META-Q3-2026-Earnings-Call-Transcript.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-29",
+   "slides": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Earnings-Presentation-Q2-2026.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/Meta-06-30-2026-Exhibit-99-1-FINAL.pdf",
+   "release_ok": true,
+   "transcript": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "slides": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q1/Earnings-Presentation-Q1-2026.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q1/Meta-03-31-2026-Exhibit-99-1_final.pdf",
+   "release_ok": true,
+   "transcript": "https://s21.q4cdn.com/399680738/files/doc_financials/2026/q1/META-Q1-2026-Earnings-Call-Transcript.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-28",
+   "slides": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q4/Earnings-Presentation-Q4-2025-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q4/Meta-12-31-2025-Exhibit-99-1-FINAL.pdf",
+   "release_ok": true,
+   "transcript": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q4/META-Q4-2025-Earnings-Call-Transcript.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "slides": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/Earnings-Presentation-Q3-2025-Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/Meta-09-30-2025-Exhibit-99-1-Final.pdf",
+   "release_ok": true,
+   "transcript": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Earnings-Call-Transcript.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-30",
+   "slides": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q2/Earnings-Presentation-Q2-2025-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q2/Meta-06-30-2025-Exhibit-99-1-FINAL.pdf",
+   "release_ok": true,
+   "transcript": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q2/META-Q2-2025-Earnings-Call-Transcript.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "slides": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q1/Earnings-Presentation-Q1-2025-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q1/Meta-03-31-2025-Exhibit-99-1-Final.pdf",
+   "release_ok": true,
+   "transcript": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q1/Transcripts/META-Q1-2025-Earnings-Call-Transcript-1.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-29",
+   "slides": "https://s21.q4cdn.com/399680738/files/doc_financials/2024/q4/Earnings-Presentation-Q4-2024.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s21.q4cdn.com/399680738/files/doc_financials/2024/q4/Meta-12-31-2024-Exhibit-99-1-Final.pdf",
+   "release_ok": true,
+   "transcript": "https://s21.q4cdn.com/399680738/files/doc_financials/2024/q4/META-Q4-2024-Earnings-Call-Transcript.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/30/meta-platforms-meta-q3-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000065/meta-06302024xexhibit991.htm",
+   "release_ok": true
+  }
+ ],
+ "events": [
+  {
+   "title": "Meta Connect 2022 (keynote, listed on the investor events page)",
+   "date": "2022-10-11",
+   "url": "https://investor.atmeta.com/investor-events/event-details/2022/Meta-Connect-2022/default.aspx",
+   "kind": "page",
+   "ok": true
+  }
+ ]
+}

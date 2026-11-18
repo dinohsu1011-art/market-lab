@@ -1,0 +1,117 @@
+{
+ "ticker": "EVRG",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526448521/d193466dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526336661/d55157dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526210269/d947347dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312525268034/d94343dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312525115454/d810055dex991.htm",
+   "release_ok": true,
+   "transcript": "https://investors.evergy.com/static-files/0164e7f5-bcf8-478f-8f9e-d07faf791520"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312525037579/d931301dex991.htm",
+   "release_ok": true,
+   "transcript": "https://investors.evergy.com/static-files/c22d06ff-7eae-49d5-bd06-deb0b7f62e8e"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312524252590/d902925dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312524197470/d881251dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312524134748/d784306dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312524051758/d763552dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312523271903/d570888dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312523203364/d520254dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312523136559/d354212dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1711269/000119312523047461/d505378dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/evergy-inc-evrg-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/evergy-inc-evrg-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/26/evergy-inc-evrg-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-03-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/02/evergy-inc-evrg-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/22/evergy-inc-evrg-q4-2018-earnings-conference-call-t.aspx"
+  }
+ ],
+ "ir": "https://investors.evergy.com/"
+}

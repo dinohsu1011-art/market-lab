@@ -1,0 +1,158 @@
+{
+ "ticker": "RJF",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000080/rjf20260930q426earnings.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000080/rjf0930q426presentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000046/rjf20260331q226earnings.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000046/rjf0331q226presentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-01-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000030/rjf20251231q126earnings.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/720005/000072000526000030/rjf1231q126presentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/720005/000072000525000018/rjf20241231q125earnings.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/720005/000072000525000018/rjf1231q125presentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/720005/000072000524000063/rjf20240930q424earnings.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/720005/000072000524000063/rjf0930q424presentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/720005/000072000524000047/rjf20240630q324earnings.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/720005/000072000524000047/rjf0630q324presentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/720005/000072000524000030/rjf20240331q224earnings.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/720005/000072000524000030/rjf0331q224presentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-01-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/720005/000072000524000014/rjf20231231q423earnings.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/720005/000072000524000014/rjf1231q124presentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-10-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/720005/000072000523000073/rjf20230930q423earnings.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/720005/000072000523000073/rjf0930q423presentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-07-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/720005/000072000523000057/rjf20230630q323earnings.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/720005/000072000523000057/rjf0630q323presentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/720005/000072000523000039/rjf20230331q223earnings.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/720005/000072000523000039/rjf0331q223presentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-01-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/720005/000072000523000019/rjf20221231q422earnings.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/720005/000072000523000019/rjf1231q123presentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/raymond-james-financial-inc-rjf-q4-2021-earnings-c/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/28/raymond-james-financial-inc-rjf-q1-2021-earnings-c/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/raymond-james-financial-inc-rjf-q4-2020-earnings-c/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/raymond-james-financial-inc-rjf-q3-2020-earnings-c.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/raymond-james-financial-inc-rjf-q2-2020-earnings-c.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-01-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/23/raymond-james-financial-inc-rjf-q1-2020-earnings-c.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/26/raymond-james-financial-inc-rjf-q2-2019-earnings-c.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/24/raymond-james-financial-inc-rjf-q1-2019-earnings-c.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/25/raymond-james-financial-inc-rjf-q4-2018-earnings-c.aspx"
+  }
+ ]
+}

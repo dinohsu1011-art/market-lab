@@ -1,0 +1,125 @@
+{
+ "ticker": "TT",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000146625826000001/exhibit991-q32026earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000162828026050743/exhibit991-q22026earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000162828026028547/exhibit991-q12026earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000162828026003953/exhibit991-q42025earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000146625825000121/exhibit991-q12025earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000146625825000005/exhibit991-q42024earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000146625824000242/exhibit991-q32024earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000146625824000232/exhibit991-q22024earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000146625824000158/exhibit991-q12024earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000146625824000011/exhibit991-q42023earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000146625823000207/exhibit991-q32023earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000146625823000184/exhibit991-q22023earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000146625823000115/exhibit991-q12023earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1466258/000146625823000005/exhibit991-q42022earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/trane-technologies-plc-tt-q3-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/trane-technologies-plc-tt-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/trane-technologies-plc-tt-q1-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/05/trane-technologies-plc-tt-q4-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/28/trane-technologies-plc-tt-q3-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/29/trane-technologies-plc-tt-q2-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/07/trane-technologies-tt-q1-2020-earnings-call-tr.aspx"
+  }
+ ],
+ "ir": "https://investors.tranetechnologies.com/"
+}

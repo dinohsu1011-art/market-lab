@@ -1,0 +1,151 @@
+{
+ "ticker": "FRT",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490326000054/frt-9302026xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490326000040/frt-6302026xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490326000025/frt-3312026xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490326000016/frt-12312025xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490325000062/frt-9302025xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490325000036/frt-3312025xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490325000015/frt-12312024xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490324000068/frt-09302024xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490324000055/frt-06302024xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490324000044/frt-03312024xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490324000031/frt-12312023xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490323000063/frt-9302023xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490323000052/frt-6302023xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490323000043/frt-3312023xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/34903/000003490323000019/frt-12312022xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/05/federal-realty-investment-trust-re-frt-q3-2021-ear/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/federal-realty-investment-trust-re-frt-q2-2021-ear/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/06/federal-realty-investment-trust-frt-q1-2021-earnin/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/12/federal-realty-investment-trust-frt-q4-2020-earnin/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/06/federal-realty-investment-trust-frt-q3-2020-earnin/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/06/federal-realty-investment-trust-frt-q2-2020-earnin.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/08/federal-realty-investment-trust-frt-q1-2020-earnin.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/11/federal-realty-investment-trust-frt-q4-2019-earnin.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/federal-realty-investment-trust-frt-q3-2019-earnin.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/14/federal-realty-investment-trust-frt-q4-2018-earnin.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/federal-realty-investment-trust-frt-q3-2018-earnin.aspx"
+  }
+ ],
+ "ir": "https://ir.federalrealty.com/"
+}

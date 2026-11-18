@@ -1,0 +1,208 @@
+{
+ "ticker": "PH",
+ "ir": "https://investors.parker.com/",
+ "results": "https://investors.parker.com/financial-information/financial-results",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-05",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ac519b812cd6d28915b662b3049cd85e/parker/db/2288/22108/presentation/Parker_Hannifin_FY27_Q1_Earnings_Presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.parker.com/news-events/press-releases/detail/515/parker-delivers-record-fiscal-2027-first-quarter-results"
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-06",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ac519b812cd6d28915b662b3049cd85e/parker/db/2288/22100/presentation/Parker+Hannifin+FY26+Q4+Earnings+Presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.parker.com/news-events/press-releases/detail/509/parker-reports-record-fiscal-2026-fourth-quarter-and-full"
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-04-30",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ac519b812cd6d28915b662b3049cd85e/parker/db/2288/22092/presentation/Parker+Hannifin+FY26+Q3+Earnings+Presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.parker.com/news-events/press-releases/detail/506/parker-reports-fiscal-2026-third-quarter-results"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-01-29",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ac519b812cd6d28915b662b3049cd85e/parker/db/2288/22080/presentation/Parker+Hannifin+FY26+Q2+Earnings+Presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.parker.com/news-events/press-releases/detail/499/parker-reports-fiscal-2026-second-quarter-results"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-08-07",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ac519b812cd6d28915b662b3049cd85e/parker/db/2288/22056/presentation/Parker+Hannifin+FY25+Q4+Earnings+Presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.parker.com/news-events/press-releases/detail/487/parker-reports-fiscal-2025-fourth-quarter-and-full-year"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-05-01",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ac519b812cd6d28915b662b3049cd85e/parker/db/2288/22048/presentation/Parker+Hannifin+Earnings+Call+Presentation+FY25+Q3.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.parker.com/news-events/press-releases/detail/483/parker-reports-fiscal-2025-third-quarter-results",
+   "transcript": "https://www.investing.com/news/transcripts/earnings-call-transcript-parkerhannifin-beats-eps-forecast-in-q1-2025-93CH-4017653"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-01-30",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ac519b812cd6d28915b662b3049cd85e/parker/db/2288/22033/presentation/Parker+Hannifin+Fiscal+2025+2Q+Earnings+Presentation+%28January+30_+2025%29.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.parker.com/news-events/press-releases/detail/474/parker-reports-fiscal-2025-second-quarter-results"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-10-31",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ac519b812cd6d28915b662b3049cd85e/parker/db/2288/22025/presentation/Parker+Hannifin+Earnings+Presentation+FY25+Q1.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.parker.com/news-events/press-releases/detail/469/parker-reports-fiscal-2025-first-quarter-results",
+   "transcript": "https://www.insidermonkey.com/blog/parker-hannifin-corporation-nyseph-q1-2025-earnings-call-transcript-1384143/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-08-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/76334/000007633424000039/exhibit991q4fy24.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/76334/000007633424000039/earningscallpresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/76334/000007633424000017/exhibit991q3fy24.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/76334/000007633424000017/earningscallpresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/76334/000007633424000004/exhibit991q2fy24.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/76334/000007633424000004/earningscallpresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/76334/000007633423000060/exhibit991q1fy24.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/76334/000007633423000060/earningscallpresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/76334/000007633423000038/exhibit991q4fy23.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/76334/000007633423000038/earningscallpresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/76334/000007633423000025/exhibit991q3fy23.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/76334/000007633423000025/earningscallpresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/76334/000007633423000005/exhibit991q2fy23.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/76334/000007633423000005/earningscallpresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/04/parker-hannifin-ph-q4-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/06/parker-hannifin-ph-q3-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/03/parker-hannifin-ph-q2-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/parker-hannifin-corporation-ph-q3-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/parker-hannifin-corporation-ph-q2-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/30/parker-hannifin-corp-ph-q3-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/04/parker-hannifin-corp-ph-q2-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/06/parker-hannifin-corp-ph-q1-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/06/parker-hannifin-corp-ph-q4-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/parker-hannifin-corp-ph-q3-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/parker-hannifin-corp-ph-q2-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/parker-hannifin-corp-ph-q1-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/01/parker-hannifin-corp-ph-q4-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/03/parker-hannifin-corp-ph-q3-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/31/parker-hannifin-corp-ph-q2-2019-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/parker-hannifin-corp-ph-q1-2019-earnings-conferenc.aspx"
+  }
+ ]
+}

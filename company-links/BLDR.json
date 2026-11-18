@@ -1,0 +1,114 @@
+{
+ "ticker": "BLDR",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000119312526436795/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000119312526193923/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000119312526053039/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000119312525257380/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000095017025061436/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000095017025023731/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000095017024121065/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000095017024091191/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000095017024053918/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000095017024018404/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000095017023057113/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000095017023036821/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000095017023016874/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1316835/000095017023004857/bldr-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/11/builders-firstsource-inc-bldr-q2-2021-earnings-cal/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/26/builders-firstsource-inc-bldr-q4-2020-earnings-cal/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/builders-firstsource-inc-bldr-q3-2020-earnings-cal/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/builders-firstsource-inc-bldr-q2-2020-earnings-cal.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/01/builders-firstsource-inc-bldr-q1-2020-earnings-cal.aspx"
+  }
+ ]
+}

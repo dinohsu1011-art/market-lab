@@ -1,0 +1,199 @@
+{
+ "ticker": "AON",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828026067714/ex991prq32026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828026050367/ex991prq22026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828026029093/ex991prq12026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828026004273/ex991prq42025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828025047660/ex991prq32025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828025019780/ex991prq12025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/31/aon-plc-aon-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828025003243/ex991prq42024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/25/aon-plc-aon-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828024043701/ex991prq32024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/26/aon-plc-aon-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828024033048/ex991prq22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/26/aon-plc-aon-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828024018419/ex991prq12024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/02/aon-plc-aon-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828024002994/ex991prq42023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/27/aon-plc-aon-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828023035349/ex991prq32023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/28/aon-plc-aon-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828023025994/ex991prq22023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/04/28/aon-plc-aon-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828023013726/ex991prq12023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/03/aon-plc-aon-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/315293/000162828023002143/ex991prq42022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/28/aon-aon-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/29/aon-aon-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/29/aon-aon-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/04/aon-aon-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/29/aon-plc-aon-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/30/aon-plc-aon-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/30/aon-plc-aon-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/05/aon-plc-aon-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/aon-plc-aon-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/aon-plc-aon-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/01/aon-plc-aon-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/31/aon-plc-aon-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/25/aon-plc-aon-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/26/aon-plc-aon-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/26/aon-plc-aon-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/01/aon-aon-q4-2018-earnings-conference-call-transcrip.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/26/aon-plc-aon-q3-2018-earnings-conference-call-trans.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/27/aon-plc-aon-q2-2018-earnings-conference-call-trans.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/04/aon-plc-aon-q1-2018-earnings-conference-call-trans.aspx"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "SW",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/2005951/000110465926119345/tm2628367d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/2005951/000110465926087794/tm2621489d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/2005951/000110465925103425/tm2529644d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/2005951/000110465925042967/tm2513714d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/2005951/000110465925011789/tm256218d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/2005951/000110465924112399/tm2427058d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/2005951/000110465924083991/tm2420404d1_ex99-1.htm",
+   "release_ok": true
+  }
+ ],
+ "ir": "https://investors.smurfitwestrock.com/",
+ "results": "https://investors.smurfitwestrock.com/financials/quarterly-results/default.aspx"
+}

@@ -1,0 +1,184 @@
+{
+ "ticker": "PLD",
+ "ir": "https://ir.prologis.com/",
+ "results": "https://ir.prologis.com/financials/quarterly-results",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-15",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_2f71b6cf6e18330419658592dc51d401/prologis/db/2346/24099/supplemental_financial_report_pdf/Q3_2026_Prologis_Earnings_Supplemental.pdf",
+   "slides_kind": "supplement",
+   "release": "https://ir.prologis.com/news-events/press-releases/detail/1055/prologis-reports-third-quarter-2026-results"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-16",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_2f71b6cf6e18330419658592dc51d401/prologis/db/2346/23867/supplemental_financial_report_pdf/Q1_2026_Prologis_Earnings_Supplemental.pdf",
+   "slides_kind": "supplement",
+   "release": "https://ir.prologis.com/news-events/press-releases/detail/1036/prologis-reports-first-quarter-2026-results"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-21",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_2f71b6cf6e18330419658592dc51d401/prologis/db/2346/23552/supplemental_financial_report_pdf/Q4_2025_Prologis_Earnings_Supplemental.pdf",
+   "slides_kind": "supplement",
+   "release": "https://ir.prologis.com/news-events/press-releases/detail/1029/prologis-reports-fourth-quarter-and-full-year-2025-results"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-15",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_2f71b6cf6e18330419658592dc51d401/prologis/db/2346/23551/supplemental_financial_report_pdf/Q3_2025_Prologis_Earnings_Supplemental.pdf",
+   "slides_kind": "supplement",
+   "release": "https://ir.prologis.com/news-events/press-releases/detail/1025/prologis-reports-third-quarter-2025-results"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-16",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_2f71b6cf6e18330419658592dc51d401/prologis/db/2346/23550/supplemental_financial_report_pdf/Q2_2025_Prologis_Earnings_Supplemental.pdf",
+   "slides_kind": "supplement",
+   "release": "https://ir.prologis.com/news-events/press-releases/detail/1017/prologis-reports-second-quarter-2025-results"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-16",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_2f71b6cf6e18330419658592dc51d401/prologis/db/2346/23549/supplemental_financial_report_pdf/Q1_2025_Prologis_Earnings_Supplemental.pdf",
+   "slides_kind": "supplement",
+   "release": "https://ir.prologis.com/news-events/press-releases/detail/1012/prologis-reports-first-quarter-2025-results",
+   "transcript": "https://www.insidermonkey.com/blog/prologis-inc-nysepld-q1-2025-earnings-call-transcript-1510235/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/21/prologis-pld-q4-2024-earnings-call-transcript/",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_2f71b6cf6e18330419658592dc51d401/prologis/db/2346/23548/supplemental_financial_report_pdf/Q4_2024_Final_Supplemental.pdf",
+   "slides_kind": "supplement",
+   "release": "https://ir.prologis.com/news-events/press-releases/detail/1004/prologis-reports-fourth-quarter-and-full-year-2024-results"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/16/prologis-pld-q3-2024-earnings-call-transcript/",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_2f71b6cf6e18330419658592dc51d401/prologis/db/2346/23547/supplemental_financial_report_pdf/Q3_2024_Final_Supplemental.pdf",
+   "slides_kind": "supplement",
+   "release": "https://ir.prologis.com/news-events/press-releases/detail/1000/prologis-reports-third-quarter-results"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/17/prologis-pld-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1045609/000095017024084067/pld-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/17/prologis-pld-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1045609/000095017024044928/pld-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/17/prologis-pld-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1045609/000095017024004825/pld-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/17/prologis-pld-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1045609/000095017023053655/pld-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/18/prologis-pld-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1045609/000095017023033263/pld-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1045609/000095017023013170/pld-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/18/prologis-pld-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1045609/000156459023000494/pld-ex991_6.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/19/prologis-pld-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/18/prologis-pld-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/20/prologis-pld-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/15/prologis-inc-pld-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/19/prologis-inc-pld-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/26/prologis-inc-pld-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/20/prologis-inc-pld-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/21/prologis-inc-pld-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/21/prologis-inc-pld-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/22/prologis-inc-pld-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/15/prologis-inc-pld-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/16/prologis-inc-pld-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/22/prologis-inc-pld-q4-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/16/prologis-inc-pld-q3-2018-earnings-conference-call.aspx"
+  }
+ ]
+}

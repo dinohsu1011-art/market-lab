@@ -1,0 +1,152 @@
+{
+ "ticker": "LNT",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000045/lnt102920268-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000030/lnt043020268-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/352541/000035254126000005/lnt021920268-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/352541/000035254125000050/lnt050820258-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/352541/000035254125000012/lnt022020258-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/352541/000035254124000102/lnt103120248-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/352541/000035254124000087/lnt080120248-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/352541/000035254124000011/lnt021520248-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/352541/000035254123000106/lnt110220238-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/352541/000035254123000088/lnt080320238-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/352541/000035254123000056/lnt050420238-kexh991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/352541/000035254123000012/lnt022320238-kexh991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/06/alliant-energy-lnt-q2-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/29/alliant-energy-lnt-q1-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/18/alliant-energy-lnt-q4-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/05/alliant-energy-lnt-q3-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/07/alliant-energy-lnt-q2-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/07/alliant-energy-lnt-q1-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/04/alliant-energy-lnt-q3-2020-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/07/alliant-energy-lnt-q2-2020-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/09/alliant-energy-lnt-q1-2020-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/22/alliant-energy-lnt-q4-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/08/alliant-energy-lnt-q3-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/03/alliant-energy-lnt-q2-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/03/alliant-energy-lnt-q1-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/22/alliant-energy-corp-lnt-q4-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/07/alliant-energy-corp-lnt-q3-2018-earnings-conferenc.aspx"
+  }
+ ]
+}

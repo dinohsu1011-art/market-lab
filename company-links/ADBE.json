@@ -1,0 +1,131 @@
+{
+ "ticker": "ADBE",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-09-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-06-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000109/adbeex991q226.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-03-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000048/adbeex991q126.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-12-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000135/adbeex991q425.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-06-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000064/adbeex991q225.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-03-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/03/12/adobe-adbe-q1-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000052/adbeex991q125.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-12-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/12/11/adobe-adbe-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634324000250/adbeex991q424.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-09-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634324000200/adbeex991q324.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-06-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634324000140/adbeex991q224.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-03-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634324000057/adbeex991q124.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-12-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000252/adbeex991q423.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-09-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000198/adbeex991q323.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-06-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000133/adbeex991q223.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-03-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000044/adbeex991q123.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-12-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/16/adobe-inc-adbe-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-09-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/09/21/adobe-inc-adbe-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-09-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/09/18/adobe-inc-adbe-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-06-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/06/18/adobe-inc-adbe-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-12-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/12/13/adobe-systems-inc-adbe-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-09-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/09/14/adobe-systems-adbe-q3-2018-earnings-conference-cal.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-06-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/06/14/adobe-adbe-q2-2018-earnings-conference-call-transc.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-03-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/03/19/adobe-systems-adbe-q1-2018-earnings-conference-cal.aspx"
+  }
+ ]
+}

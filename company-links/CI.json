@@ -1,0 +1,170 @@
+{
+ "ticker": "CI",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1739940/000114036126042030/ef20084818_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1739940/000114036126017971/ef20071317_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1739940/000114036126003768/ef20064751_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1739940/000114036125017006/ef20048097_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/30/cigna-group-ci-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1739940/000114036125002386/ef20042519_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/31/cigna-group-ci-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1739940/000114036124044674/ef20037812_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/01/cigna-group-ci-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1739940/000095015924000233/ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/02/cigna-group-ci-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1739940/000095015924000033/ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/02/cigna-group-ci-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1739940/000095015923000272/ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/03/cigna-group-ci-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1739940/000095015923000227/ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/05/cigna-group-ci-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1739940/000095015923000159/ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/03/cigna-ci-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1739940/000095015923000017/ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/03/cigna-ci-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/04/cigna-ci-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/06/cigna-ci-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/03/cigna-ci-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/cigna-corporation-ci-q3-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/cigna-corporation-ci-q2-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/07/cigna-corp-ci-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/04/cigna-corp-ci-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/05/cigna-corp-ci-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/30/cigna-corp-ci-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/cigna-corp-ci-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/06/cigna-corp-ci-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/cigna-corp-ci-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/01/cigna-corp-ci-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/cigna-corp-ci-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/01/cigna-corp-ci-q4-2018-earnings-conference-call-tra.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/cigna-corp-ci-q3-2018-earnings-conference-call-tra.aspx"
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "ticker": "AMCR",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879026000029/exhibit991q12026transition.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879026000020/amcor4q2026ex991-june302026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879026000014/exhibit991q32026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-02-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879026000004/exhibit991q22026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879025000034/exhibit991q12026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-08-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879025000021/amcor4q2025ex991-june302025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879025000014/exhibit991q32025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879025000005/exhibit991q22025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879024000031/exhibit991q12025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-08-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879024000020/amcor4q2024ex991-june302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879024000014/exhibit991q32024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879024000004/exhibit991q22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879023000034/exhibit991q12024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-08-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879023000028/amcor4q2023ex991-june302023.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1748790/000174879023000028/exhibit992presentation_f.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879023000019/exhibit991q32023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-02-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1748790/000174879023000005/exhibit991q22023.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1748790/000174879023000005/exhibit992presentation_f.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-08-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/17/amcor-plc-amcr-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/amcor-plc-amcr-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/03/amcor-plc-amcr-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-05-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/12/amcor-plc-amcr-q3-2020-earnings-call-transcript.aspx"
+  }
+ ]
+}

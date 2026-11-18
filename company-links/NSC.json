@@ -1,0 +1,196 @@
+{
+ "ticker": "NSC",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_1.htm",
+   "release_ok": true,
+   "slides": "https://norfolksouthern.investorroom.com/image/Q3_2026_Earnings_Combined_Presentation-v2_FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000119312526313393/nsc-ex99_1.htm",
+   "release_ok": true,
+   "slides": "https://norfolksouthern.investorroom.com/image/Q2_2026_Earnings_Combined_Presentation_FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000119312526175084/nsc-ex99_1.htm",
+   "release_ok": true,
+   "slides": "https://norfolksouthern.investorroom.com/image/Q1_2026_Earnings_Combined_Presentation-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000119312526028244/nsc-ex99_1.htm",
+   "release_ok": true,
+   "slides": "https://norfolksouthern.investorroom.com/image/Q4_2025_Earnings_Combined_Presentation-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000119312525248775/d77323dex991.htm",
+   "release_ok": true,
+   "slides": "https://norfolksouthern.investorroom.com/image/Q3_2025_Earnings_Combined_Presentation_Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000119312525090057/d937673dex991.htm",
+   "release_ok": true,
+   "slides": "https://norfolksouthern.investorroom.com/image/Q1_2025_Earnings_Combined_Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000119312525014968/d945030dex991.htm",
+   "release_ok": true,
+   "slides": "https://norfolksouthern.investorroom.com/image/Q4_2024_Earnings_Combined_Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000155278124000571/e24421_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://norfolksouthern.investorroom.com/image/Q3_2024_Earnings_Combined_Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000155278124000408/e24315_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000155278124000243/e24203_ex99-2.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000155278124000021/e24025_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000155278123000413/e23426_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000155278123000329/e23326_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000155278123000242/e23230_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/702165/000155278123000024/e23027_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/27/norfolk-southern-nsc-q2-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/26/norfolk-southern-nsc-q4-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/norfolk-southern-corporation-nsc-q3-2021-earnings/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/28/norfolk-southern-corporation-nsc-q2-2021-earnings/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/28/norfolk-southern-corp-nsc-q1-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/27/norfolk-southern-corp-nsc-q4-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/28/norfolk-southern-corp-nsc-q3-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/29/norfolk-southern-corp-nsc-q2-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/29/norfolk-southern-corp-nsc-q1-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/29/norfolk-southern-corp-nsc-q4-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/23/norfolk-southern-corp-nsc-q3-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/24/norfolk-southern-corp-nsc-q2-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/24/norfolk-southern-corp-nsc-q1-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/24/norfolk-southern-corp-nsc-q4-2018-earnings-confere.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/24/norfolk-southern-corp-nsc-q3-2018-earnings-confere.aspx"
+  }
+ ],
+ "ir": "https://norfolksouthern.investorroom.com",
+ "results": "https://norfolksouthern.investorroom.com/financial-reports"
+}

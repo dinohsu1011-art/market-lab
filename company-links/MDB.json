@@ -1,0 +1,89 @@
+{
+ "ticker": "MDB",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-09-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026059794/mdb-073126xex991xrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-05-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026038798/mdb-043026xex991xrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-03-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000162828026013199/mdb-13126xex991xrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-08-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000144181625000176/mdb-73125xex991xrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-06-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000144181625000116/mdb-43025xex991xrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-03-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000144181625000046/mdb-13125xex991xrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2024-12-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000144181624000257/mdb-103124xex991xrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-08-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000144181624000185/mdb-73124xex991xrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-05-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000144181624000108/mdb-43024xex991xrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-03-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000144181624000045/mdb-13124xex991xrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2023-12-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000144181623000239/mdb-103123xex991xrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-08-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000144181623000166/mdb-073123xex991xrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-06-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000144181623000085/mdb-043023xex991xrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-03-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1441816/000144181623000023/mdb-013123xex991xrelease.htm",
+   "release_ok": true
+  }
+ ]
+}

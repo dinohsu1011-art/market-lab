@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" data-eq>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Industry · Equinox</title>
+<link rel="stylesheet" href="market-lab-industry.css?v=20261117-c7c5d6d0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="market-lab-bar.css?v=20261117-c7c5d6d0">
+<link rel="stylesheet" href="market-lab-eq.css?v=20261117-c7c5d6d0">
+<script src="market-lab-shell.js?v=20261117-c7c5d6d0"></script>
+</head>
+<body>
+<div class="page">
+  <nav class="side" aria-label="On this page">
+    <a href="#live-entertainment" class="on">Live Entertainment</a><a href="#semiconductors">Semiconductors</a><a href="#software">Software</a><a href="#internet">Internet</a><a href="#banks">Banks</a><a href="#energy">Energy</a><a href="#utilities-power">Utilities and power</a><a href="#health-care">Health care</a><a href="#biotech-drugs">Biotech and drug makers</a><a href="#retail">Retail</a><a href="#industrials">Industrials</a><a href="#aerospace-defense">Aerospace and defense</a><a href="#autos">Autos</a><a href="#airlines-travel">Airlines and travel</a>
+  </nav>
+  <main>
+    <h1 id="indName">Industry</h1>
+    <div id="live" hidden>
+      <div class="sub" id="asof">&nbsp;</div>
+      <p id="load-error" class="wait" hidden role="alert"></p>
+      <section id="stance" aria-labelledby="stance-h">
+        <h2 id="stance-h">Where management stands on <span class="seg" id="topic" role="group" aria-label="Topic"></span></h2>
+        <div class="stance-legend" id="stance-legend"></div>
+        <div class="stance-wrap" id="heat"></div>
+        <div class="stance-quote" id="stance-quote" aria-live="polite"></div>
+      </section>
+      <section id="turns" aria-labelledby="turns-h">
+        <h2 id="turns-h">Latest changes of stance</h2>
+        <ul class="turns" id="turn-list"></ul>
+        <div class="more"><button type="button" id="more-turns" hidden>Show all</button></div>
+      </section>
+      <section id="trend" aria-labelledby="trend-h">
+        <h2 id="trend-h" class="ask">How often <select id="lens" aria-label="Topic"></select> comes up, by <select id="mode" aria-label="Compare"><option value="company">company</option><option value="sector">sector</option><option value="basket">theme basket</option></select>, said by <select id="who" aria-label="Who said it"><option value="all">everyone on the call</option><option value="mgmt">management</option><option value="analyst">analysts</option></select></h2>
+        <div class="lines">
+          <div class="series-key" id="key" aria-label="Lines on the chart"></div>
+          <input type="search" id="add" list="add-list" placeholder="Add a company" aria-label="Add a company" autocomplete="off"><datalist id="add-list"></datalist>
+          <span class="fine"><select id="measure" aria-label="Measure"><option value="p10k">Per 10,000 words</option><option value="call">Mentions per call</option></select><select id="smooth" aria-label="Smoothing"><option value="4">4-quarter average</option><option value="1">Each quarter</option></select></span>
+        </div>
+        <div class="calls-chart" id="chart"></div>
+      </section>
+      <section id="search" aria-labelledby="search-h">
+        <h2 id="search-h">Search what was said</h2>
+        <div class="calls-controls">
+          <input type="search" id="q" placeholder="Type a word or phrase, like 45-day window" aria-label="Word or phrase" title="Searches the short quotes saved for each call, not full transcripts">
+          <label>Topic <select id="qlens"><option value="">Any</option></select></label>
+          <label>Company <select id="qent"><option value="">Any</option></select></label>
+        </div>
+        <div class="search-out" id="search-out" role="status"></div>
+      </section>
+      <section id="companies"><h2>Companies</h2><table id="liveTable"></table></section>
+      <details class="method" id="method">
+        <summary>Methodology</summary>
+        <div class="body" id="method-body"></div>
+      </details>
+    </div>
+    <div id="plain" hidden>
+      <div class="sub" id="coCount">&nbsp;</div>
+      <p class="lede">No call analysis written yet.</p>
+      <section id="members"><h2>Companies</h2><table id="coTable" class="sticky"></table></section>
+    </div>
+  </main>
+</div>
+<script src="market-lab-eq.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-eq-industry.js?v=20261117-c7c5d6d0"></script>
+</body>
+</html>

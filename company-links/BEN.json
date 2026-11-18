@@ -1,0 +1,143 @@
+{
+ "ticker": "BEN",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/38777/000003877726000287/exhibit991q4fy26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/38777/000003877726000100/exhibit991q2fy26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/38777/000003877726000032/exhibit991q1fy26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000074/exhibit991q2fy25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/38777/000003877725000016/exhibit991q1fy25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/38777/000003877724000177/exhibit991q4fy24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-07-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/38777/000003877724000112/exhibit991q3fy24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/38777/000003877724000068/exhibit991q2fy24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/38777/000003877724000005/exhibit991q1fy24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/38777/000003877723000143/exhibit991q4fy23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-07-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/38777/000003877723000105/exhibit991q3fy23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/38777/000003877723000071/exhibit991q2fy23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/38777/000003877723000007/exhibit991q1fy23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/01/franklin-resources-inc-ben-q4-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/03/franklin-resources-inc-ben-q2-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/04/franklin-resources-inc-ben-q2-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/02/franklin-resources-inc-ben-q1-2021-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/27/franklin-resources-inc-ben-q4-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/28/franklin-resources-inc-ben-q3-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/01/franklin-resources-inc-ben-q2-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/franklin-resources-inc-ben-q1-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/25/franklin-resources-inc-ben-q4-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/30/franklin-resources-ben-q1-2019-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/26/franklin-resources-inc-ben-q4-2018-earnings-confer.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/27/franklin-resources-inc-ben-q3-2018-earnings-confer.aspx"
+  }
+ ]
+}

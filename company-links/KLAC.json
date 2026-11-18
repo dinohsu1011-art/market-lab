@@ -1,0 +1,199 @@
+{
+ "ticker": "KLAC",
+ "ir": "https://ir.kla.com",
+ "results": "https://ir.kla.com/financial-information/financial-results",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-10-28",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_e8ec0a75333fe915a94800e2cce2bfa3/klatencor/db/1117/10679/earnings_slide_presentation/KLA_Earnings_Slides_-_Q1_FY27.pdf",
+   "slides_kind": "slides",
+   "release": "https://ir.kla.com/news-events/press-releases/detail/523/kla-corporation-reports-fiscal-2027-first-quarter-results/"
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-04-29",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_e8ec0a75333fe915a94800e2cce2bfa3/klatencor/db/1117/10655/earnings_slide_presentation/KLA+Earnings+Slides+-+Q3+FY26.pdf",
+   "slides_kind": "slides",
+   "release": "https://ir.kla.com/news-events/press-releases/detail/514/kla-corporation-reports-fiscal-2026-third-quarter-results/"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-01-29",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_e8ec0a75333fe915a94800e2cce2bfa3/klatencor/db/1117/10612/earnings_slide_presentation/KLA+Earnings+Slides+-+Q2+FY26.pdf",
+   "slides_kind": "slides",
+   "release": "https://ir.kla.com/news-events/press-releases/detail/509/kla-corporation-reports-fiscal-2026-second-quarter-results/"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-10-29",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_e8ec0a75333fe915a94800e2cce2bfa3/klatencor/db/1117/10596/earnings_slide_presentation/KLA+Corporation+Earnings+Slides+Q1+FY26.pdf",
+   "slides_kind": "slides",
+   "release": "https://ir.kla.com/news-events/press-releases/detail/505/kla-corporation-reports-fiscal-2026-first-quarter-results/"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-07-31",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_e8ec0a75333fe915a94800e2cce2bfa3/klatencor/db/1117/10585/earnings_slide_presentation/KLA+Corporation+Q2CY25+Earnings+Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://ir.kla.com/news-events/press-releases/detail/500/kla-corporation-reports-fiscal-2025-fourth-quarter-and-full"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-04-30",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_e8ec0a75333fe915a94800e2cce2bfa3/klatencor/db/1117/10573/earnings_slide_presentation/Slides+-+KLA+Corporation+Q1CY25+Earnings.pdf",
+   "slides_kind": "slides",
+   "release": "https://ir.kla.com/news-events/press-releases/detail/494/kla-corporation-reports-fiscal-2025-third-quarter-results/",
+   "transcript": "https://www.insidermonkey.com/blog/kla-corporation-nasdaqklac-q3-2025-earnings-call-transcript-1523252/"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/30/kla-klac-q2-2025-earnings-call-transcript/",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_e8ec0a75333fe915a94800e2cce2bfa3/klatencor/db/1117/10569/earnings_slide_presentation/KLA+Corporation+Q2FY25+Earnings+Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://ir.kla.com/news-events/press-releases/detail/491/kla-corporation-reports-fiscal-2025-second-quarter-results/"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/30/kla-klac-q1-2025-earnings-call-transcript/",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_e8ec0a75333fe915a94800e2cce2bfa3/klatencor/db/1117/10561/earnings_slide_presentation/KLA+Corporation+Q1FY25+Earnings+Slides+10.30.24_FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://ir.kla.com/news-events/press-releases/detail/486/kla-corporation-reports-fiscal-2025-first-quarter-results/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/24/kla-klac-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/319201/000031920124000018/exhibit991earningsrelease7.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/26/kla-klac-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/319201/000031920124000009/exhibit991earningsrelease0.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/25/kla-klac-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/319201/000031920124000003/exhibit991earningsrelease1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/25/kla-klac-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/319201/000031920123000037/exhibit991earningsrelease9.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/28/kla-klac-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/319201/000031920123000027/exhibit991earningsrelease7.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/319201/000031920123000016/exhibit991earningsrelease0.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/26/kla-klac-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/319201/000031920123000008/exhibit991earningsrelease1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/27/kla-tencor-klac-q1-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/28/kla-tencor-klac-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/29/kla-tencor-klac-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/28/kla-tencor-klac-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/kla-tencor-klac-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/31/kla-tencor-klac-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/30/kla-tencor-klac-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/03/kla-tencor-klac-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/29/kla-tencor-klac-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/03/kla-tencor-klac-q4-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/05/kla-tencor-corp-klac-q3-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/05/kla-tencor-corp-klac-q2-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/kla-tencor-corp-klac-q1-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/06/kla-tencor-corp-klac-q4-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/07/kla-tencor-corp-klac-q3-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/29/kla-tencor-corp-klac-q2-2019-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/29/kla-tencor-corp-klac-q1-2019-earnings-conference-c.aspx"
+  }
+ ]
+}

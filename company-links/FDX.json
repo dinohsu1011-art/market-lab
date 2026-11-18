@@ -1,0 +1,181 @@
+{
+ "ticker": "FDX",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048911/000104891126000126/fedexrecastexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-06-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048911/000104891125000005/fdx-earningsreleasefy2025q4.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-03-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/03/21/fedex-fdx-q3-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048911/000095017025042661/fdx-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-12-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/12/19/fedex-fdx-q2-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048911/000095017024138448/fdx-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-09-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/09/19/fedex-fdx-q1-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048911/000095017024108098/fdx-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-06-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/06/25/fedex-fdx-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048911/000095017024077290/fdx-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-03-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/03/22/fedex-fdx-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048911/000095017024034726/fdx-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-12-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/12/19/fedex-fdx-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048911/000095017023071485/fdx-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-09-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/09/20/fedex-fdx-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048911/000095017023048991/fdx-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-06-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/06/20/fedex-fdx-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048911/000095017023028931/fdx-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-03-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/03/17/fedex-fdx-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048911/000095017023008463/fdx-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2022-12-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/12/21/fedex-fdx-q2-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-09-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/09/23/fedex-fdx-q1-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-06-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/06/24/fedex-fdx-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-03-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/03/18/fedex-fdx-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2021-12-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/17/fedex-corporation-fdx-q2-2022-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-06-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/06/25/fedex-corp-fdx-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-03-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/03/18/fedex-corp-fdx-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2020-12-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/12/17/fedex-corp-fdx-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-09-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/09/15/fedex-corp-fdx-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-07-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/06/30/fedex-corp-fdx-q4-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-03-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/17/fedex-corp-fdx-q3-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-12-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/12/17/fedex-corp-fdx-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-09-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/09/18/fedex-corp-fdx-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-06-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/06/25/fedex-corp-fdx-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-03-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/03/19/fedex-corporation-fdx-q3-2019-earnings-conference.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2018-12-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/12/18/fedex-corp-fdx-q2-2019-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-09-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/09/17/fedex-corporation-fdx-q1-2019-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-06-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/06/19/fedex-corporation-fdx-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-03-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/03/20/fedex-corporation-fdx-q3-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2017-12-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/12/20/fedex-fdx-q2-2018-earnings-conference-call-transcr.aspx"
+  }
+ ],
+ "ir": "https://investors.fedex.com/"
+}

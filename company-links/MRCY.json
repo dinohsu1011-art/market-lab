@@ -1,0 +1,41 @@
+{
+ "ticker": "MRCY",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000096/a2027q1earningsreleaseex.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000096/q1fy27earningspresentati.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000043/a2026q4earningsreleaseex.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000043/q4fy26earningspresentati.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000021/a2026q3earningsreleaseex.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000021/q3fy26earningspresentati.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-02-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000004/a2026q2earningsreleaseex.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000004/q2fy26earningspresentati.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  }
+ ]
+}

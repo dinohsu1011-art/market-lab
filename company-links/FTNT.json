@@ -1,0 +1,145 @@
+{
+ "ticker": "FTNT",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000024/ftntq3-2026ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftntq2-2026ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000010/ftntq1-2026ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1262039/000126203925000014/ftntq1-2025ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/07/fortinet-ftnt-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1262039/000126203925000007/ftntq4-2024ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/07/fortinet-ftnt-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1262039/000126203924000040/ftntq3-2024ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1262039/000126203924000032/ftntq2-2024ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1262039/000126203924000017/ftntq1-2024ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1262039/000126203924000006/ftntq4-2023ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1262039/000126203923000035/ftntq3-2023ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1262039/000126203923000027/ftntq2-2023ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1262039/000126203923000013/ftntq1-2023ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1262039/000126203923000003/ftntq4-2022ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/fortinet-inc-ftnt-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/30/fortinet-inc-ftnt-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/30/fortinet-inc-ftnt-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/04/fortinet-inc-ftnt-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/fortinet-inc-ftnt-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/07/fortinet-inc-ftnt-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/07/fortinet-inc-ftnt-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/fortinet-inc-ftnt-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/02/fortinet-inc-ftnt-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/03/fortinet-inc-ftnt-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/06/fortinet-inc-ftnt-q4-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/fortinet-inc-ftnt-q3-2018-earnings-conference-call.aspx"
+  }
+ ]
+}

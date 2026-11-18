@@ -1,0 +1,190 @@
+{
+ "ticker": "NOC",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/20/northrop-grumman-noc-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000037/noc-09302026xearningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000015/noc-03312026xearningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000002/noc-12312025xearningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342125000052/noc-09302025xearningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342125000022/noc-03312025xearningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/30/northrop-grumman-noc-q4-2024-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342125000005/noc-12312024xearningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/24/northrop-grumman-noc-q3-2024-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342124000063/noc-09302024xearningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/25/northrop-grumman-noc-q2-2024-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342124000050/noc-06302024xearningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/25/northrop-grumman-noc-q1-2024-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342124000025/noc-03312024xearningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/25/northrop-grumman-noc-q4-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342124000004/noc-12312023xearningsreleaa.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/26/northrop-grumman-noc-q3-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342123000052/noc-09302023xearningsreleaa.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/27/northrop-grumman-noc-q2-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342123000044/noc-06302023xearningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/04/28/northrop-grumman-noc-q1-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342123000026/noc-03312023xearningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/26/northrop-grumman-noc-q4-2022-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1133421/000113342123000005/noc-12312022xearningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/27/northrop-grumman-noc-q3-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/28/northrop-grumman-noc-q2-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/28/northrop-grumman-noc-q1-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/27/northrop-grumman-noc-q4-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/northrop-grumman-noc-q3-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/29/northrop-grumman-noc-q2-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/northrop-grumman-noc-q1-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/28/northrop-grumman-noc-q4-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/22/northrop-grumman-noc-q3-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/northrop-grumman-noc-q2-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/29/northrop-grumman-corp-noc-q1-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/northrop-grumman-corp-noc-q4-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/24/northrop-grumman-corp-noc-q3-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/24/northrop-grumman-corp-noc-q2-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/24/northrop-grumman-corp-noc-q1-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/31/northrop-grumman-corp-noc-q4-2018-earnings-confere.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/24/northrop-grumman-corp-noc-q3-2018-earnings-confere.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/01/25/northrop-grumman-corporation-noc-q4-2017-earnings.aspx"
+  }
+ ],
+ "ir": "https://investor.northropgrumman.com/"
+}

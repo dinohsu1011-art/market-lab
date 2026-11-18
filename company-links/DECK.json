@@ -1,0 +1,196 @@
+{
+ "ticker": "DECK",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052126000028/deckex991pressrelease-9302.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052126000028/deck-20261020.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-05-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052126000007/deckex991pressrelease-3312.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052126000007/deck-20260521.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052126000002/deckex991pressrelease-1231.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052126000002/deck-20260129.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052125000041/deckex991pressrelease-9302.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052125000041/deck-20251023.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052125000028/deckex991pressrelease-6302.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052125000028/deck-20250724.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052125000002/deckex991pressrelease-1231.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052125000002/deck-20250130.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052124000056/deckex991pressrelease-9302.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052124000056/deck-20241024.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052124000037/deckex991pressrelease-6302.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052124000037/deck-20240725.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-05-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052124000015/deckex991pressrelease-3312.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052124000015/deck-20240523.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052124000003/deckex991pressrelease-1231.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052124000003/deck-20240201.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052123000039/deckex991pressrelease-9302.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052123000039/deck-20231026.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052123000032/deckex991pressrelease-6302.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052123000032/deck-20230727.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-05-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052123000014/deckex991pressrelease-3312.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052123000014/deck-20230525.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/910521/000091052123000002/deckex991pressrelease-1231.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/910521/000091052123000002/deck-20230202.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/28/deckers-outdoor-deck-q1-2023-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-05-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/20/deckers-outdoor-deck-q4-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/03/deckers-outdoor-deck-q3-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/deckers-outdoor-corporation-deck-q2-2022-earnings/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/30/deckers-outdoor-corporation-deck-q1-2022-earnings/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-05-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/21/deckers-outdoor-corp-deck-q1-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/05/deckers-outdoor-corp-deck-q3-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/deckers-outdoor-corp-deck-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/deckers-outdoor-corp-deck-q1-2021-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-05-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/22/deckers-outdoor-corp-deck-q4-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/31/deckers-outdoor-corp-deck-q3-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/24/deckers-outdoor-corp-deck-q2-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/26/deckers-outdoor-corp-deck-q1-2020-earnings-call-tr.aspx"
+  }
+ ]
+}

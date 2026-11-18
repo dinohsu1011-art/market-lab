@@ -1,0 +1,235 @@
+{
+ "ticker": "COST",
+ "ir": "https://investor.costco.com/",
+ "results": "https://investor.costco.com/events-and-presentations/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-09-24",
+   "slides": "https://s201.q4cdn.com/287523651/files/doc_news/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Operating-Results-2026.pdf",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Operating-Results/default.aspx",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/09/29/costco-cost-q4-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-28",
+   "slides": "https://s201.q4cdn.com/287523651/files/doc_news/Costco-Wholesale-Corporation-Reports-Third-Quarter-and-Year-To-Date-Operating-Results-For-Fiscal-2026-2026.pdf",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Third-Quarter-and-Year-To-Date-Operating-Results-For-Fiscal-2026/default.aspx",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/05/28/costco-cost-q3-2026-earnings-transcript/"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-03-05",
+   "slides": "https://s201.q4cdn.com/287523651/files/doc_news/Costco-Wholesale-Corporation-Reports-Second-Quarter-and-Year-to-Date-Operating-Results-for-Fiscal-2026-and-February-Sales-Results-2026.pdf",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Second-Quarter-and-Year-to-Date-Operating-Results-for-Fiscal-2026-and-February-Sales-Results/default.aspx",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/03/05/costco-cost-q2-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-12-11",
+   "slides": "https://s201.q4cdn.com/287523651/files/doc_news/Costco-Wholesale-Corporation-Reports-First-Quarter-Fiscal-Year-2026-Operating-Results-2025.pdf",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-First-Quarter-Fiscal-Year-2026-Operating-Results/default.aspx",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/12/11/costco-cost-q1-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-09-25",
+   "slides": "https://s201.q4cdn.com/287523651/files/doc_news/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Operating-Results-2025.pdf",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Operating-Results/default.aspx",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-05-29",
+   "slides": "https://s201.q4cdn.com/287523651/files/doc_news/Costco-Wholesale-Corporation-Reports-Third-Quarter-and-Year-To-Date-Operating-Results-for-Fiscal-2025-2025.pdf",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-Third-Quarter-and-Year-To-Date-Operating-Results-for-Fiscal-2025/default.aspx",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-03-06",
+   "slides": "https://s201.q4cdn.com/287523651/files/doc_news/Costco-Wholesale-Corporation-Reports-Second-Quarter-and-Year-To-Date-Operating-Results-For-Fiscal-2025-and-February-Sales-Results-2025.pdf",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-Second-Quarter-and-Year-To-Date-Operating-Results-For-Fiscal-2025-and-February-Sales-Results/default.aspx",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/03/06/costco-wholesale-cost-q2-2025-earnings-call-transc/"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-12-12",
+   "slides": "https://s201.q4cdn.com/287523651/files/doc_news/Costco-Wholesale-Corporation-Reports-First-Quarter-Fiscal-Year-2025-Operating-Results-2024.pdf",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investor.costco.com/news/news-details/2024/Costco-Wholesale-Corporation-Reports-First-Quarter-Fiscal-Year-2025-Operating-Results/default.aspx",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/12/12/costco-wholesale-cost-q1-2025-earnings-call-transc/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-09-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/09/26/costco-wholesale-cost-q4-2024-earnings-call-transc/",
+   "release": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000043/costex9918-k92624.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-05-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/30/costco-wholesale-cost-q3-2024-earnings-call-transc/",
+   "release": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000026/costex9918-k51224.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-03-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/03/07/costco-wholesale-cost-q2-2024-earnings-call-transc/",
+   "release": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000012/costex9918-k21824.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-12-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/12/15/costco-wholesale-cost-q1-2024-earnings-call-transc/",
+   "release": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000062/costex9918-k121423.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-09-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/09/26/costco-wholesale-cost-q4-2023-earnings-call-transc/",
+   "release": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000038/costex9918-k92623.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-05-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/26/costco-wholesale-cost-q3-2023-earnings-call-transc/",
+   "release": "https://www.sec.gov/Archives/edgar/data/909832/000090983223000025/costex9918-k52523.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-03-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/03/02/costco-wholesale-cost-q2-2023-earnings-call-transc/"
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-12-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/12/09/costco-wholesale-cost-q1-2023-earnings-call-transc/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-09-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/09/23/costco-wholesale-cost-q4-2022-earnings-call-transc/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-05-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/27/costco-wholesale-cost-q3-2022-earnings-call-transc/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-03-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/03/04/costco-wholesale-cost-q2-2022-earnings-call-transc/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-12-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/10/costco-wholesale-cost-q1-2022-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-09-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/09/24/costco-wholesale-cost-q4-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-05-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/28/costco-wholesale-cost-q3-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-03-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/03/05/costco-wholesale-cost-q2-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-12-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/12/11/costco-wholesale-cost-q1-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-09-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/09/25/costco-wholesale-cost-q4-2020-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-05-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/29/costco-wholesale-corp-cost-q3-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-03-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/05/costco-wholesale-corp-cost-q2-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-12-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/12/12/costco-wholesale-corp-cost-q1-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-05-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/30/costco-wholesale-corp-cost-q3-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-12-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/12/13/costco-wholesale-corporation-cost-q1-2019-earnings.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-06-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/31/costco-wholesale-corporation-cost-q3-2018-earnings.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-03-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/03/08/costco-wholesale-corporation-cost-q2-2018-earnings.aspx"
+  }
+ ],
+ "events": [
+  {
+   "title": "2026 Annual Shareholders' Meeting presentation",
+   "date": "2026-01-15",
+   "url": "https://s201.q4cdn.com/287523651/files/doc_events/2026/Jan/15/2026-Annual-Shareholders-Meeting-IR-Site.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "2025 Annual Shareholders' Meeting presentation",
+   "date": "2025-01-23",
+   "url": "https://s201.q4cdn.com/287523651/files/doc_events/2025/Jan/23/2025-Annual-Shareholders-Meeting-Presentation.pdf",
+   "kind": "slides",
+   "ok": true
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+ "ticker": "PFE",
+ "ir": "https://investors.pfizer.com/",
+ "results": "https://investors.pfizer.com/Investors/Financials/Quarterly-Results/",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "slides": "https://s206.q4cdn.com/795948973/files/doc_financials/2026/q3/Q3-2026-Earnings-Charts-FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s206.q4cdn.com/795948973/files/content_files/Q3-2026-PFE-Earnings-Release-FINAL.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "slides": "https://s206.q4cdn.com/795948973/files/doc_financials/2026/q2/Q2-2026-Earnings-Charts-FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s206.q4cdn.com/795948973/files/doc_financials/2026/q2/Q2-2026-PFE-Earnings-Release-FINAL.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "slides": "https://s206.q4cdn.com/795948973/files/doc_financials/2026/q1/Q1-2026-Earnings-Charts-FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s206.q4cdn.com/795948973/files/doc_financials/2026/q1/Q1-2026-PFE-Earnings-Release-FINAL.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-03",
+   "slides": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-Earnings-Charts.pdf",
+   "slides_kind": "slides",
+   "release": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-PFE-Earnings-Release-FINAL2.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-04",
+   "slides": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/q3/Q3-2025-Earnings-Charts-FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/q3/Q3-2025-PFE-Earnings-Release-FINAL.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-29",
+   "slides": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/q1/Q1-2025-Earnings-Charts-FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/q1/Q1-2025-PFE-Earnings-Release-FINAL.pdf",
+   "transcript": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/q1/PFE-USQ_Transcript_2025-04-29.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/04/pfizer-pfe-q4-2024-earnings-call-transcript/",
+   "slides": "https://s206.q4cdn.com/795948973/files/doc_financials/2024/q4/Q4-2024-Earnings-Charts-FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s206.q4cdn.com/795948973/files/doc_financials/2024/q4/Q4-2024-PFE-Earnings-Release-Final.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/29/pfizer-pfe-q3-2024-earnings-call-transcript/",
+   "slides": "https://s206.q4cdn.com/795948973/files/doc_financials/2024/q3/Q3_2024_Earnings_Charts_FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s206.q4cdn.com/795948973/files/doc_financials/2024/q3/Q3-2024-PFE-Earnings-Release-Final.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/30/pfizer-pfe-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/78003/000007800324000155/pfe-6302024xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/01/pfizer-pfe-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/78003/000007800324000103/pfe-3312024xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/30/pfizer-pfe-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/78003/000007800324000017/pfe-12312023xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/31/pfizer-pfe-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/78003/000007800323000111/pfe-10012023xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/01/pfizer-pfe-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/78003/000007800323000085/pfe-07022023xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/02/pfizer-pfe-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/78003/000162828023014759/pfe-04022023xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/31/pfizer-pfe-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/78003/000007800323000004/pfe-12312022xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/01/pfizer-pfe-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/28/pfizer-pfe-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/08/pfizer-pfe-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/pfizer-pfe-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/04/pfizer-pfe-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/02/pfizer-pfe-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/28/pfizer-pfe-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/29/pfizer-pfe-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/28/pfizer-inc-pfe-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/28/pfizer-inc-pfe-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/29/pfizer-inc-pfe-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/31/pfizer-inc-pfe-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/30/pfizer-inc-pfe-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/29/pfizer-pfe-q4-2018-earnings-conference-call-transc.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/31/pfizer-inc-pfe-q2-2018-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/01/pfizer-inc-pfe-q1-2018-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2017 Q3",
+   "date": "2017-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/11/01/pfizer-inc-pfe-q3-2017-earnings-conference-call-tr.aspx"
+  }
+ ]
+}

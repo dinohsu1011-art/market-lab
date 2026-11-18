@@ -1,0 +1,175 @@
+{
+ "ticker": "EBAY",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000209/exhibit991erebayq32026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000174/exhibit991erebayq22026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000092/exhibit991erebayq12026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508826000017/exhibit991erebayq42025.htm",
+   "release_ok": true,
+   "slides": "https://ebay.q4cdn.com/610426115/files/doc_financials/2025/q4/2025_Q4_eBay_Earnings_Deck_Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000124/exhibit991erebayq32025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000058/exhibit991erebayq12025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508825000034/exhibit991erebayq42024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508824000196/exhibit991erebayq32024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508824000143/exhibit991erebayq22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508824000073/exhibit991erebayq12024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508824000033/exhibit991erebayq42023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508823000036/exhibit991erebayq32023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508823000018/exhibit991erebayq22023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000162828023013226/exhibit991erebayq12023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065088/000106508823000004/exhibit991erebayq42022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/ebay-inc-ebay-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/11/ebay-inc-ebay-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/28/ebay-inc-ebay-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/04/ebay-inc-ebay-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/28/ebay-inc-ebay-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/28/ebay-inc-ebay-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/29/ebay-inc-ebay-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/29/ebay-inc-ebay-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/23/ebay-inc-ebay-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/17/ebay-inc-ebay-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/23/ebay-inc-ebay-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/29/ebay-inc-ebay-q4-2018-earnings-conference-call-tra.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/31/ebay-inc-ebay-q3-2018-earnings-conference-call-tra.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/19/ebay-ebay-q2-2018-earnings-conference-call-transcr.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/02/ebay-ebay-q4-2017-earnings-conference-call-transcr.aspx"
+  }
+ ],
+ "ir": "https://investors.ebayinc.com",
+ "results": "https://investors.ebayinc.com/financial-information/financial-summary/default.aspx"
+}

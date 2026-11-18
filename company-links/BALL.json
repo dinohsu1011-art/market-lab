@@ -1,0 +1,89 @@
+{
+ "ticker": "BALL",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000110465926121661/ball-ex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000110465926090074/ball-20260804xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000000938926000107/ball-20260505xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000000938925000048/ball-20251104xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000000938925000007/ball-20250506xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000000938925000002/ball-20250204xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000000938924000036/ball-20241031xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000000938924000031/ball-20240801xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000000938924000027/ball-20240426xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000000938924000003/ball-20240201xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000000938923000041/ball-20231102xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000000938923000024/ball-20230803xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000000938923000020/bll-20230504xex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/9389/000000938923000008/bll-20230202xex99.htm",
+   "release_ok": true
+  }
+ ]
+}

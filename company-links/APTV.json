@@ -1,0 +1,169 @@
+{
+ "ticker": "APTV",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133226000071/aptvq32026ex991.htm",
+   "release_ok": true,
+   "slides": "https://s21.q4cdn.com/440699111/files/doc_earnings/2026/q3/presentation/Aptiv-Q3-2026-Earnings-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133226000057/aptvq22026ex991.htm",
+   "release_ok": true,
+   "slides": "https://s21.q4cdn.com/440699111/files/doc_earnings/2026/q2/presentation/Aptiv-Q2-2026-Earnings-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133226000044/aptvq12026ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133226000004/aptv2025ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133225000048/aptvq32025ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133225000023/aptvq12025ex991.htm",
+   "release_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/aptiv-plc-nyseaptv-q1-2025-earnings-call-transcript-1523284/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133225000006/aptv2024ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133224000067/aptvq32024ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133224000055/aptvq22024ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133224000035/aptvq12024ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133224000004/aptv2023ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133223000057/aptvq32023ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133223000049/aptvq22023ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133223000037/aptvq12023ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1521332/000152133223000005/aptv2022ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/aptiv-plc-aptv-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/aptiv-plc-aptv-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/06/aptiv-plc-aptv-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/03/aptiv-plc-aptv-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/aptiv-plc-aptv-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/30/aptiv-plc-aptv-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/05/aptiv-plc-aptv-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/aptiv-plc-aptv-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/30/aptiv-plc-aptv-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/31/aptiv-plc-aptv-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/03/aptiv-plc-aptv-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/31/aptiv-plc-aptv-q4-2018-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/31/aptiv-plc-aptv-q3-2018-earnings-conference-call-tr.aspx"
+  }
+ ],
+ "ir": "https://ir.aptiv.com/",
+ "results": "https://ir.aptiv.com/financials/quarterly-results/default.aspx"
+}

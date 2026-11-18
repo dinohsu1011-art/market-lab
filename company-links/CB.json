@@ -1,0 +1,158 @@
+{
+ "ticker": "CB",
+ "ir": "https://investors.chubb.com/",
+ "results": "https://investors.chubb.com/financials/quarterly-results/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "slides": "https://s201.q4cdn.com/471466897/files/doc_financials/2026/q3/Q3-2026-Chubb-Limited-Financial-Supplement.xlsm",
+   "slides_kind": "supplement",
+   "release": "https://s201.q4cdn.com/471466897/files/content_files/3rd-Quarter-2026-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-22",
+   "slides": "https://s201.q4cdn.com/471466897/files/doc_financials/2026/q1/Q1-2026-Chubb-Limited-Financial-Supplement.xlsm",
+   "slides_kind": "supplement",
+   "release": "https://s201.q4cdn.com/471466897/files/doc_financials/2026/q1/1st-Quarter-2026-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-04",
+   "slides": "https://s201.q4cdn.com/471466897/files/doc_financials/2025/q4/Q4-2025-Chubb-Limited-Financial-Supplement.xlsm",
+   "slides_kind": "supplement",
+   "release": "https://s201.q4cdn.com/471466897/files/doc_financials/2025/q4/4th-Quarter-2025-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "slides": "https://s201.q4cdn.com/471466897/files/doc_financials/2025/q1/Q1-2025-Chubb-Limited-Financial-Supplement.xlsm",
+   "slides_kind": "supplement",
+   "release": "https://s201.q4cdn.com/471466897/files/doc_financials/2025/q1/1st-Quarter-2025-Earnings-Press-Release.pdf",
+   "transcript": "https://s201.q4cdn.com/471466897/files/doc_financials/2025/q1/Chubb-1Q25-Transcript-April-23-2025.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/29/chubb-cb-q4-2024-earnings-call-transcript/",
+   "slides": "https://s201.q4cdn.com/471466897/files/doc_financials/2024/q4/Chubb-Limited-4Q24-Financial-Supplement.xlsx",
+   "slides_kind": "supplement",
+   "release": "https://s201.q4cdn.com/471466897/files/doc_financials/2024/q4/4th-Quarter-2024-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/30/chubb-cb-q3-2024-earnings-call-transcript/",
+   "slides": "https://s201.q4cdn.com/471466897/files/doc_financials/2024/q3/Chubb-Limited-3Q24-Financial-Supplement.xlsx",
+   "slides_kind": "supplement",
+   "release": "https://s201.q4cdn.com/471466897/files/doc_financials/2024/q3/3rd-Quarter-2024-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-24",
+   "slides": "https://s201.q4cdn.com/471466897/files/doc_financials/2024/q2/Chubb-Limited-2Q24-Financial-Supplement.xlsm",
+   "slides_kind": "supplement",
+   "release": "https://s201.q4cdn.com/471466897/files/doc_financials/2024/q2/2nd-Quarter-2024-Earnings-Press-Release.pdf",
+   "transcript": "https://www.insidermonkey.com/blog/chubb-limited-nysecb-q2-2024-earnings-call-transcript-1326034/"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-24",
+   "slides": "https://s201.q4cdn.com/471466897/files/doc_financials/2024/q1/Chubb-Limited-1Q24-Financial-Supplement.xlsm",
+   "slides_kind": "supplement",
+   "release": "https://s201.q4cdn.com/471466897/files/doc_financials/2024/q1/1st-Quarter-2024-Earnings-Press-Release.pdf",
+   "transcript": "https://hk.finance.yahoo.com/news/chubb-limited-nyse-cb-q1-151702363.html"
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/896159/000119312524019737/d81578dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/896159/000119312523261690/d530841dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/896159/000119312523193451/d452393dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/896159/000119312523115383/d411414dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/896159/000119312523020380/d46261dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/chubb-ltd-cb-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/28/chubb-ltd-cb-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/28/chubb-corp-cb-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/03/chubb-corp-cb-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/28/chubb-corp-cb-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/29/chubb-corp-cb-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/22/chubb-cb-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/05/chubb-cb-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/24/chubb-cb-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/01/chubb-cb-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/06/chubb-corp-cb-q4-2018-earnings-conference-call-tra.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/24/chubb-limited-cb-q3-2018-earnings-conference-call.aspx"
+  }
+ ]
+}

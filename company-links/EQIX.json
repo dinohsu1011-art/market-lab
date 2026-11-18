@@ -1,0 +1,210 @@
+{
+ "ticker": "EQIX",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000178/a991eqix-q326xpr.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_5aa07998df365d4c3afc50f9ba1a9099/equinix/db/2183/27073/earnings_presentation/Equinix_Q3_26_Earnings_Presentation_Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000145/a991eqix-q226xpr.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_5aa07998df365d4c3afc50f9ba1a9099/equinix/db/2183/27054/earnings_presentation/Equinix+Q2+26+Earnings+Presentation+Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000089/eqix-q126xpr.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_5aa07998df365d4c3afc50f9ba1a9099/equinix/db/2183/27031/earnings_presentation/Equinix+Q1+26+Earnings+Presentation+Final+v2.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000030/february112026pressrelease-.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_5aa07998df365d4c3afc50f9ba1a9099/equinix/db/2183/27011/earnings_presentation/Equinix+Q4+25+Earnings+Presentation+Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000110123925000061/october292025pressrelease-.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_5aa07998df365d4c3afc50f9ba1a9099/equinix/db/2183/26994/earnings_presentation/Equinix+Q3+25+Earnings+Presentation+Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000162828025021080/eqix-033125xpr8k.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_5aa07998df365d4c3afc50f9ba1a9099/equinix/db/2183/23603/earnings_presentation/Equinix+Q1+25+Earnings+Presentation+Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/12/equinix-eqix-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000162828025005122/eqix-123124xpr.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_5aa07998df365d4c3afc50f9ba1a9099/equinix/db/2183/23573/earnings_presentation/Equinix+Q4+24+Earnings+Presentation+Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/30/equinix-eqix-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000162828024044328/eqix-093024xpruploadhyperl.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_5aa07998df365d4c3afc50f9ba1a9099/equinix/db/2183/23540/earnings_presentation/Equinix+Q3+24+Earnings+Presentation+Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/08/equinix-eqix-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000162828024035620/eqix-063024xpruploadhyperl.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/10/equinix-eqix-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000162828024021695/eqix-033124xpr8kupload.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/14/equinix-eqix-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000162828024004799/eqix-123123xpr8kupload.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/25/equinix-eqix-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000095017023055177/eqix-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/03/equinix-eqix-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000095017023037243/eqix-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/04/equinix-eqix-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000095017023017163/eqix-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/16/equinix-eqix-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1101239/000095017023002891/eqix-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/03/equinix-eqix-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/28/equinix-eqix-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/28/equinix-eqix-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/17/equinix-eqix-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/equinix-inc-eqix-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/29/equinix-inc-eqix-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/equinix-inc-eqix-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/11/equinix-inc-eqix-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/30/equinix-inc-eqix-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/07/equinix-inc-eqix-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/13/equinix-inc-eqix-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/30/equinix-inc-eqix-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/01/equinix-inc-eqix-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/equinix-inc-eqix-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/02/equinix-inc-eqix-q3-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/08/equinix-inc-eqix-q2-2018-earnings-conference-call.aspx"
+  }
+ ],
+ "ir": "https://investor.equinix.com",
+ "results": "https://investor.equinix.com/financial-information/financial-results"
+}

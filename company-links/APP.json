@@ -1,0 +1,59 @@
+{
+ "ticker": "APP",
+ "ir": "https://investors.applovin.com/",
+ "results": "https://investors.applovin.com/financials/quarterly-results/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-04",
+   "slides": "https://s21.q4cdn.com/165405286/files/content_files/3Q26-Financial-Update.pdf",
+   "slides_kind": "supplement",
+   "release": "https://s21.q4cdn.com/165405286/files/content_files/3Q26-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "slides": "https://s21.q4cdn.com/165405286/files/doc_financials/2026/q1/Financial-Update-Q1-2026.pdf",
+   "slides_kind": "supplement",
+   "release": "https://s21.q4cdn.com/165405286/files/doc_financials/2026/q1/1Q26-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-11",
+   "slides": "https://s21.q4cdn.com/165405286/files/doc_financials/2025/q4/Financial-Update-Q4-2025.pdf",
+   "slides_kind": "supplement",
+   "release": "https://s21.q4cdn.com/165405286/files/doc_financials/2025/q4/v2/4Q25-AppLovin-Press-Release.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-05",
+   "slides": "https://s21.q4cdn.com/165405286/files/doc_financials/2025/q3/3Q25-AppLovin-Financial-Update.pdf",
+   "slides_kind": "supplement",
+   "release": "https://s21.q4cdn.com/165405286/files/doc_financials/2025/q3/3Q25-AppLovin-Press-Release.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751008/000175100825000006/exhibit991-4q24earningspre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751008/000175100824000059/exhibit991-pressreleasedat.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751008/000175100824000053/exhibit991-pressreleasedat.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1751008/000175100824000041/exhibit991-pressreleasedat.htm",
+   "release_ok": true
+  }
+ ]
+}

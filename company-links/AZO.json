@@ -1,0 +1,157 @@
+{
+ "ticker": "AZO",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-09-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/866787/000117184326006159/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/866787/000117184326003674/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-03-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/866787/000117184326001288/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-03-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/866787/000117184325001229/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-12-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/866787/000117184324006846/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-09-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/866787/000117184324005333/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-05-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/866787/000117184324003004/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/866787/000117184324001000/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-12-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/866787/000117184323007428/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-09-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/866787/000117184323005772/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-05-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/866787/000117184323003497/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-02-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/866787/000117184323001223/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-12-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/07/autozone-inc-azo-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-09-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/09/21/autozone-inc-azo-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-05-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/25/autozone-inc-azo-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-03-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/03/02/autozone-inc-azo-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-12-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/12/08/autozone-inc-azo-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-09-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/09/22/autozone-inc-azo-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-05-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/26/autozone-inc-azo-q3-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-03-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/03/autozone-inc-azo-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-12-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/12/10/autozone-inc-azo-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-09-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/09/24/autozone-inc-azo-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-05-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/21/autozone-inc-azo-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/26/autozone-azo-q2-2019-earnings-conference-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-12-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/12/04/autozone-inc-azo-q1-2019-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-09-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/09/18/autozone-inc-azo-q4-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-05-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/22/autozone-inc-azo-q3-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2017-12-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/12/06/autozone-azo-q1-2018-earnings-conference-call-tran.aspx"
+  }
+ ]
+}

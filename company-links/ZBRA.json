@@ -1,0 +1,175 @@
+{
+ "ticker": "ZBRA",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000162828026069148/zbraex99120261003.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000162828026052158/zbraex99120260704.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000162828026033877/zbraex99120260404.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000087721226000003/zbraex991123125.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000162828025046567/zbraex99120250927.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000087721225000063/zbraex99120250329.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/13/zebra-technologies-zbra-q4-2024-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000087721225000025/zbraex991123124.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/29/zebra-technologies-zbra-q3-2024-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000087721224000162/zbraex99120240928.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/30/zebra-technologies-zbra-q2-2024-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000087721224000149/zbraex99120240629.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/30/zebra-technologies-zbra-q1-2024-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000087721224000061/zbraex99120240330.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/15/zebra-technologies-zbra-q4-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000087721224000026/zbraex991123123.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/31/zebra-technologies-zbra-q3-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000087721223000141/zbraex99120230930.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/01/zebra-technologies-zbra-q2-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000087721223000123/zbraex99120230701.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/02/zebra-technologies-zbra-q1-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000087721223000053/zbraex99120230401.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/16/zebra-technologies-zbra-q4-2022-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/877212/000087721223000023/zbraex991123122.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/01/zebra-technologies-zbra-q3-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/02/zebra-technologies-zbra-q2-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/10/zebra-technologies-zbra-q4-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/02/zebra-technologies-corporation-zbra-q3-2021-earnin/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/03/zebra-technologies-corporation-zbra-q2-2021-earnin/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/04/zebra-technologies-corp-zbra-q1-2021-earnings-call/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/11/zebra-technologies-corp-zbra-q4-2020-earnings-call/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/03/zebra-technologies-corp-zbra-q3-2020-earnings-call/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/28/zebra-technologies-corp-zbra-q2-2020-earnings-call.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/28/zebra-technologies-corp-zbra-q1-2020-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/13/zebra-technologies-corp-zbra-q4-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/29/zebra-technologies-corp-zbra-q3-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/30/zebra-technologies-corp-zbra-q2-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/30/zebra-technologies-corp-zbra-q1-2019-earnings-call.aspx"
+  }
+ ],
+ "ir": "https://investors.zebra.com"
+}

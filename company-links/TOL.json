@@ -1,0 +1,23 @@
+{
+ "ticker": "TOL",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-08-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/794170/000079417026000096/tol-7312026x8kexh991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-05-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/794170/000079417026000083/tol-4302026x8kexh991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-02-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/794170/000079417026000050/tol-1312026x8kexh991.htm",
+   "release_ok": true
+  }
+ ]
+}

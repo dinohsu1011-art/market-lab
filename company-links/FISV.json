@@ -1,0 +1,163 @@
+{
+ "ticker": "FISV",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/fisvq326earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000028/fisvq226earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000014/fisvq126earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000006/fisv4q25earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/798354/000079835425000102/fiq125earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/798354/000079835425000018/fi4q24earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/798354/000079835424000188/fiq324earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/798354/000079835424000154/fiq224earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/798354/000079835424000098/fiq124earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/798354/000079835424000021/fi4q23earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/798354/000079835423000016/fisvq323earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/798354/000079835423000012/fisvq223earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/798354/000079835423000006/fisvq123earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/26/fiserv-fisv-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/27/fiserv-fisv-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/08/fiserv-fisv-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/fiserv-inc-fisv-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/27/fiserv-inc-fisv-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/fiserv-inc-fisv-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/09/fiserv-inc-fisv-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/28/fiserv-inc-fisv-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/05/fiserv-inc-fisv-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/08/fiserv-inc-fisv-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/05/fiserv-inc-fisv-q4-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/06/fiserv-inc-fisv-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/26/fiserv-inc-fisv-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/01/fiserv-inc-fisv-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/08/fiserv-inc-fisv-q4-2018-earnings-conference-call-t.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/31/fiserv-inc-fisv-q3-2018-earnings-conference-call-t.aspx"
+  }
+ ]
+}

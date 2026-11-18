@@ -1,0 +1,141 @@
+{
+ "ticker": "WRB",
+ "quarters": [
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000008/wrb33120268-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/11544/000001154426000003/wrb123120258-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/11544/000001154425000021/wrb63020258-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/04/22/w-r-berkley-wrb-q1-2025-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/11544/000001154425000007/wrb33120258-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/11544/000001154425000002/wrb123120248-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/11544/000001154424000026/wrb93020248-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/11544/000001154424000021/wrb63020248-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/11544/000001154424000008/wrb33120248-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/11544/000001154424000002/wrb123120238-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/11544/000001154423000021/wrb93020238-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/11544/000001154423000016/wrb63020238-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/11544/000001154423000006/wrb33120238-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/11544/000001154423000002/wrb123120228-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/21/w-r-berkley-corporation-wrb-q3-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/22/w-r-berkley-corporation-wrb-q2-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/21/wr-berkley-corp-wrb-q1-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/26/wr-berkley-corp-wrb-q4-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/20/wr-berkley-corp-wrb-q3-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/21/wr-berkley-corp-wrb-q2-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/21/wr-berkley-corp-wrb-q1-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/28/wr-berkley-corp-wrb-q4-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/22/wr-berkley-corp-wrb-q3-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/23/wr-berkley-corp-wrb-q2-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/23/wr-berkley-corp-wrb-q1-2019-earnings-call-transcri.aspx"
+  }
+ ],
+ "ir": "https://ir.berkley.com",
+ "results": "https://ir.berkley.com/investor-relations/financial-information/quarterly-results/default.aspx"
+}

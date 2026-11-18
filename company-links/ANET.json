@@ -1,0 +1,200 @@
+{
+ "ticker": "ANET",
+ "ir": "https://investors.arista.com/Home/default.aspx",
+ "results": "https://investors.arista.com/Financial-Information/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "slides": "https://s21.q4cdn.com/861911615/files/doc_financials/2026/q3/ANET_Earnings_Presentation_Q326.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Networks-Inc--Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "slides": "http://s21.q4cdn.com/861911615/files/doc_financials/2026/q2/ANET_Investor_Presentation_Q226.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Networks-Inc--Reports-Second-Quarter-2026-Financial-Results/default.aspx"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "slides": "https://s21.q4cdn.com/861911615/files/doc_presentations/2026/May/05/ANET_Investor_Presentation_Q126.pdf",
+   "slides_kind": "slides",
+   "release": "https://s21.q4cdn.com/861911615/files/doc_news/Arista-Networks-Inc--Reports-First-Quarter-2026-Financial-Results-2026.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "slides": "https://s21.q4cdn.com/861911615/files/doc_financials/2025/q4/ANET_Earnings_Presentation_Q425.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2026/Arista-Networks-Inc--Reports-Fourth-Quarter-and-Year-End-2025-Financial-Results/default.aspx"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-06",
+   "release": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2025/Arista-Networks-Inc--Reports-First-Quarter-2025-Financial-Results/default.aspx",
+   "transcript": "https://www.investing.com/news/transcripts/earnings-call-transcript-arista-networks-q1-2025-beats-earnings-expectations-93CH-4026508"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/18/arista-networks-anet-q4-2024-earnings-call-transcr/",
+   "release": "https://s21.q4cdn.com/861911615/files/doc_news/Arista-Networks-Inc.-Reports-Fourth-Quarter-and-Year-End-2024-Financial-Results-2025.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/07/arista-networks-anet-q3-2024-earnings-call-transcr/",
+   "slides": "https://s21.q4cdn.com/861911615/files/doc_financials/2024/q3/ANET_Financial_Q324_FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2024/Arista-Networks-Inc.-Reports-Third-Quarter-2024-Financial-Results/default.aspx"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/31/arista-networks-anet-q2-2024-earnings-call-transcr/",
+   "slides": "http://s21.q4cdn.com/861911615/files/doc_financials/2024/q2/ANET_Financial_Q224_FINAL5.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.arista.com/Communications/Press-Releases-and-Events/Press-Release-Detail/2024/Arista-Networks-Inc.-Reports-Second-Quarter-2024-Financial-Results/default.aspx"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/07/arista-networks-anet-q1-2024-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1596532/000159653224000171/ex991q124-earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/12/arista-networks-anet-q4-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1596532/000159653224000041/ex991q423-earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/30/arista-networks-anet-q3-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1596532/000159653223000272/ex991q323-earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/31/arista-networks-anet-q2-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1596532/000159653223000196/ex991q223-earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/01/arista-networks-anet-q1-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1596532/000159653223000101/ex991q123-earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/14/arista-networks-anet-q4-2022-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1596532/000159653223000015/ex991q422-earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/01/arista-networks-anet-q3-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/01/arista-networks-anet-q2-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/02/arista-networks-anet-q1-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/14/arista-networks-anet-q4-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/01/arista-networks-anet-q3-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/03/arista-networks-anet-q2-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/04/arista-networks-anet-q1-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/18/arista-networks-anet-q4-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/03/arista-networks-anet-q3-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/05/arista-networks-anet-q2-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/arista-networks-inc-anet-q1-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/13/arista-networks-inc-anet-q4-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/01/arista-networks-inc-anet-q3-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/01/arista-networks-inc-anet-q2-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/03/arista-networks-inc-anet-q1-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/14/arista-network-inc-anet-q4-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/arista-networks-inc-anet-q3-2018-earnings-conferen.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/02/arista-networks-inc-anet-q2-2018-earnings-conferen.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/04/arista-networks-anet-q1-2018-earnings-conference-c.aspx"
+  }
+ ]
+}

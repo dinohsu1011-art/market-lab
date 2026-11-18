@@ -1,0 +1,154 @@
+{
+ "ticker": "IFF",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125326000039/q32026991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125326000028/q22026991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125326000015/q12026991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125326000003/q42025991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125325000024/q12025991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125325000007/q42024991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125324000039/q32024991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125324000029/q22024991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125324000014/q12024991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125324000003/q42023991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125323000032/q32023991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125323000026/q22023991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125323000015/q12023991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/51253/000005125323000004/q42022991pressreleaseofiff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/09/international-flavors-fragrances-inc-iff-q3-2021-e/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/06/international-flavors-fragrances-inc-iff-q2-2021-e/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/11/international-flavors-fragrances-inc-iff-q1-2021-e/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/11/international-flavors-fragrances-inc-iff-q4-2020-e/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/10/international-flavors-fragrances-inc-iff-q3-2020-e/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/11/international-flavors-fragrances-inc-iff-q2-2020-e/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/12/international-flavors-fragrances-inc-iff-q1-2020-e.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/13/international-flavors-fragrances-inc-iff-q4-2019-e.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/05/international-flavors-fragrances-inc-iff-q3-2019-e.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/06/international-flavors-fragrances-inc-iff-q2-2019-e.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/07/international-flavors-fragrances-inc-iff-q1-2019-e.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/14/international-flavors-fragrances-inc-iff-q4-2018-e.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/06/international-flavors-fragrances-inc-iff-q3-2018-e.aspx"
+  }
+ ]
+}

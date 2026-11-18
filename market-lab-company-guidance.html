@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-eq>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guidance · Equinox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="market-lab-bar.css?v=20261117-c7c5d6d0">
+<link rel="stylesheet" href="market-lab-eq.css?v=20261117-c7c5d6d0">
+<script src="market-lab-shell.js?v=20261117-c7c5d6d0"></script>
+</head>
+<body>
+<div class="page">
+  <nav class="side" aria-label="On this page">
+    <a href="#guides" class="on">What they guided</a><a href="#results">Results against guidance</a>
+  </nav>
+  <main>
+    <div class="listhead">
+      <div><h1 id="name">Guidance</h1><div class="sub" id="sub">&nbsp;</div></div>
+      <div class="gsum" id="gsum" hidden></div>
+      <form class="find" id="find" role="search"><input type="search" placeholder="Search any company" aria-label="Search any company" autocomplete="off" spellcheck="false"><ul hidden></ul></form>
+    </div>
+    <section id="guides" hidden><h2 title="Numbers management gave on each call, read from the transcript. Before is the number given for the same period on an earlier call. For a quarter guided for the first time, Before is the guide for the quarter before it, and the change says whether the new guide is higher or lower. Hover a row for the sentence.">What they guided <small id="stamp"></small></h2><table id="guideTable" class="sticky grouped"></table></section>
+    <section id="results" hidden><h2 title="For each quarter reported: the number guided for that same period on an earlier call, the result, and how it landed. Each figure links to where it came from.">Results against guidance</h2><table id="beatTable" class="sticky grouped"></table></section>
+  </main>
+</div>
+<script src="market-lab-eq.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-eq-guidance.js?v=20261117-c7c5d6d0"></script>
+</body>
+</html>

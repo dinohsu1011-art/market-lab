@@ -1,0 +1,48 @@
+/* Data center capacity: lighter look that matches the newer Equinox pages.
+   Loaded after market-lab-capacity-theme.css and only overrides it. */
+.dashboard-shell{padding:40px 48px 96px;max-width:1500px}
+.dashboard-shell .page-header{padding:0 0 28px;align-items:baseline}
+.page-header h1{font:400 46px/1.08 "Newsreader",Georgia,serif;letter-spacing:-.015em}
+.capacity-updated{font-size:13px;color:var(--ml-faint,var(--muted))}
+
+/* no boxes: sections are separated by space and one thin rule */
+.panel,.research-panel{border:0;border-radius:0;background:transparent;box-shadow:none}
+.panel-heading,.comp-panel .panel-heading,.figures-panel .panel-heading,.outlook-row .panel-heading{padding:0 0 10px}
+.panel-heading h2,.research-heading h2,.research-intro h2{font:400 28px/1.2 "Newsreader",Georgia,serif;letter-spacing:0}
+.comp-controls,.comp-legend,.figures-scroll{padding-left:0;padding-right:0}
+.comp-chart{padding-left:0;padding-right:0}
+.figures-panel .chart-method,.chart-method{margin-left:0;margin-right:0}
+.comps-grid{gap:56px 48px;grid-auto-rows:auto}
+.comp-panel.wide{grid-column:auto}
+.comps,.figures,.outlook-row,.dashboard-shell .secondary-grid{margin-bottom:72px}
+.figures,.outlook-row,.dashboard-shell .secondary-grid,#researchDashboard{border-top:1px solid var(--rule);padding-top:40px}
+.dashboard-shell .secondary-grid{gap:48px}
+.figures-table th.sticky{background:var(--ml-bg)}
+
+/* option buttons: plain text toggles, like the range buttons elsewhere */
+.seg{border:0;border-radius:0;overflow:visible;gap:2px}
+.seg button,.seg button:last-child{border:0;border-radius:6px;font:600 13px/1.3 var(--sans);padding:5px 10px;color:var(--muted);background:none;transition:color .15s,background-color .15s}
+.seg button:hover{background:none;color:var(--ink)}
+.seg button[aria-pressed=true]{background:color-mix(in srgb,var(--ml-up) 12%,transparent);color:var(--ml-up)}
+.comp-controls{gap:4px 18px}
+.clean-toggle{display:none}
+
+/* figures: one table at a time */
+.cap-tabs{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 4px;margin:0 0 22px}
+.cap-tabs h2{font:400 28px/1.2 "Newsreader",Georgia,serif;margin:0 22px 0 0}
+.cap-tabs button{border:0;background:none;color:var(--muted);font:600 14px var(--sans);padding:6px 12px;border-radius:6px;cursor:pointer;transition:color .15s,background-color .15s}
+.cap-tabs button:hover{color:var(--ink)}
+.cap-tabs button[aria-pressed=true]{background:color-mix(in srgb,var(--ml-up) 12%,transparent);color:var(--ml-up)}
+.cap-tabs button:focus-visible{outline:2px solid var(--ml-accent);outline-offset:2px}
+.figures.tabbed .figures-panel[hidden]{display:none}
+.figures.tabbed .figures-panel .panel-heading h2{display:none}
+@media(max-width:760px){.dashboard-shell{padding:24px 16px 64px}.page-header h1{font-size:34px}.comps-grid{gap:40px}}
+
+/* lower sections: same plain toggles, no boxed cells */
+.deal-filters:not(.compact-legend) button,.view-buttons button{border:0;border-radius:6px;background:none;color:var(--muted);font:600 13px/1.3 var(--sans);padding:5px 10px;transition:color .15s,background-color .15s}
+.deal-filters:not(.compact-legend) button:hover,.view-buttons button:hover{color:var(--ink)}
+.deal-filters:not(.compact-legend) button[aria-pressed=true],.view-buttons button[aria-pressed=true],.deal-filters:not(.compact-legend) button.active,.view-buttons button.active{background:color-mix(in srgb,var(--ml-up) 12%,transparent);color:var(--ml-up)}
+.deal-filters.compact-legend button{border:0;background:none;padding:4px 10px 4px 0}
+.agreements-table .table-cell{border-left:0;border-right:0}
+.agreements-table .table-cell.header{text-transform:none;letter-spacing:0;font:600 13px var(--sans);color:var(--muted)}
+.research-panel{padding-left:0;padding-right:0}

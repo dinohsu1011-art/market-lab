@@ -1,0 +1,241 @@
+{
+ "ticker": "GOOGL",
+ "ir": "https://abc.xyz/investor/",
+ "results": "https://abc.xyz/investor/earnings/",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "slides": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
+   "release_ok": true,
+   "transcript": "https://s206.q4cdn.com/479360582/files/doc_events/2026/Oct/28/2026_Q3_Earnings_Transcript.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-22",
+   "slides": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q2/2026q2-alphabet-earnings-release.pdf",
+   "release_ok": true,
+   "transcript": "https://s206.q4cdn.com/479360582/files/doc_events/2026/Jul/22/2026_Q2_Earnings_Transcript.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "slides": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q1/Alphabet-Q1-2026-Earnings-Slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q1/2026q1-alphabet-earnings-release.pdf",
+   "release_ok": true,
+   "transcript": "https://s206.q4cdn.com/479360582/files/doc_events/2026/Apr/29/Alphabet-2026_Q1_Earnings_Transcript.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-04",
+   "slides": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/4/2025q4-alphabet-earnings-slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf",
+   "release_ok": true,
+   "transcript": "https://s206.q4cdn.com/479360582/files/doc_events/2026/Feb/04/2025_Q4_Earnings_Transcript.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "slides": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q3/2025q3-alphabet-earnings-slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q3/2025q3-alphabet-earnings-release.pdf",
+   "release_ok": true,
+   "transcript": "https://s206.q4cdn.com/479360582/files/doc_events/2025/Oct/29/2025_Q3_Earnings_Transcript.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-23",
+   "slides": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q2/2025q2-alphabet-earnings-slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q2/2025q2-alphabet-earnings-release.pdf",
+   "release_ok": true,
+   "transcript": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q2/2025-q2-earnings-transcript.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-24",
+   "slides": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q1/2025q1-alphabet-earnings-slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q1/2025q1-alphabet-earnings-release.pdf",
+   "release_ok": true,
+   "transcript": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q1/2025-q1-earnings-transcript.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "slides": "https://s206.q4cdn.com/479360582/files/doc_financials/2024/q4/2024q4-alphabet-earnings-release.pdf",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://s206.q4cdn.com/479360582/files/doc_financials/2024/q4/2024q4-alphabet-earnings-release.pdf",
+   "release_ok": true,
+   "transcript": "https://s206.q4cdn.com/479360582/files/doc_financials/2024/q4/2024-q4-earnings-transcript.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000115/googexhibit991q32024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/23/alphabet-googl-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000076/googexhibit991q22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/25/alphabet-googl-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000047/googexhibit991q12024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/30/alphabet-googl-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000014/googexhibit991q42023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000088/googexhibit991q32023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/25/alphabet-googl-q2-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/02/alphabet-googl-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/25/alphabet-a-shares-googl-q3-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/26/alphabet-a-shares-googl-q2-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/26/alphabet-a-shares-googl-q1-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/02/alphabet-a-shares-googl-q4-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/26/alphabet-inc-googl-q3-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/27/alphabet-inc-googl-q2-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/alphabet-inc-googl-q1-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/02/alphabet-inc-googl-q4-2020-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/alphabet-inc-googl-q3-2020-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/alphabet-inc-goog-googl-q2-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/29/alphabet-inc-goog-googl-q1-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/03/alphabet-inc-goog-googl-q4-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/29/google-inc-googl-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/25/alphabet-inc-googl-q2-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/29/alphabet-inc-googl-q1-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/04/alphabet-inc-goog-googl-q4-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/26/alphabet-inc-goog-googl-q3-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/01/alphabet-inc-googl-q4-2017-earnings-conference-cal.aspx"
+  },
+  {
+   "id": "2017 Q3",
+   "date": "2017-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/10/30/alphabet-inc-goog-googl-q3-2017-earnings-conferenc.aspx"
+  }
+ ],
+ "events": [
+  {
+   "title": "Alphabet's AI Responsibility & Data Center Energy Strategy Call",
+   "date": "2026-11-12",
+   "url": "https://abc.xyz/investor/events/event-details/2026/Alphabets-AI-Responsibility--Data-Center-Energy-Strategy-Call-2026-99vbPErn-2/default.aspx",
+   "kind": "page",
+   "ok": true
+  },
+  {
+   "title": "Alphabet's Data Center Energy Strategy Call",
+   "date": "2025-11-20",
+   "url": "https://abc.xyz/investor/events/event-details/2025/Alphabets-Data-Center-Energy-Strategy-Call--2025-8CMCLdf62b/default.aspx",
+   "kind": "page",
+   "ok": true
+  }
+ ]
+}

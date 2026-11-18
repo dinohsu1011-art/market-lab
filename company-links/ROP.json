@@ -1,0 +1,186 @@
+{
+ "ticker": "ROP",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283526000042/a2026q3earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283526000015/a2026q1earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283526000003/a2025q4earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283525000041/a2025q3earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283525000031/a2025q2earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283525000016/a2025q1earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283525000003/a2024q4earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283524000040/a2024q3earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283524000031/a2024q2earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283524000015/a2024q1earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283524000002/a2023q4earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283523000048/a2023q3earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283523000039/a2023q2earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283523000021/a2023q1earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/882835/000088283523000010/a2022q4earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/22/roper-technologies-rop-q2-2022-earnings-call-trans/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/27/roper-technologies-rop-q1-2022-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/02/roper-technologies-rop-q4-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/22/roper-technologies-inc-rop-q3-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/23/roper-technologies-inc-rop-q2-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/roper-technologies-inc-rop-q1-2021-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/29/roper-technologies-inc-rop-q4-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/27/roper-technologies-inc-rop-q3-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/28/roper-technologies-inc-rop-q2-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/28/roper-technologies-inc-rop-q1-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/roper-technologies-inc-rop-q4-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/24/roper-technologies-inc-rop-q3-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/25/roper-technologies-inc-rop-q2-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/25/roper-technologies-inc-rop-q1-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/01/roper-technologies-rop-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/26/roper-technologies-inc-rop-q3-2018-earnings-confer.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/23/roper-technologies-rop-q1-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2017 Q3",
+   "date": "2017-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/10/31/roper-technologies-rop-q3-2017-earnings-conference.aspx"
+  }
+ ],
+ "ir": "https://ropertech.gcs-web.com/"
+}

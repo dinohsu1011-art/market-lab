@@ -1,0 +1,35 @@
+{
+ "ticker": "PL",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-09-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526381874/pl-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-06-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526257401/pl-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-03-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1836833/000119312526115951/pl-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2025-12-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314160/pl-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-06-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1836833/000183683325000062/exhibit991q12026.htm",
+   "release_ok": true
+  }
+ ]
+}

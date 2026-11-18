@@ -1,0 +1,173 @@
+{
+ "ticker": "AVY",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000000881826000162/ex9918k10-29x26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000000881826000127/ex9918k7-30x26.htm",
+   "release_ok": true,
+   "slides": "https://s205.q4cdn.com/945924874/files/doc_financials/2026/q2/SecondQuarter2026FinancialReviewAnalysis.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000000881826000075/ex9918k4-28x26.htm",
+   "release_ok": true,
+   "slides": "https://s205.q4cdn.com/945924874/files/doc_financials/2026/q1/FirstQuarter2026FinancialReviewandAnalysis.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000000881826000004/ex9918k2-4x26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000119312525245839/d79220dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000119312525162209/d83231dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000119312525089998/d917859dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000119312525016229/d178536dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000119312524241428/d846693dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000119312524182566/d841269dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000119312524108400/d827475dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000119312524020186/d643658dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000119312523262236/d510959dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000119312523192716/d542779dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000119312523116625/d497934dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/8818/000119312523022084/d243122dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/avery-dennison-corporation-avy-q3-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/28/avery-dennison-corporation-avy-q2-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/28/avery-dennison-corp-avy-q1-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/03/avery-dennison-corp-avy-q4-2020-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/21/avery-dennison-corp-avy-q3-2020-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/27/avery-dennison-corp-avy-q2-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/29/avery-dennison-corp-avy-q1-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/29/avery-dennison-corp-avy-q4-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/23/avery-dennison-corp-avy-q3-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/23/avery-dennison-corp-avy-q2-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/24/avery-dennison-corp-avy-q1-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/30/avery-dennison-avy-q4-2018-earnings-conference-cal.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/23/avery-dennison-corp-avy-q3-2018-earnings-conferenc.aspx"
+  }
+ ],
+ "ir": "https://investors.averydennison.com/"
+}

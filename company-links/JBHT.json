@@ -1,0 +1,172 @@
+{
+ "ticker": "JBHT",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774926023629/ex_987956.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774926012396/ex_945603.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774926001357/ex_907715.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774925031039/ex_870337.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774925022724/ex_838700.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774925012053/ex_801137.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774925001274/ex_766622.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774924031253/ex_732530.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774924022814/ex_698520.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774924012186/ex_653994.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774924001629/ex_616141.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774923028407/ex_581279.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774923020156/ex_544920.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774923010454/ex_500675.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/728535/000143774923001186/ex_464527.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/20/jb-hunt-transport-services-jbht-q2-2022-earnings-c/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/19/jb-hunt-transport-services-jbht-q1-2022-earnings-c/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/19/jb-hunt-transport-services-jbht-q4-2021-earnings-c/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/15/jb-hunt-transport-services-inc-jbht-q3-2021-earnin/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/19/jb-hunt-transport-services-inc-jbht-q2-2021-earnin/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/16/jb-hunt-transport-services-inc-jbht-q1-2021-earnin/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/19/jb-hunt-transport-services-inc-jbht-q4-2020-earnin/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/16/jb-hunt-transport-services-inc-jbht-q3-2020-earnin/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/16/jb-hunt-transport-services-inc-jbht-q2-2020-earnin.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/15/jb-hunt-transport-services-jbht-q1-2020-earnings-c.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/17/jb-hunt-transport-services-jbht-q4-2019-earnings-c.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/16/jb-hunt-transport-services-jbht-q3-2019-earnings-c.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/16/jb-hunt-transport-services-jbht-q2-2019-earnings-c.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/18/jb-hunt-transport-services-jbht-q4-2018-earnings-c.aspx"
+  }
+ ],
+ "ir": "https://investor.jbhunt.com"
+}

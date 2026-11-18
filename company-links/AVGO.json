@@ -1,0 +1,260 @@
+{
+ "ticker": "AVGO",
+ "ir": "https://investors.broadcom.com/",
+ "results": "https://investors.broadcom.com/financial-information/quarterly-results",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-09-02",
+   "slides": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/09/09/broadcom-avgo-q3-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-06-03",
+   "slides": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/avgo-05032026x8kxex99.htm",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2026-financial",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/06/03/broadcom-avgo-q2-2026-earnings-transcript/"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-03-04",
+   "slides": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000011/avgo-02012026x8kxex99.htm",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2026-financial",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/03/04/broadcom-avgo-q1-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-12-11",
+   "slides": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000116/avgo-11022025x8kxex99.htm",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-fourth-quarter-and-fiscal-year-2025",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/12/12/broadcom-avgo-q4-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-09-04",
+   "slides": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000094/avgo-08032025x8kxex99.htm",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2025-financial",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-06-05",
+   "slides": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000061/avgo-05042025x8kxex99.htm",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-second-quarter-fiscal-year-2025-financial",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/06/05/broadcom-avgo-q2-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-03-06",
+   "slides": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000009/avgo-02022025x8kxex99.htm",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-first-quarter-fiscal-year-2025-financial",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/03/06/broadcom-avgo-q1-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-12-12",
+   "slides": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000125/avgo-11032024x8kxex99.htm",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-fourth-quarter-and-fiscal-year-2024",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/12/12/broadcom-avgo-q4-2024-earnings-call-transcript/"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-09-05",
+   "slides": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000095/avgo-08042024x8kxex99.htm",
+   "slides_kind": "earnings release",
+   "slides_ok": true,
+   "release": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2024-financial",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/01/07/broadcom-avgo-q3-2024-earnings-call-transcript/"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-06-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/06/12/broadcom-avgo-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000077/avgo-05052024x8kxex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-03-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/03/07/broadcom-avgo-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000012/avgo-02042024x8kxex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-12-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/12/07/broadcom-avgo-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000093/avgo-10292023x8kxex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-08-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/09/01/broadcom-avgo-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000074/avgo-07302023x8kxex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-06-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/06/01/broadcom-avgo-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000062/avgo-04302023x8kxex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-03-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/03/02/broadcom-avgo-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000004/avgo-01292023x8kxex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-12-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/12/09/broadcom-avgo-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-09-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/09/01/broadcom-ltd-avgo-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-06-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/06/02/broadcom-ltd-avgo-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-03-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/03/04/broadcom-ltd-avgo-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-12-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/10/broadcom-ltd-avgo-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-09-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/09/03/broadcom-ltd-avgo-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-06-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/06/03/broadcom-ltd-avgo-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-03-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/03/05/broadcom-ltd-avgo-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-12-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/12/11/broadcom-ltd-avgo-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-09-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/09/03/broadcom-ltd-avgo-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-06-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/06/04/broadcom-inc-avgo-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-03-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/12/broadcom-inc-avgo-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-12-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/12/12/broadcom-inc-avgo-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-09-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/09/12/broadcom-inc-avgo-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-06-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/06/13/broadcom-inc-avgo-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-03-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/03/14/broadcom-inc-avgo-q1-2019-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-12-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/12/06/broadcom-inc-avgo-q4-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-09-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/09/06/broadcom-inc-avgo-q3-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-06-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/06/07/broadcom-inc-avgo-q2-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-03-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/03/15/broadcom-limited-avgo-q1-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2017-12-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/12/08/broadcom-ltd-avgo-q4-2017-earnings-conference-call.aspx"
+  }
+ ],
+ "events": [
+  {
+   "title": "Broadcom Company Overview presentation",
+   "date": "2026-09-02",
+   "url": "https://investors.broadcom.com/static-files/602c2fd3-89a0-436f-b638-4890f20feda7",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "Enabling AI Infrastructure Investor Meeting",
+   "date": "2024-03-20",
+   "url": "https://investors.broadcom.com/static-files/4378d14e-a52f-409f-9ae4-03d810bc7a6c",
+   "kind": "slides",
+   "ok": true
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "ticker": "RCL",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000042/a2026q3earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.rclinvestor.com/content/uploads/2026/10/Q3-2026-Earnings-Call-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000024/a2026q1earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.rclinvestor.com/content/uploads/2026/04/RCG-1Q26-Earnings-Call-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488726000003/a10k2025earningsrelease8-k.htm",
+   "release_ok": true,
+   "slides": "https://www.rclinvestor.com/content/uploads/2026/01/RCG-Q4-2025-Earnings-Call-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000146/a2025q3earningsrelease8-k.htm",
+   "release_ok": true,
+   "slides": "https://www.rclinvestor.com/content/uploads/2025/10/RCL-Q3-2025-Earnings-Call-Presentation-1.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000140/a2025q2earningsrelease8-k.htm",
+   "release_ok": true,
+   "slides": "https://www.rclinvestor.com/content/uploads/2025/07/RCG-2Q25-Earnings-SCall-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000093/a2025q1earningsrelease8-k.htm",
+   "release_ok": true,
+   "slides": "https://www.rclinvestor.com/content/uploads/2025/04/RCG-Q1-2025-Earnings-Slides-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/28/royal-caribbean-cruises-rcl-q4-2024-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488725000003/a10k2024earningsrelease8-k.htm",
+   "release_ok": true,
+   "slides": "https://www.rclinvestor.com/content/uploads/2025/01/RCG-4Q24-Earnings-Call-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/29/royal-caribbean-cruises-rcl-q3-2024-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488724000145/a2024q3earningsrelease8-k.htm",
+   "release_ok": true,
+   "slides": "https://www.rclinvestor.com/content/uploads/2024/10/RCL-Q3-2024-Earnings-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/25/royal-caribbean-cruises-rcl-q2-2024-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488724000128/a2024q2earningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/25/royal-caribbean-cruises-rcl-q1-2024-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488724000106/a2024q1earningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/01/royal-caribbean-cruises-rcl-q4-2023-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488724000003/a10k2023earningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/26/royal-caribbean-cruises-rcl-q3-2023-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488723000054/a2023q3earningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/27/royal-caribbean-cruises-rcl-q2-2023-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488723000040/a2023q2earningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/04/royal-caribbean-cruises-rcl-q1-2023-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488723000016/a2023q1earningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/07/royal-caribbean-cruises-rcl-q4-2022-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/884887/000088488723000003/a10k2022earningsrelease8-k.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/03/royal-caribbean-rcl-q3-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/28/royal-caribbean-rcl-q2-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/05/royal-caribbean-rcl-q1-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/04/royal-caribbean-rcl-q4-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/29/royal-caribbean-rcl-q3-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/royal-caribbean-rcl-q2-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/02/royal-caribbean-rcl-q1-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/22/royal-caribbean-rcl-q4-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/royal-caribbean-rcl-q3-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/10/royal-caribbean-rcl-q2-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/20/royal-caribbean-cruises-ltd-rcl-q1-2020-earnings-c.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/04/royal-caribbean-cruises-ltd-rcl-q4-2019-earnings-c.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/30/royal-caribbean-cruises-ltd-rcl-q3-2019-earnings-c.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/25/royal-caribbean-cruises-ltd-rcl-q2-2019-earnings-c.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/01/royal-caribbean-cruises-ltd-rcl-q1-2019-earnings-c.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/30/royal-caribbean-cruises-ltd-rcl-q4-2018-earnings-c.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/25/royal-caribbean-cruises-ltd-rcl-q3-2018-earnings-c.aspx"
+  }
+ ],
+ "ir": "https://www.rclinvestor.com/",
+ "results": "https://www.rclinvestor.com/webcasts-presentations/"
+}

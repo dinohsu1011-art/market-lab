@@ -1,0 +1,250 @@
+{
+ "ticker": "TSLA",
+ "ir": "https://ir.tesla.com/",
+ "results": "https://ir.tesla.com/#quarterly-disclosure",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "slides": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+   "slides_kind": "shareholder deck",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/exhibit9914.htm",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/22/tesla-tsla-q3-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-22",
+   "slides": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q2-2026-Update.pdf",
+   "slides_kind": "shareholder deck",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/exhibit991.htm",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/08/05/tesla-tsla-q2-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-22",
+   "slides": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q1-2026-Update.pdf",
+   "slides_kind": "shareholder deck",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026026551/exhibit991.htm",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/04/22/tesla-tsla-q3-2024-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-28",
+   "slides": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q4-2025-Update.pdf",
+   "slides_kind": "shareholder deck",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003837/exhibit991.htm",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/01/28/tesla-tsla-q4-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-22",
+   "slides": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2025-Update.pdf",
+   "slides_kind": "shareholder deck",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045861/exhibit991.htm",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/10/22/tesla-tsla-q3-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-23",
+   "slides": "https://www.tesla.com/sites/default/files/downloads/TSLA-Q2-2025-Update.pdf",
+   "slides_kind": "shareholder deck",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035738/exhibit991.htm",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/07/23/tesla-tsla-q2-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-22",
+   "slides": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/IR/TSLA-Q1-2025-Update.pdf",
+   "slides_kind": "shareholder deck",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018851/exhbit991.htm",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-29",
+   "slides": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/TSLA-Q4-2024-Update.pdf",
+   "slides_kind": "shareholder deck",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025002993/exhibit991.htm",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/29/tesla-tsla-q4-2024-earnings-call-transcript/"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/23/tesla-tsla-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024043432/exhibit.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/24/tesla-tsla-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024032603/exhibit.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/23/tesla-tsla-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000095017024046895/tsla-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/24/tesla-tsla-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000095017024007073/tsla-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/18/tesla-tsla-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000162828023034588/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/19/tesla-tsla-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000095017023033544/tsla-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000156459023005959/tsla-ex991_99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/26/tesla-tsla-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1318605/000156459023000799/tsla-ex991_127.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/20/tesla-tsla-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/21/tesla-tsla-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/27/tesla-tsla-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/21/tesla-tsla-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/27/tesla-tsla-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/tesla-tsla-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/27/tesla-tsla-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/22/tesla-tsla-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/23/tesla-tsla-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/tesla-inc-tsla-q1-2020-earnings-call-transcript.aspx"
+  }
+ ],
+ "events": [
+  {
+   "title": "2025 Annual Shareholder Meeting",
+   "date": "2025-11-06",
+   "url": "https://www.tesla.com/2025shareholdermeeting",
+   "kind": "page",
+   "ok": true,
+   "date_approx": true
+  },
+  {
+   "title": "Megapack 3 & Megablock keynote (Las Megas)",
+   "date": "2025-09-08",
+   "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/Las-Megas-Keynote.pdf",
+   "kind": "slides",
+   "ok": true,
+   "date_approx": true
+  },
+  {
+   "title": "Cybertruck Delivery Event",
+   "date": "2023-11-30",
+   "url": "https://www.youtube.com/watch?v=FU6r3BmlgBM",
+   "kind": "webcast",
+   "ok": true,
+   "date_approx": true
+  },
+  {
+   "title": "2023 Investor Day presentation",
+   "date": "2023-03-01",
+   "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/Investor-Day-2023-Keynote",
+   "kind": "slides",
+   "ok": true,
+   "date_approx": true
+  },
+  {
+   "title": "2023 Investor Day webcast",
+   "date": "2023-03-01",
+   "url": "https://www.youtube.com/watch?v=Hl1zEzVUV7w",
+   "kind": "webcast",
+   "ok": true,
+   "date_approx": true
+  },
+  {
+   "title": "Tesla Semi Delivery Event",
+   "date": "2022-12-01",
+   "url": "https://digitalassets.tesla.com/tesla-contents/image/upload/IR/Tesla-Semi-Delivery-Event",
+   "kind": "slides",
+   "ok": true,
+   "date_approx": true
+  },
+  {
+   "title": "AI Day 2",
+   "date": "2022-09-30",
+   "url": "https://www.youtube.com/watch?v=ODSJsviD_SU",
+   "kind": "webcast",
+   "ok": true,
+   "date_approx": true
+  }
+ ]
+}

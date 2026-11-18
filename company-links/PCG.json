@@ -1,0 +1,160 @@
+{
+ "ticker": "PCG",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000056/pge-q32026pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000056/q326earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000047/pge-q22026pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000047/q226earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000032/pge-q12026pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000032/q126earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000008/pge-q42025pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498026000008/q425earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498025000147/pge-q32025pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498025000147/q325earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498025000085/pge-q12025pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498025000085/q125earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498025000008/pge-q42024pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498025000008/q424earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498024000119/pge-q32024pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498024000119/q324earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498024000104/pge-07252024pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498024000104/q224earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498024000055/pge-042524xpressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498024000055/pgeq124earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498024000013/pge-022224xpressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498024000013/q423earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498023000148/pge-102623xpressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498023000148/q323earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498023000134/pge-072723xpressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498023000134/q223earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498023000088/pge-050423xpressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498023000088/q123earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1004980/000100498023000028/pge-022323xpressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1004980/000100498023000028/q422earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/02/pge-corporation-pcg-q3-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/30/pge-corporation-pcg-q2-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/pge-corp-pcg-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/25/pge-corp-pcg-q4-2020-earnings-call-transcript/"
+  }
+ ]
+}

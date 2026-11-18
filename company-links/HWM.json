@@ -1,0 +1,165 @@
+{
+ "ticker": "HWM",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/29/howmet-aerospace-hwm-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000110465926119857/tm2628456d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://www.howmet.com/wp-content/uploads/sites/3/2026/10/HWM-2026-Q3-Earnings-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000110465926091610/tm2622325d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://www.howmet.com/wp-content/uploads/sites/3/2026/08/Howmet-Aerospace-2026-Q2-Earnings-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000110465926056645/tm2613779d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://www.howmet.com/wp-content/uploads/sites/3/2026/05/2026-Q1-Earnings-Presentation-Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/02/12/howmet-hwm-q4-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000110465926013832/tm266060d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://www.howmet.com/wp-content/uploads/sites/3/2026/02/Howmet-Aerospace-2025-Q4-FY-Earnings-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/10/30/howmet-hwm-q3-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000110465925104005/tm2529740d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://www.howmet.com/wp-content/uploads/sites/3/2025/10/Howmet-Aerospace-2025-Q3-Earnings-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000110465925072451/tm2522109d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://www.howmet.com/wp-content/uploads/sites/3/2025/07/2025-Q2-Earnings-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000110465925043005/tm2513739d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://www.howmet.com/wp-content/uploads/sites/3/2025/05/Howmet-Aerospace-2025-Q1-Earnings-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000110465925012529/tm256423d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://www.howmet.com/wp-content/uploads/sites/3/2025/02/Howmet-Aerospace-2024-Q4-Earnings-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000110465924114539/tm2427588d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000110465924083733/tm2420377d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000110465924055980/tm2413242d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000115752324000226/a53895480ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000115752323001618/a53734945ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000115752323001202/a53492701ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000115752323000673/a53390919ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/4281/000115752323000273/a53321439_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/howmet-aerospace-inc-hwm-q3-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/howmet-aerospace-inc-hwm-q2-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/07/howmet-aerospace-inc-hwm-q1-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/03/howmet-aerospace-inc-hwm-q4-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/09/howmet-aerospace-inc-hwm-q3-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/06/howmet-aerospace-inc-hwm-q2-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/07/howmet-aerospace-inc-hwm-q1-2020-earnings-call-tra.aspx"
+  }
+ ],
+ "ir": "https://www.howmet.com/investors/",
+ "results": "https://www.howmet.com/earnings/"
+}

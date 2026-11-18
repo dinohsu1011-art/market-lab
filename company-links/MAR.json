@@ -1,0 +1,165 @@
+{
+ "ticker": "MAR",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000104828626000040/mar-2026q3xex99earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000104828626000033/mar-2026q2xex99earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000104828626000012/mar-2026q1xex99earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000104828626000005/mar-2025q4xex99earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000162828025022390/mar-2025q1xex99earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000162828025004772/mar-2024q4xearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000162828024044831/mar-2024q3xearningsreleasea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000162828024033622/mar-2024q2xearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000162828024019458/mar-2024q1xearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000162828024004335/mar-2023q4xearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000162828023036166/mar-2023q3xearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000162828023026343/mar-2023q2xearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000162828023014748/mar-2023q1xearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048286/000162828023003441/mar-2022q4earningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/marriott-international-inc-mar-q3-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/03/marriott-international-inc-mar-q2-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/10/marriott-international-inc-mar-q1-2021-earnings-ca/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/18/marriott-international-inc-mar-q4-2020-earnings-ca/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/06/marriott-international-inc-mar-q3-2020-earnings-ca/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/10/marriott-international-inc-mar-q2-2020-earnings-ca.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/11/marriott-international-inc-new-mar-q1-2020-earning.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/27/marriott-international-inc-new-mar-q4-2019-earning.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/05/marriott-international-inc-new-mar-q3-2019-earning.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/06/marriott-international-inc-new-mar-q2-2019-earning.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/10/marriott-international-inc-new-mar-q1-2019-earning.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-03-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/03/01/marriott-international-mar-q4-2018-earnings-confer.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/06/marriott-international-mar-q3-2018-earnings-confer.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/07/marriott-international-mar-q2-2018-earnings-confer.aspx"
+  },
+  {
+   "id": "2017 Q3",
+   "date": "2017-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/11/09/marriott-international-mar-q3-2017-earnings-confer.aspx"
+  }
+ ],
+ "ir": "https://marriott.gcs-web.com"
+}

@@ -1,0 +1,29 @@
+{
+ "ticker": "LSCC",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/855658/000143774926034452/ex_1012509.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/855658/000143774926025650/ex_971139.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/855658/000143774926014654/ex_943286.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/855658/000143774926003634/ex_882667.htm",
+   "release_ok": true
+  }
+ ]
+}

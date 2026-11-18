@@ -1,0 +1,141 @@
+{
+ "ticker": "FDS",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-09-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1013237/000162828026063888/fdsq42026earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-07-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1013237/000162828026046338/fdsq32026earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-12-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1013237/000162828025057794/fdsq12026earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-09-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1013237/000101323725000084/fdsq42025earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-03-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1013237/000101323725000042/fdsq22025earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-12-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1013237/000101323724000190/fdsq12025earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-09-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1013237/000101323724000119/fdsq42024earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-06-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1013237/000101323724000071/fdsq32024earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-03-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1013237/000101323724000036/fdsq22024earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-12-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1013237/000101323723000193/fdsq12024earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1013237/000101323723000193/investordeckdecember2023.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-09-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1013237/000101323723000094/fdsq42023earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1013237/000101323723000094/investordecksepfy2023vfi.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-06-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1013237/000101323723000065/fdsq32023earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1013237/000101323723000065/investordeckjunefy2023.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-03-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1013237/000101323723000034/fdsq22023earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1013237/000101323723000034/investordeckmarch2023fin.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-12-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/21/factset-research-systems-inc-fds-q1-2022-earnings/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-09-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/09/28/factset-research-systems-inc-fds-q4-2021-earnings/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-06-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/06/29/factset-research-systems-inc-fds-q3-2021-earnings/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-03-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/03/30/factset-research-systems-inc-fds-q2-2021-earnings/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-12-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/12/21/factset-research-systems-inc-fds-q1-2021-earnings/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-09-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/09/25/factset-research-systems-inc-fds-q4-2020-earnings/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-06-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/06/25/factset-research-systems-inc-fds-q3-2020-earnings.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-03-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/26/factset-research-systems-inc-fds-q2-2020-earnings.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-12-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/12/19/factset-research-systems-inc-fds-q1-2020-earnings.aspx"
+  }
+ ],
+ "ir": "https://investor.factset.com/"
+}

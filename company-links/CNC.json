@@ -1,0 +1,166 @@
+{
+ "ticker": "CNC",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000194/a20261027ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000154/a20260728ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000099/a20260428ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173926000031/a20260206ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173925000185/a20251029ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173925000087/a20250425ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/04/centene-cnc-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173925000013/a20250204ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/25/centene-cnc-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173924000201/a20241025ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/26/centene-cnc-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173924000098/a20240426ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/06/centene-cnc-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173924000018/a20240206ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/24/centene-cnc-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173923000211/a20231024ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/28/centene-cnc-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173923000182/a20230728ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173923000114/a20230425ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/07/centene-cnc-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1071739/000107173923000024/a20230207ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/25/centene-cnc-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/26/centene-cnc-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/26/centene-cnc-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/08/centene-cnc-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/26/centene-corporation-cnc-q3-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/27/centene-corporation-cnc-q2-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/centene-corp-cnc-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/09/centene-corp-cnc-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/28/centene-corp-cnc-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/28/centene-corp-cnc-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/04/centene-corp-cnc-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/23/centene-corp-cnc-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/23/centene-corp-cnc-q1-2019-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/05/centene-corp-cnc-q4-2018-earnings-conference-call.aspx"
+  }
+ ]
+}

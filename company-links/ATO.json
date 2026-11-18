@@ -1,0 +1,159 @@
+{
+ "ticker": "ATO",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/731802/000073180226000129/ato20261104exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/731802/000073180226000100/ato20260805exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/731802/000073180226000086/ato20260506exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/731802/000073180225000015/ato20250507exhibit991.htm",
+   "release_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/atmos-energy-corporation-nyseato-q2-2025-earnings-call-transcript-1529489/"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/731802/000073180225000004/ato20250204exhibit991.htm",
+   "release_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/atmos-energy-corporation-nyseato-q1-2025-earnings-call-transcript-1444734/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/731802/000073180224000026/ato20241106exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-08-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/731802/000073180224000021/ato20240807exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-02-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/731802/000073180224000004/ato20240206exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-11-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/731802/000073180223000025/ato20231108exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/731802/000073180223000020/ato20230802exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/731802/000073180223000011/ato20230503exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/731802/000073180223000004/ato20230207exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/04/atmos-energy-ato-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/05/atmos-energy-ato-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/09/atmos-energy-ato-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-11-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/11/atmos-energy-corporation-ato-q4-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/atmos-energy-corporation-ato-q3-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/06/atmos-energy-corp-ato-q2-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/03/atmos-energy-corp-ato-q1-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-11-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/12/atmos-energy-corp-ato-q4-2020-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/06/atmos-energy-corp-ato-q3-2020-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/08/atmos-energy-corp-ato-q2-2020-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/05/atmos-energy-corp-ato-q1-2020-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/07/atmos-energy-corp-ato-q4-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/08/atmos-energy-corp-ato-q3-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/08/atmos-energy-corp-ato-q2-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/06/atmos-energy-ato-q1-2019-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/08/atmos-energy-corp-ato-q4-2018-earnings-conference.aspx"
+  }
+ ]
+}

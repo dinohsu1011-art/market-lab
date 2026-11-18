@@ -1,0 +1,160 @@
+{
+ "ticker": "URI",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000036/uri-9302026xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000018/uri-3312026xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770126000009/uri-12312025xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770125000041/uri-9302025xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000162828025035758/uri-6302025xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770125000019/uri-3312025xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770125000009/uri-12312024xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770124000039/uri-9302024xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770124000030/uri-6302024xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770124000018/uri-3312024xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770124000009/uri-12312023xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770123000043/uri-9302023xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770123000034/uri-6302023xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770123000022/uri-3312023xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1067701/000106770123000012/uri-12312022xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/united-rentals-inc-uri-q3-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/29/united-rentals-inc-uri-q2-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/united-rentals-inc-uri-q1-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/28/united-rentals-inc-uri-q4-2020-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/united-rentals-inc-uri-q3-2020-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/30/united-rentals-inc-uri-q2-2020-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/united-rentals-inc-uri-q1-2020-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/united-rentals-inc-uri-q4-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/17/united-rentals-inc-uri-q3-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/18/united-rentals-inc-uri-q2-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/18/united-rentals-inc-uri-q1-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/24/united-rentals-inc-uri-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/18/united-rentals-inc-uri-q3-2018-earnings-conference.aspx"
+  }
+ ]
+}

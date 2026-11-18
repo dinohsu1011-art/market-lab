@@ -1,0 +1,150 @@
+{
+ "ticker": "PANW",
+ "ir": "https://investors.paloaltonetworks.com/",
+ "results": "https://investors.paloaltonetworks.com/financial-information/quarterly-results",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-09-01",
+   "slides": "https://investors.paloaltonetworks.com/static-files/8864c425-7c5d-4471-85c9-cdbf9072cfe5",
+   "slides_kind": "slides",
+   "release": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-10"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-11-19",
+   "slides": "https://investors.paloaltonetworks.com/static-files/7adeb1fd-e842-49b9-8a37-527abdc15659",
+   "slides_kind": "slides",
+   "release": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-first-quarter-2026-financial"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/13/palo-alto-networks-panw-q2-2025-earnings-call-tran/",
+   "slides": "https://investors.paloaltonetworks.com/static-files/1aec3588-68f8-4ca3-b167-740453d1e11d",
+   "slides_kind": "slides",
+   "release": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-second-quarter-2025-financial"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-11-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/20/palo-alto-networks-panw-q1-2025-earnings-call-tran/",
+   "slides": "https://investors.paloaltonetworks.com/static-files/618ab7cd-906c-4d4a-893c-918245e3cd1a",
+   "slides_kind": "slides",
+   "release": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-first-quarter-2025-financial"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-08-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/19/palo-alto-networks-panw-q4-2024-earnings-call-tran/",
+   "slides": "https://investors.paloaltonetworks.com/static-files/dae146ab-d06b-46fd-a776-25b7e8740388",
+   "slides_kind": "slides",
+   "release": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-8"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-05-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/20/palo-alto-networks-panw-q3-2024-earnings-call-tran/",
+   "slides": "https://investors.paloaltonetworks.com/static-files/bc03bef2-80a1-462e-a8ab-ae06ec1d7839",
+   "slides_kind": "slides",
+   "release": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-third-quarter-2024-financial"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/20/palo-alto-networks-panw-q2-2024-earnings-call-tran/",
+   "slides": "https://investors.paloaltonetworks.com/static-files/ba0097e4-ce00-484a-a2d5-94bfc5b24759",
+   "slides_kind": "slides",
+   "release": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-second-quarter-2024-financial"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-11-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/15/palo-alto-networks-panw-q1-2024-earnings-call-tran/",
+   "slides": "https://investors.paloaltonetworks.com/static-files/ddae4e1d-7619-49ec-a893-d80c0a63d73a",
+   "slides_kind": "slides",
+   "release": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-first-quarter-2024-financial"
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-08-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/20/palo-alto-networks-panw-q4-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1327567/000132756723000020/ex991q423earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-05-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/23/palo-alto-networks-panw-q3-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1327567/000132756723000012/ex991q323earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-02-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/21/palo-alto-networks-panw-q2-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1327567/000132756723000005/ex991q223earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-11-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/17/palo-alto-networks-panw-q1-2023-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-08-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/23/palo-alto-networks-panw-q4-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-05-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/20/palo-alto-networks-panw-q3-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-02-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/22/palo-alto-networks-panw-q2-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-08-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/24/palo-alto-networks-panw-q4-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-05-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/21/palo-alto-networks-panw-q3-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-02-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/23/palo-alto-networks-panw-q2-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-11-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/18/palo-alto-networks-panw-q1-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-08-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/25/palo-alto-networks-panw-q4-2020-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-05-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/22/palo-alto-networks-inc-panw-q3-2020-earnings-call.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-02-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/25/palo-alto-networks-inc-panw-q2-2020-earnings-call.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-11-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/25/palo-alto-networks-inc-panw-q1-2020-earnings-call.aspx"
+  }
+ ]
+}

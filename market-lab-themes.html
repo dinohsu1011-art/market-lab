@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Theme Returns — Equinox</title>
+  <title>Charts · Equinox</title>
   <style>
     :root {
       --white:#ffffff; --fog:#fafaf9; --ink:#0c0a09; --ash:#78716c;
@@ -295,11 +295,12 @@
     @media (max-width:900px){ .shell{grid-template-columns:1fr;} .rail{height:auto;position:static;}
       .list{max-height:260px;} .main{padding:20px 16px 60px;} .mast h1{font-size:30px;} }
   </style>
-  <link rel="stylesheet" href="market-lab-shell.css?v=20261113-7ebfc70e" />
-  <link rel="stylesheet" href="market-lab-analytics.css?v=20261113-7ebfc70e" />
-  <link rel="stylesheet" href="market-lab-technical.css?v=20261113-7ebfc70e" />
-  <link rel="stylesheet" href="market-lab-screener.css?v=20261113-7ebfc70e" />
-  <script src="market-lab-shell.js?v=20261113-7ebfc70e"></script>
+  <link rel="stylesheet" href="market-lab-shell.css?v=20261117-c7c5d6d0" />
+  <link rel="stylesheet" href="market-lab-analytics.css?v=20261117-c7c5d6d0" />
+  <link rel="stylesheet" href="market-lab-technical.css?v=20261117-c7c5d6d0" />
+  <link rel="stylesheet" href="market-lab-screener.css?v=20261117-c7c5d6d0" />
+  <link rel="stylesheet" href="market-lab-charts-eq.css?v=20261117-c7c5d6d0" />
+  <script src="market-lab-shell.js?v=20261117-c7c5d6d0"></script>
 </head>
 <body>
 <div class="shell">
@@ -507,34 +508,34 @@
     </div>
   </form>
 </dialog>
-<script src="market-lab-cloud.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-chart-utils.js?v=20261113-7ebfc70e"></script>
-<link rel="stylesheet" href="market-lab-trends.css?v=20261113-7ebfc70e">
-<script src="market-lab-trend-math.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-data.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-trends.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-chart-panels.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-breadth.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-analytics.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-overextension.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-price-overlay.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-chart-zoom.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-daily-volatility.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-technical.js?v=20261113-7ebfc70e"></script>
-<script src="cube/calls-index.js?v=20261113-7ebfc70e"></script><script src="market-lab-company-calls.js?v=20261113-7ebfc70e"></script><script src="market-lab-company.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-company-overview.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-basket-volume.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-book.js?v=20261113-7ebfc70e"></script>
-<link rel="stylesheet" href="market-lab-book.css?v=20261113-7ebfc70e">
-<link rel="stylesheet" href="market-lab-basket-volume.css?v=20261113-7ebfc70e">
-<script defer src="market-lab-market-watch.js?v=20261113-7ebfc70e"></script>
-<link rel="stylesheet" href="market-lab-market-watch.css?v=20261113-7ebfc70e">
-<script src="market-lab-stock-details.js?v=20261113-7ebfc70e"></script>
-<link rel="stylesheet" href="market-lab-records.css?v=20261113-7ebfc70e">
-<script src="market-lab-records.js?v=20261113-7ebfc70e"></script>
-<script src="cube/themes.js?v=20261113-7ebfc70e"></script>
-<script src="cube/pe-bands.js?v=20261113-7ebfc70e"></script>
-<script src="cube/sectors.js?v=20261113-7ebfc70e"></script>
+<script src="market-lab-cloud.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-chart-utils.js?v=20261117-c7c5d6d0"></script>
+<link rel="stylesheet" href="market-lab-trends.css?v=20261117-c7c5d6d0">
+<script src="market-lab-trend-math.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-data.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-trends.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-chart-panels.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-breadth.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-analytics.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-overextension.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-price-overlay.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-chart-zoom.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-daily-volatility.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-technical.js?v=20261117-c7c5d6d0"></script>
+<script src="cube/calls-index.js?v=20261117-c7c5d6d0"></script><script src="market-lab-company-calls.js?v=20261117-c7c5d6d0"></script><script src="market-lab-company.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-company-overview.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-basket-volume.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-book.js?v=20261117-c7c5d6d0"></script>
+<link rel="stylesheet" href="market-lab-book.css?v=20261117-c7c5d6d0">
+<link rel="stylesheet" href="market-lab-basket-volume.css?v=20261117-c7c5d6d0">
+<script defer src="market-lab-market-watch.js?v=20261117-c7c5d6d0"></script>
+<link rel="stylesheet" href="market-lab-market-watch.css?v=20261117-c7c5d6d0">
+<script src="market-lab-stock-details.js?v=20261117-c7c5d6d0"></script>
+<link rel="stylesheet" href="market-lab-records.css?v=20261117-c7c5d6d0">
+<script src="market-lab-records.js?v=20261117-c7c5d6d0"></script>
+<script src="cube/themes.js?v=20261117-c7c5d6d0"></script>
+<script src="cube/pe-bands.js?v=20261117-c7c5d6d0"></script>
+<script src="cube/sectors.js?v=20261117-c7c5d6d0"></script>
 <script>
 (async () => {
   const D = window.QUANT_THEMES;
@@ -664,7 +665,7 @@
 
   // ---------- state ----------
   const ANCHORS = [
-    {id:'', label:'—'},
+    {id:'', label:'No event'},
     // Announcement-day closes. Sources: Meta Newsroom (2026-09-08),
     // federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm.
     {id:'2026-09-16', label:'Sep 16 2026 FOMC rate hike (+25 bp)'},
@@ -696,7 +697,7 @@
                  ['1M',{m:1}],['3M',{m:3}],['6M',{m:6}],['YTD','ytd'],['1Y',{m:12}],['2Y',{m:24}],
                  ['3Y',{m:36}],['5Y',{m:60}],['Max','max']];
   const MODES = [['cum','Cumulative %'],['idx','Growth of 100'],['rel','Relative'],
-                 ['dd','Drawdown'],['corr','Correlation'],['pe','P/E Bands']];
+                 ['dd','Drawdown'],['corr','Correlation'],['pe','P/E bands']];
   const CORR_WINS = [21, 63, 126];
 
   const homePage=document.documentElement.dataset.workspace==='home';
@@ -2221,7 +2222,7 @@
       ...spec,
       values:proxy.eps.map(e => e == null ? null : e * spec.multiple)
     }));
-    const W = svg.parentNode.clientWidth, H = Math.max(320, Math.min(380, window.innerHeight - 390));
+    const W = svg.parentNode.clientWidth, H = Math.max(340, Math.min(520, window.innerHeight - 380));
     const L = 8, R = W < 600 ? 110 : 154, T = 22, B = 30;
     const px = {x0:L,x1:W-R,y0:T,y1:H-B};
     svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
@@ -2341,7 +2342,7 @@
   // auto-fitted axis would make 0.7 and 0.9 look like a collapse.
   function renderCorr(pair){
     const C = corrCalc(pair);
-    const W = svg.parentNode.clientWidth, H = Math.max(320, Math.min(380, window.innerHeight - 390));
+    const W = svg.parentNode.clientWidth, H = Math.max(340, Math.min(520, window.innerHeight - 380));
     const L = 8, R = W < 600 ? 114 : 160, T = 22, B = 30;
     const px = {x0:L, x1:W-R, y0:T, y1:H-B};
     svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
@@ -2763,7 +2764,7 @@
     syncLandingChrome(false); geom=null;
     const W=svg.parentNode.clientWidth;
     if (landingView === 'empty'){
-      const H=Math.max(320,Math.min(380,window.innerHeight-390));
+      const H=Math.max(340,Math.min(520,window.innerHeight-380));
       svg.setAttribute('viewBox',`0 0 ${W} ${H}`); svg.setAttribute('height',H);
       svg.innerHTML=`<text x="${W/2}" y="${H/2}" text-anchor="middle" fill="#a8a29e" font-size="13">Nothing selected — choose a theme or Sectors to restore the heatmap.</text>`;
       readout.textContent=''; writeHash(); return;
@@ -2862,7 +2863,7 @@
     }
     writeHash();   // keep the URL in sync with the current selection, not just control changes
     const data = transform();
-    const W = svg.parentNode.clientWidth, H = Math.max(320, Math.min(380, window.innerHeight - 390));
+    const W = svg.parentNode.clientWidth, H = Math.max(340, Math.min(520, window.innerHeight - 380));
     const L = 8, R = W < 600 ? 114 : 180, T = 16, B = 30;
     svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
     svg.setAttribute('height', H);
@@ -3939,7 +3940,7 @@
   const spansEl = document.getElementById('spans');
   SPANS.forEach(([tag]) => {
     if (tag === '|'){ spansEl.appendChild(document.createElement('i')).className = 'sep'; return; }
-    const b = document.createElement('button'); b.textContent = tag; b.dataset.span = tag;
+    const b = document.createElement('button'); b.textContent = tag === 'Max' ? 'All' : tag; b.dataset.span = tag;
     b.onclick = () => { setSpan(tag); document.getElementById('anchor').value = ''; syncCtl(); render(); };
     spansEl.appendChild(b);
   });
@@ -4193,6 +4194,8 @@
   if(homePage)MarketLabBook.mount({panel:document.getElementById('book-panel'),dates:DATES,asOf:D.meta.as_of,series:SER,cloud:MarketLabCloud,
     ensure:async record=>{const id=registerSavedBasket(record);await ensureSeries([id]);}});
   readHash();
+  // an empty chart opens on the two main indexes
+  if(!homePage&&landingView==='theme'&&!st.sel.length&&location.hash!=='#empty'){st.sel=['spy','qqq'].filter(id=>SER[id]);st.sel.forEach(assign);}
   try {
     await ensureSeries(st.sel);
   } catch (error) {
@@ -4211,7 +4214,7 @@
     buildRail(); filterRail(); render();
     cloudStatus.textContent=MarketLabCloud.state.available?'Cloud synced':'Cloud offline';
   });
-  document.getElementById('asof').innerHTML = `updated ${D.meta.as_of}`;
+  document.getElementById('asof').textContent = 'Updated ' + new Date(D.meta.as_of + 'T12:00:00').toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'});
   const footEl = document.getElementById('foot');
   if (footEl) footEl.remove();
   syncCtl();
@@ -4239,9 +4242,119 @@
   });
 })();
 </script>
-<script src="market-lab-momentum.js?v=20261113-7ebfc70e"></script>
-<link rel="stylesheet" href="market-lab-home-momentum.css?v=20261113-7ebfc70e">
-<script src="market-lab-home-momentum.js?v=20261113-7ebfc70e"></script>
-<script src="market-lab-screener.js?v=20261113-7ebfc70e"></script>
+<script src="market-lab-momentum.js?v=20261117-c7c5d6d0"></script>
+<link rel="stylesheet" href="market-lab-home-momentum.css?v=20261117-c7c5d6d0">
+<script src="market-lab-home-momentum.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-screener.js?v=20261117-c7c5d6d0"></script>
+<script>
+/* Charts page layout. One quiet row above the chart: ranges, Custom, Measure, View, More.
+   Every control keeps its id and its own handler; this only moves nodes and adds three menus.
+   It runs after the shared shell, finds everything by id, and works with or without the
+   shell's older grouping. Styles: market-lab-charts-eq.css (scoped to body.cx). */
+(() => {
+  if (document.documentElement.dataset.workspace === 'home') return;
+  const $ = id => document.getElementById(id);
+  const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+  function start() {
+    const bar = document.querySelector('.chartbar'), spans = $('spans'), modes = $('modes');
+    if (!bar || !spans || !modes || !$('d1') || !$('ml-selected')) return;
+    const menus = [];
+    const menu = (id, label, side) => {
+      const d = el('details', 'cx-menu' + (side ? ' cx-' + side : '')); d.id = id;
+      const pop = el('div', 'cx-pop');
+      d.append(el('summary', '', label), pop); menus.push(d);
+      d.addEventListener('toggle', () => { if (d.open) menus.forEach(o => { if (o !== d) o.open = false; }); });
+      return [d, pop];
+    };
+    const label = text => el('p', 'cx-label', text);
+    const take = (...ids) => ids.map($).filter(Boolean);
+
+    // Custom: the less used ranges, typed dates and event start points.
+    const [custom, customPop] = menu('cx-custom', 'Custom');
+    const short = el('div', 'cx-short');
+    [['1D','1 day'],['3D','3 days'],['1W','1 week'],['2W','2 weeks'],['2Y','2 years']].forEach(([tag, text]) => {
+      const b = el('button', '', text); b.type = 'button'; b.dataset.cxSpan = tag;
+      b.onclick = () => { spans.querySelector(`button[data-span="${tag}"]`)?.click(); custom.open = false; };
+      short.append(b);
+    });
+    const dates = $('d1').closest('.cgrp'); dates.classList.add('cx-dates');
+    const apply = el('button', 'cx-apply', 'Apply'); apply.type = 'button';
+    apply.onclick = () => {
+      dates.querySelector('#d2 [data-part="year"]').dispatchEvent(new KeyboardEvent('keydown', {key:'Enter', bubbles:true}));
+      if (!dates.querySelector('[aria-invalid="true"]')) custom.open = false;
+    };
+    dates.append(apply);
+    const anchors = $('anchors');
+    anchors.querySelector('.lbl')?.remove();
+    $('anchor').setAttribute('aria-label', 'Start from an event');
+    $('anchor').addEventListener('change', () => { custom.open = false; });
+    customPop.append(label('Other ranges'), short, label('Dates'), dates, label('Start from an event'), anchors);
+    const ranges = el('div', 'cx-ranges'); ranges.append(spans, custom);
+
+    // View: what the lines measure, and the options that go with each measure.
+    const [view, viewPop] = menu('cx-view', 'View', 'right');
+    const relabel = (id, text) => { const l = $(id)?.querySelector('.lbl'); if (l) l.textContent = text; };
+    relabel('benchwrap', 'Compare against'); relabel('corrwin', 'Rolling window'); relabel('pebasis', 'Earnings year');
+    viewPop.append(modes, ...take('benchwrap', 'corrwin', 'pebasis', 'pewhy', 'stock-chart-overlays'));
+    modes.addEventListener('click', e => { if (e.target.closest('button')) view.open = false; });
+
+    // More: the rarely used tools.
+    const [more, morePop] = menu('cx-more', 'More', 'right');
+    const actions = el('div', 'cx-actions');
+    const png = $('downloadchart'); if (png) png.textContent = 'Download image';
+    const screener = $('stock-screener'), screenButton = el('button', 'cx-plain', 'Stock screener'); screenButton.type = 'button';
+    screenButton.onclick = () => {
+      screener.open = !screener.open;
+      if (screener.open) screener.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block:'start'});
+    };
+    actions.append(...take('savebasket', 'downloadchart'), ...(screener ? [screenButton] : []), ...take('stock-detail-actions'));
+    actions.addEventListener('click', e => { if (e.target.closest('button')) more.open = false; });
+    const past = el('div', 'cx-past'); past.append(label('Replay a past period'), ...take('analogwrap'));
+    morePop.append(actions, past, ...take('cloudstatus'));
+
+    const readout = $('readout');
+    const end = el('div', 'cx-end');
+    end.append(...take('stock-chart-measure', 'stock-chart-reset'), view, more);
+    bar.replaceChildren(ranges, end);
+    bar.classList.remove('ml-chart-controls'); bar.classList.add('cx-bar');
+    bar.setAttribute('aria-label', 'Chart controls');
+
+    // The charted names sit under the row as a legend. They used to be a folding list in the side bar.
+    const legend = el('div', 'cx-legend');
+    legend.append($('ml-selected'), $('ml-selection-clear'), readout);
+    bar.after(legend);
+    const mast = document.querySelector('.mast'); if (mast) { mast.querySelector('h1').textContent = 'Charts'; mast.after(bar); bar.after(legend); }
+    $('q').placeholder = 'Search to add';
+    document.querySelectorAll('.theme-controls:not(.chartbar)').forEach(row => { if (!row.children.length) row.remove(); });
+
+    // Keep "Custom" and the page state in step with the page's own buttons.
+    const sync = () => {
+      const on = spans.querySelector('button.on'), tag = on?.dataset.span;
+      const minor = short.querySelector(`[data-cx-span="${tag}"]`);
+      short.querySelectorAll('button').forEach(b => b.classList.toggle('on', b === minor));
+      const summary = custom.querySelector('summary');
+      const text = minor ? minor.textContent : 'Custom';
+      if (summary.textContent !== text) summary.textContent = text;
+      custom.classList.toggle('on', !on || !!minor);
+      document.body.dataset.cxMode = modes.querySelector('button.on')?.dataset.mode || 'cum';
+      legend.hidden = bar.hidden;
+    };
+    const watch = new MutationObserver(sync);
+    [spans, modes].forEach(n => watch.observe(n, {subtree:true, childList:true, attributes:true, attributeFilter:['class']}));
+    watch.observe(bar, {attributes:true, attributeFilter:['hidden']});
+    sync();
+
+    document.addEventListener('click', e => menus.forEach(d => { if (d.open && !d.contains(e.target)) d.open = false; }));
+    document.addEventListener('keydown', e => {
+      if (e.key !== 'Escape') return;
+      menus.forEach(d => { if (d.open) { if (d.contains(document.activeElement)) d.querySelector('summary').focus(); d.open = false; } });
+    });
+    document.body.classList.add('cx');
+    window.dispatchEvent(new Event('resize'));
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, {once:true});
+  else start();
+})();
+</script>
 </body>
 </html>

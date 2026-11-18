@@ -1,0 +1,123 @@
+{
+ "ticker": "PG",
+ "ir": "https://www.pginvestor.com/",
+ "results": "https://www.pginvestor.com/events-and-presentations/default.aspx",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-10-22",
+   "slides": "https://s204.q4cdn.com/332108499/files/content_files/ScriptSlides-JAS26-Slides-Reg-G_FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s204.q4cdn.com/332108499/files/content_files/FY2627-Q1-JAS-Press-Release-Final.pdf"
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-07-29",
+   "slides": "https://s204.q4cdn.com/332108499/files/doc_financials/2026/q2/AMJ26-Earnings-Slides-Reg-G-Web.pdf",
+   "slides_kind": "slides",
+   "release": "https://s204.q4cdn.com/332108499/files/doc_financials/2026/q4/FY2526-Q4-AMJ-Press-Release.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-01-22",
+   "slides": "https://s204.q4cdn.com/332108499/files/doc_financials/2026/q2/Q2-FY-2026-Earnings-Slides-Web-A.pdf",
+   "slides_kind": "slides",
+   "release": "https://s204.q4cdn.com/332108499/files/doc_financials/2026/q2/FY2526-Q2-OND-Press-Release-Final.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-10-24",
+   "release": "https://s204.q4cdn.com/332108499/files/doc_news/2025/10/Q1-FY2526-RELEASE.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-07-29",
+   "release": "https://s204.q4cdn.com/332108499/files/doc_financials/2025/q4/FY2425-Q4-AMJ-Press-Release-Final.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-01-22",
+   "slides": "https://www.sec.gov/Archives/edgar/data/80424/000008042425000011/ondq2earningsslides.htm",
+   "slides_kind": "slides",
+   "release": "https://s204.q4cdn.com/332108499/files/doc_news/2025/01/1/FY2425-Q2-OND-PR-Final.pdf",
+   "transcript": "https://www.insidermonkey.com/blog/the-procter-gamble-company-nysepg-q2-2025-earnings-call-transcript-1430730/"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-10-18",
+   "transcript": "https://www.insidermonkey.com/blog/the-procter-gamble-company-nysepg-q1-2025-earnings-call-transcript-1377213/",
+   "release": "https://www.sec.gov/Archives/edgar/data/80424/000008042424000108/fy2425q1jas8-kexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-07-30",
+   "release": "https://s204.q4cdn.com/332108499/files/doc_news/2024/07/1/FY2324-Q4-AMJ-PR-Final.pdf",
+   "transcript": "https://insidermonkey.com/blog/the-procter-gamble-company-nysepg-q4-2024-earnings-call-transcript-1328230"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-01-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/80424/000008042424000013/fy2324q2ond8-kexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-07-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/80424/000008042423000059/fy2223q4amj8-kexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-04-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/80424/000008042423000039/fy2223q3jfm8-kexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-01-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/80424/000008042423000008/fy2223q2ond8-kexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/19/the-procter-gamble-company-pg-q1-2022-earnings-cal/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/30/the-procter-gamble-company-pg-q4-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-04-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/20/procter-gamble-co-pg-q3-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/30/procter-gamble-co-pg-q4-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/22/procter-gamble-co-pg-q1-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/23/procter-gamble-co-pg-q3-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/19/procter-gamble-co-pg-q1-2019-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/31/procter-gamble-company-the-pg-q4-2018-earnings-con.aspx"
+  }
+ ]
+}

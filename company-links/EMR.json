@@ -1,0 +1,197 @@
+{
+ "ticker": "EMR",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260426000049/a2026q4release_ex991.htm",
+   "release_ok": true,
+   "slides": "https://ir.emerson.com/_assets/_40e2f8868285d8f59e21b71cb21fd490/emerson/db/938/10253/presentation/Emerson_2026_Q4_and_Full_Year_Earnings_Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260426000042/a2026q3release_ex991.htm",
+   "release_ok": true,
+   "slides": "https://ir.emerson.com/_assets/_40e2f8868285d8f59e21b71cb21fd490/emerson/db/938/10242/presentation/Emerson+2026+Q3+Earnings+Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260426000034/a2026q2release_ex991.htm",
+   "release_ok": true,
+   "slides": "https://ir.emerson.com/_assets/_40e2f8868285d8f59e21b71cb21fd490/emerson/db/938/10208/presentation/Emerson+2026+Q2+Earnings+Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-02-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260426000006/a2026q1release_ex991.htm",
+   "release_ok": true,
+   "slides": "https://ir.emerson.com/_assets/_40e2f8868285d8f59e21b71cb21fd490/emerson/db/938/10134/presentation/Emerson+2026+Q1+Earnings+Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260425000079/a2025q4release_ex991.htm",
+   "release_ok": true,
+   "slides": "https://ir.emerson.com/_assets/_40e2f8868285d8f59e21b71cb21fd490/emerson/db/938/10115/presentation/Emerson+2025+Q4+and+Full+Year+Earnings+Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260425000075/a2025q3release_ex991.htm",
+   "release_ok": true,
+   "slides": "https://ir.emerson.com/_assets/_40e2f8868285d8f59e21b71cb21fd490/emerson/db/938/10098/presentation/Emerson+2025+Q3+Earnings+Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260425000061/a2025q2release_ex991.htm",
+   "release_ok": true,
+   "slides": "https://ir.emerson.com/_assets/_40e2f8868285d8f59e21b71cb21fd490/emerson/db/938/9581/presentation/emerson-2025-q2-earnings-presentation-en-us-11737160.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260425000011/a2025q1release_ex991.htm",
+   "release_ok": true,
+   "slides": "https://ir.emerson.com/_assets/_40e2f8868285d8f59e21b71cb21fd490/emerson/db/938/9580/presentation/emerson-reports-first-quarter-2025-results-updates-2025-outlook-en-us-11470388.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000095010324015969/dp220300_ex9901.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260424000035/a2024q3release_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260424000021/a2024q2release_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-02-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260424000004/a2024q1release_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260423000039/a2023q4release_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-08-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260423000034/a2023q3release_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-05-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000119312523133091/d476266dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/32604/000003260423000007/a2023q1release_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/emerson-electric-co-emr-q4-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/emerson-electric-co-emr-q3-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/emerson-electric-co-emr-q2-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/02/emerson-electric-co-emr-q1-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/03/emerson-electric-co-emr-q4-2020-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/05/emerson-electric-co-emr-q3-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/22/emerson-electric-co-emr-q2-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/05/emerson-electric-co-emr-q1-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/05/emerson-electric-co-emr-q4-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/07/emerson-electric-co-emr-q3-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/08/emerson-electric-co-emr-q2-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/05/emerson-electric-co-emr-q1-2019-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/06/emerson-electric-co-emr-q4-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2017-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/11/08/emerson-electric-emr-q4-2017-earnings-conference-c.aspx"
+  }
+ ],
+ "ir": "https://ir.emerson.com",
+ "results": "https://ir.emerson.com/financial-info/financial-results"
+}

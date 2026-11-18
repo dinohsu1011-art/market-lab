@@ -1,0 +1,149 @@
+{
+ "ticker": "DGX",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207926000097/dgx093020268-kex991.htm",
+   "release_ok": true,
+   "slides": "https://s2.q4cdn.com/390454341/files/doc_earnings/2026/q3/transcript/prepared-comments-for-website-Q3-2026-final.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207926000040/dgx033120268-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207926000005/dgx123120258-kexhibit991.htm",
+   "release_ok": true,
+   "slides": "https://s2.q4cdn.com/390454341/files/doc_financials/2025/q4/Quest-Diagnostics-2025-Q4-Year-End-Webcast-Script.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207925000219/dgx093020258-kex991.htm",
+   "release_ok": true,
+   "slides": "https://s2.q4cdn.com/390454341/files/doc_financials/2025/q3/Quest-Diagnostics-Q3-2025-Earnings-Presentation-Remarks.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207925000172/dgx063020258-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207925000116/dgx033120258-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207925000008/dgx123120248-kexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207924000187/dgx093020248-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207924000153/dgx063020248-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207924000096/dgx033120248-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207924000009/dgx123120238-kexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207923000154/dgx093020238-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207923000131/dgx063020238-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207923000091/dgx033120238-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1022079/000102207923000006/dgx123120228-kexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/21/quest-diagnostics-inc-dgx-q3-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/22/quest-diagnostics-inc-dgx-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/22/quest-diagnostics-inc-dgx-q1-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/04/quest-diagnostics-inc-dgx-q4-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/22/quest-diagnostics-inc-dgx-q3-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/23/quest-diagnostics-inc-dgx-q2-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/22/quest-diagnostics-inc-dgx-q1-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/14/quest-diagnostics-inc-dgx-q4-2018-earnings-confere.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/23/quest-diagnostics-inc-dgx-q3-2018-earnings-confere.aspx"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "ticker": "MTN",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-09-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/812011/000081201126000048/a20260731pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-06-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/812011/000081201126000025/a2026430pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-12-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/812011/000081201125000240/a20251031pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-09-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/812011/000081201125000103/a20250731pressrelease.htm",
+   "release_ok": true
+  }
+ ]
+}

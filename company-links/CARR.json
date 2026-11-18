@@ -1,0 +1,111 @@
+{
+ "ticker": "CARR",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318026000035/a99-q32026earningsexhibit.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318026000023/a99-q12026earningsexhibit.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318026000005/a8-kerexhibit99xq42025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318025000063/a99-q32025earningsexhibit.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318025000028/a991-q12025earningsexhibit.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318025000006/a8-kerexhibit99xq42024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318024000084/a99-q32024earningsexhibit.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318024000075/a99-q22024earningsexhibit.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318024000042/a99-q12024earningsexhibit.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318024000007/a8-kerexhibit99xq42023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318023000063/a99-q32023earningsexhibit.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318023000053/a99-q22023earningsexhibit.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318023000036/a99-q12023earningsexhibit.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1783180/000178318023000010/a8-kerexhibit99xq42022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/carrier-global-corp-carr-q3-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/29/carrier-global-corp-carr-q2-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/carrier-global-corp-carr-q1-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/09/carrier-global-corp-carr-q4-2020-earnings-call-tra/"
+  }
+ ],
+ "ir": "https://ir.carrier.com/",
+ "results": "https://ir.carrier.com/financials/quarterly-results/default.aspx"
+}

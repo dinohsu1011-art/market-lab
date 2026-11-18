@@ -1,0 +1,146 @@
+{
+ "ticker": "WSM",
+ "quarters": [
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/719955/000071995526000203/exhibit991fy2026q2earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/719955/000071995526000126/exhibit991fy2026q1earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-03-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/719955/000071995526000030/exhibit991fy2025q4earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/719955/000071995525000006/exhibit991fy2025q2earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/719955/000162828025027155/exhibit991fy2025q1earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-03-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/03/19/williams-sonoma-wsm-q4-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/719955/000162828025013687/exhibit991fy2024q4earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/20/williams-sonoma-wsm-q3-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/719955/000162828024048597/exhibit991fy2024q3earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/22/williams-sonoma-wsm-q2-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/719955/000162828024038109/exhibit991fy2024q2earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/22/williams-sonoma-wsm-q1-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/719955/000162828024024629/exhibit991fy2024q1earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-03-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/03/13/williams-sonoma-wsm-q4-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/719955/000162828024010801/exhibit991fy2023q4earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/16/williams-sonoma-wsm-q3-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/719955/000162828023039239/exhibit991fy2023q3earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/23/williams-sonoma-wsm-q1-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/719955/000162828023019381/exhibit991fy2023q1earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-03-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/03/16/williams-sonoma-wsm-q4-2022-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/719955/000162828023008202/exhibit991fy2022q4earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/17/williams-sonoma-wsm-q3-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/24/williams-sonoma-wsm-q2-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/26/williams-sonoma-wsm-q1-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-03-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/03/17/williams-sonoma-wsm-q4-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/19/williams-sonoma-wsm-q3-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/25/williams-sonoma-wsm-q2-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/27/williams-sonoma-wsm-q1-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-03-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/03/17/williams-sonoma-wsm-q4-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/20/williams-sonoma-wsm-q3-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/26/williams-sonoma-wsm-q2-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/29/williams-sonoma-inc-wsm-q1-2020-earnings-call-tran.aspx"
+  }
+ ]
+}

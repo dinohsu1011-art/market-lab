@@ -1,0 +1,210 @@
+{
+ "ticker": "NTRS",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000063/q32026earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000063/q32026presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000043/q22026earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000043/q22026presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000028/q12026earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000028/q12026presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000005/q42025earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312426000005/q42025presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312425000229/q22025earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312425000229/q22025presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312425000156/q12025earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312425000156/q12025presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312425000023/q42024earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312425000023/q42024presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312424000251/q32024earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312424000251/q32024presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312424000203/q22024earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312424000203/q22024presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312424000122/q12024earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312424000122/q12024presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312424000017/q42023earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312424000017/q42023presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312423000181/q32023earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312423000181/q32023presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312423000155/q22023earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312423000155/q22023presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312423000099/q12023earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312423000099/q12023presentationmateri.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/73124/000007312423000018/q42022earningsreleaseex991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/73124/000007312423000018/q4presentationmaterials.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/20/northern-trust-corp-ntrs-q3-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/21/northern-trust-corp-ntrs-q2-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/20/northern-trust-corp-ntrs-q1-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/21/northern-trust-corp-ntrs-q4-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/21/northern-trust-corp-ntrs-q3-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/22/northern-trust-corp-ntrs-q2-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/22/northern-trust-ntrs-q1-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/22/northern-trust-ntrs-q4-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/24/northern-trust-ntrs-q3-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/24/northern-trust-ntrs-q2-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/24/northern-trust-ntrs-q1-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/23/northern-trust-corp-ntrs-q4-2018-earnings-conferen.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/17/northern-trust-corp-ntrs-q3-2018-earnings-conferen.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/19/northern-trust-corporation-ntrs-q2-2018-earnings-c.aspx"
+  }
+ ]
+}

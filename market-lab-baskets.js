@@ -3,7 +3,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const baskets = window.QUANT_BASKETS?.baskets;
   const prices = window.QUANT_THEMES;
   if (!baskets?.length || !prices) return;
-  const rail = document.getElementById('ml-basket-rail');
+  let rail = document.getElementById('ml-basket-rail');
+  if (!rail) {
+    // The shared bar no longer supplies a side rail, so the picker sits in its own left column.
+    const wrap = document.querySelector('.wrap'), top = wrap.querySelector('.top');
+    const cols = document.createElement('div'), body = document.createElement('div');
+    rail = document.createElement('aside'); rail.id = 'ml-basket-rail'; rail.setAttribute('aria-label', 'Baskets');
+    cols.style.cssText = 'display:grid;grid-template-columns:230px minmax(0,1fr);gap:40px;align-items:start';
+    rail.style.cssText = 'position:sticky;top:112px;max-height:calc(100vh - 132px);overflow-y:auto;padding:0 6px';
+    body.append(...[...wrap.children].filter(el => el !== top));
+    cols.append(rail, body); wrap.append(cols);
+  }
   const list = document.createElement('div'); list.className='ml-basket-list';
   const search = document.createElement('input'); search.type='search';
   search.placeholder='Search baskets…'; search.setAttribute('aria-label','Search baskets');

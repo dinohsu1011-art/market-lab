@@ -1,0 +1,197 @@
+{
+ "ticker": "IBM",
+ "ir": "https://www.ibm.com/investor",
+ "results": "https://www.ibm.com/investor/financial-reporting/quarterly-earnings",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "slides": "https://www.ibm.com/downloads/documents/us-en/17f55bddaac4eb7e",
+   "slides_kind": "slides",
+   "release": "https://www.ibm.com/downloads/documents/us-en/17f55bddaac4eb7f"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-22",
+   "slides": "https://www.ibm.com/downloads/documents/us-en/15db805fff4249f2",
+   "slides_kind": "slides",
+   "release": "https://www.ibm.com/downloads/documents/us-en/15db805fff4249f4"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-28",
+   "slides": "https://www.ibm.com/downloads/documents/us-en/1550f7eea8c0ded5",
+   "slides_kind": "slides",
+   "release": "https://www.ibm.com/downloads/documents/us-en/1550f7eea8c0ded6"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-24",
+   "slides": "https://www.ibm.com/downloads/documents/us-en/131cf8a39db327ff",
+   "slides_kind": "slides",
+   "release": "https://www.ibm.com/downloads/documents/us-en/131cf8a39db327fd"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "slides": "https://www.ibm.com/downloads/documents/us-en/12bb2f913a3ba1b6",
+   "slides_kind": "slides",
+   "release": "https://www.ibm.com/downloads/documents/us-en/12bb2f913a3ba1a2"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-29",
+   "slides": "https://www.ibm.com/downloads/documents/us-en/11ed3283ae56ec79",
+   "slides_kind": "slides",
+   "release": "https://www.ibm.com/downloads/documents/us-en/11ed3283ae56ec71",
+   "transcript": "https://www.investing.com/news/transcripts/earnings-call-transcript-ibm-q4-2024-sees-record-cash-flow-stock-dips-93CH-3843514"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "slides": "https://www.ibm.com/downloads/documents/us-en/10a9980468afdf4e",
+   "slides_kind": "slides",
+   "release": "https://www.ibm.com/downloads/documents/us-en/10a9980468afdf4c",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/04/22/ibm-ibm-q3-2024-earnings-call-transcript/"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/24/international-business-machines-ibm-q2-2024-earnin/",
+   "slides": "https://www.ibm.com/downloads/documents/us-en/10a9980400afd11d",
+   "slides_kind": "slides",
+   "release": "https://www.ibm.com/downloads/documents/us-en/10a9980400afd11c"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/24/international-business-machines-ibm-q1-2024-earnin/",
+   "release": "https://www.sec.gov/Archives/edgar/data/51143/000005114324000018/ibm-20240424xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/24/international-business-machines-ibm-q4-2023-earnin/",
+   "release": "https://www.sec.gov/Archives/edgar/data/51143/000005114324000004/ibm-20240124xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/25/international-business-machines-ibm-q3-2023-earnin/",
+   "release": "https://www.sec.gov/Archives/edgar/data/51143/000005114323000026/ibm-20231025xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/19/international-business-machines-ibm-q2-2023-earnin/",
+   "release": "https://www.sec.gov/Archives/edgar/data/51143/000005114323000010/ibm-20230719xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/51143/000155837023006218/ibm-20230419xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/25/international-business-machines-ibm-q4-2022-earnin/",
+   "release": "https://www.sec.gov/Archives/edgar/data/51143/000155837023000529/ibm-20230125xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/19/ibm-ibm-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/18/ibm-ibm-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/19/ibm-ibm-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/25/ibm-ibm-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/20/ibm-ibm-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/19/ibm-ibm-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/20/ibm-ibm-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/22/ibm-ibm-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/20/ibm-ibm-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/20/ibm-ibm-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/20/international-business-machines-corp-ibm-q1-2020-e.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/21/international-business-machines-corp-ibm-q4-2019-e.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/16/international-business-machines-corp-ibm-q3-2019-e.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/18/international-business-machines-corp-ibm-q2-2019-e.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/16/ibm-ibm-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/23/ibm-ibm-q4-2018-earnings-conference-call-transcrip.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/16/international-business-machines-corp-ibm-q3-2018-e.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/18/ibm-ibm-q1-2018-earnings-conference-call-transcrip.aspx"
+  }
+ ]
+}

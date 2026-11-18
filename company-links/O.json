@@ -1,0 +1,196 @@
+{
+ "ticker": "O",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672826000056/o-991q32026.htm",
+   "release_ok": true,
+   "slides": "https://www.realtyincome.com/sites/realty-income/files/2026-11/realty-income-investor-presentation-q3-2026.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672826000044/o-991q22026.htm",
+   "release_ok": true,
+   "slides": "https://www.realtyincome.com/sites/realty-income/files/2026-08/realty-income-investor-presentation-q2-2026.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672826000028/o-991q12026.htm",
+   "release_ok": true,
+   "slides": "https://www.realtyincome.com/sites/realty-income/files/2026-05/Q1-2026-investor-presentation-final-v3.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672825000146/o-991q32025.htm",
+   "release_ok": true,
+   "slides": "https://www.realtyincome.com/sites/realty-income/files/2025-11/quarterly-investor-presentation-q3-2025.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672825000093/o-991q12025.htm",
+   "release_ok": true,
+   "slides": "https://www.realtyincome.com/sites/realty-income/files/2025-05/Quarterly_Investor_Presentation-Q1_2025.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/25/realty-income-o-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672825000049/o-991q42024.htm",
+   "release_ok": true,
+   "slides": "https://www.realtyincome.com/sites/realty-income/files/2025-02/quarterly-investor-presentation-q4-2024.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/05/realty-income-o-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672824000127/o-991q32024.htm",
+   "release_ok": true,
+   "slides": "https://www.realtyincome.com/sites/realty-income/files/2024-11/institutional-investor-presentation-q3-2024.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/06/realty-income-o-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672824000114/o-991q22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/07/realty-income-o-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672824000072/o-991q12024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/21/realty-income-o-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672824000040/o-991q42023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/07/realty-income-o-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672823000111/o-991q32023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/03/realty-income-o-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672823000103/o-991q22023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/04/realty-income-o-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672823000064/realtyincomeex991q12023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/22/realty-income-o-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/726728/000072672823000038/realtyincomeex991q42022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/03/realty-income-o-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/05/realty-income-o-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/06/realty-income-o-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/23/realty-income-o-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/realty-income-o-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/realty-income-o-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/realty-income-o-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/24/realty-income-o-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/04/realty-income-o-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/05/realty-income-o-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/20/realty-income-corp-o-q4-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/05/realty-income-corp-o-q3-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/06/realty-income-corp-o-q2-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/realty-income-corp-o-q1-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/realty-income-corp-o-q3-2018-earnings-conference-c.aspx"
+  }
+ ],
+ "ir": "https://www.realtyincome.com/investors/quarterly-and-annual-results",
+ "results": "https://www.realtyincome.com/investors/quarterly-and-annual-results"
+}

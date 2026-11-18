@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en" data-eq>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Company · Equinox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="market-lab-bar.css?v=20261117-c7c5d6d0">
+<link rel="stylesheet" href="market-lab-eq.css?v=20261117-c7c5d6d0">
+<script src="market-lab-shell.js?v=20261117-c7c5d6d0"></script>
+</head>
+<body>
+<div class="page">
+  <nav class="side" aria-label="On this page">
+    <a href="#overview" class="on">About</a><a href="#fundamentals">Fundamentals</a><a href="#earnings">Earnings</a><a href="#valuation">Valuation</a><a href="#calls">Recent calls</a>
+  </nav>
+  <main>
+    <div id="list" hidden>
+      <h1>Companies</h1>
+      <form class="find hero" id="find" role="search"><input type="search" placeholder="Search by ticker or company name" aria-label="Search any company" autocomplete="off" spellcheck="false"><ul hidden></ul></form>
+      <section id="screen">
+        <h2>Screener <small id="scStamp"></small></h2>
+        <form id="scForm" class="screen">
+          <fieldset><legend title="Latest reported quarter. Covers about 500 large companies.">Fundamentals</legend><div id="scFund"></div></fieldset>
+          <fieldset><legend title="From daily prices. Covers every stock Equinox tracks.">Technicals</legend><div id="scTech"></div></fieldset>
+        </form>
+        <div class="schead"><b id="scCount">&nbsp;</b><button type="button" id="scClear" disabled>Clear</button></div>
+        <table id="scTable" class="sticky"><thead></thead><tbody></tbody></table>
+        <div class="more" id="scMore"></div>
+      </section>
+    </div>
+    <div id="detail" class="split" hidden>
+      <div class="left">
+        <h1 id="name">&nbsp;</h1>
+        <div class="sub" id="sub">&nbsp;</div>
+        <section id="overview" hidden>
+          <h2>Overview</h2>
+          <p class="about clamp" id="about"></p>
+          <button class="link more" id="aboutMore" type="button" aria-expanded="false">Show more</button>
+          <dl class="rows" id="overviewRows"></dl>
+        </section>
+        <section id="fundamentals" hidden>
+          <h2>Fundamentals <small id="finStamp"></small></h2>
+          <table id="finTable"></table>
+          <div class="more"><a class="link" href="market-lab-financials.html" id="finAll">Open full financials</a></div>
+        </section>
+        <section id="earnings" hidden>
+          <h2>Earnings <span class="ranges" id="dotsPick" style="--tint:var(--raised);--tone:var(--ink)"></span></h2>
+          <div class="dots" id="dots"></div>
+          <div class="legend" id="dotsLegend"><span><i></i>Reported</span><span><i class="dim"></i><span id="dotsRef"></span></span></div>
+          <div class="recap" id="recap"></div>
+        </section>
+        <section id="valuation" hidden>
+          <h2>Valuation <span class="ranges" id="valPick" style="--tint:var(--raised);--tone:var(--ink)"></span></h2>
+          <div class="valhead"><span class="num" id="valNow">&nbsp;</span><span class="chg" id="valWhen"></span></div>
+          <div class="chart" id="valChart" style="height:280px"></div>
+          <div class="ranges" id="valRange" style="--tint:var(--raised);--tone:var(--ink)"></div>
+          <table id="valTable" class="bands"></table>
+          <p class="valnote" id="valNote"></p>
+        </section>
+        <section id="calls" hidden>
+          <h2>Earnings calls <small id="callStamp"></small></h2>
+          <table id="callTable"></table>
+          <div class="more"><a class="link" id="callsAll" href="market-lab-company-calls.html">Every call, with transcripts and slides</a></div>
+        </section>
+      </div>
+      <aside class="right">
+        <div class="panel" id="pricePanel">
+          <button type="button" class="shut" id="chartShut" hidden>Close</button>
+          <div class="price num" id="price">&nbsp;</div>
+          <div class="chg num" id="chg"></div>
+          <div class="chart" id="chart"></div>
+          <div class="ranges" id="ranges"><span class="stamp" id="stamp"></span></div>
+          <div class="cmp">
+            <div class="ranges sma" id="smaPick" role="group" aria-label="Moving averages"><span>Averages</span></div>
+            <div class="keyline wrapkeys" id="cmpKey"></div>
+            <form class="find mini" id="cmpFind" role="search"><input type="search" placeholder="Compare with" aria-label="Add a stock, ETF, basket or theme to the chart" autocomplete="off" spellcheck="false"><ul hidden></ul></form>
+          </div>
+        </div>
+        <div class="panel" id="technicals">
+          <h2>Technicals <small id="techStamp"></small></h2>
+          <dl class="rows" id="techRows" style="margin-top:0"></dl>
+        </div>
+      </aside>
+    </div>
+  </main>
+</div>
+<script src="market-lab-eq.js?v=20261117-c7c5d6d0"></script>
+<script src="cube/pe-bands.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-eq-screen.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-eq-company.js?v=20261117-c7c5d6d0"></script>
+</body>
+</html>

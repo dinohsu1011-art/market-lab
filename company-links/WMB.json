@@ -1,0 +1,161 @@
+{
+ "ticker": "WMB",
+ "ir": "https://investor.williams.com/",
+ "results": "https://investor.williams.com/financials/quarterly-earnings-and-annual-reports",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "slides": "https://investor.williams.com/static-files/2f9652f4-03fd-4b3a-b395-fbbcb5c7f642",
+   "slides_kind": "slides",
+   "release": "https://investor.williams.com/static-files/23f6f6ef-69c5-4061-a15c-401c6f5a5e1d"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-03",
+   "slides": "https://investor.williams.com/static-files/f614f046-cccf-4f74-91e9-5202008eeafc",
+   "slides_kind": "slides",
+   "release": "https://investor.williams.com/static-files/dde1b8eb-5802-4e4c-aa89-84c4d8611d56"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "slides": "https://investor.williams.com/static-files/5bc0ca98-e364-4013-ade5-aba965b6bb5f",
+   "slides_kind": "slides",
+   "release": "https://investor.williams.com/static-files/5b2479d6-95f9-4583-87c4-6d32eb85c9ae"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-04",
+   "slides": "https://investor.williams.com/static-files/81894832-7443-44df-a5ad-f3be80333a77",
+   "slides_kind": "slides",
+   "release": "https://investor.williams.com/static-files/6ccfa77e-69ad-4bea-a56e-42f2f13bf8e8"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-05",
+   "slides": "https://investor.williams.com/static-files/3a216bf1-8609-4913-aa13-2732c91e5a28",
+   "slides_kind": "slides",
+   "release": "https://investor.williams.com/static-files/e6c0a4b3-8952-405a-ba4d-12a3efdff2e3"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-06",
+   "slides": "https://investor.williams.com/static-files/672114a5-9813-461d-a604-dadd6be871e0",
+   "slides_kind": "slides",
+   "release": "https://investor.williams.com/static-files/675bca23-c189-4edb-b141-f252faa3786d",
+   "transcript": "https://www.investing.com/news/transcripts/earnings-call-transcript-williams-companies-beats-q1-2025-forecasts-stock-dips-93CH-4025422"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "slides": "https://investor.williams.com/static-files/8f5dabc9-719d-41c6-a0cd-ca1baa072cc4",
+   "slides_kind": "slides",
+   "release": "https://investor.williams.com/static-files/f4c786c6-7d30-410c-9490-77676a16887c",
+   "transcript": "https://www.insidermonkey.com/blog/the-williams-companies-inc-nysewmb-q4-2024-earnings-call-transcript-1454931/"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "slides": "https://investor.williams.com/static-files/f4813134-b0a3-436f-8d28-b5bd7860307b",
+   "slides_kind": "slides",
+   "release": "https://investor.williams.com/static-files/1e4881ec-bd72-4c86-a030-65176c057a01",
+   "transcript": "https://investor.williams.com/static-files/0c4da0ff-5527-47a7-ba02-be5db76d55f1"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/107263/000010726324000075/wmb_20240630xer.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/107263/000010726324000062/wmb_20240331xer.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/107263/000010726323000025/wmb_20230930xer.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/107263/000010726323000020/wmb_20230630xer.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/107263/000010726323000011/wmb_20230331xer.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/02/the-williams-companies-inc-wmb-q3-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/03/the-williams-companies-inc-wmb-q2-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/04/williams-companies-inc-wmb-q1-2021-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/23/williams-companies-inc-wmb-q4-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/03/williams-companies-inc-wmb-q3-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/04/williams-companies-inc-wmb-q2-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/05/williams-companies-inc-wmb-q1-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/20/williams-companies-inc-wmb-q4-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/williams-companies-inc-wmb-q3-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/01/williams-companies-inc-wmb-q2-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/williams-companies-inc-wmb-q1-2019-earnings-confer.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/14/williams-companies-inc-wmb-q4-2018-earnings-confer.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/williams-companies-inc-wmb-q3-2018-earnings-confer.aspx"
+  }
+ ]
+}

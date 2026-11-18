@@ -1,0 +1,155 @@
+{
+ "ticker": "ABNB",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526449727/d437988dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526337928/d70413dex991.htm",
+   "release_ok": true,
+   "slides": "https://s26.q4cdn.com/656283129/files/doc_financials/2026/q2/Airbnb-Q2-2026-Shareholder-Letter.pdf",
+   "slides_kind": "letter",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526211816/d23351dex991.htm",
+   "release_ok": true,
+   "slides": "https://s26.q4cdn.com/656283129/files/doc_financials/2026/q1/Airbnb_Q1-2026-Shareholder-Letter.pdf",
+   "slides_kind": "letter",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1559720/000119312526048670/d58192dex991.htm",
+   "release_ok": true,
+   "slides": "https://s26.q4cdn.com/656283129/files/doc_financials/2025/q4/Airbnb_Q4-2025-Shareholder-Letter.pdf",
+   "slides_kind": "letter",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525269432/d40503dex991.htm",
+   "release_ok": true,
+   "slides": "https://s26.q4cdn.com/656283129/files/doc_financials/2025/q3/Airbnb_Q3-2025-Shareholder-Letter.pdf",
+   "slides_kind": "letter",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525109934/d40594dex991.htm",
+   "release_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/airbnb-inc-nasdaqabnb-q1-2025-earings-call-transcript-1523287/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/13/airbnb-abnb-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1559720/000119312525026054/d915198dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/07/airbnb-abnb-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524253103/d886752dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/06/airbnb-abnb-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524194849/d831385dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/08/airbnb-abnb-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524134183/d813800dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/13/airbnb-abnb-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1559720/000119312524033706/d646462dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/01/airbnb-abnb-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523268164/d481318dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/04/airbnb-abnb-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1559720/000119312523202832/d446942dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/09/airbnb-abnb-q1-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/14/airbnb-abnb-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/01/airbnb-inc-abnb-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/02/airbnb-inc-abnb-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/04/airbnb-inc-abnb-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/16/airbnb-inc-abnb-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/05/airbnb-inc-abnb-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/13/airbnb-inc-abnb-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/17/airbnb-inc-abnb-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/25/airbnb-inc-abnb-q4-2020-earnings-call-transcript/"
+  }
+ ],
+ "ir": "https://investors.airbnb.com",
+ "results": "https://investors.airbnb.com/financials/default.aspx"
+}

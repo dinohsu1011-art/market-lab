@@ -1,0 +1,89 @@
+{
+ "ticker": "EG",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1095073/000109507326000041/everest3q26earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1095073/000109507326000029/everest2q26earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://s203.q4cdn.com/937887252/files/doc_financials/2026/q2/Everest-Financial-Supplement-2Q26.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1095073/000109507326000019/everest1q26earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://s203.q4cdn.com/937887252/files/doc_financials/2026/q1/Everest-1Q-26-Investor-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1095073/000109507325000038/everest1q25earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1095073/000109507325000010/earningsrelease-exx991q420.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1095073/000109507324000042/earningsrelease-exx991q320.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1095073/000109507324000032/earningsrelease-exx991q220.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1095073/000109507324000022/earningsrelease-exx991q120.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1095073/000109507324000005/earningsrelease-exx9914q20.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1095073/000109507323000045/earningsrelease-exx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1095073/000109507323000034/earningrelease-exx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1095073/000109507323000020/ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1095073/000109507323000005/ex991.htm",
+   "release_ok": true
+  }
+ ]
+}

@@ -1,0 +1,197 @@
+{
+ "ticker": "HII",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/29/hii-hii-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000054/hii2026q3earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000045/hii2026q2earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000027/hii2026q1earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000027/hiiq12026earningspresent.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000004/hiiq42025earningspresent.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158525000109/hii2025q3earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1501585/000150158525000109/hiiq32025earningspresent.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158525000035/hii2025q1earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1501585/000150158525000035/hiiq12025earningspresent.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158525000004/hii2024q4earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1501585/000150158525000004/hiiq42024earningspresent.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158524000040/hii2024q3earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1501585/000150158524000040/hiiq32024earningspresent.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158524000034/hii2024q2earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1501585/000150158524000034/hiiq22024earningspresent.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158524000011/hii2024q1earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1501585/000150158524000011/hiiq12024earningspresent.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158524000005/hii2023q4earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1501585/000150158524000005/hiiq42023earningspresent.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158523000030/hii2023q3earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1501585/000150158523000030/hiiq32023earningspresent.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158523000024/hii2023q2earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1501585/000150158523000024/hiiq22023earningspresent.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158523000014/hii2023q1earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1501585/000150158523000014/hiiq12023earningspresent.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1501585/000150158523000007/hii2022q4earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1501585/000150158523000007/hiiq42022earningspresent.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/06/huntington-ingalls-industries-inc-hii-q3-2021-earn/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/huntington-ingalls-industries-inc-hii-q2-2021-earn/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/07/huntington-ingalls-industries-inc-hii-q1-2021-earn/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/11/huntington-ingalls-industries-inc-hii-q4-2020-earn/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/05/huntington-ingalls-industries-inc-hii-q3-2020-earn/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/06/huntington-ingalls-industries-inc-hii-q2-2020-earn.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/07/huntington-ingalls-industries-inc-hii-q1-2020-earn.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/13/huntington-ingalls-industries-inc-hii-q4-2019-earn.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/07/huntington-ingalls-industries-inc-hii-q3-2019-earn.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/01/huntington-ingalls-industries-inc-hii-q2-2019-earn.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/huntington-ingalls-industries-inc-hii-q1-2019-earn.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/14/huntington-ingalls-industries-inc-hii-q4-2018-earn.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/08/huntington-ingalls-industries-inc-hii-q3-2018-earn.aspx"
+  }
+ ]
+}

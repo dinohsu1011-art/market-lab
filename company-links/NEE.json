@@ -1,0 +1,203 @@
+{
+ "ticker": "NEE",
+ "ir": "https://www.investor.nexteraenergy.com/",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "slides": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2026/Q3%202026/Q3%202026%20Earnings%20Slides_v%20F.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2026/Q3%202026/2026-1021%20NEEQ32026News%20Release%20vFinal.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-23",
+   "slides": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2026/Q1%202026/Q1%202026%20Earnings%20Script%20vF.pdf",
+   "slides_kind": "remarks",
+   "release": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2026/Q1%202026/2026-0423%20NEEQ12026News%20Release%20vF.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-27",
+   "slides": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/4Q%202025%20Slides%20vF.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/2026-0127%20NEEQ42025News%20Release%20vF.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-28",
+   "slides": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q3%202025/3Q%202025%20Slides%20VF.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q3%202025/2025-1028%20NEEQ32025News%20Release%20vFinal.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-23",
+   "slides": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q2%202025/2Q%202025%20Slides%20vF.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.sec.gov/Archives/edgar/data/753308/000075330825000039/neeq22025exhibit99.htm"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "slides": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q1%202025/Final_Q1%202025%20Script_vF.pdf",
+   "slides_kind": "remarks",
+   "release": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q1%202025/NEEQ12025Exhibit%2099.pdf",
+   "transcript": "https://www.investing.com/news/transcripts/earnings-call-transcript-nextera-energy-beats-q1-2025-eps-estimates-93CH-3999253"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/24/nextera-energy-nee-q4-2024-earnings-call-transcrip/",
+   "slides": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/news-and-events/events-and-presentations/2025/4Q%202024%20Slides%20vFinal/4Q%202024%20Slides%20vFinal.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.sec.gov/Archives/edgar/data/753308/000075330825000003/neeq42024exhibit99.htm"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/23/nextera-energy-nee-q3-2024-earnings-call-transcrip/",
+   "slides": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/news-and-events/events-and-presentations/2024/10-23-24/3Q%202024%20Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/news-and-events/events-and-presentations/2024/10-23-24/2024-1023%20NEEQ32024News%20Release%20vFinal.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/24/nextera-energy-nee-q2-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/753308/000075330824000048/neeq22024exhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/23/nextera-energy-nee-q1-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/753308/000075330824000021/neeq12024exhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/25/nextera-energy-nee-q4-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/753308/000075330824000002/neeq42023exhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/24/nextera-energy-nee-q3-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/753308/000075330823000053/neeq32023exhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/25/nextera-energy-nee-q2-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/753308/000075330823000042/neeq22023exhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/753308/000075330823000029/neeq12023exhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/25/nextera-energy-nee-q4-2022-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/753308/000075330823000009/neeq42022exhibit99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/28/nextera-energy-nee-q3-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/22/nextera-energy-nee-q2-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/21/nextera-energy-nee-q1-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/25/nextera-energy-nee-q4-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/20/nextera-energy-inc-nee-q3-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/23/nextera-energy-inc-nee-q2-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/21/nextera-energy-inc-nee-q1-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/26/nextera-energy-inc-nee-q4-2020-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/21/nextera-energy-inc-nee-q3-2020-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/24/nextera-energy-inc-nee-q2-2020-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/22/nextera-energy-inc-nee-q1-2020-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/24/nextera-energy-inc-nee-q4-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/22/nextera-energy-inc-nee-q3-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/24/nextera-energy-inc-nee-q2-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/23/nextera-energy-inc-nee-q1-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/25/nextera-energy-nee-q4-2018-earnings-conference-cal.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/23/nextera-energy-inc-nee-q3-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/01/26/nextera-energy-inc_-nee-q4-2017-earnings-conferenc.aspx"
+  }
+ ]
+}

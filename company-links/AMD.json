@@ -1,0 +1,257 @@
+{
+ "ticker": "AMD",
+ "ir": "https://ir.amd.com/",
+ "results": "https://ir.amd.com/financial-information/financial-results",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9247/presentation/AMD_Q3_2026_Earnings_Slides_FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9247/webcast_transcript/AMD_Q3_2026_Earnings_Call.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9237/presentation/AMD+Q2+2026+Earnings+Slides+FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9237/webcast_transcript/AMD2Q26EarningsCallTranscript.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9232/presentation/AMD+Q1%2726+Earnings+Slides+Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://ir.amd.com/news-events/press-releases/detail/1284/amd-reports-first-quarter-2026-financial-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9232/webcast_transcript/AMD_1Q_2026_Earnings.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-03",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9223/presentation/AMD+Q4%2725+Earnings+Slides+FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://ir.amd.com/news-events/press-releases/detail/1276/amd-reports-fourth-quarter-and-full-year-2025-financial-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9223/webcast_transcript/AMD+Fiscal+Fourth+Quarter+and+Full+Year+2025+Financial+Results.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-04",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9182/presentation/AMD+Q3%2725+Earnings+Slides+Final+V2.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://ir.amd.com/news-events/press-releases/detail/1265/amd-reports-third-quarter-2025-financial-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9182/webcast_transcript/amd3q2025call.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-05",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9167/presentation/AMD+Q2%2725+Earnings+Slides+FINAL+2.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://ir.amd.com/news-events/press-releases/detail/1257/amd-reports-second-quarter-2025-financial-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9167/webcast_transcript/amd2q2025.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-06",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9160/presentation/AMD+Q1%2725+Earnings+Slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://ir.amd.com/news-events/press-releases/detail/1247/amd-reports-first-quarter-2025-financial-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9160/webcast_transcript/AMD+Q1+2025+Earnings+Call.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9090/presentation/AMD+Q4%2724+Earnings+Slides+.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://ir.amd.com/news-events/press-releases/detail/1236/amd-reports-fourth-quarter-and-full-year-2024-financial-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/9090/webcast_transcript/2025-02-04+AMD+4Q+Earnings+call.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-29",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/8900/presentation/AMD+Q3%2724+Earnings+Slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://ir.amd.com/news-events/press-releases/detail/1224/amd-reports-third-quarter-2024-financial-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/841/8900/webcast_transcript/AMD+3Q24call.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/30/advanced-micro-devices-amd-q2-2024-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000121/amdq224earningsslides.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000121/amdq224earningsslides.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/30/advanced-micro-devices-amd-q1-2024-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000054/amdq124earningsslides.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000054/amdq124earningsslides.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/31/advanced-micro-devices-amd-q4-2023-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000009/amdq423earningsslides.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000009/amdq423earningsslides.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/31/advanced-micro-devices-amd-q3-2023-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/2488/000000248823000192/amdq323earningsslides.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/2488/000000248823000192/amdq323earningsslides.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/01/advanced-micro-devices-amd-q2-2023-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/2488/000000248823000135/amdq223earningsslidesfin.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/2488/000000248823000135/amdq223earningsslidesfin.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/02/advanced-micro-devices-amd-q1-2023-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/2488/000000248823000074/amdq123earningsslides.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/2488/000000248823000074/amdq123earningsslides.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/01/advanced-micro-devices-amd-q4-2022-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/2488/000000248823000007/amdq422earningsslidesfin.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/2488/000000248823000007/amdq422earningsslidesfin.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/01/advanced-micro-devices-amd-q3-2022-earnings-call-t/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/02/advanced-micro-devices-amd-q2-2022-earnings-call-t/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/04/advanced-micro-devices-amd-q1-2022-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/02/advanced-micro-devices-amd-q4-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/advanced-micro-devices-amd-q3-2021-earnings-call-t/"
+  }
+ ],
+ "events": [
+  {
+   "title": "Advancing AI 2026 (keynote and investor roundtable)",
+   "date": "2026-07-23",
+   "url": "https://ir.amd.com/news-events/ir-calendar/detail/20260723-advancing-ai-2026",
+   "kind": "page",
+   "ok": true
+  },
+  {
+   "title": "Financial Analyst Day 2025: event page (all decks and replay)",
+   "date": "2025-11-11",
+   "url": "https://ir.amd.com/news-events/financial-analyst-day",
+   "kind": "page",
+   "ok": true
+  },
+  {
+   "title": "Financial Analyst Day 2025: AMD Vision and Growth Strategy (Lisa Su)",
+   "date": "2025-11-11",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/963/9200/presentation/2.+AMD_FAD+2025_Lisa+Su_OPEN.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "Financial Analyst Day 2025: Accelerating Financial Momentum (Jean Hu)",
+   "date": "2025-11-11",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/963/9207/presentation/10.+FAD+2025_Jean+Hu.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "Advancing AI 2025 (announcement page)",
+   "date": "2025-06-12",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1243/amd-announces-advancing-ai-2025",
+   "kind": "page",
+   "ok": true
+  },
+  {
+   "title": "Advancing AI 2024 (announcement page)",
+   "date": "2024-10-10",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1216/amd-advancing-ai-2024-event-to-highlight-next-gen-instinct-and-epyc-processors-and-expanding-solutions-ecosystem",
+   "kind": "page",
+   "ok": true
+  },
+  {
+   "title": "Financial Analyst Day 2022: event page (all decks)",
+   "date": "2022-06-09",
+   "url": "https://ir.amd.com/news-events/2022-financial-analyst-day",
+   "kind": "page",
+   "ok": true
+  },
+  {
+   "title": "Financial Analyst Day 2022: Advancing Our Journey (Lisa Su)",
+   "date": "2022-06-09",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/963/9040/presentation/FAD+2022_Dr.+Lisa+Su_Opening+Final+Post.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "Financial Analyst Day 2022: Accelerating Financial Momentum (Devinder Kumar)",
+   "date": "2022-06-09",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_27296cf9746bb74ff21730fd63fbe792/amd/db/963/9048/presentation/FAD%2B2022_Devinder%2BKumar_Final%2BPost.pdf",
+   "kind": "slides",
+   "ok": true
+  }
+ ]
+}

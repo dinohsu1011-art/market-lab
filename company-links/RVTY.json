@@ -1,0 +1,78 @@
+{
+ "ticker": "RVTY",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/11/03/revvity-rvty-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000031/q32026pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000022/q22026pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000016/q12026pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/31791/000003179126000007/q42025pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/31791/000003179125000012/q12025pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/31791/000003179125000006/q42024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/31791/000003179124000026/q32024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/31791/000003179124000018/q22024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/31791/000162828024018795/q12024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/31791/000115752324000146/a53889507ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/31791/000115752323000815/a53397725ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/31791/000115752323000272/a53316651ex99_1.htm",
+   "release_ok": true
+  }
+ ]
+}

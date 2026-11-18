@@ -1,0 +1,162 @@
+{
+ "ticker": "BXP",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000041/q32026pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000015/q12026pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000103754026000003/q42025pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000103754025000010/q32025pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000165642325000043/q22025pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000165642325000030/q12025pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000165642325000006/q42024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000165642324000056/q32024pressrelease.htm",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/01/26/bxp-bxp-q3-2024-earnings-call-transcript"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000165642324000043/q22024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000165642324000024/q12024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000165642324000003/q42023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000165642323000045/q32023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000165642323000037/q22023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000165642323000020/q12023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037540/000165642323000008/q42022pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/boston-properties-inc-bxp-q3-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/28/boston-properties-inc-bxp-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/28/boston-properties-inc-bxp-q1-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/27/boston-properties-inc-bxp-q4-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/28/boston-properties-inc-bxp-q3-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/29/boston-properties-inc-bxp-q2-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/boston-properties-inc-bxp-q1-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/29/boston-properties-inc-bxp-q4-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/30/boston-properties-inc-bxp-q3-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/31/boston-properties-inc-bxp-q2-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/01/boston-properties-inc-bxp-q1-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/30/boston-properties-bxp-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/31/boston-properties-inc-bxp-q3-2018-earnings-confere.aspx"
+  }
+ ],
+ "ir": "https://investors.bxp.com/"
+}

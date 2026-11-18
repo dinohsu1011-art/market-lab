@@ -1,0 +1,100 @@
+{
+ "ticker": "CEG",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000116/ceg-20261109991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000063/ceg-20260511991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827525000089/ceg-20251107991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827525000070/ceg-20250807991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827525000040/ceg-20250506991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/04/constellation-energy-ceg-q3-2024-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827524000066/ceg-20241104991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827524000051/ceg-20240806991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827524000023/ceg-20240509991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827524000010/ceg-20240227991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827523000078/ceg-20231106991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827523000060/ceg-20230803991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827523000030/ceg-20230504991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/1868275/000186827523000012/ceg-20230216991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/04/constellation-energy-corporation-ceg-q2-2022-earni/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/12/constellation-energy-corporation-ceg-q1-2022-earni/"
+  }
+ ]
+}

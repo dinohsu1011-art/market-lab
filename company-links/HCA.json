@@ -1,0 +1,188 @@
+{
+ "ticker": "HCA",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000119312526432665/hca-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000119312526174933/hca-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000119312526023323/hca-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000119312525249345/hca-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000095017025098578/hca-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000095017025058334/hca-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/24/hca-healthcare-hca-q4-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000095017025008608/hca-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/25/hca-healthcare-hca-q3-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000095017024117215/hca-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/23/hca-healthcare-hca-q2-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000119312524182591/d873924dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/26/hca-healthcare-hca-q1-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000119312524115857/d799245dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/30/hca-healthcare-hca-q4-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000119312524018748/d734797dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/24/hca-healthcare-hca-q3-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000119312523261204/d551352dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/27/hca-healthcare-hca-q2-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000119312523195360/d536904dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000119312523109258/d431466dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/27/hca-healthcare-hca-q4-2022-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/860730/000119312523016833/d268135dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/21/hca-healthcare-hca-q3-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/22/hca-healthcare-hca-q2-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/22/hca-healthcare-hca-q1-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/27/hca-healthcare-hca-q4-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/22/hca-healthcare-hca-q3-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/20/hca-healthcare-hca-q2-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/22/hca-healthcare-hca-q1-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/02/hca-healthcare-hca-q4-2020-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/26/hca-healthcare-hca-q3-2020-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/22/hca-healthcare-hca-q2-2020-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/21/hca-holdings-inc-hca-q1-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/28/hca-holdings-inc-hca-q4-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/29/hca-holdings-inc-hca-q3-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/30/hca-holdings-inc-hca-q2-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/30/hca-healthcare-inc-hca-q1-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/29/hca-healthcare-inc-hca-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/30/hca-holdings-inc-hca-q3-2018-earnings-conference-c.aspx"
+  }
+ ]
+}

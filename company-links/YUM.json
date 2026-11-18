@@ -1,0 +1,191 @@
+{
+ "ticker": "YUM",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106126000195/a8kex9919302026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106126000108/a8kex9914292026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106126000003/a8kex991242026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106125000091/a8kex9911142025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106125000048/a8kex991852025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106125000021/a8kex9914302025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/06/yum-brands-yum-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106125000008/a8kex991262025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/05/yum-brands-yum-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106124000036/a8kex9911152024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/06/yum-brands-yum-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106124000029/a8kex991862024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/01/yum-brands-yum-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106124000014/a8kex991512024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/07/yum-brands-yum-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106124000003/a8kex991272024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/01/yum-brands-yum-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106123000046/a8kex9911112023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/02/yum-brands-yum-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106123000037/a8kex991822023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/03/yum-brands-yum-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106123000014/a8kex991532023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/08/yum-brands-yum-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1041061/000104106123000003/a8kex991282023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/02/yum-brands-yum-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/03/yum-brands-yum-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/04/yum-brands-yum-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/09/yum-brands-yum-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/yum-brands-inc-yum-q3-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/29/yum-brands-inc-yum-q2-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/28/yum-brands-inc-yum-q1-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/04/yum-brands-inc-yum-q4-2020-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/yum-brands-inc-yum-q3-2020-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/30/yum-brands-inc-yum-q2-2020-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/29/yum-brands-inc-yum-q1-2020-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/06/yum-brands-inc-yum-q4-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/30/yum-brands-inc-yum-q3-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/01/yum-brands-inc-yum-q2-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/01/yum-brands-inc-yum-q1-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/31/yum-brands-inc-yum-q3-2018-earnings-conference-cal.aspx"
+  },
+  {
+   "id": "2017 Q3",
+   "date": "2017-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/11/02/yum-brands-inc-yum-q3-2017-earnings-conference-cal.aspx"
+  }
+ ],
+ "ir": "https://investors.yum.com",
+ "results": "https://investors.yum.com/financial-information/financial-reports/default.aspx"
+}

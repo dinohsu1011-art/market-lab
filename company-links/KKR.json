@@ -1,0 +1,125 @@
+{
+ "ticker": "KKR",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000030/q326earningsrelease_vf.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000022/q226earningsrelease_vf.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000011/q126earningsrelease_vf.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491226000002/q425earningsrelease_vf.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491225000019/q125earningsrelease_vg.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491225000003/q424earningsrelease_vff.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491224000022/q324earningsrelease_vf.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491224000014/q224earningsrelease_vf.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491224000008/q124earningsrelease_vf.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491224000002/q423earningsrelease_vf.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491223000022/q323earningsrelease_vf.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491223000017/q223earningsrelease_vf.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491223000011/q123earningsrelease_vf.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1404912/000140491223000002/q422earningsrelease_vf.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/kkr-co-inc-kkr-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/03/kkr-co-inc-kkr-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/04/kkr-co-lp-kkr-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/09/kkr-co-lp-kkr-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/kkr-co-lp-kkr-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/04/kkr-co-lp-kkr-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/kkr-co-lp-kkr-q1-2020-earnings-call-transcript.aspx"
+  }
+ ],
+ "ir": "https://ir.kkr.com"
+}

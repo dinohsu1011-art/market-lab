@@ -1,0 +1,204 @@
+{
+ "ticker": "MCK",
+ "ir": "https://investor.mckesson.com/",
+ "results": "https://investor.mckesson.com/financials/quarterly-results/default.aspx",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-11-04",
+   "slides": "https://s24.q4cdn.com/128197368/files/content_files/MCK-Q2-FY27-Presentation_FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s24.q4cdn.com/128197368/files/content_files/MCK-Q2-FY27-Earnings-Release_FINAL.pdf"
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-05-07",
+   "slides": "https://s24.q4cdn.com/128197368/files/doc_financials/2026/q4/MCK-Q4-FY26-Presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://s24.q4cdn.com/128197368/files/doc_financials/2026/q4/MCK-Q4-FY26-Earnings-Release_FINAL.pdf"
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-02-04",
+   "slides": "https://s24.q4cdn.com/128197368/files/doc_financials/2026/q3/MCK-Q3-FY26-Presentation_FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s24.q4cdn.com/128197368/files/doc_financials/2026/q3/MCK-Q3-FY26-Earnings-Release_FINAL.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-11-05",
+   "slides": "https://s24.q4cdn.com/128197368/files/doc_financials/2026/q2/MCK-Q2-FY26-Presentation_FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s24.q4cdn.com/128197368/files/doc_financials/2026/q2/MCK-Q2-FY26-Earnings-Release_FINAL.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-05-08",
+   "slides": "https://s24.q4cdn.com/128197368/files/doc_financials/2025/q4/MCK-Q4-FY25-Presentation_FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s24.q4cdn.com/128197368/files/doc_financials/2025/q4/MCK-Q4-FY25-Earnings-Release_FINAL.pdf",
+   "transcript": "https://s24.q4cdn.com/128197368/files/doc_financials/2025/q4/250508-MCK-Q4FY25-Earnings-Call-Transcript.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/05/mckesson-mck-q3-2025-earnings-call-transcript/",
+   "slides": "https://s24.q4cdn.com/128197368/files/doc_financials/2025/q3/MCK-Q3-FY25-Presentation_FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s24.q4cdn.com/128197368/files/doc_financials/2025/q3/MCK-Q3-FY25-Earnings-Release_FINAL.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/06/mckesson-mck-q2-2025-earnings-call-transcript/",
+   "slides": "https://s24.q4cdn.com/128197368/files/doc_financials/2025/q2/MCK-Q2-FY25-Presentation_FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s24.q4cdn.com/128197368/files/doc_financials/2025/q2/MCK-Q2-FY25-Earnings-Release_FINAL.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/07/mckesson-mck-q1-2025-earnings-call-transcript/",
+   "slides": "https://s24.q4cdn.com/128197368/files/doc_financials/2025/q1/MCK-Q1-FY25-Presentation_FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://s24.q4cdn.com/128197368/files/doc_financials/2025/q1/MCK-Q1-FY25-Earnings-Release_FINAL.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/07/mckesson-mck-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/927653/000092765324000033/mck_exhibit991x3312024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/07/mckesson-mck-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/927653/000092765324000018/mck_exhibit991x12312023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/02/mckesson-mck-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/927653/000092765323000081/mck_exhibit991x9302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/02/mckesson-mck-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/927653/000092765323000060/mck_exhibit991x6302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/08/mckesson-mck-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/927653/000092765323000036/mck_exhibit991x3312023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/01/mckesson-mck-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/927653/000092765323000015/mck_exhibit991x12312022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2022-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/01/mckesson-mck-q2-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/04/mckesson-mck-q1-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/06/mckesson-mck-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/02/mckesson-mck-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2021-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/01/mckesson-corporation-mck-q2-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/mckesson-corporation-mck-q1-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/07/mckesson-corp-mck-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/02/mckesson-corp-mck-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2020-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/03/mckesson-corp-mck-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/03/mckesson-corp-mck-q1-2021-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-05-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/20/mckesson-corp-mck-q4-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/04/mckesson-corp-mck-q3-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/30/mckesson-corp-mck-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/31/mckesson-corp-mck-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/08/mckesson-corp-mck-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/01/mckesson-mck-q3-2019-earnings-conference-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2018-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/25/mckesson-corp-mck-q2-2019-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-05-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/25/mckesson-mck-q4-2018-earnings-conference-call-tran.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/04/mckesson-mck-q3-2018-earnings-conference-call-tran.aspx"
+  }
+ ]
+}

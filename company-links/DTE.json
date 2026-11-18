@@ -1,0 +1,176 @@
+{
+ "ticker": "DTE",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/936340/000093634026000166/exhibit991-93026.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936340/000093634026000166/q326presentationfinal8k.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/936340/000093634026000079/exhibit991-33126.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936340/000093634026000079/q126presentationfinal8k.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/936340/000093634025000181/exhibit991-063025.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936340/000093634025000181/q225presentationfinal-ve.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/936340/000093634025000095/exhibit991-033125.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936340/000093634025000095/q125presentationfinal-ve.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/936340/000093634025000063/exhibit991-123124.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936340/000093634025000063/q424presentationfinal-ve.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/936340/000093634024000196/exhibit991-093024.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936340/000093634024000196/q324presentationfinal-ve.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/936340/000093634024000176/exhibit991-063024.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936340/000093634024000176/q224presentationfinal-ve.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/936340/000093634024000115/exhibit991-033124.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936340/000093634024000115/q124presentation42324fin.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/936340/000093634024000074/exhibit991-123123.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/936340/000093634023000187/exhibit991-093023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/936340/000093634023000168/exhibit991-063023.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936340/000093634023000168/q223presentationfinalver.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/936340/000093634023000100/exhibit991-033123.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936340/000093634023000100/q123presentationfinalver.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/936340/000093634023000072/exhibit991-123122.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936340/000093634023000072/q422presentationfinal8k.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/dte-energy-company-dte-q3-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/27/dte-energy-company-dte-q2-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/dte-energy-co-dte-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/19/dte-energy-co-dte-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/27/dte-energy-co-dte-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/28/dte-energy-co-dte-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/28/dte-energy-co-dte-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/05/dte-energy-co-dte-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/28/dte-energy-co-dte-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/24/dte-energy-co-dte-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/24/dte-energy-co-dte-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/24/dte-energy-co-dte-q3-2018-earnings-conference-call.aspx"
+  }
+ ]
+}

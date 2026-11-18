@@ -1,0 +1,35 @@
+{
+ "ticker": "VIAV",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/912093/000162828026070170/viavq1fy278-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/912093/000162828026028392/viavq3fy268-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-01-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/912093/000162828026003845/viavq2fy268-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/912093/000091209325000151/viavq1fy268-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/912093/000091209325000008/viavq2fy258-kex991.htm",
+   "release_ok": true
+  }
+ ]
+}

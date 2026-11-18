@@ -1,4 +1,5 @@
 /* Equinox · graphite / warm white. Loaded after page styles. */
+@import url("market-lab-bar.css");
 @font-face{font-family:"Source Sans 3";font-style:normal;font-weight:400;font-display:swap;src:url("fonts/source-sans-3-regular.woff2") format("woff2")}
 @font-face{font-family:"Source Sans 3";font-style:normal;font-weight:600;font-display:swap;src:url("fonts/source-sans-3-semibold.woff2") format("woff2")}
 @font-face{font-family:"Source Sans 3";font-style:normal;font-weight:700;font-display:swap;src:url("fonts/source-sans-3-bold.woff2") format("woff2")}
@@ -676,3 +677,6 @@ body.ml-app { margin:0; padding-top:var(--ml-header); background:var(--ml-bg); c
   [data-page="studies"] .sliderrow { flex-wrap:wrap; }
   [data-page="studies"] .sliderrow .hint { flex-basis:100%; }
 }
+
+/* Pages whose tools moved into the bar keep the full width. */
+.ml-no-rail.ml-has-context > :is(.main,.page,.wrap){margin-left:0!important}

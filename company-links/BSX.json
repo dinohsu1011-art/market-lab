@@ -1,0 +1,123 @@
+{
+ "ticker": "BSX",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000066/earningsrelease_live.htm",
+   "release_ok": true,
+   "slides": "https://investors.bostonscientific.com/~/media/Files/B/Boston-Scientific-IR-V3/FOH/q3-2026-foh.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000051/q22026earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://investors.bostonscientific.com/~/media/Files/B/Boston-Scientific-IR-V3/FOH/q2-2026-foh.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000031/q12026earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://investors.bostonscientific.com/~/media/Files/B/Boston-Scientific-IR-V3/FOH/q1-2026-foh.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000006/q42025earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://investors.bostonscientific.com/~/media/Files/B/Boston-Scientific-IR-V3/q4-2025-financial-and-operational-highlights.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572525000023/q12025earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://investors.bostonscientific.com/~/media/Files/B/Boston-Scientific-IR-V3/FOH/q1-2025-foh.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572525000007/q42024earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://investors.bostonscientific.com/~/media/Files/B/Boston-Scientific-IR-V3/FOH/q4-2024-financial-operational-highlights.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572524000070/q32024earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://investors.bostonscientific.com/~/media/Files/B/Boston-Scientific-IR-V3/FOH/Q3_2024_Financial_Operational_Highlights_FINAL.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true,
+   "transcript": "https://ng.investing.com/news/transcripts/earnings-call-transcript-boston-scientific-q3-2024-shows-strong-growth-93CH-1722802"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572524000060/q22024earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572524000040/q12024earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572524000011/q42023earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572523000045/q32023earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572523000041/q22023earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572523000024/q12023earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/885725/000088572523000004/q42022earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/06/boston-scientific-bsx-q4-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/24/boston-scientific-corp-bsx-q3-2018-earnings-confer.aspx"
+  }
+ ],
+ "ir": "https://investors.bostonscientific.com/",
+ "results": "https://investors.bostonscientific.com/financials-and-filings/quarterly-results-and-non-gaap-reconciliations"
+}

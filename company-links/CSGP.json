@@ -1,0 +1,118 @@
+{
+ "ticker": "CSGP",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1057352/000105735226000078/q32026earningspressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1057352/000105735226000030/q12026earningspressrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1057352/000105735225000116/q32025earningspressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1057352/000105735225000095/q22025earningspressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1057352/000105735225000063/q12025earningspressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1057352/000105735225000004/q42024earningspressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1057352/000105735225000004/investorpresentation_4q2.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1057352/000105735224000122/q32024earningspressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1057352/000105735224000122/investorpresentation_3q2.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1057352/000119312524182891/d856482dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1057352/000119312524107185/d827733dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1057352/000105735223000108/q22023earningspressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1057352/000105735223000072/q12023earningspressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1057352/000105735223000026/q42022earningspressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/26/costar-group-inc-csgp-q3-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/28/costar-group-inc-csgp-q2-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/costar-group-inc-csgp-q1-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/24/costar-group-inc-csgp-q4-2020-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/28/costar-group-inc-csgp-q3-2020-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/29/costar-group-inc-csgp-q2-2020-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/29/costar-group-inc-csgp-q1-2020-earnings-call-transc.aspx"
+  }
+ ]
+}

@@ -1,0 +1,274 @@
+{
+ "ticker": "JNJ",
+ "ir": "https://investor.jnj.com/",
+ "results": "https://investor.jnj.com/financials/quarterly-results/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-13",
+   "slides": "https://s203.q4cdn.com/636242992/files/content_files/JNJ-Earnings-Presentation-Q3-2026-Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s203.q4cdn.com/636242992/files/content_files/3Q26-Earnings-Press-Release-Final-with-attachments.pdf",
+   "release_ok": true,
+   "transcript": "https://s203.q4cdn.com/636242992/files/content_files/JNJ-USQ_Transcript_2026-10-13.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-15",
+   "slides": "https://s203.q4cdn.com/636242992/files/doc_financials/2026/q2/JNJ-Earnings-Presentation-Q2-2026-Final-V2.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s203.q4cdn.com/636242992/files/doc_financials/2026/q2/2Q26-Earnings-Press-Release-Final.pdf",
+   "release_ok": true,
+   "transcript": "https://s203.q4cdn.com/636242992/files/doc_financials/2026/q2/JNJ-USQ_Transcript_2026-07-15.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-14",
+   "slides": "https://s203.q4cdn.com/636242992/files/doc_financials/2026/q1/JNJ-Earnings-Presentation-Q1-2026-Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s203.q4cdn.com/636242992/files/doc_financials/2026/q1/1Q26-Earnings-Press-Release-Final-Draft-04-13-26_10AM-with-attachments.pdf",
+   "release_ok": true,
+   "transcript": "https://s203.q4cdn.com/636242992/files/doc_financials/2026/q1/JNJ-USQ_Transcript_2026-04-14.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-21",
+   "slides": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q4/JNJ-Earnings-Presentation-Q4-2025-Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q4/4Q25-Earnings-Press-Release-Final-Draft-01-20-26-6PM-With-Attachments.pdf",
+   "release_ok": true,
+   "transcript": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q4/JNJ-USQ_Transcript_2026-01-21.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-14",
+   "slides": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q3/JNJ-Earnings-Presentation-Q3-2025-Final-Draft-10-13-2025-2PM.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q3/3Q25-Earnings-Press-Release-Final-Draft-10-13-25-3PM-With-Attachments.pdf",
+   "release_ok": true,
+   "transcript": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q3/16/JNJ-USQ_Transcript_2025-10-14.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-16",
+   "slides": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q2/Final-JNJ-Earnings-Presentation-Q2-2025-Webcast.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q2/2Q25-Earnings-Press-Release-Final-7-15-with-Attachments.pdf",
+   "release_ok": true,
+   "transcript": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q2/JNJ-USQ_Transcript_2025-07-16.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-15",
+   "slides": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q1/Final-JNJ-Earnings-Presentation-Q1-2025-Webcastv2.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q1/v2/1Q25-Earnings-Press-Release-Final-Draft-4-14-with-Attachments.pdf",
+   "release_ok": true,
+   "transcript": "https://s203.q4cdn.com/636242992/files/doc_financials/2025/q1/JNJ_N-Transcript-2025-04-15T12_30.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-22",
+   "slides": "https://s203.q4cdn.com/636242992/files/doc_financials/2024/q4/Final-JNJ-Earnings-Presentation-4Q2024-Webcast.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s203.q4cdn.com/636242992/files/doc_financials/2024/q4/4Q24-Press-Release-with-attachments.pdf",
+   "release_ok": true,
+   "transcript": "https://s203.q4cdn.com/636242992/files/doc_financials/2024/q4/FINAL-FINAL-UPDATE-JNJ-USQ_Transcript_2025-01-22-1.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/15/johnson-johnson-jnj-q3-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/200406/000020040624000088/a2024q3exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/17/johnson-johnson-jnj-q2-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/200406/000020040624000071/a2024q2exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/16/johnson-johnson-jnj-q1-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/200406/000020040624000031/a2024q1exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/23/johnson-johnson-jnj-q4-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/200406/000020040624000004/a2023q4exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/17/johnson-johnson-jnj-q3-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/200406/000020040623000094/a2023q3exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/20/johnson-johnson-jnj-q2-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/200406/000020040623000073/a2023q2exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/200406/000020040623000043/a2023q1exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/24/johnson-johnson-jnj-q4-2022-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/200406/000020040623000005/a2022q4exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/18/johnson-johnson-jnj-q3-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/19/johnson-johnson-jnj-q2-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/19/johnson-johnson-jnj-q1-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/25/johnson-johnson-jnj-q4-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/19/johnson-johnson-jnj-q3-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/21/johnson-johnson-jnj-q2-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/20/johnson-johnson-jnj-q1-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/26/johnson-johnson-jnj-q4-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/13/johnson-johnson-jnj-q3-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/16/johnson-johnson-jnj-q2-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/14/johnson-johnson-jnj-q1-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/22/johnson-johnson-jnj-q4-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/15/johnson-johnson-jnj-q3-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/16/johnson-johnson-jnj-q2-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/16/johnson-johnson-jnj-q1-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/22/johnson-johnson-jnj-q4-2018-earnings-conference-ca.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/16/johnson-johnson-jnj-q3-2018-earnings-conference-ca.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/17/johnson-johnson-jnj-q2-2018-earnings-conference-ca.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/17/johnson-johnson-jnj-q1-2018-earnings-conference-ca.aspx"
+  }
+ ],
+ "events": [
+  {
+   "title": "2026 Enterprise Business Review (upcoming, no slides posted yet)",
+   "date": "2026-12-08",
+   "url": "https://investor.jnj.com/events-and-presentations/events/event-details/2026/Johnson--Johnson-2026-Enterprise-Business-Review-2026-uPu3VnK3oh/default.aspx",
+   "kind": "page",
+   "ok": true
+  },
+  {
+   "title": "2023 Enterprise Business Review: Enterprise overview",
+   "date": "2023-12-05",
+   "url": "https://s203.q4cdn.com/636242992/files/doc_events/2023/Dec/05/enterprise-overview-presentation.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "2023 Enterprise Business Review: Innovative Medicine",
+   "date": "2023-12-05",
+   "url": "https://s203.q4cdn.com/636242992/files/doc_events/2023/Dec/05/innovative-medicine-presentation-update.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "2023 Enterprise Business Review: MedTech",
+   "date": "2023-12-05",
+   "url": "https://s203.q4cdn.com/636242992/files/doc_events/2023/Dec/05/medtech-presentation.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "2023 Enterprise Business Review: Financials and capital allocation",
+   "date": "2023-12-05",
+   "url": "https://s203.q4cdn.com/636242992/files/doc_events/2023/Dec/05/financials-and-capital-allocation-presentationv.pdf",
+   "kind": "slides",
+   "ok": true
+  }
+ ]
+}

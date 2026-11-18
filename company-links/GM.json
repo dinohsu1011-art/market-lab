@@ -1,0 +1,182 @@
+{
+ "ticker": "GM",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000056/gmq32026pressreleaseandfin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000033/gmq12026pressreleaseandfin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785826000011/gmq42025pressreleaseandfin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000141/gmq32025pressreleaseandfin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000119/gmq22025pressreleaseandfin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/28/general-motors-gm-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000030/gmq42024pressreleaseandfin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/22/general-motors-gm-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785824000115/gmq32024pressreleaseandfin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/23/general-motors-gm-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785824000100/gmq22024pressreleaseandfin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/23/general-motors-gm-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785824000074/gmq12024pressreleaseandfin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/30/general-motors-gm-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785824000029/a2023q4pressreleaseandfina.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/24/general-motors-gm-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785823000104/gmq32023financialhighlights.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/25/general-motors-gm-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785823000095/q22023earnings07252023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785823000074/q12023earnings04252023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/31/general-motors-gm-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1467858/000146785823000027/a2022q4consolidatedearning.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/25/general-motors-gm-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/26/general-motors-gm-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/26/general-motors-gm-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/02/general-motors-gm-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/general-motors-gm-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/general-motors-gm-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/general-motors-gm-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/10/general-motors-gm-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/06/general-motors-gm-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/29/general-motors-gm-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/general-motors-co-gm-q1-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/05/general-motors-co-gm-q4-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/29/general-motors-co-gm-q3-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/01/general-motors-co-gm-q2-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/30/general-motors-co-gm-q1-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/31/general-motors-co-gm-q3-2018-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/06/general-motors-company-gm-q4-2017-earnings-confere.aspx"
+  }
+ ]
+}

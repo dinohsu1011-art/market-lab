@@ -1,0 +1,144 @@
+{
+ "ticker": "CMI",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617226000035/cmi2026q38-kex99.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_075d94b95165b639c9c665308567e3e1/cummins/db/810/8387/earnings_presentation/Cummins_Inc._Earnings_Release_Presentation_Q3_-_Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617226000026/cmi2026q28-kex99.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_075d94b95165b639c9c665308567e3e1/cummins/db/810/8371/earnings_presentation/Cummins+Inc.+Earnings+Release+Presentation+Q2+2026+-+Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617226000013/cmi2026q18-kex99.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_075d94b95165b639c9c665308567e3e1/cummins/db/810/8336/earnings_presentation/Q1-26+-+Cummins+Inc.+Earnings+Release+Presentation+-+Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617226000004/cmi2025q48-kex99.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_075d94b95165b639c9c665308567e3e1/cummins/db/810/8305/earnings_presentation/Q4-25+Cummins+Inc.+Earnings+Release+Presentation+-+Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617225000036/cmi2025q38-kex99.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_075d94b95165b639c9c665308567e3e1/cummins/db/810/8295/earnings_presentation/Q3-25+Cummins+Inc.+Earnings+Release+Presentation+FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617225000010/cmi2025q18-kex99.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_075d94b95165b639c9c665308567e3e1/cummins/db/810/7754/earnings_presentation/Q1-25+Cummins+Inc.+Earnings+Release+Presentation+-+Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://www.investing.com/news/transcripts/earnings-call-transcript-cummins-q1-2025-earnings-beat-eps-forecasts-93CH-4022461"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617225000003/cmi2024q48-kex99.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_075d94b95165b639c9c665308567e3e1/cummins/db/810/7722/earnings_presentation/Q4-24+Cummins+Inc.+Earnings+Release+Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/cummins-inc-nysecmi-q4-2024-earnings-call-transcript-1443430/"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617224000043/cmi2024q38-kex99.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_075d94b95165b639c9c665308567e3e1/cummins/db/810/7705/earnings_presentation/Q3-24+Cummins+Inc.+Earnings+Release+Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/cummins-inc-nysecmi-q3-2024-earnings-call-transcript-1386084/"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617224000033/cmi2024q28-kex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617224000019/cmi2024q18-kex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617224000003/cmi2023q48-kex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617223000042/cmi2023q38-kex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617223000032/cmi2023q28-kex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617223000013/cmi2023q18-kex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/26172/000002617223000002/cmi2022q48-kex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/02/cummins-inc-cmi-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/27/cummins-inc-ex-cummins-engine-inc-cmi-q3-2020-earn/"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/29/cummins-inc-ex-cummins-engine-inc-cmi-q3-2019-earn.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/30/cummins-inc-ex-cummins-engine-inc-cmi-q2-2019-earn.aspx"
+  }
+ ],
+ "ir": "https://investor.cummins.com/",
+ "results": "https://investor.cummins.com/financial-info/financial-results"
+}

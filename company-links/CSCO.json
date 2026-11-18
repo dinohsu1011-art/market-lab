@@ -1,0 +1,220 @@
+{
+ "ticker": "CSCO",
+ "ir": "https://investor.cisco.com/",
+ "results": "https://investor.cisco.com/financials/quarterly-results/default.aspx",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-12",
+   "slides": "https://s21.q4cdn.com/812015656/files/doc_earnings/2027/q1/presentation/Q1-27-Earnings-Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://s21.q4cdn.com/812015656/files/doc_earnings/2027/q1/earnings-result/Q1FY27-Press-Release.pdf"
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-12",
+   "slides": "https://s21.q4cdn.com/812015656/files/doc_earnings/2026/q4/presentation/Q4FY26-Cisco-Earnings-Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://s21.q4cdn.com/812015656/files/doc_earnings/2026/q4/earnings-result/Q4FY26-Press-Release.pdf"
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-13",
+   "slides": "https://s21.q4cdn.com/812015656/files/doc_financials/2026/q3/Q3FY26-Earnings-Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://s21.q4cdn.com/812015656/files/doc_earnings/2026/q3/earnings-result/Q3FY26-Press-Release.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-02-11",
+   "slides": "https://s21.q4cdn.com/812015656/files/doc_financials/2026/q2/Q2-26-Earnings-Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://s21.q4cdn.com/812015656/files/doc_financials/2026/q2/Q2FY26-Press-Release.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-11-12",
+   "slides": "https://s21.q4cdn.com/812015656/files/doc_financials/2026/q1/Q1-26-Earnings-Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://s21.q4cdn.com/812015656/files/doc_financials/2026/q1/Q1FY26-Press-Release.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-05-14",
+   "slides": "https://s21.q4cdn.com/812015656/files/doc_financials/2025/q3/Q3FY25-Earnings-Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://s21.q4cdn.com/812015656/files/doc_financials/2025/q3/Q3FY25-Press-Release.pdf",
+   "transcript": "https://www.insidermonkey.com/blog/cisco-systems-inc-nasdaqcsco-q3-2025-earnings-call-transcript-1535207/"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/12/cisco-systems-csco-q2-2025-earnings-call-transcrip/",
+   "slides": "https://s21.q4cdn.com/812015656/files/doc_financials/2025/q2/Q2FY25-Earnings-Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://s21.q4cdn.com/812015656/files/doc_financials/2025/q2/Q2FY25-Press-Release.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-11-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/13/cisco-systems-csco-q1-2025-earnings-call-transcrip/",
+   "slides": "https://s21.q4cdn.com/812015656/files/doc_financials/2025/q1/Q1FY25-Earnings-Slides-Web.pdf",
+   "slides_kind": "slides",
+   "release": "https://s21.q4cdn.com/812015656/files/doc_financials/2025/q1/Q1FY25-Press-Release.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-08-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/14/cisco-systems-csco-q4-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/858877/000119312524200636/d878533dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-05-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/15/cisco-systems-csco-q3-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/858877/000119312524139371/d826117dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/14/cisco-systems-csco-q2-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/858877/000119312524036201/d719981dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-11-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/15/cisco-systems-csco-q1-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/858877/000119312523277891/d850595dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-08-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/17/cisco-systems-csco-q4-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/858877/000119312523214316/d511414dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-05-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/17/cisco-systems-csco-q3-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/858877/000119312523147021/d479322dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-02-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/15/cisco-systems-csco-q2-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/858877/000119312523040212/d417697dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-11-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/16/cisco-systems-csco-q1-2023-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-08-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/17/cisco-systems-csco-q4-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-05-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/19/cisco-systems-csco-q3-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-02-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/16/cisco-systems-csco-q2-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-11-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/18/cisco-systems-csco-q1-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-08-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/19/cisco-systems-csco-q4-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-05-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/19/cisco-systems-csco-q3-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/10/cisco-systems-csco-q2-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-11-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/12/cisco-systems-csco-q1-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-08-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/13/cisco-systems-csco-q4-2020-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-05-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/13/cisco-systems-inc-csco-q3-2020-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/12/cisco-systems-inc-csco-q2-2020-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-11-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/13/cisco-systems-inc-csco-q1-2020-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-08-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/14/cisco-systems-inc-csco-q4-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-05-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/15/cisco-systems-inc-csco-q1-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/14/cisco-systems-inc-csco-q2-2019-earnings-conference.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-11-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/14/cisco-systems-inc-csco-q1-2019-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-08-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/15/cisco-systems-inc-csco-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-05-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/16/cisco-systems-inc-csco-q3-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/14/cisco-systems-inc-csco-q2-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2017-11-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/11/16/cisco-systems-csco-q1-2018-earnings-conference-cal.aspx"
+  }
+ ]
+}

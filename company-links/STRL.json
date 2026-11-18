@@ -1,0 +1,47 @@
+{
+ "ticker": "STRL",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000122/a20261028ex991earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000100/a20260803ex991earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000052/a20260504ex991earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000018/a20260225ex991earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/874238/000087423825000133/a20251103ex991earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/874238/000087423825000119/a20250804ex991earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/874238/000087423825000065/a20250505ex991earningsrele.htm",
+   "release_ok": true
+  }
+ ]
+}

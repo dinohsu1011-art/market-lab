@@ -1,0 +1,148 @@
+{
+ "ticker": "NXPI",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000057/nxp3q26exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000032/nxp1q26exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413447/000141344726000003/nxp4q25exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413447/000141344725000027/nxp1q25exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/04/nxp-semiconductors-nxpi-q4-2024-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413447/000141344725000009/nxp4q24exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/05/nxp-semiconductors-nxpi-q3-2024-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413447/000141344724000087/nxp3q24exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/23/nxp-semiconductors-nxpi-q2-2024-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413447/000141344724000074/s4nxp2q24exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/30/nxp-semiconductors-nxpi-q1-2024-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413447/000141344724000040/nxp1q24exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/06/nxp-semiconductors-nxpi-q4-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413447/000141344724000008/nxp4q23exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/07/nxp-semiconductors-nxpi-q3-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413447/000141344723000105/nxp3q23exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/25/nxp-semiconductors-nxpi-q2-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413447/000141344723000057/nxp2q23exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/02/nxp-semiconductors-nxpi-q1-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413447/000141344723000022/nxp1q23exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/31/nxp-semiconductors-nxpi-q4-2022-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413447/000141344723000002/nxp4q22exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/01/nxp-semiconductors-nxpi-q3-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/27/nxp-semiconductors-nxpi-q2-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/03/nxp-semiconductors-nxpi-q1-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/01/nxp-semiconductors-nxpi-q4-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/02/nxp-semiconductors-nv-nxpi-q3-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/03/nxp-semiconductors-nv-nxpi-q2-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/nxp-semiconductors-nv-nxpi-q1-2021-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/02/nxp-semiconductors-nv-nxpi-q4-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/27/nxp-semiconductors-nv-nxpi-q3-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/28/nxp-semiconductors-nv-nxpi-q2-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/28/nxp-semiconductors-nv-nxpi-q1-2020-earnings-call-t.aspx"
+  }
+ ],
+ "ir": "https://investors.nxp.com/"
+}

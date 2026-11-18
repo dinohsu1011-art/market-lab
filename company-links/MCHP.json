@@ -1,0 +1,206 @@
+{
+ "ticker": "MCHP",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000061/exhibit991q2fy27.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1250b85ff82ea65973b33b172b517a99/microchip/db/946/10649/presentation/Q2FY27_Investor_Presentation_Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000037/exhibit991q1fy27.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1250b85ff82ea65973b33b172b517a99/microchip/db/946/10620/presentation/Q1FY27+Investor+Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000012/exhibit991q4fy26.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1250b85ff82ea65973b33b172b517a99/microchip/db/946/10591/presentation/Q4FY26+Investor+Presentation_vF.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705426000008/exhibit991q3fy26.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1250b85ff82ea65973b33b172b517a99/microchip/db/946/10570/presentation/Q3FY26+Investor+Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705425000132/exhibit991q1fy26.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1250b85ff82ea65973b33b172b517a99/microchip/db/946/10522/presentation/Q1FY26+Investor+Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705425000061/exhibit991q4fy25.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1250b85ff82ea65973b33b172b517a99/microchip/db/946/10455/presentation/Q4FY25+Investor+Presentation.050825.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705425000018/exhibit991q3fy25.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1250b85ff82ea65973b33b172b517a99/microchip/db/946/10443/presentation/Q3FY25+Investor+Presentation.020625.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705424000205/exhibit991q2fy25.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1250b85ff82ea65973b33b172b517a99/microchip/db/946/10204/presentation/q2fy2025-investor-presentation-vf.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705424000138/exhibit991q1fy25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705424000078/exhibit991q4fy24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705424000022/exhibit991q3fy24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705423000183/exhibit991q2fy24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705423000131/exhibit991q1fy24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705423000060/exhibit991q4fy23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/827054/000082705423000019/exhibit991q3fy23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/02/microchip-technology-mchp-q1-2023-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-05-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/09/microchip-technology-mchp-q4-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/04/microchip-technology-mchp-q3-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/05/microchip-technology-mchp-q2-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/microchip-technology-mchp-q1-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/07/microchip-technology-mchp-q4-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/05/microchip-technology-mchp-q3-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/06/microchip-technology-mchp-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/05/microchip-technology-mchp-q1-2021-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/08/microchip-technology-mchp-q4-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/05/microchip-technology-mchp-q3-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/06/microchip-technology-mchp-q2-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/07/microchip-technology-mchp-q1-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/08/microchip-technology-mchp-q4-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/06/microchip-technology-inc-mchp-q3-2019-earnings-con.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2018-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/07/microchip-technology-inc-mchp-q2-2019-earnings-con.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-08-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/09/microchip-technology-incorporated-mchp-q1-2019-ear.aspx"
+  }
+ ],
+ "ir": "https://ir.microchip.com/",
+ "results": "https://ir.microchip.com/financial-info/financial-results"
+}

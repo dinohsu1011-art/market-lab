@@ -1,0 +1,29 @@
+{
+ "ticker": "TXRH",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1289460/000162828026071018/txrhq32026november52026-ex.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1289460/000110465926057105/txrh-20260506xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1289460/000110465925107724/txrh-20251105xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1289460/000155837025010761/txrh-20250806xex99d1.htm",
+   "release_ok": true
+  }
+ ]
+}

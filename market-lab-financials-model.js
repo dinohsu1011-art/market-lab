@@ -172,7 +172,7 @@
   // A workbook: sheets of cells, each cell {v (saved value), src, fn, val, pass}
   class Book {
     constructor(doc) {
-      this.sheets = new Map(); this.pass = 0; this.over = new Map(); this.bad = [];
+      this.sheets = new Map(); this.pass = 0; this.over = new Map(); this.bad = []; this.trace = null; this.reads = null; this.depth = 0;
       for (const s of doc.sheets) {
         const m = new Map();
         for (const [r, c, v, st, f, of] of s.cells) {
@@ -188,6 +188,8 @@
       const m = this.sheets.get(sh);
       if (!m) throw REF;
       const k = r * 1024 + c, ov = this.over.get(sh + '!' + k);
+      if (this.reads && this.depth > 0) this.reads.add(sh + '!' + k);
+      if (this.trace) { const tk = sh + '!' + k, p = this.trace.get(tk); if (p === undefined || this.depth < p) this.trace.set(tk, this.depth); }
       if (ov !== undefined) return ov;
       const x = m.get(k);
       if (!x) return null;
@@ -196,12 +198,17 @@
       if (x.busy) return x.v;   // a loop: fall back to Excel's saved value
       x.busy = true;
       let v;
+      this.depth++;
       try { v = x.fn(this); if (Array.isArray(v)) v = v.length === 1 ? v[0] : VALUE; }
-      catch (e) { if (isErr(e)) v = e; else { x.busy = false; throw e; } }
-      x.busy = false; x.val = v == null ? 0 : v; x.pass = this.pass;   // a formula pointing at an empty cell shows 0
+      catch (e) { if (isErr(e)) v = e; else { x.busy = false; this.depth--; throw e; } }
+      this.depth--; x.busy = false; x.val = v == null ? 0 : v; x.pass = this.pass;   // a formula pointing at an empty cell shows 0
       return x.val;
     }
     setOver(sh, r, c, v) { const k = sh + '!' + (r * 1024 + c); if (v == null) this.over.delete(k); else this.over.set(k, v); }
+    // every cell the formula at sh!r,c reads, near or far, with how many steps away it is
+    precedents(sh, r, c) { this.trace = new Map(); this.depth = 0; this.pass++; try { this.get(sh, r, c); } finally { var t = this.trace; this.trace = null; } return t; }
+    // every cell some formula reads (inputs nothing reads drive nothing)
+    readSet() { this.reads = new Set(); try { this.recalc(); } finally { var r = this.reads; this.reads = null; } return r; }
     recalc() { this.pass++; for (const [sh, m] of this.sheets) for (const x of m.values()) if (x.fn) this.get(sh, x.r, x.c); }
     value(sh, r, c) { const x = this.cell(sh, r, c), ov = this.over.get(sh + '!' + (r * 1024 + c)); if (ov !== undefined) return ov; return !x ? null : x.fn ? (x.pass === this.pass ? x.val : this.get(sh, r, c)) : x.v; }
   }
@@ -235,7 +242,8 @@
     return x < 0 ? (fl.includes('(') ? `(${s})` : `-${s}`) : s;
   }
 
-  let M = null, B = null, T = null, view = {sheet: null}, ov = {}, layout = null, el = null;
+  let M = null, B = null, T = null, view = {sheet: null}, ov = {}, links = {}, layout = null, el = null, reads = null;
+  const DRV = '*drivers';
 
   // Each sheet: header row (quarter labels), the flag row under it (1 = actual), body rows.
   function shape(s) {
@@ -295,6 +303,52 @@
   const TYPED = /\+\s*\(1-\$?[A-Z]+\$?\d+\)\*\(\s*(\(?-?(?:\d+\.?\d*|\.\d+)(?:[eE][-+]?\d+)?\)?)\s*\)$/;
   const typedVal = x => { const m = x && x.fn && x.src && x.src.match(TYPED); return m ? Number(m[1].replace(/[()]/g, '')) : undefined; };
 
+  // "Online Stores under Growth assumptions, Q4 2026e": the group heading tells apart rows that share a name
+  const keyLabel = (k, here) => {
+    const [sh, rk, col] = k.split('|'), L = layout.get(sh);
+    const i = L ? L.rows.findIndex(x => x.key === rk) : -1;
+    let grp = '';
+    for (let j = i - 1; j >= 0; j--) { const g = L.rows[j]; if (g.label.trim() && !L.cols.some(c => B.cell(sh, g.r, c.c))) { grp = g.label.trim(); break; } }
+    return `${rk.replace(/#\d+$/, '')}${grp ? ' under ' + grp : ''}, ${col}${sh === here ? '' : ' on ' + sh};`.replace(/;$/, '');
+  };
+  const fxTitle = (x, edited, lk, here) => lk ? `Set by changing ${keyLabel(lk, here)}. Clear to restore ${x.orig || ''}`
+    : edited ? 'Typed over. Clear to restore ' + (x.orig || '') : (x.orig || '');
+
+  // Typing over a formula works backward, like Excel's Goal Seek: find the nearest typed input in an
+  // estimate column that the formula reads, and solve for the value that makes the formula show the
+  // typed number. The formula stays live. Returns {key, x} or null when no input moves it.
+  function seek(L, r, c, want) {
+    const sh = L.s.name, home = sh + '!' + (r * 1024 + c);
+    const cands = [];
+    for (const [tk, d] of B.precedents(sh, r, c)) {
+      if (tk === home) continue;
+      const i = tk.lastIndexOf('!'), s2 = tk.slice(0, i), k = +tk.slice(i + 1), rr = Math.floor(k / 1024), c2 = k % 1024;
+      const L2 = layout.get(s2); if (!L2) continue;
+      const row2 = L2.rows.find(x => x.r === rr), col2 = L2.cols.find(x => x.c === c2);
+      if (!row2 || !col2 || !isEst(L2, col2)) continue;
+      const x2 = B.cell(s2, rr, c2);
+      if (!x2 || !(x2.fn ? typedVal(x2) !== undefined : typeof x2.v === 'number')) continue;
+      cands.push({s2, rr, c2, d, key: okey(L2, row2, col2), near: (s2 === sh ? 2 : 0) + (c2 === c ? 1 : 0)});
+    }
+    cands.sort((a, b) => a.d - b.d || b.near - a.near || a.rr - b.rr);
+    const tol = 1e-9 * Math.max(1, Math.abs(want));
+    for (const cd of cands.slice(0, 12)) {
+      const ok = B.over.get(cd.s2 + '!' + (cd.rr * 1024 + cd.c2));
+      const f = x => { B.setOver(cd.s2, cd.rr, cd.c2, x); B.pass++; const v = B.get(sh, r, c); return typeof v === 'number' && isFinite(v) ? v - want : NaN; };
+      let x0 = B.value(cd.s2, cd.rr, cd.c2); if (typeof x0 !== 'number' || !isFinite(x0)) x0 = 0;
+      let x1 = x0 + (Math.abs(x0) > 1e-9 ? Math.abs(x0) * 0.01 : 0.01), f0 = f(x0), f1 = f(x1), hit = null;
+      for (let n = 0; n < 40 && isFinite(f0) && isFinite(f1); n++) {
+        if (Math.abs(f1) <= tol) { hit = x1; break; }
+        if (Math.abs(f1 - f0) < 1e-15) break;
+        const x2 = x1 - f1 * (x1 - x0) / (f1 - f0);
+        x0 = x1; f0 = f1; x1 = x2; f1 = f(x1);
+      }
+      B.setOver(cd.s2, cd.rr, cd.c2, ok);
+      if (hit != null) return {key: cd.key, x: Number(hit.toPrecision(12))};
+    }
+    return null;
+  }
+
   function table(L) {
     const est = L.cols.map(col => isEst(L, col));
     const firstEst = est.indexOf(true);
@@ -317,11 +371,12 @@
         if (cst.i) cc.push('i');
         if ((!x.fn && typeof x.v === 'number') || (est[k] && typedVal(x) !== undefined)) {
           cc.push('inp'); if (edited) cc.push('edited');
-          return `<td class="${cc.join(' ')}" data-r="${row.r}" data-c="${col.c}"><input inputmode="decimal" aria-label="${esc(row.label.trim() || 'Row ' + row.r)}, ${esc(col.label)}" title="Clear to undo"></td>`;
+          return `<td class="${cc.join(' ')}" data-r="${row.r}" data-c="${col.c}" data-s="${esc(L.s.name)}"><input inputmode="decimal" aria-label="${esc(row.label.trim() || 'Row ' + row.r)}, ${esc(col.label)}" title="Clear to undo"></td>`;
         }
         if (x.fn) cc.push('fx');
-        if (edited) cc.push('edited');
-        return `<td class="${cc.join(' ')}" data-r="${row.r}" data-c="${col.c}"${x.orig ? ` title="${esc(edited ? 'Typed over. Clear to restore ' + x.orig : x.orig)}"` : ''}></td>`;
+        const lk = links[okey(L, row, col)];
+        if (edited || lk) cc.push('edited');
+        return `<td class="${cc.join(' ')}" data-r="${row.r}" data-c="${col.c}" data-s="${esc(L.s.name)}" title="${esc(fxTitle(x, edited, lk, L.s.name))}"></td>`;
       }).join('');
       return `<tr class="${cls}"><td class="lab" style="padding-left:${12 + ind * 14}px">${esc(row.label.trim())}</td>${tds}</tr>`;
     }).join('');
@@ -329,9 +384,13 @@
   }
 
   function fill(flash) {
-    const L = layout.get(view.sheet);
+    const maps = new Map();
     el.querySelectorAll('td[data-r]').forEach(td => {
+      let m = maps.get(td.dataset.s);
+      if (!m) { const L = layout.get(td.dataset.s); m = {L, rk: new Map(L.rows.map(x => [x.r, x])), ck: new Map(L.cols.map(x => [x.c, x]))}; maps.set(td.dataset.s, m); }
+      const {L, rk, ck} = m;
       const r = +td.dataset.r, c = +td.dataset.c, x = B.cell(L.s.name, r, c), v = B.value(L.s.name, r, c), st = M.styles[x.st] || {};
+      const k = okey(L, rk.get(r), ck.get(c)); td.classList.toggle('edited', ov[k] != null || !!links[k]);
       const t = fmt(v, st);
       const inp = td.querySelector('input');
       if (inp) { if (document.activeElement !== inp) inp.value = t; return; }
@@ -340,15 +399,42 @@
     });
   }
 
+  // The Drivers view: every input in an estimate column that something in the model reads, gathered
+  // from all build sheets under their own headings, with the first sheet's headline lines on top.
+  const hasVals = (L, row) => L.cols.some(col => B.cell(L.s.name, row.r, col.c));
+  const isInput = x => x && (x.fn ? typedVal(x) !== undefined : typeof x.v === 'number');
+  function drivers() {
+    const out = [], first = layout.get(M.sheets[0].name);
+    // headline: the first block of the first sheet, plus its operating income (or gross profit) block
+    const blocks = [[]];
+    for (const row of first.rows) { if (!row.label.trim() && !hasVals(first, row)) { if (blocks[blocks.length - 1].length) blocks.push([]); } else blocks[blocks.length - 1].push(row); }
+    const prof = b => b.some(r => /operating income|gross profit|ebit\b/i.test(r.label));
+    const pick = [blocks[0], prof(blocks[0]) ? null : blocks.slice(1).find(prof)].filter(Boolean);
+    if (pick.length) out.push(table({...first, rows: pick.flatMap((b, i) => i ? [{r: -1, label: '', key: '', st: {}}, ...b] : b)}));
+    for (const s of M.sheets) {
+      const L = layout.get(s.name), rows = [];
+      let head = null;
+      for (const row of L.rows) {
+        if (row.label.trim() && !hasVals(L, row)) { head = row; continue; }
+        const live = L.cols.some(col => isEst(L, col) && isInput(B.cell(s.name, row.r, col.c)) && reads.has(s.name + '!' + (row.r * 1024 + col.c)));
+        if (!live) continue;
+        if (head) { if (rows.length) rows.push({r: -1, label: '', key: '', st: {}}); rows.push(head); head = null; }
+        rows.push(row);
+      }
+      if (rows.length) out.push(table({...L, rows, title: s.name}));
+    }
+    return out.join('') || '<p class="mdl-none">No inputs found.</p>';
+  }
+
   function draw() {
-    const names = M.sheets.map(s => s.name);
-    if (!names.includes(view.sheet)) view.sheet = names[0];
+    const names = [DRV, ...M.sheets.map(s => s.name)];
+    if (!names.includes(view.sheet)) view.sheet = DRV;
     const edits = Object.keys(ov).length;
     el.innerHTML = `<div class="mdl-bar"><div class="seg" role="group" aria-label="Sheet">${names.map(n =>
-      `<button type="button" data-sheet="${esc(n)}" aria-pressed="${n === view.sheet}">${esc(n)}</button>`).join('')}</div><span class="spacer"></span>` +
+      `<button type="button" data-sheet="${esc(n)}" aria-pressed="${n === view.sheet}">${n === DRV ? 'Drivers' : esc(n)}</button>`).join('')}</div><span class="spacer"></span>` +
       `<button type="button" data-backup title="Save every edit on the Financials page, all companies, to a file">Back up</button>` +
       `<button type="button" data-restore title="Load edits from a backup file">Restore</button>` +
-      `<button type="button" data-reset${edits ? '' : ' disabled'} title="${esc(M.file)}, saved ${M.saved}">Reset edits</button></div>` + table(layout.get(view.sheet));
+      `<button type="button" data-reset${edits ? '' : ' disabled'} title="${esc(M.file)}, saved ${M.saved}">Reset edits</button></div>` + (view.sheet === DRV ? drivers() : table(layout.get(view.sheet)));
     fill(false);
   }
 
@@ -362,17 +448,30 @@
   }
 
   function commit(td, text) {
-    const L = layout.get(view.sheet), r = +td.dataset.r, c = +td.dataset.c;
+    const L = layout.get(td.dataset.s), r = +td.dataset.r, c = +td.dataset.c;
     const row = L.rows.find(x => x.r === r), col = L.cols.find(x => x.c === c), x = B.cell(L.s.name, r, c);
     const v = parseIn(text, M.styles[x.st]);
     if (v === undefined) { fill(false); return; }
-    const base = x.fn ? typedVal(x) : x.v;
-    const k = okey(L, row, col), same = v != null && typeof base === 'number' && Math.abs(v - base) < 1e-12;
-    if (v == null || same) delete ov[k]; else ov[k] = v;
-    store.set(KEY(T), {ov});
+    const k = okey(L, row, col), was = snap();
+    const tv = typedVal(x), live = x.fn && !(isEst(L, col) && tv !== undefined);
+    if (live) {
+      // a formula cell: undo clears the input it moved; a number solves for that input
+      const drop = ik => { for (const t in links) if (links[t] === ik) delete links[t]; };   // one input follows one target, the newest
+      if (links[k]) { const ik = links[k]; if (v == null) delete ov[ik]; drop(ik); }
+      delete ov[k]; applyOv();
+      if (v != null) {
+        const got = seek(L, r, c, v);
+        if (got) { drop(got.key); ov[got.key] = got.x; links[k] = got.key; } else ov[k] = v;
+      }
+    } else {
+      const base = x.fn ? tv : x.v, same = v != null && typeof base === 'number' && Math.abs(v - base) < 1e-12;
+      if (v == null || same) delete ov[k]; else ov[k] = v;
+      for (const t in links) if (links[t] === k) delete links[t];   // typed straight into an input: it no longer follows a target
+    }
+    mark(was);
+    store.set(KEY(T), {ov, links});
     applyOv();
-    td.classList.toggle('edited', ov[k] != null);
-    if (x.fn) td.title = ov[k] != null ? 'Typed over. Clear to restore ' + x.orig : x.orig;
+    if (x.fn) td.title = fxTitle(x, ov[k] != null, links[k], L.s.name);
     const rb = el.querySelector('[data-reset]'); if (rb) rb.disabled = !Object.keys(ov).length;
     fill(true);
   }
@@ -381,14 +480,14 @@
     el.addEventListener('click', e => {
       const b = e.target.closest('[data-sheet]');
       if (b) { view.sheet = b.dataset.sheet; store.set('equinox.fin.model.view', view); draw(); return; }
-      if (e.target.closest('[data-reset]')) { ov = {}; store.set(KEY(T), {ov}); applyOv(); draw(); return; }
+      if (e.target.closest('[data-reset]')) { const was = snap(); ov = {}; links = {}; mark(was); store.set(KEY(T), {ov, links}); applyOv(); draw(); return; }
       if (e.target.closest('[data-backup]')) { backup(); return; }
       if (e.target.closest('[data-restore]')) restore();
     });
     el.addEventListener('dblclick', e => {
       const td = e.target.closest('td.fx');
       if (!td || td.querySelector('input')) return;
-      const L = layout.get(view.sheet), v = B.value(L.s.name, +td.dataset.r, +td.dataset.c);
+      const L = layout.get(td.dataset.s), v = B.value(L.s.name, +td.dataset.r, +td.dataset.c);
       td.textContent = '';
       const inp = document.createElement('input');
       inp.setAttribute('inputmode', 'decimal');
@@ -406,7 +505,17 @@
       let nx = tr.nextElementSibling; while (nx && !(nx.children[k] && nx.children[k].querySelector('input'))) nx = nx.nextElementSibling;
       if (nx) nx.children[k].querySelector('input').focus();
     });
-    el.addEventListener('focusin', e => { if (e.target.matches('td.inp input')) e.target.select(); });
+    el.addEventListener('focusin', e => { if (e.target.matches('td.inp input')) { e.target.dataset.v0 = e.target.value; e.target.select(); } });
+    document.addEventListener('keydown', e => {
+      const k = e.key.toLowerCase();
+      if (!(e.ctrlKey || e.metaKey) || e.altKey || (k !== 'z' && k !== 'y') || !el || el.hidden) return;
+      const a = document.activeElement, typing = a && a.matches('input:not([type=checkbox]), textarea, select');
+      if (typing && (!el.contains(a) || a.value !== a.dataset.v0)) return;   // text still being typed: the browser undoes the typing
+      const redo = k === 'y' || e.shiftKey, from = redo ? RE : UN, to = redo ? UN : RE;
+      if (!from.length) return;
+      e.preventDefault();
+      to.push(snap()); ({ov, links} = JSON.parse(from.pop())); store.set(KEY(T), {ov, links}); applyOv(); draw();
+    });
     window.addEventListener('pagehide', () => { const a = document.activeElement; if (a && el.contains(a) && a.matches('td.inp input')) a.dispatchEvent(new Event(a.closest('.live') ? 'blur' : 'change', {bubbles: true})); });
   }
 
@@ -436,6 +545,10 @@
   }
 
   let wired = false;
+  // Ctrl/Cmd+Z steps back through the edits made since this model was opened; Shift+Z or Ctrl+Y steps forward
+  let UN = [], RE = [];
+  const snap = () => JSON.stringify({ov, links});
+  const mark = was => { if (was === snap()) return; UN.push(was); if (UN.length > 200) UN.shift(); RE = []; };
   function mount(target, ticker, doc) {
     el = target;
     if (!wired) { wire(); wired = true; }
@@ -443,7 +556,8 @@
       T = ticker; M = doc; B = new Book(doc);
       if (B.bad.length) console.warn('Model formulas not read:', B.bad.slice(0, 10));
       layout = new Map(doc.sheets.map(s => [s.name, shape(s)]));
-      ov = (store.get(KEY(T), {}).ov) || {};
+      reads = B.readSet();
+      const saved = store.get(KEY(T), {}); ov = saved.ov || {}; links = saved.links || {}; UN = []; RE = [];
       view = store.get('equinox.fin.model.view', {sheet: null});
       applyOv();
     }

@@ -3,59 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Earnings calls — Equinox</title>
-  <link rel="stylesheet" href="market-lab-calls.css?v=20261113-7ebfc70e">
-<link rel="stylesheet" href="market-lab-shell.css?v=20261113-7ebfc70e"><script src="market-lab-shell.js?v=20261113-7ebfc70e"></script></head>
+  <title>Earnings calls moved · Equinox</title>
+  <script>location.replace("market-lab-industry.html#live-entertainment"+(location.hash.indexOf("=")>0?"&"+location.hash.slice(1):""));</script>
+</head>
 <body>
-<div class="calls-page">
-  <div class="mast"><h1>Earnings calls</h1><span id="asof"></span></div>
-  <div id="load-error" hidden role="alert"></div>
-
-  <section id="trend" aria-labelledby="trend-h">
-    <h2 id="trend-h">How often it comes up</h2>
-    <div class="calls-controls">
-      <label>Topic <select id="lens"></select></label>
-      <label>Compare <select id="mode"><option value="company">Companies</option><option value="sector">Sectors</option><option value="basket">Baskets</option></select></label>
-      <label id="cos-wrap">Show <select id="cos"></select></label>
-      <label>Who said it <select id="who"><option value="all">Everyone</option><option value="mgmt">Management</option><option value="analyst">Analysts</option></select></label>
-      <label>Measure <select id="measure"><option value="p10k">Per 10,000 words</option><option value="call">Mentions per call</option></select></label>
-      <label>Smooth <select id="smooth"><option value="4">4-quarter average</option><option value="1">Each quarter</option></select></label>
-    </div>
-    <div class="calls-chart" id="chart"></div>
-    <div class="series-key" id="key" aria-label="Show or hide lines"></div>
-  </section>
-
-  <section id="search" aria-labelledby="search-h">
-    <h2 id="search-h">Phrase search</h2>
-    <div class="calls-controls">
-      <input type="search" id="q" placeholder="Search saved quotes, e.g. 45-day window" aria-label="Phrase" title="Searches the short quotes saved for each call, not full transcripts">
-      <label>Topic <select id="qlens"><option value="">Any</option></select></label>
-      <label>Company <select id="qent"><option value="">Any</option></select></label>
-    </div>
-    <div class="search-out" id="search-out" role="status"></div>
-  </section>
-
-  <section id="stance" aria-labelledby="stance-h">
-    <h2 id="stance-h">Management stance by call</h2>
-    <div class="stance-head">
-      <div class="seg" id="topic" role="group" aria-label="Topic"></div>
-      <div class="stance-legend" id="stance-legend"></div>
-    </div>
-    <div class="stance-wrap" id="heat"></div>
-    <div class="stance-quote" id="stance-quote" aria-live="polite"></div>
-  </section>
-
-  <section id="turns" aria-labelledby="turns-h">
-    <h2 id="turns-h">Recent turns</h2>
-    <ul class="turns" id="turn-list"></ul>
-    <button type="button" id="more-turns" hidden>Show all</button>
-  </section>
-
-  <details class="method" id="method">
-    <summary>Methodology</summary>
-    <div class="body" id="method-body"></div>
-  </details>
-</div>
-<script src="market-lab-calls.js?v=20261113-7ebfc70e"></script>
+  <p>Earnings calls moved to <a href="market-lab-industry.html#live-entertainment">Industry</a>.</p>
 </body>
 </html>

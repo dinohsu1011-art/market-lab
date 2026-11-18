@@ -1,0 +1,185 @@
+{
+ "ticker": "DUK",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000048/er-20260930xearningsreleas.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000037/er-20260630xearningsreleas.htm",
+   "release_ok": true,
+   "slides": "https://s201.q4cdn.com/583395453/files/doc_financials/2026/q2/Q2-2026-Earnings-Presentation_vF-w-Reg-G-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000022/er-20260331xearningsreleas.htm",
+   "release_ok": true,
+   "slides": "https://s201.q4cdn.com/583395453/files/doc_financials/2026/q1/Q1-2026-Earnings-Presentation-w-Reg-G.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000007/er-20251231xearningsreleas.htm",
+   "release_ok": true,
+   "slides": "https://s201.q4cdn.com/583395453/files/doc_financials/2025/q4/Q4-2025-Earnings-Presentation_vF-w-Reg-G.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616025000190/er-20250930xearningsreleas.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616025000165/er-20250630xearningsreleas.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616025000148/er-20250331xearningsreleas.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616025000040/er-20241231xearningsreleas.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616024000179/er-20240930xearningsreleas.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616024000164/er-20240630xearningsreleas.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616024000103/er-20240331xearningsreleas.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616024000031/er-20231231xearningsreleas.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616023000188/er-20230930xearningsreleas.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616023000171/er-20230630xearningsreleas.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616023000146/er-20230331xearningsreleas.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1326160/000132616023000031/er-20221231xearningsreleas.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/duke-energy-corporation-duk-q3-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/duke-energy-corporation-duk-q2-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/10/duke-energy-corp-duk-q1-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/11/duke-energy-corp-duk-q4-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/05/duke-energy-corp-duk-q3-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/10/duke-energy-corp-duk-q2-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/12/duke-energy-corp-duk-q1-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/13/duke-energy-corp-duk-q4-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/08/duke-energy-corp-duk-q3-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/06/duke-energy-corp-duk-q2-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/09/duke-energy-corp-duk-q1-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/14/duke-energy-corp-duk-q4-2018-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/02/duke-energy-corp-duk-q3-2018-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-05-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/10/duke-energy-corporation-duk-q1-2018-earnings-confe.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/20/duke-energy-corporation-duk-q4-2017-earnings-confe.aspx"
+  }
+ ]
+}

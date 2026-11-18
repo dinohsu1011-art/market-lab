@@ -36,7 +36,7 @@
 .fin-chart .tip span{float:right;margin-left:14px;font-variant-numeric:tabular-nums}
 
 /* grid */
-.fin-wrap{overflow:auto;max-height:calc(100vh - 32px);overscroll-behavior:contain;border:1px solid var(--ml-border);border-radius:8px;background:var(--ml-surface)}
+.fin-wrap{overflow:auto;max-height:calc(100vh - 32px);overscroll-behavior:contain auto;border:1px solid var(--ml-border);border-radius:8px;background:var(--ml-surface)}
 table.fin{border-collapse:separate;border-spacing:0;width:100%;font-variant-numeric:tabular-nums;font-size:15px}
 .fin th,.fin td{padding:0 12px;height:38px;white-space:nowrap;text-align:right;border-bottom:1px solid transparent}
 .fin thead th{position:sticky;top:0;background:var(--ml-surface);font-weight:600;font-size:14px;border-bottom:1px solid var(--ml-border);z-index:2}
@@ -100,8 +100,14 @@ table.fin{border-collapse:separate;border-spacing:0;width:100%;font-variant-nume
 /* chart mode switch and pies */
 .fin-chart .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin:0 0 6px}
 .fin-chart .ctop .key{margin:4px 0 0}
-.fin-chart .cm{flex:none}
+.fin-chart .cm{flex:none;position:relative}
 .fin-chart .cm button{font-size:13px;padding:4px 10px}
+.fin-chart .gbtn::after{content:"";display:inline-block;margin-left:7px;border:4px solid transparent;border-top-color:currentColor;border-bottom:0;vertical-align:middle}
+.fin-chart .glist{position:absolute;right:0;top:calc(100% + 4px);z-index:5;min-width:150px;padding:4px;background:var(--ml-bg);border:1px solid var(--ml-border);border-radius:6px;box-shadow:0 8px 24px rgba(0,0,0,.14)}
+.fin-chart .glist[hidden]{display:none}
+.fin-chart .glist button{display:block;width:100%;text-align:left;border:0;border-radius:4px;background:none;padding:6px 10px}
+.fin-chart .glist button:hover,.fin-chart .glist button:focus-visible{background:color-mix(in srgb,var(--ml-ink) 8%,transparent)}
+.fin-chart .glist button[aria-checked="true"]{font-weight:600;background:color-mix(in srgb,var(--ml-ink) 12%,transparent)}
 .fin-chart .pies{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding:10px 4px 6px}
 .fin-chart figure{margin:0}
 .fin-chart figcaption{display:flex;align-items:baseline;gap:10px;margin:0 0 10px;font-size:15px}
@@ -171,6 +177,8 @@ table.fin.mt td[data-sens]{cursor:help}
 .fin.mdl tr.gap td{height:12px}
 .fin.mdl tr.grp td.lab{font-weight:600}
 .fin.mdl tr.total td{font-weight:600}
+.mdl-wrap+.mdl-wrap{margin-top:28px}
+.mdl-none{color:var(--ml-muted);margin:24px 0}
 .fin.mdl tr.rule td{border-bottom-color:var(--ml-border)}
 .fin.mdl td.fx{cursor:default}
 .fin.mdl td.fx:hover{background:var(--fin-est)}

@@ -1,0 +1,13 @@
+{
+ "ticker": "FOX",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026033145/foxearningsreleaseq326.htm",
+   "release_ok": true
+  }
+ ],
+ "ir": "https://investor.foxcorporation.com/",
+ "results": "https://investor.foxcorporation.com/reports/quarterly-reports/"
+}

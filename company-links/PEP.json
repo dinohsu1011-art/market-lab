@@ -1,0 +1,163 @@
+{
+ "ticker": "PEP",
+ "ir": "https://investors.pepsico.com/",
+ "results": "https://investors.pepsico.com/investors/earnings/index.html",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-08",
+   "slides": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q3-2026-prepared-management-remarks.pdf",
+   "slides_kind": "remarks",
+   "release": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q3-2026-earnings-release.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-09",
+   "slides": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q2-2026-prepared-management-remarks.pdf",
+   "slides_kind": "remarks",
+   "release": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q2-2026-earnings-release.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-16",
+   "slides": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q1-2026-prepared-management-remarks.pdf",
+   "slides_kind": "remarks",
+   "release": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q1-2026-earnings-release.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-09",
+   "slides": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q3-2025-prepared-management-remarks.pdf",
+   "slides_kind": "remarks",
+   "release": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q3-2025-earnings-release.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-24",
+   "slides": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q1-2025-prepared-management-remarks.pdf",
+   "slides_kind": "remarks",
+   "release": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q1-2025-earnings-release.pdf",
+   "transcript": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q1-2025-pep_transcript.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/04/pepsico-pep-q4-2024-earnings-call-transcript/",
+   "slides": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q4-2024-prepared-management-remarks.pdf",
+   "slides_kind": "remarks",
+   "release": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q4-2024-earnings-release.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/10/pepsico-pep-q3-2024-earnings-call-transcript/",
+   "slides": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q3-2024-prepared-management-remarks.pdf",
+   "slides_kind": "remarks",
+   "release": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q3-2024-earnings-release.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-11",
+   "slides": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q2-2024-prepared-management-remarks.pdf",
+   "slides_kind": "remarks",
+   "release": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q2-2024-earnings-release.pdf",
+   "transcript": "https://investors.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/q2-2024-pep_transcript.pdf"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/77476/000007747624000019/q120248-kxexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/77476/000007747624000010/q420238-kxexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/77476/000007747623000060/q320238-kxexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/77476/000007747623000048/q220238-kxexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/77476/000007747623000025/q120238-kxexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/77476/000007747623000009/q420228-kxexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/05/pepsico-inc-pep-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/13/pepsico-inc-pep-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/15/pepsico-inc-pep-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/11/pepsico-inc-pep-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/01/pepsico-inc-pep-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/13/pepsico-inc-pep-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/28/pepsico-inc-pep-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/13/pepsico-inc-pep-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/17/pepsico-inc-pep-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/15/pepsico-pep-q4-2018-earnings-conference-call-trans.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/26/pepsico-inc-pep-q1-2018-earnings-conference-call-t.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/13/pepsico-inc-pep-q4-2017-earnings-conference-call-t.aspx"
+  }
+ ]
+}

@@ -1,0 +1,356 @@
+{
+ "ticker": "NVDA",
+ "ir": "https://investor.nvidia.com/",
+ "results": "https://investor.nvidia.com/financial-info/quarterly-results/default.aspx",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-08-26",
+   "slides": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q227/NVDA-F2Q27-Quarterly-Presentation-final-1.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+   "release_ok": true,
+   "transcript": "https://s201.q4cdn.com/141608511/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf"
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-05-20",
+   "slides": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/Q127/NVDA-F1Q27-Quarterly-Presentation-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
+   "release_ok": true,
+   "transcript": "https://s201.q4cdn.com/141608511/files/doc_financials/2027/q1/NVDA-Q1-2027-Earnings-Call-20-May-2026-5_00-PM-ET.pdf"
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-02-25",
+   "slides": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/Q426/NVDA-F4Q26-Quarterly-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+   "release_ok": true,
+   "transcript": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q4/NVDA-Q4-2026-Earnings-Call-25-February-2026-5_00-PM-ET.pdf"
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2025-11-19",
+   "slides": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q3/NVDA-F3Q26-Quarterly-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2026",
+   "release_ok": true,
+   "transcript": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q3/NVDA-Q3-2026-Earnings-Call-19-November-2025-5_00-PM-ET.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-08-27",
+   "slides": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q2/NVDA-F2Q26-Quarterly-Presentation-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2026",
+   "release_ok": true,
+   "transcript": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q2/NVDA-Q2-2026-Earnings-Call-27-August-2025-5_00-PM-ET.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-05-28",
+   "slides": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q1/NVDA-F1Q26-Quarterly-Presentation-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2026",
+   "release_ok": true,
+   "transcript": "https://s201.q4cdn.com/141608511/files/doc_financials/2026/q1/NVDA-Q1-2026-Earnings-Call-28-May-2025-5_00-PM-ET.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-02-26",
+   "slides": "https://s201.q4cdn.com/141608511/files/doc_financials/2025/q4/NVDA-F4Q25-Quarterly-Presentation-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2025",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/26/nvidia-nvda-q4-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2024-11-20",
+   "slides": "https://s201.q4cdn.com/141608511/files/doc_financials/2025/q3/NVDA-F3Q25-Quarterly-Presentation-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2025",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/20/nvidia-nvda-q3-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-08-28",
+   "slides": "https://s201.q4cdn.com/141608511/files/doc_financials/2025/q2/NVDA-F2Q25-Quarterly-Presentation-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2025",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/28/nvidia-nvda-q2-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-05-22",
+   "slides": "https://s201.q4cdn.com/141608511/files/doc_financials/2025/q1/NVDA-F1Q25-Quarterly-Presentation-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2025",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/29/nvidia-nvda-q1-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-02-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000028/q4fy24pr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2023-11-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/22/nvidia-nvda-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000225/q3fy24pr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-08-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/23/nvidia-nvda-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000171/q2fy24pr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-05-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/24/nvidia-nvda-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000087/q1fy24pr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-02-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/22/nvidia-nvda-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000014/q4fy23pr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2022-11-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/16/nvidia-nvda-q3-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2022-08-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/24/nvidia-nvda-q2-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-05-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/26/nvidia-nvda-q1-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-02-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/17/nvidia-nvda-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2021-11-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/18/nvidia-corporation-nvda-q3-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2021-08-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/18/nvidia-corporation-nvda-q2-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-05-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/27/nvidia-corp-nvda-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-02-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/25/nvidia-corp-nvda-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2020-08-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/20/nvidia-nvda-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-05-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/22/nvidia-corp-nvda-q1-2021-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/14/nvidia-corp-nvda-q4-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2019-11-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/14/nvidia-corp-nvda-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-08-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/16/nvidia-corp-nvda-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-05-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/20/nvidia-corp-nvda-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/15/nvidia-nvda-q4-2019-earnings-conference-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2018-11-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/16/nvidia-corporation-nvda-q3-2019-earnings-conferenc.aspx"
+  }
+ ],
+ "events": [
+  {
+   "title": "GTC Berlin 2026 Keynote",
+   "date": "2026-10-21",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_events/2026/Oct/Keynote_GTCEU2026_.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "GTC Taipei 2026 Keynote (Computex)",
+   "date": "2026-05-31",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_events/2026/Jun/01/JHH-Computex-2026-Keynote.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "GTC 2026 Financial Analyst Q&A",
+   "date": "2026-03-17",
+   "url": "https://video.ibm.com/recorded/134740555",
+   "kind": "webcast",
+   "ok": true
+  },
+  {
+   "title": "GTC 2026 Keynote",
+   "date": "2026-03-16",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_events/2026/Mar/16/GTC-2026-Keynote.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "CES 2026 Financial Analyst Q&A",
+   "date": "2026-01-05",
+   "url": "https://video.ibm.com/recorded/134654723",
+   "kind": "webcast",
+   "ok": true
+  },
+  {
+   "title": "NVIDIA Live at CES 2026 Keynote",
+   "date": "2026-01-05",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_downloads/2026/01/05/JHH-CES-2026-FINAL.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "GTC Washington DC 2025 Keynote",
+   "date": "2025-10-28",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_events/2025/Oct/28/gtc-dc-2025.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "GTC Paris 2025 Financial Analyst Q&A",
+   "date": "2025-06-11",
+   "url": "https://video.ibm.com/channel/24737246/video/fg3k48",
+   "kind": "webcast",
+   "ok": true
+  },
+  {
+   "title": "GTC Paris 2025 Keynote",
+   "date": "2025-06-11",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_events/2025/Jun/11/GTC-Paris-2025-Keynote.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "GTC Taipei 2025 Keynote (Computex)",
+   "date": "2025-05-18",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_events/2025/May/19/GTC-Taipei-Computex-25-Keynote.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "GTC 2025 Financial Analyst Q&A",
+   "date": "2025-03-19",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_presentations/2025/03/GTC_Financial-Analyst-QA_Slides.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "GTC 2025 Keynote",
+   "date": "2025-03-18",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_downloads/2025/03/GTC2025_Keynote.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "CES 2025 Financial Analyst Q&A",
+   "date": "2025-01-07",
+   "url": "https://video.ibm.com/recorded/134164455",
+   "kind": "webcast",
+   "ok": true
+  },
+  {
+   "title": "Computex 2024 Keynote",
+   "date": "2024-06-02",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_presentations/2024/June/NVIDIA-Computex-2024-Keynote.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "GTC 2024 Financial Analyst Q&A",
+   "date": "2024-03-19",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_presentations/2024/Mar/GTC-Financial-Analyst-Q-A.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "GTC 2024 Keynote",
+   "date": "2024-03-18",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_events/2024/Mar/18/NVIDIA_GTC2024-Keynote.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "GTC 2023 Financial Analyst Q&A",
+   "date": "2023-03-21",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_presentations/2023/03/GTC-2023-Financial-Analyst-Presentation_FINAL-1.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "GTC Financial Analyst Q&A (September 2022)",
+   "date": "2022-09-20",
+   "url": "https://video.ibm.com/recorded/132127846",
+   "kind": "webcast",
+   "ok": true
+  },
+  {
+   "title": "NVIDIA Investor Day 2022",
+   "date": "2022-03-22",
+   "url": "https://s201.q4cdn.com/141608511/files/doc_presentations/2022/NVIDIA-Investor-Day-2022-Presentation.pdf",
+   "kind": "slides",
+   "ok": true
+  }
+ ]
+}

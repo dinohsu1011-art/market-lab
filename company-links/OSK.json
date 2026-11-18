@@ -1,0 +1,29 @@
+{
+ "ticker": "OSK",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/775158/000119312526437039/osk-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/775158/000119312526213376/osk-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/775158/000119312526028232/osk-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/775158/000119312525254706/osk-ex99_1.htm",
+   "release_ok": true
+  }
+ ]
+}

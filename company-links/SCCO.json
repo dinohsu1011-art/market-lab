@@ -1,0 +1,23 @@
+{
+ "ticker": "SCCO",
+ "quarters": [
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001838/000155837025009748/scco-20250728xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001838/000155837025005526/scco-20250424xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001838/000155837024013432/scco-20241021xex99d1.htm",
+   "release_ok": true
+  }
+ ]
+}

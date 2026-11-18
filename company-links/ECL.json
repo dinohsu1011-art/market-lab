@@ -1,0 +1,180 @@
+{
+ "ticker": "ECL",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000162828026067418/ecl_ex99x1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000110465926049822/ecl-20260428xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000110465926012358/ecl-20260210xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000110465925102859/ecl-20251028xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000155837025009695/ecl-20250729xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000155837025005743/ecl-20250429xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000155837025000782/ecl-20250211xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000155837024013805/ecl-20241029xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000155837024010319/ecl-20240730xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000155837024006197/ecl-20240430xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000155837024001019/ecl-20240213xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000155837023017063/ecl-20231031xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000155837023012641/ecl-20230801xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000155837023007574/ecl-20230502xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/31462/000155837023001231/ecl-20230214xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/26/ecolab-ecl-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/26/ecolab-ecl-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/15/ecolab-ecl-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/26/ecolab-inc-ecl-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/27/ecolab-inc-ecl-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/ecolab-inc-ecl-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/16/ecolab-inc-ecl-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/27/ecolab-inc-ecl-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/28/ecolab-inc-ecl-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/28/ecolab-inc-ecl-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/18/ecolab-inc-ecl-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/29/ecolab-inc-ecl-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/30/ecolab-inc-ecl-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/30/ecolab-inc-ecl-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/19/ecolab-inc-ecl-q4-2018-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/30/ecolab-inc-ecl-q3-2018-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2017 Q3",
+   "date": "2017-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/11/01/ecolab-ecl-q3-2017-earnings-conference-call-transc.aspx"
+  }
+ ]
+}

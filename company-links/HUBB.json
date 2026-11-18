@@ -1,0 +1,138 @@
+{
+ "ticker": "HUBB",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828026067421/exhibit991_10272026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/04/30/hubbell-hubb-q1-2026-earnings-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828026028600/exhibit991_04302026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/02/03/hubbell-hubb-q4-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828026004800/exhibit991_02032026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/10/28/hubbell-hubb-q3-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828025046573/exhibit991_10282025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828025036316/exhibit991_07292025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828025021342/exhibit991_05012025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828025003586/exhibit991_02042025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828024044010/exhibit991_10292024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828024033357/exhibit991_07302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828024019191/exhibit991_04302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828024002494/exhibit991_01302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828023035607/exhibit991_10312023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828023025530/exhibit991_07252023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828023012662/exhibit991_04252023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/48898/000162828023001785/exhibit991_01312023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/26/hubbell-inc-cl-b-hubb-q2-2022-earnings-call-transc/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/26/hubbell-inc-cl-b-hubb-q1-2022-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/03/hubbell-inc-cl-b-hubb-q4-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/26/hubbell-incorporated-hubb-q3-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/27/hubbell-incorporated-hubb-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/hubbell-inc-hubb-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/02/hubbell-inc-hubb-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/27/hubbell-inc-hubb-q3-2020-earnings-call-transcript/"
+  }
+ ]
+}

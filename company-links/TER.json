@@ -1,0 +1,128 @@
+{
+ "ticker": "TER",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_76ad88effb5c4e58233bef386a4601bd/teradyne/db/938/9658/presentation/Teradyne_Q3%2726_Earnings_Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000119312526434981/ter-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000119312526188706/ter-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000119312526034348/ter-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000095017025099876/ter-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000095017025059568/ter-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000095017025010781/ter-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000095017024116845/ter-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000095017024086252/ter-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000095017024047880/ter-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000095017024009126/ter-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000095017023055353/ter-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000119312523195224/d454874dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000119312523119702/d450766dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/97210/000119312523015618/d433401dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/teradyne-inc-ter-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/28/teradyne-inc-ter-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/28/teradyne-inc-ter-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/28/teradyne-inc-ter-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/21/teradyne-inc-ter-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/22/teradyne-inc-ter-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/22/teradyne-inc-ter-q1-2020-earnings-call-transcript.aspx"
+  }
+ ],
+ "ir": "https://investors.teradyne.com/"
+}

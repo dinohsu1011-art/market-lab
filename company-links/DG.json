@@ -1,0 +1,173 @@
+{
+ "ticker": "DG",
+ "quarters": [
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/29534/000110465926101918/tm2623914d1_ex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-06-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/29534/000110465926069198/tm2616084d1_ex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-03-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/29534/000110465926026697/tm268519d1_ex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/29534/000110465925084297/tm2524307d1_ex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-03-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/03/13/dollar-general-dg-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/29534/000110465925023210/tm258818d1_ex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-12-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/12/05/dollar-general-dg-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/29534/000110465924125759/tm2429662d1_ex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/29/dollar-general-dg-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/29534/000110465924094354/tm2422849d1_ex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/30/dollar-general-dg-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/29534/000110465924066413/tm2415834d1_ex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-03-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/03/14/dollar-general-dg-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/29534/000110465924034202/tm247873d1_ex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-12-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/12/07/dollar-general-dg-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/29534/000115752323001801/a53867476ex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-03-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/03/16/dollar-general-dg-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/29534/000115752323000445/a53362372ex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-12-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/12/01/dollar-general-dg-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/25/dollar-general-dg-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/26/dollar-general-dg-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-03-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/03/17/dollar-general-dg-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-12-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/02/dollar-general-corporation-dg-q3-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/26/dollar-general-corporation-dg-q2-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/27/dollar-general-corporation-dg-q1-2021-earnings-cal/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-03-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/03/18/dollar-general-corporation-dg-q4-2020-earnings-cal/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-12-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/12/03/dollar-general-corporation-dg-q3-2020-earnings-cal/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/27/dollar-general-corporation-dg-q2-2020-earnings-cal/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/28/dollar-general-corporation-dg-q1-2020-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-03-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/12/dollar-general-corporation-dg-q4-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-12-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/12/05/dollar-general-corporation-dg-q3-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/29/dollar-general-corporation-dg-q2-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/30/dollar-general-corporation-dg-q1-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-03-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/03/14/dollar-general-corporation-dg-q4-2018-earnings-con.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-12-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/12/04/dollar-general-corporation-dg-q3-2018-earnings-con.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/30/dollar-general-corporation-dg-q2-2018-earnings-con.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-03-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/03/15/dollar-general-corporation-dg-q4-2017-earnings-con.aspx"
+  }
+ ]
+}

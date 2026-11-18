@@ -1,0 +1,164 @@
+{
+ "ticker": "WAB",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000094345226000017/a3q26pressreleaseword.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/943452/000094345226000017/wab3q26earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000162828026026384/a1q2026earningspresentat.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000162828026007113/a4q2025pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/943452/000162828026007113/wab4q25earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000162828025045773/a3q25pressreleaseword.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/943452/000162828025045773/a3qpresentation2025.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000162828025018921/a1q25pressreleaseword.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/943452/000162828025018921/a1q25presentationfinal.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000162828025005014/a4q2024pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/943452/000162828025005014/wab4q24earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000162828024043347/a3q24pressreleaseword.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/943452/000162828024043347/wab3q24earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000162828024032688/a2q24pressreleaseword.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/943452/000162828024032688/wab2q24earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000162828024017522/a1q24pressreleaseword.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/943452/000162828024017522/wab1q24earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000162828024004626/a4q2023pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/943452/000162828024004626/wab4q23earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000162828023035033/a3q23pressreleaseword.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/943452/000162828023035033/a3q23wabearningspresenta.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000162828023025818/a2q23pressreleaseword.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/943452/000162828023025818/a2q23wabearningspresenta.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000162828023013053/a1q23pressreleaseword.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/943452/000162828023013053/wab1q23earningsdeckvfina.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/943452/000162828023003617/earningsrelease4q22vfina.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/943452/000162828023003617/wab4q22earningsdeckvfina.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/westinghouse-air-brake-technologie-wab-q3-2021-ear/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/29/westinghouse-air-brake-technologie-wab-q2-2021-ear/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/westinghouse-air-brake-technologies-wab-q1-2020-ea.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/18/westinghouse-air-brake-technologies-wab-q4-2019-ea.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/01/westinghouse-air-brake-technologies-wab-q3-2019-ea.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/30/wabtec-corporation-wab-q2-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/25/wabtec-corporation-wab-q1-2019-earnings-call-trans.aspx"
+  }
+ ],
+ "ir": "https://ir.wabteccorp.com/"
+}

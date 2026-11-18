@@ -1,0 +1,29 @@
+{
+ "ticker": "RBRK",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-08-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000055/rubrikinc-991pressrelease7.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-06-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000041/rubrikinc-991pressrelease4.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-03-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1943896/000194389626000004/rubrikinc-991pressrelease1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2025-12-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1943896/000194389625000050/rubrikinc-991pressrelease1.htm",
+   "release_ok": true
+  }
+ ]
+}

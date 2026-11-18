@@ -1,0 +1,148 @@
+{
+ "ticker": "CF",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000023/cf-11042026_ex991xearnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000017/cf-08052026_ex991xearnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324404/000132440426000011/cf-05062026_ex991xearnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324404/000132440425000013/cf-05072025_ex991xearnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324404/000132440425000004/cf-02192025_ex991xearnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324404/000132440424000024/cf-10302024_ex991xearnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324404/000132440424000018/cf-08072024_ex991xearnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324404/000132440424000012/cf-05012024_ex991xearnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324404/000132440424000005/cf-02142024_ex991xearnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324404/000132440423000022/cf-11012023_ex991xearnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324404/000132440423000017/cf-08022023_ex991xearnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324404/000132440423000010/cf-05012023_ex991xearnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324404/000132440423000003/cf-02152023_ex991xearnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/cf-industries-holdings-inc-cf-q3-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/10/cf-industries-holdings-inc-cf-q2-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/07/cf-industries-holdings-inc-cf-q1-2021-earnings-cal/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/18/cf-industries-holdings-inc-cf-q4-2020-earnings-cal/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/05/cf-industries-holdings-inc-cf-q3-2020-earnings-cal/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/07/cf-industries-holdings-inc-cf-q2-2020-earnings-cal.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/08/cf-industries-holdings-inc-cf-q1-2020-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/13/cf-industries-holdings-inc-cf-q4-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/cf-industries-holdings-inc-cf-q3-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/01/cf-industries-holdings-inc-cf-q2-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/cf-industries-holdings-inc-cf-q1-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/14/cf-industries-holdings-inc-cf-q4-2018-earnings-con.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/cf-industries-holdings-inc-cf-q3-2018-earnings-con.aspx"
+  }
+ ]
+}

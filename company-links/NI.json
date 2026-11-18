@@ -1,0 +1,157 @@
+{
+ "ticker": "NI",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171126000099/ni-ex991_20260930.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171126000087/ni-ex991_20260630.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171126000044/ni-ex991_20260331.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171126000026/ni-ex991_20251231.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171125000054/ni-ex991_20250930.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171125000019/ni-ex991_20250331.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171125000006/ni-ex991_20241231.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171124000041/ni-ex991_2024930.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171124000031/ni-ex991_2024630.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171124000019/ni-ex991_2024331.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171124000009/ni-ex991_20231231.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171123000038/ni-ex991_20230930.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171123000024/ni-ex991_20230630.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171123000011/ni-ex991_20230331.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1111711/000111171123000003/ni-ex991_20221231.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/nisource-inc-ni-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/nisource-inc-ni-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/nisource-inc-ni-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/17/nisource-inc-ni-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/nisource-ni-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/28/nisource-ni-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/30/nisource-ni-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/31/nisource-ni-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/nisource-ni-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/20/nisource-inc-ni-q4-2018-earnings-conference-call-t.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/nisource-inc-ni-q3-2018-earnings-conference-call-t.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/01/nisource-inc-ni-q2-2018-earnings-conference-call-t.aspx"
+  }
+ ],
+ "ir": "https://investors.nisource.com/investor-home/default.aspx",
+ "results": "https://investors.nisource.com/events-and-presentations/default.aspx"
+}

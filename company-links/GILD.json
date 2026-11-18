@@ -1,0 +1,205 @@
+{
+ "ticker": "GILD",
+ "ir": "https://investors.gilead.com",
+ "results": "https://investors.gilead.com/financials/quarterly-results/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "slides": "https://s29.q4cdn.com/585078350/files/doc_financials/2026/q3/GILD-Q326-Earnings-Presentation-29-October-2026.pdf",
+   "slides_kind": "slides",
+   "release": "https://s29.q4cdn.com/585078350/files/doc_financials/2026/q3/GILD-Q326-Earnings-Press-Release-29-October-2026.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "slides": "https://s29.q4cdn.com/585078350/files/doc_financials/2026/q1/v2/GILD-Q126-Earnings-Presentation-7-May-2026.pdf",
+   "slides_kind": "slides",
+   "release": "https://s29.q4cdn.com/585078350/files/doc_financials/2026/q1/GILD-Q126-Earnings-Press-Release-7-May-2026.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-10",
+   "slides": "https://s29.q4cdn.com/585078350/files/doc_financials/2025/q4/GILD-Q4-FY25-Earnings-Presentation-10-February-2026.pdf",
+   "slides_kind": "slides",
+   "release": "https://s29.q4cdn.com/585078350/files/doc_financials/2025/q4/GILD-Q425-FY25-Earnings-Press-Release-10-February-2026.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-30",
+   "slides": "https://s29.q4cdn.com/585078350/files/doc_financials/2025/q3/GILD-Q325-Earnings-Presentation-30-October-2025.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.gilead.com/files/doc_financials/2025/q3/GILD-Q325-Earnings-Press-Release-30-October-2025.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-07",
+   "slides": "https://s29.q4cdn.com/585078350/files/doc_financials/2025/q2/GILD-Q225-Earnings-Presentation-7-August-2025.pdf",
+   "slides_kind": "slides",
+   "release": "https://s29.q4cdn.com/585078350/files/doc_financials/2025/q2/GILD-Q225-Earnings-Press-Release-7-August-2025.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-24",
+   "slides": "https://s29.q4cdn.com/585078350/files/doc_financials/2025/q1/v2/GILD-Q125-Earnings-Presentation-24-April-2025.pdf",
+   "slides_kind": "slides",
+   "release": "https://s29.q4cdn.com/585078350/files/doc_financials/2025/q1/GILD-Q125-Earnings-Press-Release-24-April-2025.pdf",
+   "transcript": "https://www.investing.com/news/transcripts/earnings-call-transcript-gilead-sciences-q1-2025-earnings-beat-expectations-93CH-4003607"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/11/gilead-sciences-gild-q4-2024-earnings-call-transcr/",
+   "slides": "https://s29.q4cdn.com/585078350/files/doc_financials/2024/q4/v5/GILD-Q424-Earnings-Presentation-11-February-2025-1.pdf",
+   "slides_kind": "slides",
+   "release": "https://s29.q4cdn.com/585078350/files/doc_financials/2024/q4/v5/GILD-Q424-Earnings-Press-Release-11-February-2025.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/06/gilead-sciences-gild-q3-2024-earnings-call-transcr/",
+   "slides": "https://s29.q4cdn.com/585078350/files/doc_financials/2024/q3/v2/GILD-Q324-Earnings-Presentation-6-November-2024.pdf",
+   "slides_kind": "slides",
+   "release": "https://s29.q4cdn.com/585078350/files/doc_financials/2024/q3/GILD-Q324-Earnings-Press-Release-6-November-2024.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/08/gilead-sciences-gild-q2-2024-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882095/000088209524000020/exhibit991earningspressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/25/gilead-sciences-gild-q1-2024-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882095/000088209524000010/exhibit991earningspressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/06/gilead-sciences-gild-q4-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882095/000088209524000003/exhibit991earningspressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/07/gilead-sciences-gild-q3-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882095/000088209523000029/exhibit991earningspressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/04/gilead-sciences-gild-q2-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882095/000088209523000022/exhibit991earningspressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/04/28/gilead-sciences-gild-q1-2023-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882095/000088209523000014/exhibit991earningspressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/02/gilead-sciences-gild-q4-2022-earnings-call-transcr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882095/000088209523000003/exhibit991earningspressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/27/gilead-sciences-gild-q3-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/02/gilead-sciences-gild-q2-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/29/gilead-sciences-gild-q1-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/02/gilead-sciences-gild-q4-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/29/gilead-sciences-gild-q3-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/30/gilead-sciences-gild-q2-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/30/gilead-sciences-gild-q1-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/05/gilead-sciences-gild-q4-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/29/gilead-sciences-gild-q3-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/01/gilead-sciences-gild-q2-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/01/gilead-sciences-inc-gild-q1-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/04/gilead-sciences-inc-gild-q4-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/24/gilead-sciences-inc-gild-q3-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/03/gilead-sciences-inc-gild-q1-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/04/gilead-sciences-inc-gild-q4-2018-earnings-conferen.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/26/gilead-sciences-inc-gild-q3-2018-earnings-conferen.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/01/gilead-sciences-inc-gild-q1-2018-earnings-conferen.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/06/gilead-sciences-inc-gild-q4-2017-earnings-conferen.aspx"
+  }
+ ]
+}

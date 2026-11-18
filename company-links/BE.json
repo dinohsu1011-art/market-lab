@@ -1,0 +1,52 @@
+{
+ "ticker": "BE",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/22/bloom-energy-be-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026066890/ex991_q326financialresults.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026050150/ex991_q226financialresults.htm",
+   "release_ok": true,
+   "transcript": "https://www.roic.ai/quote/BE/transcripts/2026-year/2-quarter"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/04/28/bloom-energy-be-q1-2026-earnings-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026027913/ex991_q126financialresults.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/02/05/bloom-energy-be-q4-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026005798/ex991_q42025financialresul.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/10/28/bloom-energy-be-q3-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1664703/000162828025046745/ex991_q32025financialresul.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1664703/000162828025036998/ex991_q22025financialresul.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1664703/000162828025021092/ex991_q12025financialresul.htm",
+   "release_ok": true
+  }
+ ]
+}

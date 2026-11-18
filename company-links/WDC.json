@@ -1,0 +1,174 @@
+{
+ "ticker": "WDC",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066882/a4ex991-pressreleaseq127.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000162828026028878/a4ex991-pressreleaseq326.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000162828026004131/a4ex991-pressreleaseq226.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000162828025047539/a4ex991-pressreleaseq126.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000020/a4ex991-pressreleaseq325.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/29/western-digital-wdc-q2-2025-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000005/a4ex991-pressreleaseq225.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/24/western-digital-wdc-q1-2025-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000037/a4ex991-pressreleaseq125.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/31/western-digital-wdc-q4-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000026/a4ex991-pressreleaseq424.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/25/western-digital-wdc-q3-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000020/a4ex991-pressreleaseq324.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/25/western-digital-wdc-q2-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000003/ex991-pressreleaseq224.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/30/western-digital-wdc-q1-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000010604023000032/ex991-pressreleaseq124.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/01/western-digital-wdc-q4-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000010604023000020/ex991-pressreleaseq423.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/08/western-digital-wdc-q3-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000010604023000014/ex991-pressreleaseq323.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/01/western-digital-wdc-q2-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/106040/000010604023000006/ex991-pressreleaseq223.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/27/western-digital-wdc-q1-2023-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/05/western-digital-wdc-q4-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/29/western-digital-wdc-q3-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/27/western-digital-wdc-q2-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/29/western-digital-wdc-q1-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/western-digital-wdc-q4-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/30/western-digital-wdc-q3-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/28/western-digital-wdc-q2-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/06/western-digital-wdc-q4-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/01/western-digital-corp-wdc-q3-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/western-digital-corp-wdc-q2-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/western-digital-corp-wdc-q1-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/31/western-digital-corp-wdc-q4-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/29/western-digital-corp-wdc-q3-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/25/western-digital-corp-wdc-q2-2019-earnings-conferen.aspx"
+  }
+ ],
+ "ir": "https://investor.wdc.com"
+}

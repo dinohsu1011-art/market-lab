@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" data-eq>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Markets · Equinox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="market-lab-bar.css?v=20261117-c7c5d6d0">
+<link rel="stylesheet" href="market-lab-eq.css?v=20261117-c7c5d6d0">
+<script src="market-lab-shell.js?v=20261117-c7c5d6d0"></script>
+</head>
+<body>
+<div class="page">
+  <nav class="side" aria-label="On this page">
+    <a href="#top" class="on">Indexes</a><a href="#records">New highs and lows</a><a href="#part">Participation</a><a href="#pairs">Pairs</a><a href="#sectors">Sectors</a><a href="#rates">Rates and economy</a>
+  </nav>
+  <main>
+    <div id="top">
+      <h1>Markets</h1>
+      <table id="ixTable" style="margin-top:36px"></table>
+    </div>
+    <section id="records">
+      <h2>New highs and lows <small id="recStamp"></small></h2>
+      <div class="pair">
+        <div><h3 id="hiHead">52-week highs</h3><table id="hiTable"></table></div>
+        <div><h3 id="loHead">52-week lows</h3><table id="loTable"></table></div>
+      </div>
+      <div class="more"><a class="link" href="market-lab-leaders.html">Open the full ranking</a></div>
+    </section>
+    <section id="part"><h2>Participation</h2><dl class="rows" id="partRows" style="margin-top:0"></dl></section>
+    <section id="pairs"><h2>Pairs</h2><table id="pairTable"></table></section>
+    <section id="sectors"><h2>Sectors <small id="secCount"></small></h2><dl class="rows" id="secRows" style="margin-top:0"></dl></section>
+    <section id="rates"><h2>Rates and economy</h2><table id="macroTable"></table><div class="more"><a class="link" href="market-lab-macro.html">Open all macro charts</a></div></section>
+  </main>
+</div>
+<script src="market-lab-eq.js?v=20261117-c7c5d6d0"></script>
+<script src="cube/reviews-index.js?v=20261117-c7c5d6d0"></script>
+<script src="cube/macro-index.js?v=20261117-c7c5d6d0"></script>
+<script src="market-lab-eq-markets.js?v=20261117-c7c5d6d0"></script>
+</body>
+</html>

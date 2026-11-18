@@ -1,0 +1,71 @@
+{
+ "ticker": "VLTO",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000047/vlto-20261029xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000023/vlto-20260428xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000003/vlto-202625xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1967680/000196768025000124/vlto-20250728xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1967680/000196768025000066/vlto-20250429xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1967680/000196768025000002/vlto-202525xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1967680/000196768024000135/vlto-20241023xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1967680/000196768024000109/vlto-2024725xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1967680/000196768024000058/vlto-2024423xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1967680/000196768024000005/vlto-202426xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1967680/000196768023000009/vlto-20231025xex991.htm",
+   "release_ok": true
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "ticker": "SNPS",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-08-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/883241/000119312526368620/d157153dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-05-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/883241/000119312526241911/d126227dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-12-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/883241/000119312525314200/d29055dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-02-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/883241/000119312525036798/d921264dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-12-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/883241/000119312524270723/d868165dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-08-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/883241/000119312524204450/d878807dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-05-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/883241/000119312524145001/d740550dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-02-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/883241/000119312524041524/d759623dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-11-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/883241/000119312523285209/d613884dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-08-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/883241/000119312523214350/d411101dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-05-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/883241/000119312523147052/d503668dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-02-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/883241/000119312523040255/d436307dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-12-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/02/synopsys-inc-snps-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-08-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/19/synopsys-inc-snps-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-05-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/19/synopsys-inc-snps-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-02-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/17/synopsys-inc-snps-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-12-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/12/02/synopsys-inc-snps-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-08-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/19/synopsys-inc-snps-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-05-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/20/synopsys-inc-snps-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-02-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/19/synopsys-inc-snps-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-12-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/12/04/synopsys-inc-snps-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-08-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/21/synopsys-inc-snps-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-05-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/23/synopsys-inc-snps-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/20/synopsys-inc-snps-q1-2019-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-12-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/12/05/synopsys-snps-q4-2018-earnings-conference-call-tra.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-08-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/23/synopsys-snps-q3-2018-earnings-conference-call-tra.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-05-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/24/synopsys-snps-q2-2018-earnings-conference-call-tra.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2017-11-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/11/30/synopsys-inc-snps-q4-2017-earnings-conference-call.aspx"
+  }
+ ],
+ "ir": "https://investor.synopsys.com/",
+ "results": "https://investor.synopsys.com/financials/quarterly-results/default.aspx"
+}

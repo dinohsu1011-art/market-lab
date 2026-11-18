@@ -1,0 +1,89 @@
+{
+ "ticker": "S",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-08-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1583708/000158370826000052/sentineloneq227exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1583708/000158370826000052/sq2fy27earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-05-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1583708/000158370826000039/sentineloneq127exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1583708/000158370826000039/s-q1fy27earningspresenta.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-03-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1583708/000158370826000014/sentineloneq426exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1583708/000158370826000014/s-q4fy26earningspresenta.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-03-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1583708/000158370825000031/sentineloneq425exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1583708/000158370825000031/s-q4fy25earningspresenta.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2024-12-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1583708/000158370824000123/sentineloneq325exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-08-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1583708/000158370824000076/sentineloneq225exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-05-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1583708/000158370824000041/sentineloneq125exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-03-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1583708/000158370824000003/sentineloneq424exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2023-12-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1583708/000158370823000053/sentineloneq324exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-08-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1583708/000158370823000046/sentineloneq224exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-06-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1583708/000158370823000034/sentineloneq124exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-03-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/1583708/000158370823000007/sentineloneq423exhibit991.htm",
+   "release_ok": true
+  }
+ ]
+}

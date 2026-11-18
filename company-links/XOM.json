@@ -1,0 +1,299 @@
+{
+ "ticker": "XOM",
+ "ir": "https://investor.exxonmobil.com/",
+ "results": "https://investor.exxonmobil.com/earnings/financial-results",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-30",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22725/presentation/3Q26_Earnings_presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.exxonmobil.com/company-information/press-releases/detail/1213/exxonmobil-announces-third-quarter-2026-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22725/webcast_transcript/Transcript_-_ExxonMobil_3Q_2026_Earnings_Call.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-31",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22701/presentation/2Q26+Earnings+presentation+slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.exxonmobil.com/company-information/press-releases/detail/1208/exxonmobil-announces-second-quarter-2026-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22701/webcast_transcript/2Q26+ExxonMobil+Earnings+Call+Transcript.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-01",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22639/presentation/1Q26+Earnings+presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.exxonmobil.com/company-information/press-releases/detail/1204/exxonmobil-announces-first-quarter-2026-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22639/webcast_transcript/ExxonMobil+1Q26+Earnings+Transcript.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-30",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22589/presentation/4Q25+Earnings+Slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.exxonmobil.com/company-information/press-releases/detail/1200/exxonmobil-announces-2025-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22589/webcast_transcript/4Q25+Earnings+Transcript.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-31",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22477/presentation/3Q25+Earnings+Slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.exxonmobil.com/company-information/press-releases/detail/1197/exxonmobil-announces-third-quarter-2025-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22477/webcast_transcript/3Q25+Earnings+Transcript.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-01",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22462/presentation/2Q25+Earnings+Slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.exxonmobil.com/company-information/press-releases/detail/1191/exxonmobil-announces-second-quarter-2025-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22462/webcast_transcript/2Q25+Earnings+Transcript.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-02",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22414/presentation/1Q25+Earnings+Slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.exxonmobil.com/company-information/press-releases/detail/1184/exxonmobil-announces-first-quarter-2025-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22414/webcast_transcript/1Q25+Earnings+Call+Transcript.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-31",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22354/presentation/4Q24+Earnings+Slides+-+Final+.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.exxonmobil.com/company-information/press-releases/detail/1180/exxonmobil-announces-2024-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22354/webcast_transcript/4Q24+Earnings+Call+Transcript.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-01",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22327/presentation/3Q24+Earnings+Slides+-+Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.exxonmobil.com/company-information/press-releases/detail/1174/exxonmobil-announces-third-quarter-2024-results",
+   "release_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2288/22327/webcast_transcript/3Q24+Earnings+Call+Transcript.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/02/exxonmobil-xom-q2-2024-earnings-call-transcript/"
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/02/exxonmobil-xom-q4-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/27/exxonmobil-xom-q3-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/28/exxonmobil-xom-q2-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/04/28/exxonmobil-xom-q1-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/31/exxon-mobil-xom-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/28/exxonmobil-xom-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/29/exxonmobil-xom-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/29/exxonmobil-xom-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/01/exxonmobil-xom-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/30/exxonmobil-xom-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/31/exxonmobil-xom-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/30/exxonmobil-xom-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/02/exxonmobil-xom-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/31/exxonmobil-xom-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/exxonmobil-xom-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/01/exxon-mobil-corp-xom-q1-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/31/exxon-mobil-corp-xom-q4-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/03/exxon-mobil-corp-xom-q2-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/26/exxon-mobil-corp-xom-q1-2019-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/01/exxonmobil-xom-q4-2018-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/02/exxon-mobil-corp-xom-q3-2018-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/27/exxon-mobil-corporation-xom-q2-2018-earnings-confe.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/27/exxon-mobil-corporation-xom-q1-2018-earnings-confe.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/02/exxon-mobil-corporation-xom-q4-2017-earnings-confe.aspx"
+  },
+  {
+   "id": "2017 Q3",
+   "date": "2017-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/10/30/exxon-mobil-corporation-xom-q3-2017-earnings-confe.aspx"
+  }
+ ],
+ "events": [
+  {
+   "title": "ExxonMobil Corporate Plan Update 2025",
+   "date": "2025-12-09",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2260/22501/presentation/Corporate+Plan+Update+-+Presentation.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "ExxonMobil 2024 Corporate Plan Update",
+   "date": "2024-12-11",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2261/22346/file/Corporate+Plan+Update+-+FINAL.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "ExxonMobil Upstream Spotlight",
+   "date": "2024-12-11",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2261/22347/file/Upstream+Spotlight+-+FINAL.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "ExxonMobil Corporate Plan Update December 2023",
+   "date": "2023-12-06",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2260/22168/presentation/Corporate+Plan+Update+slides_12.06.23.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "ExxonMobil announces merger with Pioneer Natural Resources",
+   "date": "2023-10-11",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2261/22155/file/XOM_and_PXD_merger_presentation.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "ExxonMobil Product Solutions Spotlight",
+   "date": "2023-09-20",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2260/22129/presentation/EMPS+Spotlight+-+final+%28website%29.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "ExxonMobil announces acquisition of Denbury",
+   "date": "2023-07-13",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2260/22127/presentation/ExxonMobil+Announces+Acquisition+of+Denbury.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "ExxonMobil Low Carbon Solutions Spotlight",
+   "date": "2023-04-04",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2260/22000/presentation/Final+LCS+Spotlight+Slides+4-4-23.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "ExxonMobil Corporate Plan Update December 2022",
+   "date": "2022-12-08",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2260/21632/presentation/2022-corporate-plan-update-presentation-slides.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "ExxonMobil 2022 Investor Day",
+   "date": "2022-03-02",
+   "url": "https://d1io3yog0oux5.cloudfront.net/_14a89599fd1b18d59cc379f8fa0633eb/exxonmobil/db/2260/21611/presentation/2022-exxonmobil-investor-day.pdf",
+   "kind": "slides",
+   "ok": true
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "ticker": "NBIX",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000053/q3-2026xearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000035/q2-2026xearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000025/q1-2026xearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/914475/000091447526000006/q4-2025xearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/914475/000091447525000180/q3-2025xearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/914475/000091447525000157/q2-2025xearningsrelease.htm",
+   "release_ok": true
+  }
+ ]
+}

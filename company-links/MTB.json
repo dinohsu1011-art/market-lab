@@ -1,0 +1,202 @@
+{
+ "ticker": "MTB",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/ex991release3q26.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000046/ex991release2q26.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000046/a2q26earningspresentatio.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000025/ex991release1q26.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000025/earningspresentation_1q2.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000004/ex991release4q25.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000004/earningspresentation_4q2.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000162828025034994/ex991release2q25.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/36270/000162828025034994/earningspresentation_2q2.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000162828025017604/ex991release1q25.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/36270/000162828025017604/a1q25earningspresentatio.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000162828025001667/ex991release4q24.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/36270/000162828025001667/a4q24earningspresentatio.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000162828024042977/ex991release3q24.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/36270/000162828024042977/earningspresentation_3q2.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000162828024032163/ex991release2q24.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/36270/000162828024032163/earningspresentation_2q2.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000162828024016126/q12024ex991release.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000095017024005178/mtb-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000095017023053870/mtb-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000095017023033456/mtb-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000095017023012997/mtb-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/36270/000095017023000895/mtb-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/20/m-t-bank-mtb-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/20/m-t-bank-mtb-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/20/m-t-bank-mtb-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/20/m-t-bank-mtb-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/21/m-t-bank-mtb-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/19/m-t-bank-mtb-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/21/m-t-bank-mtb-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/23/m-t-bank-mtb-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/23/m-t-bank-mtb-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/20/mt-bank-corporation-mtb-q1-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/17/mt-bank-corporation-mtb-q3-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/18/mt-bank-corporation-mtb-q2-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/16/mt-bank-corporation-mtb-q1-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/17/mt-bank-corporation-mtb-q4-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/17/mandt-bank-corporation-mtb-q3-2018-earnings-confer.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/16/mt-bank-corporation-mtb-q1-2018-earnings-conferenc.aspx"
+  }
+ ]
+}

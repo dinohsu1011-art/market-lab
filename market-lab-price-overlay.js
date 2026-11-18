@@ -45,7 +45,7 @@
       context=c;const unique=[...new Map(c.items.map(item=>[item.id,item])).values()];
       if(selected&&!unique.some(item=>item.id===selected))selected='';
       if(requestedOverlay&&unique.length){selected=unique[0].id;requestedOverlay=false;}
-      select.replaceChildren(new Option('Overlay',''),...unique.map(item=>new Option('Overextension · '+item.label,item.id)));
+      select.replaceChildren(new Option('None',''),...unique.map(item=>new Option('Overextension · '+item.label,item.id)));
       select.value=selected;updateControl();toolbar.hidden=!unique.length;paint();
     }
     const updateControl=()=>{select.dataset.active=String(!!selected);select.title=selected?'Overlay: '+select.selectedOptions[0].textContent:'Overlay: none';};

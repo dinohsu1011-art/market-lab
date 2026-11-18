@@ -1,0 +1,41 @@
+{
+ "ticker": "PFGC",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526446175/pfgc-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526345718/pfgc-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526207521/pfgc-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1618673/000119312526036704/pfgc-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1618673/000119312525265687/pfgc-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-08-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1618673/000161867325000010/pfgc-ex99_1.htm",
+   "release_ok": true
+  }
+ ]
+}

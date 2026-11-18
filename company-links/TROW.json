@@ -1,0 +1,90 @@
+{
+ "ticker": "TROW",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000111316926000003/earningsreleaseq32026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026051211/earningsreleaseq22026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026028572/earningsreleaseq12026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000162828026005273/earningsreleaseq42025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000162828025047662/earningsreleaseq32025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000111316925000013/earningsreleaseq12025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000111316925000002/earningsreleaseq42024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000111316924000028/earningsreleaseq32024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000111316924000018/earningsreleaseq22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000111316924000011/earningsreleasetemplateq12.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000111316924000002/earningsreleasetemplateq42.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000111316923000042/earningsreleasetemplateq32.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000111316923000022/earningsreleasetemplateq22.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1113169/000111316923000011/earningsreleasetemplateq12.htm",
+   "release_ok": true
+  }
+ ],
+ "ir": "https://investors.troweprice.com/"
+}

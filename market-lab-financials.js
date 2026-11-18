@@ -60,10 +60,14 @@
   }
   const modeOf = m => mode[m] === 'yoy' ? 'yoy' : 'pct';
   const save = () => { store.set(KEY, {ov, mode}); store.set(VIEW, view); };
+  // Ctrl/Cmd+Z steps back through the edits made since this company was opened; Shift+Z or Ctrl+Y steps forward
+  let UN = [], RE = [];
+  const snap = () => JSON.stringify({ov, mode});
+  const mark = was => { if (was === snap()) return; UN.push(was); if (UN.length > 200) UN.shift(); RE = []; };
   const ok = v => v != null && isFinite(v);
 
   let MODELS = [];
-  const modelOf = t => MODELS.includes(t) ? t : t === 'GOOG' && MODELS.includes('GOOGL') ? 'GOOGL' : null;   // GOOG shares the GOOGL model
+  const modelOf = t => MODELS.includes(t) ? t : null;
   function setup(data) {
     D = data; HIST = D.quarters.length;
     Q = D.quarters.map((q, i) => Object.assign({}, q, {i, est: false}));
@@ -106,7 +110,7 @@
     hasOox = !SKIP.has('oox') && (D.lines.oox || []).some(v => ok(v) && Math.abs(v) > .5);
     KEY = `equinox.fin.v1.${D.ticker}`;
     const saved = store.get(KEY, {});
-    ov = saved.ov || {}; mode = saved.mode || {};
+    ov = saved.ov || {}; mode = saved.mode || {}; UN = []; RE = [];
     const mb = document.querySelector('.fin-tabs [data-tab="muse"]');
     if (mb) mb.hidden = D.ticker !== 'META';
     if (view.tab === 'muse' && (!mb || mb.hidden)) view.tab = 'is';
@@ -515,16 +519,36 @@
     const r = rws[td.dataset.r], c = cols[td.dataset.c];
     const v = parse(t.value, r.kind);
     if (v === undefined) { fill(); return; }
+    const was = snap();
     const put = k => { if (v == null) delete ov[`${k}|${c.key}`]; else ov[`${k}|${c.key}`] = v; };
     if (r.drv === 'g' && segMode) FSEG.forEach(s => put(`seg:${s.name}`));   // total growth sets every segment to that rate
     else put(r.drv);
+    mark(was);
     save();
     fill(true);
-    t.value = toInput(r.f(c), r.kind);
+    t.value = toInput(r.f(c), r.kind); t.dataset.v0 = t.value;
+  });
+  grid.addEventListener('focusin', e => { if (e.target.matches('td input:not([type=checkbox])')) e.target.dataset.v0 = e.target.value; });
+  document.addEventListener('keydown', e => {
+    const k = e.key.toLowerCase();
+    if (!(e.ctrlKey || e.metaKey) || e.altKey || (k !== 'z' && k !== 'y') || view.tab === 'model' || view.tab === 'muse') return;
+    const a = document.activeElement, typing = a && a.matches('input:not([type=checkbox]), textarea, select');
+    const cell = typing && grid.contains(a);
+    if (typing && (!cell || a.value !== a.dataset.v0)) return;   // text still being typed: the browser undoes the typing
+    const redo = k === 'y' || e.shiftKey, from = redo ? RE : UN, to = redo ? UN : RE;
+    if (!from.length) return;
+    e.preventDefault();
+    to.push(snap()); ({ov, mode} = JSON.parse(from.pop())); save(); render();
   });
   // an edit still being typed when the page closes is saved too
   window.addEventListener('pagehide', () => { const a = document.activeElement; if (a && grid.contains(a) && a.matches('td input')) a.dispatchEvent(new Event('change', {bubbles: true})); });
+  // the Graphs menu closes on a click elsewhere or Escape
+  const shut = () => { const l = $('chart').querySelector('.glist'); if (l && !l.hidden) { l.hidden = true; l.previousElementSibling.setAttribute('aria-expanded', 'false'); return true; } };
+  document.addEventListener('click', e => { if (!e.target.closest('.fin-chart .cm')) shut(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && shut()) $('chart').querySelector('.gbtn').focus(); });
   $('chart').addEventListener('click', e => {
+    const g = e.target.closest('.gbtn');
+    if (g) { const l = g.nextElementSibling; l.hidden = !l.hidden; g.setAttribute('aria-expanded', String(!l.hidden)); if (!l.hidden) (l.querySelector('[aria-checked="true"]') || l.firstElementChild).focus(); return; }
     const b = e.target.closest('button[data-cm]'); if (!b) return;
     view.cmode = b.dataset.cm; save(); chart();
   });
@@ -536,7 +560,7 @@
       save(); render(); return;
     }
     const b = e.target.closest('button[data-mode]'); if (!b) return;
-    mode[b.dataset.mode] = b.dataset.v; save(); render();
+    const was = snap(); mode[b.dataset.mode] = b.dataset.v; mark(was); save(); render();
   });
   grid.addEventListener('keydown', e => {
     if (e.key !== 'Enter' || e.target.tagName !== 'INPUT' || e.target.type === 'checkbox') return;
@@ -580,8 +604,9 @@
     // chart modes on the Segments tab: values, share of revenue, or three pies
     const segOnly = view.tab === 'seg' && money.length > 0 && money.every(isSeg);
     const cm = segOnly ? view.cmode || 'v' : 'v';
-    const modeBar = segOnly ? `<div class="seg cm" role="group" aria-label="Chart">${[['v', 'Values'], ['mix', '% of revenue'], ['pie', 'Pies']].map(([k, t]) =>
-      `<button type="button" data-cm="${k}" aria-pressed="${cm === k}">${t}</button>`).join('')}</div>` : '';
+    // one "Graphs" button opens the three choices
+    const modeBar = segOnly ? `<div class="cm"><button type="button" class="gbtn" aria-haspopup="menu" aria-expanded="false">Graphs</button><div class="glist" role="menu" hidden>${[['v', 'Values'], ['mix', '% of revenue'], ['pie', 'Pies']].map(([k, t]) =>
+      `<button type="button" role="menuitemradio" data-cm="${k}" aria-checked="${cm === k}">${t}</button>`).join('')}</div></div>` : '';
     const share = (r, c) => { const v = r.f(c), t = val('rev', c); return ok(v) && t ? v / t : null; };
     const colGrp = cs.map(c => {
       if (!chain) return null;
@@ -741,7 +766,7 @@
     b.setAttribute('aria-selected', String(b.dataset.tab === view.tab));
     b.onclick = () => { view.tab = b.dataset.tab; document.querySelectorAll('.fin-tabs button').forEach(x => x.setAttribute('aria-selected', String(x === b))); save(); render(true); };
   });
-  $('reset').onclick = () => { ov = {}; save(); render(); };
+  $('reset').onclick = () => { const was = snap(); ov = {}; mark(was); save(); render(); };
   $('est').checked = view.est !== false; $('est').onchange = e => { view.est = e.target.checked; save(); render(true); };
   const setRange = () => {
     let f = $('from').value, t = $('to').value;
@@ -793,7 +818,15 @@
   plist.addEventListener('mousedown', e => { const li = e.target.closest('li[data-t]'); if (li) { e.preventDefault(); choose(li.dataset.t); } });
   Promise.all([getJSON('financials/index.json'), getJSON('models/index.json').catch(() => [])]).then(([list, models]) => {
     LIST = list; MODELS = models;
-    const t = list.some(c => c.ticker === view.ticker) ? view.ticker : list[0].ticker;
+    // one ticker per company: work saved under GOOG moves to GOOGL once, if GOOGL has none of its own
+    try { for (const k of ['equinox.fin.v1.', 'equinox.fin.model.v1.']) { const o = localStorage.getItem(k + 'GOOG');
+      if (o != null && localStorage.getItem(k + 'GOOGL') == null) localStorage.setItem(k + 'GOOGL', o); } } catch (_) {}
+    const has = x => list.some(c => c.ticker === x);
+    const same = x => x === 'GOOG' ? 'GOOGL' : x;
+    const asked = () => { let h = ''; try { h = decodeURIComponent(location.hash.slice(1)); } catch (_) {} return same(h.trim().toUpperCase()); };
+    // the address can name the company (market-lab-financials.html#AMD); otherwise the last one viewed
+    addEventListener('hashchange', () => { const h = asked(); if (has(h) && D && h !== D.ticker) { pick.value = h; open(h); } });
+    const t = has(asked()) ? asked() : has(same(view.ticker)) ? same(view.ticker) : list[0].ticker;
     pick.value = t;
     return open(t);
   }).catch(() => {

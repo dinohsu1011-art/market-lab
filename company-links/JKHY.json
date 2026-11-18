@@ -1,0 +1,163 @@
+{
+ "ticker": "JKHY",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000095/jkhy-20260930xex99pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000021/jkhy-20260331xex99pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/779152/000077915225000016/jkhy-20250331xex99pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/779152/000077915225000007/jkhy-20241231xex99pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/779152/000077915224000109/jkhy-20240930xex99pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-08-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/779152/000077915224000076/jkhy-20240630xex99pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/779152/000077915224000030/jkhy-20240331xex99pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-02-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/779152/000077915224000016/jkhy-20231231xex99pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-11-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/779152/000077915223000096/jkhy-20230930xex99pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-08-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/779152/000077915223000057/jkhy-20230630xex99pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-05-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/779152/000077915223000022/jkhy-20230331xex99pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/779152/000077915223000009/jkhy-20221231xex99pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-08-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/17/jack-henry-associates-jkhy-q4-2022-earnings-call-t/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/04/jack-henry-associates-jkhy-q3-2022-earnings-call-t/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/09/jack-henry-associates-jkhy-q2-2022-earnings-call-t/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-11-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/09/jack-henry-associates-jkhy-q1-2022-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-08-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/18/jack-henry-associates-jkhy-q4-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/04/jack-henry-associates-jkhy-q3-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/09/jack-henry-associates-jkhy-q2-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/06/jack-henry-associates-jkhy-q1-2021-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-08-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/19/jack-henry-associates-jkhy-q4-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/jack-henry-associates-jkhy-q3-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/05/jack-henry-associates-jkhy-q2-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/05/jack-henry-associates-jkhy-q1-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-08-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/22/jack-henry-associates-jkhy-q4-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/01/jack-henry-associates-jkhy-q3-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/06/jack-henry-associates-inc-jkhy-q2-2019-earnings-co.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/07/jack-henry-associates-inc-jkhy-q1-2019-earnings-co.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-08-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/22/jack-henry-associates-inc-jkhy-q4-2018-earnings-co.aspx"
+  }
+ ],
+ "ir": "https://ir.jackhenry.com"
+}

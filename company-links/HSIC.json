@@ -1,0 +1,176 @@
+{
+ "ticker": "HSIC",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000059/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000043/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000021/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000100022826000010/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000114036125017199/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000100022825000010/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000100022824000062/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000100022824000051/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000100022824000022/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000100022824000008/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000100022823000046/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000100022823000041/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000100022823000024/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/1000228/000100022823000006/exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/02/henry-schein-hsic-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/03/henry-schein-hsic-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/15/henry-schein-hsic-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/02/henry-schein-hsic-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/henry-schein-hsic-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/04/henry-schein-hsic-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/17/henry-schein-hsic-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/02/henry-schein-hsic-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/05/henry-schein-hsic-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/henry-schein-hsic-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/21/henry-schein-hsic-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/06/henry-schein-hsic-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/06/henry-schein-hsic-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/07/henry-schein-hsic-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/20/henry-schein-inc-hsic-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/06/henry-schein-inc-hsic-q3-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/06/henry-schein-inc-hsic-q2-2018-earnings-conference.aspx"
+  }
+ ],
+ "ir": "https://investor.henryschein.com/",
+ "results": "https://investor.henryschein.com/financials/quarterly-results/"
+}

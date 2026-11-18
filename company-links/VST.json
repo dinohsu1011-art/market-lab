@@ -1,0 +1,137 @@
+{
+ "ticker": "VST",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-06",
+   "slides": "https://investor.vistracorp.com/image/Q3_2026_Results_Presentation_vFINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000023/vistra-20260930xearningsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/vistra-20260630xearningsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000011/vistra-20260331xearningsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/02/26/vistra-vst-q4-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526073364/d21122dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000119312525268033/d33941dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000119312525174942/d929557dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000119312525114425/d932115dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000119312525037636/d126557dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000119312524252608/d852941dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000119312524196470/d829534dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000119312524133760/d837065dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000119312524049124/d784050dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000119312523271904/d582605dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000119312523206766/d538187dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000119312523138876/d351861dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-03-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1692819/000119312523055104/d472125dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/05/vistra-corp-vst-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/vistra-corp-vst-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/26/vistra-energy-corp-vst-q4-2020-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/04/vistra-energy-corp-vst-q3-2020-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/05/vistra-energy-corp-vst-q2-2020-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/05/vistra-energy-corp-vst-q1-2020-earnings-call-trans.aspx"
+  }
+ ],
+ "ir": "https://investor.vistracorp.com/",
+ "results": "https://investor.vistracorp.com/events-and-presentations"
+}

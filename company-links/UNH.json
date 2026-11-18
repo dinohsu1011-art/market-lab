@@ -1,0 +1,199 @@
+{
+ "ticker": "UNH",
+ "ir": "https://www.unitedhealthgroup.com/investors.html",
+ "results": "https://www.unitedhealthgroup.com/investors/financial-reports.html",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-13",
+   "release": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2026/unh-reports-third-quarter-2026-results.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-16",
+   "release": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2026/unh-reports-second-quarter-2026-results.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-21",
+   "release": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2026/unh-reports-first-quarter-2026-results.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-27",
+   "release": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/unh-reports-2025-results-and-issues-2026-outlook.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-28",
+   "release": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/unh-reports-third-quarter-2025-results-and-raises-full-year-2025-earnings-outlook.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-29",
+   "release": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/unh-reestablishes-full-year-outlook-and-reports-second-quarter-2025-results.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-17",
+   "release": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2025/UNH-Reports-Q1-2025-Results-Revises-Full-Year-Guidance.pdf",
+   "transcript": "https://www.marketbeat.com/earnings/reports/2025-4-17-unitedhealth-group-incorporated-stock"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/16/unitedhealth-group-unh-q4-2024-earnings-call-trans/",
+   "release": "https://www.unitedhealthgroup.com/content/dam/UHG/PDF/investors/2024/2025-16-01-uhg-reports-fourth-quarter-results.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/15/unitedhealth-group-unh-q3-2024-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/731766/000073176624000320/a2024q3exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/16/unitedhealth-group-unh-q2-2024-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/731766/000073176624000242/a2024q2exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/16/unitedhealth-group-unh-q1-2024-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/731766/000073176624000146/a2024q1exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/12/unitedhealth-group-unh-q4-2023-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/731766/000073176624000023/a2023q4exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/13/unitedhealth-group-unh-q3-2023-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000058/a2023q3exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/14/unitedhealth-group-unh-q2-2023-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000049/a2023q2exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000026/a2023q1exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/13/unitedhealth-group-unh-q4-2022-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/731766/000073176623000003/a2022q4exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/14/unitedhealth-group-unh-q3-2022-earnings-call-trans/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/15/unitedhealth-group-unh-q2-2022-earnings-call-trans/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/14/unitedhealth-group-unh-q1-2022-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/19/unitedhealth-group-unh-q4-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/14/unitedhealth-group-unh-q3-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/15/unitedhealth-group-unh-q2-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/15/unitedhealth-group-unh-q1-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/20/unitedhealth-group-unh-q4-2020-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/15/unitedhealth-group-unh-q3-2020-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/16/unitedhealth-group-unh-q2-2020-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/15/unitedhealth-group-inc-unh-q1-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/15/unitedhealth-group-inc-unh-q4-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/15/unitedhealth-group-inc-unh-q3-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/18/unitedhealth-group-inc-unh-q2-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/16/unitedhealth-group-inc-unh-q1-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/15/unitedhealth-group-unh-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/16/unitedhealth-group-incorporated-unh-q3-2018-earnin.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/17/unitedhealth-group-incorporated-unh-q2-2018-earnin.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-01-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/01/16/unitedhealth-group-incorporated-unh-q4-2017-earnin.aspx"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "ticker": "NOVT",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526453760/novt-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526335356/novt-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526216984/novt-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526064191/novt-ex99_1.htm",
+   "release_ok": true
+  }
+ ]
+}
