@@ -4,37 +4,49 @@
    "id": "p1111-short-qqq",
    "date": "2026-11-11",
    "title": "Short QQQ at 700 to 710",
-   "said": "qqq up to 700-710 area by sometime next week on this multi week short squeeze, and then a short term reversal due to anthropic ipo, jensen hearing, to retest some lows ... for execution i will short in that range"
+   "said": "qqq up to 700-710 area by sometime next week on this multi week short squeeze, and then a short term reversal due to anthropic ipo, jensen hearing, to retest some lows ... for execution i will short in that range",
+   "closed": "2026-11-18",
+   "result": "Short QQQ +4.4% (687.28 to 656.95). Nov 11 open to Nov 17 close. QQQ never reached 700."
   },
   {
    "id": "p1111-short-aaoi",
    "date": "2026-11-11",
    "title": "Short AAOI, CRWV, NBIS when QQQ hits 700 to 710",
-   "said": "shorting the weakest ai names in that range (aaoi)"
+   "said": "shorting the weakest ai names in that range (aaoi)",
+   "closed": "2026-11-18",
+   "result": "Average +17.5%. Short AAOI +12.4%, CRWV +10.9%, NBIS +29.2%. Nov 11 open to Nov 17 close."
   },
   {
    "id": "p1111-long-retest",
    "date": "2026-11-11",
    "title": "Buy AMD, BE, COHR on the retest",
-   "said": "long strongest ai names on those retests (AMD, BE, COHR, donot need to expand beyond these)"
+   "said": "long strongest ai names on those retests (AMD, BE, COHR, donot need to expand beyond these)",
+   "closed": "2026-11-18",
+   "result": "Average -10.3%. Long AMD -7.3%, BE -13.1%, COHR -10.5%. Nov 11 open to Nov 17 close. The retest had not happened yet on Nov 11."
   },
   {
    "id": "p1111-short-mcd",
    "date": "2026-11-11",
    "title": "Short MCD",
-   "said": "i am also shorting mcd tonight on this tech rebound and its overextended to the upside on RSI"
+   "said": "i am also shorting mcd tonight on this tech rebound and its overextended to the upside on RSI",
+   "closed": "2026-11-18",
+   "result": "Short MCD +1.1% (279.00 to 275.82). Nov 11 open to Nov 17 close."
   },
   {
    "id": "p1111-qqq-long-flip",
    "date": "2026-11-11",
    "title": "Long QQQ into 705 to 710, flip short, relong 680",
-   "said": "add QQQ longs into 705-710 region and flip short. look to relong 680"
+   "said": "add QQQ longs into 705-710 region and flip short. look to relong 680",
+   "closed": "2026-11-18",
+   "result": "Long QQQ -4.4% (687.28 to 656.95). Nov 11 open to Nov 17 close. Scored as a plain long; the flip at 705 never triggered."
   },
   {
    "id": "pmwea8enp0",
    "date": "2026-11-13",
    "title": "Short staples tonight into next week on tech strength and likely short term bottom on Jensen news",
-   "said": "added on site"
+   "said": "added on site",
+   "closed": "2026-11-18",
+   "result": "Short XLP +0.2% (91.60 to 91.46), XLP standing in for staples. Nov 13 open to Nov 17 close."
   },
   {
    "id": "p1118-long-anthropic-ipo",
