@@ -5,8 +5,10 @@
 (() => {
   const { $, day, esc, co, trend, script } = EQ;
   const LIVE = 'live-entertainment';
-  // [ticker for the company pages, call file] for the companies scored in the theaters and streaming work
-  const LIVE_COS = [['AMZN', 'amzn'], ['AAPL', 'aapl'], ['CMCSA', 'cmcsa'], ['DIS', 'dis'], ['NFLX', 'nflx'], ['PSKY', 'paramount'], ['WBD', 'warner']];
+  // [ticker for the company pages, call file] for the companies scored in the theaters and streaming work.
+  // PSKY is now SKYD (same call file). WBD deregistered on 2026-10-16 and has no company page, so it is
+  // left out here; its calls still count in the streaming charts.
+  const LIVE_COS = [['AMZN', 'amzn'], ['AAPL', 'aapl'], ['CMCSA', 'cmcsa'], ['DIS', 'dis'], ['NFLX', 'nflx'], ['SKYD', 'paramount']];
   // Which of the site's own sector and industry labels make up each industry. The data carries two
   // naming schemes, so both spellings are listed.
   const RULES = {

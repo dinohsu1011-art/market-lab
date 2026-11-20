@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "review_id": "2026-11-19Tlegacy--1ae222464e6d",
+  "week_ending": "2026-11-19",
+  "edition_number": 1,
+  "run_id": "1ae222464e6db8bc363e5b3a7258c0b88ba8c98b6f7f1b97f5e93ae92b9fddc5",
+  "created_at": null,
+  "cutoff": null,
+  "kind": "legacy_daily",
+  "status": "legacy",
+  "narrative_status": "legacy",
+  "previous_review_id": null,
+  "supersedes_review_id": null,
+  "source_file_sha256": "861fa0492bdc9119a824e6f0dcf249b019c631ab56da313f4f13611003f5883e",
+  "files": {
+    "snapshot.json": "fe657dbaa9190322ccc197d7f7c3a7486deb67a31486040c71c2e5da9877e618",
+    "narrative.json": "45a70619fb37116d6a3c671d97a9c3fdb49e596792510334bd77cef60cf8e743",
+    "review.md": "ce088bdc4051a226e2660b1bf91c442612c250300819d360bc148554c9629479"
+  },
+  "public_files": {
+    "snapshot.json": "fe657dbaa9190322ccc197d7f7c3a7486deb67a31486040c71c2e5da9877e618",
+    "narrative.json": "45a70619fb37116d6a3c671d97a9c3fdb49e596792510334bd77cef60cf8e743",
+    "review.md": "ce088bdc4051a226e2660b1bf91c442612c250300819d360bc148554c9629479"
+  }
+}

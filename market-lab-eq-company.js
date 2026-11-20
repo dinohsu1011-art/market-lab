@@ -130,17 +130,24 @@
   const VM = { fpe: ['Forward P/E', 'Share price divided by earnings per share over the following 12 months. Past dates use the earnings later reported, because old forecasts are not stored. Quarters not yet reported use the same quarter a year earlier, grown at the latest yearly growth rate.'],
     pe: ['Trailing P/E', 'Share price divided by the last four reported quarters of earnings per share.'],
     ebitda: ['Market value to EBITDA', 'Market value divided by the last four quarters of EBITDA (operating income plus depreciation and amortization). Debt and cash are not included.'] };
-  let VAL = null;
+  let VAL = null, VAL_OWN = false, VAL_ADJ = false;
   const later = (iso, days) => new Date(Date.parse(iso) + days * 864e5).toISOString().slice(0, 10);
   // the chosen window: days for a year, weeks for three, months beyond that
   const valAxis = () => { const r = valRange(), S = r === '1Y' ? P.daily : r === '3Y' ? P.weekly : r === '5Y' ? cut(P.monthly, 61) : P.monthly;
-    const d = S.d.slice(), c = S.c.slice(), D = P.daily, ld = D.d[D.d.length - 1];
-    if (ld > d[d.length - 1]) { d.push(ld); c.push(D.c[D.c.length - 1]); } else c[c.length - 1] = D.c[D.c.length - 1];
+    // a missing close at the end (ROKU's last week of days) would read as a zero multiple, so stop at the last real close
+    const d = S.d.slice(), c = S.c.slice(), D = P.daily; let j = D.c.length - 1; while (j > 0 && !(D.c[j] > 0)) j--;
+    while (c.length > 1 && !(c[c.length - 1] > 0)) { c.pop(); d.pop(); }
+    const ld = D.d[j]; if (ld > d[d.length - 1]) { d.push(ld); c.push(D.c[j]); } else c[c.length - 1] = D.c[j];
     return { d, c }; };
-  const buildVal = () => { VAL = null; if (!P) return;
+  const buildVal = () => { VAL = null; VAL_OWN = false; VAL_ADJ = false; if (!P) return;
     const { d, c } = valAxis();
     const per = {}, B = window.QUANT_PE_BANDS, bk = B && ((B.meta.aliases || {})[sym] || sym), rows = B && !(B.meta.excluded || {})[sym] && B.series[bk] && B.series[bk].rows;
-    if (F) { const L = F.lines, E = L.eps, n = E.length - 1, q = F.quarters.map(x => later(x.end, 45)), da = ((F.kpi_groups || []).flatMap(g => g.rows).find(r => /^depreciation/i.test(r.name)) || {}).values;
+    if (F) { const L = F.lines, n = L.eps.length - 1, AE = (F.adjustments || []).find(a => a.unit === 'eps'),
+        ae = AE && F.quarters.map((_, k) => AE.q[k] && AE.q[k].total != null ? AE.q[k].total : null),
+        // reported EPS below zero over the last year (TTWO's write-downs): use the company's adjusted EPS, when it has one
+        lossy = n >= 3 && !(L.eps.slice(n - 3).reduce((t, v) => t == null || v == null ? null : t + v, 0) > 0),
+        E = lossy && ae && ae.slice(n - 3).every(v => v != null) ? ae : L.eps; if (E !== L.eps) VAL_ADJ = true;
+      const q = F.quarters.map(x => later(x.end, 45)), da = ((F.kpi_groups || []).flatMap(g => g.rows).find(r => /^depreciation/i.test(r.name)) || {}).values;
       const known = x => { let i = -1; while (i + 1 < q.length && q[i + 1] <= x) i++; return i; };
       const ttm = get => d.map(x => { const i = known(x); if (i < 3) return null; let t = 0; for (let k = i - 3; k <= i; k++) { const v = get(k); if (v == null) return null; t += v; } return [t, i]; });
       const sum = (a, b) => { let t = 0; for (let k = a; k <= b; k++) { if (E[k] == null) return null; t += E[k]; } return t; };
@@ -148,12 +155,18 @@
       if (n >= 3) per.fpe = d.map(x => { const i = known(x); if (i < 0) return null; let t = 0;
         for (let k = i + 1; k <= i + 4; k++) { const v = k <= n ? E[k] : E[k - 4] == null ? null : E[k - 4] > 0 ? E[k - 4] * (1 + g) : E[k - 4]; if (v == null) return null; t += v; } return t; });
       per.pe = ttm(k => E[k]).map(v => v && v[0]);
-      if (da) per.ebitda = ttm(k => L.op[k] == null || da[k] == null ? null : L.op[k] + da[k]).map(v => v && L.sh[v[1]] ? v[0] / L.sh[v[1]] : null); }
+      if (da) per.ebitda = ttm(k => L.op[k] == null || da[k] == null ? null : L.op[k] + da[k]).map(v => v && L.sh[v[1]] ? v[0] / L.sh[v[1]] : null);
+      // write-downs can sink operating income (TTWO, whose D&A line leaves out intangible amortization): when operating
+      // income plus D&A comes to under half the EBITDA the company itself reports, use the reported one
+      const own = (F.adjustments || []).find(a => /^ebitda$/i.test((a.name || '').trim()));
+      if (own) { const ov = F.quarters.map((_, k) => own.q[k] && own.q[k].total != null ? own.q[k].total : null),
+          oe = ttm(k => ov[k]).map(v => v && L.sh[v[1]] ? v[0] / L.sh[v[1]] : null), lo = oe[oe.length - 1], le = per.ebitda && per.ebitda[per.ebitda.length - 1];
+        if (lo > 0 && !(le > lo / 2)) { per.ebitda = oe; VAL_OWN = true; } } }
     // companies without statements here: yearly analyst estimates, blended between this year and next
     if (!per.fpe && rows && rows.length > 2) per.fpe = d.map(x => { const i = rows.findIndex(r => r[1] > x); if (i < 1 || !rows[i + 1]) return null;
       const a = Date.parse(rows[i - 1][1]), b = Date.parse(rows[i][1]), f = Math.max(0, Math.min(1, (Date.parse(x) - a) / (b - a))); return rows[i][2] * (1 - f) + rows[i + 1][2] * f; });
     const out = {};
-    Object.keys(per).forEach(k => { const m = per[k].map((e, i) => e > 0 && c[i] / e < 200 ? c[i] / e : null), ok = m.filter(v => v != null);
+    Object.keys(per).forEach(k => { const m = per[k].map((e, i) => e > 0 && c[i] > 0 && c[i] / e < 200 ? c[i] / e : null), ok = m.filter(v => v != null);
       if (ok.length < 8 || m[m.length - 1] == null) return;
       const L = ok.map(Math.log), mu = L.reduce((a, b) => a + b, 0) / L.length, sd = Math.sqrt(L.reduce((a, b) => a + (b - mu) ** 2, 0) / L.length), at = z => Math.exp(mu + z * sd);
       out[k] = { e: per[k], m, lo: Math.min(...ok), hi: Math.max(...ok), mid: at(0), up1: at(1), up5: at(.5), dn5: at(-.5), dn1: at(-1), skip: m.length - m.findIndex(t => t != null) - ok.length }; });
@@ -182,6 +195,8 @@
       row('background:none', 'Highest seen', v.hi, when(v.hi), 'ref') + row('background:none', 'Lowest seen', v.lo, when(v.lo), 'ref') + '</tbody>';
     $('valNote').textContent = `Typical is the middle of ${sym}'s ${VM[k][0]} readings since ${since}. About two in three readings fall between Low and High, and about four in ten fall between the two inner lines. ` +
       `The spread is measured in percent moves, so one extreme reading cannot stretch it. Highest and lowest seen are for reference and are not drawn.` +
+      ((k === 'fpe' || k === 'pe') && VAL_ADJ ? ` Earnings here are ${sym}'s adjusted earnings per share, because write-downs have kept reported earnings below zero. They come from the adjustments listed in its earnings releases.` : '') +
+      (k === 'ebitda' && VAL_OWN ?` EBITDA here is the figure ${sym} reports in its earnings releases, because write-downs and amortization push its operating income far below it.` : '') +
       (v.skip > 0 ? ` ${v.skip} of the ${v.skip + m.filter(t => t != null).length} readings are left out because earnings were negative or the multiple was above 200×.` : ''); };
   const valRange = pick($('valRange'), [['1Y'], ['3Y'], ['5Y'], ['10Y']], 'equinox.company.valrange.v1', '5Y', () => { buildVal(); drawVal(); });
   const valMode = pick($('valPick'), Object.keys(VM).map(k => [k, VM[k][0]]), 'equinox.company.multiple.v1', 'fpe', drawVal);
@@ -234,7 +249,8 @@
       json('cube/technical-index.json').catch(() => null),
       json('cube/company-profiles.json').then(d => d.rows[sym]).catch(() => null),
       json(`financials/${encodeURIComponent(sym)}.json`).catch(() => null),
-      json(`cube/calls/${encodeURIComponent(sym.toLowerCase())}.json`).catch(() => null),
+      json('cube/calls/index.json').then(m => (m.tickers || {})[sym.toUpperCase()], () => null)   // company call files are named by company
+        .then(f => f && f !== sym.toLowerCase() ? json(`cube/calls/${encodeURIComponent(f)}.json`).catch(() => json(`cube/calls/${encodeURIComponent(sym.toLowerCase())}.json`)) : json(`cube/calls/${encodeURIComponent(sym.toLowerCase())}.json`)).catch(() => null),
       json('cube/company-updates.json').then(d => d.rows[sym]).catch(() => null),
       json('cube/overextension.json').then(d => d.rows[sym] || d.rows[sym.toLowerCase()]).catch(() => null),
       series('spy').catch(() => null)]);

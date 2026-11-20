@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checked_on": "2026-09-15",
+  "checked_on": "2026-11-19",
   "method": "Official earnings releases and primary SEC exhibits. Every recap states revenue growth versus the same quarter last year and explains guidance changes. Raises compare the same measure and forecast period; new-period outlooks are not raises. Missing comparisons are stated. Short editorial recaps; no beat/miss labels, paid sources or transcript redistribution.",
   "rows": {
     "AMD": {
@@ -611,38 +611,73 @@
     "PANW": {
       "id": "PANW",
       "company": "Palo Alto Networks",
-      "period": "Q4 FY2026",
-      "published": "2026-09-01",
-      "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results",
-      "summary": "Demand across Palo Alto Networks’ security platforms supported revenue and contracted business. Converting those commitments into revenue remains important.",
+      "period": "Q1 FY2027",
+      "published": "2026-11-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/ex991q127earningsrelease.htm",
+      "summary": "Growth sped up and the company raised its full-year revenue and adjusted earnings forecasts. GAAP operating income fell to $96 million from $309 million; adjusted operating income rose to $1.1 billion.",
       "developments": [
-        "Contracted future business expanded alongside recognized revenue."
+        "Next-generation security annual recurring revenue grew 66% to $9.73 billion, and contracted future business grew 35% to $21.0 billion.",
+        "The company plans to buy Applied Compute for about $4.5 billion in stock, expected to close in fiscal Q3 2027."
       ],
-      "watch": "How contracted business converts into revenue across the security platforms.",
+      "watch": "Whether the gap between GAAP and adjusted profit narrows.",
       "evidence": [
         {
-          "locator": "RPO highlight and CFO commentary",
-          "supports": "Contracted obligations and platform demand"
+          "locator": "First Quarter Fiscal 2027 Financial Highlights",
+          "supports": "Reported revenue, ARR, RPO and operating income"
         },
         {
           "locator": "Financial Outlook",
-          "supports": "FY2027 revenue guidance"
+          "supports": "Raised FY2027 revenue and adjusted EPS guidance"
         },
         {
-          "locator": "Fourth Quarter Fiscal 2026 Financial Highlights",
-          "supports": "Reported revenue and year-over-year growth; calculated rates use the prior-year quarter."
+          "locator": "Q4 FY2026 release, Financial Outlook",
+          "supports": "Prior FY2027 ranges"
         }
       ],
       "growth": {
-        "revenue_yoy_pct": 34,
+        "revenue_yoy_pct": 39,
         "basis": "reported",
-        "text": "Revenue rose 34% year over year to $3.41 billion. Next-generation security annual recurring revenue grew 63% to $9.10 billion; remaining performance obligations grew 34% to $21.2 billion.",
-        "locator": "Fourth Quarter Fiscal 2026 Financial Highlights"
+        "text": "Revenue rose 39% year over year to $3.44 billion, up from 34% growth last quarter. Next-generation security annual recurring revenue grew 66% to $9.73 billion; remaining performance obligations grew 35% to $21.0 billion.",
+        "locator": "First Quarter Fiscal 2027 Financial Highlights"
       },
       "guidance": {
-        "status": "new_period",
-        "text": "Palo Alto Networks introduced FY2027 revenue guidance of $14.10–$14.20 billion, implying 23–24% year-over-year growth, and adjusted EPS of $4.16–$4.19. This is a new financial-year outlook, not a raise to FY2026 guidance.",
-        "changes": []
+        "status": "raised",
+        "text": "Palo Alto Networks raised FY2027 revenue guidance from $14.10–$14.20 billion to $14.52–$14.57 billion, now 26–27% growth. Adjusted EPS guidance rose from $4.16–$4.19 to $4.26–$4.30. The adjusted operating margin (29.5%) and free cash flow margin (38.0%) forecasts were unchanged.",
+        "prior_url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results",
+        "changes": [
+          {
+            "metric": "Revenue",
+            "period": "FY2027",
+            "previous_period": "FY2027",
+            "unit": "USD billion",
+            "previous": [
+              14.1,
+              14.2
+            ],
+            "current": [
+              14.52,
+              14.57
+            ],
+            "direction": "raised",
+            "locator": "Financial Outlook"
+          },
+          {
+            "metric": "Adjusted EPS",
+            "period": "FY2027",
+            "previous_period": "FY2027",
+            "unit": "USD per share",
+            "previous": [
+              4.16,
+              4.19
+            ],
+            "current": [
+              4.26,
+              4.3
+            ],
+            "direction": "raised",
+            "locator": "Financial Outlook"
+          }
+        ]
       }
     },
     "NET": {
@@ -1149,5 +1184,5 @@
       }
     }
   },
-  "update_id": "b2370f9d3563b9800ac7"
+  "update_id": "ec6b3ff8c0cd51af7508"
 }

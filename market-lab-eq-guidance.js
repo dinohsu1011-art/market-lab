@@ -36,11 +36,11 @@
   // rows in each call: revenue, then margins, then earnings, then segments, then everything else
   const OTHER = /headwind|tailwind|contribution|accretion|impact|uplift|synerg|cost|as a share of|^capital|^cumulative|^r&d/i;
   const rank = m => OTHER.test(m) ? 4
-    : /^(?:revenue|net sales|sales|organic|price realization)\b/i.test(m) ? 0
+    : /^(?:revenue|net sales|sales|organic|price realization|net interest income|non-interest income)\b/i.test(m) ? 0
     : /^(?:adjusted |core )?(?:gross|operating|segment|adjusted segment|ebitda|adjusted ebitda|incremental|free cash flow)(?: \w+)? margin\b/i.test(m) ? 1
     : /^(?:adjusted |long-term |core )?(?:eps|earnings|net income|operating income|operating profit|adjusted operating profit|ebitda|adjusted ebitda|ffo)\b/i.test(m) ? 2
     : /revenue|sales|margin|ebitda|profit|organic/i.test(m) ? 3 : 4;
-  const FIRST = ['Revenue', 'Revenue growth', 'Organic growth', 'Gross margin', 'Operating margin', 'Segment margin', 'Adjusted EBITDA margin',
+  const FIRST = ['Revenue', 'Revenue growth', 'Net interest income', 'Net interest income growth', 'Non-interest income', 'Non-interest income growth', 'Organic growth', 'Gross margin', 'Operating margin', 'Segment margin', 'Adjusted EBITDA margin',
     'Adjusted EPS', 'EPS', 'Adjusted EPS growth', 'EPS growth', 'Adjusted EBITDA', 'EBITDA', 'Operating income', 'Net income', 'FFO'];
   const sub = m => { const i = FIRST.indexOf(m); return i < 0 ? 99 : i; };
   const when = p => { let x; return (x = /^Q(\d) (\d{4})/.exec(p)) ? +x[2] * 10 + +x[1] : (x = /^H(\d) (\d{4})/.exec(p)) ? +x[2] * 10 + 5 + +x[1] : (x = /^FY(\d{4})/.exec(p)) ? +x[1] * 10 + 8 : 1e6; };
@@ -56,7 +56,8 @@
     const rel = g.u !== '%' && base ? ` (${d > 0 ? '+' : '−'}${trim(Math.abs(d / base) * 100, 1)}%)` : '';
     return `<td class="num ${cls || (d > 0 ? 'up' : 'down')}">${signed(d, g.u)}${rel}</td>`;
   }
-  const label = k => { const [fy, fq] = k.split(' '); return `${fq} fiscal ${fy}`; };
+  let NAMES = {};   // calls the company names its own way (FedEx's first calendar quarters after its fiscal-year change)
+  const label = k => { if (NAMES[k]) return NAMES[k]; const [fy, fq] = k.split(' '); return `${fq} fiscal ${fy}`; };
   // a small link to where a figure came from: the call it was said on, or the earnings release
   function src(o, text) {
     if (!o || !o.url) return '';
@@ -133,6 +134,7 @@
     $('name').textContent = short; $('sub').textContent = sym + ' · Guidance'; document.title = `${short} guidance · Equinox`;
     const G = await json(`guidance/${encodeURIComponent(sym)}.json`).catch(() => null); if (me !== run) return;
     const keys = G ? Object.keys(G.calls).sort((a, b) => b.localeCompare(a)) : [];
+    NAMES = {}; if (G) for (const k in G.calls) if (G.calls[k].name) NAMES[k] = G.calls[k].name;
     QONLY = !!G && quarterOnly(G);
     summary(G, keys);
     const head = (k, n) => `<th scope="rowgroup" rowspan="${n}" class="left call">${esc(label(k))}<span>${G.calls[k].date ? day(G.calls[k].date) : ''}</span>${G.calls[k].from === 'release' ? '<span title="No call transcript on file for this quarter, so these numbers are read from the earnings release.">From the release</span>' : ''}</th>`;

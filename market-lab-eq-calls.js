@@ -4,6 +4,10 @@
 (() => {
   const { $, pct, tone, day, esc, json, trend, finder } = EQ;
   const LAST = 'equinox.company.last.v1';
+  // company call files are named by company (vivmark holds EQR and VMRK), so map the ticker first
+  const calls_for = t => { const own = () => json(`cube/calls/${encodeURIComponent(t.toLowerCase())}.json`);
+    return json('cube/calls/index.json').then(m => (m.tickers || {})[t.toUpperCase()], () => null)
+      .then(f => f && f !== t.toLowerCase() ? json(`cube/calls/${encodeURIComponent(f)}.json`).catch(own) : own()); };
   let run = 0, last = [], said = null;
   EQ.onRedraw(() => { if (!$('react').hidden) EQ.reaction($('dots'), last, said); });
   const want = () => { let h = ''; try { h = decodeURIComponent(location.hash.slice(1)); } catch (_) {}
@@ -26,7 +30,7 @@
     MarketLab.menu(sym);
     $('name').textContent = short; $('sub').textContent = sym + ' · Earnings calls'; document.title = `${short} earnings calls · Equinox`;
     const [calls, links, talk] = await Promise.all([
-      json(`cube/calls/${encodeURIComponent(sym.toLowerCase())}.json`).catch(() => null),
+      calls_for(sym).catch(() => null),
       json(`company-links/${encodeURIComponent(sym)}.json`).catch(() => null),
       json(`call-guidance/${encodeURIComponent(sym)}.json`).catch(() => null)]);
     if (me !== run) return;

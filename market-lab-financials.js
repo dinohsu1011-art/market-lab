@@ -39,7 +39,7 @@
   }
 
   // ---------- company state ----------
-  let D, Q, HIST, GROUPS, KG, FSEG, segMode, hasOox, ov, mode, KEY, M, MET, SKIP = new Set(), LINK = null;
+  let D, Q, FYN = y => y, HIST, GROUPS, KG, FSEG, segMode, hasOox, ov, mode, KEY, M, MET, SKIP = new Set(), LINK = null;
   const MET0 = {
     gp:  {pct: ['gm', 'Gross margin'], yoy: ['gp_g', 'Gross profit % chg YoY']},
     rd:  {pct: ['rdp', 'R&D % of revenue'], yoy: ['rd_g', 'R&D % chg YoY']},
@@ -71,6 +71,9 @@
   function setup(data, model) {
     D = data; HIST = D.quarters.length; LINK = null;
     Q = D.quarters.map((q, i) => Object.assign({}, q, {i, est: false}));
+    // the year as the company names it: retailers such as Home Depot call the year ending Feb 2026 "fiscal 2025".
+    // Quarter ids and saved edits keep the page's own year; only the labels shown use the company's name.
+    FYN = y => y + (D.fy_name_offset || 0);
     let {fy, fq} = D.quarters[HIST - 1];
     let [ey, em] = D.quarters[HIST - 1].end.split('-').map(Number);
     for (let k = 0; k < FCST; k++) {
@@ -79,9 +82,9 @@
       Q.push({id: `FY${fy}Q${fq}`, fy, fq, end: null, label: `${MON[em - 1]} '${String(ey).slice(2)}`, i: HIST + k, est: true});
     }
     GROUPS = (D.segment_groups || []).map((g, gi) => ({gi, label: g.label, rows: g.rows.map(r => ({key: `${gi}|${r.name}`, name: r.name, values: r.values.slice(), gap: new Set()}))}));
-    // KPI tab rows: reported figures only, estimate columns stay blank
+    // KPI tab rows: reported figures; estimate columns stay blank unless a row carries outside figures (ext)
     // ids by name, so a group added later (like Adjusted) does not shift saved collapse/chart picks
-    KG = (D.kpi_groups || []).map(g => ({gi: `k:${g.label}`, label: g.label, rows: g.rows.map(r => ({...r, key: `${g.label}|${r.name}`}))}));
+    KG = (D.kpi_groups || []).map(g => ({gi: `k:${g.label}`, label: g.label, top: !!g.top, rows: g.rows.map(r => ({...r, key: `${g.label}|${r.name}`}))}));
     // The newest segment set drives the forecast. When a company skipped restating some quarters
     // (NVDA FY26 Q3-Q4), fill them from the mix of the reported quarters on each side so year-ago
     // growth works. Those cells are marked as estimates in the grid.
@@ -230,11 +233,11 @@
 
   // ---------- columns (quarters or fiscal years) ----------
   function columns() {
-    if (view.period === 'q') return Q.map(q => ({key: q.id, label: `Q${q.fq} FY${String(q.fy).slice(2)}`, date: q.label, est: q.est, idx: [q.i], qi: q.i}));
+    if (view.period === 'q') return Q.map(q => ({key: q.id, label: `Q${q.fq} FY${String(FYN(q.fy)).slice(2)}`, date: q.label, est: q.est, idx: [q.i], qi: q.i}));
     const out = [], years = [...new Set(Q.map(q => q.fy))];
     years.forEach(y => {
       const idx = Q.filter(q => q.fy === y).map(q => q.i);
-      if (idx.length === 4) out.push({key: `FY${y}`, fy: y, label: `FY${String(y).slice(2)}`, date: Q[idx[3]].label, est: idx.some(i => Q[i].est), idx});
+      if (idx.length === 4) out.push({key: `FY${y}`, fy: y, label: `FY${String(FYN(y)).slice(2)}`, date: Q[idx[3]].label, est: idx.some(i => Q[i].est), idx});
     });
     return out;
   }
@@ -276,13 +279,22 @@
   }
   // a KPI cell: the quarter as reported; a fiscal year as the build worked it out (sum, year-end figure or ratio)
   let KPI = {};
+  // outside figures (a broker's or tracker's number, kind "outside" in kpi_data) fill cells the company has not reported
   function kval(r, col) {
     if (!r) return null;
-    if (r.unit === 'text') return col.idx.length === 1 ? r.values[col.idx[0]] ?? null : null;
-    if (col.idx.length === 1) { const v = r.values[col.idx[0]]; return ok(v) ? v : null; }
+    const e = (r.ext || {})[col.key], x = e ? e.v : null;
+    if (r.unit === 'text') return col.idx.length === 1 ? r.values[col.idx[0]] ?? x : x;
+    if (col.idx.length === 1) { const v = r.values[col.idx[0]]; return ok(v) ? v : x; }
     const v = (r.annual || {})[String(col.fy)];
-    return ok(v) ? v : null;
+    return ok(v) ? v : x;
   }
+  // the outside figure behind a KPI cell, when the cell shows one
+  const extAt = (rw, c) => {
+    const K = rw.id && rw.id.startsWith('kpi|') ? KPI[rw.id.slice(4)] : null, e = K && K.ext && K.ext[c.key];
+    if (!e) return null;
+    const rep = c.idx.length === 1 ? K.values[c.idx[0]] : (K.annual || {})[String(c.fy)];
+    return rep != null ? null : e;
+  };
   const growth = (line, col) => { const p = yearAgo(col); if (!p) return null; const a = val(line, col), b = val(line, p); return a == null || b == null || b <= 0 ? null : a / b - 1; };
   const ratio = (a, b) => col => { const x = val(a, col), y = val(b, col); return x == null || !y ? null : x / y; };
 
@@ -346,7 +358,22 @@
   const KPI_ROWS = () => {
     const rows = [];
     KPI = {};
-    // total and segment revenue first, so they can be charted with any KPI
+    // a group marked "top" in the KPI map (TTWO's GTA VI) comes first; then total and segment revenue,
+    // so they can be charted with any KPI
+    const addGroup = g => {
+      rows.push({grp: g.label, gi: g.gi});
+      g.rows.forEach((r, k) => {
+        KPI[r.key] = r;
+        const id = `kpi|${r.key}`, kind = r.unit === 'usd' ? 'v' : r.unit === 'pct' ? 'p' : r.unit === 'text' ? 't' : r.unit === 'eps' ? 's' : 'k';
+        const subs = [];
+        if (kind !== 'p' && kind !== 't' && !r.nog) subs.push({id: `kpig|${r.key}`, label: `${r.name} % chg YoY`, kind: 'p', sub: 1, seg: g.gi, f: c => growth(id, c)});
+        if (r.ofrev) subs.push({id: `kpim|${r.key}`, label: `${r.name} % of revenue`, kind: 'p', sub: 1, seg: g.gi, f: c => { const v = val(id, c), t = val('rev', c); return v == null || !t ? null : v / t; }});
+        const last = k === g.rows.length - 1;
+        rows.push({id, label: r.name, link: r.link, kind, main: 1, seg: g.gi, cls: !subs.length && !last ? 'rule' : '', f: c => val(id, c)});
+        subs.forEach((x, j) => rows.push({...x, cls: j === subs.length - 1 && !last ? 'rule' : ''}));
+      });
+    };
+    KG.filter(g => g.top).forEach(addGroup);
     const G0 = GROUPS[0];
     rows.push({grp: 'Revenue', gi: 'krev'});
     rows.push({id: 'rev', label: 'Total revenue', kind: 'v', main: 1, cls: 'total', hg: 'krev', f: c => val('rev', c)});
@@ -357,19 +384,7 @@
       rows.push({id: `seg|${r.key}`, label: r.name, name: r.name, kind: 'v', main: 1, seg: G0.gi, hg: 'krev', gap: r.gap, lk, f: c => val(`seg|${r.key}`, c)});
       rows.push({id: `segg|${r.key}`, label: `${r.name} % chg YoY`, kind: 'p', sub: 1, seg: G0.gi, hg: 'krev', cls: last ? '' : 'rule', lk, f: c => growth(`seg|${r.key}`, c), drv: FSEG.includes(r) && !lk ? `seg:${r.name}` : null});
     });
-    KG.forEach(g => {
-      rows.push({grp: g.label, gi: g.gi});
-      g.rows.forEach((r, k) => {
-        KPI[r.key] = r;
-        const id = `kpi|${r.key}`, kind = r.unit === 'usd' ? 'v' : r.unit === 'pct' ? 'p' : r.unit === 'text' ? 't' : r.unit === 'eps' ? 's' : 'k';
-        const subs = [];
-        if (kind !== 'p' && kind !== 't') subs.push({id: `kpig|${r.key}`, label: `${r.name} % chg YoY`, kind: 'p', sub: 1, seg: g.gi, f: c => growth(id, c)});
-        if (r.ofrev) subs.push({id: `kpim|${r.key}`, label: `${r.name} % of revenue`, kind: 'p', sub: 1, seg: g.gi, f: c => { const v = val(id, c), t = val('rev', c); return v == null || !t ? null : v / t; }});
-        const last = k === g.rows.length - 1;
-        rows.push({id, label: r.name, kind, main: 1, seg: g.gi, cls: !subs.length && !last ? 'rule' : '', f: c => val(id, c)});
-        subs.forEach((x, j) => rows.push({...x, cls: j === subs.length - 1 && !last ? 'rule' : ''}));
-      });
-    });
+    KG.filter(g => !g.top).forEach(addGroup);
     return rows;
   };
   // Adjustments tab: each adjusted figure built up from the reported one, quarter by quarter from the
@@ -418,8 +433,9 @@
     }
     return pick.flatMap(g => g.rows.map(r => `seg|${r.key}`));
   }
+  // the KPIs tab charts total revenue first, even when a top group (TTWO's GTA VI) sits above it
   const checked = () => {
-    if (!view.checked[view.tab]) view.checked[view.tab] = view.tab === 'is' ? ['rev'] : view.tab === 'kpi' ? KPI_ROWS().filter(r => r.main && r.kind !== 't').slice(0, 1).map(r => r.id) : view.tab === 'adj' ? ['adj|0|t'] : chain();
+    if (!view.checked[view.tab]) view.checked[view.tab] = view.tab === 'is' ? ['rev'] : view.tab === 'kpi' ? ['rev'] : view.tab === 'adj' ? ['adj|0|t'] : chain();
     return view.checked[view.tab];
   };
   const isGap = (r, c) => r.gap && !c.est && c.idx.some(i => r.gap.has(i));
@@ -449,12 +465,108 @@
   const grid = $('grid'), wrap = $('wrap');
   let cols = [], rws = [];
 
+  // small hand-drawn line chart for the tracker panel; returns svg markup plus the scales for hover
+  function trkLine(pts, o) {
+    const W = 560, H = 200, L = 46, R = 12, T = 12, B = 26;
+    const x0 = pts[0].t, x1 = pts[pts.length - 1].t;
+    const vs = pts.map(p => p.v);
+    const nice = x => { const k = Math.pow(10, Math.floor(Math.log10(x || 1))), f = x / k; return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 5 ? 5 : 10) * k; };
+    const st = nice((Math.max(...vs) - Math.min(0, ...vs)) / 4);
+    const lo = Math.floor(Math.min(0, ...vs) / st) * st, hi = Math.ceil(Math.max(...vs) / st) * st;
+    const X = t => L + (t - x0) / (x1 - x0 || 1) * (W - L - R);
+    const Y = v => T + (hi - v) / (hi - lo || 1) * (H - T - B);
+    let g = '';
+    for (let v = lo; v <= hi + st / 2; v += st)
+      g += `<line class="gl" x1="${L}" x2="${W - R}" y1="${Y(v)}" y2="${Y(v)}"/><text class="yl" x="${L - 6}" y="${Y(v) + 4}">${o.tick(v)}</text>`;
+    const d0 = new Date(x0);
+    for (let m = Date.UTC(d0.getUTCFullYear(), d0.getUTCMonth() + 1, 1); m <= x1; m = Date.UTC(new Date(m).getUTCFullYear(), new Date(m).getUTCMonth() + 1, 1))
+      g += `<line class="gx" x1="${X(m)}" x2="${X(m)}" y1="${T}" y2="${H - B}"/><text class="xl" x="${X(m)}" y="${H - 8}">${new Date(m).toLocaleDateString('en-US', {month: 'short', timeZone: 'UTC'})}</text>`;
+    const line = pts.map((p, i) => (i ? 'L' : 'M') + X(p.t).toFixed(1) + ' ' + Y(p.v).toFixed(1)).join('');
+    const bw = Math.max(1.5, (W - L - R) / Math.max(1, (x1 - x0) / 864e5) * 0.7);
+    const bars = o.bar ? pts.map(p => `<rect class="br" x="${(X(p.t) - bw / 2).toFixed(1)}" y="${Y(Math.max(0, p.v)).toFixed(1)}" width="${bw.toFixed(1)}" height="${Math.abs(Y(p.v) - Y(0)).toFixed(1)}"/>`).join('') : '';
+    const z = pts[pts.length - 1];
+    const svg = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${o.label}">${g}${o.bar ? bars : `<path class="ln" d="${line}"/><circle class="end" cx="${X(z.t)}" cy="${Y(z.v)}" r="3.5"/>`}` +
+      `<line class="hx" y1="${T}" y2="${H - B}" hidden/>` +
+      `<circle class="hd" r="4" hidden/><rect class="hit" x="${L}" y="${T}" width="${W - L - R}" height="${H - T - B}"/></svg>`;
+    return {svg, X, Y, W};
+  }
+
+  // ---------- daily outside tracker (TTWO: Sensor Tower's GTA VI sales), drawn above the KPI grid ----------
+  function showTracker(on) {
+    let box = $('trk');
+    const g = on && (D.kpi_groups || []).find(x => x.tracker && (x.tracker.rows || []).length > 1);
+    if (!g) { if (box) box.hidden = true; return; }
+    if (!box) {
+      box = document.createElement('section');
+      box.className = 'fin-trk'; box.id = 'trk';
+      wrap.parentNode.insertBefore(box, wrap);
+    }
+    box.hidden = false;
+    const t = g.tracker, key = D.ticker + '|' + t.updated + '|' + t.through;
+    if (box.dataset.key === key) return;
+    box.dataset.key = key;
+    const E = s => String(s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+    const rows = t.rows.map(([d, pu, xu, pr, xr]) => ({d, pu, xu, u: pu + xu, r: pr + xr}));
+    const f2 = v => v.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+    const f0 = v => v.toLocaleString('en-US', {maximumFractionDigits: 0});
+    const pc = (a, b) => b > 0 ? a / b - 1 : null;
+    const pt = v => v === null ? '' : (v >= 0 ? '+' : '') + (v * 100).toFixed(1) + '%';
+    const ms = d => Date.parse(d + 'T12:00:00Z');
+    const day = d => new Date(ms(d)).toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC'});
+    const last = rows[rows.length - 1], prev = rows[rows.length - 2];
+    const body = rows.map((r, i) => {
+      const p = rows[i - 1];
+      const gap = p ? Math.round((ms(r.d) - ms(p.d)) / 864e5) : 0;
+      return `<tr><th scope="row">${day(r.d)}</th><td>${f2(r.u)}</td><td>${p ? (r.u >= p.u ? '+' : '') + f2(r.u - p.u) : ''}</td>` +
+        `<td>${p ? pt(pc(r.u, p.u)) : ''}${gap > 1 ? `<small> ${gap}d</small>` : ''}</td><td>${f2(r.pu)}</td><td>${f2(r.xu)}</td>` +
+        `<td>${f0(r.r)}</td><td>${p ? pt(pc(r.r, p.r)) : ''}</td></tr>`;
+    }).reverse().join('');
+    const uPts = rows.map(r => ({t: ms(r.d), d: r.d, v: r.u}));
+    const pPts = rows.slice(1).map((r, i) => {
+      const gap = Math.max(1, Math.round((ms(r.d) - ms(rows[i].d)) / 864e5));
+      return {t: ms(r.d), d: r.d, v: (Math.pow(r.u / rows[i].u, 1 / gap) - 1) * 100};
+    });
+    const cu = trkLine(uPts, {label: 'GTA VI units sold, cumulative, millions', tick: v => v + 'M', bar: true});
+    const cp = trkLine(pPts, {label: 'GTA VI units sold, daily percent increase', tick: v => v + '%'});
+    const fig = (id, title, ch, val) => `<figure class="trk-fig" data-c="${id}"><figcaption><b>${title}</b><span>${val}</span></figcaption>${ch.svg}</figure>`;
+    const uVal = p => `${day(p.d)}: ${f2(p.v)}M`, pVal = p => `${day(p.d)}: ${(p.v >= 0 ? '+' : '') + p.v.toFixed(1)}% a day`;
+    const charts = `<div class="trk-charts">` +
+      fig('u', 'Units sold (millions)', cu, uVal(uPts[uPts.length - 1])) +
+      fig('p', 'Daily % increase in units', cp, pVal(pPts[pPts.length - 1])) + `</div>`;
+    const lk = t.link ? ` <a href="${E(t.link.url)}" target="_blank" rel="noopener">${E(t.link.text)}</a>` : '';
+    box.innerHTML =
+      `<div class="trk-top"><h3>${E(t.title || 'Daily tracker')}</h3><p>Updated ${day(t.updated)}, readings through ${day(last.d)}.${lk}</p></div>` +
+      charts +
+      `<div class="trk-scroll"><table><thead><tr><th scope="col">Date</th><th scope="col">Units sold (M)</th><th scope="col">Change (M)</th>` +
+      `<th scope="col">% increase</th><th scope="col">PlayStation (M)</th><th scope="col">Xbox (M)</th><th scope="col">Revenue ($M)</th>` +
+      `<th scope="col">% increase</th></tr></thead><tbody>${body}</tbody></table></div>` +
+      `<p class="trk-note">Sensor Tower estimates, not Take-Two's figures: cumulative copies sold since pre-orders opened, PlayStation and Xbox, ` +
+      `net of returns. Each % increase compares a reading with the one before it. Where readings are more than a day apart, the gap is shown (2d). In the daily % chart, a 2-day gap is split into two equal daily steps. ` +
+      `Quarter-end totals feed the Sensor Tower tracker row in the table below.</p>`;
+    const sets = {u: [uPts, cu, uVal], p: [pPts, cp, pVal]};
+    box.querySelectorAll('.trk-fig').forEach(f => {
+      const [pts, ch, val] = sets[f.dataset.c];
+      const svg = f.querySelector('svg'), hx = svg.querySelector('.hx'), hd = svg.querySelector('.hd'), out = f.querySelector('figcaption span');
+      const reset = () => { hx.hidden = hd.hidden = true; out.textContent = val(pts[pts.length - 1]); };
+      svg.addEventListener('pointermove', e => {
+        const b = svg.getBoundingClientRect(), vx = (e.clientX - b.left) / b.width * ch.W;
+        let k = 0;
+        pts.forEach((p, i) => { if (Math.abs(ch.X(p.t) - vx) < Math.abs(ch.X(pts[k].t) - vx)) k = i; });
+        const p = pts[k], x = ch.X(p.t);
+        hx.setAttribute('x1', x); hx.setAttribute('x2', x); hd.setAttribute('cx', x); hd.setAttribute('cy', ch.Y(p.v));
+        hx.hidden = hd.hidden = false; out.textContent = val(p);
+      });
+      svg.addEventListener('pointerleave', reset);
+    });
+  }
+
   const modelDocs = {};
   function render(scroll) {
     const mdl = view.tab === 'model' && !!window.EquinoxModel;
     const muse = view.tab === 'muse' && !!window.EquinoxMuse;
     $('muse').hidden = !muse; $('model').hidden = !mdl;
     wrap.hidden = muse || mdl; document.querySelector('.fin-bar').hidden = muse || mdl;
+    showTracker(view.tab === 'kpi' && !muse && !mdl);
     if (mdl) {
       $('chart').hidden = true;
       const t = modelOf(D.ticker), here = D.ticker;
@@ -483,6 +595,7 @@
       if (r.grp) return `<tr class="grp"><td class="lab">${r.gi == null ? r.grp : `<button type="button" class="gt" data-grp="${r.gi}" aria-expanded="${!hidden().includes(r.gi)}">${r.grp}</button>`}</td>${cols.map((c, k) => `<td class="${c.est ? 'est' : ''}${k === firstEst ? ' first-est' : ''}"></td>`).join('')}</tr>`;
       return `<tr class="${r.cls || ''}${r.sub ? ' sub' : ''}">` +
         `<td class="lab"><div class="lr"><label><input type="checkbox" data-chk="${r.id}"${ck.includes(r.id) ? ' checked' : ''}${r.kind === 't' ? ' disabled' : ''}> ${r.label}</label>` +
+        (r.link ? `<a class="kl" href="${r.link.url}" target="_blank" rel="noopener">${r.link.text}</a>` : '') +
         (r.mode ? `<span class="mode" role="group" aria-label="Forecast by">${[['pct', '% rev'], ['yoy', 'YoY']].map(([v, t]) =>
           `<button type="button" data-mode="${r.mode}" data-v="${v}" aria-pressed="${modeOf(r.mode) === v}">${t}</button>`).join('')}</span>` : '') + `</div></td>` +
         cols.map((c, k) => {
@@ -520,9 +633,10 @@
         const gp = !!isGap(r, c);
         td.classList.toggle('gap', gp);
         const aq = r.ab && c.idx.length === 1 ? r.ab.q[String(c.idx[0])] : null;
-        const lt = r.lk && c.est;
+        const lt = r.lk && c.est, xe = extAt(r, c);
         td.classList.toggle('linked', !!lt);
-        const tip = gp ? 'Not reported on this basis. Estimated from the segment mix before and after.'
+        td.classList.toggle('ext', !!xe);
+        const tip = xe ? xe.src : gp ? 'Not reported on this basis. Estimated from the segment mix before and after.'
           : lt ? (r.id === 'rev' || r.id === 'rev_g' ? 'The sum of the segments. Linked segments come from the Drivers tab.' : 'From the Drivers tab. Change the blue driver cells there.')
           : aq && aq.same ? 'No adjustments this quarter' : aq && aq.restated ? 'From the next year\'s release, on the restated basis' : '';
         if (tip) td.title = tip; else td.removeAttribute('title');
@@ -742,7 +856,7 @@
   function pies(money, nm, color) {
     const last = Q[HIST - 1], inYr = y => Q.filter(q => q.fy === y && q.i < HIST).map(q => q.i);
     const fullY = inYr(last.fy).length === 4 ? last.fy : last.fy - 1, ytd = inYr(last.fy);
-    const yy = y => `FY${String(y).slice(2)}`;
+    const yy = y => `FY${String(FYN(y)).slice(2)}`;
     const per = [
       ['Latest quarter', `${yy(last.fy)} Q${last.fq} (${last.label})`, [HIST - 1]],
       ['Latest year', yy(fullY), inYr(fullY)],

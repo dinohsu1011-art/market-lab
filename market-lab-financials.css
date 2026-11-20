@@ -77,6 +77,9 @@ table.fin{border-collapse:separate;border-spacing:0;width:100%;font-variant-nume
 /* label cell: name on the left, % rev / YoY switch on the right */
 .fin td.lab .lr{display:flex;align-items:center;gap:10px}
 .fin td.lab .lr label{flex:1;min-width:0}
+/* source link on a KPI row (TTWO GTA VI tracker) */
+.fin td.lab .lr a.kl{flex:none;font-size:12px;color:var(--ml-muted);text-decoration:underline;text-underline-offset:2px}
+.fin td.lab .lr a.kl:hover{color:inherit}
 .fin .mode{display:inline-flex;font-style:normal;flex:none}
 .fin .mode button{font-size:12px;line-height:1.2;padding:3px 7px;border-radius:0;margin-left:-1px;color:var(--ml-muted);background:transparent}
 .fin .mode button:first-child{border-radius:3px 0 0 3px;margin-left:0}
@@ -141,6 +144,8 @@ table.fin{border-collapse:separate;border-spacing:0;width:100%;font-variant-nume
 .fin-page .tk li[aria-selected="true"],.fin-page .tk li:hover{background:var(--ml-hover)}
 .fin-page .tk li.none{color:var(--ml-muted);cursor:default}
 .fin td.txt{font-size:13px;white-space:nowrap;color:var(--ml-ink)}
+/* a KPI cell holding an outside figure (broker or tracker), sourced in its tooltip */
+.fin td.ext{font-style:italic;color:var(--ml-muted);cursor:help;text-decoration:underline dotted var(--ml-faint);text-underline-offset:3px}
 
 /* Muse model tab (META): editable inputs look like estimate cells, results are plain text */
 .fin-page [hidden]{display:none !important}
@@ -190,3 +195,42 @@ table.fin.mt td[data-sens]{cursor:help}
 .fin.mdl td.fx{cursor:default}
 .fin.mdl td.fx:hover{background:var(--fin-est)}
 .fin.mdl td.fx.edited{color:var(--fin-edit);font-weight:600}
+
+/* daily outside tracker above the KPI grid (TTWO: GTA VI sales) */
+.fin-trk{background:var(--ml-surface);border:1px solid var(--ml-border);border-radius:8px;padding:16px 18px 12px;margin:0 0 14px}
+.fin-trk .trk-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 16px}
+.fin-trk h3{margin:0;font-size:17px;color:var(--ml-ink)}
+.fin-trk .trk-top p{margin:0;font-size:13px;color:var(--ml-muted)}
+.fin-trk a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.fin-trk .trk-head{display:flex;flex-wrap:wrap;gap:10px 36px;margin:14px 0 12px}
+.fin-trk .trk-head div{margin:0}
+.fin-trk dt{font-size:13px;color:var(--ml-muted)}
+.fin-trk dd{margin:2px 0 0;font-size:26px;font-weight:600;color:var(--ml-ink);font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.fin-trk .trk-scroll{max-height:300px;overflow:auto;border:1px solid var(--ml-border);border-radius:6px;overscroll-behavior:contain}
+.fin-trk table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+.fin-trk th,.fin-trk td{padding:5px 10px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--ml-border)}
+.fin-trk thead th{position:sticky;top:0;background:var(--ml-raised);color:var(--ml-muted);font-weight:500;z-index:1}
+.fin-trk thead th:first-child,.fin-trk tbody th{text-align:left}
+.fin-trk tbody th{font-weight:500;color:var(--ml-ink)}
+.fin-trk tbody tr:last-child th,.fin-trk tbody tr:last-child td{border-bottom:0}
+.fin-trk small{color:var(--ml-muted);font-size:11px}
+.fin-trk .trk-note{margin:10px 0 0;font-size:12px;line-height:1.5;color:var(--ml-muted)}
+@media (max-width:760px){.fin-trk{padding:14px 12px 10px}.fin-trk dd{font-size:21px}.fin-trk .trk-head{gap:8px 22px}}
+
+/* tracker line charts */
+.fin-trk .trk-charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:12px 20px;margin:16px 0 14px}
+.fin-trk .trk-fig{margin:0;min-width:0}
+.fin-trk .trk-fig figcaption{display:flex;justify-content:space-between;gap:8px;font-size:13px;margin:0 0 4px}
+.fin-trk .trk-fig figcaption b{font-weight:600;color:var(--ml-ink)}
+.fin-trk .trk-fig figcaption span{color:var(--ml-muted);font-variant-numeric:tabular-nums}
+.fin-trk .trk-fig svg{display:block;width:100%;height:auto;touch-action:pan-y}
+.fin-trk .trk-fig .gl{stroke:var(--ml-border);stroke-width:1}
+.fin-trk .trk-fig .gx{stroke:var(--ml-border);stroke-width:1;stroke-dasharray:2 3}
+.fin-trk .trk-fig .yl{font-size:12.5px;fill:var(--ml-muted);text-anchor:end}
+.fin-trk .trk-fig .xl{font-size:12.5px;fill:var(--ml-muted);text-anchor:middle}
+.fin-trk .trk-fig .ln{fill:none;stroke:var(--ml-accent);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.fin-trk .trk-fig .end,.fin-trk .trk-fig .hd{fill:var(--ml-accent);stroke:var(--ml-surface);stroke-width:1.5}
+.fin-trk .trk-fig .hx{stroke:var(--ml-muted);stroke-width:1}
+.fin-trk .trk-fig .hit{fill:transparent;cursor:crosshair}
+@media (max-width:760px){.fin-trk .trk-charts{grid-template-columns:1fr}}
+.fin-trk .trk-fig .br{fill:var(--ml-accent)}
