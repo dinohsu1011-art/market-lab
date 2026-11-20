@@ -215,7 +215,7 @@
   // the landing view: a search bar and the screener (market-lab-eq-screen.js)
   function list() {
     if ($('list').hidden) again($('list'));
-    $('detail').hidden = true; $('list').hidden = false; document.title = 'Companies · Equinox'; sideSync(); MarketLab.menu(''); sym = ''; owner('');
+    $('detail').hidden = true; $('list').hidden = false; document.title = 'Equity Screener · Equinox'; sideSync(); MarketLab.menu(''); sym = ''; owner('');
     EQScreen();
   }
   // this page's sections in the left menu: shown for a company, and they scroll without changing the address

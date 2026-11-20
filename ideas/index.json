@@ -1,0 +1,42 @@
+{
+ "updated": "2026-11-18",
+ "ideas": [
+  {
+   "id": "2026-11-20-ELF",
+   "date": "2026-11-20",
+   "ticker": "ELF",
+   "name": "e.l.f. Beauty",
+   "sector": "Consumer Staples",
+   "side": "long",
+   "headline": "Rhode keeps e.l.f. growing faster than beauty, and the stock is resting above its 50-day average",
+   "timeframe": "3 to 4 months, through the February earnings report",
+   "timeframe_days": 120,
+   "price": 113.77,
+   "price_date": "2026-11-18",
+   "levels": {
+    "entry_lo": 108,
+    "entry_hi": 115,
+    "stop": 101,
+    "target": 138
+   },
+   "perf": {
+    "status": "open",
+    "price": 113.77,
+    "date": "2026-11-18",
+    "ret": 0.0,
+    "spy": 0.0,
+    "vs_spy": 0.0,
+    "best": 0.0,
+    "worst": 0.0,
+    "days": 0,
+    "path": [
+     [
+      "2026-11-18",
+      0.0,
+      0.0
+     ]
+    ]
+   }
+  }
+ ]
+}

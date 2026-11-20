@@ -157,6 +157,7 @@ tbody tr[data-go]:hover td{background:var(--raised)}
 .find li span{color:var(--muted);overflow:hidden;text-overflow:ellipsis}
 .find li[aria-selected],.find li:hover{background:var(--raised)}
 .split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:48px;align-items:start}
+.split[hidden]{display:none}
 .split .rows{column-gap:40px}
 .split .recap{grid-template-columns:1fr}
 .split th,.split td{padding-left:14px}

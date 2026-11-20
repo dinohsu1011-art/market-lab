@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold and participation is narrow.",
+    "summary": "SPY is -5.1% week to date; QQQ -5.1%; high beta versus low beta is -12.4% over one month (4th percentile); leader breadth is -7.4 points versus the index; 49% of S&P names are above the 50-day; net 52-week highs are -19; Cybersecurity leads themes at +7.3% week to date.",
+    "market": "SPY is -5.1% week to date; QQQ -5.1%.",
+    "winners": "Cybersecurity +7.3%, CDN / Edge +2.8%, Utilities & IPPs -2.0%.",
+    "laggards": "Residential Solar -16.0%, Space -15.6%, Industrial Solar -14.2%.",
+    "why": "Weak high beta and narrow participation point to a broad contraction in risk appetite; high beta/low beta -12.4%, leader breadth spread -7.4pt, 49% above the 50-day.",
+    "comparison": "Since 2026-11-18, the Risk-off call is unchanged; high beta -2.7pt, leader spread +0.6pt, 50-day breadth -7.6pt. Weekly leadership changed from CDN / Edge to Cybersecurity.",
+    "tally": "0 of 4 risk gauges and 0 of 6 participation gauges are above their five-year medians",
+    "volume": "AES printed 10.98\u00d7 relative volume on a +0.3% day, while KDP printed 5.41\u00d7 relative volume on a +2.6% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

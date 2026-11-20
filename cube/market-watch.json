@@ -11,25 +11,25 @@
     {
       "id": "vix",
       "label": "VIX above VIX3M",
-      "active": null,
-      "reading": "No matching-date observation"
+      "active": true,
+      "reading": "28.44 vs 27.03"
     },
     {
       "id": "breadth",
       "label": "Fewer than 40% above the 50-day average",
       "active": false,
-      "reading": "52.2% of eligible S&P 500 stocks"
+      "reading": "49.4% of eligible S&P 500 stocks"
     },
     {
       "id": "sectors",
       "label": "Three or more bearish sectors",
-      "active": null,
-      "reading": "Incomplete sector observations"
+      "active": true,
+      "reading": "7 of 11 sectors"
     }
   ],
-  "active": 1,
-  "known": 2,
-  "status": "Incomplete data",
+  "active": 3,
+  "known": 4,
+  "status": "Elevated risk",
   "sectors": [
     {
       "symbol": "XLK",
@@ -37,7 +37,7 @@
     },
     {
       "symbol": "XLC",
-      "bearish": null
+      "bearish": true
     },
     {
       "symbol": "XLY",
@@ -69,21 +69,17 @@
     },
     {
       "symbol": "XLRE",
-      "bearish": null
+      "bearish": true
     },
     {
       "symbol": "XLU",
       "bearish": false
     }
   ],
-  "ratio": null,
-  "vix": null,
-  "vix3m": null,
+  "ratio": 0.95042194092827,
+  "vix": 28.44,
+  "vix3m": 27.03,
   "history": [
-    {
-      "date": "2026-06-01",
-      "ratio": 1.2105919003115264
-    },
     {
       "date": "2026-06-02",
       "ratio": 1.2358909321496512
@@ -559,12 +555,16 @@
     {
       "date": "2026-11-18",
       "ratio": 0.9890065146579805
+    },
+    {
+      "date": "2026-11-19",
+      "ratio": 0.95042194092827
     }
   ],
   "tmt_momentum": {
     "updated": "2026-11-19",
-    "reading": -54.2,
-    "names": 217,
+    "reading": -53.6,
+    "names": 431,
     "low": {
       "date": "2001-01-31",
       "value": -63.2
@@ -6180,7 +6180,7 @@
       ],
       [
         "2026-11-19",
-        -54.2
+        -53.6
       ]
     ]
   }

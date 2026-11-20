@@ -29,7 +29,8 @@
 .eq-bar .eq-end .eq-panel{left:auto;right:-10px}
 .eq-bar .eq-sec.open>.eq-panel{opacity:1;visibility:visible;pointer-events:auto;transform:none;transition-delay:0s}
 .eq-bar .eq-sheet{display:flex;gap:6px;padding:10px;background:var(--ml-surface);border:1px solid var(--ml-border);border-radius:14px;box-shadow:var(--eq-shadow)}
-.eq-bar .eq-list{display:flex;flex-direction:column;gap:1px;min-width:216px}
+.eq-bar .eq-list{display:flex;flex-direction:column;gap:1px;min-width:150px}
+.eq-bar .eq-list:only-child{min-width:216px}
 .eq-bar .eq-list a{display:block;padding:8px 12px;border-radius:8px;font:400 15px/1.4 var(--eq-sans);color:var(--ml-ink);text-decoration:none;white-space:nowrap;transition:background-color .15s}
 .eq-bar .eq-list a:hover{background:var(--ml-raised)}
 .eq-bar .eq-list a[aria-current]{font-weight:600;background:var(--ml-raised)}

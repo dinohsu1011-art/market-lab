@@ -1,0 +1,103 @@
+/* Ideas page. Builds on market-lab-eq.css; every rule here is scoped to this page's own elements. */
+.ix-body{font-size:17px;line-height:1.6;max-width:70ch;margin:0 0 18px}
+.ix-small{color:var(--muted);font-size:14px;line-height:1.5;margin:10px 0 0;max-width:72ch}
+.ix-h3{font:600 15px var(--sans);margin:28px 0 8px}
+.ix-hint{color:var(--faint)}
+.ix-tk{font:600 20px var(--sans);color:var(--muted);letter-spacing:0;margin-left:10px;vertical-align:middle}
+.ix-back{display:inline-block;margin-bottom:4px}
+#detail .kicker{margin-top:14px}
+#detail h1{margin-top:6px}
+#detail .lede{max-width:56ch}
+
+/* list: returns chart and one card per idea */
+.ix-sum{font:400 21px/1.45 var(--serif);max-width:62ch;margin:0}
+.ix-ret{position:relative;height:340px;cursor:crosshair;touch-action:pan-y}
+.ix-ret svg{display:block;width:100%;height:100%;overflow:visible}
+.ix-ret svg text{font-family:var(--sans);font-variant-numeric:tabular-nums}
+.ix-ret:empty{background:linear-gradient(90deg,transparent,var(--raised),transparent);border-radius:8px;opacity:.6}
+.ix-ret .ln{transition:opacity .15s}
+.ix-ret .ln.shut{opacity:.5}
+.ix-ret svg.focus .ln{opacity:.15}
+.ix-ret svg.focus .ln.on{opacity:1}
+.ix-cards{list-style:none;margin:48px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px}
+.ix-card{display:flex;flex-direction:column;height:100%;box-sizing:border-box;padding:22px 24px 20px;border:1px solid var(--border);border-radius:12px;background:var(--surface);text-decoration:none;color:var(--ink);transition:background-color .15s,border-color .15s}
+.ix-card:hover{background:var(--raised);border-color:var(--faint)}
+.ix-card-top{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:14px}
+.ix-card-co{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:18px}
+.ix-card-co b{font:600 22px var(--sans);margin-right:10px}
+.ix-card-co > span > span{color:var(--muted);font-size:15px}
+.ix-card-co em{font:400 36px/1 var(--serif);font-style:normal;white-space:nowrap}
+.ix-card-head{display:block;font:400 19px/1.4 var(--serif);margin:14px 0 22px;flex:1}
+.ix-card:hover .ix-card-head{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px;text-decoration-color:var(--faint)}
+.ix-card-nums{display:grid;grid-template-columns:repeat(3,auto);justify-content:space-between;gap:12px;border-top:1px solid var(--border);padding-top:14px;font-size:16px;font-weight:600;font-variant-numeric:tabular-nums}
+.ix-card-nums small{display:block;font-size:13px;font-weight:400;color:var(--muted);margin-bottom:3px}
+.ix-card.shut .ix-card-co em{opacity:.75}
+
+/* the call: thesis beside the levels */
+.ix-call{display:grid;grid-template-columns:minmax(0,7fr) minmax(300px,5fr);column-gap:56px;align-items:start}
+.ix-levels{padding:22px 24px 18px}
+.ix-side{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.ix-side b{font:400 40px/1 var(--serif)}
+.ix-side span{color:var(--muted);font-size:15px}
+.rows.ix-one{grid-template-columns:1fr;margin-top:14px}
+.ix-levels .row:last-child{border-bottom:0}
+.row dd small,.rows dd small{font-weight:400;color:var(--muted);font-size:14px;margin-left:6px}
+.ix-readout{color:var(--muted);font-size:14px;min-height:22px;margin-top:22px;font-variant-numeric:tabular-nums}
+.ix-readout + .chart,.ix-readout + .ix-bars{margin-top:6px}
+.chart.ix-lv{height:300px}
+.chart.ix-sm{height:200px}
+.chart.ix-md{height:260px}
+.chart svg text{font-family:var(--sans)}
+
+/* bar charts */
+.ix-bars{position:relative;height:220px;cursor:crosshair;touch-action:none}
+.ix-bars svg{display:block;width:100%;height:100%;overflow:visible}
+.ix-bars svg text{font-family:var(--sans)}
+.ix-bars:empty,.ix-vol:empty{background:linear-gradient(90deg,transparent,var(--raised),transparent);border-radius:8px;opacity:.6}
+.ix-vol{height:64px;margin-top:6px;cursor:crosshair;touch-action:none}
+.ix-vol svg{display:block;width:100%;height:100%}
+.ix-tiny{height:70px}
+.ix-trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+.ix-trio .ix-h3{margin-top:8px}
+.ix-pair{margin-top:12px}
+.ix-pair .ix-h3{margin-top:24px}
+.keyline .ranges.ix-span{margin:0 0 0 auto}
+.keyline span{white-space:nowrap}
+
+/* tables */
+.ix-tight{font-size:15px}
+.ix-tight td,.ix-tight th{padding-top:10px;padding-bottom:10px}
+.ix-guide{margin-bottom:8px}
+.ix-guide td.left{text-align:left;font-weight:600}
+.ix-guide td small{font-weight:400;color:var(--muted);margin-left:6px}
+.ix-guide td:first-child{white-space:normal}
+
+/* operating numbers */
+.ix-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 40px}
+.ix-kv{font:400 30px/1.15 var(--serif)}
+
+/* commentary and lists */
+.ix-said{list-style:none;margin:18px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 48px}
+.ix-said li{padding:16px 0;border-bottom:1px solid var(--border)}
+.ix-said p{margin:0;font:400 19px/1.4 var(--serif)}
+.ix-said span{display:block;color:var(--muted);font-size:14px;margin-top:6px}
+.ix-bul{margin:0;padding:0 0 0 20px}
+.ix-bul li{font-size:16px;line-height:1.55;margin:0 0 12px}
+
+@media (max-width:1180px){
+  .ix-trio{grid-template-columns:1fr;gap:12px}
+}
+@media (max-width:940px){
+  .page{padding:32px 16px 96px}
+  .eq-menu{display:none}
+  .ix-call,.split,.ix-said,.ix-kpis,.rows{grid-template-columns:1fr}
+  .ix-levels{margin-top:12px}
+  h1{font-size:36px}
+  .ix-guide td,.ix-guide th{white-space:normal;padding-left:12px}
+  .ix-guide td small{display:block;margin-left:0}
+  .ix-sum{font-size:19px}
+  .ix-ret{height:260px}
+  .ix-cards{grid-template-columns:1fr;margin-top:36px}
+  .keyline{flex-wrap:wrap;row-gap:6px}
+  .keyline .ranges.ix-span{margin:0}
+}
