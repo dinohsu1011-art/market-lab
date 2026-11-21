@@ -1,30 +1,30 @@
 {
   "schema": 1,
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "flags": [
     {
       "id": "spy",
       "label": "SPY below its 200-day average",
       "active": true,
-      "reading": "715.87 vs 732.69"
+      "reading": "689.81 vs 732.76"
     },
     {
       "id": "vix",
       "label": "VIX above VIX3M",
       "active": true,
-      "reading": "28.44 vs 27.03"
+      "reading": "35.89 vs 30.94"
     },
     {
       "id": "breadth",
       "label": "Fewer than 40% above the 50-day average",
       "active": false,
-      "reading": "49.4% of eligible S&P 500 stocks"
+      "reading": "43.2% of eligible S&P 500 stocks"
     },
     {
       "id": "sectors",
       "label": "Three or more bearish sectors",
       "active": true,
-      "reading": "7 of 11 sectors"
+      "reading": "8 of 11 sectors"
     }
   ],
   "active": 3,
@@ -57,7 +57,7 @@
     },
     {
       "symbol": "XLV",
-      "bearish": false
+      "bearish": true
     },
     {
       "symbol": "XLI",
@@ -76,14 +76,10 @@
       "bearish": false
     }
   ],
-  "ratio": 0.95042194092827,
-  "vix": 28.44,
-  "vix3m": 27.03,
+  "ratio": 0.8620785734187796,
+  "vix": 35.89,
+  "vix3m": 30.94,
   "history": [
-    {
-      "date": "2026-06-02",
-      "ratio": 1.2358909321496512
-    },
     {
       "date": "2026-06-03",
       "ratio": 1.2303860523038608
@@ -559,11 +555,15 @@
     {
       "date": "2026-11-19",
       "ratio": 0.95042194092827
+    },
+    {
+      "date": "2026-11-20",
+      "ratio": 0.8620785734187796
     }
   ],
   "tmt_momentum": {
-    "updated": "2026-11-19",
-    "reading": -53.6,
+    "updated": "2026-11-20",
+    "reading": -56.0,
     "names": 431,
     "low": {
       "date": "2001-01-31",
@@ -6179,8 +6179,8 @@
         -55.4
       ],
       [
-        "2026-11-19",
-        -53.6
+        "2026-11-20",
+        -56.0
       ]
     ]
   }
