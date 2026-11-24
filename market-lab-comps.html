@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" data-eq>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comps · Equinox</title>
+<link rel="stylesheet" href="market-lab-comps.css?v=20261123-1110b792">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="market-lab-bar.css?v=20261123-1110b792">
+<link rel="stylesheet" href="market-lab-eq.css?v=20261123-1110b792">
+<script src="market-lab-shell.js?v=20261123-1110b792"></script>
+</head>
+<body>
+<div class="page">
+  <nav class="side" aria-label="On this page">
+    <a href="#fundamentals" class="on">Fundamentals</a><a href="#technicals">Technicals</a><a href="#together">How they move together</a>
+    <div class="cx-dock">
+      <form class="find" id="find" role="search"><input type="search" placeholder="Add a ticker" aria-label="Add a stock, fund or index to compare" autocomplete="off" spellcheck="false"><ul hidden></ul></form>
+      <button type="button" class="cx-layout" id="layout" aria-pressed="false" aria-label="Side by side" title="Side by side: fundamentals on the left, technicals on the right"><svg viewBox="0 0 18 14" aria-hidden="true" focusable="false"><rect x=".75" y=".75" width="16.5" height="12.5" rx="2"/><line x1="9" y1="1" x2="9" y2="13"/></svg></button>
+    </div>
+    <p class="cx-miss" id="miss" aria-live="polite"></p>
+  </nav>
+  <main>
+    <div id="top"><h1>Comps</h1></div>
+    <p class="cx-empty" id="empty" hidden>Add a ticker in the search box on the left to start comparing.</p>
+    <div class="cx-panes" id="panes" data-layout="toggle" data-view="f">
+      <div class="cx-pane" id="paneF">
+        <section id="fundamentals" hidden>
+          <h2><button type="button" class="cx-flip cx-head" data-own="f"><span data-v="f">Fundamentals</span><span class="sl" aria-hidden="true">/</span><span data-v="t">Technicals</span></button> <small id="fStamp"></small></h2>
+          <div class="cx-ctl">
+            <div class="cx-dd" id="fAdd"></div>
+            <div class="cx-dd" id="fTime"></div>
+            <button type="button" class="cx-flip sm" id="fPer"><span data-v="q">Quarterly</span><span class="sl" aria-hidden="true">/</span><span data-v="a">Annual</span></button>
+            <button type="button" class="cx-toggle" id="fIndex" aria-pressed="false" title="Set every company to 100 at the first period shown, so growth is easy to compare">Start each at 100</button>
+          </div>
+          <div class="cx-charts" id="fCharts"></div>
+          <p class="cx-foot" id="fFoot"></p>
+          <div class="cx-tables" id="fSideWrap"><table id="fSide" class="cx-side"></table></div>
+          <div id="fEach"></div>
+        </section>
+      </div>
+      <div class="cx-pane" id="paneT">
+        <section id="technicals" hidden>
+          <h2><button type="button" class="cx-flip cx-head" data-own="t"><span data-v="f">Fundamentals</span><span class="sl" aria-hidden="true">/</span><span data-v="t">Technicals</span></button> <small id="tStamp"></small></h2>
+          <div class="cx-ctl">
+            <div class="cx-dd" id="tAdd"></div>
+            <div class="cx-dd" id="tTime"></div>
+          </div>
+          <div class="cx-charts" id="tCharts"></div>
+          <div class="cx-tables"><table id="tSide" class="cx-side"></table></div>
+        </section>
+        <section id="together" hidden>
+          <h2>How they move together <div class="ranges" id="cWinPick" role="group" aria-label="Period"></div></h2>
+          <div class="cx-tables"><table id="corr" class="cx-matrix"></table></div>
+          <p class="cx-note" id="corrNote"></p>
+          <div class="cx-tables"><table id="betaTable" class="cx-side cx-beta"></table></div>
+          <p class="cx-note" id="betaNote"></p>
+        </section>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="market-lab-eq.js?v=20261123-1110b792"></script>
+<script src="market-lab-trend-math.js?v=20261123-1110b792"></script>
+<script src="market-lab-eq-comps.js?v=20261123-1110b792"></script>
+</body>
+</html>

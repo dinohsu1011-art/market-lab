@@ -1,0 +1,140 @@
+{
+ "ticker": "NEM",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1164727/000116472726000041/newmontq32026earningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/04/23/newmont-nem-q1-2026-earnings-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1164727/000116472726000017/newmontq12026earningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1164727/000116472726000009/newmontq42025earningsand20.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/08/05/newmont-nem-q2-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1164727/000116472725000018/newmontq12025earningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1164727/000116472725000008/newmontq42024earningsand20.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1164727/000116472724000057/newmontq32024earningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1164727/000116472724000035/newmontq22024earningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1164727/000116472724000025/newmontq12024earningsrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1164727/000116472724000006/newmontq42023earningsand20.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1164727/000115752323001555/a53687147ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1164727/000115752323001113/a53468942ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1164727/000115752323000631/a53388436ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1164727/000115752323000340/a53340839_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/29/newmont-corporation-nem-q3-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/22/newmont-goldcorp-corp-nem-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/newmont-mining-corp-nem-q1-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/18/newmont-mining-corp-nem-q4-2020-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/newmont-goldcorp-nem-q1-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/21/newmont-goldcorp-nem-q4-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/06/newmont-goldcorp-nem-q3-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/26/newmont-goldcorp-nem-q2-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/26/newmont-mining-nem-q1-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/21/newmont-mining-corp-nem-q4-2018-earnings-conferenc.aspx"
+  }
+ ],
+ "ir": "https://www.newmont.com/investors/default.aspx"
+}

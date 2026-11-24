@@ -1,0 +1,169 @@
+{
+ "ticker": "TMO",
+ "results": "https://ir.thermofisher.com/investors/financials/quarterly-results/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/21/thermo-fisher-tmo-q3-2026-earnings-call-transcript/",
+   "slides": "https://s27.q4cdn.com/797047529/files/content_files/Q3-2026-Reconciliation-of-Financial-Information.pdf",
+   "slides_kind": "supplement",
+   "release": "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-Third-Quarter-2026-Results/default.aspx"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-23",
+   "release": "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-Second-Quarter-2026-Results/default.aspx"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-23",
+   "release": "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-First-Quarter-2026-Results/default.aspx"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-29",
+   "release": "https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "release": "https://ir.thermofisher.com/investors/news-events/news/news-details/2025/Thermo-Fisher-Scientific-Reports-First-Quarter-2025-Results/default.aspx",
+   "transcript": "https://www.insidermonkey.com/blog/thermo-fisher-scientific-inc-nysetmo-q1-2025-earnings-call-transcript-1515781/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/30/thermo-fisher-scientific-tmo-q4-2024-earnings-call/",
+   "release": "https://ir.thermofisher.com/investors/news-events/news/news-details/2025/Thermo-Fisher-Scientific-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/23/thermo-fisher-scientific-tmo-q3-2024-earnings-call/",
+   "release": "https://ir.thermofisher.com/investors/news-events/news/news-details/2024/Thermo-Fisher-Scientific-Reports-Third-Quarter-2024-Results/default.aspx"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/24/thermo-fisher-scientific-tmo-q2-2024-earnings-call/",
+   "release": "https://ir.thermofisher.com/investors/news-events/news/news-details/2024/Thermo-Fisher-Scientific-Reports-Second-Quarter-2024-Results/default.aspx"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/24/thermo-fisher-scientific-tmo-q1-2024-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/97745/000009774524000019/q12024earnings8kex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/31/thermo-fisher-scientific-tmo-q4-2023-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/97745/000009774524000003/q42023earnings8kex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/25/thermo-fisher-scientific-tmo-q3-2023-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/97745/000009774523000065/q32023earnings8kex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/26/thermo-fisher-scientific-tmo-q2-2023-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/97745/000009774523000054/q22023earnings8kex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/97745/000162828023013041/q12023earnings8kex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/01/thermo-fisher-scientific-tmo-q4-2022-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/97745/000009774523000003/q42022earnings8kex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/26/thermo-fisher-scientific-tmo-q3-2022-earnings-call/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/28/thermo-fisher-scientific-tmo-q2-2022-earnings-call/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/28/thermo-fisher-scientific-tmo-q1-2022-earnings-call/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/03/thermo-fisher-scientific-tmo-q4-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/30/thermo-fisher-scientific-inc-tmo-q3-2021-earnings/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/28/thermo-fisher-scientific-inc-tmo-q2-2021-earnings/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/01/thermo-fisher-scientific-inc-tmo-q4-2020-earnings/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/21/thermo-fisher-scientific-inc-tmo-q3-2020-earnings/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/22/thermo-fisher-scientific-inc-tmo-q2-2020-earnings.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/thermo-fisher-scientific-inc-tmo-q4-2019-earnings.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/23/thermo-fisher-scientific-inc-tmo-q3-2019-earnings.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/24/thermo-fisher-scientific-inc-tmo-q2-2019-earnings.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/24/thermo-fisher-scientific-inc-tmo-q1-2019-earnings.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/30/thermo-fisher-scientific-inc-tmo-q4-2018-earnings.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/24/thermo-fisher-scientific-inc-tmo-q3-2018-earnings.aspx"
+  }
+ ]
+}

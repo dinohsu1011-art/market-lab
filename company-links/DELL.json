@@ -1,0 +1,72 @@
+{
+ "ticker": "DELL",
+ "ir": "https://investors.delltechnologies.com/",
+ "results": "https://investors.delltechnologies.com/financial-information/financial-results",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-09-01",
+   "slides": "https://investors.delltechnologies.com/_assets/_88edfb3f52300551f17c1e541972f365/delltechnologies/db/3595/34748/performance_review/Q2_FY27_Performance_Review.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.delltechnologies.com/news-events/press-releases/detail/1653/dell-technologies-delivers-second-quarter-fiscal-2027-financial-results"
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-05-28",
+   "slides": "https://investors.delltechnologies.com/_assets/_88edfb3f52300551f17c1e541972f365/delltechnologies/db/3595/34521/performance_review/Q1_FY27_Performance_Review.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.delltechnologies.com/news-events/press-releases/detail/428/dell-technologies-delivers-first-quarter-fiscal-2027-financial-results"
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-02-26",
+   "slides": "https://investors.delltechnologies.com/_assets/_88edfb3f52300551f17c1e541972f365/delltechnologies/db/3595/34520/performance_review/Q4_FY26_Performance_Review.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.delltechnologies.com/news-events/press-releases/detail/93/dell-technologies-delivers-fourth-quarter-and-full-year-fiscal-2026-results"
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2025-11-25",
+   "slides": "https://investors.delltechnologies.com/_assets/_88edfb3f52300551f17c1e541972f365/delltechnologies/db/3595/34519/performance_review/Q3_FY26_Performance_Review.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.delltechnologies.com/news-events/press-releases/detail/101/dell-technologies-delivers-third-quarter-fiscal-2026-financial-results"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-02-28",
+   "slides": "https://investors.delltechnologies.com/_assets/_88edfb3f52300551f17c1e541972f365/delltechnologies/db/3595/34516/performance_review/Performance_Review.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.delltechnologies.com/news-events/press-releases/detail/126/dell-technologies-delivers-fourth-quarter-and-full-year-fiscal-2025-financial-results",
+   "transcript": "https://investors.delltechnologies.com/_assets/_88edfb3f52300551f17c1e541972f365/delltechnologies/db/3595/34516/webcast_transcript/DELL_Q4FY25_Earnings_Transcript.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2024-11-26",
+   "slides": "https://investors.delltechnologies.com/_assets/_88edfb3f52300551f17c1e541972f365/delltechnologies/db/3595/34515/performance_review/Q3_FY25_Performance_Review.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.delltechnologies.com/news-events/press-releases/detail/136/dell-technologies-delivers-third-quarter-fiscal-2025-financial-results",
+   "transcript": "https://investors.delltechnologies.com/_assets/_88edfb3f52300551f17c1e541972f365/delltechnologies/db/3595/34515/webcast_transcript/DELL_Q3FY25_Earnings_Transcript.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-08-29",
+   "slides": "https://investors.delltechnologies.com/_assets/_88edfb3f52300551f17c1e541972f365/delltechnologies/db/3595/34514/performance_review/Q2_FY25_Performance_Review_%282%29.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.delltechnologies.com/news-events/press-releases/detail/146/dell-technologies-delivers-second-quarter-fiscal-2025-financial-results",
+   "transcript": "https://investors.delltechnologies.com/_assets/_88edfb3f52300551f17c1e541972f365/delltechnologies/db/3595/34514/webcast_transcript/DELL_Q2FY25_Earnings_Transcript_%281%29.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-05-30",
+   "slides": "https://investors.delltechnologies.com/_assets/_88edfb3f52300551f17c1e541972f365/delltechnologies/db/3595/34513/performance_review/Q1_FY25_Performance_Review_%282%29.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.delltechnologies.com/news-events/press-releases/detail/151/dell-technologies-delivers-first-quarter-fiscal-2025-financial-results",
+   "transcript": "https://investors.delltechnologies.com/_assets/_88edfb3f52300551f17c1e541972f365/delltechnologies/db/3595/34513/webcast_transcript/DELL_Q1FY25_Earnings_Transcript.pdf"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/26/dell-technologies-inc-dell-q4-2021-earnings-call-t/"
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "ticker": "ADI",
+ "ir": "https://investor.analog.com",
+ "results": "https://investor.analog.com/financial-info/quarterly-results",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-08-19",
+   "slides": "https://investor.analog.com/static-files/e2a80d76-fbf1-4d7c-8160-b542025af322",
+   "slides_kind": "supplement",
+   "release": "https://investor.analog.com/static-files/d23cd824-f375-471a-a592-9255347c40ee"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-05-20",
+   "slides": "https://investor.analog.com/static-files/aeb5b54a-53a4-4f81-9bc4-b98ba7efdd24",
+   "slides_kind": "supplement",
+   "release": "https://investor.analog.com/static-files/23d426f9-1ce4-468a-ae3b-e8041b6e856f"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-02-18",
+   "slides": "https://investor.analog.com/static-files/9e35f824-28fd-41b3-bcf7-a21b95e3f384",
+   "slides_kind": "supplement",
+   "release": "https://investor.analog.com/static-files/3ebfdc7f-b046-475c-93a0-f5e8b165293a"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-08-20",
+   "slides": "https://investor.analog.com/static-files/7750a2f6-1a86-49cc-9712-274404a3b4ba",
+   "slides_kind": "supplement",
+   "release": "https://investor.analog.com/static-files/5f0a810c-9b4f-40f9-9484-3e98594326b6"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-02-19",
+   "slides": "https://investor.analog.com/static-files/d72ed80b-66b3-4f1c-a9bc-26acf35e4af3",
+   "slides_kind": "supplement",
+   "release": "https://investor.analog.com/static-files/92b3524a-2130-4cc6-bf9f-e1b9f2fa55dc",
+   "transcript": "https://investor.analog.com/static-files/2c9ad624-3732-4eeb-8f9e-5a5a703d62cb"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-11-26",
+   "slides": "https://investor.analog.com/static-files/fbf33498-4ea0-44c7-8a52-10dffa5eece9",
+   "slides_kind": "supplement",
+   "release": "https://investor.analog.com/static-files/3eed8bbc-284e-4e2c-a91c-250e7857a5f3",
+   "transcript": "https://investor.analog.com/static-files/6313f1ab-1ab1-4c1b-942b-45ba1c6f5dbc"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-08-21",
+   "slides": "https://investor.analog.com/static-files/37a42f08-bcbc-4b71-81b5-5ef5fc4c91e8",
+   "slides_kind": "supplement",
+   "release": "https://investor.analog.com/static-files/6c0b0626-55ee-4837-b559-7d70b82af550",
+   "transcript": "https://investor.analog.com/static-files/500a2ff6-951d-41ba-bc7a-b9a30ecacda6"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-05-22",
+   "slides": "https://investor.analog.com/static-files/3b7f12b2-d4b4-4694-8107-020e77317640",
+   "slides_kind": "supplement",
+   "release": "https://investor.analog.com/static-files/f46ef85b-3b0e-470a-b90f-b26644e6c039",
+   "transcript": "https://investor.analog.com/static-files/e19044a9-633f-4aa9-b8db-1cca262c1b77"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-02-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/6281/000000628124000032/adi1q24exhibit991earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-11-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/6281/000000628123000200/adiq423exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-08-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/6281/000000628123000177/adi3q23exhibit991earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-05-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/6281/000000628123000151/adi2q23exhibit991earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-02-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/6281/000000628123000029/adi1q23exhibit992earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-11-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/23/analog-devices-inc-adi-q4-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-08-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/18/analog-devices-inc-adi-q3-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-05-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/19/analog-devices-inc-adi-q2-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-02-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/17/analog-devices-inc-adi-q1-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-11-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/24/analog-devices-inc-adi-q4-2020-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-08-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/19/analog-devices-inc-adi-q3-2020-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-05-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/20/analog-devices-inc-adi-q2-2020-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-02-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/19/analog-devices-inc-adi-q1-2020-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-11-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/26/analog-devices-inc-adi-q4-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-08-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/21/analog-devices-inc-adi-q3-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-05-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/22/analog-devices-inc-adi-q2-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-02-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/20/analog-devices-adi-q1-2019-earnings-conference-cal.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-11-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/20/analog-devices-inc-adi-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-08-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/22/analog-devices-inc-adi-q3-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-05-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/30/analog-devices-inc-adi-q2-2018-earnings-conference.aspx"
+  }
+ ]
+}

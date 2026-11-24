@@ -1,0 +1,169 @@
+{
+ "ticker": "CAH",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000042/a27q1_x093026xex991xnewsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000037/a26q4_x063026xex991xnewsre.htm",
+   "release_ok": true,
+   "slides": "https://s201.q4cdn.com/566741227/files/doc_financials/2026/q4/Q4-FY26-Earnings-Presentation-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000017/a26q3_x033126xex991xnewsre.htm",
+   "release_ok": true,
+   "slides": "https://s201.q4cdn.com/566741227/files/doc_financials/2026/q3/Q3-FY26-Earnings-Presentation-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000072137126000004/a26q2_x123125xex991xnewsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000072137125000036/a25q3_x33125xex991xnewsrel.htm",
+   "release_ok": true,
+   "transcript": "https://s201.q4cdn.com/566741227/files/doc_financials/2025/q3/Q3FY25-CAH-Earnings-Transcript.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000072137125000009/a25q2_x123124xex991xnewsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-11-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000072137124000119/a25q1_x093024xex991xnewsre.htm",
+   "release_ok": true,
+   "transcript": "https://s201.q4cdn.com/566741227/files/doc_financials/2025/q1/Q1FY25-CAH-Earnings-Transcript.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-08-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000072137124000054/a24q4_x063024xex991xnewsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000072137124000036/a24q3_x033124xex991xnewsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000162828024002805/a24q2_x123123xex991xnewsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000072137123000083/a24q1_x093023xex991xnewsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-08-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000072137123000058/a23q4_x063023xex991xnewsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000119312523135011/d358353dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/721371/000072137123000005/a23q2_x123122xex991xnewsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-11-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/09/cardinal-health-inc-cah-q2-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/cardinal-health-inc-cah-q4-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/06/cardinal-health-inc-cah-q3-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/05/cardinal-health-inc-cah-q2-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/05/cardinal-health-inc-cah-q1-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/06/cardinal-health-inc-cah-q4-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-05-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/11/cardinal-health-inc-cah-q3-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/06/cardinal-health-inc-cah-q2-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/07/cardinal-health-inc-cah-q1-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/08/cardinal-health-inc-cah-q4-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-05-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/09/cardinal-health-inc-cah-q3-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/07/cardinal-health-inc-cah-q2-2019-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/08/cardinal-health-inc-cah-q1-2019-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/06/cardinal-health-inc-cah-q4-2018-earnings-conferenc.aspx"
+  }
+ ],
+ "ir": "https://ir.cardinalhealth.com/",
+ "results": "https://ir.cardinalhealth.com/financials/quarterly-results/default.aspx"
+}

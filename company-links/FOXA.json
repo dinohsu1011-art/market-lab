@@ -1,0 +1,110 @@
+{
+ "ticker": "FOXA",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026068663/foxearningsreleaseq127.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026053892/foxq42026earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026033145/foxearningsreleaseq326.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1754301/000162828026005277/foxearningsreleaseq226.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-05-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1754301/000162828025024454/foxearningsreleaseq325.htm",
+   "release_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/fox-corporation-nasdaqfox-q3-2025-earnings-call-transcript-1533138/"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1754301/000162828025003584/foxearningsreleaseq225.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1754301/000162828024044839/foxearningsreleaseq125.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1754301/000162828024021380/foxearningsreleaseq324.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-02-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1754301/000162828024003617/foxearningsreleaseq224.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-08-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1754301/000119312523205604/d497361dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1754301/000119312523138936/d370789dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1754301/000119312523027696/d408745dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/07/fox-corp-foxa-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/06/fox-corp-foxa-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/06/fox-corporation-foxa-q3-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/10/fox-corp-fox-foxa-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/07/twenty-first-century-fox-a-shares-foxa-q3-2020-ear.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/07/twenty-first-century-fox-inc-foxa-q4-2019-earnings.aspx"
+  }
+ ],
+ "ir": "https://investor.foxcorporation.com/",
+ "results": "https://investor.foxcorporation.com/reports/quarterly-reports/"
+}

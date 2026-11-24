@@ -1,0 +1,180 @@
+{
+ "ticker": "MDT",
+ "ir": "https://investorrelations.medtronic.com/",
+ "results": "https://investorrelations.medtronic.com/quarterly-results?cat=15",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-09-01",
+   "slides": "https://investorrelations.medtronic.com/image/FY27Q1-Earnings-Presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://investorrelations.medtronic.com/image/FY27Q1-Press+Release-FINAL.pdf"
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-06-03",
+   "slides": "https://investorrelations.medtronic.com/image/Earnings-Presentation-FY26Q4-vFinal.pdf",
+   "slides_kind": "slides",
+   "release": "https://investorrelations.medtronic.com/image/Press-Release-FY26Q4-vfinal2.pdf"
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-02-17",
+   "slides": "https://investorrelations.medtronic.com/image/Earnings+Presentation+FY26Q3+Final+2.19.pdf",
+   "slides_kind": "slides",
+   "release": "https://investorrelations.medtronic.com/image/Press+Release+FY26Q3+FINAL.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-11-18",
+   "slides": "https://investorrelations.medtronic.com/image/Earnings-Presentation-FY26Q2-FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://investorrelations.medtronic.com/image/Press_Release-FY26Q2-FINAL.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-02-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/18/medtronic-mdt-q3-2025-earnings-call-transcript/",
+   "slides": "https://investorrelations.medtronic.com/image/Earnings-Presentation-FY25Q3-FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://investorrelations.medtronic.com/image/Medtronic_Press_Release_Q3FY25_Final.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-11-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/19/medtronic-mdt-q2-2025-earnings-call-transcript/",
+   "slides": "https://investorrelations.medtronic.com/image/Earnings+Presentation-FY25Q2_Final.pdf",
+   "slides_kind": "slides",
+   "release": "https://investorrelations.medtronic.com/image/Press_Release-FY25Q2-FINAL.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-08-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/20/medtronic-mdt-q1-2025-earnings-call-transcript/",
+   "slides": "https://investorrelations.medtronic.com/image/Earnings_Presentation-FY25Q1-FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://investorrelations.medtronic.com/image/Press_Release-FY25Q1-FINAL.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-05-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/23/medtronic-mdt-q4-2024-earnings-call-transcript/",
+   "slides": "https://investorrelations.medtronic.com/image/Earnings+Presentation-FY24Q4-FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://investorrelations.medtronic.com/image/Press_Release-FY24Q4-FINAL.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/20/medtronic-mdt-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1613103/000161310324000006/exhibit991-fy24q3earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-08-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/22/medtronic-mdt-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1613103/000161310323000117/exhibit991-fy24q1earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-05-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/25/medtronic-mdt-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1613103/000161310323000032/exhibit991-fy23q4earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-02-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/22/medtronic-plc-mdt-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1613103/000161310323000003/exhibit991-fy23q3earningsr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2022-11-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/22/medtronic-mdt-q2-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-08-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/23/medtronic-mdt-q1-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-05-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/26/medtronic-mdt-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-02-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/22/medtronic-mdt-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2021-11-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/23/medtronic-plc-mdt-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-08-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/24/medtronic-plc-mdt-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-05-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/27/medtronic-plc-mdt-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-02-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/23/medtronic-plc-mdt-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-02-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/18/medtronic-mdt-q3-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-11-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/19/medtronic-mdt-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-08-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/20/medtronic-mdt-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-05-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/23/medtronic-mdt-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-02-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/19/medtronic-mdt-q3-2019-earnings-conference-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2018-11-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/20/medtronic-plc-mdt-q2-2019-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-08-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/21/medtronic-plc-mdt-q1-2019-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-05-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/24/medtronic-plc-mdt-q4-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/20/medtronic-mdt-q3-2018-earnings-conference-call-tra.aspx"
+  }
+ ]
+}

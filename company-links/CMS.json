@@ -1,0 +1,162 @@
+{
+ "ticker": "CMS",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465926118972/tm2628313d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://s26.q4cdn.com/888045447/files/content_files/CMS-Energy-Third-Quarter-2026-Results-_-Outlook.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465926049718/tm2612873d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://s26.q4cdn.com/888045447/files/doc_financials/2026/q1/CMS-Energy-First-Quarter-2026-Results-Outlook.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465926010603/tm265106d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://s26.q4cdn.com/888045447/files/doc_financials/2025/q4/CMS-Energy-2025-Year-End-Results-Outlook.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465925103975/tm2529773d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://s26.q4cdn.com/888045447/files/doc_financials/2025/q3/CMS-Energy-Third-Quarter-2025-Results-Outlook.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465925038300/tm2513034d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://s26.q4cdn.com/888045447/files/doc_financials/2025/q1/CMS-Energy-First-Quarter-2025-Results-Outlook.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://s26.q4cdn.com/888045447/files/doc_financials/2025/q1/CMS-Energy-Corporation-Q1-2025-Earnings-Call-Apr-24-2025.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465925009870/tm255658d1_ex99-1.htm",
+   "release_ok": true,
+   "transcript": "https://s26.q4cdn.com/888045447/files/doc_financials/2024/q4/Transcript-CMS-Energy-YE-2024-Earnings-FINAL.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465924112839/tm2427163d1_ex99-1.htm",
+   "release_ok": true,
+   "slides": "https://s26.q4cdn.com/888045447/files/doc_financials/2024/q3/CMS-Energy-3Q24-Results-Outlook.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://investing.com/news/stock-market-news/earnings-call-cms-energy-boasts-solid-q3-with-eps-growth-and-strong-outlook-93CH-3697455"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465924082494/tm2420031d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465924051509/tm2412653d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465924009113/tm244795d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465923111588/tm2329164d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465923084518/tm2322123d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465923050652/tm2313895d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/811156/000110465923009563/tm235219d1_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/cms-energy-corp-cms-q3-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/29/cms-energy-corp-cms-q2-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/04/cms-energy-corp-cms-q4-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/27/cms-energy-cms-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/31/cms-energy-cms-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/25/cms-energy-cms-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/25/cms-energy-cms-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/26/cms-energy-cms-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/31/cms-energy-corp-cms-q4-2018-earnings-conference-ca.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/25/cms-energy-corp-cms-q3-2018-earnings-conference-ca.aspx"
+  }
+ ],
+ "ir": "https://www.cmsenergy.com/investor-relations",
+ "results": "https://www.cmsenergy.com/investor-relations/financial-information/quarterly-earnings/default.aspx"
+}

@@ -1,0 +1,196 @@
+{
+ "ticker": "BAC",
+ "ir": "https://investor.bankofamerica.com/",
+ "results": "https://investor.bankofamerica.com/quarterly-earnings",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-14",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10611/presentation/The+Presentation+Materials_3Q26_ADA.pdf",
+   "slides_kind": "slides",
+   "release": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10611/earnings_release/The+Press+Release_3Q26_ADA.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-14",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10579/presentation/The+Presentation+Materials_2Q26_ADA.pdf",
+   "slides_kind": "slides",
+   "release": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10579/earnings_release/The+Press+Release_2Q26_ADA.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-15",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10536/presentation/The+Presentation+Materials_1Q26_ADA.pdf",
+   "slides_kind": "slides",
+   "release": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10536/earnings_release/The+Press+Release_1Q26_ADA.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-14",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10472/presentation/The+Presentation+Materials_4Q25_ADA.pdf",
+   "slides_kind": "slides",
+   "release": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10472/earnings_release/The+Press+Release_4Q25_ADA.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-16",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10336/presentation/The+Presentation+Materials_2Q25_ADA.pdf",
+   "slides_kind": "slides",
+   "release": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10336/earnings_release/The+Press+Release_2Q25_ADA.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-15",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10171/presentation/The+Presentation+Materials_1Q25_ADA.pdf",
+   "slides_kind": "slides",
+   "release": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10171/earnings_release/The+Press+Release_1Q25_ADA.pdf",
+   "transcript": "https://www.insidermonkey.com/blog/bank-of-america-corporation-nysebac-q1-2025-earnings-call-transcript-1509437/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/16/bank-of-america-bac-q4-2024-earnings-call-transcri/",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10136/presentation/The+Presentation+Materials_4Q24_ADA.pdf",
+   "slides_kind": "slides",
+   "release": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10136/earnings_release/The+Press+Release_4Q24_ADA.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/15/bank-of-america-bac-q3-2024-earnings-call-transcri/",
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10117/presentation/The+Presentation+Materials_3Q24_ADA.pdf",
+   "slides_kind": "slides",
+   "release": "https://d1io3yog0oux5.cloudfront.net/_1338cb13b2c01ad1d9b2e4c40bc0a52e/bankofamerica/db/806/10117/earnings_release/The+Press+Release_3Q24_ADA.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/16/bank-of-america-bac-q2-2024-earnings-call-transcri/"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/16/bank-of-america-bac-q1-2024-earnings-call-transcri/"
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/12/bank-of-america-bac-q4-2023-earnings-call-transcri/"
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/17/bank-of-america-bac-q3-2023-earnings-call-transcri/"
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/18/bank-of-america-bac-q2-2023-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/13/bank-of-america-bac-q4-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/17/bank-of-america-bac-q3-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/18/bank-of-america-bac-q2-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/18/bank-of-america-bac-q1-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/19/bank-of-america-bac-q4-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/15/bank-of-america-bac-q3-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/14/bank-of-america-bac-q2-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/15/bank-of-america-bac-q1-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/19/bank-of-america-bac-q4-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/14/bank-of-america-bac-q3-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/17/bank-of-america-bac-q2-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/15/bank-of-america-corp-bac-q1-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/15/bank-of-america-corp-bac-q4-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/16/bank-of-america-corp-bac-q3-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/17/bank-of-america-corp-bac-q2-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/16/bank-of-america-corp-bac-q1-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/16/bank-of-america-corp-bac-q4-2018-earnings-conferen.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/15/bank-of-america-corporation-bac-q3-2018-earnings-c.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/16/bank-of-america-corporation-bac-q2-2018-earnings-c.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/16/bank-of-america-corporation-bac-q1-2018-earnings-c.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-01-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/01/20/bank-of-america-bac-q4-2017-earnings-conference-ca.aspx"
+  }
+ ]
+}

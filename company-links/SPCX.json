@@ -1,0 +1,20 @@
+{
+ "ticker": "SPCX",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/20/spacex-spcx-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052515/earningsreleaseq22608042.htm",
+   "release_ok": true,
+   "transcript": "https://s21.q4cdn.com/184289198/files/doc_financials/2026/q2/SpaceX-Q2-2026-Earnings_Transcript-FINAL.pdf"
+  }
+ ],
+ "ir": "https://ir.spacex.com/"
+}

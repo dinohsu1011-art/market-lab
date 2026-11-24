@@ -1,0 +1,246 @@
+/* Financials: editable statement grid. Uses the shell's --ml-* tokens. */
+:root{--fin-drv:#1d4ed8;--fin-drv-bg:#eef3ff;--fin-est:#f4f6f5;--fin-input:#ffffff;--fin-edit:#9a5b13;--fin-bar-a:#3d5566;--fin-bar-e:#a9b9c4}
+:root[data-theme="dark"]{--fin-drv:#8fb3ff;--fin-drv-bg:#1b2a44;--fin-est:#202b33;--fin-input:#16212a;--fin-edit:#f0b264;--fin-bar-a:#9fb6c7;--fin-bar-e:#4f6474}
+
+.fin-page{max-width:1320px;margin:0 auto;padding:26px 28px 90px;font-size:15px}
+.fin-page .mast{display:flex;justify-content:space-between;align-items:baseline;gap:16px;border-bottom:1px solid var(--ml-border);padding-bottom:12px;margin:6px 0 18px}
+.fin-page .mast h1{font-size:30px;margin:0;letter-spacing:-.02em;font-weight:600}
+.fin-page .mast h1 b{font-weight:400;color:var(--ml-muted);font-size:20px;margin-left:6px;letter-spacing:.02em}
+.fin-page .mast>span{color:var(--ml-muted);font-size:13px;white-space:nowrap}
+
+.fin-bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin:0 0 16px}
+.fin-bar .spacer{flex:1}
+.fin-page button,.fin-page select{font:inherit;font-size:14px;color:var(--ml-ink);background:var(--ml-raised);border:1px solid var(--ml-border);border-radius:4px;padding:6px 11px;cursor:pointer;transition:background-color 150ms ease}
+.fin-page button:hover{background:var(--ml-hover)}
+.fin-page button:disabled{opacity:.45;cursor:default}
+.fin-page button:disabled:hover{background:var(--ml-raised)}
+.seg{display:inline-flex}
+.seg button{border-radius:0;margin-left:-1px}
+.seg button:first-child{border-radius:4px 0 0 4px;margin-left:0}
+.seg button:last-child{border-radius:0 4px 4px 0}
+.seg button[aria-pressed="true"]{background:var(--ml-ink);color:var(--ml-bg);border-color:var(--ml-ink);position:relative}
+.tog,.sel{display:inline-flex;align-items:center;gap:7px;font-size:14px;color:var(--ml-muted);cursor:pointer}
+.tog input{accent-color:var(--ml-ink);width:15px;height:15px;margin:0}
+
+.fin-tabs{display:flex;gap:2px;border-bottom:1px solid var(--ml-border);margin:0 0 14px}
+.fin-tabs button{background:transparent;border:0;border-radius:0;padding:9px 16px 10px;font-size:15px;color:var(--ml-muted);border-bottom:2px solid transparent;margin-bottom:-1px}
+.fin-tabs button:hover{background:transparent;color:var(--ml-ink)}
+.fin-tabs button[aria-selected="true"]{color:var(--ml-ink);border-bottom-color:var(--ml-ink);font-weight:600}
+
+/* chart of checked rows */
+.fin-chart{background:var(--ml-surface);border:1px solid var(--ml-border);border-radius:8px;padding:14px 18px 10px;margin:0 0 14px;position:relative}
+.fin-chart svg{display:block;width:100%;height:auto;overflow:visible}
+.fin-chart text{font-size:12px;fill:var(--ml-muted);font-variant-numeric:tabular-nums}
+.fin-chart .key{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:13px;color:var(--ml-muted);margin:0 0 6px}
+.fin-chart .key i{display:inline-block;width:12px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.fin-chart .tip{position:absolute;pointer-events:none;background:var(--ml-raised);border:1px solid var(--ml-border);border-radius:6px;padding:7px 10px;font-size:13px;line-height:1.45;opacity:0;transition:opacity 150ms ease;z-index:2;white-space:nowrap}
+.fin-chart .tip.on{opacity:1}
+.fin-chart .tip span{float:right;margin-left:14px;font-variant-numeric:tabular-nums}
+
+/* grid */
+.fin-wrap{overflow:auto;max-height:calc(100vh - 32px);overscroll-behavior:contain auto;border:1px solid var(--ml-border);border-radius:8px;background:var(--ml-surface)}
+table.fin{border-collapse:separate;border-spacing:0;width:100%;font-variant-numeric:tabular-nums;font-size:15px}
+.fin th,.fin td{padding:0 12px;height:38px;white-space:nowrap;text-align:right;border-bottom:1px solid transparent}
+.fin thead th{position:sticky;top:0;background:var(--ml-surface);font-weight:600;font-size:14px;border-bottom:1px solid var(--ml-border);z-index:2}
+.fin thead th.est{background:var(--fin-est)}
+.fin thead th small{display:block;font-weight:400;font-size:11px;color:var(--ml-faint);line-height:1;margin-top:-2px}
+.fin th.lab,.fin td.lab{position:sticky;left:0;text-align:left;background:var(--ml-surface);z-index:1;min-width:290px;border-right:1px solid var(--ml-border)}
+.fin thead th.lab{z-index:3;font-size:16px}
+.fin td.est{background:var(--fin-est)}
+.fin td.first-est,.fin th.first-est{box-shadow:inset 1px 0 0 var(--ml-muted)}
+.fin tbody tr:hover td{background:var(--ml-hover)}
+.fin tbody tr:hover td.lab{background:var(--ml-hover)}
+
+.fin .lab label{display:flex;align-items:center;gap:10px;cursor:pointer}
+.fin .lab input[type=checkbox]{accent-color:var(--ml-ink);width:16px;height:16px;margin:0;flex:none}
+.fin tr.total td{font-weight:600}
+.fin tr.rule td{border-bottom:1px solid var(--ml-border)}
+.fin tr.sub td{color:var(--ml-muted);font-style:italic;font-size:14px}
+.fin tr.sub td.lab{padding-left:38px}
+.fin tr.sub td.lab label{gap:10px}
+.fin tr.sub td.lab label input{margin-left:-26px}
+.fin .neg{color:var(--ml-down)}
+.fin tr.sub .neg{color:var(--ml-down)}
+.fin td.up{color:var(--ml-up)}
+
+/* editable estimate cells */
+.fin td.inp{padding:0 4px}
+.fin td.inp input{font:inherit;font-style:normal;color:var(--fin-drv);text-align:right;width:100%;min-width:76px;box-sizing:border-box;background:var(--fin-input);border:1px solid var(--ml-border);border-radius:3px;padding:5px 8px;font-variant-numeric:tabular-nums;transition:border-color 150ms ease}
+.fin td.inp input:hover{border-color:var(--ml-faint)}
+.fin td.inp input:focus{outline:none;border-color:var(--ml-ink)}
+.fin td.inp.edited input{color:var(--fin-drv);font-weight:700;background:var(--fin-drv-bg)}
+.fin td.flash{animation:fin-flash 400ms ease}
+@keyframes fin-flash{from{color:var(--fin-edit)}to{color:inherit}}
+
+@media (max-width:760px){
+  .fin-page{padding:18px 16px 70px}
+  .fin th.lab,.fin td.lab{min-width:190px}
+}
+
+/* label cell: name on the left, % rev / YoY switch on the right */
+.fin td.lab .lr{display:flex;align-items:center;gap:10px}
+.fin td.lab .lr label{flex:1;min-width:0}
+/* source link on a KPI row (TTWO GTA VI tracker) */
+.fin td.lab .lr a.kl{flex:none;font-size:12px;color:var(--ml-muted);text-decoration:underline;text-underline-offset:2px}
+.fin td.lab .lr a.kl:hover{color:inherit}
+.fin .mode{display:inline-flex;font-style:normal;flex:none}
+.fin .mode button{font-size:12px;line-height:1.2;padding:3px 7px;border-radius:0;margin-left:-1px;color:var(--ml-muted);background:transparent}
+.fin .mode button:first-child{border-radius:3px 0 0 3px;margin-left:0}
+.fin .mode button:last-child{border-radius:0 3px 3px 0}
+.fin .mode button[aria-pressed="true"]{background:var(--ml-ink);color:var(--ml-bg);border-color:var(--ml-ink)}
+.fin td.inp.carried input{color:var(--fin-drv);background:var(--fin-drv-bg)}
+
+/* company picker and segment group headings */
+.fin-page .mast select{font-size:15px;padding:6px 10px;min-width:110px}
+.fin tr.grp td{height:40px;border-bottom:1px solid var(--ml-border);vertical-align:bottom;padding-bottom:6px}
+.fin tr.grp td.lab{font-weight:600;font-size:14px;color:var(--ml-ink)}
+.fin tbody tr.grp:hover td{background:var(--ml-surface)}
+.fin tbody tr.grp:hover td.est{background:var(--fin-est)}
+.fin tr.grp td.lab .gt{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--ml-ink)}
+.fin tr.grp td.lab .gt::before{content:"";width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:6px solid var(--ml-muted);transition:transform 150ms ease}
+.fin tr.grp td.lab .gt[aria-expanded="false"]::before{transform:rotate(-90deg)}
+.fin tr.grp td.lab .gt[aria-expanded="false"]{color:var(--ml-muted)}
+.fin tr.grp td.lab .gt:focus-visible{outline:2px solid var(--ml-ink);outline-offset:3px}
+.fin td.gap{color:var(--ml-faint);font-style:italic;cursor:help}
+
+/* chart mode switch and pies */
+.fin-chart .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin:0 0 6px}
+.fin-chart .ctop .key{margin:4px 0 0}
+.fin-chart .cm{flex:none;position:relative}
+.fin-chart .cm button{font-size:13px;padding:4px 10px}
+.fin-chart .gbtn::after{content:"";display:inline-block;margin-left:7px;border:4px solid transparent;border-top-color:currentColor;border-bottom:0;vertical-align:middle}
+.fin-chart .glist{position:absolute;right:0;top:calc(100% + 4px);z-index:5;min-width:150px;padding:4px;background:var(--ml-bg);border:1px solid var(--ml-border);border-radius:6px;box-shadow:0 8px 24px rgba(0,0,0,.14)}
+.fin-chart .glist[hidden]{display:none}
+.fin-chart .glist button{display:block;width:100%;text-align:left;border:0;border-radius:4px;background:none;padding:6px 10px}
+.fin-chart .glist button:hover,.fin-chart .glist button:focus-visible{background:color-mix(in srgb,var(--ml-ink) 8%,transparent)}
+.fin-chart .glist button[aria-checked="true"]{font-weight:600;background:color-mix(in srgb,var(--ml-ink) 12%,transparent)}
+.fin-chart .pies{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding:10px 4px 6px}
+.fin-chart figure{margin:0}
+.fin-chart figcaption{display:flex;align-items:baseline;gap:10px;margin:0 0 10px;font-size:15px}
+.fin-chart figcaption span{color:var(--ml-muted);font-size:13px}
+.fin-chart .pies svg{width:200px;max-width:100%;margin:0 auto 12px}
+.fin-chart .pies ul{list-style:none;margin:0;padding:0;font-size:13px}
+.fin-chart .pies li{display:grid;grid-template-columns:14px 1fr auto 78px;align-items:center;gap:8px;padding:3px 0;border-bottom:1px solid var(--ml-border)}
+.fin-chart .pies li i{width:10px;height:10px;border-radius:2px}
+.fin-chart .pies li span{font-variant-numeric:tabular-nums;font-weight:600}
+.fin-chart .pies li em{font-style:normal;color:var(--ml-muted);text-align:right;font-variant-numeric:tabular-nums}
+.fin-chart .pies .none{color:var(--ml-muted);font-size:14px}
+
+/* fiscal column heads, range picker, ticker search */
+.fin thead th{height:50px;line-height:1.2}
+.fin thead th small{margin-top:3px}
+.fin-chart .tip small{color:var(--ml-muted);margin-left:6px}
+.fin-bar .range{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--ml-muted)}
+.fin-bar .range select{padding:6px 8px}
+.fin-page .tk{position:relative}
+/* No company picked yet, or none with financials: only the heading, the search box and a line of text show. */
+.fin-page.blank .fin-bar,.fin-page.blank .fin-tabs,.fin-page.blank #chart,.fin-page.blank #wrap,.fin-page.blank #muse,.fin-page.blank #model{display:none}
+.fin-empty{color:var(--ml-muted);font-size:15px;margin:28px 0}
+.fin-empty.note{font-size:14px;margin:-6px 0 18px;max-width:72ch}
+.fin-page .tk input{font:inherit;font-size:15px;font-weight:600;letter-spacing:.02em;width:150px;padding:7px 11px;border:1px solid var(--ml-border);border-radius:4px;background:var(--ml-raised);color:var(--ml-ink);text-transform:uppercase}
+.fin-page .tk input::placeholder{text-transform:none;font-weight:400;color:var(--ml-faint)}
+.fin-page .tk input:focus{outline:none;border-color:var(--ml-ink)}
+.fin-page .tk ul{position:absolute;right:0;top:calc(100% + 4px);z-index:20;list-style:none;margin:0;padding:4px 0;min-width:260px;max-height:340px;overflow:auto;background:var(--ml-raised);border:1px solid var(--ml-border);border-radius:6px;box-shadow:0 10px 30px rgba(10,10,10,.12)}
+.fin-page .tk li{display:flex;gap:12px;align-items:baseline;padding:7px 12px;cursor:pointer;font-size:14px}
+.fin-page .tk li b{min-width:52px}
+.fin-page .tk li span{color:var(--ml-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fin-page .tk li[aria-selected="true"],.fin-page .tk li:hover{background:var(--ml-hover)}
+.fin-page .tk li.none{color:var(--ml-muted);cursor:default}
+.fin td.txt{font-size:13px;white-space:nowrap;color:var(--ml-ink)}
+/* a KPI cell holding an outside figure (broker or tracker), sourced in its tooltip */
+.fin td.ext{font-style:italic;color:var(--ml-muted);cursor:help;text-decoration:underline dotted var(--ml-faint);text-underline-offset:3px}
+
+/* Muse model tab (META): editable inputs look like estimate cells, results are plain text */
+.fin-page [hidden]{display:none !important}
+.muse-bar{display:flex;justify-content:flex-end;margin:0 0 14px}
+.muse-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:start}
+.muse-grid .fin-wrap{overflow-x:auto}
+table.fin.mt th.lab,table.fin.mt td.lab{min-width:210px;width:46%;white-space:normal;line-height:1.25;padding-top:6px;padding-bottom:6px}
+table.fin.mt thead th.lab{font-size:15px}
+table.fin.mt thead th{height:44px}
+table.fin.mt td{min-width:74px}
+table.fin.mt td.inp input{min-width:0;width:100%}
+table.fin.mt tr.out td:not(.lab){color:var(--ml-ink)}
+table.fin.mt tr.out.total td{font-weight:600}
+table.fin.mt td.pos{background:color-mix(in srgb,var(--ml-up,#2f7d4f) 14%,transparent)}
+table.fin.mt td.neg{color:var(--ml-down)}
+table.fin.mt td[data-sens]{cursor:help}
+.muse-chart{margin:0}
+.muse-chart .key{display:flex;gap:4px 18px;margin:0 0 8px}
+.muse-chart .key i.rv,.muse-chart rect.rv,.muse-chart .rv rect{background:var(--fin-bar-a);fill:var(--fin-bar-a)}
+.muse-chart .key i.cs,.muse-chart .cs rect{background:#c2843a;fill:#c2843a}
+.muse-chart svg text{font-size:12px;fill:var(--ml-muted)}
+.muse-chart svg text.sc{font-size:13px;fill:var(--ml-ink);font-weight:600}
+.muse-chart line.base{stroke:var(--ml-border)}
+@media (max-width:1180px){.muse-grid{grid-template-columns:1fr}}
+
+.muse-top{margin:0 0 22px}
+.fin-chart .key i.ln{height:3px;vertical-align:3px}
+.muse-grid .fin-wrap{max-height:none}
+
+/* Model tab: the coverage model's build sheets, live */
+.mdl-sheets{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 10px}
+.mdl-bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 14px}
+.mdl-bar .spacer{flex:1}
+.mdl-key{font-size:13px;color:var(--ml-muted)}
+.mdl-key b{color:var(--fin-drv);font-weight:600}
+.fin td.linked{color:var(--ml-ink)}
+.fin.mdl th,.fin.mdl td{height:30px;padding:0 10px;font-size:14px}
+.fin.mdl td.inp{padding:0 3px}
+.fin.mdl td.inp input{padding:3px 6px;min-width:68px}
+.fin.mdl th.lab,.fin.mdl td.lab{min-width:260px;max-width:340px;overflow:hidden;text-overflow:ellipsis}
+.fin.mdl th.fy,.fin.mdl td.fy{font-weight:600;box-shadow:inset 1px 0 0 var(--ml-border)}
+.fin.mdl tr.gap td{height:12px}
+.fin.mdl tr.grp td.lab{font-weight:600}
+.fin.mdl tr.total td{font-weight:600}
+.mdl-wrap+.mdl-wrap{margin-top:28px}
+.mdl-none{color:var(--ml-muted);margin:24px 0}
+.fin.mdl tr.rule td{border-bottom-color:var(--ml-border)}
+.fin.mdl td.fx{cursor:default}
+.fin.mdl td.fx:hover{background:var(--fin-est)}
+.fin.mdl td.fx.edited{color:var(--fin-edit);font-weight:600}
+
+/* daily outside tracker above the KPI grid (TTWO: GTA VI sales) */
+.fin-trk{background:var(--ml-surface);border:1px solid var(--ml-border);border-radius:8px;padding:16px 18px 12px;margin:0 0 14px}
+.fin-trk .trk-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 16px}
+.fin-trk h3{margin:0;font-size:17px;color:var(--ml-ink)}
+.fin-trk .trk-top p{margin:0;font-size:13px;color:var(--ml-muted)}
+.fin-trk a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.fin-trk .trk-head{display:flex;flex-wrap:wrap;gap:10px 36px;margin:14px 0 12px}
+.fin-trk .trk-head div{margin:0}
+.fin-trk dt{font-size:13px;color:var(--ml-muted)}
+.fin-trk dd{margin:2px 0 0;font-size:26px;font-weight:600;color:var(--ml-ink);font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.fin-trk .trk-scroll{max-height:300px;overflow:auto;border:1px solid var(--ml-border);border-radius:6px;overscroll-behavior:contain}
+.fin-trk table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+.fin-trk th,.fin-trk td{padding:5px 10px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--ml-border)}
+.fin-trk thead th{position:sticky;top:0;background:var(--ml-raised);color:var(--ml-muted);font-weight:500;z-index:1}
+.fin-trk thead th:first-child,.fin-trk tbody th{text-align:left}
+.fin-trk tbody th{font-weight:500;color:var(--ml-ink)}
+.fin-trk tbody tr:last-child th,.fin-trk tbody tr:last-child td{border-bottom:0}
+.fin-trk small{color:var(--ml-muted);font-size:11px}
+.fin-trk .trk-note{margin:10px 0 0;font-size:12px;line-height:1.5;color:var(--ml-muted)}
+@media (max-width:760px){.fin-trk{padding:14px 12px 10px}.fin-trk dd{font-size:21px}.fin-trk .trk-head{gap:8px 22px}}
+
+/* tracker line charts */
+.fin-trk .trk-charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:12px 20px;margin:16px 0 14px}
+.fin-trk .trk-fig{margin:0;min-width:0}
+.fin-trk .trk-fig figcaption{display:flex;justify-content:space-between;gap:8px;font-size:13px;margin:0 0 4px}
+.fin-trk .trk-fig figcaption b{font-weight:600;color:var(--ml-ink)}
+.fin-trk .trk-fig figcaption span{color:var(--ml-muted);font-variant-numeric:tabular-nums}
+.fin-trk .trk-fig svg{display:block;width:100%;height:auto;touch-action:pan-y}
+.fin-trk .trk-fig .gl{stroke:var(--ml-border);stroke-width:1}
+.fin-trk .trk-fig .gx{stroke:var(--ml-border);stroke-width:1;stroke-dasharray:2 3}
+.fin-trk .trk-fig .yl{font-size:12.5px;fill:var(--ml-muted);text-anchor:end}
+.fin-trk .trk-fig .xl{font-size:12.5px;fill:var(--ml-muted);text-anchor:middle}
+.fin-trk .trk-fig .ln{fill:none;stroke:var(--ml-accent);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.fin-trk .trk-fig .end,.fin-trk .trk-fig .hd{fill:var(--ml-accent);stroke:var(--ml-surface);stroke-width:1.5}
+.fin-trk .trk-fig .hx{stroke:var(--ml-muted);stroke-width:1}
+.fin-trk .trk-fig .hit{fill:transparent;cursor:crosshair}
+@media (max-width:760px){.fin-trk .trk-charts{grid-template-columns:1fr}}
+.fin-trk .trk-fig .br{fill:var(--ml-accent)}
+/* Select all / Unselect all for the chart, in the table's corner cell */
+.fin thead th.lab .lh{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.fin thead th.lab .pick{display:inline-flex;gap:10px;font-size:12px;font-weight:400}
+.fin thead th.lab .pick button{all:unset;cursor:pointer;color:var(--ml-muted);transition:color 150ms ease}
+.fin thead th.lab .pick button:hover{color:var(--ml-ink);text-decoration:underline}
+.fin thead th.lab .pick button:focus-visible{outline:2px solid var(--ml-ink);outline-offset:2px}

@@ -1,0 +1,216 @@
+{
+ "ticker": "PNC",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialsupplement.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_089afc4ce03f3c8175c939c4de65c807/pnc/db/2321/24033/pdf/3Q26+Earnings+Slides_vf.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000162828026048244/q22026financialsupplement.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_089afc4ce03f3c8175c939c4de65c807/pnc/db/2321/24022/pdf/2Q26+Earnings+Slides_Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000071367626000026/q12026financialsupplement.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_089afc4ce03f3c8175c939c4de65c807/pnc/db/2321/24010/pdf/1Q26+Earnings+Slides.vf.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000071367626000006/q42025financialsupplement.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_089afc4ce03f3c8175c939c4de65c807/pnc/db/2321/23990/pdf/4Q25+Earnings+Slides.vf.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000071367625000048/q22025financialsupplement.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_089afc4ce03f3c8175c939c4de65c807/pnc/db/2321/23967/pdf/2Q25+Earnings+Slides_Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000162828025017763/q12025financialsupplement.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_089afc4ce03f3c8175c939c4de65c807/pnc/db/2321/23952/pdf/1Q25+Earnings+Slides_Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000162828025001669/q42024financialsupplement.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_089afc4ce03f3c8175c939c4de65c807/pnc/db/2321/23353/pdf/4Q24_Earnings_Slides_Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000071367624000070/q32024financialsupplement.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_089afc4ce03f3c8175c939c4de65c807/pnc/db/2321/23352/pdf/3Q24_Earnings_Slides_Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000071367624000058/q22024financialsupplement.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000071367624000037/q12024financialsupplement.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000071367624000006/q42023financialsupplement.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000071367623000069/q32023financialsupplement.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000071367623000050/q22023financialsupplement.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000071367623000029/q12023financialsupplement.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/713676/000071367623000005/q42022financialsupplement.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/17/pnc-financial-services-pnc-q2-2022-earnings-call-t/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/14/pnc-financial-services-pnc-q1-2022-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/18/pnc-financial-services-pnc-q4-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/16/pnc-financial-services-pnc-q3-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/14/pnc-financial-services-pnc-q2-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/16/pnc-financial-services-pnc-q1-2021-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/15/pnc-financial-services-pnc-q4-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/14/pnc-financial-services-pnc-q3-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/15/pnc-financial-services-group-inc-pnc-q2-2020-earni.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/15/pnc-financial-services-group-inc-pnc-q1-2020-earni.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/15/pnc-financial-services-group-inc-pnc-q4-2019-earni.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/16/pnc-financial-services-group-inc-pnc-q3-2019-earni.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/17/pnc-financial-services-group-inc-pnc-q2-2019-earni.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/12/pnc-financial-services-group-inc-pnc-q1-2019-earni.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/16/pnc-financial-services-group-inc-pnc-q4-2019-earni.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/12/pnc-financial-services-group-inc-the-pnc-q3-2018-e.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/16/pnc-financial-services-group-inc-the-pnc-q2-2018-e.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/13/pnc-financial-services-group-inc-the-pnc-q1-2018-e.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-01-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/01/12/pnc-financial-services-group-inc-pnc-q4-2017-earni.aspx"
+  }
+ ],
+ "ir": "https://investor.pnc.com",
+ "results": "https://investor.pnc.com/news-events/presentations"
+}

@@ -1,0 +1,179 @@
+{
+ "ticker": "CMG",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000103/cmg-20261028xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000063/cmg-20260729xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000027/cmg-20260429xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000007/cmg-20260203xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000086/cmg-20251029xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000055/cmg-20250723xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000028/cmg-20250423xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/05/chipotle-mexican-grill-cmg-q4-2024-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809025000008/cmg-20250204xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/29/chipotle-mexican-grill-cmg-q3-2024-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809024000048/cmg-202401029xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809024000030/cmg-20240724xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809024000012/cmg-20240424xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809024000006/cmg-20240206xex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809023000039/cmg-20231026xex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809023000026/cmg-20230726xex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809023000015/cmg-20230425xex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1058090/000105809023000005/cmg-20230207xex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/21/chipotle-mexican-grill-inc-cmg-q3-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/20/chipotle-mexican-grill-inc-cmg-q2-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/21/chipotle-mexican-grill-inc-cmg-q1-2021-earnings-ca/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/02/chipotle-mexican-grill-inc-cmg-q4-2020-earnings-ca/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/21/chipotle-mexican-grill-inc-cmg-q3-2020-earnings-ca/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/23/chipotle-mexican-grill-inc-cmg-q2-2020-earnings-ca.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/21/chipotle-mexican-grill-inc-cmg-q1-2020-earnings-ca.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/05/chipotle-mexican-grill-inc-cmg-q4-2019-earnings-ca.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/22/chipotle-mexican-grill-inc-cmg-q3-2019-earnings-ca.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/23/chipotle-mexican-grill-inc-cmg-q2-2019-earnings-ca.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/24/chipotle-mexican-grill-inc-cmg-q1-2019-earnings-ca.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/06/chipotle-mexican-grill-inc-cmg-q4-2018-earnings-co.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/26/chipotle-mexican-grill-inc-cmg-q3-2018-earnings-co.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/27/chipotle-mexican-grill-cmg-q2-2018-earnings-confer.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/26/chipotle-mexican-grill-cmg-q1-2018-earnings-confer.aspx"
+  }
+ ],
+ "ir": "https://ir.chipotle.com/"
+}

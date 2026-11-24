@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "",
+    "call": "Mixed",
+    "detail": "Leadership is thin and risk appetite is undecided.",
+    "summary": "SPY finished the week +1.0%; QQQ +1.1%; high beta versus low beta is +7.2% over one month (78th percentile); leader breadth is +23.9 points versus the index; 28% of S&P names are above the 50-day; net 52-week highs are -14; Connectivity leads themes at +4.8%.",
+    "market": "SPY finished the week +1.0%; QQQ +1.1%.",
+    "winners": "Connectivity +4.8%, Networking +4.4%, Utilities \u00b7 XLU +3.3%.",
+    "laggards": "Neocloud -5.6%, Semicap -4.5%, Power Semis -4.3%.",
+    "why": "Risk and participation disagree, leaving a rotation-led rather than directional tape; high beta/low beta +7.2%, leader breadth spread +23.9pt, 28% above the 50-day.",
+    "comparison": "Since 2026-10-06, the Mixed call is unchanged; high beta -3.8pt, leader spread -3.0pt, 50-day breadth -1.0pt. Weekly leadership changed from Nuclear to Connectivity.",
+    "tally": "2 of 4 risk gauges and 2 of 6 participation gauges are above their five-year medians",
+    "volume": "PTC printed 22.43\u00d7 relative volume on a +33.5% day, while WBD printed 20.28\u00d7 relative volume on a +0.0% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

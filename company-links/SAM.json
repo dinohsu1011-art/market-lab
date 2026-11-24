@@ -1,0 +1,12 @@
+{
+ "ticker": "SAM",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/22/boston-beer-sam-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/949870/000119312526428973/sam-ex99_1.htm",
+   "release_ok": true
+  }
+ ]
+}

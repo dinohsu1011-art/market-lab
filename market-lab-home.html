@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" data-eq>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Today · Equinox</title>
+<script>(function(h){if(/[:|]/.test(h)||h==="#empty")location.replace("market-lab-theme-returns.html"+h)})(location.hash)</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="market-lab-bar.css?v=20261123-1110b792">
+<link rel="stylesheet" href="market-lab-eq.css?v=20261123-1110b792">
+<script src="market-lab-shell.js?v=20261123-1110b792"></script>
+</head>
+<body>
+<div class="page">
+  <nav class="side" aria-label="On this page">
+    <a href="#sectors" class="on">Sectors</a><a href="#indexes">Indexes</a><a href="#earnings">Upcoming earnings</a><a href="#breadth">Breadth</a><a href="#week">This week</a><a href="#warnings">Warning signs</a><a href="#volume">Unusual volume</a>
+  </nav>
+  <main>
+    <div id="top">
+      <h1 id="call">&nbsp;</h1>
+      <section id="sectors" style="padding-top:44px">
+        <h2>Sectors <span class="ranges" id="heatPick" style="--tint:var(--raised);--tone:var(--ink)"></span></h2>
+        <div class="heat" id="heat"></div>
+        <div class="stamp-line" id="heatStamp" style="margin:10px 0 0">&nbsp;</div>
+      </section>
+    </div>
+    <section id="indexes">
+      <h2>Indexes <span class="ranges" id="ixPick" style="--tint:var(--raised);--tone:var(--ink)"></span></h2>
+      <div class="chart" id="ixChart" style="margin-top:0;height:300px"></div>
+      <div class="keyline wrapkeys" id="ixKey">&nbsp;</div>
+      <table id="ixTable" style="margin-top:28px"></table>
+    </section>
+    <section id="earnings"><h2>Upcoming earnings <span class="ranges" id="aheadWeek" style="--tint:var(--raised);--tone:var(--ink)"></span></h2>
+      <div class="pickline"><select id="aheadIndustry" aria-label="Filter by industry"></select></div>
+      <table id="aheadTable"></table></section>
+    <section id="breadth">
+      <h2>Stocks above their moving average <span class="ranges" id="brPick" style="--tint:var(--raised);--tone:var(--ink)"></span></h2>
+      <div class="pickline reading"><span class="ranges" id="brUni" style="--tint:var(--raised);--tone:var(--ink)"></span><b class="num" id="brNow"></b><span id="brWhen"></span></div>
+      <div class="chart" id="brChart" style="margin-top:8px;height:240px"></div>
+      <div class="ranges" id="brRange" style="--tint:var(--raised);--tone:var(--ink)"></div>
+    </section>
+    <section id="week"><h2>This week</h2><div class="recap" id="recap" style="margin-top:0"></div></section>
+    <section id="warnings"><h2>Warning signs <small id="signCount"></small></h2><table id="signTable"></table></section>
+    <section id="volume"><h2>Unusual volume</h2><table id="volTable"></table></section>
+  </main>
+</div>
+<script src="market-lab-eq.js?v=20261123-1110b792"></script>
+<script src="cube/reviews-index.js?v=20261123-1110b792"></script>
+<script src="cube/index-weights.js?v=20261123-1110b792"></script>
+<script src="cube/sectors.js?v=20261123-1110b792"></script>
+<script src="market-lab-eq-today.js?v=20261123-1110b792"></script>
+</body>
+</html>

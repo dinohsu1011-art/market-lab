@@ -1,0 +1,169 @@
+{
+ "ticker": "NUE",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312526432117/d129328dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312526182332/d150975dex991.htm",
+   "release_ok": true,
+   "slides": "https://s202.q4cdn.com/531038915/files/doc_financials/2026/q1/Q1-2026-Earnings-Call-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312526022733/d20933dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312525166550/d82440dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312525100774/d809255dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312525013459/d871780dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312524240514/d889437dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312524182285/d860082dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312524105065/d817744dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312524018332/d756569dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312523260894/d454674dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312523192367/d520760dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312523107856/d487596dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/73309/000119312523015947/d431867dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/21/nucor-corporation-nue-q3-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/22/nucor-corporation-nue-q2-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/22/nucor-corp-nue-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/28/nucor-corp-nue-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/22/nucor-corp-nue-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/23/nucor-corp-nue-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/28/nucor-corp-nue-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/28/nucor-corp-nue-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/22/nucor-corp-nue-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/18/nucor-corp-nue-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/23/nucor-corp-nue-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/30/nucor-nue-q4-2018-earnings-conference-call-transcr.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/18/nucor-corp-nue-q3-2018-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/20/nucor-nue-q2-2018-earnings-conference-call-transcr.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/20/nucor-nue-q1-2018-earnings-conference-call-transcr.aspx"
+  }
+ ],
+ "ir": "https://investors.nucor.com/",
+ "results": "https://investors.nucor.com/financials/quarterly-results/default.aspx"
+}

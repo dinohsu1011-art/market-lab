@@ -1,0 +1,158 @@
+{
+ "ticker": "ABT",
+ "ir": "https://www.abbottinvestor.com/",
+ "results": "https://www.abbottinvestor.com/financials/quarterly-results/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "release": "https://abbott.mediaroom.com/2026-10-21-Abbott-Reports-Third-Quarter-2026-Results-and-Reaffirms-Full-Year-EPS-Guidance"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-16",
+   "release": "https://abbott.mediaroom.com/2026-04-16-Abbott-Reports-First-Quarter-2026-Results-Updates-Guidance-to-Reflect-Acquisition-of-Exact-Sciences"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-22",
+   "release": "https://abbott.mediaroom.com/2026-01-22-Abbott-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Issues-2026-Financial-Outlook"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-17",
+   "release": "https://abbott.mediaroom.com/2025-07-17-Abbott-Reports-Second-Quarter-2025-Results"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-16",
+   "release": "https://abbott.mediaroom.com/2025-04-16-Abbott-Reports-First-Quarter-2025-Results-and-Reaffirms-Full-Year-Guidance",
+   "transcript": "https://www.insidermonkey.com/blog/abbott-laboratories-nyseabt-q1-2025-earnings-call-transcript-1511396/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/22/abbott-laboratories-abt-q4-2024-earnings-call-tran/",
+   "release": "https://abbott.mediaroom.com/2025-01-22-Abbott-Reports-Fourth-Quarter-and-Full-Year-2024-Results-Issues-2025-Financial-Outlook"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/16/abbott-laboratories-abt-q3-2024-earnings-call-tran/",
+   "release": "https://abbott.mediaroom.com/2024-10-16-Abbott-Reports-Third-Quarter-2024-Results-and-Raises-Midpoint-of-Full-Year-EPS-Guidance-Range"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/18/abbott-laboratories-abt-q2-2024-earnings-call-tran/",
+   "release": "https://abbott.mediaroom.com/2024-07-18-Abbott-Reports-Second-Quarter-2024-Results-and-Raises-Full-Year-Guidance"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/17/abbott-laboratories-abt-q1-2024-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1800/000162828024016497/abt-2024q1xexhibitx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/24/abbott-laboratories-abt-q4-2023-earnings-call-tran/"
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/18/abbott-laboratories-abt-q3-2023-earnings-call-tran/"
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/20/abbott-laboratories-abt-q2-2023-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/25/abbott-laboratories-abt-q4-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/19/abbott-laboratories-abt-q3-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/20/abbott-laboratories-abt-q2-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/20/abbott-laboratories-abt-q1-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/26/abbott-laboratories-abt-q4-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/20/abbott-laboratories-abt-q3-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/22/abbott-laboratories-abt-q2-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/20/abbott-laboratories-abt-q1-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/27/abbott-laboratories-abt-q4-2020-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/16/abbott-laboratories-abt-q1-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/22/abbott-laboratories-abt-q4-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/16/abbott-laboratories-abt-q3-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/17/abbott-laboratories-abt-q2-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/23/abbott-laboratories-abt-q4-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/17/abbott-laboratories-abt-q3-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/18/abbott-laboratories-abt-q2-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/18/abbott-laboratories-abt-q1-2018-earnings-conferenc.aspx"
+  }
+ ]
+}

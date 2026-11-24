@@ -1,0 +1,117 @@
+{
+ "ticker": "BKR",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1701605/000170160526000033/earningsreleaseex991093020.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1701605/000170160525000104/earningsreleaseex991063020.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1701605/000170160525000073/earningsreleaseex991033120.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1701605/000170160525000014/earningsreleaseex991123120.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1701605/000170160524000129/earningsreleaseex991093020.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1701605/000170160524000109/earningsreleaseex991063020.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1701605/000170160524000065/earningsreleaseex991033120.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1701605/000170160524000007/earningsreleaseex991123120.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1701605/000170160523000076/earningsreleaseex991093020.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1701605/000170160523000061/earningsreleaseex991063020.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1701605/000170160523000047/earningsreleaseex991033120.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1701605/000170160523000012/earningsreleaseex991123120.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/20/baker-hughes-co-bkr-q3-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/21/baker-hughes-co-bkr-q2-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/21/baker-hughes-co-bkr-q1-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/21/baker-hughes-co-bkr-q4-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/21/baker-hughes-co-bkr-q3-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/22/baker-hughes-co-bkr-q2-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/22/baker-hughes-co-bkr-q1-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/22/baker-hughes-co-bkr-q4-2019-earnings-call-transcri.aspx"
+  }
+ ]
+}

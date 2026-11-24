@@ -1,0 +1,13 @@
+{
+ "ticker": "ECHO",
+ "quarters": [
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-03",
+   "slides": "https://ir.echostar.com/static-files/631cfb0e-5812-442e-8d91-e7f37ec40d11",
+   "slides_kind": "slides",
+   "slides_ok": true
+  }
+ ],
+ "ir": "https://ir.echostar.com"
+}

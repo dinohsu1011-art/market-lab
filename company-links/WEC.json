@@ -1,0 +1,170 @@
+{
+ "ticker": "WEC",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000104/a2026q3wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000080/a2026q2wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000049/a2026q1wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000011/a2025q4wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000078332525000027/a2025q2wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000010781525000175/a2025q1wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000010781525000095/a2024q4wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000010781524000243/a2024q3wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000010781524000198/a2024q2wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000010781524000150/a2024q1wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000010781524000085/a2023q4wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000010781523000221/a2023q3wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000010781523000191/a2023q2wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000010781523000142/a2023q1wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/783325/000010781523000092/a2022q4wecearningsreleasee.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/02/wec-energy-group-wec-q2-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/04/wec-energy-group-wec-q4-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/02/wec-energy-group-inc-wec-q3-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/03/wec-energy-group-inc-wec-q2-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/03/wec-energy-group-inc-wec-q1-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/05/wec-energy-group-inc-wec-q4-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/03/wec-energy-group-inc-wec-q3-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/05/wec-energy-group-inc-wec-q2-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/04/wec-energy-group-inc-wec-q1-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/wec-energy-group-inc-wec-q4-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/06/wec-energy-group-inc-wec-q3-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/05/wec-energy-group-inc-wec-q2-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/25/wec-energy-group-inc-wec-q1-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/12/wec-energy-group-inc-wec-q4-2018-earnings-conferen.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/31/wec-energy-group-inc-wec-q3-2018-earnings-conferen.aspx"
+  }
+ ]
+}

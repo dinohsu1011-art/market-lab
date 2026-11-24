@@ -1,0 +1,35 @@
+{
+ "ticker": "MYRG",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/700923/000070092326000051/myrg-2026930x8kxexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/700923/000070092326000041/myrg-2026630x8kxexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/700923/000070092326000026/myrg-2026331x8kxexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/700923/000070092326000006/myrg-20260225x8kxexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/700923/000070092324000051/myrg-20241030x8kxexx991.htm",
+   "release_ok": true
+  }
+ ]
+}

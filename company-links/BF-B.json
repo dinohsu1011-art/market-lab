@@ -1,0 +1,85 @@
+{
+ "ticker": "BF-B",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-09-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/14693/000001469326000048/fy27_q1xerevergreen.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-03-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/14693/000001469325000015/fy25_q3xerjanuary.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-12-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/14693/000001469324000170/fy25_q2xeroctober.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-08-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/14693/000001469324000152/fy25_q1xerjuly.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-06-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/14693/000001469324000052/fy24_q4xerapril.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-03-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/14693/000001469324000012/fy24_q3xerjanuary.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-12-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/14693/000001469323000162/fy24_q2xeroctober.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-08-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/14693/000001469323000148/fy24_q1xerjuly.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-06-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/14693/000001469323000065/fy23_q4xerapril.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-03-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/14693/000001469323000022/fy23_q3xerjanuary.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-03-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/04/brown-forman-corporation-bf-a-bf-b-q3-2020-earning.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-12-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/12/06/brown-forman-corporation-bf-a-bf-b-q2-2020-earning.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-08-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/28/brown-forman-corporation-bf-a-bf-b-q1-2020-earning.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-06-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/06/06/brown-forman-corporation-bf-a-bf-b-q4-2019-earning.aspx"
+  }
+ ]
+}

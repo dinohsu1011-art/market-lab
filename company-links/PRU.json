@@ -1,0 +1,217 @@
+{
+ "ticker": "PRU",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000219/exhibit991-3q26earningspre.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ebdfbff84db620badd2064a93740da17/prudential/db/3595/34887/presentation/3Q26_Earnings_Call_Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000170/exhibit991-2q26earningspre.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ebdfbff84db620badd2064a93740da17/prudential/db/3595/34770/presentation/508_2Q26+Earnings+Call+Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777426000093/exhibit991-1q26earningspre.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ebdfbff84db620badd2064a93740da17/prudential/db/3595/34506/presentation/508_1Q26-Earnings-Call-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000174/exhibit991-3q25earningspre.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ebdfbff84db620badd2064a93740da17/prudential/db/3595/34504/presentation/508_3Q25-Earnings-Call-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000057/exhibit991-1q25earningspre.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ebdfbff84db620badd2064a93740da17/prudential/db/3595/34502/presentation/508_1Q25-Earnings-Call-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_ebdfbff84db620badd2064a93740da17/prudential/db/3595/34502/webcast_transcript/2025-1Q25-Prudential-Financial-Earnings-Call-Transcript_050125.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/05/prudential-financial-pru-q4-2024-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777425000021/exhibit991-4q24earningspre.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ebdfbff84db620badd2064a93740da17/prudential/db/3595/34501/presentation/508_4Q24-Earnings-Call-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/31/prudential-financial-pru-q3-2024-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777424000243/exhibit991-3q24earningspre.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ebdfbff84db620badd2064a93740da17/prudential/db/3595/34500/presentation/508_3Q24-Earnings-Call-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/02/prudential-financial-pru-q2-2024-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777424000147/exhibit991-2q24earningspre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/01/prudential-financial-pru-q1-2024-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777424000064/exhibit991-1q24earningspre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/07/prudential-financial-pru-q4-2023-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777424000007/exhibit991-4q23earningspre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/02/prudential-financial-pru-q3-2023-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777423000114/exhibit991-3q23earningspre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/02/prudential-financial-pru-q2-2023-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777423000088/exhibit991-2q23earningspre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/03/prudential-financial-pru-q1-2023-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777423000062/exhibit991-1q23earningspre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/08/prudential-financial-pru-q4-2022-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1137774/000113777423000011/exhibit991-4q22earningspre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/02/prudential-financial-pru-q3-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/03/prudential-financial-pru-q2-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/04/prudential-financial-pru-q1-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/04/prudential-financial-pru-q4-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/prudential-financial-pru-q3-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/prudential-financial-pru-q2-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/prudential-financial-pru-q1-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/05/prudential-financial-pru-q4-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/04/prudential-financial-pru-q3-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/05/prudential-financial-pru-q2-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/prudential-financial-inc-pru-q1-2020-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/05/prudential-financial-inc-pru-q4-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/05/prudential-financial-inc-pru-q3-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/01/prudential-financial-inc-pru-q2-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/prudential-financial-inc-pru-q1-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/07/prudential-financial-inc-pru-q4-2018-earnings-conf.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/08/prudential-financial-inc-pru-q3-2018-earnings-conf.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/02/prudential-financial-inc-pru-q2-2018-earnings-conf.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/08/prudential-financial-inc-pru-q4-2017-earnings-conf.aspx"
+  }
+ ],
+ "ir": "https://investor.prudential.com",
+ "results": "https://investor.prudential.com/financials/quarterly-results"
+}

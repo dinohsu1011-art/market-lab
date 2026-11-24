@@ -1,0 +1,153 @@
+{
+ "ticker": "TFC",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-16",
+   "slides": "https://ir.truist.com/download/TFC_3Q26_Earnings_Deck.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-17",
+   "slides": "https://ir.truist.com/download/TFC_1Q26_Earnings_Deck.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000039/ex991-pr1q26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-21",
+   "slides": "https://ir.truist.com/download/TFC_4Q25_Earnings_Deck.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000023/ex991-pr4q25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-18",
+   "slides": "https://ir.truist.com/download/TFC_2Q25_Earnings_Deck.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223025000118/ex991-pr2q25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-17",
+   "slides": "https://ir.truist.com/download/TFC+1Q25+Earnings+Deck.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223025000031/ex991-pr1q25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-17",
+   "slides": "https://ir.truist.com/download/TFC+4Q24+Earnings+Deck.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223025000005/ex991-pr4q24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-17",
+   "slides": "https://ir.truist.com/download/Earnings+Deck+3Q24.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223024000071/ex991-pr3q24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223024000041/ex991-pr2q24.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/92230/000009223024000041/ex993-earningsdeck2q24.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223024000016/ex991-pr1q24.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/92230/000009223024000016/ex993-earningsdeck1q24.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223024000003/ex991-pr4q23.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/92230/000009223024000003/ex993-earningsdeck4q23.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223023000077/ex991-pr3q23.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/92230/000009223023000077/ex993-earningsdeck3q23.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223023000064/ex991-pr2q23.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/92230/000009223023000064/ex993-earningsdeck2q23.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223023000042/ex991-pr1q23.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/92230/000009223023000042/ex993-earningsdeck1q23.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/92230/000009223023000002/ex991-pr4q22.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/92230/000009223023000002/ex993-earningsdeck4q22.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/15/truist-financial-corporation-tfc-q3-2021-earnings/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/15/truist-financial-corp-tfc-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/15/truist-financial-corp-tfc-q1-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/20/truist-financial-corp-tfc-q1-2020-earnings-call-tr.aspx"
+  }
+ ],
+ "ir": "https://ir.truist.com/",
+ "results": "https://ir.truist.com/earnings"
+}

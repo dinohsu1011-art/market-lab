@@ -1,0 +1,276 @@
+{
+ "ticker": "LLY",
+ "ir": "https://investor.lilly.com/",
+ "results": "https://investor.lilly.com/financial-information/quarterly-results",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "slides": "https://investor.lilly.com/static-files/4580c401-611c-406b-8964-88cb8d887bd4",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.lilly.com/static-files/ef6bbff3-8d3c-4ca0-a5e9-1e49403f031e",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/29/eli-lilly-lly-q3-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "slides": "https://investor.lilly.com/static-files/ab69001c-650b-44f6-b629-309ee33f2335",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.lilly.com/static-files/1ce8d384-21b5-45a4-bafb-b981dc2d5e04",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/08/12/eli-lilly-lly-q2-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "slides": "https://investor.lilly.com/static-files/587c9bd3-6551-45c3-989d-ab60c49036bb",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.lilly.com/static-files/15d97e22-2e3e-425d-9acb-4c53aabc7807",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/04/30/eli-lilly-lly-q1-2026-earnings-transcript/"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-04",
+   "slides": "https://investor.lilly.com/static-files/45a92498-43d0-4e2d-a4e6-a9131841cfd6",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.lilly.com/static-files/f087574c-4046-4711-8a56-402266f2d424",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-30",
+   "slides": "https://investor.lilly.com/static-files/81645112-510f-4ce8-a860-c74596c1caa2",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.lilly.com/static-files/c6ec9757-0d64-483b-83d0-656c6fb8f3b4",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/10/30/eli-lilly-lly-q3-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-07",
+   "slides": "https://investor.lilly.com/static-files/b7c7e82b-e667-42ba-827c-1faecba3e4c8",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.lilly.com/static-files/afdc26aa-05ac-477a-ac41-9c414da09e2f",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "slides": "https://investor.lilly.com/static-files/761fadb8-b911-46d5-85b3-8bac4e054d73",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.lilly.com/static-files/939286fe-0214-4f10-8f41-424ca3d54840",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-06",
+   "slides": "https://investor.lilly.com/static-files/09d156c0-f88d-420b-b5f1-1ed2b417461b",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://investor.lilly.com/static-files/81709a7c-d0d4-4cd7-ad50-37aa3487899d",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/06/eli-lilly-lly-q4-2024-earnings-call-transcript/"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/30/eli-lilly-lly-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/59478/000005947824000242/q324lillysalesandearningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/08/eli-lilly-lly-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/59478/000005947824000185/q224lillysalesandearningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/30/eli-lilly-lly-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/59478/000005947824000116/q124lillysalesandearningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/06/eli-lilly-lly-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/59478/000005947824000032/q423lillysalesandearningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/02/eli-lilly-lly-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/59478/000005947823000282/q323lillysalesandearningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/08/eli-lilly-lly-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/59478/000005947823000219/q223lillysalesandearningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/04/28/eli-lilly-lly-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/59478/000005947823000160/q123lillysalesandearningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/02/eli-lilly-lly-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/59478/000005947823000025/q422lillysalesandearningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/01/eli-lilly-and-company-lly-q3-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/04/eli-lilly-and-company-lly-q2-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/28/eli-lilly-and-company-lly-q1-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/03/eli-lilly-and-company-lly-q4-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/26/eli-lilly-and-company-lly-q3-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/03/eli-lilly-and-company-lly-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/eli-lilly-and-company-lly-q1-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/29/eli-lilly-co-lly-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/27/eli-lilly-and-company-lly-q3-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/30/eli-lilly-co-lly-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/23/eli-lilly-co-lly-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/eli-lilly-co-lly-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/24/eli-lilly-and-company-lly-q3-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/30/eli-lilly-and-company-lly-q2-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/30/eli-lilly-and-company-lly-q1-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/06/eli-lilly-co-lly-q3-2018-earnings-conference-call.aspx"
+  }
+ ],
+ "events": [
+  {
+   "title": "Lilly Innovation Day 2026 (upcoming, event page)",
+   "date": "2026-12-07",
+   "url": "https://investor.lilly.com/events/event-details/lilly-innovation-day-2026",
+   "kind": "page",
+   "ok": true
+  },
+  {
+   "title": "EASD 2026 Analyst Call",
+   "date": "2026-09-30",
+   "url": "https://investor.lilly.com/static-files/aab1b091-48b3-430d-8ef5-1c69aae55318",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "Lilly Investor Event at ADA 86th Scientific Sessions",
+   "date": "2026-06-06",
+   "url": "https://investor.lilly.com/static-files/a2b20b4f-7944-4de2-9d10-00f384bbede2",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "44th Annual J.P. Morgan Healthcare Conference (David Ricks)",
+   "date": "2026-01-13",
+   "url": "https://investor.lilly.com/static-files/b65fdbe4-9e04-44a0-bb60-18206847ec26",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "Lilly Investor Event at ADA 85th Scientific Sessions",
+   "date": "2025-06-22",
+   "url": "https://investor.lilly.com/static-files/36604492-7d65-4649-bc20-f7b4372c2b2b",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "Lilly Oncology ASCO Investor Event",
+   "date": "2024-06-02",
+   "url": "https://investor.lilly.com/static-files/2776c51c-f2ba-4193-b2e8-a496caafb5b3",
+   "kind": "slides",
+   "ok": true,
+   "date_approx": true
+  },
+  {
+   "title": "J.P. Morgan Healthcare Conference 2024 (David Ricks)",
+   "date": "2024-01-09",
+   "url": "https://investor.lilly.com/static-files/c700e00d-2474-42b0-9a92-6a539961e312",
+   "kind": "slides",
+   "ok": true,
+   "date_approx": true
+  }
+ ]
+}

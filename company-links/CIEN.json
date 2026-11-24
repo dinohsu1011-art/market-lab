@@ -1,0 +1,50 @@
+{
+ "ticker": "CIEN",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-09-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245/ex9912026q3earningspressre.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060245/ex9922026q3earningsprese.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-06-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/936395/000162828026040614/ex9912026q2earningspressre.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936395/000162828026040614/ex9922026q2earningsprese.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-03-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/936395/000162828026015006/ex9912026q1earningspressre.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936395/000162828026015006/ex9922026q1earningsprese.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-12-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/936395/000162828025056425/ex9912025q4earningspressre.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936395/000162828025056425/ex9922025q4earningsprese.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-06-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/936395/000093639525000023/ex9912025q2earningspressre.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/936395/000093639525000023/ex9922025q2earningsprese.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  }
+ ]
+}

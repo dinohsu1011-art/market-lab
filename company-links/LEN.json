@@ -1,0 +1,176 @@
+{
+ "ticker": "LEN",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-09-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/920760/000162828026062287/ex991-2026831x8kq3.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-06-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/920760/000162828026042551/ex991-2026531x8kq1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-03-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/920760/000162828026017308/ex991-2026228x8kq1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-03-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/03/21/lennar-len-q1-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/920760/000162828025014148/ex991-2025228x8kq1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-12-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/12/19/lennar-len-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/920760/000162828024051885/ex991-20241130x8kq4.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-09-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/920760/000162828024040938/ex991-2024831x8kq3.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-06-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/06/18/lennar-len-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/920760/000162828024028512/ex991-2024531x8kq2.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-03-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/03/14/lennar-len-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/920760/000162828024010922/ex991-2024229x8kq1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-12-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/12/15/lennar-len-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/920760/000162828023041612/ex991-20231130x8kq4.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-09-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/09/15/lennar-len-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/920760/000162828023032289/ex991-2023831x8kq3.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-06-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/06/15/lennar-len-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/920760/000162828023022077/ex991-2023531x8kq2.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-03-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/03/15/lennar-len-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/920760/000162828023007870/ex991-2023228x8kq1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-12-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/12/15/lennar-len-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-09-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/09/23/lennar-len-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-06-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/06/21/lennar-len-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-03-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/03/17/lennar-len-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-12-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/16/lennar-len-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-09-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/09/22/lennar-len-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-06-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/06/17/lennar-len-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-03-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/03/17/lennar-len-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-12-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/12/17/lennar-len-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-09-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/09/16/lennar-len-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-06-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/06/16/lennar-corp-len-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-03-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/19/lennar-corp-len-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/08/lennar-corp-len-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/02/lennar-corp-len-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-06-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/06/25/lennar-corp-len-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/03/lennar-corporation-len-q3-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-06-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/06/27/lennar-len-q2-2018-earnings-conference-call-transc.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/05/lennar-corporation-len-q1-2018-earnings-conference.aspx"
+  }
+ ],
+ "ir": "https://investors.lennar.com"
+}

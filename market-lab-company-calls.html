@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" data-eq>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Earnings calls · Equinox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="market-lab-bar.css?v=20261123-1110b792">
+<link rel="stylesheet" href="market-lab-eq.css?v=20261123-1110b792">
+<script src="market-lab-shell.js?v=20261123-1110b792"></script>
+</head>
+<body>
+<div class="page">
+  <main>
+    <div class="listhead">
+      <div><h1 id="name">Earnings calls</h1><div class="sub" id="sub">&nbsp;</div></div>
+      <form class="find" id="find" role="search"><input type="search" placeholder="Search any company" aria-label="Search any company" autocomplete="off" spellcheck="false"><ul hidden></ul></form>
+    </div>
+    <p class="linkrow" id="irRow" hidden></p>
+    <section id="react" hidden><h2>After each call</h2><div class="dots" id="dots"></div></section>
+    <section id="calls"><h2>Every call <small id="callStamp"></small></h2><table id="callTable" class="sticky"></table></section>
+    <section id="events" hidden><h2>Investor days and events</h2><table id="eventTable"></table></section>
+  </main>
+</div>
+<script src="market-lab-eq.js?v=20261123-1110b792"></script>
+<script src="market-lab-eq-calls.js?v=20261123-1110b792"></script>
+</body>
+</html>

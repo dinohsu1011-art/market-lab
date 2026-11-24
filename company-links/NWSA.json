@@ -1,0 +1,107 @@
+{
+ "ticker": "NWSA",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000248/release-q1fy2027.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000101/release-q3fy2026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1564708/000156470826000027/release-q2fy2026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000571/release-q1fy2026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000416/release-q4fy2025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000251/release-q3fy2025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1564708/000156470825000069/release-q2fy2025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-11-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1564708/000156470824000595/release-cfochange11x7x24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-08-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1564708/000156470824000390/release-q4fy2024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1564708/000156470824000246/release-q3fy2024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-02-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1564708/000156470824000067/release-q2fy2024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/05/news-corp-nwsa-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/news-corp-nwsa-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/05/news-corp-nwsa-q2-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/07/news-corporation-a-shares-nwsa-q2-2020-earnings-ca.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/07/news-corporation-a-shares-nwsa-q1-2020-earnings-ca.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-08-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/08/news-corporation-a-shares-nwsa-q4-2019-earnings-ca.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-05-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/09/news-corp-nws-nwsa-q3-2019-earnings-call-transcrip.aspx"
+  }
+ ],
+ "ir": "https://newscorp.gcs-web.com/"
+}

@@ -1,0 +1,170 @@
+{
+ "ticker": "UBER",
+ "ir": "https://investor.uber.com/",
+ "results": "https://investor.uber.com/financials/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-04",
+   "slides": "https://s23.q4cdn.com/407969754/files/doc_earnings/2026/q3/supplemental-info/Uber-Q3-26-Earnings-Supplemental-Data.pdf",
+   "slides_kind": "slides",
+   "release": "https://s23.q4cdn.com/407969754/files/doc_earnings/2026/q3/earnings-result/Uber-Q3-26-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "slides": "https://s23.q4cdn.com/407969754/files/doc_earnings/2026/q2/supplemental-info/Uber-Q2-26-Earnings-Supplemental-Data.pdf",
+   "slides_kind": "slides",
+   "release": "https://s23.q4cdn.com/407969754/files/doc_earnings/2026/q2/earnings-result/Uber-Q2-26-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "slides": "https://s23.q4cdn.com/407969754/files/doc_earnings/2026/q1/supplemental-info/Uber-Q1-26-Earnings-Supplemental-Data.pdf",
+   "slides_kind": "slides",
+   "release": "https://s23.q4cdn.com/407969754/files/doc_earnings/2026/q1/earnings-result/Uber-Q1-26-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-04",
+   "slides": "https://s23.q4cdn.com/407969754/files/doc_earnings/2025/q4/supplemental-info/Uber-Q4-25-Earnings-Supplemental-Data.pdf",
+   "slides_kind": "slides",
+   "release": "https://s23.q4cdn.com/407969754/files/doc_earnings/2025/q4/earnings-result/Uber-Q4-25-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-04",
+   "slides": "https://s23.q4cdn.com/407969754/files/doc_earnings/2025/q3/Uber-Q3-25-Earnings-Supplemental-Data.pdf",
+   "slides_kind": "slides",
+   "release": "https://s23.q4cdn.com/407969754/files/doc_earnings/2025/q3/earnings-result/Uber-Q3-25-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-07",
+   "slides": "https://s23.q4cdn.com/407969754/files/doc_events/2025/May/07/Uber-Q1-25-Earnings-Supplemental-Data.pdf",
+   "slides_kind": "slides",
+   "release": "https://s23.q4cdn.com/407969754/files/doc_earnings/2025/q1/earnings-result/Uber-Q1-25-Earnings-Press-Release.pdf",
+   "transcript": "https://s23.q4cdn.com/407969754/files/doc_financials/2025/q1/uber-q1-25-earnings-call-transcript.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/05/uber-technologies-uber-q4-2024-earnings-call-trans/",
+   "slides": "https://s23.q4cdn.com/407969754/files/doc_earnings/2024/q4/supplemental-info/Uber-Q4-24-Earnings-Supplemental-Data.pdf",
+   "slides_kind": "slides",
+   "release": "https://s23.q4cdn.com/407969754/files/doc_earnings/2024/q4/earnings-result/Uber-Q4-24-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/31/uber-technologies-uber-q3-2024-earnings-call-trans/",
+   "slides": "https://s23.q4cdn.com/407969754/files/doc_earnings/2024/q3/supplemental-info/Uber-Q3-24-Earnings-Supplemental-Data.pdf",
+   "slides_kind": "slides",
+   "release": "https://s23.q4cdn.com/407969754/files/doc_earnings/2024/q3/earnings-result/Uber-Q3-24-Earnings-Press-Release.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/06/uber-technologies-uber-q2-2024-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1543151/000154315124000024/uberq224earningspressrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/08/uber-technologies-uber-q1-2024-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1543151/000154315124000017/uberq124earningspressrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/07/uber-technologies-uber-q4-2023-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1543151/000154315124000008/uberq423earningspressrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/07/uber-technologies-uber-q3-2023-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1543151/000154315123000036/uberq323earningspressrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/01/uber-technologies-uber-q2-2023-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1543151/000154315123000021/uberq223earningspressrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/02/uber-technologies-uber-q1-2023-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1543151/000154315123000013/uberq123earningspressrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/08/uber-technologies-uber-q4-2022-earnings-call-trans/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1543151/000154315123000004/uberq422earningspressrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/01/uber-technologies-uber-q3-2022-earnings-call-trans/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/02/uber-technologies-uber-q2-2022-earnings-call-trans/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/05/uber-technologies-uber-q1-2022-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/10/uber-technologies-uber-q4-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/05/uber-technologies-uber-q3-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/uber-technologies-uber-q2-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/06/uber-technologies-uber-q1-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/11/uber-technologies-uber-q4-2020-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/06/uber-technologies-uber-q3-2020-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/07/uber-technologies-uber-q2-2020-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/07/uber-technologies-inc-uber-q1-2020-earnings-call-t.aspx"
+  }
+ ]
+}

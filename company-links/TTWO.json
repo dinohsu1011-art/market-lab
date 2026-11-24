@@ -1,0 +1,202 @@
+{
+ "ticker": "TTWO",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-11-09",
+   "slides": "https://ir.take2games.com/static-files/01437b0a-6d3d-4f80-a2ac-5cecdb0c573f",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828026072175/ttwo2q27earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828026054580/ttwo1q27earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-05-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037260/ttwo4q26earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-02-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828026005010/ttwo3q26earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828025050182/ttwo2q26earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828025038919/ttwo1q26earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-05-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828025025900/ttwo4q25earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/07/take-two-interactive-software-ttwo-q3-2025-earning/",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828025004262/ttwo3q25earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/06/take-two-interactive-software-ttwo-q2-2025-earning/",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828024045720/ttwo2q25earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/08/take-two-interactive-software-ttwo-q1-2025-earning/",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828024036152/ttwo1q25earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-05-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/16/take-two-interactive-software-ttwo-q4-2024-earning/",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828024023782/ttwo4q24earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-02-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/08/take-two-interactive-software-ttwo-q3-2024-earning/",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828024003879/ttwo3q24earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/08/take-two-interactive-software-ttwo-q2-2024-earning/",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828023037860/ttwo2q24earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/08/take-two-interactive-software-ttwo-q1-2024-earning/",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828023028199/ttwo1q24earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-05-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/17/take-two-interactive-software-ttwo-q4-2023-earning/",
+   "release": "https://www.sec.gov/Archives/edgar/data/946581/000162828023018699/ttwo4q23earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/07/take-two-interactive-software-ttwo-q3-2023-earning/"
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2022-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/08/take-two-interactive-ttwo-q2-2023-earnings-call-tr/"
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/08/take-two-interactive-ttwo-q1-2023-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-05-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/17/take-two-interactive-ttwo-q4-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/08/take-two-interactive-ttwo-q3-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/take-two-interactive-ttwo-q2-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/02/take-two-interactive-ttwo-q1-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-05-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/19/take-two-interactive-ttwo-q4-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-02-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/09/take-two-interactive-ttwo-q3-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/06/take-two-interactive-ttwo-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/04/take-two-interactive-ttwo-q1-2021-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-05-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/21/take-two-interactive-software-inc-ttwo-q4-2020-ear.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/07/take-two-interactive-software-inc-ttwo-q3-2020-ear.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/05/take-two-interactive-software-inc-ttwo-q1-2020-ear.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-05-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/13/take-two-interactive-software-inc-ttwo-q4-2019-ear.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/06/take-two-interactive-ttwo-q3-2019-earnings-confere.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2018-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/07/take-two-interactive-software-inc-ttwo-q2-2019-ear.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/06/take-two-interactive-ttwo-q1-2019-earnings-confere.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-05-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/16/take-two-interactive-software-inc-ttwo-q4-2018-ear.aspx"
+  }
+ ],
+ "ir": "https://www.take2games.com/ir"
+}

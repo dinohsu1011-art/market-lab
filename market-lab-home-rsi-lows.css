@@ -1,0 +1,18 @@
+#home-rsi-lows{margin-top:32px;margin-bottom:32px;min-width:0}
+#home-rsi-lows[hidden]{display:none}
+#home-rsi-lows>header{flex-wrap:wrap}
+#home-rsi-lows>header .records-caption{margin:0}
+#home-rsi-lows .home-momentum-controls .records-caption{margin:0}
+#home-rsi-lows th[title]{cursor:help}
+#home-rsi-lows td.rsi-group{text-align:left;white-space:normal;min-width:120px}
+#home-rsi-lows td.rsi-group small{display:block;color:var(--steel);font-size:12px;margin-top:3px}
+#home-rsi-lows .rsi-cell-in{display:inline-flex;align-items:center;gap:10px}
+#home-rsi-lows .rsi-cell-in b{font-weight:600;min-width:20px}
+#home-rsi-lows td{font-variant-numeric:tabular-nums}
+.rsi-range{position:relative;display:inline-block;width:110px;height:14px;cursor:help}
+.rsi-range .rsi-track{position:absolute;top:5px;height:4px;border-radius:2px;background:var(--stone)}
+.rsi-range .rsi-thirty{position:absolute;top:2px;width:1px;height:10px;background:var(--steel);opacity:.55}
+.rsi-range .rsi-now{position:absolute;top:2px;width:10px;height:10px;margin-left:-5px;border-radius:50%;background:var(--ml-down)}
+#home-rsi-lows .rsi-lows-more{font:inherit;color:var(--ink);background:var(--fog);border:1px solid var(--stone);border-radius:4px;padding:6px 12px;margin-top:14px;cursor:pointer}
+@media(max-width:650px){#home-rsi-lows .home-momentum-controls label{width:100%}#home-rsi-lows .home-momentum-controls select{flex:1;min-width:0}.rsi-range{width:70px}}
+#home-rsi-lows th:nth-child(2){text-align:left}

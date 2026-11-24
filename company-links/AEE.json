@@ -1,0 +1,137 @@
+{
+ "ticker": "AEE",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002910/000100291026000030/q32026ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002910/000100291026000013/q12026ex991earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://s21.q4cdn.com/448935352/files/doc_financials/2026/q1/Q1-2026-Call-Slides-v-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002910/000100291026000005/q42025ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002910/000100291025000095/q12025ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002910/000100291025000052/q42024ex991earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://s21.q4cdn.com/448935352/files/doc_financials/2024/q4/Q4-2024-Call-Slides-vFINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://s21.q4cdn.com/448935352/files/doc_financials/2024/q4/Ameren-Corporation-Q4-2024-Earnings-Call-Feb-14-2025.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002910/000100291024000109/q32024ex991earningsrelease.htm",
+   "release_ok": true,
+   "transcript": "https://s21.q4cdn.com/448935352/files/doc_financials/2024/q3/Ameren-Corporation-Q3-2024-Earnings-Call-Nov-07-2024-FINAL.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002910/000100291024000098/q22024ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002910/000100291024000087/q12024ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002910/000100291024000053/q42023ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002910/000100291023000111/q32023ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002910/000100291023000101/q22023ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002910/000100291023000089/q12023ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002910/000100291023000051/q42022ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/ameren-corp-aee-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/06/ameren-corp-aee-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/12/ameren-corp-aee-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/06/ameren-corp-aee-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/08/ameren-corp-aee-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/12/ameren-corp-aee-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/15/ameren-aee-q4-2018-earnings-conference-call-transc.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/31/ameren-corp-aee-q3-2018-earnings-conference-call-t.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/20/ameren-aee-q4-2017-earnings-conference-call-transc.aspx"
+  }
+ ],
+ "ir": "https://www.amereninvestors.com"
+}

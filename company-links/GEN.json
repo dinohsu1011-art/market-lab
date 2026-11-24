@@ -1,0 +1,77 @@
+{
+ "ticker": "GEN",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/849399/000084939926000081/ex9901q2fy27.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/849399/000084939926000014/ex9901q4fy26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/849399/000084939926000002/ex9901q3fy26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/849399/000084939925000025/ex9901q4fy25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/849399/000084939925000003/ex9901q3fy25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/849399/000084939924000079/ex9901q2fy25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/849399/000084939924000040/ex9901q1fy25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/849399/000084939924000022/ex9901q4fy24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/849399/000084939924000006/ex9901q3fy24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/849399/000084939923000016/ex9901q1fy24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-05-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/849399/000084939923000011/ex9901q4fy23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/849399/000084939923000005/ex9901q3fy23.htm",
+   "release_ok": true
+  }
+ ]
+}

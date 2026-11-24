@@ -1,0 +1,123 @@
+{
+ "ticker": "DE",
+ "ir": "https://investor.deere.com/",
+ "results": "https://investor.deere.com/home/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-08-20",
+   "slides": "https://s22.q4cdn.com/253594569/files/doc_financials/2026/q3/DE-3Q26-Earnings-Call-Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://s22.q4cdn.com/253594569/files/doc_financials/2026/q3/DE-3Q26-News-Release.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-05-21",
+   "slides": "https://s22.q4cdn.com/253594569/files/doc_financials/2026/q2/DE-2Q26-Earnings-Call-Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://s22.q4cdn.com/253594569/files/doc_financials/2026/q2/DE-2Q26-News-Release.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-02-19",
+   "slides": "https://s22.q4cdn.com/253594569/files/doc_financials/2026/q1/DE-1Q26-Earnings-Call-Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://s22.q4cdn.com/253594569/files/doc_financials/2026/q1/DE-1Q26-News-Release.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-05-15",
+   "slides": "https://s22.q4cdn.com/253594569/files/doc_financials/2025/q2/DE-2Q25-Earnings-Call-Slides_Final.pdf",
+   "slides_kind": "slides",
+   "release": "https://s22.q4cdn.com/253594569/files/doc_financials/2025/q2/DE-2Q25-News-Release.pdf",
+   "transcript": "https://s22.q4cdn.com/253594569/files/doc_financials/2025/q2/CORRECTED-TRANSCRIPT_-Deere-Co-DE-US-Q2-2025-Earnings-Call-15-May-2025-10_00-AM-ET-1.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/13/deere-de-q1-2025-earnings-call-transcript/",
+   "slides": "https://s22.q4cdn.com/253594569/files/doc_presentations/fixed/2025/DE-1Q25-Earnings-Call-Presentation_Final.pdf",
+   "slides_kind": "slides",
+   "release": "https://s22.q4cdn.com/253594569/files/doc_financials/2025/q1/DE-1Q25-News-Release.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-11-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/21/deere-de-q4-2024-earnings-call-transcript/",
+   "slides": "https://s22.q4cdn.com/253594569/files/doc_financials/2024/q4/DE-4Q24-Earnings-Call-Presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://s22.q4cdn.com/253594569/files/doc_financials/2024/q4/DE-4Q24-News-Release.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-08-15",
+   "slides": "https://s22.q4cdn.com/253594569/files/doc_presentations/fixed/2025/DE-3Q24-Earnings-Call-Presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://s22.q4cdn.com/253594569/files/doc_financials/2024/q3/DE-3Q24-News-Release.pdf",
+   "transcript": "https://s22.q4cdn.com/253594569/files/doc_financials/2024/q3/de-corrected-transcript.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-05-16",
+   "slides": "https://s22.q4cdn.com/253594569/files/doc_presentations/fixed/2025/DE-2Q24-Earnings-Call-Presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://s22.q4cdn.com/253594569/files/doc_financials/2024/q2/DE-2Q24-News-Release.pdf",
+   "transcript": "https://s22.q4cdn.com/253594569/files/doc_downloads/2024/05/corrected-transcript_-deere-co-de-us-q2-2024-earnings-call-16-may-2024-10_00-am-et.pdf"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-02-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/315189/000155837024001189/de-20240215xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-11-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/315189/000155837023019292/de-20231122xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-08-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/315189/000155837023015085/de-20230818xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-05-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/315189/000155837023010220/de-20230519xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-02-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/315189/000155837023001480/de-20230217xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-11-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/24/deere-co-de-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-02-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/15/deere-co-de-q1-2019-earnings-conference-call-trans.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-11-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/21/deere-co-de-q4-2018-earnings-conference-call-trans.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-08-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/20/deere-company-de-q3-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-05-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/18/deere-company-de-q2-2018-earnings-conference-call.aspx"
+  }
+ ]
+}

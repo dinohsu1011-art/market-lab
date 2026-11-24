@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en" data-eq>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ideas · Equinox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="market-lab-bar.css?v=20261123-1110b792">
+<link rel="stylesheet" href="market-lab-eq.css?v=20261123-1110b792">
+<link rel="stylesheet" href="market-lab-ideas.css?v=20261123-1110b792">
+<script src="market-lab-shell.js?v=20261123-1110b792"></script>
+</head>
+<body>
+<div class="page">
+  <nav class="side" aria-label="On this page" hidden>
+    <a href="#thesis" class="on">The idea</a><a href="#business">The business</a><a href="#growth">Segments</a><a href="#results">Results</a><a href="#kpis">Operating numbers</a><a href="#guidance">Guidance</a><a href="#commentary">Management</a><a href="#technicals">Technicals</a><a href="#valuation">Valuation</a><a href="#risks">Risks</a>
+  </nav>
+  <main>
+    <div id="list" hidden>
+      <h1>Ideas</h1>
+      <section id="score">
+        <h2>Returns <small id="scoreStamp"></small></h2>
+        <p class="ix-sum" id="retSum"></p>
+        <div class="ix-readout" id="retRead">&nbsp;</div>
+        <div class="ix-ret" id="retChart"></div>
+        <div class="ix-sides" id="cards"></div>
+      </section>
+    </div>
+
+    <article id="detail" hidden>
+      <a class="link ix-back" href="#">All ideas</a>
+      <p class="kicker" id="dKicker"></p>
+      <h1 id="dName"></h1>
+      <p class="lede" id="dHead"></p>
+
+      <section id="thesis">
+        <div class="ix-call">
+          <div>
+            <h2>The idea</h2>
+            <p class="ix-body" id="dThesis"></p>
+            <h3 class="ix-h3">What would prove it wrong</h3>
+            <p class="ix-body" id="dWrong"></p>
+          </div>
+          <div class="panel ix-levels">
+            <div class="ix-side" id="dSide"></div>
+            <dl class="rows ix-one" id="dLevels"></dl>
+            <p class="ix-small" id="dLevelNote"></p>
+          </div>
+        </div>
+        <div class="ix-readout" id="lvRead">&nbsp;</div>
+        <div class="chart ix-lv" id="lvChart"></div>
+        <div class="keyline" id="lvKey"></div>
+        <p class="ix-small" id="dPerf"></p>
+      </section>
+
+      <section id="business">
+        <h2>The business</h2>
+        <p class="ix-body" id="dBiz"></p>
+      </section>
+
+      <section id="growth">
+        <h2>Segments <small id="segStamp"></small></h2>
+        <p class="ix-body" id="dSeg"></p>
+        <div class="split">
+          <div><div class="ix-readout" id="segRead">&nbsp;</div><div class="ix-bars" id="segChart"></div><div class="keyline wrapkeys" id="segKey"></div></div>
+          <table id="segTable" class="ix-tight"></table>
+        </div>
+      </section>
+
+      <section id="results">
+        <h2>Results <small id="finStamp"></small></h2>
+        <p class="ix-body" id="dGrowth"></p>
+        <div class="ix-trio">
+          <div><h3 class="ix-h3">Revenue</h3><div class="ix-readout" id="revRead">&nbsp;</div><div class="ix-bars" id="revChart"></div></div>
+          <div><h3 class="ix-h3">Margins</h3><div class="ix-readout" id="mgnRead">&nbsp;</div><div class="chart ix-sm" id="mgnChart"></div><div class="keyline wrapkeys" id="mgnKey"></div></div>
+          <div><h3 class="ix-h3">Earnings per share</h3><div class="ix-readout" id="epsRead">&nbsp;</div><div class="ix-bars" id="epsChart"></div><div class="keyline wrapkeys" id="epsKey"></div></div>
+        </div>
+      </section>
+
+      <section id="kpis" hidden>
+        <h2>Operating numbers</h2>
+        <div class="ix-kpis" id="kpiGrid"></div>
+      </section>
+
+      <section id="guidance">
+        <h2>Guidance <small id="guideStamp"></small></h2>
+        <p class="ix-body" id="guideSum"></p>
+        <div id="guideCalls"></div>
+      </section>
+
+      <section id="commentary">
+        <h2>What management said</h2>
+        <p class="ix-body" id="dTone" hidden></p>
+        <div id="dSaid"></div>
+        <p class="ix-small">Short paraphrases from the earnings calls, not quotes.</p>
+        <div id="toneWrap" hidden>
+          <h3 class="ix-h3">How the calls sounded</h3>
+          <table id="toneTable" class="ix-tight"></table>
+          <p class="ix-small">Counts of upbeat words (such as strong, record, ahead of plan), cautious words (such as headwinds, softness, pushouts) and hedging words (such as may, too early, limited visibility) for every 10,000 words management spoke. Net is upbeat minus cautious. A word right after “no” or “not” counts the other way, so “no slowdown” is upbeat, and legal boilerplate is left out. Net in answers scores only the replies to analysts, which are less scripted than the opening remarks. Dodges counts times management declined to answer. It is still a rough gauge, so the points above come from reading the calls.</p>
+        </div>
+      </section>
+
+      <section id="technicals">
+        <h2>Technicals <small id="techStamp"></small></h2>
+        <p class="ix-body" id="dTech"></p>
+        <div class="ix-readout" id="pxRead">&nbsp;</div>
+        <div class="chart" id="pxChart"></div>
+        <div class="keyline" id="pxKey"></div>
+        <div class="ix-vol" id="volChart"></div>
+        <div class="split ix-pair">
+          <div><h3 class="ix-h3">Relative strength</h3><div class="ix-readout" id="rsRead">&nbsp;</div><div class="chart ix-sm" id="rsChart"></div><div class="keyline" id="rsKey"></div></div>
+          <div><h3 class="ix-h3">RSI, 14 days</h3><div class="ix-readout" id="rsiRead">&nbsp;</div><div class="chart ix-sm" id="rsiChart"></div></div>
+        </div>
+        <dl class="rows" id="techRows"></dl>
+      </section>
+
+      <section id="valuation">
+        <h2>Valuation <small id="valStamp"></small></h2>
+        <p class="ix-body" id="dVal"></p>
+        <div class="ix-readout" id="peRead">&nbsp;</div>
+        <div class="chart ix-md" id="peChart"></div>
+        <div class="keyline" id="peKey"></div>
+        <dl class="rows" id="peRows"></dl>
+      </section>
+
+      <section id="risks">
+        <div class="split">
+          <div><h2>Risks</h2><ul class="ix-bul" id="dRisks"></ul></div>
+          <div><h2>What could move it</h2><ul class="ix-bul" id="dCats"></ul></div>
+        </div>
+      </section>    </article>
+
+    <p class="gone" id="gone" hidden></p>
+  </main>
+</div>
+<script src="market-lab-eq.js?v=20261123-1110b792"></script>
+<script src="market-lab-ideas.js?v=20261123-1110b792"></script>
+</body>
+</html>

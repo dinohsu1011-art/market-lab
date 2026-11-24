@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold into a mixed tape.",
+    "summary": "SPY finished the week -2.7%; QQQ -5.0%; high beta versus low beta is -20.6% over one month (0th percentile); leader breadth is -10.0 points versus the index; 64% of S&P names are above the 50-day; net 52-week highs are +3; Residential Solar leads themes at +10.1%.",
+    "market": "SPY finished the week -2.7%; QQQ -5.0%.",
+    "winners": "Residential Solar +10.1%, Metals \u2014 Miners +9.7%, Industrial Solar +8.1%.",
+    "laggards": "Memory -27.0%, Connectivity -25.3%, Neocloud -21.8%.",
+    "why": "The pattern points to rotation away from established high-beta leadership, not indiscriminate index selling; high beta/low beta -20.6%, leader breadth spread -10.0pt, 64% above the 50-day.",
+    "comparison": "Since 2026-11-05, the Risk-off call is unchanged; high beta +5.2pt, leader spread +8.0pt, 50-day breadth +1.5pt.",
+    "tally": "0 of 4 risk gauges and 3 of 6 participation gauges are above their five-year medians",
+    "volume": "OKTA printed 10.18\u00d7 relative volume on a +2.6% day, while ECG printed 7.71\u00d7 relative volume on a -29.3% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

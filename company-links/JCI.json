@@ -1,0 +1,195 @@
+{
+ "ticker": "JCI",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344426000101/q4exh991xq4fy26earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344426000083/q3ex991xq3fy26earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344426000047/q2ex991xq2fy26earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344426000014/q1ex991xq1fy26earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344425000084/q4exh991xq4fy25earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344425000029/q2ex991xq2fy25earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/05/johnson-controls-international-plc-jci-q1-2025-ear/",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344425000009/q1ex991xq1fy25earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/06/johnson-controls-international-plc-jci-q4-2024-ear/",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344424000060/q4exh991xq4fy24earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/31/johnson-controls-international-plc-jci-q3-2024-ear/",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344424000049/q3exh991xq3fy24earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/01/johnson-controls-international-plc-jci-q2-2024-ear/",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344424000026/q2exh991xq2fy24earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/30/johnson-controls-international-plc-jci-q1-2024-ear/",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344424000007/exh991-johnsonctrlsq1fy24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-12-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/12/12/johnson-controls-international-plc-jci-q4-2023-ear/",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344423000044/exh991-johnsonctrlsq4fy23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/02/johnson-controls-international-plc-jci-q3-2023-ear/",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344423000028/exh991-johnsonctrlsq3fy23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/05/johnson-controls-international-plc-jci-q2-2023-ear/",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344423000011/exh991-johnsonctrlsq2fy23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/01/johnson-controls-international-plc-jci-q1-2023-ear/",
+   "release": "https://www.sec.gov/Archives/edgar/data/833444/000083344423000003/exh991-johnsonctrlsq1fy23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/03/johnson-controls-international-jci-q4-2022-earning/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/04/johnson-controls-jci-q3-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/04/johnson-controls-jci-q2-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/02/johnson-controls-jci-q1-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/05/johnson-controls-international-plc-jci-q3-2021-ear/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/30/johnson-controls-international-plc-jci-q2-2021-ear/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/30/johnson-controls-inc-jci-q2-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/29/johnson-controls-inc-jci-q1-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/03/johnson-controls-inc-jci-q4-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/johnson-controls-inc-jci-q3-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/01/johnson-controls-inc-jci-q2-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/31/johnson-controls-inc-jci-q1-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/07/johnson-controls-inc-jci-q4-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/31/johnson-controls-inc-jci-q3-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/01/johnson-controls-inc-jci-q2-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/01/johnson-controls-inc-jci-q1-2019-earnings-conferen.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/08/johnson-controls-inc-jci-q4-2018-earnings-conferen.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/31/johnson-controls-international-plc-jci-q3-2018-ear.aspx"
+  }
+ ],
+ "ir": "https://investors.johnsoncontrols.com"
+}

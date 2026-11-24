@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold and participation is narrow.",
+    "summary": "SPY finished the week +1.3%; QQQ +2.4%; high beta versus low beta is -11.7% over one month (5th percentile); leader breadth is +1.6 points versus the index; 60% of S&P names are above the 50-day; net 52-week highs are +4; Connectivity leads themes at +10.6%.",
+    "market": "SPY finished the week +1.3%; QQQ +2.4%.",
+    "winners": "Connectivity +10.6%, Photonics +10.5%, Behind-the-meter power +10.3%.",
+    "laggards": "Residential Solar -3.3%, Comm. Svcs \u00b7 XLC -1.8%, Energy \u00b7 XLE -1.6%.",
+    "why": "Weak high beta and narrow participation point to a broad contraction in risk appetite; high beta/low beta -11.7%, leader breadth spread +1.6pt, 60% above the 50-day.",
+    "comparison": "Since 2026-10-26, the Risk-off call is unchanged; high beta +4.8pt, leader spread +4.8pt, 50-day breadth +1.2pt. Weekly leadership changed from Photonics to Connectivity.",
+    "tally": "0 of 4 risk gauges and 2 of 6 participation gauges are above their five-year medians",
+    "volume": "WBD printed 20.28\u00d7 relative volume on a +0.0% day, while BA printed 7.55\u00d7 relative volume on a -10.7% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

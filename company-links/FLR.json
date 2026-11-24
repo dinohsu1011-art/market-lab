@@ -1,0 +1,29 @@
+{
+ "ticker": "FLR",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000081/ex991q32026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000074/ex991q22026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000063/ex991q12026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000006/ex991q42025.htm",
+   "release_ok": true
+  }
+ ]
+}

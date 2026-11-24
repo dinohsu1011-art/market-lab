@@ -1,0 +1,115 @@
+{
+ "ticker": "TJX",
+ "ir": "https://www.tjx.com/investors",
+ "results": "https://www.tjx.com/investors/financial-information/quarterly-results",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-08-19",
+   "release": "https://www.tjx.com/docs/default-source/investor-docs/quarterly-results/tjx-second-quarter-fiscal-year-2027-earnings-press-release.pdf?sfvrsn=76c709ce_1"
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-05-20",
+   "release": "https://www.tjx.com/docs/default-source/investor-docs/quarterly-results/tjx-first-quarter-fiscal-year-2027-earnings-press-release.pdf?sfvrsn=8b3a4acc_1"
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-02-25",
+   "release": "https://www.tjx.com/docs/default-source/investor-docs/quarterly-results/tjx-fourth-quarter-fiscal-year-2026-earnings-press-release.pdf?sfvrsn=47359cb1_1"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-08-20",
+   "release": "https://www.tjx.com/docs/default-source/investor-docs/quarterly-results/tjx-second-quarter-fiscal-year-2026-earnings-press-release.pdf?sfvrsn=fa589a86_1"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-02-26",
+   "release": "https://www.tjx.com/docs/default-source/investor-docs/quarterly-results/tjx-fourth-quarter-fiscal-year-2025-earnings-press-release.pdf?sfvrsn=bf90af37_1",
+   "transcript": "https://www.insidermonkey.com/blog/the-tjx-companies-inc-nysetjx-q4-2025-earnings-call-transcript-1466340/"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2024-11-20",
+   "release": "https://www.tjx.com/docs/default-source/investor-docs/quarterly-results/tjx-third-quarter-fiscal-year-2025-earnings-press-release.pdf?sfvrsn=31e21f18_1",
+   "transcript": "https://www.insidermonkey.com/blog/the-tjx-companies-inc-nysetjx-q3-2025-earnings-call-transcript-1395033/"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-08-21",
+   "release": "https://www.tjx.com/docs/default-source/investor-docs/quarterly-results/tjx-second-quarter-fiscal-year-2025-earnings-press-release.pdf?sfvrsn=54c487c5_1"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-05-22",
+   "release": "https://www.tjx.com/docs/default-source/investor-docs/quarterly-results/tjx-first-quarter-fiscal-year-2025-earnings-press-release.pdf?sfvrsn=f6c4ded1_1",
+   "transcript": "https://www.insidermonkey.com/blog/the-tjx-companies-inc-nysetjx-q1-2025-earnings-call-transcript-1305643/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-02-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/109198/000010919824000010/tjxq4fy24earningspressrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2023-11-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/109198/000115752323001738/a53832739_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-08-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/109198/000115752323001335/a53538436ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-05-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/109198/000115752323000869/a53401711_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-02-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/109198/000115752323000327/a53335348ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-02-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/24/tjx-companies-inc-tjx-q4-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/28/the-tjx-companies-tjx-q4-2019-earnings-conference.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2018-11-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/20/the-tjx-companies-inc-tjx-q3-2019-earnings-confere.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2018-08-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/21/the-tjx-companies-inc-tjx-q2-2019-earnings-confere.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-05-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/22/tjx-companies-inc-tjx-q1-2019-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-02-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/28/tjx-companies-inc-tjx-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2017-11-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/11/15/tjx-companies-inc-tjx-q3-2018-earnings-conference.aspx"
+  }
+ ]
+}

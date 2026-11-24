@@ -1,0 +1,85 @@
+{
+ "ticker": "MRSH",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000256/mmc3q2026ex991newsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000096/mmc1q2026ex991newsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/62709/000006270926000014/mmc4q2025ex991newsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/62709/000006270925000024/mmc1q2025ex991newsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/62709/000006270925000006/mmc4q2024ex991newsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/62709/000006270924000089/mmc3q2024ex991newsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/62709/000006270924000068/mmc2q2024ex991newsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/62709/000006270924000032/mmc1q2024ex991newsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/62709/000006270924000005/mmc4q2023ex991newsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/62709/000006270923000093/mmc3q2023ex991newsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/62709/000006270923000072/mmc2q2023ex991newsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/62709/000006270923000033/mmc1q2023ex991newsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/62709/000006270923000006/mmc4q2022ex991newsrelease.htm",
+   "release_ok": true
+  }
+ ],
+ "ir": "https://www.marsh.com/en/corp/investors/reporting.html",
+ "results": "https://www.marsh.com/en/corp/investors/reporting.html"
+}

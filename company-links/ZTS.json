@@ -1,0 +1,203 @@
+{
+ "ticker": "ZTS",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528026000048/exhibit99q32026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-13",
+   "slides": "https://s203.q4cdn.com/620628704/files/doc_financials/2026/q2/Zoetis_2Q26_Financial_Results.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528026000021/exhibit99q12026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528026000008/exhibit9912-31x25q4.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528025000272/exhibit99q32025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528025000259/exhibit99q22025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528025000201/exhibit99q12025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/13/zoetis-zts-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528025000100/exhibit9912-31x24q4.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/04/zoetis-zts-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528024000330/exhibit99q32024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/06/zoetis-zts-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528024000295/exhibit99q22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/03/zoetis-zts-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528024000247/exhibit99q12024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/13/zoetis-zts-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528024000141/exhibit9912-31x23q4.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/02/zoetis-zts-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528023000245/exhibit99q32023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/08/zoetis-zts-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528023000203/exhibit99q22023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/04/zoetis-zts-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528023000148/exhibit99q12023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/14/zoetis-zts-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1555280/000155528023000072/exhibit9912-31x22q4.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/03/zoetis-zts-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/04/zoetis-zts-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/06/zoetis-zts-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/15/zoetis-zts-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/07/zoetis-inc-zts-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/zoetis-inc-zts-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/06/zoetis-inc-zts-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/16/zoetis-inc-zts-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/06/zoetis-inc-zts-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/06/zoetis-inc-zts-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/zoetis-inc-zts-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/13/zoetis-inc-zts-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/07/zoetis-inc-zts-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/06/zoetis-inc-zts-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/zoetis-inc-zts-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/14/zoetis-inc-zts-q4-2018-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/zoetis-inc-zts-q3-2018-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/15/zoetis-inc-zts-q4-2017-earnings-conference-call-tr.aspx"
+  }
+ ],
+ "ir": "https://investor.zoetis.com",
+ "results": "https://investor.zoetis.com/financials/quarterly-results/default.aspx"
+}

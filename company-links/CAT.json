@@ -1,0 +1,146 @@
+{
+ "ticker": "CAT",
+ "ir": "https://investors.caterpillar.com/",
+ "results": "https://investors.caterpillar.com/financials/quarterly-results/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "slides": "https://s25.q4cdn.com/358376879/files/content_files/3Q-2026-Analyst-Slide-Deck_Final.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.caterpillar.com/en/news/corporate-press-releases/h/3q26-results-caterpillar-inc.html"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "slides": "https://s25.q4cdn.com/358376879/files/doc_financials/2026/q2/2Q-2026-Analyst-Slide-Deck_Final.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.caterpillar.com/en/news/corporate-press-releases/h/2q26-results-caterpillar-inc.html"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "slides": "https://s25.q4cdn.com/358376879/files/doc_financials/2026/q1/1Q-2026-Analyst-Slide-Deck_Final.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.caterpillar.com/en/news/corporate-press-releases/h/1q26-results-caterpillar-inc.html"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-29",
+   "slides": "https://s25.q4cdn.com/358376879/files/doc_financials/2025/q4/4Q-2025-Analyst-Slide-Deck_Final.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.caterpillar.com/en/news/corporate-press-releases/h/4q25-results-caterpillar-inc.html"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "slides": "https://s25.q4cdn.com/358376879/files/doc_financials/2025/q3/3Q-2025-Analyst-Slide-Deck-vFinal.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.caterpillar.com/en/news/corporate-press-releases/h/3q25-results-caterpillar-inc.html",
+   "transcript": "https://s25.q4cdn.com/358376879/files/doc_financials/2025/q3/3Q-2025-Caterpillar-Inc-Earnings-Call-Transcript_-10-29-2025.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-05",
+   "slides": "https://s25.q4cdn.com/358376879/files/doc_financials/2025/q2/2Q-2025-Analyst-Slide-Deck-Final.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.caterpillar.com/en/news/corporate-press-releases/h/2q25-results-caterpillar-inc.html",
+   "transcript": "https://s25.q4cdn.com/358376879/files/doc_financials/2025/q2/2Q-2025-Caterpillar-Inc-Earnings-Call-Transcript_8-5-2025.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "slides": "https://s25.q4cdn.com/358376879/files/doc_financials/2025/q1/1Q-2025-Analyst-Slide-Deck-Final.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.caterpillar.com/en/news/corporate-press-releases/h/1q25-results-caterpillar-inc.html",
+   "transcript": "https://s25.q4cdn.com/358376879/files/doc_financials/2025/q1/1Q-2025-Caterpillar-Inc-Earnings-Call-Transcript_4-30-2025_vF.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/30/caterpillar-cat-q4-2024-earnings-call-transcript/",
+   "slides": "https://s25.q4cdn.com/358376879/files/doc_financials/2024/q4/4Q-2024-Analyst-Slide-Deck_Final.pdf",
+   "slides_kind": "slides",
+   "release": "https://www.caterpillar.com/en/news/corporate-press-releases/h/4q24-results-caterpillar-inc.html"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/30/caterpillar-cat-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/18230/000001823024000050/ex991toformcat3q2024earnin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/18230/000001823024000042/ex991toformcat2q2024earnin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/18230/000001823024000016/ex991toformcat1q2024earnin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/18230/000001823024000005/cat_exx991x4qx2023xearning.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/18230/000001823023000054/ex991toformcat3q2023earnin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/18230/000001823023000044/ex991toformcat2q2023earnin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/18230/000001823023000017/ex991toformcat1q2023earnin.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/18230/000001823023000005/cat_exx991x4qx2022xearning.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/27/caterpillar-cat-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/caterpillar-cat-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/28/caterpillar-inc-cat-q1-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/29/caterpillar-inc-cat-q4-2018-earnings-conference-ca.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/23/caterpillar-inc-cat-q3-2018-earnings-conference-ca.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/31/caterpillar-inc-cat-q2-2018-earnings-conference-ca.aspx"
+  }
+ ]
+}

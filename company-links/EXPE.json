@@ -1,0 +1,186 @@
+{
+ "ticker": "EXPE",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000059/earningspresentation-q32.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000059/earningspresentation-q32.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000051/earningspresentation-q22.htm",
+   "release_ok": true,
+   "slides": "https://s202.q4cdn.com/757635260/files/doc_financials/2026/q2/Q2-2026-Earnings-Presentation-Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000031/earningsrelease-q12026.htm",
+   "release_ok": true,
+   "slides": "https://s202.q4cdn.com/757635260/files/doc_financials/2026/q1/Q1-2026-Earnings-Presentation-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442426000005/earningsrelease-q42025.htm",
+   "release_ok": true,
+   "slides": "https://s202.q4cdn.com/757635260/files/doc_financials/2025/q4/EXPE-Q4-2025-Earnings-Presentation-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442425000025/earningsrelease-q12025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/06/expedia-group-expe-q4-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442425000005/earningsrelease-q42024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/07/expedia-group-expe-q3-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442424000049/earningsrelease-q32024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/08/expedia-group-expe-q2-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442424000036/earningsrelease-q22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/02/expedia-group-expe-q1-2024-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442424000024/earningsrelease-q12024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/08/expedia-group-expe-q4-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442424000005/earningsrelease-q42023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/03/expedia-group-expe-q3-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442423000058/earningsrelease-q32023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/03/expedia-group-expe-q2-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442423000042/earningsrelease-q22023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/04/expedia-group-expe-q1-2023-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442423000029/earningsrelease-q12023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/09/expedia-group-expe-q4-2022-earnings-call-transcrip/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1324424/000132442423000005/earningsrelease-q42022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/03/expedia-expe-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/04/expedia-expe-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/06/expedia-expe-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/06/expedia-expe-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/07/expedia-expe-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/12/expedia-expe-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/05/expedia-expe-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/expedia-expe-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/20/expedia-expe-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/14/expedia-expe-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/06/expedia-expe-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/26/expedia-expe-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/expedia-expe-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/07/expedia-inc-del-expe-q4-2018-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/25/expedia-group-inc-expe-q3-2018-earnings-conference.aspx"
+  }
+ ],
+ "ir": "https://ir.expediagroup.com/"
+}

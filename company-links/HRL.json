@@ -1,0 +1,155 @@
+{
+ "ticker": "HRL",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-08-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/48465/000004846526000053/hormelearningsreleaseq32026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-05-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/48465/000004846526000024/hormelearningsreleaseq22026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-02-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/48465/000004846526000018/hormelearningsreleaseq12026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-08-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/48465/000004846525000042/hormelearningsreleaseq32025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/27/hormel-foods-hrl-q1-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/48465/000004846525000005/hormelearningsreleaseq12025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-12-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/48465/000004846524000047/hrlearningsrelease2024q4.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-09-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/48465/000004846524000038/hormelearningsreleaseq32024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-05-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/48465/000004846524000029/hormelearningsreleaseq22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-02-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/48465/000004846524000009/hormelearningsreleaseq12024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-11-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/48465/000004846523000081/hrlearningsrelease2023q4.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-08-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/48465/000004846523000071/hormelearningsreleaseq32023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-06-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/48465/000004846523000044/hormelearningsreleaseq22023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-03-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/48465/000004846523000012/hormelearningsreleaseq12023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-12-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/09/hormel-foods-corporation-hrl-q4-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-09-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/09/02/hormel-foods-corporation-hrl-q3-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-05-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/20/hormel-foods-corp-hrl-q2-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-02-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/18/hormel-foods-corp-hrl-q1-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-11-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/24/hormel-foods-corp-hrl-q4-2020-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-08-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/25/hormel-foods-corp-hrl-q3-2020-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-05-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/21/hormel-foods-corp-hrl-q2-2020-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/20/hormel-foods-corp-hrl-q1-2020-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-11-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/26/hormel-foods-corp-hrl-q4-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-08-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/22/hormel-foods-corp-hrl-q3-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-05-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/23/hormel-foods-corp-hrl-q2-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-02-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/21/hormel-foods-corp-hrl-q1-2019-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-11-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/20/hormel-foods-corporation-hrl-q4-2018-earnings-conf.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-08-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/23/hormel-foods-corporation-hrl-q3-2018-earnings-conf.aspx"
+  }
+ ],
+ "ir": "https://investor.hormelfoods.com/"
+}

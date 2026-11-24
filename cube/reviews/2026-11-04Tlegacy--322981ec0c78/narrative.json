@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off under a firm index",
+    "detail": "Breadth is counting a defensive rotation as health.",
+    "summary": "SPY is +1.5% week to date; QQQ +0.2%; high beta versus low beta is -21.1% over one month (0th percentile); leader breadth is -19.6 points versus the index; 73% of S&P names are above the 50-day; net 52-week highs are +67; Residential Solar leads themes at +13.3% week to date.",
+    "market": "SPY is +1.5% week to date; QQQ +0.2%.",
+    "winners": "Residential Solar +13.3%, Industrial Solar +11.1%, Metals \u2014 Miners +8.3%.",
+    "laggards": "Connectivity -14.0%, Memory -10.4%, Energy \u00b7 XLE -9.3%.",
+    "why": "The pattern points to rotation away from established high-beta leadership, not indiscriminate index selling; high beta/low beta -21.1%, leader breadth spread -19.6pt, 73% above the 50-day.",
+    "comparison": "Since 2026-11-02, the Risk-off under a firm index call is unchanged; high beta -0.4pt, leader spread -3.2pt, 50-day breadth +5.2pt.",
+    "tally": "0 of 4 risk gauges and 5 of 6 participation gauges are above their five-year medians",
+    "volume": "OKTA printed 10.18\u00d7 relative volume on a +2.6% day, while SFM printed 9.97\u00d7 relative volume on a -22.6% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

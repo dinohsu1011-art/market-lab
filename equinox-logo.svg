@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1025" viewBox="0 0 1000 1025" role="img" aria-labelledby="title desc">
+  <title id="title">Equinox</title>
+  <desc id="desc">Equal terracotta and navy semicircles aligned across a transparent equatorial gap.</desc>
+  <path fill="#C95F36" d="M0 500 A500 500 0 0 1 1000 500 Z"/>
+  <path fill="#182A4B" d="M1000 525 A500 500 0 0 1 0 525 Z"/>
+</svg>

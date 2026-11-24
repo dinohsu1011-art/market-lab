@@ -1,0 +1,149 @@
+{
+ "ticker": "CHD",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000119312526439864/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000119312526326749/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000119312526199066/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000119312525259387/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000095017025101104/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000095017025061438/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000095017025011420/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000095017024119799/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000095017024089586/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000095017024051562/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000095017024010091/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000095017023058507/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000095017023035289/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/313927/000095017023014990/chd-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/29/church-dwight-co-inc-chd-q3-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/30/church-dwight-co-inc-chd-q2-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/church-dwight-coinc-chd-q1-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/29/church-dwight-coinc-chd-q4-2020-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/church-dwight-coinc-chd-q3-2020-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/church-dwight-coinc-chd-q2-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/01/church-dwight-coinc-chd-q1-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/31/church-dwight-coinc-chd-q4-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/church-dwight-coinc-chd-q3-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/church-dwight-coinc-chd-q1-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/05/church-dwight-coinc-chd-q4-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/church-dwight-co-inc-chd-q3-2018-earnings-conferen.aspx"
+  }
+ ]
+}

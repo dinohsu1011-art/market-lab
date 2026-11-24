@@ -1,0 +1,186 @@
+{
+ "ticker": "UPS",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026067381/exhibit991-earningspressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-28",
+   "slides": "https://investors.ups.com/_assets/_a18bba56f289bbb162e795e33c0b50a4/ups/db/1086/11001/pdf/1Q26+Earnings+Webcast+Deck+FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026027717/exhibit991-earningspressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000162828026003510/exhibit991-earningspressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000109072725000061/exhibit991-earningspressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000109072725000046/exhibit991-earningspressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/30/united-parcel-service-ups-q4-2024-earnings-call-tr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000109072725000004/exhibit991-earningspressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/24/united-parcel-service-ups-q3-2024-earnings-call-tr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000109072724000057/exhibit991-earningspressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/23/united-parcel-service-ups-q2-2024-earnings-call-tr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000109072724000041/exhibit991-earningspressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/23/united-parcel-service-ups-q1-2024-earnings-call-tr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000109072724000024/exhibit991-q12024earningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/30/united-parcel-service-ups-q4-2023-earnings-call-tr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000109072724000004/exhibit991-q42023earningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/26/united-parcel-service-ups-q3-2023-earnings-call-tr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000109072723000050/exhibit991-q32023earningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/08/united-parcel-service-ups-q2-2023-earnings-call-tr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000109072723000035/exhibit991-q22023earningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000109072723000021/exhibit991-q12023earningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/31/united-parcel-service-ups-q4-2022-earnings-call-tr/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090727/000109072723000003/exhibit991-q42022earningsp.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/25/united-parcel-service-ups-q3-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/26/united-parcel-service-ups-q2-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/26/united-parcel-service-ups-q1-2022-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/01/united-parcel-service-ups-q4-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/26/united-parcel-service-ups-q3-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/28/united-parcel-service-ups-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/united-parcel-service-ups-q1-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/02/united-parcel-service-ups-q4-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/28/united-parcel-service-ups-q3-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/30/united-parcel-service-ups-q2-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/28/united-parcel-service-inc-ups-q1-2020-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/united-parcel-service-inc-ups-q4-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/22/united-parcel-service-inc-ups-q3-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/24/united-parcel-service-inc-ups-q2-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/25/united-parcel-service-inc-ups-q1-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/01/united-parcel-service-ups-q4-2018-earnings-confere.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/24/united-parcel-service-inc-ups-q3-2018-earnings-con.aspx"
+  }
+ ],
+ "ir": "https://investors.ups.com"
+}

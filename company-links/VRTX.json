@@ -1,0 +1,190 @@
+{
+ "ticker": "VRTX",
+ "ir": "https://investors.vrtx.com/",
+ "results": "https://investors.vrtx.com/financial-information/quarterly-results",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-02",
+   "slides": "https://investors.vrtx.com/static-files/96eaf409-9dfc-4ccd-9964-63e3f07cb5a5",
+   "slides_kind": "slides",
+   "release": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-third-quarter-2026-financial-results"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-03",
+   "slides": "https://investors.vrtx.com/static-files/25a09e85-5615-46d3-8f28-7e5e75440a14",
+   "slides_kind": "slides",
+   "release": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-second-quarter-2026-financial-results"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-04",
+   "slides": "https://investors.vrtx.com/static-files/ad9b77b2-32d0-43a7-b42f-a056fdf5bd41",
+   "slides_kind": "slides",
+   "release": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-first-quarter-2026-financial-results"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "slides": "https://investors.vrtx.com/static-files/7a35cf94-49dd-45fb-9c34-6113d3c67075",
+   "slides_kind": "slides",
+   "release": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-fourth-quarter-and-full-year-2025-financial"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-03",
+   "slides": "https://investors.vrtx.com/static-files/7bd09616-955e-41a4-a1f2-cc1463a34521",
+   "slides_kind": "slides",
+   "release": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-third-quarter-2025-financial-results"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-05",
+   "slides": "https://investors.vrtx.com/static-files/f1e5e23f-953d-442a-b8b9-db44de4bdea9",
+   "slides_kind": "slides",
+   "release": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-first-quarter-2025-financial-results",
+   "transcript": "https://www.insidermonkey.com/blog/vertex-pharmaceuticals-incorporated-nasdaqvrtx-q1-2025-earnings-call-transcript-1526719/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/10/vertex-pharmaceuticals-vrtx-q4-2024-earnings-call/",
+   "slides": "https://investors.vrtx.com/static-files/06064a48-ec16-46a3-9c2c-6f7bcfc787d3",
+   "slides_kind": "slides",
+   "release": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-fourth-quarter-and-full-year-2024-financial"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/04/vertex-pharmaceuticals-vrtx-q3-2024-earnings-call/",
+   "slides": "https://investors.vrtx.com/static-files/eafe620a-981b-4b21-a6c4-bf1e0a0a0014",
+   "slides_kind": "slides",
+   "release": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-third-quarter-2024-financial-results"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/01/vertex-pharmaceuticals-vrtx-q2-2024-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/875320/000087532024000193/ex-991_q22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/06/vertex-pharmaceuticals-vrtx-q1-2024-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/875320/000087532024000137/ex-991_q12024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/05/vertex-pharmaceuticals-vrtx-q4-2023-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/875320/000087532024000012/ex-991_q42023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/07/vertex-pharmaceuticals-vrtx-q3-2023-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/875320/000087532023000029/ex-991_q32023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/01/vertex-pharmaceuticals-vrtx-q2-2023-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/875320/000087532023000019/ex-991_q22023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/01/vertex-pharmaceuticals-vrtx-q1-2023-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/875320/000087532023000010/ex-991_q12023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/08/vertex-pharmaceuticals-vrtx-q4-2022-earnings-call/",
+   "release": "https://www.sec.gov/Archives/edgar/data/875320/000087532023000004/ex-991_q42022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/27/vertex-pharmaceuticals-vrtx-q3-2022-earnings-call/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/05/vertex-pharmaceuticals-vrtx-q2-2022-earnings-call/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/06/vertex-pharmaceuticals-vrtx-q1-2022-earnings-call/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/27/vertex-pharmaceuticals-vrtx-q4-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/vertex-pharmaceuticals-incorporated-vrtx-q3-2021-e/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/30/vertex-pharmaceuticals-incorporated-vrtx-q2-2021-e/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/vertex-pharmaceuticals-inc-vrtx-q1-2021-earnings-c/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/01/vertex-pharmaceuticals-inc-vrtx-q4-2020-earnings-c/"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/vertex-pharmaceuticals-inc-vrtx-q4-2019-earnings-c.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/vertex-pharmaceuticals-inc-vrtx-q3-2019-earnings-c.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/01/vertex-pharmaceuticals-inc-vrtx-q2-2019-earnings-c.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/01/vertex-pharmaceuticals-inc-vrtx-q1-2019-earnings-c.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/06/vertex-pharmaceuticals-vrtx-q4-2018-earnings-confe.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/24/vertex-pharmaceuticals-inc-vrtx-q3-2018-earnings-c.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/26/vertex-pharmaceuticals-vrtx-q2-2018-earnings-confe.aspx"
+  }
+ ]
+}

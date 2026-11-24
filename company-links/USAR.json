@@ -1,0 +1,17 @@
+{
+ "ticker": "USAR",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000066/exhibit991-earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000034/exhibit991-earningsrelease.htm",
+   "release_ok": true
+  }
+ ]
+}

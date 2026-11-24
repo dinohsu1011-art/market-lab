@@ -1,0 +1,13 @@
+.leader-chart-trigger{display:block;width:100%;text-align:left;background:none;border:0;color:inherit;font:inherit;padding:4px 0;cursor:pointer}
+.leader-chart-trigger:hover .tk,.leader-chart-trigger[aria-expanded=true] .tk{text-decoration:underline;text-underline-offset:4px}
+.leader-chart-trigger:focus-visible{outline:2px solid var(--ml-ink);outline-offset:3px}
+#leader-chart{margin:20px 0;scroll-margin-top:90px}
+#leader-chart[hidden]{display:none}
+#leader-chart .an-card{padding:18px 20px}
+#leader-chart .leader-preview-heading{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+#leader-chart .leader-preview-heading h3{margin:0;font-size:18px}
+#leader-chart .leader-preview-heading a{margin-left:auto;color:var(--ml-accent);font-size:14px}
+#leader-chart .leader-preview-heading>button{font:inherit;font-size:14px;padding:6px 10px;background:var(--ml-raised);color:var(--ml-ink);border:1px solid var(--ml-border);border-radius:4px;cursor:pointer}
+#leader-chart .an-legend{font-size:13px;display:flex;gap:16px;flex-wrap:wrap;margin:8px 0}
+#leader-chart .an-readout{font-size:13px;min-height:20px}
+@media(max-width:600px){#leader-chart .an-card{padding:12px}#leader-chart .leader-preview-heading h3{width:100%}#leader-chart .leader-preview-heading a{margin-left:0}}

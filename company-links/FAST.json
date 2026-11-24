@@ -1,0 +1,117 @@
+{
+ "ticker": "FAST",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/815556/000081555626000046/ex_99109302026earningsrele.htm",
+   "release_ok": true,
+   "slides": "https://s25.q4cdn.com/185498701/files/doc_financials/2026/Q3/September/Q3-2026-Investor-Presentation-R7-Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/815556/000081555626000037/ex_99106302026earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/815556/000081555626000019/ex_99103312026earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/815556/000081555625000079/ex_99103312025earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/815556/000081555625000048/ex_99112312024earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/815556/000081555624000035/ex_99109302024earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/815556/000081555624000028/ex_99106302024earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/815556/000081555624000017/ex_99103312024earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/815556/000081555624000002/ex_99112312023earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/815556/000081555623000043/ex_99109302023earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/815556/000081555623000039/ex_99106302023earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/815556/000081555623000019/ex_99103312023earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/815556/000081555623000002/ex_99112312022earningsrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/12/fastenal-co-fast-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/11/fastenal-co-fast-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/17/fastenal-co-fast-q4-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/10/fastenal-company-fast-q3-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/11/fastenal-company-fast-q2-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/11/fastenal-company-fast-q1-2018-earnings-conference.aspx"
+  }
+ ],
+ "ir": "https://investor.fastenal.com/"
+}

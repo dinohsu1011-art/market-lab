@@ -1,0 +1,23 @@
+{
+ "ticker": "MOD",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/67347/000110465926122032/mod-ex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/67347/000110465926010338/mod-20260204xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/67347/000110465925103639/mod-20251028xex99d1.htm",
+   "release_ok": true
+  }
+ ]
+}

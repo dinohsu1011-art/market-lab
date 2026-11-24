@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold and participation is narrow.",
+    "summary": "SPY finished the week -0.8%; QQQ -0.6%; high beta versus low beta is -3.4% over one month (22nd percentile); leader breadth is +15.0 points versus the index; 39% of S&P names are above the 50-day; net 52-week highs are -3; CDN / Edge leads themes at +7.9%.",
+    "market": "SPY finished the week -0.8%; QQQ -0.6%.",
+    "winners": "CDN / Edge +7.9%, Photonics +5.6%, CPU + ASIC +5.5%.",
+    "laggards": "Nuclear -9.1%, Materials -4.9%, Biotechnology -4.8%.",
+    "why": "Weak high beta and narrow participation point to a broad contraction in risk appetite; high beta/low beta -3.4%, leader breadth spread +15.0pt, 39% above the 50-day.",
+    "comparison": "Since 2026-09-10, the call moved from Mixed to Risk-off; high beta +0.2pt, leader spread +1.6pt, 50-day breadth +5.4pt. Weekly leadership changed from Neocloud to CDN / Edge.",
+    "tally": "1 of 4 risk gauges and 0 of 6 participation gauges are above their five-year medians",
+    "volume": "LULU printed 13.22\u00d7 relative volume on a -17.4% day, while COO printed 9.67\u00d7 relative volume on a -14.7% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

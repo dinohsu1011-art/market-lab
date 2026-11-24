@@ -1,0 +1,41 @@
+{
+ "ticker": "FIG",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026070133/q326pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026053331/q226pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026035087/q126pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1579878/000162828026009024/fy25pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1579878/000162828025049555/q325pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-09-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1579878/000157987825000026/q225pressrelease.htm",
+   "release_ok": true
+  }
+ ]
+}

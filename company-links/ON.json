@@ -1,0 +1,141 @@
+{
+ "ticker": "ON",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126041580/ef20084671_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126030989/ef20079200_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126018868/ef20072220_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126004405/ef20065070_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000114036125040094/ef20058125_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000114036125017228/ef20048379_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000119312525023201/d926041dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000119312524244677/d901571dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000119312524186735/d858048dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000119312524120128/d806921dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000119312524023485/d610011dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000119312523265690/d539978dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000119312523198583/d473828dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000119312523128806/d461890dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1097864/000119312523024908/d406586dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/01/on-semiconductor-on-q2-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/02/on-semiconductor-on-q1-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/07/on-semiconductor-on-q4-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/01/on-semiconductor-corporation-on-q3-2021-earnings-c/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/on-semiconductor-corporation-on-q2-2021-earnings-c/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/03/on-semiconductor-corporation-on-q1-2021-earnings-c/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/02/on-semiconductor-corporation-on-q3-2020-earnings-c/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/10/on-semiconductor-corporation-on-q2-2020-earnings-c.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/11/on-semiconductor-corporation-on-q1-2020-earnings-c.aspx"
+  }
+ ],
+ "ir": "https://investor.onsemi.com/"
+}

@@ -1,0 +1,196 @@
+{
+ "ticker": "LOW",
+ "ir": "https://corporate.lowes.com/investors",
+ "results": "https://corporate.lowes.com/investors/financial-information/quarterly-earnings",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-08-19",
+   "slides": "https://corporate.lowes.com/sites/lowes-corp/files/Quaterly-results/lowes-q2-2026-infographic-final.pdf",
+   "slides_kind": "infographic",
+   "release": "https://corporate.lowes.com/sites/lowes-corp/files/Quaterly-results/lowes-q2-2026-press-release.pdf"
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-05-20",
+   "slides": "https://corporate.lowes.com/sites/lowes-corp/files/Quaterly-results/lowes-q1-2026-infographic-final.pdf",
+   "slides_kind": "infographic",
+   "release": "https://corporate.lowes.com/newsroom/press-releases/lowes-reports-first-quarter-2026-sales-and-earnings-results-05-20-26"
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-02-25",
+   "slides": "https://corporate.lowes.com/sites/lowes-corp/files/Quaterly-results/Lowes-Q4-2025-Infographic-Final.pdf",
+   "slides_kind": "infographic",
+   "release": "https://corporate.lowes.com/sites/lowes-corp/files/Quaterly-results/Lowes-Q4-2025-Press-Release-Final.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-20",
+   "slides": "https://corporate.lowes.com/sites/lowes-corp/files/lowes-q2-2025-infographic.pdf",
+   "slides_kind": "infographic",
+   "release": "https://corporate.lowes.com/sites/lowes-corp/files/lowes-q2-2025-press-release.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-21",
+   "slides": "https://corporate.lowes.com/sites/lowes-corp/files/2025-05/lowes-q1-2025-infographic-final.pdf",
+   "slides_kind": "infographic",
+   "release": "https://corporate.lowes.com/sites/lowes-corp/files/lowes-q1-2025-press-release-updated.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/26/lowes-companies-low-q4-2024-earnings-call-transcri/",
+   "slides": "https://corporate.lowes.com/sites/lowes-corp/files/2025-02/lowes-fy-2024-q4-infographic.pdf",
+   "slides_kind": "infographic",
+   "release": "https://corporate.lowes.com/sites/lowes-corp/files/2025-02/q4-2024-earnings-release.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/19/lowes-companies-low-q3-2024-earnings-call-transcri/",
+   "slides": "https://corporate.lowes.com/sites/lowes-corp/files/2024-11/lowes-q3-2024-infographic.pdf",
+   "slides_kind": "infographic",
+   "release": "https://corporate.lowes.com/sites/lowes-corp/files/2024-11/q3-2024-earnings-release.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/20/lowes-companies-low-q2-2024-earnings-call-transcri/",
+   "slides": "https://corporate.lowes.com/sites/lowes-corp/files/2024-08/lowes-q2-2024-infographic.pdf",
+   "slides_kind": "infographic",
+   "release": "https://corporate.lowes.com/sites/lowes-corp/files/q2-2024-earnings-release.pdf"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/21/lowes-companies-low-q1-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/60667/000006066724000081/exhibit991-05032024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/27/lowes-companies-low-q4-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/60667/000006066724000012/exhibit991-02022024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/21/lowes-companies-low-q3-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/60667/000006066723000159/exhibit991-11032023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/23/lowes-companies-low-q1-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/60667/000006066723000079/exhibit991-05052023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-03-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/03/01/lowes-companies-low-q4-2022-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/60667/000006066723000016/exhibit991-02032023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/16/lowes-low-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/17/lowes-low-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/19/lowes-low-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/23/lowes-low-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/18/lowes-low-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/19/lowes-low-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/24/lowes-low-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/18/lowes-low-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/20/lowes-low-q2-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/20/lowes-companies-inc-low-q1-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/26/lowes-companies-inc-low-q4-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/20/lowes-companies-inc-low-q3-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/21/lowes-companies-inc-low-q2-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/22/lowes-companies-inc-low-q1-2019-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/27/lowes-low-q4-2018-earnings-conference-call-transcr.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/20/lowes-companies-inc-low-q3-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/22/lowes-companies-inc-low-q2-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-05-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/23/lowes-companies-inc-low-q1-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/28/lowes-companies-inc-low-q4-2017-earnings-conferenc.aspx"
+  }
+ ]
+}

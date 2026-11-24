@@ -1,0 +1,123 @@
+{
+ "ticker": "CTVA",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1755672/000175567226000031/a3q_2026xearningsxnewsxr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1755672/000175567226000022/a2q_2026xearningsxnewsxr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1755672/000175567226000008/a1q_2026xearningsxnewsxr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1755672/000175567225000009/final_q1x2025xearningsxn.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1755672/000175567225000002/final_4qx2024xearningsxn.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1755672/000175567224000021/final_3qx2024xearningsxn.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1755672/000175567224000017/final_2qx2024xearningsxn.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1755672/000175567224000006/final_1qx2024xearningsxn.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1755672/000175567224000002/a4q_23xearningsxnewsxrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1755672/000175567223000022/a3q_2023xearningsxnewsxr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1755672/000175567223000015/draft_2qx2023xearningsxn.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1755672/000175567223000009/draft_1qx2023xearningsxn.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1755672/000175567223000003/draft_4qx2022xearningsxn.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/corteva-inc-ctva-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/06/corteva-inc-ctva-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/corteva-inc-ctva-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/04/corteva-inc-ctva-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/05/corteva-inc-ctva-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/06/corteva-inc-ctva-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/08/corteva-inc-ctva-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/corteva-inc-ctva-q4-2019-earnings-call-transcript.aspx"
+  }
+ ]
+}

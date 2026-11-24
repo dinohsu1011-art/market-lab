@@ -1,0 +1,215 @@
+{
+ "ticker": "ORCL",
+ "ir": "https://investor.oracle.com/",
+ "results": "https://investor.oracle.com/financials/default.aspx",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-09-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/09/11/oracle-orcl-q1-2027-earnings-call-transcript/",
+   "slides": "https://s23.q4cdn.com/440135859/files/content_files/Q1-FY27-Oracle-Earnings-Slides.pdf",
+   "slides_kind": "slides",
+   "release": "https://s23.q4cdn.com/440135859/files/content_files/1q27-pressrelease-September_FINAL.pdf"
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-06-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/06/10/oracle-orcl-q4-2026-earnings-call-transcript/",
+   "slides": "https://s23.q4cdn.com/440135859/files/doc_earnings/2026/q4/presentation/Presentation-Slides-Q4-26.pdf",
+   "slides_kind": "slides",
+   "release": "https://s23.q4cdn.com/440135859/files/doc_earnings/2026/q4/earnings-result/4q26-pressrelease-final.pdf"
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-03-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/03/10/oracle-orcl-q3-2026-earnings-call-transcript/",
+   "slides": "https://s23.q4cdn.com/440135859/files/doc_financials/2026/q3/Q326_Form8K_Exhibit99-1_Earnings_Release_Tables_FINAL-V1.pdf",
+   "slides_kind": "supplement",
+   "release": "https://s23.q4cdn.com/440135859/files/doc_financials/2026/q3/3q26-pressrelease-March-FINAL.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-12-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/12/10/oracle-orcl-q2-2026-earnings-call-transcript/",
+   "slides": "https://s23.q4cdn.com/440135859/files/doc_earnings/2026/q2/supplemental-info/Q226_Form8K_Exhibit99-1_Earnings_Release_Tables-Final.pdf",
+   "slides_kind": "supplement",
+   "release": "https://s23.q4cdn.com/440135859/files/doc_earnings/2026/q2/earnings-result/2q26-pressrelease-final.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-09-09",
+   "slides": "https://s23.q4cdn.com/440135859/files/doc_financials/2026/q1/Q126_Form8K_Exhibit99-1_Earnings_Release_Tables-Final.pdf",
+   "slides_kind": "supplement",
+   "release": "https://s23.q4cdn.com/440135859/files/doc_financials/2026/q1/1q26-pressrelease-September-final_.pdf",
+   "transcript": "https://www.insidermonkey.com/blog/oracle-corporation-nyseorcl-q1-2026-earnings-call-transcript-1606257/"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-06-11",
+   "slides": "https://s23.q4cdn.com/440135859/files/doc_financials/2025/q4/Q425_Form8K_Exhibit99-1_Earnings_Release_Tables_Final.pdf",
+   "slides_kind": "supplement",
+   "release": "https://s23.q4cdn.com/440135859/files/doc_financials/2025/q4/4q25-pressrelease-June-final.pdf",
+   "transcript": "https://www.insidermonkey.com/blog/oracle-corporation-nyseorcl-q4-2025-earnings-call-transcript-1552014/"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-03-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/03/10/oracle-orcl-q3-2025-earnings-call-transcript/",
+   "slides": "https://s23.q4cdn.com/440135859/files/doc_financials/2025/q3/Q325_Form8K_Exhibit99-1_Earnings_Release_Tables_Final.pdf",
+   "slides_kind": "supplement",
+   "release": "https://s23.q4cdn.com/440135859/files/doc_financials/2025/q3/3q25-pressrelease-March-final.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-12-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/12/09/oracle-orcl-q2-2025-earnings-call-transcript/",
+   "slides": "https://s23.q4cdn.com/440135859/files/doc_financials/2025/q2/Q225_Form8K_Exhibit99-1_Earnings_Release_Tables_V2.pdf",
+   "slides_kind": "supplement",
+   "release": "https://s23.q4cdn.com/440135859/files/doc_financials/2025/q2/2q25-pressrelease-December-final.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-09-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/09/09/oracle-orcl-q1-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024104753/orcl-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-06-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/06/11/oracle-orcl-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024071916/orcl-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-03-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/03/11/oracle-orcl-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1341439/000095017024029250/orcl-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-12-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/12/12/oracle-orcl-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023069410/orcl-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-09-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/09/11/oracle-orcl-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023047471/orcl-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-06-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/06/12/oracle-orcl-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1341439/000095017023027490/orcl-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-03-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/03/09/oracle-orcl-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1341439/000156459023003362/orcl-ex991_6.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2022-12-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/12/12/oracle-orcl-q2-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-09-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/09/12/oracle-orcl-q1-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-06-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/06/13/oracle-orcl-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-03-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/03/11/oracle-orcl-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2021-12-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/10/oracle-orcl-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-09-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/09/17/oracle-orcl-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-06-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/06/16/oracle-orcl-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-03-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/03/12/oracle-orcl-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2020-12-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/12/11/oracle-orcl-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-09-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/09/10/oracle-orcl-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-06-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/06/16/oracle-corp-orcl-q4-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-03-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/12/oracle-corp-orcl-q3-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-12-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/12/13/oracle-corp-orcl-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-09-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/09/12/oracle-corp-orcl-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-06-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/06/20/oracle-corp-orcl-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-03-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/03/15/oracle-orcl-q3-2019-earnings-conference-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-09-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/09/18/oracle-orcl-q1-2019-earnings-conference-call-trans.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-06-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/06/19/oracle-corporation-orcl-q4-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-03-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/03/20/oracle-orcl-q3-2018-earnings-conference-call-trans.aspx"
+  }
+ ]
+}

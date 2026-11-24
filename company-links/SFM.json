@@ -1,0 +1,41 @@
+{
+ "ticker": "SFM",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1575515/000157551526000059/sfm-20260927xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1575515/000157551526000036/sfm-20260628xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1575515/000157551526000020/sfm-20260329xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1575515/000157551526000006/sfm-20251228xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1575515/000157551525000236/sfm-20250928xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1575515/000157551524000170/sfm-20240929xex991.htm",
+   "release_ok": true
+  }
+ ]
+}

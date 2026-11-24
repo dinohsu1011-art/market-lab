@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold into a mixed tape.",
+    "summary": "SPY finished the week +0.1%; QQQ -0.8%; high beta versus low beta is -17.0% over one month (1st percentile); leader breadth is -1.6 points versus the index; 61% of S&P names are above the 50-day; net 52-week highs are +39; Cybersecurity leads themes at +6.4%.",
+    "market": "SPY finished the week +0.1%; QQQ -0.8%.",
+    "winners": "Cybersecurity +6.4%, Software +6.3%, Residential Solar +4.4%.",
+    "laggards": "EPC -9.1%, Semicap -8.7%, Photonics -8.2%.",
+    "why": "The pattern points to rotation away from established high-beta leadership, not indiscriminate index selling; high beta/low beta -17.0%, leader breadth spread -1.6pt, 61% above the 50-day.",
+    "comparison": "Since 2026-10-21, the Risk-off call is unchanged; high beta -5.1pt, leader spread -2.4pt, 50-day breadth +5.4pt. Weekly leadership changed from Memory to Cybersecurity.",
+    "tally": "0 of 4 risk gauges and 3 of 6 participation gauges are above their five-year medians",
+    "volume": "WBD printed 20.28\u00d7 relative volume on a +0.0% day, while FPS printed 6.47\u00d7 relative volume on a -21.5% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

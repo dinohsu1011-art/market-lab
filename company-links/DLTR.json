@@ -1,0 +1,177 @@
+{
+ "ticker": "DLTR",
+ "quarters": [
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000108/ex991q2-26earningspressrel.htm",
+   "release_ok": true,
+   "slides": "https://corporate.dollartree.com/_assets/_fd0d41b4a32aecc0347fa9cf0c5191b6/dollartreeinfo/db/857/11701/pdf/Dollar+Tree+Inc.+Q2+2026+IR+Supplement+.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000064/ex991q1-26earningspressrel.htm",
+   "release_ok": true,
+   "slides": "https://corporate.dollartree.com/_assets/_fd0d41b4a32aecc0347fa9cf0c5191b6/dollartreeinfo/db/857/11582/pdf/Dollar+Tree+Inc.+Q1+2026+IR+Supplement_.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-03-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/935703/000093570326000024/ex991q4-25earningspressrel.htm",
+   "release_ok": true,
+   "slides": "https://corporate.dollartree.com/_assets/_fd0d41b4a32aecc0347fa9cf0c5191b6/dollartreeinfo/db/857/11453/pdf/Dollar+Tree+Inc.+Q4+2025+IR+Supplement+-+FINAL+%283-14-26%29.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-03-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/03/26/dollar-tree-dltr-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/935703/000093570325000012/ex991q4-24earningspressrel.htm",
+   "release_ok": true,
+   "slides": "https://corporate.dollartree.com/_assets/_fd0d41b4a32aecc0347fa9cf0c5191b6/dollartreeinfo/db/857/10952/pdf/Dollar+Tree+Inc.+Q4+2024+IR+Supplemental+-+FINAL+AS+PUBLISHED.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-12-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/12/04/dollar-tree-dltr-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/935703/000093570324000057/ex991q3-24earningspr.htm",
+   "release_ok": true,
+   "slides": "https://corporate.dollartree.com/_assets/_fd0d41b4a32aecc0347fa9cf0c5191b6/dollartreeinfo/db/857/10763/pdf/Dollar+Tree+Inc.+Q3+2024+IR+Supplemental+-+FINAL+AS+PUBLISHED.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-09-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/09/04/dollar-tree-dltr-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/935703/000093570324000039/ex991q2-24earningspr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-06-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/06/05/dollar-tree-dltr-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/935703/000093570324000026/ex991q1-24earningspr.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-03-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/03/13/dollar-tree-dltr-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/935703/000093570324000007/ex991q4-23earningspressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/935703/000093570323000062/ex991q3-23earningspressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/24/dollar-tree-dltr-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/935703/000093570323000048/ex991q2-23earningspressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/25/dollar-tree-dltr-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/935703/000093570323000030/ex991q1-23earningspressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-03-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/03/01/dollar-tree-dltr-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/935703/000093570323000011/ex991q4-22earningsannounce.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/22/dollar-tree-inc-dltr-q3-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/25/dollar-tree-inc-dltr-q2-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/26/dollar-tree-inc-dltr-q1-2022-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-03-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/03/03/dollar-tree-inc-dltr-q4-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2020-11-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/24/dollar-tree-inc-dltr-q3-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2020-08-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/27/dollar-tree-inc-dltr-q2-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-05-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/28/dollar-tree-inc-dltr-q1-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-03-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/04/dollar-tree-inc-dltr-q4-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2019-11-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/26/dollar-tree-inc-dltr-q3-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-08-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/29/dollar-tree-inc-dltr-q2-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-05-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/30/dollar-tree-inc-dltr-q1-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-03-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/03/06/dollar-tree-inc-dltr-q4-2018-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2018-11-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/29/dollar-tree-inc-dltr-q3-2018-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2018-08-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/30/dollar-tree-inc-dltr-q2-2018-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-03-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/03/07/dollar-tree-inc_-dltr-q4-2017-earnings-conference.aspx"
+  }
+ ],
+ "ir": "https://corporate.dollartree.com/investors",
+ "results": "https://corporate.dollartree.com/investors/financial-information/financial-results"
+}

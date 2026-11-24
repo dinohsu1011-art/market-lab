@@ -1,0 +1,148 @@
+{
+ "ticker": "AIZ",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000043/aiz-20260930exx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000039/aiz-20260630exx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000024/aiz-20260331exx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723826000006/aiz-20251231exx991pressrel.htm",
+   "release_ok": true,
+   "slides": "https://s21.q4cdn.com/997934001/files/doc_financials/2025/q4/Assurant-Investor-Presentation-Q4-25_Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723825000024/aiz-20250331exx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723825000005/aiz-20241231exx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723824000044/aiz-20240930exx991pressrel.htm",
+   "release_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/assurant-inc-nyseaiz-q3-2024-earnings-call-transcript-1387290/"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723824000035/aiz-20240630exx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723824000023/aiz-20240331exx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723824000005/aiz-20231231exx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723823000049/aiz-20230930exx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723823000039/aiz-20230630exx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723823000026/aiz-20230331exx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1267238/000126723823000003/aiz-20221231exx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/assurant-inc-aiz-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/assurant-inc-aiz-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/10/assurant-inc-aiz-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/03/assurant-inc-aiz-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/05/assurant-inc-aiz-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/12/assurant-inc-aiz-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/06/assurant-inc-aiz-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/07/assurant-inc-aiz-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/07/assurant-inc-aiz-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/13/assurant-aiz-q4-2018-earnings-conference-call-tran.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/07/assurant-inc-aiz-q3-2018-earnings-conference-call.aspx"
+  }
+ ]
+}

@@ -1,0 +1,242 @@
+{
+ "ticker": "AMZN",
+ "ir": "https://ir.aboutamazon.com/",
+ "results": "https://ir.aboutamazon.com/quarterly-results/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "slides": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q3/presentation/Webslides_Q326.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/30/amazon-amzn-q3-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "slides": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/presentation/Webslides_Q226.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q2/earnings-result/AMZN-Q2-2026-Earnings-Release.pdf",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/08/07/amazon-amzn-q2-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "slides": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/presentation/Webslides_Q126.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/04/29/amazon-amzn-q1-2026-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-05",
+   "slides": "https://s2.q4cdn.com/299287126/files/doc_financials/2025/q4/Webslides_Q425.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s2.q4cdn.com/299287126/files/doc_earnings/2025/q4/earnings-result/AMZN-Q4-2025-Earnings-Release.pdf",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-30",
+   "slides": "https://s2.q4cdn.com/299287126/files/doc_financials/2025/q3/Webslides_Q325.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s2.q4cdn.com/299287126/files/doc_financials/2025/q3/AMZN-Q3-2025-Earnings-Release.pdf",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/10/31/amazon-amzn-q3-2025-earnings-call-transcript/"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-31",
+   "slides": "https://s2.q4cdn.com/299287126/files/doc_financials/2025/q2/Webslides_Q225.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s2.q4cdn.com/299287126/files/doc_financials/2025/q2/AMZN-Q2-2025-Earnings-Release.pdf",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "slides": "https://s2.q4cdn.com/299287126/files/doc_financials/2025/q1/Webslides_Q125-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s2.q4cdn.com/299287126/files/doc_financials/2025/q1/AMZN-Q1-2025-Earnings-Release.pdf",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-06",
+   "slides": "https://s2.q4cdn.com/299287126/files/doc_financials/2024/q4/Webslides_Q424_Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://s2.q4cdn.com/299287126/files/doc_financials/2024/q4/AMZN-Q4-2024-Earnings-Release.pdf",
+   "release_ok": true,
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/06/amazoncom-amzn-q4-2024-earnings-call-transcript/"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000158/amzn-20240930xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000128/amzn-20240630xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/30/amazoncom-amzn-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000081/amzn-20240331xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/01/amazoncom-amzn-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000006/amzn-20231231xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/26/amazoncom-amzn-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000016/amzn-20230930xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/03/amazoncom-amzn-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000010/amzn-20230630xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/04/28/amazoncom-amzn-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000006/amzn-20230331xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/02/amazoncom-amzn-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000002/amzn-20221231xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/27/amazon-amzn-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/28/amazon-amzn-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/28/amazon-amzn-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/04/amazon-amzn-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/29/amazon-amzn-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/30/amazon-amzn-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/amazon-amzn-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/03/amazon-amzn-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/amazon-amzn-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/amazon-amzn-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/amazoncom-inc-amzn-q1-2020-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/31/amazoncom-inc-amzn-q4-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/24/amazoncom-inc-amzn-q3-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/26/amazoncom-inc-amzn-q2-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/25/amazoncom-inc-amzn-q1-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/31/amazoncom-inc-amzn-q4-2018-earnings-conference-cal.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/26/amazoncom-inc-amzn-q3-2018-earnings-conference-cal.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/27/amazon-amzn-q2-2018-earnings-conference-call-trans.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/26/amazoncom-inc-amzn-q1-2018-earnings-conference-cal.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/01/amazoncom-inc-amzn-q4-2017-earnings-conference-cal.aspx"
+  }
+ ],
+ "events": []
+}

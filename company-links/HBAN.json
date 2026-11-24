@@ -1,0 +1,169 @@
+{
+ "ticker": "HBAN",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000006/hban20251231_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919625000075/hban20250930_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919625000056/hban20250630_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919625000029/hban20250331_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919625000006/hban20241231_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919624000089/hban20240930_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919624000070/hban20240630_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919624000042/hban20240331_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919624000006/hban20231231_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919623000091/hban20230930_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919623000078/hban20230630_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919623000033/hban20230331_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/49196/000004919623000006/hban20221231_8kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/21/huntington-bancshares-hban-q2-2022-earnings-call-t/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/21/huntington-bancshares-hban-q1-2022-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/21/huntington-bancshares-hban-q4-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/huntington-bancshares-incorporated-hban-q3-2021-ea/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/29/huntington-bancshares-incorporated-hban-q2-2021-ea/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/22/huntington-bancshares-inc-hban-q1-2021-earnings-ca/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/22/huntington-bancshares-inc-hban-q4-2020-earnings-ca/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/22/huntington-bancshares-incorporated-hban-q3-2020-ea/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/23/huntington-bancshares-incorporated-hban-q2-2020-ea.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/23/huntington-bancshares-inc-hban-q1-2020-earnings-ca.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/23/huntington-bancshares-incorporated-hban-q4-2019-ea.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/24/huntington-bancshares-inc-hban-q3-2019-earnings-ca.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/25/huntington-bancshares-incorporated-hban-q2-2019-ea.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/26/huntington-bancshares-incorporated-hban-q1-2019-ea.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/24/huntington-bancshares-incoh-hban-q4-2018-earnings.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/23/huntington-bancshares-inc-hban-q3-2018-earnings-co.aspx"
+  }
+ ]
+}

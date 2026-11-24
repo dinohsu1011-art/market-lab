@@ -1,0 +1,69 @@
+{
+ "ticker": "SOLV",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000055/q32026-8kerexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000045/q22026-8kerexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000022/q12026-8kerexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1964738/000196473826000005/q42025-8kerexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-06",
+   "slides": "https://investors.solventum.com/_assets/_9bf395cafcab1f314bf412d77f4d9fb0/solventum/db/3734/35221/shareholder_letter/SOLV+2025+Q3+Shareholder+Letter_11142025_vF.pdf",
+   "slides_kind": "letter",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1964738/000196473825000089/q32025-8kerexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1964738/000196473825000062/q22025-8kerexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1964738/000196473825000049/q12025-8kerexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1964738/000196473825000013/q42024-8kerexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1964738/000196473824000040/q32024-8kerexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/1964738/000196473824000017/q22024-8kerexx991.htm",
+   "release_ok": true
+  }
+ ],
+ "ir": "https://investors.solventum.com/"
+}

@@ -1,0 +1,95 @@
+{
+ "ticker": "BNY",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex991_earningsreleasex3q26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000071/ex991_earningsreleasex2q26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000042/ex991_earningsreleasex1q26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000004/ex991_earningsreleasex4q25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077725000100/ex991_earningsreleasex2q25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077725000056/ex991_earningsreleasex1q25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077725000015/ex991_earningsreleasex4q24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077724000115/ex991_earningsreleasex3q24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077724000091/ex991_earningsreleasex2q24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077724000061/ex991_earningsreleasex1q24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077724000003/ex991_earningsreleasex4q23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077723000088/ex991_earningsreleasex3q23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077723000066/ex991_earningsreleasex2q23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077723000042/ex991_earningsreleasex1q23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1390777/000139077723000002/ex991_earningsreleasex4q22.htm",
+   "release_ok": true
+  }
+ ]
+}

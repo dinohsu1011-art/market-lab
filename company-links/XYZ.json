@@ -1,0 +1,43 @@
+{
+ "ticker": "XYZ",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "slides": "https://s29.q4cdn.com/628966176/files/content_files/Q3-2026-Shareholder-Letter_Block.pdf",
+   "slides_kind": "letter",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069513/q32026shareholderletter.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "slides": "https://s29.q4cdn.com/628966176/files/doc_financials/2026/q2/Q2-2026-Shareholder-Letter.pdf",
+   "slides_kind": "letter",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1512673/000119312526335117/d91486dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "slides": "https://s29.q4cdn.com/628966176/files/doc_financials/2026/q1/Block_Q1-2026-Shareholder-Letter.pdf",
+   "slides_kind": "letter",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1512673/000119312526212032/d132441dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-26",
+   "slides": "https://s29.q4cdn.com/628966176/files/doc_financials/2025/q4/Q4-2025-Shareholder-Letter_Block.pdf",
+   "slides_kind": "letter",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1512673/000119312526076557/d108590dex991.htm",
+   "release_ok": true
+  }
+ ],
+ "ir": "https://investors.block.xyz",
+ "results": "https://investors.block.xyz/financials/quarterly-earnings-reports/default.aspx"
+}

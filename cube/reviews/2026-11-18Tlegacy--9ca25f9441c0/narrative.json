@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold and participation is narrow.",
+    "summary": "SPY is -3.2% week to date; QQQ -3.0%; high beta versus low beta is -9.7% over one month (8th percentile); leader breadth is -8.0 points versus the index; 57% of S&P names are above the 50-day; net 52-week highs are -9; CDN / Edge leads themes at +4.5% week to date.",
+    "market": "SPY is -3.2% week to date; QQQ -3.0%.",
+    "winners": "CDN / Edge +4.5%, Cybersecurity +3.3%, Networking -0.0%.",
+    "laggards": "Residential Solar -13.5%, Space -12.9%, Industrial Solar -11.7%.",
+    "why": "Weak high beta and narrow participation point to a broad contraction in risk appetite; high beta/low beta -9.7%, leader breadth spread -8.0pt, 57% above the 50-day.",
+    "comparison": "Since 2026-11-17, the Risk-off call is unchanged; high beta +2.0pt, leader spread -4.6pt, 50-day breadth -1.4pt. Weekly leadership changed from Consumer Staples to CDN / Edge.",
+    "tally": "0 of 4 risk gauges and 1 of 6 participation gauges are above their five-year medians",
+    "volume": "AES printed 10.98\u00d7 relative volume on a +0.3% day, while NVDA printed 7.07\u00d7 relative volume on a -4.3% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

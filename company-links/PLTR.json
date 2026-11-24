@@ -1,0 +1,155 @@
+{
+ "ticker": "PLTR",
+ "ir": "https://investors.palantir.com/",
+ "results": "https://investors.palantir.com/financials/quarterly-results",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-02",
+   "slides": "https://investors.palantir.com/files/Palantir%20-%20Q3%202026%20Business%20Update.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.palantir.com/news-details/2026/Palantir-Reports-Q3-2026-U-S--Comm-Revenue-Growth-of-148-YY-and-Revenue-Growth-of-96-YY-Raises-FY-2026-Revenue-Guidance-to-91-YY-Growth-and-U-S--Comm-Revenue-Guidance-to-143-YY-Crushing-Consensus-Expectations/"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-03",
+   "slides": "https://investors.palantir.com/files/Palantir%20-%20Q2%202026%20Business%20Update.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.palantir.com/news-details/2026/Palantir-Reports-Q2-2026-U-S--Comm-Revenue-Growth-of-149-YY-and-Revenue-Growth-of-93-YY-Raises-FY-2026-Revenue-Guidance-to-82-YY-Growth-and-U-S--Comm-Revenue-Guidance-to-134-YY-Crushing-Consensus-Expectations/"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-04",
+   "slides": "https://investors.palantir.com/files/Palantir%20-%20Q1%202026%20Business%20Update.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.palantir.com/news-details/2026/Palantir-Reports-Q1-2026-U-S--Revenue-Growth-of-104-YY-and-Revenue-Growth-of-85-YY-Raises-FY-2026-Revenue-Guidance-to-71-YY-Growth-and-U-S--Comm-Revenue-Guidance-to-120-YY-Crushing-Consensus-Expectations/"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-02",
+   "slides": "https://investors.palantir.com/files/Palantir%20-%20Q4%202025%20Investor%20Presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.palantir.com/news-details/2026/Palantir-Reports-Q4-2025-U-S--Comm-Revenue-Growth-of-137-YY-and-Revenue-Growth-of-70-YY-Issues-FY-2026-Revenue-Guidance-of-61-YY-and-U-S--Comm-Revenue-Guidance-of-115-YY-Crushing-Consensus-Expectations/"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-03",
+   "slides": "https://investors.palantir.com/files/Palantir%20-%20Q3%202025%20Investor%20Presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.palantir.com/news-details/2025/Palantir-Reports-Q3-2025-U-S--Comm-Revenue-Growth-of-121-YY-and-Revenue-Growth-of-63-YY-Guides-Q4-Revenue-to-61-YY-and-U-S--Comm-Revenue-to-121-YY-Raises-FY-2025-Revenue-Guidance-to-53-YY-Crushing-Consensus-Expectations/"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-05",
+   "slides": "https://investors.palantir.com/files/Palantir%20-%20Q1%202025%20Investor%20Presentation.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.palantir.com/news-details/2025/Palantir-Reports-Q1-2025-Revenue-Growth-of-39-YY-U-S--Revenue-Growth-of-55-YY-Raises-FY-2025-Revenue-Guidance-to-36-YY-Growth-and-U-S--Comm-Revenue-Guidance-to-68-YY-Crushing-Consensus-Expectations/",
+   "transcript": "https://www.insidermonkey.com/blog/palantir-technologies-inc-nasdaqpltr-q1-2025-earnings-call-transcript-1526681/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/04/palantir-technologies-pltr-q4-2024-earnings-call-t/",
+   "slides": "https://investors.palantir.com/files/Palantir%20Q4%202024%20Business%20Update.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.palantir.com/news-details/2025/Palantir-Reports-Q4-2024-Revenue-Growth-of-36-YY-U.S.-Revenue-Growth-of-52-YY-Issues-FY-2025-Revenue-Guidance-of-31-YY-Growth-Eviscerating-Consensus-Estimates/"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/04/palantir-technologies-pltr-q3-2024-earnings-call-t/",
+   "slides": "https://investors.palantir.com/files/Palantir%20Q3%202024%20Business%20Update.pdf",
+   "slides_kind": "slides",
+   "release": "https://investors.palantir.com/news-details/2024/Palantir-Reports-Revenue-Growth-of-30-YY-U.S.-Revenue-Growth-of-44-YY-GAAP-EPS-of-0.06-Raises-Full-Year-Guidance-on-Revenue-U.S.-Comm-Revenue-Adj.-Free-Cash-Flow-Adj.-Op.-Income-Above-Consensus-Estimates-on-AI-Demand-that-Wont-Slow-Down/"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/05/palantir-technologies-pltr-q2-2024-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000133/a2024q2ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/06/palantir-technologies-pltr-q1-2024-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000069/a2024q1ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/05/palantir-technologies-pltr-q4-2023-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000010/a2023q4ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/02/palantir-technologies-pltr-q3-2023-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000115/a2023q3ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/07/palantir-technologies-pltr-q2-2023-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000086/a2023q2ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/09/palantir-technologies-pltr-q1-2023-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000042/a2023q1ex991earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/14/palantir-technologies-pltr-q4-2022-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1321655/000132165523000005/a2022q4ex991pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/07/palantir-technologies-inc-pltr-q3-2022-earnings-ca/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/08/palantir-technologies-inc-pltr-q2-2022-earnings-ca/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/09/palantir-technologies-inc-pltr-q1-2022-earnings-ca/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/17/palantir-technologies-inc-pltr-q4-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/09/palantir-technologies-inc-pltr-q3-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/12/palantir-technologies-inc-pltr-q2-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/11/palantir-technologies-inc-pltr-q1-2021-earnings-ca/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/16/palantir-technologies-inc-pltr-q4-2020-earnings-ca/"
+  }
+ ]
+}

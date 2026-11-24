@@ -1,0 +1,132 @@
+{
+ "ticker": "NTAP",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-09-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002047/000100204726000003/ntap-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-05-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002047/000119312526245196/ntap-ex99_1.htm",
+   "release_ok": true,
+   "slides": "https://s21.q4cdn.com/371534297/files/doc_earnings/2026/q4/presentation/q4-presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-11-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002047/000119312525297164/ntap-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002047/000095017025029022/ntap-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-11-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002047/000095017024129714/ntap-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-08-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002047/000095017024101383/ntap-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-05-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002047/000095017024066567/ntap-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-02-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002047/000095017024023060/ntap-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-11-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002047/000095017023066400/ntap-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-08-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002047/000095017023044130/ntap-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-05-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002047/000095017023025324/ntap-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-02-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1002047/000095017023003745/ntap-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2020-12-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/12/02/netapp-ntap-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-08-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/27/netapp-ntap-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-05-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/27/netapp-inc-ntap-q4-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/13/netapp-inc-ntap-q3-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-11-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/13/netapp-inc-ntap-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-08-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/14/netapp-inc-ntap-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-05-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/22/netapp-inc-ntap-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/14/netapp-inc-ntap-q3-2019-earnings-conference-call-t.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2018-11-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/14/netapp-inc-ntap-q2-2019-earnings-conference-call-t.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-05-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/23/netapp-inc-ntap-q4-2018-earnings-conference-call-t.aspx"
+  }
+ ],
+ "ir": "https://investors.netapp.com/",
+ "results": "https://investors.netapp.com/financials/quarterly-results/default.aspx"
+}

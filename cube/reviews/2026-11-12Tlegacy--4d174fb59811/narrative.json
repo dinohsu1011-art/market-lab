@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold into a mixed tape.",
+    "summary": "SPY is +3.0% week to date; QQQ +4.9%; high beta versus low beta is -10.7% over one month (7th percentile); leader breadth is -4.6 points versus the index; 71% of S&P names are above the 50-day; net 52-week highs are +6; Connectivity leads themes at +17.3% week to date.",
+    "market": "SPY is +3.0% week to date; QQQ +4.9%.",
+    "winners": "Connectivity +17.3%, Memory +16.8%, Behind-the-meter power +16.0%.",
+    "laggards": "Residential Solar -10.8%, Industrial Solar -5.5%, Metals \u2014 Miners -4.4%.",
+    "why": "The pattern points to rotation away from established high-beta leadership, not indiscriminate index selling; high beta/low beta -10.7%, leader breadth spread -4.6pt, 71% above the 50-day.",
+    "comparison": "Since 2026-11-11, the call moved from Risk-off under a firm index to Risk-off; high beta +3.2pt, leader spread +3.0pt, 50-day breadth -2.0pt.",
+    "tally": "0 of 4 risk gauges and 3 of 6 participation gauges are above their five-year medians",
+    "volume": "FOXA printed 10.00\u00d7 relative volume on a -0.5% day, while NVDA printed 7.02\u00d7 relative volume on a -4.3% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

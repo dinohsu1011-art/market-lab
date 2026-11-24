@@ -1,0 +1,180 @@
+{
+ "ticker": "SLB",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312526429435/d151271dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312526174940/d111579dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312526020133/d59412dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312525160817/d63402dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312525094916/d704132dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312525008046/d902232dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312524239201/d837842dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312524181280/d696444dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312524101633/d778868dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312524010748/d142783dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312523259572/d543242dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312523190924/d530224dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312523109226/d677638dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/87347/000119312523011445/d425971dex99.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/22/schlumberger-slb-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/22/schlumberger-slb-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/21/schlumberger-slb-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/22/schlumberger-limited-slb-q3-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/23/schlumberger-limited-slb-q2-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/23/schlumberger-limited-slb-q1-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/22/schlumberger-limited-slb-q4-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/16/schlumberger-limited-slb-q3-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/24/schlumberger-limited-slb-q2-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/17/schlumberger-nv-slb-q1-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/17/schlumberger-nv-slb-q4-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/18/schlumberger-nv-slb-q3-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/19/schlumberger-nv-slb-q2-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/18/schlumberger-nv-slb-q1-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/18/schlumberger-nv-slb-q4-2018-earnings-conference-ca.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/19/schlumberger-nv-slb-q3-2018-earnings-conference-ca.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/20/schlumberger-nv-slb-q2-2018-earnings-conference-ca.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/20/schlumberger-nv-slb-q1-2018-earnings-conference-ca.aspx"
+  }
+ ],
+ "ir": "https://investorcenter.slb.com/"
+}

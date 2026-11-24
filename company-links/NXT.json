@@ -1,0 +1,42 @@
+{
+ "ticker": "NXT",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/28/nextpower-nxt-q2-2027-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1852131/000185213126000055/ex991_q227.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-05-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1852131/000185213126000014/ex991_q426.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-01-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1852131/000185213126000003/ex991_q326.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1852131/000185213125000061/ex991_q226.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1852131/000185213125000047/ex991_q126.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1852131/000185213124000022/ex991_q225.htm",
+   "release_ok": true
+  }
+ ]
+}

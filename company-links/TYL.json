@@ -1,0 +1,120 @@
+{
+ "ticker": "TYL",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/29/tyler-technologies-tyl-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000056/a991earningsrelease-9302026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000048/a991earningsrelease-6302026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "slides": "https://s201.q4cdn.com/385562537/files/doc_financials/2026/q1/Q1-2026-Earnings-Prepared-Remarks.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000031/a991earningsrelease-3312026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000013/a991earningsrelease12312025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073125000024/a991earningsrelease-3312025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073125000003/a991earningsrelease12312024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073124000050/a991earningsrelease-9302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073124000039/a991earningsrelease-6302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073124000023/a991earningsrelease-3312024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073124000003/a991earningsrelease12312023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073123000035/a991earningsrelease-9302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073123000026/a991earningsrelease-6302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073123000016/a991earningsrelease-3312023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/860731/000086073123000004/a991earningsrelease12312022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/tyler-technologies-inc-tyl-q3-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/30/tyler-technologies-inc-tyl-q2-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/tyler-technologies-inc-tyl-q1-2021-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/10/tyler-technologies-inc-tyl-q4-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/02/tyler-technologies-tyl-q1-2020-earnings-call-trans.aspx"
+  }
+ ],
+ "ir": "https://investors.tylertech.com/",
+ "results": "https://investors.tylertech.com/financials/quarterly-results/default.aspx"
+}

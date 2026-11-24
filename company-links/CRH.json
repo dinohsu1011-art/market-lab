@@ -1,0 +1,23 @@
+{
+ "ticker": "CRH",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/849395/000084939526000012/q3resultsannouncement2026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/849395/000162828026050752/q2resultsannouncement2026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/849395/000162828026028554/q1resultsannouncement2026.htm",
+   "release_ok": true
+  }
+ ]
+}

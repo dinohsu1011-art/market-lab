@@ -1,0 +1,157 @@
+{
+ "ticker": "CPRT",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-09-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/900075/000119312526387902/cprt-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/900075/000119312526234447/cprt-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-02-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/900075/000119312526059440/cprt-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-02-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/900075/000090007525000003/cprt1312025ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-11-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/900075/000090007524000027/cprt10312024ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-09-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/900075/000090007524000019/cprt07312024ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-05-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/900075/000090007524000011/cprt4302024ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-02-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/900075/000090007524000004/cprt1312024ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-11-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/900075/000090007523000037/cprt10312023ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-09-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/900075/000090007523000027/cprt07312023ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-05-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/900075/000090007523000017/cprt4302023ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-02-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/900075/000090007523000004/cprt1312023ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-09-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/09/08/copart-cprt-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-05-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/19/copart-cprt-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-11-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/18/copart-inc-cprt-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-09-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/09/09/copart-inc-cprt-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-05-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/20/copart-inc-cprt-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-02-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/19/copart-inc-cprt-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-11-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/19/copart-inc-cprt-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-09-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/09/03/copart-inc-cprt-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-05-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/21/copart-inc-cprt-q3-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/20/copart-inc-cprt-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-11-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/21/copart-inc-cprt-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-09-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/09/05/copart-inc-cprt-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-05-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/23/copart-inc-cprt-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-02-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/21/copart-inc-cprt-q2-2019-earnings-conference-call-t.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-11-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/21/copart-inc-cprt-q1-2019-earnings-conference-call-t.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-09-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/09/20/copart-cprt-q4-2018-earnings-conference-call-trans.aspx"
+  }
+ ]
+}

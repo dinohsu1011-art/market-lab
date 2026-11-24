@@ -1,0 +1,159 @@
+{
+ "ticker": "BX",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526428297/d160590dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526171788/d60443dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312526028145/d92648dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525163805/d83435dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525083472/d894616dex991.htm",
+   "release_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/blackstone-inc-nysebx-q1-2025-earnings-call-transcript-1511415/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/30/blackstone-bx-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312525016236/d876858dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/17/blackstone-bx-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312524238418/d844809dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/18/blackstone-bx-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312524180721/d25511dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/18/blackstone-bx-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312524099867/d781420dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/25/blackstone-bx-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312524014831/d701698dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/19/blackstone-bx-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312523258911/d515078dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/20/blackstone-bx-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312523190073/d536731dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312523107336/d500964dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/26/blackstone-bx-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1393818/000119312523015663/d453228dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/20/blackstone-inc-bx-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/21/the-blackstone-group-inc-bx-q2-2022-earnings-call/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/27/the-blackstone-group-bx-q4-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/22/the-blackstone-group-lp-bx-q3-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/22/the-blackstone-group-lp-bx-q2-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/22/blackstone-group-lp-bx-q1-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/27/blackstone-group-lp-bx-q4-2020-earnings-call-trans/"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/blackstone-group-lp-bx-q4-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/23/blackstone-group-lp-bx-q3-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/18/blackstone-group-lp-bx-q2-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/18/blackstone-group-lp-bx-q1-2019-earnings-call-trans.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/31/blackstone-group-lp-bx-q4-2018-earnings-conference.aspx"
+  }
+ ],
+ "ir": "https://ir.blackstone.com/"
+}

@@ -1,0 +1,157 @@
+{
+ "ticker": "VRSK",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/11/05/verisk-vrsk-q3-2026-earnings-call-transcript/",
+   "slides": "https://s29.q4cdn.com/767340216/files/content_files/3Q-2026-Earnings-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926035082/ex_1007822.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926024748/ex_968691.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926013728/ex_926417.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774926004451/ex_895228.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774925032072/ex_856088.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774925023861/ex_820890.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-07",
+   "transcript": "https://s29.q4cdn.com/767340216/files/doc_financials/2025/q1/CORRECTED-TRANSCRIPT_-Verisk-Analytics-Inc-VRSK-US-Q1-2025-Earnings-Call-7-May-2025-8_30-AM-ET.pdf",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774925014906/ex_770468.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774925005158/ex_702488.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774924032535/ex_716872.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774924023984/ex_687125.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774924014063/ex_631742.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774924004938/ex_584024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774923029652/ex_559192.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774923021528/ex_521059.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-03-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1442145/000143774923004943/ex_431591.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/verisk-analytics-inc-vrsk-q3-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/verisk-analytics-inc-vrsk-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/verisk-analytics-inc-vrsk-q1-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/24/verisk-analytics-inc-vrsk-q4-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/verisk-analytics-vrsk-q1-2020-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/19/verisk-analytics-vrsk-q4-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/verisk-analytics-vrsk-q3-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/31/verisk-analytics-vrsk-q2-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/verisk-analytics-vrsk-q1-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/20/verisk-analytics-inc-vrsk-q4-2018-earnings-confere.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/31/verisk-analytics-inc-vrsk-q3-2018-earnings-confere.aspx"
+  }
+ ],
+ "ir": "https://investor.verisk.com/",
+ "results": "https://investor.verisk.com/financials/quarterly-results/default.aspx"
+}

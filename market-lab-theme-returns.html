@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" data-eq data-workspace="home">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indexes and volume · Equinox</title>
+<script>(function(h){if(h.indexOf("|")>0)location.replace("market-lab-themes.html"+h)})(location.hash)</script>
+<link rel="stylesheet" href="market-lab-index-weights.css?v=20261123-1110b792">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="market-lab-bar.css?v=20261123-1110b792">
+<link rel="stylesheet" href="market-lab-eq.css?v=20261123-1110b792">
+<script src="market-lab-shell.js?v=20261123-1110b792"></script>
+</head>
+<body>
+<div class="page">
+  <nav class="side" aria-label="On this page">
+    <a href="#index-weights" class="on">What the indexes are made of</a><a href="#index-history">Changes since 2010</a><a href="#volume">Basket volume</a>
+  </nav>
+  <main>
+    <h1>Indexes and volume</h1>
+    <section id="index-weights" class="legacy" aria-label="S&amp;P 500 and Nasdaq-100 weights" hidden></section>
+    <section id="index-history" class="legacy" aria-label="How the S&amp;P 500 and Nasdaq-100 have changed since 2010" hidden></section>
+    <section id="volume"><h2 title="Dollar volume over the past 5 sessions against each stock's own pace over the prior year, added up across the basket. Above 1 means heavier trading than usual.">Basket volume acceleration <small id="bvStamp"></small></h2>
+      <table id="bvTable" class="sticky"><thead class="stick"></thead><tbody></tbody></table></section>
+  </main>
+</div>
+<script src="market-lab-eq.js?v=20261123-1110b792"></script>
+<script src="cube/index-weights.js?v=20261123-1110b792"></script>
+<script src="market-lab-index-weights.js?v=20261123-1110b792"></script>
+<script src="cube/index-history.js?v=20261123-1110b792"></script>
+<script src="market-lab-index-history.js?v=20261123-1110b792"></script>
+<script src="market-lab-eq-indexes.js?v=20261123-1110b792"></script>
+</body>
+</html>

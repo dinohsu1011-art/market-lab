@@ -1,0 +1,104 @@
+{
+ "ticker": "UAL",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000184/ual_erx09302026xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000089/ual_erx03312026xex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/100517/000010051726000014/ual_12312025erex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000087/ual_03312025erex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/100517/000010051725000013/ual_12312024erex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/100517/000010051724000132/ual_09302024erex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/100517/000010051724000117/ual_06302024erex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/100517/000010051724000076/ual_03312024erex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/100517/000010051724000016/ual_12312023erex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/100517/000010051723000182/ual_09302023erex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/100517/000010051723000150/ual_06302023erex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/100517/000010051723000113/ual_03312023erex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/100517/000010051723000016/ual_12312022erex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/21/united-airlines-holdings-inc-ual-q3-2021-earnings/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/21/united-airlines-holdings-inc-ual-q2-2021-earnings/"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/16/united-continental-holdings-inc-ual-q4-2018-earnin.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/17/united-continental-holdings-inc-ual-q3-2018-earnin.aspx"
+  }
+ ],
+ "ir": "https://ir.united.com"
+}

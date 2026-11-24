@@ -1,0 +1,161 @@
+{
+ "ticker": "CBRE",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1138118/000113811826000028/cbre-20261022x8kexx991.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_3cd7744a8c9a287330c00dd4c92e6992/cbre/db/3606/33474/presentation/2026+Q3+Earnings+Slides+Final.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1138118/000113811826000021/cbre-20260723x8kexx991.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_3cd7744a8c9a287330c00dd4c92e6992/cbre/db/3606/33472/presentation/2026+Q2+Earnings+Slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1138118/000113811826000002/cbre-20260212x8kexx991.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_3cd7744a8c9a287330c00dd4c92e6992/cbre/db/3606/33456/presentation/Q4+2025+Earnings+Slides+vFinal.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1138118/000113811825000008/cbre-20250424x8kexx991.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_3cd7744a8c9a287330c00dd4c92e6992/cbre/db/3606/33435/presentation/Q1+2025+-+CBRE+Earnings+Slides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_3cd7744a8c9a287330c00dd4c92e6992/cbre/db/3606/33435/webcast_transcript/Q1+2025+-+Earnings+Call+Transcript.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1138118/000113811825000002/cbre-20250213x8kexx991.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_3cd7744a8c9a287330c00dd4c92e6992/cbre/db/3606/33427/presentation/Q4+2024+Earnings+Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_3cd7744a8c9a287330c00dd4c92e6992/cbre/db/3606/33427/webcast_transcript/Q4+2024+CBRE+Earnings+Call+Transcript.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1138118/000113811824000027/cbre-20241024x8kexx991.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_3cd7744a8c9a287330c00dd4c92e6992/cbre/db/3606/33420/presentation/Q3%2724+Earnings+Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://d1io3yog0oux5.cloudfront.net/_3cd7744a8c9a287330c00dd4c92e6992/cbre/db/3606/33420/webcast_transcript/Q3+2024+CBRE+Earnings+Transcript.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1138118/000113811824000021/cbre-20240725x8kexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1138118/000113811824000011/cbre-20240503x8kexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/1138118/000113811824000003/cbre-20240215x8kexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1138118/000162828023035352/cbre-20231027x8kexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1138118/000113811823000022/cbre-20230727x8kexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1138118/000113811823000013/cbre-20230427x8kexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1138118/000113811823000005/cbre-20220223x8kexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/cbre-group-inc-cbre-q3-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/29/cbre-group-inc-cbre-q2-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/cbre-group-inc-cbre-q1-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/23/cbre-group-inc-cbre-q4-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/cbre-group-inc-cbre-q2-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/27/cbre-group-inc-cbre-q4-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/06/cbre-group-inc-cbre-q3-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/01/cbre-group-inc-cbre-q2-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/08/cbre-group-inc-cbre-q1-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/13/cbre-group-inc-cbre-q4-2018-earnings-conference-ca.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/cbre-group-inc-cbre-q3-2018-earnings-conference-ca.aspx"
+  }
+ ],
+ "ir": "https://ir.cbre.com/",
+ "results": "https://ir.cbre.com/financial-reports"
+}

@@ -1,0 +1,132 @@
+{
+ "ticker": "DPZ",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000128668126000039/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000128668126000024/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000119312526062313/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000119312525237850/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000095017025097060/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000095017025058920/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/24/dominos-pizza-dpz-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000095017025025220/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000095017024113945/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000095017024084430/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000095017024049416/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000095017024019724/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000095017023052989/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000095017023033920/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000095017023015001/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1286681/000095017023003937/dpz-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/14/dominos-pizza-inc-dpz-q3-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/22/dominos-pizza-inc-dpz-q2-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/dominos-pizza-inc-dpz-q1-2021-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/25/dominos-pizza-inc-dpz-q4-2020-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/08/dominos-pizza-inc-dpz-q3-2020-earnings-call-transc/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/16/dominos-pizza-inc-dpz-q2-2020-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/23/dominos-pizza-inc-dpz-q1-2020-earnings-call-transc.aspx"
+  }
+ ],
+ "ir": "https://ir.dominos.com"
+}

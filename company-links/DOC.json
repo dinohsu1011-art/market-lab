@@ -1,0 +1,82 @@
+{
+ "ticker": "DOC",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/765880/000162828026068878/ex99109302026.htm",
+   "release_ok": true,
+   "slides": "https://s202.q4cdn.com/584270836/files/content_files/Healthpeak-Supplemental-Report-09-30-2026.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/765880/000162828026052608/ex99106302026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/765880/000162828026030561/ex99103312026.htm",
+   "release_ok": true,
+   "slides": "https://s202.q4cdn.com/584270836/files/doc_financials/2026/q1/Healthpeak-Supplemental-Report-03-31-2026.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/765880/000162828026004623/ex99112312025.htm",
+   "release_ok": true,
+   "slides": "https://s202.q4cdn.com/584270836/files/doc_financials/2025/q4/Healthpeak-Supplemental-Report-12-31-2025.pdf",
+   "slides_kind": "supplement",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/765880/000162828025035929/ex99106302025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/765880/000162828025019678/ex99103312025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/765880/000162828025003464/ex99112312024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/765880/000162828024043625/ex99109302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/765880/000162828024032991/ex99106302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/765880/000162828024018179/ex99103312024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/765880/000162828024003886/ex99112312023.htm",
+   "release_ok": true
+  }
+ ],
+ "ir": "https://ir.healthpeak.com",
+ "results": "https://ir.healthpeak.com/quarterly-results"
+}

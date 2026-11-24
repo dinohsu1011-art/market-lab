@@ -1,0 +1,38 @@
+/* Leaders, Laggards and Full ranking: tables whose column headers do the ranking.
+   Loaded before market-lab-eq.css, so the rules here lean on ids and table.rk. */
+table.rk thead button{border-radius:3px}
+table.rk thead button::after{content:"";display:inline-block;width:0;height:0;margin-left:6px;vertical-align:middle;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid currentColor;opacity:0;transition:opacity .15s}
+table.rk thead button:hover::after{opacity:.35}
+table.rk thead th[aria-sort] button::after{opacity:1}
+table.rk thead th[aria-sort="ascending"] button::after{border-top:0;border-bottom:5px solid currentColor}
+table.rk thead button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+table.rk tbody td.soft.on{color:var(--ink);font-weight:600}
+
+/* full ranking */
+#rkBar{display:flex;align-items:center;gap:14px;margin-top:32px}
+#rkBar .chips{margin-left:-10px}
+#rkBar .find{margin:0;flex:none}
+#rkBar .find input{width:190px;height:36px;font-size:14px;padding:0 12px}
+#rkBar .find ul{top:42px;bottom:auto;left:0;right:auto;width:300px;max-height:360px;overflow-y:auto}
+#rkBar .find[hidden]{display:none}
+#rkBar #rkTextForm input{width:170px}
+#rkPicked{border:1px solid var(--border);background:var(--raised);color:var(--ink);font:600 14px/1 var(--sans);height:36px;padding:0 12px;border-radius:8px;cursor:pointer;white-space:nowrap;max-width:230px;overflow:hidden;text-overflow:ellipsis}
+#rkPicked[hidden]{display:none}
+#rkPicked span{margin-left:10px;color:var(--muted);font-weight:400}
+#rkPicked:hover span{color:var(--ink)}
+#rkBar .stamp{margin-left:auto;color:var(--faint);font-size:13px;white-space:nowrap}
+#rkNote{color:var(--muted);font-size:15px;margin:18px 0 0}
+#rkNote[hidden]{display:none}
+#rkNote .link{margin-left:14px}
+#rkTable{margin-top:12px;font-variant-numeric:tabular-nums}
+#rkTable th,#rkTable td{padding:10px 0 10px 12px}
+#rkTable th:first-child,#rkTable td:first-child{padding-left:0;padding-right:18px;width:44px;text-align:left}
+#rkTable td.name,#rkTable th.name{padding-left:0;max-width:190px}
+#rkTable td.none{text-align:left;color:var(--faint);padding:28px 0;font-weight:400}
+#rkTable .opt{display:none}
+#rkTable[data-wide="3Y"] .o-3Y,#rkTable[data-wide="low"] .o-low{display:table-cell}
+#rkTable[data-wide="3Y"] .px,#rkTable[data-wide="low"] .px{display:none}
+@media (min-width:1500px){#rkTable .opt,#rkTable[data-wide] .px{display:table-cell}#rkTable td.name,#rkTable th.name{max-width:250px}}
+#rkMore{display:flex;align-items:baseline;gap:20px;margin-top:18px;font-size:14px;color:var(--faint)}
+#rkMore button{border:0;background:none;padding:0;font:600 14px var(--sans);color:var(--ink);cursor:pointer}
+#rkMore button:hover{text-decoration:underline}

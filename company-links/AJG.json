@@ -1,0 +1,137 @@
+{
+ "ticker": "AJG",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/354190/000162828026068263/a3rdquarter2026earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/354190/000035419026000132/lab_exhibit991q1.htm",
+   "release_ok": true,
+   "slides": "https://s28.q4cdn.com/872121257/files/doc_financials/2026/q1/CFO-Commentary-Q1-2026-Earnings.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/354190/000119312526029407/d38405dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/354190/000119312525110014/d937401dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/354190/000119312525017328/d926210dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/354190/000119312524242871/d902917dex991.htm",
+   "release_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/arthur-j-gallagher-co-nyseajg-q3-2024-earnings-call-transcript-1380668/"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/354190/000119312524184856/d841953dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/354190/000119312524113968/d828567dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/354190/000119312524015499/d721955dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/354190/000119312523264115/d538669dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/354190/000119312523196121/d460519dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/354190/000119312523122244/d222048dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/354190/000119312523016262/d369508dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/arthur-j-gallagher-ajg-q3-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/29/arthur-j-gallagher-ajg-q2-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/29/arthur-jgallagher-co-ajg-q4-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/01/arthur-j-gallagher-co-ajg-q1-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/31/arthur-j-gallagher-co-ajg-q4-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/25/arthur-j-gallagher-co-ajg-q3-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/26/arthur-j-gallagher-co-ajg-q2-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/26/arthur-j-gallagher-co-ajg-q1-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/01/arthur-j-gallagher-co-ajg-q4-2018-earnings-confere.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/26/arthur-j-gallagher-co-ajg-q3-2018-earnings-confere.aspx"
+  }
+ ]
+}

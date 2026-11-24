@@ -1,0 +1,169 @@
+{
+ "ticker": "AKAM",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622226000097/exhibit991-q32026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622226000083/exhibit991-q22026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622226000054/exhibit991-q12026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622225000214/exhibit991-q22025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622225000146/exhibit991-q12025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622225000007/exhibit991-q42024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622224000214/exhibit991-q32024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622224000197/exhibit991-q22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622224000146/exhibit991-q12024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622224000013/exhibit991-q42023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622223000282/exhibit991-q32023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622223000246/exhibit991-q22023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622223000185/exhibit991-q12023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/1086222/000108622223000041/exhibit991-q42022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/09/akamai-technologies-akam-q2-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/03/akamai-technologies-akam-q1-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/16/akamai-technologies-akam-q4-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/akamai-technologies-akam-q3-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/akamai-technologies-akam-q2-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/akamai-technologies-akam-q1-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/10/akamai-technologies-akam-q4-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/28/akamai-technologies-akam-q3-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/29/akamai-technologies-akam-q2-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/29/akamai-technologies-inc-akam-q1-2020-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/11/akamai-technologies-inc-akam-q4-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/28/akamai-technologies-inc-akam-q3-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/30/akamai-technologies-inc-akam-q2-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/30/akamai-technologies-akam-q1-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/13/akamai-technologies-akam-q4-2018-earnings-conferen.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/29/akamai-technologies-inc-akam-q3-2018-earnings-conf.aspx"
+  }
+ ]
+}

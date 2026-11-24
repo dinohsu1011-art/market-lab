@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off under a firm index",
+    "detail": "Breadth is counting a defensive rotation as health.",
+    "summary": "SPY is +2.0% week to date; QQQ +2.8%; high beta versus low beta is -16.8% over one month (2nd percentile); leader breadth is -14.8 points versus the index; 70% of S&P names are above the 50-day; net 52-week highs are +25; Behind-the-meter power leads themes at +11.3% week to date.",
+    "market": "SPY is +2.0% week to date; QQQ +2.8%.",
+    "winners": "Behind-the-meter power +11.3%, Space +11.0%, Power Semis +10.3%.",
+    "laggards": "Residential Solar -7.3%, Industrial Solar -3.8%, Metals \u2014 Miners +0.2%.",
+    "why": "The pattern points to rotation away from established high-beta leadership, not indiscriminate index selling; high beta/low beta -16.8%, leader breadth spread -14.8pt, 70% above the 50-day.",
+    "comparison": "Since 2026-11-09, the Risk-off under a firm index call is unchanged; high beta +1.0pt, leader spread +2.2pt, 50-day breadth -0.2pt. Weekly leadership changed from Space to Behind-the-meter power.",
+    "tally": "0 of 4 risk gauges and 5 of 6 participation gauges are above their five-year medians",
+    "volume": "FOXA printed 10.00\u00d7 relative volume on a -0.5% day, while ECG printed 7.71\u00d7 relative volume on a -29.3% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

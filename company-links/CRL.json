@@ -1,0 +1,95 @@
+{
+ "ticker": "CRL",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000156/crl3q26earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000115/crl2q26earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000036/crl1q26earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000110068226000020/crl4q25earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000110068225000041/crl3q25earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000110068225000019/crl1q25earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000110068225000009/crl4q24earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000110068224000033/crl3q24earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000110068224000025/crl2q24earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000110068224000014/crl1q24earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000115752324000238/a53896037ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000115752323001678/a53773748ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000115752323001294/a53513759ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000115752323000819/a53397649ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1100682/000115752323000326/a53335402_ex991.htm",
+   "release_ok": true
+  }
+ ]
+}

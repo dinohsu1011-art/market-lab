@@ -1,0 +1,135 @@
+{
+ "ticker": "FICO",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000081454726000037/exhibit991erq42026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000081454726000031/exhibit991erq32026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000081454726000020/exhibit991erq22026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-01-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000081454726000010/exhibit991erq12026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000081454725000026/exhibit991erq42025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000081454725000015/exhibit991erq22025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000081454725000007/exhibit991erq12025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000162828024045723/exhibit991erq42024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000081454724000026/exhibit991erq32024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000081454724000015/exhibit991erq22024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-01-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000115752324000116/a53887897ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-11-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000115752323001687/a53786138ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-08-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000115752323001229/a53503438ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000115752323000638/a53388941ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-01-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/814547/000115752323000102/a53291868ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-11-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/10/fair-isaac-corporation-fico-q4-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/03/fair-isaac-corporation-fico-q3-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/06/fair-isaac-corp-fico-q2-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/28/fair-isaac-corp-fico-q1-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-11-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/10/fair-isaac-corp-fico-q4-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/29/fair-isaac-corp-fico-q3-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/fair-isaac-corp-fico-q2-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/31/fair-isaac-corp-fico-q1-2020-earnings-call-transcr.aspx"
+  }
+ ]
+}

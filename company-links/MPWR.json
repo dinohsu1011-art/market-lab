@@ -1,0 +1,133 @@
+{
+ "ticker": "MPWR",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000162828026068202/mpwr-20260930xexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000162828026051029/mpwr-20260630xexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000143774926014182/ex_929254.htm",
+   "release_ok": true,
+   "slides": "https://www.monolithicpower.cn/media/investor-relations/press-releases/Q1_2026_MPS_Earnings_Commentary.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000143774926003191/ex_886152.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000143774925014082/ex_786126.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000143774925003024/ex_746686.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000143774924032609/ex_714035.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000143774924024285/ex_675796.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000143774924014156/ex_637554.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000143774924003353/ex_595905.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000143774923029394/ex_586625.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000143774923021166/ex_546525.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000143774923012554/ex_510172.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1280452/000143774923002781/ex_472028.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/02/monolithic-power-systems-mpwr-q1-2022-earnings-cal/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/11/monolithic-power-systems-mpwr-q4-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/29/monolithic-power-systems-inc-mpwr-q3-2021-earnings/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/28/monolithic-power-systems-inc-mpwr-q2-2021-earnings/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/monolithic-power-systems-inc-mpwr-q1-2021-earnings/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/05/monolithic-power-systems-inc-mpwr-q4-2020-earnings/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/29/monolithic-power-systems-inc-mpwr-q2-2020-earnings.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/29/monolithic-power-systems-inc-mpwr-q1-2020-earnings.aspx"
+  }
+ ],
+ "ir": "https://www.monolithicpower.com/about-mps/investor-relations/events-presentations.html"
+}

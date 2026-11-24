@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off under a firm index",
+    "detail": "Breadth is counting a defensive rotation as health.",
+    "summary": "SPY finished the week -0.6%; QQQ -2.0%; high beta versus low beta is -17.7% over one month (1st percentile); leader breadth is -13.6 points versus the index; 61% of S&P names are above the 50-day; net 52-week highs are +27; Behind-the-meter power leads themes at +9.8%.",
+    "market": "SPY finished the week -0.6%; QQQ -2.0%.",
+    "winners": "Behind-the-meter power +9.8%, EPC +6.5%, Biotechnology +5.9%.",
+    "laggards": "Software -11.1%, Residential Solar -10.1%, CPU + ASIC -9.0%.",
+    "why": "The pattern points to rotation away from established high-beta leadership, not indiscriminate index selling; high beta/low beta -17.7%, leader breadth spread -13.6pt, 61% above the 50-day.",
+    "comparison": "Since 2026-10-29, the Risk-off under a firm index call is unchanged; high beta -5.5pt, leader spread -2.2pt, 50-day breadth -4.8pt.",
+    "tally": "0 of 4 risk gauges and 4 of 6 participation gauges are above their five-year medians",
+    "volume": "SFM printed 9.97\u00d7 relative volume on a -22.6% day, while GPN printed 7.68\u00d7 relative volume on a +13.0% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

@@ -1,0 +1,175 @@
+{
+ "ticker": "LVS",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1300514/000130051426000099/lvs_ex991x09302026.htm",
+   "release_ok": true,
+   "slides": "https://s28.q4cdn.com/640198178/files/content_files/LVS-3Q-2026-Presentation-Deck.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1300514/000130051426000039/lvs_ex991x03312026.htm",
+   "release_ok": true,
+   "slides": "https://s28.q4cdn.com/640198178/files/doc_financials/2026/q1/LVS-1Q-2026-Presentation-Deck.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1300514/000130051426000004/lvs_ex991x12312025.htm",
+   "release_ok": true,
+   "slides": "https://d5bp8bijhhba2.cloudfront.net/pdf/db2f62432baa0100480fd6fae09e17c80b7156279be53c3d3d67de51d0191762.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1300514/000130051425000139/lvs_ex991x06302025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/30/las-vegas-sands-lvs-q4-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1300514/000130051425000021/lvs_ex991x12312024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/24/las-vegas-sands-lvs-q3-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1300514/000130051424000132/lvs_ex991x09302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/24/las-vegas-sands-lvs-q2-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1300514/000130051424000116/lvs_ex991x06302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/17/las-vegas-sands-lvs-q1-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1300514/000130051424000064/lvs_ex991x03312024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/25/las-vegas-sands-lvs-q4-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1300514/000130051424000008/lvs_ex991x12312023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/19/las-vegas-sands-lvs-q3-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1300514/000130051423000090/lvs_ex991x09302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/20/las-vegas-sands-lvs-q2-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1300514/000130051423000079/lvs_ex991x06302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1300514/000130051423000034/lvs_ex991x03312023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/26/las-vegas-sands-lvs-q4-2022-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1300514/000130051423000005/lvs_ex991x12312022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/20/las-vegas-sands-lvs-q3-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/20/las-vegas-sands-lvs-q2-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/28/las-vegas-sands-lvs-q1-2022-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/26/las-vegas-sands-lvs-q4-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/20/las-vegas-sands-lvs-q3-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/21/las-vegas-sands-lvs-q2-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/22/las-vegas-sands-lvs-q1-2021-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/28/las-vegas-sands-lvs-q4-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/22/las-vegas-sands-lvs-q3-2020-earnings-call-transcri/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/23/las-vegas-sands-lvs-q2-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/23/las-vegas-sands-corp-lvs-q1-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/29/las-vegas-sands-corp-lvs-q4-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/23/las-vegas-sands-corp-lvs-q3-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/24/las-vegas-sands-corp-lvs-q2-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/17/las-vegas-sands-corp-lvs-q1-2019-earnings-call-tra.aspx"
+  }
+ ]
+}

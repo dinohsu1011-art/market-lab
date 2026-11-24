@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Data center capacity buildout, management targets, and compute rental economics."
+    />
+    <title>Data center capacity · Equinox</title>
+    <link rel="stylesheet" href="market-lab-capacity-styles.css?v=20261123-1110b792" />
+  <link rel="stylesheet" href="market-lab-shell.css?v=20261123-1110b792">
+<link rel="stylesheet" href="market-lab-capacity-theme.css?v=20261123-1110b792">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="market-lab-capacity-eq.css?v=20261123-1110b792">
+<script defer src="market-lab-shell.js?v=20261123-1110b792"></script>
+</head>
+  <body>
+    <main class="dashboard-shell">
+      <header class="page-header">
+        <h1>Data center capacity</h1><span class="capacity-updated">updated 2026-10-29</span>
+        
+      </header>
+
+      <section class="comps" aria-label="Comparison charts">
+      <div class="comps-key" aria-label="How estimates are drawn">
+        <span><svg width="30" height="10" aria-hidden="true"><line x1="1" y1="5" x2="29" y2="5" class="key-line"/><circle cx="15" cy="5" r="3.2" class="key-dot"/></svg>Reported</span>
+        <span><svg width="30" height="10" aria-hidden="true"><line x1="1" y1="5" x2="29" y2="5" class="key-line est"/><circle cx="15" cy="5" r="3.2" class="key-dot est"/></svg>Estimate</span>
+        <span><i class="key-hatch"></i>Estimate column</span>
+        <span class="comps-source" data-comps-source></span>
+        <button type="button" class="clean-toggle" data-clean-toggle aria-pressed="false" title="Hide the option buttons for a clean screenshot (shortcut: h)">Hide buttons</button>
+      </div>
+      <div class="comps-grid">
+        <article class="panel comp-panel" id="capexPanel">
+          <div class="panel-heading"><div><h2>Capex</h2><p></p></div></div>
+          <div class="comp-controls"><div class="seg" data-ctl="mode" role="group" aria-label="Capex period"></div><div class="seg" data-ctl="basis" role="group" aria-label="Reported or with estimates"></div></div>
+          <div class="comp-legend" aria-label="Show or hide companies"></div>
+          <div class="comp-chart"></div>
+        </article>
+        <article class="panel comp-panel" id="capexGrowthPanel">
+          <div class="panel-heading"><div><h2>Capex growth</h2><p></p></div></div>
+          <div class="comp-controls"><div class="seg" data-ctl="mode" role="group" aria-label="Capex growth period"></div><div class="seg" data-ctl="basis" role="group" aria-label="Reported or with estimates"></div></div>
+          <div class="comp-legend" aria-label="Show or hide companies"></div>
+          <div class="comp-chart"></div>
+        </article>
+        <article class="panel comp-panel" id="cloudPanel">
+          <div class="panel-heading"><div><h2>Cloud growth</h2><p></p></div></div>
+          <div class="comp-controls"><div class="seg" data-ctl="mode" role="group" aria-label="Cloud measure"></div><div class="seg" data-ctl="basis" role="group" aria-label="Reported or with estimates"></div></div>
+          <div class="comp-legend" aria-label="Show or hide companies"></div>
+          <div class="comp-chart"></div>
+        </article>
+        <article class="panel comp-panel" id="capacityPanel">
+          <div class="panel-heading"><div><h2>Data center capacity</h2><p></p></div></div>
+          <div class="comp-controls"><div class="seg" data-ctl="source" role="group" aria-label="Capacity source"></div><div class="seg" data-ctl="period" role="group" aria-label="Period"></div><div class="seg" data-ctl="measure" role="group" aria-label="Measure"></div><div class="seg" data-ctl="year" role="group" aria-label="Year" hidden></div></div>
+          <div class="comp-legend" aria-label="Show or hide companies"></div>
+          <div class="comp-chart"></div>
+        </article>
+        <article class="panel comp-panel wide" id="fcfPanel">
+          <div class="panel-heading"><div><h2>Free cash flow</h2><p></p></div></div>
+          <div class="comp-controls"><div class="seg" data-ctl="mode" role="group" aria-label="Cash flow period"></div><div class="seg" data-ctl="basis" role="group" aria-label="Reported or with estimates"></div><div class="seg" data-ctl="view" role="group" aria-label="By company or total"></div></div>
+          <div class="comp-legend" aria-label="Show or hide companies"></div>
+          <div class="comp-chart"></div>
+          <p class="chart-method" data-outliers hidden></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="figures" aria-label="Figures behind the charts">
+      <article class="panel figures-panel">
+        <div class="panel-heading"><div><h2>Estimates vs actuals</h2><p>The estimate this page showed before each report, next to what the company reported</p></div></div>
+        <div id="actualsTable"></div>
+        <p class="chart-method">Estimates are frozen when a quarter is still ahead, so a later workbook update cannot rewrite them. Once a company reports, the charts draw that quarter as reported and the tables show the old estimate in small type under the actual. Hover a reported row for the filing and basis. Meta capex here is purchases of property and equipment, the same line the charts use; Meta's headline figure also adds finance leases.</p>
+      </article>
+      <article class="panel figures-panel">
+        <div class="panel-heading"><div><h2>Capex figures</h2><p>Capex and year-over-year growth, by quarter and by calendar year. Feeds the capex and capex growth charts</p></div></div>
+        <div id="capexTable"></div>
+        <p class="chart-method" id="capexMethod"></p>
+      </article>
+      <article class="panel figures-panel">
+        <div class="panel-heading"><div><h2>Capacity figures</h2><p id="capacityTableSub"></p></div></div>
+        <div id="capacityTable"></div>
+        <dl class="source-key" id="sourceKey" aria-label="What this chart shows"></dl>
+        <p class="chart-method" id="capacityMethod"></p>
+      </article>
+      <article class="panel figures-panel">
+        <div class="panel-heading"><div><h2>Quarterly capacity</h2><p>Fleet and GW added each quarter, whatever the chart above shows</p></div></div>
+        <div id="capacityQuarterTable"></div>
+        <p class="chart-method">Same figures as the KGI view of the capacity chart. KGI quarters are annual numbers spread evenly, so they are a pace, not commissioning dates. Oracle and xAI start at zero in Q3 2025. A reported quarter shows the earlier estimate in small type under it.</p>
+      </article>
+      <article class="panel figures-panel">
+        <div class="panel-heading"><div><h2>Cloud figures</h2><p>Segment revenue and year-over-year growth by calendar quarter</p></div></div>
+        <div id="cloudTable"></div>
+        <p class="chart-method">Quarters are calendar quarters. Microsoft (June year-end) and Oracle (May year-end) are mapped to the calendar quarter their period ends in; hover a chart point for the company's own fiscal quarter. Oracle's cloud line is OCI (cloud infrastructure) only.</p>
+      </article>
+      <article class="panel figures-panel">
+        <div class="panel-heading"><div><h2>Backlog</h2><p>Signed contracts not yet billed, $B at each quarter end</p></div></div>
+        <div id="backlogTable"></div>
+        <p class="chart-method" id="backlogMethod"></p>
+      </article>
+      <article class="panel figures-panel">
+        <div class="panel-heading"><div><h2>Free cash flow figures</h2><p>Free cash flow by quarter and by calendar year</p></div></div>
+        <div id="fcfTable"></div>
+        <p class="chart-method" id="fcfMethod"></p>
+      </article>
+    </section>
+
+    <section class="outlook-row">
+      <article class="panel outlook-panel">
+        <div class="panel-heading"><h2>Capacity outlook and sources</h2></div>
+        <div class="outlook-list" id="outlookList"></div>
+      </article>
+    </section>
+
+      <section class="secondary-grid">
+        <article class="panel rental-panel">
+          <div class="panel-heading">
+            <div>
+              <h2>Revenue per Watt</h2>
+              <p>USD per watt / year</p>
+            </div>
+          </div>
+          <div class="rental-chart" id="rentalChart"></div>
+        </article>
+
+        <article class="panel agreements-panel">
+          <div class="panel-heading">
+            <h2>Rental Agreements</h2>
+          </div>
+          <div class="agreements-table" role="table" aria-label="Rental agreements" id="agreementsTable"></div>
+        </article>
+      </section>
+      <section id="researchDashboard" aria-label="Capacity estimates"></section>
+    </main>
+
+    <script src="market-lab-capacity-research-data.js?v=20261123-1110b792"></script>
+    <script src="market-lab-capacity-research.js?v=20261123-1110b792"></script>
+    <script src="market-lab-capacity-deal-data.js?v=20261123-1110b792"></script>
+    <script src="market-lab-capacity-timeline-data.js?v=20261123-1110b792"></script>
+    <script src="market-lab-capacity-deals.js?v=20261123-1110b792"></script>
+    <script src="market-lab-capacity-workbook.js?v=20261123-1110b792"></script>
+    <script src="market-lab-capacity-comps-data.js?v=20261123-1110b792"></script>
+    <script src="market-lab-capacity-actuals.js?v=20261123-1110b792"></script>
+    <script src="market-lab-capacity-comps.js?v=20261123-1110b792"></script>
+<script src="market-lab-capacity-app.js?v=20261123-1110b792"></script>
+<script src="market-lab-capacity-eq.js?v=20261123-1110b792"></script>
+  </body>
+</html>

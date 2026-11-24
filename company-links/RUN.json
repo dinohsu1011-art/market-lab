@@ -1,0 +1,12 @@
+{
+ "ticker": "RUN",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/11/05/sunrun-run-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1469367/000162828026070143/exhibit991q326.htm",
+   "release_ok": true
+  }
+ ]
+}

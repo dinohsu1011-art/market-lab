@@ -1,0 +1,68 @@
+{
+ "ticker": "ERIE",
+ "quarters": [
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/922621/000092262125000015/ex-99103312025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/922621/000092262125000003/ex-99112312024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/922621/000092262124000022/ex-99109302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/922621/000092262124000018/ex-99106302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/922621/000092262124000005/ex-99112312023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/922621/000092262123000021/ex-99109302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/922621/000092262123000016/ex-99106302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/922621/000092262123000010/ex-99103312023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/29/erie-indemnity-co-erie-q3-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/30/erie-indemnity-co-erie-q2-2021-earnings-call-trans/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/09/erie-indemnity-co-erie-q1-2020-earnings-call-trans.aspx"
+  }
+ ]
+}

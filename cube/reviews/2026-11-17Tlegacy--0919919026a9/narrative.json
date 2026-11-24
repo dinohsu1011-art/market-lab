@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold and participation is narrow.",
+    "summary": "SPY is -2.9% week to date; QQQ -3.4%; high beta versus low beta is -11.7% over one month (5th percentile); leader breadth is -3.5 points versus the index; 58% of S&P names are above the 50-day; net 52-week highs are -9; Consumer Staples leads themes at -0.9% week to date.",
+    "market": "SPY is -2.9% week to date; QQQ -3.4%.",
+    "winners": "Consumer Staples -0.9%, Cons. Staples \u00b7 XLP -1.0%, Utilities \u00b7 XLU -1.4%.",
+    "laggards": "Industrial Solar -11.4%, Residential Solar -10.3%, Space -9.9%.",
+    "why": "Weak high beta and narrow participation point to a broad contraction in risk appetite; high beta/low beta -11.7%, leader breadth spread -3.5pt, 58% above the 50-day.",
+    "comparison": "Since 2026-11-16, the Risk-off call is unchanged; high beta -0.4pt, leader spread +1.3pt, 50-day breadth -7.3pt.",
+    "tally": "0 of 4 risk gauges and 1 of 6 participation gauges are above their five-year medians",
+    "volume": "NVDA printed 7.07\u00d7 relative volume on a -4.3% day, while KDP printed 5.41\u00d7 relative volume on a +2.6% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

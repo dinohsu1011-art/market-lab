@@ -1,0 +1,28 @@
+{
+ "ticker": "MRVL",
+ "ir": "https://investor.marvell.com/",
+ "results": "https://investor.marvell.com/financial-information/financial-results",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-08-27",
+   "slides": "https://investor.marvell.com/_assets/_88edfb3f52300551f17c1e541972f365/marvell/db/3734/35391/presentation/2026_08_27_Marvell_Q2_FY27_financial_business_results_FINAL+%281%29.pdf",
+   "slides_kind": "slides",
+   "release": "https://investor.marvell.com/news-events/press-releases/detail/1031/marvell-technology-inc-reports-second-quarter-of-fiscal-year-2027-financial-results"
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-05-27",
+   "slides": "https://investor.marvell.com/_assets/_88edfb3f52300551f17c1e541972f365/marvell/db/3734/35382/presentation/2026_05_27_Marvell_Q1_FY27_financial_business_results_FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://investor.marvell.com/news-events/press-releases/detail/1023/marvell-technology-inc-reports-first-quarter-of-fiscal-year-2027-financial-results"
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-03-05",
+   "slides": "https://investor.marvell.com/_assets/_88edfb3f52300551f17c1e541972f365/marvell/db/3735/35341/file/2026_03_05_Marvell_Q4_FY26_financial_business_results_FINAL.pdf",
+   "slides_kind": "slides",
+   "release": "https://investor.marvell.com/news-events/press-releases/detail/1011/marvell-technology-inc-reports-fourth-quarter-and-fiscal-year-2026-financial-results"
+  }
+ ]
+}

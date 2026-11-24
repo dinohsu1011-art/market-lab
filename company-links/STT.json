@@ -1,0 +1,63 @@
+{
+ "ticker": "STT",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-14",
+   "release": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/a3q26earningspressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/stt3q26earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000387/a2q26earningspressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000387/stt2q26earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000184/a1q26earningspressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000184/stt1q26earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000403/a2q25earningspressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/93751/000009375125000403/stt2q25earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/16/state-street-corporation-stt-q2-2021-earnings-call/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/17/state-street-corp-stt-q1-2020-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/18/state-street-corp-stt-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/19/state-street-corp-stt-q3-2018-earnings-conference.aspx"
+  }
+ ],
+ "ir": "https://investors.statestreet.com/",
+ "results": "https://investors.statestreet.com/filings-and-reports/quarterly-results/default.aspx"
+}

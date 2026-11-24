@@ -1,0 +1,232 @@
+{
+ "ticker": "PWR",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/29/quanta-services-pwr-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526436949/d77812dex991.htm",
+   "release_ok": true,
+   "slides": "https://investors.quantaservices.com/_assets/_a4093b5b349d5cacca0beaafd65da172/quantaservices/db/917/10556/operational_and_financial_commentary/PWR_09-30-2026_ER_Operational_and_Financial_Summary.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526324855/d56853dex991.htm",
+   "release_ok": true,
+   "slides": "https://investors.quantaservices.com/_assets/_a4093b5b349d5cacca0beaafd65da172/quantaservices/db/917/10536/operational_and_financial_commentary/PWR+06-30-2026+ER+Operational+and+Financial+Summary+vF.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/04/30/quanta-pwr-q1-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526193918/d107542dex991.htm",
+   "release_ok": true,
+   "slides": "https://investors.quantaservices.com/_assets/_a4093b5b349d5cacca0beaafd65da172/quantaservices/db/917/10453/operational_and_financial_commentary/PWR+03-31-2026+ER+Operational+and+Financial+Summary+vF.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/02/19/quanta-pwr-q4-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526058069/d101511dex991.htm",
+   "release_ok": true,
+   "slides": "https://investors.quantaservices.com/_assets/_a4093b5b349d5cacca0beaafd65da172/quantaservices/db/917/10418/operational_and_financial_commentary/PWR+-+12.31.2025+ER+Operational+and+Financial+Summary.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/10/30/quanta-pwr-q3-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312525257378/d851878dex991.htm",
+   "release_ok": true,
+   "slides": "https://investors.quantaservices.com/_assets/_a4093b5b349d5cacca0beaafd65da172/quantaservices/db/917/10412/operational_and_financial_commentary/PWR+09-30-2025+ER+Operational+and+Financial+Summary+vF.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/08/04/quanta-pwr-q2-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312525169944/d28227dex991.htm",
+   "release_ok": true,
+   "slides": "https://investors.quantaservices.com/_assets/_a4093b5b349d5cacca0beaafd65da172/quantaservices/db/917/10389/operational_and_financial_commentary/PWR+06-30-2025+ER+Operational+and+Financial+Summary+vF.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312525108720/d919020dex991.htm",
+   "release_ok": true,
+   "slides": "https://investors.quantaservices.com/_assets/_a4093b5b349d5cacca0beaafd65da172/quantaservices/db/917/10374/operational_and_financial_commentary/PWR+03-31-2025+ER+Operational+and+Financial+Summary+vF.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312525030081/d893759dex991.htm",
+   "release_ok": true,
+   "slides": "https://investors.quantaservices.com/_assets/_a4093b5b349d5cacca0beaafd65da172/quantaservices/db/917/10365/operational_and_financial_commentary/PWR+-+12.31.2024+ER+Operational+and+Financial+Summary+vF.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312524248130/d886756dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312524190572/d850925dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312524128105/d800145dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312524042070/d743849dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312523268784/d460515dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312523202254/d470531dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312523134996/d20434dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1050915/000119312523045600/d440666dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/quanta-services-inc-pwr-q3-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/quanta-services-inc-pwr-q2-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/07/quanta-services-inc-pwr-q1-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/25/quanta-services-inc-pwr-q4-2020-earnings-call-tran/"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/28/quanta-services-pwr-q4-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/01/quanta-services-pwr-q3-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/02/quanta-services-pwr-q2-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/quanta-services-pwr-q1-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/21/quanta-services-inc-pwr-q4-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/quanta-services-inc-pwr-q3-2018-earnings-conferenc.aspx"
+  }
+ ],
+ "events": [
+  {
+   "title": "2026 Investor Day: presentation",
+   "kind": "slides",
+   "url": "https://investors.quantaservices.com/_assets/_33a741543a242bab3497a25a8c07419a/quantaservices/db/894/10451/pdf/Quanta+Services+2026+Investor+Day+Presentation+vF+for+Website.pdf",
+   "ok": true,
+   "date": "2026-03-31"
+  },
+  {
+   "title": "2026 Investor Day: webcast replay",
+   "kind": "webcast",
+   "url": "https://quanta-services-investor-day-2026.open-exchange.net/registration",
+   "ok": true,
+   "date": "2026-03-31"
+  },
+  {
+   "title": "2022 Investor Day: webcast replay",
+   "kind": "webcast",
+   "url": "https://quantaservices2022investorday.open-exchange.net/registration",
+   "ok": true,
+   "date": "2022-04-05"
+  },
+  {
+   "title": "2017 Investor Day: event page",
+   "kind": "page",
+   "url": "https://investors.quantaservices.com/news-events/ir-calendar/detail/20170404-quanta-services-2017-investor-day",
+   "ok": true,
+   "date": "2017-04-04"
+  },
+  {
+   "title": "2014 Investor Day: presentation",
+   "kind": "slides",
+   "url": "https://investors.quantaservices.com/_assets/_aa0cb3b3a611678593d0a35b416c33f9/quantaservices/db/889/10091/presentation/00%2B2014%2BID%2BAll%2BSlides%2BvFINAL%2BFOR%2BPDF.pdf",
+   "ok": true,
+   "date": "2014-02-25"
+  },
+  {
+   "title": "2012 Investor Day: event page",
+   "kind": "page",
+   "url": "https://investors.quantaservices.com/news-events/ir-calendar/detail/20120307-2012-investor-day",
+   "ok": true,
+   "date": "2012-03-07"
+  },
+  {
+   "title": "All Quanta investor days",
+   "kind": "page",
+   "url": "https://investors.quantaservices.com/news-events/investor-day",
+   "ok": true
+  }
+ ],
+ "ir": "https://investors.quantaservices.com/",
+ "results": "https://investors.quantaservices.com/financial-information/financial-results"
+}

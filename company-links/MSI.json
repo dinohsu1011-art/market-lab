@@ -1,0 +1,189 @@
+{
+ "ticker": "MSI",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850526000041/msiq32026pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.motorolasolutions.com/content/dam/msi/investors/doc_financials/2026/q3-2026/msi_q3_2026_earnings_presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850526000027/msiq22026pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.motorolasolutions.com/content/dam/msi/investors/doc_financials/2026/q2-2026/msi_q2_2026_earnings_presentation1.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850526000018/msiq12026pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.motorolasolutions.com/content/dam/msi/investors/doc_financials/2026/q1-2026/msi_q1_2026_earnings_presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850526000006/msiq42025pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.motorolasolutions.com/content/dam/msi/investors/doc_financials/2025/q4/msi_q4_2025_earnings_presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850525000038/msiq22025pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.motorolasolutions.com/content/dam/msi/investors/doc_financials/2025/q2/msi_q2_2025_earnings_presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850525000022/msiq12025pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.motorolasolutions.com/content/dam/msi/investors/doc_financials/2025/q1/msi_q1_2025_earnings_presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://www.motorolasolutions.com/content/dam/msi/investors/doc_financials/2025/q1/msi_q1_2025_earnings_call_final_transcript_5-1-25.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850525000008/msiq42024pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.motorolasolutions.com/content/dam/msi/investors/doc_financials/2024/q4/msi_q4-2024_earnings_presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://www.motorolasolutions.com/content/dam/msi/investors/doc_financials/2024/q4/msi_q4-2024_earnings_call_final_transcript_02-13-25.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850524000032/msiq32024pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.motorolasolutions.com/content/dam/msi/investors/doc_financials/2024/q3/msi_q3_2024_earnings_presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://www.motorolasolutions.com/content/dam/msi/investors/doc_financials/2024/q3/msi_q3_2024_final_earnings_transcript_11-07-24.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850524000022/msiq22024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850524000014/msiq12024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850524000004/msiq42023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850523000043/msiq32023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850523000035/msiq22023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850523000025/msiq12023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/68505/000006850523000009/msiq42022pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/05/motorola-solutions-inc-msi-q3-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/motorola-solutions-inc-msi-q2-2021-earnings-call-t/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/07/motorola-solutions-inc-msi-q1-2021-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/05/motorola-solutions-inc-msi-q4-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/motorola-solutions-inc-msi-q3-2020-earnings-call-t/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/07/motorola-solutions-inc-msi-q2-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/08/motorola-solutions-inc-msi-q1-2020-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/07/motorola-solutions-inc-msi-q4-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/30/motorola-solutions-inc-msi-q3-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/02/motorola-solutions-inc-msi-q2-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/03/motorola-solutions-inc-msi-q1-2019-earnings-call-t.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/07/motorola-solutions-inc-msi-q4-2018-earnings-confer.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/01/motorola-solutions-inc-msi-q3-2018-earnings-confer.aspx"
+  }
+ ],
+ "ir": "https://www.motorolasolutions.com/investors.html",
+ "results": "https://www.motorolasolutions.com/investors/earnings-and-sec-filings.html"
+}

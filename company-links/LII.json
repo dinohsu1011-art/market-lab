@@ -1,0 +1,138 @@
+{
+ "ticker": "LII",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000106920226000094/lii-20260930xexx991pressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000106920226000085/lii-20260630xexx991pressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000106920226000052/lii-20260331xexx991pressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000106920226000005/lii-20251231xexx991pressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000106920225000046/lii-2025930xexx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000106920225000029/lii-2025630xexx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000106920225000015/lii-2025331xexx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000162828025002910/lii-20241231xexx991pressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000162828024043349/exhibit992clotransitionpre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000162828024032683/lii-2024630xexx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000162828024017515/lii-2024331xexx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000162828024002634/lii-20231231xexx991pressre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000162828023035187/ex992pressrelease102623.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000162828023025808/lii-2023630xexx991pressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000119312523120058/d486213dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1069202/000119312523019706/d457144dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/25/lennox-international-inc-lii-q3-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/26/lennox-international-inc-lii-q2-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/26/lennox-international-inc-lii-q1-2021-earnings-call/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/02/lennox-international-inc-lii-q4-2020-earnings-call/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/19/lennox-international-inc-lii-q3-2020-earnings-call/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/20/lennox-international-inc-lii-q2-2020-earnings-call.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/20/lennox-international-inc-lii-q1-2020-earnings-call.aspx"
+  }
+ ],
+ "ir": "https://investor.lennox.com",
+ "results": "https://investor.lennox.com/financials-filings/quarterly-results"
+}

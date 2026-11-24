@@ -1,0 +1,172 @@
+{
+ "ticker": "COO",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-09-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/711404/000162828026061155/cooperq32026pressreleaseex.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-06-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/711404/000162828026040823/cooperq22026pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-03-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/711404/000162828026015231/cooperq12026pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-03-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/711404/000071140425000010/cooperq12025pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-12-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/711404/000071140424000069/cooperq42024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-08-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/711404/000071140424000058/cooperq32024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-05-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/711404/000071140424000038/cooperq22024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-02-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/711404/000071140424000016/cooperq12024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-12-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/711404/000071140423000068/cooperq42023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-08-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/711404/000071140423000040/cooperq32023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-06-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/711404/000071140423000029/cooperq22023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-03-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/711404/000071140423000008/cooperq12023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-08-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/09/01/the-cooper-companies-coo-q3-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-06-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/06/03/the-cooper-companies-coo-q2-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-03-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/03/03/the-cooper-companies-coo-q1-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-12-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/03/the-cooper-companies-coo-q4-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-09-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/09/03/the-cooper-companies-coo-q3-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-06-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/06/04/the-cooper-companies-coo-q2-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-03-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/03/05/the-cooper-companies-coo-q1-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-12-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/12/03/the-cooper-companies-coo-q4-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-09-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/09/04/the-cooper-companies-coo-q3-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-06-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/06/05/cooper-companies-inc-coo-q2-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-03-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/05/cooper-companies-inc-coo-q1-2020-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-12-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/12/06/cooper-companies-inc-coo-q4-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-08-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/30/cooper-companies-inc-coo-q3-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-05-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/30/cooper-companies-inc-coo-q2-2019-earnings-call-tra.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-03-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/03/05/cooper-companies-inc-coo-q1-2019-earnings-conferen.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-12-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/12/06/the-cooper-companies-inc-coo-q4-2018-earnings-conf.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-08-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/30/the-cooper-companies-inc-coo-q3-2018-earnings-conf.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-06-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/06/07/the-cooper-companies-inc-coo-q2-2018-earnings-conf.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-03-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/03/08/the-cooper-companies-inc-coo-q1-2018-earnings-conf.aspx"
+  }
+ ]
+}

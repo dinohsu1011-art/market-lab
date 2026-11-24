@@ -1,0 +1,169 @@
+{
+ "ticker": "FFIV",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869526000074/ex991-q426earningsreleasef.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869526000042/ex991-q226earningsreleasef.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-01-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869526000018/ex991-q126earningsreleasef.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869525000153/ex991-q425earningsreleasef.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869525000075/ex991-q225earningsreleasef.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-01-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869525000002/ex991-q125earningsreleasef.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869524000154/ex991-q424earningsreleasef.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869524000104/ex991-q324earningsreleasef.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869524000060/ex991-q224earningsreleasef.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869524000009/ex991-q124earningsreleasef.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869523000034/ex991-q423earningsreleasef.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869523000026/ex991-q323earningsreleasef.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-04-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869523000016/ex991-q223earningsreleasef.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-01-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1048695/000104869523000007/q123earningsreleasefinanci.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/26/f5-networks-ffiv-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/26/f5-networks-ffiv-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/26/f5-networks-ffiv-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/26/f5-networks-inc-ffiv-q4-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/26/f5-networks-inc-ffiv-q3-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/27/f5-networks-inc-ffiv-q2-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/26/f5-networks-inc-ffiv-q1-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/26/f5-networks-inc-ffiv-q4-2020-earnings-call-transcr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/28/f5-networks-inc-ffiv-q3-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/27/f5-networks-inc-ffiv-q2-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/27/f5-networks-inc-ffiv-q1-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/23/f5-networks-inc-ffiv-q4-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/24/f5-networks-inc-ffiv-q3-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-04-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/24/f5-networks-inc-ffiv-q2-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-01-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/23/f5-networks-inc-ffiv-q1-2019-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/24/f5-networks-inc-ffiv-q4-2018-earnings-conference-c.aspx"
+  }
+ ]
+}

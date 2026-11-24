@@ -1,0 +1,74 @@
+{
+ "ticker": "RDDT",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000114/earningspressreleaseq326.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000098/earningspressreleaseq226.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/05/01/reddit-rddt-q1-2026-earnings-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000067/earningspressreleaseq126.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/02/05/reddit-rddt-q4-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000020/earningspressreleaseq425.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/10/31/reddit-rddt-q3-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000225/earningspressreleaseq325.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000194/earningspressreleaseq225.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000100/earningspressreleaseq125.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1713445/000171344525000016/earningspressreleaseq424.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1713445/000171344524000099/earningspressreleaseq324.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1713445/000171344524000052/earningspressreleaseq224.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1713445/000171344524000003/earningspressreleaseq124.htm",
+   "release_ok": true
+  }
+ ]
+}

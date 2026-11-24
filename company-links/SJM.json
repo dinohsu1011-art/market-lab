@@ -1,0 +1,145 @@
+{
+ "ticker": "SJM",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-08-26",
+   "slides": "https://s203.q4cdn.com/703080298/files/doc_financials/2027/q1/The-J-M-Smucker-Co-FY27-Q1-Earnings-Prepared-Remarks.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/91419/000009141926000079/sjm20260826exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-11-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/91419/000009141925000104/sjm20251125exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-08-27",
+   "slides": "https://s203.q4cdn.com/703080298/files/doc_financials/2026/q1/The-J-M-Smucker-Co-FY26-Q1-Earnings-Prepared-Remarks.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/91419/000009141925000069/sjm20250827exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-11-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/91419/000009141924000101/sjm20241126exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-08-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/91419/000009141924000075/sjm20240828exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/91419/000009141924000008/sjm20240227exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-12-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/91419/000009141923000140/sjm2023125exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-08-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/91419/000009141923000111/sjm20230829exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-02-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/91419/000009141923000019/sjm20230228exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-08-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/23/jm-smucker-sjm-q1-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-06-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/06/07/jm-smucker-sjm-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-03-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/03/01/jm-smucker-sjm-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2021-11-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/23/jm-smucker-sjm-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-08-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/26/jm-smucker-sjm-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-06-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/06/03/jm-smucker-sjm-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/25/jm-smucker-sjm-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2020-11-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/25/jm-smucker-sjm-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-08-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/25/jm-smucker-sjm-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-06-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/06/04/the-j-m-smucker-company-sjm-q4-2020-earnings-call.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/26/the-j-m-smucker-company-sjm-q3-2020-earnings-call.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-11-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/22/jm-smucker-co-sjm-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-06-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/06/06/jm-smucker-co-sjm-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/26/jm-smucker-co-sjm-q3-2019-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2018-11-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/28/jm-smucker-co-sjm-q2-2019-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-06-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/06/07/jm-smucker-company-sjm-q4-2018-earnings-conference.aspx"
+  }
+ ]
+}

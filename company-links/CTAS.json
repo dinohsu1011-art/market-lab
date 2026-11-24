@@ -1,0 +1,148 @@
+{
+ "ticker": "CTAS",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-09-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000044/ex992026-8x31.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-07-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000025/ex992026-5x31.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-12-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/723254/000072325425000038/ex992025-11x30.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-07-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/723254/000072325425000013/ex992025-5x31.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-03-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/723254/000162828025014841/ex992025-2x28.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-12-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/723254/000072325424000057/ex992024-11x30.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-09-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/723254/000072325424000051/ex992024-8x31.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-07-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/723254/000072325424000032/ex992024-5x31.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-03-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/723254/000072325424000016/ex992024-2x29.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-12-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/723254/000072325423000041/ex992023-11x30.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-09-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/723254/000072325423000034/ex992023-8x31.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-07-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/723254/000072325423000021/ex992023-5x31.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-03-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/723254/000072325423000005/ex992023-2x28.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2021-12-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/12/22/cintas-corporation-ctas-q2-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-09-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/09/29/cintas-corporation-ctas-q1-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-07-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/15/cintas-corporation-ctas-q4-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-03-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/03/17/cintas-corp-ctas-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2020-12-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/12/22/cintas-corp-ctas-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-09-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/09/23/cintas-corp-ctas-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/23/cintas-corp-ctas-q4-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-03-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/03/19/cintas-corp-ctas-q3-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-12-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/12/17/cintas-corp-ctas-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/17/cintas-corp-ctas-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-03-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/03/22/cintas-corporation-ctas-q3-2019-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/23/cintas-ctas-q4-2018-earnings-conference-call-trans.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-03-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/03/25/cintas-ctas-q3-2018-earnings-conference-call-trans.aspx"
+  }
+ ]
+}

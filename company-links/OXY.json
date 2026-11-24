@@ -1,0 +1,195 @@
+{
+ "ticker": "OXY",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/797468/000162828026072193/oxyex9919-30x26earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/797468/000162828026053377/oxyex9916-30x26earningsrel.htm",
+   "release_ok": true,
+   "slides": "https://www.oxy.com/siteassets/documents/investors/quarterly-earnings/oxy2q26conferencecallslides.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/797468/000162828026030567/oxyex9913-31x26earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/797468/000079746825000109/oxyex99106-30x25earningsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/797468/000079746825000075/oxyex99103-31x25earningsre.htm",
+   "release_ok": true,
+   "transcript": "https://www.oxy.com/siteassets/documents/investors/quarterly-earnings/oxy1q25transcript.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/19/occidental-petroleum-oxy-q4-2024-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/797468/000079746825000028/oxyex99112-31x24earningsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/13/occidental-petroleum-oxy-q3-2024-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/797468/000079746824000163/oxyex99109-30x24earningsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/08/occidental-petroleum-oxy-q2-2024-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/797468/000079746824000134/oxyex99106-30x24earningsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/08/occidental-petroleum-oxy-q1-2024-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/797468/000079746824000093/oxyex99103-31x24earningsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/15/occidental-petroleum-oxy-q4-2023-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/797468/000079746824000033/oxyex99112-31x23earningsre.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/08/occidental-petroleum-oxy-q3-2023-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/797468/000079746823000091/oxyex9919-30x23earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/03/occidental-petroleum-oxy-q2-2023-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/797468/000079746823000074/oxyex9916-30x23earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/10/occidental-petroleum-oxy-q1-2023-earnings-call-tra/",
+   "release": "https://www.sec.gov/Archives/edgar/data/797468/000079746823000030/oxyex9913-31x23earningsrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/28/occidental-petroleum-oxy-q4-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/09/occidental-petroleum-oxy-q3-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/03/occidental-petroleum-oxy-q2-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/11/occidental-petroleum-oxy-q1-2022-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/25/occidental-petroleum-oxy-q4-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/06/occidental-petroleum-oxy-q3-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/04/occidental-petroleum-oxy-q2-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/11/occidental-petroleum-oxy-q1-2021-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/24/occidental-petroleum-oxy-q4-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/10/occidental-petroleum-oxy-q3-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/12/occidental-petroleum-oxy-q2-2020-earnings-call-tra/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/occidental-petroleum-corp-oxy-q1-2020-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/28/occidental-petroleum-corp-oxy-q4-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/05/occidental-petroleum-corp-oxy-q3-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/01/occidental-petroleum-corp-oxy-q2-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/07/occidental-petroleum-corp-oxy-q1-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/13/occidental-petroleum-corp-oxy-q4-2018-earnings-con.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/06/occidental-petroleum-corporation-oxy-q3-2018-earni.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-05-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/09/occidental-petroleum-corporation-oxy-q1-2018-earni.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/14/occidental-petroleum-corporation-oxy-q4-2017-earni.aspx"
+  }
+ ]
+}

@@ -1,0 +1,638 @@
+// Comps chart kit + cloud growth and capex comps for the capacity page.
+// Every chart puts all companies on ONE shared axis so values compare directly.
+// Reported = solid line / filled dot / solid column.
+// Estimate = dashed line / hollow dot / hatched column, inside a shaded band.
+// Colors are CSS variables, so the light/dark switch restyles charts without a redraw.
+(() => {
+  const COLORS = {Microsoft:'var(--microsoft)', Google:'var(--capacity-gold)', Amazon:'var(--amazon)', Oracle:'var(--oracle)', Meta:'var(--capacity-purple)', SpaceX:'var(--spacex)', xAI:'var(--spacex)', OpenAI:'var(--openai)', Anthropic:'var(--anthropic)'};
+  const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const fmtB = v => v == null ? '–' : (v < 0 ? '-$' : '$') + (Math.abs(v) >= 10 ? Math.abs(v).toFixed(1) : Math.abs(v).toFixed(2)) + 'B';
+  const axisB = v => (v < 0 ? '-$' : '$') + Math.abs(v) + 'B';
+  const fmtPct = (v, d = 0) => v == null ? '–' : (v > 0 ? '+' : '') + v.toFixed(d) + '%';
+
+  // ---------- shared tooltip ----------
+  const tip = document.createElement('div');
+  tip.className = 'comp-tip'; tip.hidden = true; tip.setAttribute('role', 'tooltip');
+  document.body.append(tip);
+  const showTip = (evt, html) => {
+    tip.innerHTML = html; tip.hidden = false;
+    const r = tip.getBoundingClientRect(), pad = 14;
+    let x = evt.clientX + pad, y = evt.clientY + pad;
+    if (x + r.width > innerWidth - 8) x = evt.clientX - r.width - pad;
+    if (y + r.height > innerHeight - 8) y = evt.clientY - r.height - pad;
+    tip.style.left = x + 'px'; tip.style.top = y + 'px';
+  };
+  const hideTip = () => { tip.hidden = true; };
+  const tipRows = (title, rows) => `<div class="comp-tip-title">${esc(title)}</div>` + rows
+    .map(r => `<div class="comp-tip-row${r.e ? ' est' : ''}"><i style="background:${r.color}"></i><span>${esc(r.name)}</span><b>${esc(r.text)}</b>${r.e ? '<em>est</em>' : '<em></em>'}</div>${r.note ? `<div class="comp-tip-note">${esc(r.note)}</div>` : ''}`).join('');
+  addEventListener('scroll', hideTip, {passive: true});
+
+  function ticks(lo, hi, count = 5) {
+    if (lo === hi) hi = lo + 1;
+    const span = hi - lo, raw = span / count, mag = 10 ** Math.floor(Math.log10(raw));
+    const step = [1, 2, 2.5, 5, 10].map(m => m * mag).find(s => span / s <= count + .5);
+    const out = [];
+    for (let v = Math.floor(lo / step) * step; v <= Math.ceil(hi / step) * step + step / 2; v += step) out.push(+v.toFixed(10));
+    return out;
+  }
+
+  const hatchId = color => 'hatch-' + color.replace(/[^a-z0-9]/gi, '');
+  // Every comp chart shares one height so the 2x2 grid lines up.
+  const CHART_H = 320;
+  const hatchDefs = colors => `<defs>${[...new Set(colors)].map(c => `<pattern id="${hatchId(c)}" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="5" height="5" style="fill:${c};fill-opacity:.16"/><line x1="0" y1="0" x2="0" y2="5" style="stroke:${c};stroke-width:2.2"/></pattern>`).join('')}</defs>`;
+
+  // Rebuild on width change so text stays at true size instead of scaling.
+  function responsive(host, draw) {
+    host._draw = () => { hideTip(); draw(); };
+    if (!host._observer) {
+      let width = 0;
+      host._observer = new ResizeObserver(() => {
+        if (Math.abs(host.clientWidth - width) > 2) { width = host.clientWidth; host._draw(); }
+      });
+      host._observer.observe(host);
+    }
+    host._draw();
+  }
+
+  function legend(host, series, hidden, onToggle) {
+    host.innerHTML = series.map(s => `<button type="button" class="comp-key" aria-pressed="${!hidden.has(s.name)}" data-name="${esc(s.name)}"><i style="background:${s.hatch ? `repeating-linear-gradient(135deg, transparent 0 3px, ${s.color} 3px 4.5px)` : s.color}"></i>${esc(s.name)}</button>`).join('');
+    host.querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
+      hidden.has(b.dataset.name) ? hidden.delete(b.dataset.name) : hidden.add(b.dataset.name);
+      if (series.every(s => hidden.has(s.name))) hidden.delete(b.dataset.name); // keep one visible
+      onToggle();
+    }));
+  }
+
+  function xLabels(periods, x, y, band) {
+    const sparse = band < 26;
+    return periods.map((p, i) => {
+      const q = p.label, showQ = !sparse || /Q[13]|FY|^\d{4}/.test(q) || periods.length < 8;
+      const showYear = p.year && (i === 0 || periods[i - 1].year !== p.year);
+      return (showQ ? `<text x="${x(i)}" y="${y}" class="ax-x">${esc(q)}</text>` : '') +
+        (showYear ? `<text x="${x(i)}" y="${y + 13}" class="ax-year">${esc(p.year)}</text>` : '');
+    }).join('');
+  }
+
+  // ---------- line chart: periods on x, one line per company ----------
+  function lineChart(host, cfg) {
+    responsive(host, () => {
+      const series = cfg.series.filter(s => !cfg.hidden?.has(s.name));
+      const W = Math.max(280, host.clientWidth), H = cfg.height || CHART_H;
+      // Right margin fits the longest end label ("Google Cloud +45%").
+      const endText = s => { const p = [...s.points].reverse().find(Boolean); return p ? `${s.short || s.name} ${cfg.fmt(p.v)}` : ''; };
+      const m = {t: 22, r: Math.min(150, 16 + 6.6 * Math.max(8, ...series.map(s => endText(s).length))), b: 40, l: 48};
+      const iw = W - m.l - m.r, ih = H - m.t - m.b, n = cfg.periods.length, band = iw / n;
+      const x = i => m.l + (i + .5) * band;
+      const vals = series.flatMap(s => s.points.filter(Boolean).map(p => p.v));
+      const t = ticks(Math.min(cfg.floor ?? 0, ...vals), Math.max(...vals, 0));
+      const lo = t[0], hi = t[t.length - 1], y = v => m.t + ih - (v - lo) / (hi - lo) * ih;
+      const firstEst = cfg.periods.findIndex(p => p.estimate);
+      let svg = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${esc(cfg.label)}">`;
+      if (firstEst >= 0) {
+        const bx = m.l + firstEst * band;
+        svg += `<rect x="${bx}" y="${m.t - 14}" width="${m.l + iw - bx}" height="${ih + 14}" class="est-band"/><text x="${bx + 5}" y="${m.t - 4}" class="est-band-label">Estimates</text>`;
+      }
+      svg += t.map(v => `<line x1="${m.l}" x2="${m.l + iw}" y1="${y(v)}" y2="${y(v)}" class="${v === 0 ? 'ax-zero' : 'ax-grid'}"/><text x="${m.l - 7}" y="${y(v) + 4}" class="ax-y">${esc(cfg.axisFmt(v))}</text>`).join('');
+      svg += xLabels(cfg.periods, x, H - m.b + 16, band);
+      const ends = [];
+      series.forEach(s => {
+        let segs = '', dots = '', last = -1;
+        s.points.forEach((p, i) => {
+          if (!p) return;
+          const prev = s.points[i - 1];
+          if (prev) segs += `<line x1="${x(i - 1)}" y1="${y(prev.v)}" x2="${x(i)}" y2="${y(p.v)}" style="stroke:${s.color}" class="ln${p.e ? ' ln-est' : ''}"/>`;
+          dots += `<circle cx="${x(i)}" cy="${y(p.v)}" r="${n > 16 ? 2.7 : 3.4}" style="stroke:${s.color};fill:${p.e ? 'var(--ml-surface)' : s.color}" class="dot"/>`;
+          last = i;
+        });
+        svg += `<g>${segs}${dots}</g>`;
+        if (last >= 0) ends.push({s, x: x(last), y: y(s.points[last].v), v: s.points[last].v});
+      });
+      // Direct labels at the right edge, nudged apart so they never overlap.
+      ends.sort((a, b) => a.y - b.y);
+      ends.forEach((d, i) => { d.ly = Math.max(d.y, i ? ends[i - 1].ly + 14 : m.t); });
+      for (let i = ends.length - 1; i >= 0; i--) {
+        const max = i === ends.length - 1 ? H - m.b : ends[i + 1].ly - 14;
+        if (ends[i].ly > max) ends[i].ly = max;
+      }
+      const lx = m.l + iw + 8;
+      svg += ends.map(d => `<line x1="${d.x + 4}" y1="${d.y}" x2="${lx - 2}" y2="${d.ly}" style="stroke:${d.s.color}" class="leader"/><text x="${lx}" y="${d.ly + 4}" style="fill:${d.s.color}" class="end-label">${esc(d.s.short || d.s.name)} <tspan class="end-value">${esc(cfg.fmt(d.v))}</tspan></text>`).join('');
+      svg += `<line class="hover-guide" x1="0" x2="0" y1="${m.t - 14}" y2="${m.t + ih}" visibility="hidden"/>`;
+      svg += cfg.periods.map((p, i) => `<rect class="hover-band" data-i="${i}" x="${m.l + i * band}" y="${m.t - 14}" width="${band}" height="${ih + 14}"/>`).join('');
+      host.innerHTML = svg + '</svg>';
+      const guide = host.querySelector('.hover-guide');
+      host.querySelectorAll('.hover-band').forEach(r => {
+        const i = Number(r.dataset.i);
+        r.addEventListener('mousemove', evt => {
+          guide.setAttribute('x1', x(i)); guide.setAttribute('x2', x(i)); guide.setAttribute('visibility', 'visible');
+          const rows = series.map(s => ({s, p: s.points[i]})).filter(d => d.p).sort((a, b) => b.p.v - a.p.v)
+            .map(({s, p}) => ({name: s.name, color: s.color, text: cfg.fmt(p.v, true), e: p.e, note: p.note}));
+          showTip(evt, tipRows(cfg.periods[i].title || cfg.periods[i].key, rows.length ? rows : [{name: 'No data', color: 'transparent', text: ''}]));
+        });
+        r.addEventListener('mouseleave', () => { guide.setAttribute('visibility', 'hidden'); hideTip(); });
+      });
+    });
+  }
+
+  // ---------- grouped column chart: groups on x, one column per series ----------
+  // A value may carry parts [{v,e}] so a year that is half reported, half
+  // estimated shows a solid base with a hatched top.
+  function columnChart(host, cfg) {
+    responsive(host, () => {
+      const series = cfg.series.filter(s => !cfg.hidden?.has(s.name));
+      const W = Math.max(280, host.clientWidth), H = cfg.height || CHART_H;
+      const m = {t: 26, r: 14, b: 40, l: 48};
+      const iw = W - m.l - m.r, ih = H - m.t - m.b, n = cfg.groups.length, band = iw / n;
+      const vals = series.flatMap(s => s.values.filter(Boolean).map(v => v.v));
+      const t = ticks(Math.min(0, ...vals), Math.max(...vals, 0));
+      const lo = t[0], hi = t[t.length - 1], y = v => m.t + ih - (v - lo) / (hi - lo) * ih;
+      const bw = Math.min(30, band * .82 / Math.max(1, series.length)), gap = Math.min(3, bw * .15);
+      const colors = series.flatMap(s => [s.color, ...s.values.filter(Boolean).map(v => v.color || s.color)]);
+      let svg = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${esc(cfg.label)}">${hatchDefs(colors)}`;
+      svg += t.map(v => `<line x1="${m.l}" x2="${m.l + iw}" y1="${y(v)}" y2="${y(v)}" class="${v === 0 ? 'ax-zero' : 'ax-grid'}"/><text x="${m.l - 7}" y="${y(v) + 4}" class="ax-y">${esc(cfg.axisFmt(v))}</text>`).join('');
+      cfg.groups.forEach((g, gi) => {
+        const left = m.l + gi * band + (band - series.length * bw) / 2;
+        if (g.estimate) svg += `<rect x="${m.l + gi * band + 1}" y="${m.t - 18}" width="${band - 2}" height="${ih + 18}" class="est-band"/>`;
+        series.forEach((s, si) => {
+          const val = s.values[gi], bx = left + si * bw + gap / 2, w = bw - gap;
+          if (!val) { if (!cfg.quietGaps) svg += `<text x="${bx + w / 2}" y="${y(0) - 4}" class="na">n/a</text>`; return; }
+          const color = val.color || s.color;
+          const parts = val.parts || [{v: val.v, e: val.e}];
+          const solid = parts.filter(p => !p.e).reduce((a, p) => a + p.v, 0);
+          const est = parts.filter(p => p.e).reduce((a, p) => a + p.v, 0);
+          if (solid) svg += `<rect x="${bx}" y="${Math.min(y(solid), y(0))}" width="${w}" height="${Math.abs(y(0) - y(solid))}" style="fill:${color}" class="col"/>`;
+          if (est) svg += `<rect x="${bx}" y="${Math.min(y(solid + est), y(solid))}" width="${w}" height="${Math.abs(y(solid) - y(solid + est))}" style="fill:url(#${hatchId(color)});stroke:${color}" class="col col-est"/>`;
+          if (w >= 15) svg += `<text x="${bx + w / 2}" y="${(val.v >= 0 ? y(val.v) - 4 : y(val.v) + 11)}" class="col-label" style="fill:${color}">${esc(cfg.labelFmt ? cfg.labelFmt(val.v) : cfg.fmt(val.v))}</text>`;
+        });
+        svg += `<text x="${m.l + (gi + .5) * band}" y="${H - m.b + 16}" class="ax-x">${esc(g.label)}</text>` + (g.sub ? `<text x="${m.l + (gi + .5) * band}" y="${H - m.b + 29}" class="ax-year">${esc(g.sub)}</text>` : '');
+        svg += `<rect class="hover-band" data-i="${gi}" x="${m.l + gi * band}" y="${m.t - 18}" width="${band}" height="${ih + 18}"/>`;
+      });
+      host.innerHTML = svg + '</svg>';
+      host.querySelectorAll('.hover-band').forEach(r => {
+        const gi = Number(r.dataset.i);
+        r.addEventListener('mousemove', evt => {
+          const rows = series.map(s => ({s, v: s.values[gi]})).filter(d => d.v).sort((a, b) => b.v.v - a.v.v)
+            .map(({s, v}) => ({name: s.name, color: v.color || s.color, text: cfg.fmt(v.v, true), e: v.e, note: v.note}));
+          showTip(evt, tipRows(cfg.groups[gi].title || cfg.groups[gi].label, rows.length ? rows : [{name: 'No data', color: 'transparent', text: ''}]));
+        });
+        r.addEventListener('mouseleave', hideTip);
+      });
+    });
+  }
+
+  // Two bars per series inside each group: a faint outlined bar (a) beside a solid
+  // one (b). series: [{name, color, a:[v|null], b:[v|null], note:(gi)=>string}]
+  function pairChart(host, cfg) {
+    responsive(host, () => {
+      const series = cfg.series.filter(s => !cfg.hidden?.has(s.name));
+      const W = Math.max(280, host.clientWidth), H = cfg.height || CHART_H;
+      const m = {t: 26, r: 14, b: 40, l: 48};
+      const iw = W - m.l - m.r, ih = H - m.t - m.b, n = cfg.groups.length, band = iw / n, k = Math.max(1, series.length);
+      const vals = series.flatMap(s => [...s.a, ...s.b].filter(v => v != null));
+      const t = ticks(0, Math.max(...vals, 0));
+      const hi = t[t.length - 1], y = v => m.t + ih - v / hi * ih;
+      const bw = Math.min(22, band * .86 / (k * 2 + (k - 1) * .7)), pairGap = bw * .7, gap = Math.min(1.5, bw * .1);
+      let svg = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${esc(cfg.label)}">`;
+      svg += t.map(v => `<line x1="${m.l}" x2="${m.l + iw}" y1="${y(v)}" y2="${y(v)}" class="${v === 0 ? 'ax-zero' : 'ax-grid'}"/><text x="${m.l - 7}" y="${y(v) + 4}" class="ax-y">${esc(cfg.axisFmt(v))}</text>`).join('');
+      const keyX = m.l + iw - 4;
+      svg += `<g class="pair-key"><rect x="${keyX - 196}" y="${m.t - 17}" width="9" height="9" class="pair-a" style="stroke:var(--ml-ink);fill:var(--ml-ink)"/><text x="${keyX - 183}" y="${m.t - 9}">${esc(cfg.aLabel)}</text>`
+        + `<rect x="${keyX - 84}" y="${m.t - 17}" width="9" height="9" style="fill:var(--ml-ink)"/><text x="${keyX - 71}" y="${m.t - 9}">${esc(cfg.bLabel)}</text></g>`;
+      cfg.groups.forEach((g, gi) => {
+        const left = m.l + gi * band + (band - (k * 2 * bw + (k - 1) * pairGap)) / 2;
+        series.forEach((s, si) => {
+          [['a', s.a[gi]], ['b', s.b[gi]]].forEach(([which, v], wi) => {
+            if (v == null) return;
+            const bx = left + si * (2 * bw + pairGap) + wi * bw + gap / 2, w = bw - gap;
+            svg += `<rect x="${bx}" y="${y(v)}" width="${w}" height="${Math.max(0, y(0) - y(v))}" style="fill:${s.color};stroke:${s.color}" class="col${which === 'a' ? ' pair-a' : ''}"/>`;
+            if (w >= 18) svg += `<text x="${bx + w / 2}" y="${y(v) - 4}" class="col-label" style="fill:${s.color}">${esc(cfg.labelFmt(v))}</text>`;
+          });
+        });
+        svg += `<text x="${m.l + (gi + .5) * band}" y="${H - m.b + 16}" class="ax-x">${esc(g.label)}</text>`;
+        svg += `<rect class="hover-band" data-i="${gi}" x="${m.l + gi * band}" y="${m.t - 18}" width="${band}" height="${ih + 18}"/>`;
+      });
+      host.innerHTML = svg + '</svg>';
+      host.querySelectorAll('.hover-band').forEach(r => {
+        const gi = Number(r.dataset.i);
+        r.addEventListener('mousemove', evt => {
+          const rows = series.filter(s => s.a[gi] != null || s.b[gi] != null)
+            .map(s => ({name: s.name, color: s.color, text: `${cfg.fmt(s.b[gi])} vs ${cfg.fmt(s.a[gi])}`, e: true, note: s.note(gi)}));
+          showTip(evt, tipRows(`${cfg.groups[gi].title}: ${cfg.bLabel} vs ${cfg.aLabel}`, rows));
+        });
+        r.addEventListener('mouseleave', hideTip);
+      });
+    });
+  }
+
+  // ---------- figures table: same numbers the chart plots ----------
+  // rowGroups: [{name, color, rows:[{label, cells:[{v,e,text,vs}|null], fmt}]}]
+  // A cell's vs line (estimate before the report) prints small under the reported value.
+  function figuresTable(host, {columns, rowGroups, caption}) {
+    const head = `<tr><th scope="col" class="sticky">${esc(caption || '')}</th><th scope="col" class="metric-col"></th>${columns.map(c => `<th scope="col" class="${c.estimate ? 'est' : ''}${c.divider ? ' divider' : ''}">${esc(c.label)}${c.sub ? `<small>${esc(c.sub)}</small>` : ''}</th>`).join('')}</tr>`;
+    const body = rowGroups.map(g => g.rows.map((r, ri) => `<tr class="${ri === 0 ? 'group-start' : ''}">${ri === 0 ? `<th scope="rowgroup" rowspan="${g.rows.length}" class="sticky" style="color:${g.color}">${esc(g.name)}</th>` : ''}<td class="metric-col">${esc(r.label)}</td>${r.cells.map((c, i) => `<td class="${c && c.e ? 'est' : ''}${c && c.vs ? ' has-vs' : ''}${columns[i].divider ? ' divider' : ''}"${c && c.why ? ` title="${esc(c.why)}"` : ''}>${c == null || c.v == null ? '<span class="nd">–</span>' : esc(c.text ?? r.fmt(c.v)) + (c.vs ? `<small class="vs">${esc(c.vs)}</small>` : '')}</td>`).join('')}</tr>`).join('')).join('');
+    host.innerHTML = `<div class="figures-scroll"><table class="figures-table"><thead>${head}</thead><tbody>${body}</tbody></table></div>`;
+  }
+
+  function segmented(host, options, value, onChange) {
+    host.innerHTML = options.map(o => `<button type="button" data-v="${esc(o[0])}" aria-pressed="${o[0] === value}">${esc(o[1])}</button>`).join('');
+    host.querySelectorAll('button').forEach(b => b.addEventListener('click', () => onChange(b.dataset.v)));
+  }
+
+  const dividerFlags = columns => {
+    const first = columns.findIndex(c => c.estimate);
+    return columns.map((c, i) => ({...c, divider: i === first}));
+  };
+
+  // Estimate beside a reported value: "est $41.0B, -17%". When either side is
+  // negative a percent means nothing, so the gap is shown in units instead.
+  const vsLine = (actual, est, fmt) => est == null || actual == null ? '' : `est ${fmt(est)}, ` +
+    (actual > 0 && est > 0 ? fmtPct((actual / est - 1) * 100, 0) : (actual >= est ? '+' : '-') + fmt(Math.abs(actual - est)).replace(/^-/, ''));
+
+  window.CompChart = {lineChart, columnChart, pairChart, figuresTable, legend, segmented, dividerFlags, vsLine, fmtB, fmtPct, COLORS, esc};
+
+  // ---------- clean view: hide the option buttons so a chart screenshots clean ----------
+  const CLEAN_KEY = 'equinox.capacity.clean';
+  const comps = document.querySelector('.comps');
+  const cleanBtn = document.querySelector('[data-clean-toggle]');
+  if (comps && cleanBtn) {
+    const setClean = on => {
+      comps.classList.toggle('clean', on);
+      cleanBtn.setAttribute('aria-pressed', String(on));
+      cleanBtn.textContent = on ? 'Show buttons' : 'Hide buttons';
+      try { localStorage.setItem(CLEAN_KEY, on ? '1' : '0'); } catch (_) {}
+    };
+    let start = false;
+    try { start = localStorage.getItem(CLEAN_KEY) === '1'; } catch (_) {}
+    setClean(start);
+    cleanBtn.addEventListener('click', () => setClean(!comps.classList.contains('clean')));
+    addEventListener('keydown', e => {
+      if (e.key !== 'h' || e.metaKey || e.ctrlKey || e.altKey || /INPUT|TEXTAREA|SELECT/.test(e.target.tagName) || e.target.isContentEditable) return;
+      setClean(!comps.classList.contains('clean'));
+    });
+  }
+
+  // ---------- cloud + capex from Hyperscaler Comps.xlsx ----------
+  const data = window.compsData;
+  if (!data) return;
+  const ACTUALS = window.capacityActuals?.entries || [];
+  // A reported actual replaces the workbook estimate for that quarter and keeps the
+  // estimate as est, so tables and tooltips can show both.
+  ACTUALS.filter(a => a.actual != null).forEach(a => {
+    const m = data.companies.find(c => c.name === a.company)?.metrics[a.metric];
+    if (m) m.series[a.quarter] = {...m.series[a.quarter], v: a.actual, e: false, est: a.estimate};
+  });
+  // A company guide can make a workbook estimate stale; these replace it and say why.
+  (window.capacityActuals?.estimateOverrides || []).forEach(o => {
+    const c = data.companies.find(c => c.name === o.company), m = c?.metrics[o.metric];
+    const p = m?.series[o.quarter];
+    if (!p || !p.e) return;
+    m.series[o.quarter] = {...p, v: o.value, why: 'from guide, workbook ' + fmtB(o.workbook)};
+    // Free cash flow is operating cash flow minus capex, so a capex change moves it by the same amount the other way.
+    const f = o.metric === 'capex' && c.metrics.fcf?.series[o.quarter];
+    if (f && f.e) c.metrics.fcf.series[o.quarter] = {...f, v: f.v + o.workbook - o.value, why: 'rebased to the capex guide, workbook ' + fmtB(f.v)};
+  });
+  // Reported quarters the workbook starts too late to cover. Never overwrites a workbook value.
+  (window.capacityActuals?.backfill || []).forEach(b => {
+    const m = data.companies.find(c => c.name === b.company)?.metrics[b.metric];
+    if (m && !m.series[b.quarter]) m.series[b.quarter] = {v: b.value, e: false, fiscal: b.fiscal};
+  });
+  const quarterKey = (y, q) => `${y} Q${q}`;
+  const prevYearKey = k => quarterKey(Number(k.slice(0, 4)) - 1, k.slice(-1));
+  const prevQuarterKey = k => k.endsWith('Q1') ? quarterKey(Number(k.slice(0, 4)) - 1, 4) : quarterKey(k.slice(0, 4), Number(k.slice(-1)) - 1);
+  const periodObj = k => ({key: k, label: 'Q' + k.slice(-1), year: k.slice(0, 4), title: `${k.slice(0, 4)} Q${k.slice(-1)} (calendar)`});
+  // Check on estimated free cash flow. FCF + capex is the operating cash flow an estimate implies;
+  // when that moves by more than half the quarter's capex from the same quarter a year earlier,
+  // the workbook row is likely broken. Broken links run in streaks, so a quarter next to one that
+  // fails is held to a tighter bar (two fifths of capex). Those quarters stay out of the charts,
+  // totals and growth; the figures table still shows them, marked left out.
+  const fcfChecks = [];
+  data.companies.forEach(c => {
+    const f = c.metrics.fcf?.series, cx = c.metrics.capex?.series;
+    if (!f || !cx) return;
+    Object.entries(f).forEach(([k, p]) => {
+      const b = f[prevYearKey(k)], bx = cx[prevYearKey(k)];
+      if (!p.e || !cx[k] || !b || !bx) return;
+      const ocf = p.v + cx[k].v, prior = b.v + bx.v;
+      fcfChecks.push({company: c.name, key: k, p, capex: cx[k].v, ocf, prior, ratio: Math.abs(ocf - prior) / cx[k].v});
+    });
+  });
+  const failsMain = fcfChecks.filter(o => o.ratio > 0.5);
+  const nextQuarterKey = k => k.endsWith('Q4') ? quarterKey(Number(k.slice(0, 4)) + 1, 1) : quarterKey(k.slice(0, 4), Number(k.slice(-1)) + 1);
+  const fcfOutliers = fcfChecks.filter(o => o.ratio > 0.5 || (o.ratio > 0.4 &&
+    failsMain.some(m => m.company === o.company && (m.key === prevQuarterKey(o.key) || m.key === nextQuarterKey(o.key)))))
+    .map(o => ({...o, neighbor: o.ratio <= 0.5}));
+  fcfOutliers.forEach(o => { delete data.companies.find(c => c.name === o.company).metrics.fcf.series[o.key]; });
+  const outlierCell = (owner, k) => {
+    const o = fcfOutliers.find(o => o.company === owner && o.key === k);
+    return o ? {v: o.p.v, e: true, vs: 'left out', why: `Left out of the charts and totals: with ${fmtB(o.capex)} of capex it implies ${fmtB(o.ocf)} of operating cash flow, against ${fmtB(o.prior)} a year earlier${o.neighbor ? ', and the quarter next to it fails the same check' : ''}. Check the workbook's free cash flow row for this quarter.`} : null;
+  };
+  const quarterName = k => `Q${k.slice(-1)} '${k.slice(2, 4)}`;
+  const state = {cloudMode: 'yoy', cloudBasis: 'est', cloudHidden: new Set()};
+
+  // "Reported only" drops every estimate point, so each company stops at its own
+  // latest reported quarter (one early reporter runs a quarter past the rest).
+  const onBasis = (raw, basis) => basis === 'rep' ? Object.fromEntries(Object.entries(raw).filter(([, p]) => !p.e)) : raw;
+  const BASIS = [['rep', 'Reported only'], ['est', 'With estimates']];
+  const allQuarters = seriesList => [...new Set(seriesList.flatMap(s => Object.keys(s)))].sort();
+  const markPeriods = (keys, seriesList) => keys.map(k => ({...periodObj(k), estimate: seriesList.every(s => !s[k] || s[k].e)}));
+  // Microsoft and Oracle fiscal years differ from the calendar; say which company quarter a point is.
+  const fiscalNote = (owner, p) => [p && p.fiscal && /^(Microsoft|Oracle)$/.test(owner) ? `Company ${p.fiscal}` : '', p?.why].filter(Boolean).join('; ');
+  const vsB = p => p && p.est != null ? vsLine(p.v, p.est, fmtB) : '';
+  const joinNotes = (...parts) => parts.filter(Boolean).join('; ');
+  const withVs = p => p ? {...p, vs: vsB(p)} : null;
+
+  const cloudSeries = () => data.companies.filter(c => c.metrics.cloud).map(c => ({
+    name: c.metrics.cloud.label, owner: c.name, color: COLORS[c.name] || 'var(--benchmark)', raw: c.metrics.cloud.series}));
+  // Capex and free cash flow share one renderer; only the source row differs.
+  const flowSeries = key => {
+    const list = data.companies.filter(c => c.metrics[key]).map(c => ({
+      name: c.name === 'SpaceX' ? (key === 'capex' ? 'SpaceX (AI)' : 'SpaceX') : c.name,
+      short: c.name === 'SpaceX' && key === 'capex' ? 'SpaceX AI' : c.name, owner: c.name,
+      color: COLORS[c.name] || 'var(--benchmark)', raw: c.metrics[key].series, field: c.metrics[key].label}));
+    return key === 'capex' ? [...list, hyperscalerTotal(list.filter(s => s.owner !== 'SpaceX'))] : list;
+  };
+  // Sum of the five hyperscalers (SpaceX left out), only for quarters where all five have a figure.
+  // It counts as an estimate when any company's quarter is one.
+  function hyperscalerTotal(list) {
+    const raw = {};
+    allQuarters(list.map(s => s.raw)).forEach(k => {
+      const parts = list.map(s => s.raw[k]);
+      if (parts.some(p => !p)) return;
+      const e = parts.some(p => p.e);
+      raw[k] = {v: parts.reduce((a, p) => a + p.v, 0), e};
+      if (!e && parts.some(p => p.est != null)) raw[k].est = parts.reduce((a, p) => a + (p.est ?? p.v), 0);
+    });
+    return {name: 'Total', short: 'Total', owner: 'Total', total: true, color: 'var(--ml-ink)', raw, field: ''};
+  }
+  // Growth needs both periods positive. A reported quarter also carries the growth its estimate implied.
+  const yoy = (raw, k) => {
+    const cur = raw[k], base = raw[prevYearKey(k)];
+    if (!cur || !base || !(base.v > 0) || !(cur.v > 0)) return null;
+    return {v: (cur.v / base.v - 1) * 100, e: cur.e, vs: cur.est > 0 ? 'est ' + fmtPct((cur.est / base.v - 1) * 100, 0) : ''};
+  };
+  const quarterColumns = periods => dividerFlags(periods.map(p => ({label: `${p.label} '${p.year.slice(2)}`, estimate: p.estimate})));
+  const pctCell = v => fmtPct(v, 0);
+
+  function renderCloud() {
+    const panel = document.querySelector('#cloudPanel');
+    const full = cloudSeries();
+    const list = full.map(s => ({...s, raw: onBasis(s.raw, state.cloudBasis)}));
+    const reported = state.cloudBasis === 'rep';
+    const yoyMode = state.cloudMode === 'yoy';
+    const keys = allQuarters(list.map(s => s.raw)).filter(k => !yoyMode || list.some(s => yoy(s.raw, k)));
+    const periods = markPeriods(keys, list.map(s => s.raw));
+    const series = list.map(s => ({...s, points: keys.map(k => {
+      const p = yoyMode ? yoy(s.raw, k) : s.raw[k];
+      return p ? {v: p.v, e: p.e, note: joinNotes(fiscalNote(s.owner, s.raw[k]), yoyMode ? p.vs : vsB(p))} : null;
+    })}));
+    segmented(panel.querySelector('[data-ctl=mode]'), [['yoy', 'YoY growth'], ['rev', 'Revenue $B']], state.cloudMode, v => { state.cloudMode = v; renderCloud(); });
+    segmented(panel.querySelector('[data-ctl=basis]'), BASIS, state.cloudBasis, v => { state.cloudBasis = v; renderCloud(); });
+    legend(panel.querySelector('.comp-legend'), series, state.cloudHidden, renderCloud);
+    panel.querySelector('.panel-heading p').textContent = (yoyMode ? 'Cloud segment revenue, year-over-year %' : 'Cloud segment revenue, $B per quarter') + (reported ? ', reported only' : '');
+    lineChart(panel.querySelector('.comp-chart'), {
+      label: 'Cloud growth comps', periods, series, hidden: state.cloudHidden,
+      fmt: (v, long) => yoyMode ? fmtPct(v, long ? 1 : 0) : fmtB(v), axisFmt: v => yoyMode ? v + '%' : '$' + v + 'B',
+    });
+    // The table always shows every quarter, reported and estimated, whatever the chart shows.
+    const allKeys = allQuarters(full.map(s => s.raw));
+    figuresTable(document.querySelector('#cloudTable'), {caption: 'Quarterly', columns: quarterColumns(markPeriods(allKeys, full.map(s => s.raw))), rowGroups: full.map(s => ({
+      name: `${s.name} · ${s.owner}`, color: s.color, rows: [
+        {label: 'Revenue', fmt: fmtB, cells: allKeys.map(k => withVs(s.raw[k]))},
+        {label: 'YoY', fmt: pctCell, cells: allKeys.map(k => yoy(s.raw, k))},
+      ]}))});
+  }
+
+  // Sum of a run of quarters. Null unless every quarter is present.
+  function sumQuarters(raw, keys) {
+    const parts = keys.map(k => raw[k]);
+    if (parts.some(p => !p)) return null;
+    const nEst = parts.filter(p => p.e).length;
+    return {v: parts.reduce((a, p) => a + p.v, 0), e: nEst > 0, parts: parts.map(p => ({v: p.v, e: p.e})), note: nEst && nEst < parts.length ? `${parts.length - nEst} reported + ${nEst} estimated quarters` : ''};
+  }
+  const yearKeys = year => [1, 2, 3, 4].map(q => quarterKey(year, q));
+  const trailingKeys = k => { const y = Number(k.slice(0, 4)), q = Number(k.slice(-1)); return [3, 2, 1, 0].map(b => { const n = (y * 4 + q - 1) - b; return quarterKey(Math.floor(n / 4), n % 4 + 1); }); };
+  const growth = (a, b) => a && b && b.v > 0 && a.v > 0 ? {v: (a.v / b.v - 1) * 100, e: a.e} : null;
+
+  const FLOWS = {
+    capex: {panel: '#capexPanel', table: '#capexTable', method: '#capexMethod', what: 'Capital expenditures', row: 'Capex',
+      modes: [['quarterly', 'Quarterly'], ['annual', 'Calendar year']],
+      note: 'Spend shown as a positive number.'},
+    fcf: {panel: '#fcfPanel', table: '#fcfTable', method: '#fcfMethod', what: 'Free cash flow', row: 'FCF', bars: true, totalToggle: true,
+      modes: [['annual', 'Calendar year'], ['ttm', 'Trailing 4 quarters'], ['quarterly', 'Quarterly']],
+      note: 'Free cash flow is cash from operations minus capex, as each company or Bloomberg defines it. SpaceX is the whole company, not only its AI unit. Trailing 4 quarters smooths out seasonal swings.'},
+  };
+  const flowState = {capex: {mode: 'quarterly', basis: 'est', hidden: new Set()}, fcf: {mode: 'quarterly', basis: 'est', view: 'company', hidden: new Set()}};
+  const VIEWS = [['company', 'By company'], ['total', 'Total']];
+
+  function renderFlow(key) {
+    const cfg = FLOWS[key], st = flowState[key], again = () => renderFlow(key);
+    const panel = document.querySelector(cfg.panel);
+    const companies = flowSeries(key).map(s => ({...s, raw: onBasis(s.raw, st.basis)}));
+    const reported = st.basis === 'rep';
+    // Total view: one bar per period for the five hyperscalers (SpaceX left out, as in the capex total).
+    const totalView = cfg.totalToggle && st.view === 'total';
+    const five = companies.filter(s => !s.total && s.owner !== 'SpaceX');
+    const list = totalView ? [hyperscalerTotal(five)] : companies;
+    const hidden = totalView ? new Set() : st.hidden;
+    const breakdown = pick => totalView ? five.map(s => { const p = pick(s); return p ? `${s.owner} ${fmtB(p.v)}` : ''; }).filter(Boolean).join(', ') : '';
+    segmented(panel.querySelector('[data-ctl=mode]'), cfg.modes, st.mode, v => { st.mode = v; again(); });
+    segmented(panel.querySelector('[data-ctl=basis]'), BASIS, st.basis, v => { st.basis = v; again(); });
+    const viewHost = panel.querySelector('[data-ctl=view]');
+    if (viewHost) segmented(viewHost, VIEWS, st.view, v => { st.view = v; again(); });
+    const unit = {quarterly: '$B per quarter', ttm: '$B, trailing 4 quarters', annual: '$B per calendar year'}[st.mode];
+    panel.querySelector('.panel-heading p').textContent = `${cfg.what}, ${unit}${totalView ? ', five hyperscalers combined' : ''}${reported ? ', reported only' : ''}`;
+    const host = panel.querySelector('.comp-chart');
+    const keys = allQuarters(list.map(s => s.raw));
+    if (st.mode === 'annual') {
+      const years = [...new Set(keys.map(k => k.slice(0, 4)))].filter(y => list.some(s => sumQuarters(s.raw, yearKeys(y))));
+      const series = list.map(s => ({...s, values: years.map(y => { const a = sumQuarters(s.raw, yearKeys(y)); return a && totalView ? {...a, note: joinNotes(breakdown(c => sumQuarters(c.raw, yearKeys(y))), a.note)} : a; })}));
+      legend(panel.querySelector('.comp-legend'), series, hidden, again);
+      const groups = years.map(y => ({label: y, title: `Calendar ${y}`, estimate: series.every(s => { const a = s.values[years.indexOf(y)]; return !a || a.parts.every(p => p.e); })}));
+      columnChart(host, {label: `${cfg.what}, calendar year`, groups, series, hidden, fmt: fmtB, labelFmt: v => Math.round(v).toString(), axisFmt: axisB});
+    } else {
+      const ttm = st.mode === 'ttm';
+      const value = (s, k) => ttm ? sumQuarters(s.raw, trailingKeys(k)) : s.raw[k] || null;
+      // The total keeps a quarter it can't add up (one company left out) as a visible n/a, so the axis never skips.
+      const has = keys.map(k => list.some(s => value(s, k)));
+      const shown = totalView ? keys.slice(has.indexOf(true), has.lastIndexOf(true) + 1) : keys.filter((k, i) => has[i]);
+      const periods = markPeriods(shown, list.map(s => s.raw));
+      const note = (s, k, p) => totalView ? joinNotes(breakdown(c => value(c, k)), p.note || vsB(p)) : p.note || joinNotes(fiscalNote(s.owner, s.raw[k]), vsB(p));
+      const label = `${cfg.what}, ${ttm ? 'trailing 4 quarters' : 'quarterly'}`;
+      // Free cash flow swings above and below zero, which reads better as bars.
+      if (cfg.bars) {
+        const groups = periods.map((p, i) => ({label: p.label, sub: i === 0 || periods[i - 1].year !== p.year ? p.year : '', title: p.title, estimate: p.estimate}));
+        const series = list.map(s => ({...s, values: shown.map(k => { const p = value(s, k); return p ? {...p, note: note(s, k, p)} : null; })}));
+        legend(panel.querySelector('.comp-legend'), series, hidden, again);
+        columnChart(host, {label, groups, series, hidden, fmt: fmtB, axisFmt: axisB, quietGaps: !totalView});
+      } else {
+        const series = list.map(s => ({...s, points: shown.map(k => { const p = value(s, k); return p ? {v: p.v, e: p.e, note: note(s, k, p)} : null; })}));
+        legend(panel.querySelector('.comp-legend'), series, st.hidden, again);
+        lineChart(host, {label, periods, series, hidden: st.hidden, fmt: fmtB, axisFmt: axisB});
+      }
+    }
+    flowTables(key);
+    const outNote = panel.querySelector('[data-outliers]');
+    if (outNote) {
+      const by = {};
+      fcfOutliers.forEach(o => (by[o.company] = by[o.company] || []).push(quarterName(o.key)));
+      outNote.hidden = !fcfOutliers.length;
+      outNote.textContent = fcfOutliers.length ? `Left out as likely workbook errors: ${Object.entries(by).map(([c, qs]) => `${c} ${qs.join(', ')}`).join('; ')}. Years and trailing sums that include them are left out too; the figures table has the values.` : '';
+    }
+    document.querySelector(cfg.method).textContent = `${cfg.note} Line items differ by company: ${list.filter(s => !s.total).map(s => `${s.owner}, ${s.field.trim()}`).join('; ')}.${key === 'capex' ? ' Total adds Microsoft, Google, Amazon, Oracle and Meta, only for quarters all five cover; SpaceX is left out.' : ''}${cfg.totalToggle ? ' The Total view adds Microsoft, Google, Amazon, Oracle and Meta, only for periods all five cover, and leaves SpaceX out as the capex total does; hover a bar for each company\'s part.' : ''} A calendar year needs all four quarters; a year that mixes reported and estimated quarters counts as an estimate. Growth is left blank when either period is negative. Under a reported quarter, the small line is the estimate this page showed before the report.${key === 'fcf' ? ' Check on estimates: free cash flow plus capex is the operating cash flow an estimate implies. When that moves by more than half the quarter\'s capex from the same quarter a year earlier, or by more than two fifths next to a quarter that already fails, the quarter is treated as a workbook error and left out of the chart, calendar years, trailing sums and growth.' : ''}`;
+  }
+
+  // Quarterly and calendar-year tables, always every period, whatever the chart shows.
+  function flowTables(key) {
+    const cfg = FLOWS[key], list = flowSeries(key), host = document.querySelector(cfg.table);
+    const keys = allQuarters(list.map(s => s.raw));
+    if (!host.querySelector('[data-part]')) host.innerHTML = '<div data-part="q"></div><div data-part="y"></div>';
+    figuresTable(host.querySelector('[data-part=q]'), {caption: 'Quarterly', columns: quarterColumns(markPeriods(keys, list.map(s => s.raw))), rowGroups: list.map(s => ({
+      name: s.name, color: s.color, rows: [
+        {label: cfg.row, fmt: fmtB, cells: keys.map(k => withVs(s.raw[k]) || (key === 'fcf' ? outlierCell(s.owner, k) : null))},
+        {label: 'YoY', fmt: pctCell, cells: keys.map(k => yoy(s.raw, k))},
+      ]}))});
+    const years = [...new Set(keys.map(k => k.slice(0, 4)))].filter(y => list.some(s => sumQuarters(s.raw, yearKeys(y))));
+    const cols = dividerFlags(years.map(y => ({label: 'CY' + y, estimate: list.some(s => sumQuarters(s.raw, yearKeys(y))?.e)})));
+    figuresTable(host.querySelector('[data-part=y]'), {caption: 'Calendar year', columns: cols, rowGroups: list.map(s => ({
+      name: s.name, color: s.color, rows: [
+        {label: cfg.row, fmt: fmtB, cells: years.map(y => sumQuarters(s.raw, yearKeys(y)))},
+        {label: 'YoY', fmt: pctCell, cells: years.map(y => growth(sumQuarters(s.raw, yearKeys(y)), sumQuarters(s.raw, yearKeys(y - 1))))},
+      ]}))});
+  }
+
+  // ---------- capex growth: year-over-year %, by calendar quarter or calendar year ----------
+  // SpaceX AI capex starts from a tiny 2025 base (+2,000% in Q2 2026), which would
+  // flatten every other line, so it starts hidden; its key brings it back.
+  const growthState = {mode: 'quarterly', basis: 'est', hidden: new Set(['SpaceX (AI)'])};
+  function renderCapexGrowth() {
+    const panel = document.querySelector('#capexGrowthPanel');
+    if (!panel) return;
+    const again = renderCapexGrowth;
+    const list = flowSeries('capex').map(s => ({...s, raw: onBasis(s.raw, growthState.basis)}));
+    const annual = growthState.mode === 'annual';
+    segmented(panel.querySelector('[data-ctl=mode]'), FLOWS.capex.modes, growthState.mode, v => { growthState.mode = v; again(); });
+    segmented(panel.querySelector('[data-ctl=basis]'), BASIS, growthState.basis, v => { growthState.basis = v; again(); });
+    panel.querySelector('.panel-heading p').textContent = `Capital expenditures, year-over-year % by calendar ${annual ? 'year' : 'quarter'}${growthState.basis === 'rep' ? ', reported only' : ''}`;
+    const host = panel.querySelector('.comp-chart');
+    const pct = (v, long) => fmtPct(v, long ? 1 : 0);
+    if (annual) {
+      // A calendar year needs all four quarters in both years; a year with any estimated quarter is drawn as an estimate.
+      const yearGrowth = (s, y) => {
+        const cur = sumQuarters(s.raw, yearKeys(y)), g = growth(cur, sumQuarters(s.raw, yearKeys(y - 1)));
+        return g ? {...g, note: cur.note} : null;
+      };
+      const years = [...new Set(allQuarters(list.map(s => s.raw)).map(k => k.slice(0, 4)))].filter(y => list.some(s => yearGrowth(s, y)));
+      const series = list.map(s => ({...s, values: years.map(y => yearGrowth(s, y))}));
+      legend(panel.querySelector('.comp-legend'), series, growthState.hidden, again);
+      const groups = years.map(y => ({label: y, title: `Calendar ${y}`, estimate: series.every(s => { const g = s.values[years.indexOf(y)]; return !g || g.e; })}));
+      columnChart(host, {label: 'Capex growth, calendar year', groups, series, hidden: growthState.hidden, fmt: pct, labelFmt: v => Math.round(v) + '%', axisFmt: v => v + '%'});
+    } else {
+      const keys = allQuarters(list.map(s => s.raw)).filter(k => list.some(s => yoy(s.raw, k)));
+      const periods = markPeriods(keys, list.map(s => s.raw));
+      const series = list.map(s => ({...s, points: keys.map(k => { const p = yoy(s.raw, k); return p ? {v: p.v, e: p.e, note: joinNotes(fiscalNote(s.owner, s.raw[k]), p.vs)} : null; })}));
+      legend(panel.querySelector('.comp-legend'), series, growthState.hidden, again);
+      lineChart(host, {label: 'Capex growth', periods, series, hidden: growthState.hidden, fmt: pct, axisFmt: v => v + '%'});
+    }
+  }
+
+  // ---------- estimates vs actuals ledger ----------
+  const METRIC = {capex: ['Capex', fmtB], fcf: ['Free cash flow', fmtB], cloud: ['Cloud revenue', fmtB], aiRevenue: ['AI revenue', fmtB],
+    capacity: ['Capacity added', v => (Math.abs(v) >= 10 ? v.toFixed(1) : v.toFixed(2)) + ' GW']};
+  const shortDate = iso => { const d = new Date(iso + 'T12:00:00'); return isNaN(d) ? iso : d.toLocaleDateString('en-US', {month: 'short', day: 'numeric'}); };
+  function renderActuals() {
+    const host = document.querySelector('#actualsTable');
+    if (!host) return;
+    // One block per company: companies with a fresh report first, then by next report date.
+    // Within a block: quarter capex, then the capex guides (guidance-array order), then cloud, cash flow, capacity.
+    const ORDER = {capex: 0, cloud: 2, aiRevenue: 2, fcf: 3, capacity: 4};
+    const rank = a => a.guide ? 1 : ORDER[a.metric] ?? 9;
+    const groups = {};
+    ACTUALS.forEach(a => (groups[a.company] = groups[a.company] || []).push(a));
+    (window.capacityActuals?.guidance || []).forEach(g => (groups[g.company] = groups[g.company] || []).push({...g, guide: true}));
+    const lastReport = rows => rows.reduce((m, a) => (a.actual != null && (a.reported || '') > m ? a.reported : m), '');
+    const nextDue = rows => rows.reduce((m, a) => (a.actual == null && (a.due || '9') < m ? (a.due || '9') : m), '9');
+    const companies = Object.keys(groups).sort((x, y) => lastReport(groups[y]).localeCompare(lastReport(groups[x]))
+      || nextDue(groups[x]).localeCompare(nextDue(groups[y])) || x.localeCompare(y));
+    companies.forEach(c => groups[c].sort((a, b) => rank(a) - rank(b) || (a.guide ? 0 : a.quarter.localeCompare(b.quarter))));
+    // Capex guide rows: the company's own guide beside the page's sum for the same period.
+    const capexRaw = Object.fromEntries(flowSeries('capex').map(s => [s.owner, s.raw]));
+    const pageSum = g => {
+      const raw = capexRaw[g.company] || {};
+      if (g.pageComparable === false) return null;
+      if (g.fiscalYear) { const ps = Object.values(raw).filter(p => (p.fiscal || '').startsWith(g.fiscalYear + ' ')); return ps.length === 4 ? ps.reduce((a, p) => a + p.v, 0) : null; }
+      if (g.period.startsWith('CY')) return sumQuarters(raw, yearKeys(g.period.slice(2)))?.v ?? null;
+      return raw[g.period]?.v ?? null;
+    };
+    const b = v => '$' + v + 'B';
+    const range = (lo, hi, approx) => lo === hi ? (approx ? 'about ' : '') + b(lo) : `${b(lo)} to ${b(hi)}`;
+    const pctGap = (v, base) => base == null || v == null ? '' : (Math.round((v / base - 1) * 100) ? fmtPct(Math.round((v / base - 1) * 100), 0) : '0%');
+    const nd = '<span class="nd">–</span>';
+    // Columns: prior guide, estimate, actual (highlighted), vs guide, vs est.
+    const cells = (prior, est, actual, vsGuide, vsEst) => `<td class="prior">${prior}</td><td class="est-v">${est}</td><td class="act">${actual}</td><td>${vsGuide}</td><td>${vsEst}</td>`;
+    const guideRow = (g, i, rows, total) => {
+      const color = COLORS[g.company] || 'var(--ml-ink)', est = total !== undefined ? total : pageSum(g);
+      const mid = g.outlook ? null : (g.low + g.high) / 2, prevMid = g.prevLow == null ? null : (g.prevLow + g.prevHigh) / 2;
+      const period = /^\d{4} Q/.test(g.period) ? g.period.slice(5) + " '" + g.period.slice(2, 4) : g.period.slice(0, 2) + g.period.slice(-2);
+      return `<tr class="guide-row${g.outlook ? ' guide-outlook' : ''}${i === 0 ? ' group-start' : ''}">${i === 0 ? `<th scope="rowgroup" rowspan="${rows.length}" class="sticky" style="color:${color}">${esc(g.company)}</th>` : ''}`
+        + `<td class="metric-col">Capex guide</td><td>${esc(period)}</td>`
+        + cells(prevMid == null ? '' : esc(range(g.prevLow, g.prevHigh, g.prevApprox)), est == null ? nd : esc(fmtB(est)),
+          esc(g.outlook ? g.text : range(g.low, g.high, g.approx)), esc(pctGap(mid, prevMid)), esc(pctGap(mid, est)))
+        + `<td class="ledger-note" title="${esc(g.source)}">${g.guided ? (g.outlook ? 'said ' : 'guided ') + esc(shortDate(g.guided)) : 'five hyperscalers'}${g.change ? ', ' + esc(g.change) : ''} <span class="ledger-i" aria-hidden="true">i</span></td></tr>`;
+    };
+    // Total of the five hyperscaler guides, SpaceX left out as in the capex charts.
+    // Oracle counts on its fiscal 2027 (Jun 2026 to May 2027); the others on calendar 2026.
+    const guideTotal = () => {
+      const gs = (window.capacityActuals?.guidance || []).filter(g => g.company !== 'SpaceX' && !g.outlook);
+      if (!gs.length) return '';
+      const sum = k => gs.reduce((a, g) => a + g[k], 0), ests = gs.map(pageSum), hasPrev = gs.every(g => g.prevLow != null);
+      const total = {company: 'Total', period: 'CY2026', low: sum('low'), high: sum('high'), approx: gs.some(g => g.approx), guided: '',
+        ...(hasPrev ? {prevLow: sum('prevLow'), prevHigh: sum('prevHigh'), prevApprox: gs.some(g => g.prevApprox)} : {}),
+        source: `${gs.map(g => g.company).join(', ')}. Oracle counts on its fiscal 2027 (Jun 2026 to May 2027), the rest on calendar 2026. Prior guide adds each company's guide before its latest one. SpaceX is left out, as in the capex charts.`};
+      const est = ests.some(e => e == null) ? null : ests.reduce((a, e) => a + e, 0);
+      return guideRow(total, 0, [total], est).replace('class="guide-row group-start"', 'class="guide-row group-start guide-total"');
+    };
+    const row = (a, i, rows) => {
+      if (a.guide) return guideRow(a, i, rows);
+      const [base, fmt] = METRIC[a.metric] || [a.metric, fmtB];
+      const label = a.company === 'SpaceX' && a.metric === 'capex' ? 'AI capex' : base;
+      const color = COLORS[a.company] || 'var(--benchmark)';
+      const reported = a.actual != null;
+      const vs = (ref, v = a.actual) => reported && ref != null ? vsLine(v, ref, fmt).replace(/^est [^,]+, /, '') : '';
+      const cls = [i === 0 ? 'group-start' : '', reported ? '' : 'waiting'].filter(Boolean).join(' ');
+      return `<tr class="${cls}">${i === 0 ? `<th scope="rowgroup" rowspan="${rows.length}" class="sticky" style="color:${color}">${esc(a.company)}</th>` : ''}`
+        + `<td class="metric-col">${esc(label)}</td><td>${esc(a.quarter.slice(5) + " '" + a.quarter.slice(2, 4))}</td>`
+        + cells(a.priorText ? esc(a.priorText) : a.priorGuide == null ? '' : esc(fmt(a.priorGuide)), a.estimate == null ? nd : esc(fmt(a.estimate)),
+          reported ? esc(fmt(a.actual)) : nd, esc(vs(a.priorGuide, a.priorActual ?? a.actual)), esc(vs(a.estimate)))
+        + `<td class="ledger-note"${a.source ? ` title="${esc(a.source)}"` : ''}>${reported ? 'reported ' + esc(shortDate(a.reported)) + (a.source ? ' <span class="ledger-i" aria-hidden="true">i</span>' : '') : (a.due ? 'reports ' + esc(shortDate(a.due)) : 'next report')}</td></tr>`;
+    };
+    host.innerHTML = `<div class="figures-scroll"><table class="figures-table ledger-table"><thead><tr><th scope="col" class="sticky">Company</th><th scope="col" class="metric-col">Metric</th><th scope="col">Period</th><th scope="col" class="prior">Prior guide</th><th scope="col" class="est-v">Estimate</th><th scope="col" class="act">Actual</th><th scope="col">vs guide</th><th scope="col">vs est</th><th scope="col" class="ledger-note"></th></tr></thead>`
+      + `<tbody>${companies.map(c => groups[c].map(row).join('')).join('')}${guideTotal()}</tbody></table></div>`;
+  }
+
+  // Backlog (RPO) at each quarter end, from filings. Reported only, so no estimate columns.
+  function renderBacklog() {
+    const host = document.querySelector('#backlogTable');
+    const rows = window.capacityActuals?.backlog || [];
+    if (!host || !rows.length) return;
+    const raw = rows.map(b => Object.fromEntries(Object.entries(b.points).map(([k, [v, fiscal]]) => [k, {v, e: false, why: fiscal && b.company !== 'Google' ? `Company ${fiscal}` : ''}])));
+    const keys = allQuarters(raw).filter(k => k >= '2024 Q1');
+    const added = (r, k) => r[k] && r[prevQuarterKey(k)] ? {v: r[k].v - r[prevQuarterKey(k)].v, e: false} : null;
+    figuresTable(host, {caption: 'Quarter end', columns: quarterColumns(markPeriods(keys, raw)), rowGroups: rows.map((b, i) => ({
+      name: b.company, color: COLORS[b.company], rows: [
+        {label: 'Backlog', fmt: fmtB, cells: keys.map(k => raw[i][k] || null)},
+        {label: 'Added', fmt: v => (v > 0 ? '+' : '') + fmtB(v), cells: keys.map(k => added(raw[i], k))},
+        {label: 'YoY', fmt: pctCell, cells: keys.map(k => yoy(raw[i], k))},
+      ]}))});
+    document.querySelector('#backlogMethod').textContent = 'Backlog is remaining performance obligations: contract revenue signed but not yet recognized. '
+      + rows.map(b => `${b.company}: ${b.what}.`).join(' ') + ' Microsoft (June year-end) and Oracle (May year-end) map to the calendar quarter their period ends in; hover a cell for the company quarter. Added is the change from the quarter before. '
+      + 'Sources: ' + rows.map(b => b.source).join(' ');
+  }
+
+  const d = new Date(data.updatedAt);
+  const stamp = isNaN(d) ? data.updatedAt : d.toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric'});
+  document.querySelectorAll('[data-comps-source]').forEach(el => { el.textContent = `Cloud, capex and cash flow from ${data.workbook}, saved ${stamp}`; });
+  renderCloud();
+  renderFlow('capex');
+  renderCapexGrowth();
+  renderFlow('fcf');
+  renderActuals();
+  renderBacklog();
+})();

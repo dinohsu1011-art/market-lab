@@ -1,0 +1,41 @@
+{
+ "ticker": "MTZ",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/15615/000001561526000127/mtz930268-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/15615/000001561526000095/mtz630268-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/15615/000001561526000052/mtz331268-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/15615/000001561526000018/mtz1231258-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/15615/000001561525000130/mtz930258-kex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/15615/000001561525000080/mtz630258-kex991.htm",
+   "release_ok": true
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" data-eq>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Themes · Equinox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="market-lab-bar.css?v=20261123-1110b792">
+<link rel="stylesheet" href="market-lab-eq.css?v=20261123-1110b792">
+<script src="market-lab-shell.js?v=20261123-1110b792"></script>
+</head>
+<body>
+<div class="page">
+  <nav class="side" aria-label="On this page">
+    <a href="#top" class="on">Chart</a><a href="#all">All themes</a>
+  </nav>
+  <main>
+    <div id="top">
+      <h1 id="name">&nbsp;</h1>
+      <div class="sub" id="sub">&nbsp;</div>
+      <div class="price num" id="price">&nbsp;</div>
+      <div class="chg num" id="chg"></div>
+      <div class="chart" id="chart"></div>
+      <div class="ranges" id="ranges"><span class="stamp" id="stamp"></span></div>
+      <div class="cmp">
+        <div class="keyline wrapkeys" id="cmpKey"></div>
+        <form class="find mini" id="cmpFind" role="search"><input type="search" placeholder="Add a line" aria-label="Add a theme, basket, index or fund to the chart" autocomplete="off" spellcheck="false"><ul hidden></ul></form>
+      </div>
+      <p class="thnote" id="cmpNote" role="status"></p>
+      <div class="memrow"><button type="button" id="showAll" aria-pressed="false" title="Draw every stock in this theme on the chart" hidden>Show all</button><div class="members" id="members"></div><button type="button" id="delTheme" hidden>Delete theme</button></div>
+      <div class="thnew">
+        <button type="button" class="link" id="newBtn" aria-expanded="false" aria-controls="newForm">Create a new theme</button>
+        <div class="thform" id="newForm" role="group" aria-label="Create a new theme" hidden>
+          <input type="text" id="newName" placeholder="Theme name" aria-label="Theme name" maxlength="60" autocomplete="off" spellcheck="false">
+          <form class="find mini" id="newFind" role="search"><input type="search" placeholder="Add tickers" aria-label="Add tickers, typed or searched" autocomplete="off" spellcheck="false"><ul hidden></ul></form>
+          <button type="button" id="newSave">Save theme</button><button type="button" class="link" id="newCancel">Cancel</button>
+          <div class="keyline wrapkeys" id="newList"></div>
+          <p class="thnote" id="newNote" role="alert"></p>
+        </div>
+      </div>
+    </div>
+    <section id="all"><h2>All themes</h2><table id="thTable"><thead class="stick"></thead><tbody></tbody></table></section>
+  </main>
+</div>
+<script src="market-lab-eq.js?v=20261123-1110b792"></script>
+<script src="cube/reviews-index.js?v=20261123-1110b792"></script>
+<script src="cube/baskets.js?v=20261123-1110b792"></script>
+<script src="market-lab-cloud.js?v=20261123-1110b792"></script>
+<script src="market-lab-eq-themes.js?v=20261123-1110b792"></script>
+</body>
+</html>

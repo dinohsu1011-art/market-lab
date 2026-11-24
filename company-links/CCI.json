@@ -1,0 +1,189 @@
+{
+ "ticker": "CCI",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000085/q32026earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000046/q12026earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147026000008/q42025earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147025000185/q32025earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147025000159/q22025earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147025000124/q12025earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-03-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147025000085/q42024earningsreleaseversi.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147024000206/q32024earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147024000180/q22024earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147024000133/q12024earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/25/crown-castle-cci-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147024000030/q42023earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/19/crown-castle-cci-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147023000156/q32023earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/20/crown-castle-cci-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147023000117/exhibit992-pressreleasejul.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147023000092/q12023earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/26/crown-castle-cci-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1051470/000105147023000005/q42022earningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/20/crown-castle-cci-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/21/crown-castle-international-cci-q2-2022-earnings-ca/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/27/crown-castle-international-cci-q4-2021-earnings-ca/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/21/crown-castle-international-corp-cci-q3-2021-earnin/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/22/crown-castle-international-corp-cci-q2-2021-earnin/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/22/crown-castle-international-corp-cci-q1-2021-earnin/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/28/crown-castle-international-corp-cci-q4-2020-earnin/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/22/crown-castle-international-corp-cci-q2-2020-earnin/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/30/crown-castle-international-corp-cci-q2-2020-earnin.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/crown-castle-international-corp-cci-q1-2020-earnin.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/27/crown-castle-international-corp-cci-q4-2019-earnin.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/17/crown-castle-international-corp-cci-q3-2019-earnin.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/18/crown-castle-international-corp-cci-q2-2019-earnin.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/18/crown-castle-international-corp-cci-q1-2019-earnin.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/24/crown-castle-international-cop-cci-q4-2018-earning.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/18/crown-castle-international-corp-cci-q3-2018-earnin.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/20/crown-castle-international-cci-q2-2018-earnings-co.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/20/crown-castle-international-cci-q1-2018-earnings-co.aspx"
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "ticker": "MCD",
+ "ir": "https://corporate.mcdonalds.com/corpmcd/investors.html",
+ "results": "https://corporate.mcdonalds.com/corpmcd/investors/financial-information.html",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-04",
+   "release": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD%20Q326%20-%20Exhibit%2099.1.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "release": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD%20Q226%20Earnings%20Release%20-%20Exhibit%2099.1.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Q1%202026%20Exhibit%2099.1%20-%203.31.26.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-11",
+   "release": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD%20Q4-25%20-%20Exhibit%2099.1%20-%20vF.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-05",
+   "release": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/2025%20Q3%20Earnings%20Release.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Q1_25_Earnings_Release.pdf",
+   "transcript": "https://www.insidermonkey.com/blog/mcdonalds-corporation-nysemcd-q1-2025-earnings-call-transcript-1523333/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/10/mcdonalds-mcd-q4-2024-earnings-call-transcript/",
+   "release": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD-Q4-24-Earnings-Release.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/29/mcdonalds-mcd-q3-2024-earnings-call-transcript/",
+   "release": "https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/Q3_24_Earnings_Release.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/63908/000006390824000119/exhibit991-6302024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/63908/000006390824000089/exhibit991-33124xq1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/63908/000006390824000029/exhibit991-12312023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/63908/000006390823000098/exhibit991-9302023xexcelte.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/63908/000006390823000073/exhibit991-6302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/63908/000006390823000030/exhibit991-33123xq1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/63908/000006390823000005/exhibit991-123122.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/mcdonalds-corporation-mcd-q3-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/28/mcdonalds-corporation-mcd-q2-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/mcdonalds-corp-mcd-q1-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/28/mcdonalds-corp-mcd-q4-2020-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/28/mcdonalds-corp-mcd-q2-2020-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/mcdonalds-corp-mcd-q1-2020-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/29/mcdonalds-corp-mcd-q4-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/22/mcdonalds-corp-mcd-q3-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/30/mcdonalds-corp-mcd-q1-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/30/mcdonalds-corp-mcd-q4-2018-earnings-conference-cal.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/23/mcdonalds-corp-mcd-q3-2018-earnings-conference-cal.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/26/mcdonalds-corporation-mcd-q2-2018-earnings-confere.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/30/mcdonalds-corporation-mcd-q1-2018-earnings-confere.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/01/31/mcdonalds-mcd-q4-2017-earnings-conference-call-tra.aspx"
+  }
+ ]
+}

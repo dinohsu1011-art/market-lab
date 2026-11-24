@@ -1,0 +1,216 @@
+{
+ "ticker": "NFLX",
+ "ir": "https://ir.netflix.net/ir-overview/profile/default.aspx",
+ "results": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/20/netflix-nflx-q3-2026-earnings-call-transcript/",
+   "slides": "https://s22.q4cdn.com/959853165/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf",
+   "slides_kind": "letter",
+   "release": "https://s22.q4cdn.com/959853165/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-16",
+   "slides": "https://s22.q4cdn.com/959853165/files/doc_financials/2026/q2/FINAL-Q2-26-Shareholder-Letter.pdf",
+   "slides_kind": "letter",
+   "release": "https://s22.q4cdn.com/959853165/files/doc_financials/2026/q2/FINAL-Q2-26-Shareholder-Letter.pdf",
+   "transcript": "https://s22.q4cdn.com/959853165/files/doc_financials/2026/q2/Netflix-Inc-_Earnings-Call_2026-07-16T00_00_00_English-1.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/04/16/netflix-nflx-q1-2026-earnings-call-transcript/",
+   "slides": "https://s22.q4cdn.com/959853165/files/doc_financials/2026/q1/FINAL-Q1-26-Shareholder-Letter.pdf",
+   "slides_kind": "letter",
+   "release": "https://s22.q4cdn.com/959853165/files/doc_financials/2026/q1/FINAL-Q1-26-Shareholder-Letter.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/01/20/netflix-nflx-q4-2025-earnings-call-transcript/",
+   "slides": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf",
+   "slides_kind": "letter",
+   "release": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-21",
+   "slides": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q3/FINAL-Q3-25-Shareholder-Letter.pdf",
+   "slides_kind": "letter",
+   "release": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q3/FINAL-Q3-25-Shareholder-Letter.pdf",
+   "transcript": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q3/Netflix-Inc-_Earnings-Call_2025-10-21_English.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/07/17/netflix-nflx-q2-2025-earnings-call-transcript/",
+   "slides": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q2/FINAL-Q2-25-Shareholder-Letter.pdf",
+   "slides_kind": "letter",
+   "release": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q2/FINAL-Q2-25-Shareholder-Letter.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/04/21/netflix-nflx-q1-2025-earnings-call/",
+   "slides": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q1/COMBINED-Q1-25-Shareholder-Letter-V2.pdf",
+   "slides_kind": "letter",
+   "release": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/q1/COMBINED-Q1-25-Shareholder-Letter-V2.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/21/netflix-nflx-q4-2024-earnings-call-transcript/",
+   "slides": "https://s22.q4cdn.com/959853165/files/doc_financials/2024/q4/FINAL-Q4-24-Shareholder-Letter.pdf",
+   "slides_kind": "letter",
+   "release": "https://s22.q4cdn.com/959853165/files/doc_financials/2024/q4/FINAL-Q4-24-Shareholder-Letter.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/17/netflix-nflx-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000286/ex991_q324.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/18/netflix-nflx-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000199/ex991_q224.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/18/netflix-nflx-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000127/ex991_q124.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/23/netflix-nflx-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065280/000106528024000029/ex991_q423.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/18/netflix-nflx-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1065280/000106528023000272/ex991_q323.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/19/netflix-nflx-q2-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/19/netflix-nflx-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/18/netflix-nflx-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/20/netflix-nflx-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/20/netflix-nflx-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/21/netflix-nflx-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/20/netflix-nflx-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/20/netflix-nflx-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/21/netflix-nflx-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/20/netflix-nflx-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/21/netflix-nflx-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/18/netflix-nflx-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/21/netflix-inc-nflx-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/22/netflix-inc-nflx-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/16/netflix-inc-nflx-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/17/netflix-inc-nflx-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/16/netflix-inc-nflx-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/18/netflix-nflx-q4-2018-earnings-conference-call-tran.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/16/netflix-inc-nflx-q3-2018-earnings-conference-trans.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/16/netflix-inc-nflx-q2-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/16/netflix-inc-nflx-q1-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/01/22/netflix-inc-nflx-q4-2017-earnings-conference-call.aspx"
+  }
+ ]
+}

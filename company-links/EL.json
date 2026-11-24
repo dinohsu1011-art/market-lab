@@ -1,0 +1,179 @@
+{
+ "ticker": "EL",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000057/fy2027q1exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000038/elq4fy2026exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000017/fy2026q3exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125026000004/fy2026q2exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125025000058/fy2025q3exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125025000009/fy2025q2exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125024000174/fy2025q1exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-08-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125024000112/elq4fy2024exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125024000047/fy2024q3exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125024000005/fy2024q2exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-11-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125023000175/fy2024q1exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-08-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125023000110/elq4fy2023exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-05-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125023000052/fy2023q3exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1001250/000100125023000008/fy2023q2exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-08-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/18/the-estee-lauder-companies-el-q4-2022-earnings-cal/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/03/the-estee-lauder-companies-el-q3-2022-earnings-cal/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-02-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/03/the-estee-lauder-companies-el-q2-2022-earnings-cal/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/02/the-estee-lauder-companies-el-q1-2022-earnings-cal/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-08-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/20/the-estee-lauder-companies-el-q4-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/03/the-estee-lauder-companies-el-q3-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/05/the-estee-lauder-companies-el-q2-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/02/the-estee-lauder-companies-el-q1-2021-earnings-cal/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-08-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/20/the-estee-lauder-companies-el-q4-2020-earnings-cal/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/01/estee-lauder-companies-inc-el-q3-2020-earnings-cal.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/06/estee-lauder-companies-inc-el-q2-2020-earnings-cal.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/estee-lauder-companies-inc-el-q1-2020-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-08-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/19/estee-lauder-companies-inc-el-q4-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/01/estee-lauder-companies-inc-el-q3-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/05/estee-lauder-companies-inc-el-q2-2019-earnings-con.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/31/estee-lauder-companies-inc-el-q1-2019-earnings-con.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/02/estee-lauder-companies-inc-el-q3-2018-earnings-con.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/05/the-estee-lauder-companies-el-q2-2018-earnings-con.aspx"
+  }
+ ]
+}

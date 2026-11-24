@@ -1,0 +1,116 @@
+{
+ "ticker": "LHX",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/29/l3harris-lhx-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000084/exhibit991q3cy26earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000032/exhibit991q1cy26earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000008/exhibit991q4cy25earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205825000147/exhibit991q2cy25earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205825000098/exhibit991q1cy25earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205825000011/exhibit991q4cy24earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205824000166/exhibit991q3cy24earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205824000139/exhibit991q2cy24earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205824000102/exhibit991q1cy24earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205824000010/exhibit991q4cy23earnings.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205823000054/exhibit991q3cy23pressrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205823000051/table7.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205823000026/exhibit991q1cy23pressrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/202058/000020205823000005/exhibit991q4cy22pressrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/29/l3harris-technologies-inc-lhx-q3-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/03/l3harris-technologies-inc-lhx-q2-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/30/l3harris-technologies-inc-lhx-q1-2021-earnings-cal/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/29/l3harris-technologies-inc-lhx-q4-2020-earnings-cal/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/l3harris-technologies-lhx-q1-2020-earnings-call-tr.aspx"
+  }
+ ],
+ "ir": "https://l3harris.com/investors"
+}

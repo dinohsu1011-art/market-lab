@@ -1,0 +1,146 @@
+{
+ "ticker": "TPR",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000114036126042034/ef20084882_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-13",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000114036126032624/ef20079840_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000114036126019428/ef20072115_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000114036126003783/ef20064297_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-05-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000114036125017853/ef20048446_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000114036125003264/ef20042835_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000114036124045498/ef20037911_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-08-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000114036124037418/ef20034103_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000114036124025044/ef20028651_ex99-1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000115752324000195/a53892997ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-11-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000115752323001697/a53774140ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-08-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000115752323001344/a53539232ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-05-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000115752323000816/a53397141ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1116132/000115752323000220/a53306068_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-11-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/11/tapestry-inc-tpr-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-08-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/19/tapestry-inc-tpr-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/06/tapestry-inc-tpr-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/04/tapestry-inc-tpr-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/29/tapestry-inc-tpr-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-08-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/13/tapestry-inc-tpr-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/tapestry-inc-tpr-q3-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/06/tapestry-inc-tpr-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/05/tapestry-inc-tpr-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-08-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/15/tapestry-inc-tpr-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/30/tapestry-inc-tpr-q1-2019-earnings-conference-call.aspx"
+  }
+ ],
+ "ir": "https://tapestry.gcs-web.com/",
+ "results": "https://tapestry.gcs-web.com/financials/quarterly-results"
+}

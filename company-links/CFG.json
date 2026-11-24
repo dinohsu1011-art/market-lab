@@ -1,0 +1,147 @@
+{
+ "ticker": "CFG",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningspresentatio.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000133/a2q26earningspresentatio.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000070/a1q26earningspresentatio.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994425000099/a2q25earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/759944/000075994425000099/cfg2q25earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994425000051/a1q25earningspresentatio.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994425000005/a4q24earningspresentatio.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-16",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994424000170/a3q24earningspresentatio.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994424000138/a2q24earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/759944/000075994424000138/cfg2q24earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994424000060/a1q24earningspresentatio.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994424000005/a4q23earningspresentatio.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-18",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994423000143/a3q23earningspresentatio.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994423000112/a2q23earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/759944/000075994423000112/q223earningspresentation.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994423000058/a1q23earningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/759944/000075994423000058/cfg1q23earningspresentat.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/759944/000075994423000005/a4q22earningspresentatio.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/19/citizens-financial-group-cfg-q2-2022-earnings-call/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/19/citizens-financial-group-cfg-q1-2022-earnings-call/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/19/citizens-financial-group-cfg-q4-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/20/citizens-financial-group-inc-cfg-q3-2021-earnings/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/20/citizens-financial-group-inc-cfg-q2-2021-earnings/"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/18/citizens-financial-group-inc-cfg-q1-2019-earnings.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/18/citizens-financial-group-inc-cfg-q4-2018-earnings.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/19/citizens-financial-group-inc-cfg-q3-2018-earnings.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-01-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/01/22/citizens-financial-group-cfg-q4-2017-earnings-conf.aspx"
+  }
+ ],
+ "ir": "https://investor.citizensbank.com/"
+}

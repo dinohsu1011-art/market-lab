@@ -1,0 +1,133 @@
+/* The Equinox top bar. Shared by every page: old pages get it through
+   market-lab-shell.css, new pages link it directly. Uses the --ml-* palette. */
+:root:root{--ml-header:60px;--eq-frame:1400px;--eq-menu:200px;--eq-serif:"Newsreader",Georgia,serif;--eq-sans:"Source Sans 3",system-ui,sans-serif}
+:root{--eq-mark-top:#C95F36;--eq-mark-low:#182A4B;--eq-shadow:0 18px 44px rgba(20,30,40,.14)}
+:root[data-theme="dark"]{--eq-mark-low:#a9bce0;--eq-shadow:0 18px 44px rgba(0,0,0,.45)}
+.ml-header.eq-bar{position:fixed;inset:0 0 auto;z-index:80;height:var(--ml-header);display:block;box-sizing:border-box;background:var(--ml-bg);border-bottom:1px solid var(--ml-border);font:400 15px/1.5 var(--eq-sans);color:var(--ml-ink)}
+.eq-bar *{box-sizing:border-box}
+.eq-bar .eq-row{height:60px}
+/* Section buttons on both sides, the name in the exact middle. */
+.eq-bar .eq-in{height:100%;max-width:var(--eq-frame);margin:0 auto;padding:0 28px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:24px}
+.eq-bar .eq-start,.eq-bar .eq-end,.eq-bar .eq-nav{display:flex;align-items:center;height:100%}
+.eq-bar .eq-nav{gap:4px}
+.eq-bar .eq-end{justify-content:flex-end;gap:16px}
+.eq-bar .eq-brand{position:relative;display:grid;place-items:center;height:40px;padding:0 10px;color:var(--ml-ink);text-decoration:none;border-radius:8px}
+.eq-bar .eq-brand>*{grid-area:1/1;transition:opacity .3s ease,transform .3s ease}
+.eq-bar .eq-word{font:500 24px/1 var(--eq-serif);letter-spacing:-.01em}
+.eq-bar .eq-mark{width:28px;height:auto;overflow:visible;opacity:0;transform:translateY(5px) scale(.8)}
+.eq-bar .eq-mark-top{fill:var(--eq-mark-top)}
+.eq-bar .eq-mark-low{fill:var(--eq-mark-low)}
+.eq-bar.eq-scrolled .eq-word{opacity:0;transform:translateY(-5px) scale(.92)}
+.eq-bar.eq-scrolled .eq-mark{opacity:1;transform:none}
+.eq-bar .eq-sec{position:relative;height:100%;display:flex;align-items:center}
+.eq-bar .eq-btn{display:block;border:0;background:none;margin:0;padding:7px 12px;border-radius:8px;font:400 15px/1.5 var(--eq-sans);color:var(--ml-muted);text-decoration:none;white-space:nowrap;cursor:pointer;transition:color .15s,background-color .15s}
+.eq-bar .eq-btn:hover,.eq-bar .eq-sec.open>.eq-btn{color:var(--ml-ink);background:var(--ml-raised)}
+.eq-bar .eq-btn[aria-current]{color:var(--ml-ink);font-weight:600}
+.eq-bar .eq-all{display:none}
+/* The list under a section button. It starts just inside the bar so the pointer never crosses a gap. */
+.eq-bar .eq-panel{position:absolute;top:calc(100% - 6px);left:-10px;z-index:6;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(-6px);transition:opacity .18s ease,transform .18s ease,visibility 0s .18s}
+.eq-bar .eq-end .eq-panel{left:auto;right:-10px}
+.eq-bar .eq-sec.open>.eq-panel{opacity:1;visibility:visible;pointer-events:auto;transform:none;transition-delay:0s}
+.eq-bar .eq-sheet{display:flex;gap:6px;padding:10px;background:var(--ml-surface);border:1px solid var(--ml-border);border-radius:14px;box-shadow:var(--eq-shadow)}
+.eq-bar .eq-list{display:flex;flex-direction:column;gap:1px;min-width:150px}
+.eq-bar .eq-list:only-child{min-width:216px}
+.eq-bar .eq-list a{display:block;padding:8px 12px;border-radius:8px;font:400 15px/1.4 var(--eq-sans);color:var(--ml-ink);text-decoration:none;white-space:nowrap;transition:background-color .15s}
+.eq-bar .eq-list a:hover{background:var(--ml-raised)}
+.eq-bar .eq-list a[aria-current]{font-weight:600;background:var(--ml-raised)}
+.eq-bar .eq-list .eq-head{margin:0;padding:8px 12px 6px;font:500 17px/1.2 var(--eq-serif);color:var(--ml-faint);letter-spacing:0;text-transform:none}
+.eq-bar .eq-list a.eq-head{color:var(--ml-ink)}
+.eq-bar .eq-text,.eq-bar #ml-sidebar-toggle{display:block;border:0;border-radius:0;background:none;color:var(--ml-muted);font:400 14px var(--eq-sans);cursor:pointer;padding:6px 0;white-space:nowrap;transition:color .15s}
+.eq-bar #ml-sidebar-toggle[hidden]{display:none}
+/* Appearance switch: the logo in its own layout. Light shows the lower half, dark the upper half; the halves cross-fade in place. */
+.eq-bar .eq-sun{display:grid;place-items:center;width:36px;height:36px;margin:0 -6px 0 0;padding:0;border:0;border-radius:8px;background:none;cursor:pointer;transition:background-color .15s}
+.eq-bar .eq-sun:hover{background:var(--ml-raised)}
+.eq-bar .eq-sun:focus-visible{outline:2px solid var(--ml-accent);outline-offset:1px}
+.eq-bar .eq-sun svg{width:22px;height:22px}
+.eq-bar .eq-sun path{transition:opacity .35s ease}
+.eq-bar .eq-sun .eq-mark-top{fill:var(--eq-mark-top);opacity:0}
+.eq-bar .eq-sun .eq-mark-low{fill:var(--eq-mark-low)}
+:root[data-theme="dark"] .eq-bar .eq-sun .eq-mark-top{opacity:1}
+:root[data-theme="dark"] .eq-bar .eq-sun .eq-mark-low{opacity:0}
+.eq-bar .eq-text:hover,.eq-bar #ml-sidebar-toggle:hover{color:var(--ml-ink)}
+.eq-bar .eq-search{position:relative;margin:0}
+.eq-bar .eq-search input{width:220px;height:36px;border:1px solid var(--ml-border);border-radius:8px;background:var(--ml-surface);color:var(--ml-ink);font:400 15px var(--eq-sans);padding:0 12px;margin:0;-webkit-appearance:none;appearance:none}
+.eq-bar .eq-search input::placeholder{color:var(--ml-faint)}
+.eq-bar .eq-search input:focus-visible{outline:2px solid var(--ml-accent);outline-offset:1px}
+.eq-bar .eq-search ul{position:absolute;top:42px;right:0;width:320px;margin:0;padding:6px;list-style:none;background:var(--ml-surface);border:1px solid var(--ml-border);border-radius:8px;box-shadow:0 12px 32px rgba(20,30,40,.12);z-index:5}
+.eq-bar .eq-search li{display:flex;gap:10px;align-items:baseline;padding:8px 10px;border-radius:6px;cursor:pointer;font-size:15px;white-space:nowrap;overflow:hidden}
+.eq-bar .eq-search li b{font-weight:600}
+.eq-bar .eq-search li span{color:var(--ml-muted);overflow:hidden;text-overflow:ellipsis}
+.eq-bar .eq-search li[aria-selected],.eq-bar .eq-search li:hover{background:var(--ml-raised)}
+.eq-bar :focus-visible{outline:2px solid var(--ml-accent);outline-offset:2px;border-radius:8px}
+@media(max-width:1240px){.eq-bar .eq-in{gap:16px;padding:0 20px}.eq-bar .eq-search input{width:170px}.eq-bar .eq-end{gap:12px}}
+@media(max-width:1080px){.eq-bar .eq-search input{width:130px}.eq-bar .eq-btn{padding:7px 9px}}
+/* Narrow screens: one Menu button holds every section. */
+@media(max-width:940px){
+  .ml-header.eq-bar{right:auto;width:100vw}
+  .eq-bar .eq-nav{display:none}
+  .eq-bar .eq-all{display:flex;position:static}
+  .eq-bar .eq-all .eq-panel{position:fixed;top:calc(var(--ml-header) - 6px);left:12px;right:auto;width:calc(100vw - 24px)}
+  .eq-bar .eq-all .eq-sheet{flex-wrap:wrap;max-height:calc(100vh - var(--ml-header) - 16px);overflow-y:auto}
+  .eq-bar .eq-all .eq-list{flex:1 1 200px;min-width:0}
+  .eq-bar .eq-all .eq-list .eq-text{display:none;text-align:left;padding:8px 12px;font-size:15px}
+  .eq-bar .eq-search input{width:170px}
+}
+@media(max-width:560px){
+  .eq-bar .eq-in{padding:0 12px;gap:8px}
+  .eq-bar .eq-word{font-size:21px}
+  .eq-bar .eq-search input{width:112px;font-size:14px;padding:0 9px}
+  .eq-bar .eq-search ul{width:min(320px,calc(100vw - 24px))}
+}
+.eq-bar .eq-all [data-eq-appearance]{display:none!important}
+@media (prefers-reduced-motion:reduce){.eq-bar .eq-sun path{transition:none!important}.eq-bar .eq-brand>*,.eq-bar .eq-panel,.eq-bar .eq-btn,.eq-bar .eq-list a{transition:none!important}.eq-bar .eq-brand>*,.eq-bar .eq-panel{transform:none!important}}
+
+/* Left menu, the same on every page: this section's pages, then the open page's own sections,
+   then any picker or filter column an older page brings. */
+.eq-menu{position:fixed;top:var(--ml-header);bottom:0;left:max(28px,calc(50% - var(--eq-frame)/2 + 28px));width:calc(var(--eq-menu) + 12px);z-index:60;padding:56px 0 40px;overflow-y:auto;scrollbar-width:none;font:400 15px/1.4 var(--eq-sans);color:var(--ml-ink)}
+.eq-menu::-webkit-scrollbar{display:none}
+.eq-menu *{box-sizing:border-box}
+.eq-menu .eq-pages,.eq-menu .side{display:flex;flex-direction:column;gap:2px;position:static}
+.eq-menu .eq-pages>a,.eq-menu .side.solo>a{font-size:15px;color:var(--ml-muted);text-decoration:none;padding:7px 12px;margin:0;border-radius:6px;transition:color .15s,background-color .15s}
+.eq-menu .eq-pages>a:hover,.eq-menu .side>a:hover{color:var(--ml-ink)}
+.eq-menu .eq-pages>a[aria-current],.eq-menu .side.solo>a.on{color:var(--ml-ink);font-weight:600;background:var(--ml-raised)}
+.eq-menu .side:not(.solo){gap:0;margin:2px 0 10px}
+.eq-menu .side:not(.solo)>a{font-size:14px;color:var(--ml-muted);text-decoration:none;padding:5px 12px 5px 26px;margin:0;border-radius:6px;background:none;transition:color .15s}
+.eq-menu .side:not(.solo)>a.on{color:var(--ml-ink);font-weight:600;background:none}
+.eq-menu .side[hidden]{display:none}
+.eq-menu .eq-pages>.eq-group{margin:18px 0 4px;padding:0 12px;font:500 16px/1.2 var(--eq-serif);color:var(--ml-faint)}
+.eq-menu .eq-pages>.eq-group:first-child{margin-top:0}
+.eq-menu .eq-tools{position:static!important;display:block!important;width:auto!important;height:auto!important;max-height:none!important;transform:none!important;overflow:visible!important;background:none!important;border:0!important;border-top:1px solid var(--ml-border)!important;border-radius:0!important;margin:18px 0 0 12px!important;padding:16px 0 0!important}
+.eq-menu :focus-visible{outline:2px solid var(--ml-accent);outline-offset:1px;border-radius:4px}
+
+/* One page frame for the older pages: the body is the frame, the menu sits in its left padding. */
+:root:not([data-eq]) body{max-width:var(--eq-frame);margin:0 auto!important;padding-left:calc(40px + var(--eq-menu) + 48px)!important;padding-right:40px!important;box-sizing:border-box}
+
+/* Page changes: the old page fades into the new one, and the new content rises in. */
+@view-transition{navigation:auto}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.22s}
+@keyframes eq-rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+:root:not([data-eq]) body>:not(.ml-header):not(.eq-menu):not(script):not(style):not(.ml-sidebar-shade){animation:eq-rise .35s ease-out both}
+@media (prefers-reduced-motion:reduce){@view-transition{navigation:none}:root:not([data-eq]) body>*{animation:none!important}}
+/* Older pages: one column inside the shared frame; their own side columns now live in the left menu. */
+:root:not([data-eq]) body.ml-app>:is(.main,.page,.wrap,main,.calls-page,.fin-page){max-width:none!important;min-width:0;margin:0!important;padding:56px 0 160px!important}
+:root:not([data-eq]) body.ml-app>:is(.shell,.layout){display:block!important;min-height:0!important;max-width:none!important;margin:0!important;padding:56px 0 160px!important}
+:root:not([data-eq]) body.ml-app>:is(.shell,.layout)>:is(.main,main,.page,.wrap){max-width:none!important;min-width:0;margin:0!important;padding:0!important}
+
+/* Narrow screens: the top bar's Menu button holds all section pages, so the fixed left menu collapses out of the way.
+   In-page jump links (nav.side) become a horizontal strip and page tools (.eq-tools) sit inline above the content. */
+@media(max-width:940px){
+  .eq-menu{position:static;top:auto;bottom:auto;left:auto;width:auto;max-width:var(--eq-frame);margin:0 auto;padding:0;overflow:visible;z-index:auto}
+  .eq-menu .eq-pages>a,.eq-menu .eq-pages>.eq-group{display:none}
+  .eq-menu:has(.side:not([hidden]),.eq-tools){padding:12px 20px 0}
+  .eq-menu .side:not([hidden]){flex-direction:row;flex-wrap:nowrap;align-items:center;gap:4px;overflow-x:auto;scrollbar-width:none;margin:0;padding:0 0 10px;border-bottom:1px solid var(--ml-border)}
+  .eq-menu .side:not([hidden])::-webkit-scrollbar{display:none}
+  .eq-menu .side:not([hidden])>a{flex:none;white-space:nowrap;padding:6px 10px}
+  .eq-menu .eq-tools{margin:10px 0 0!important;padding:12px 0!important;border-top:0!important;border-bottom:1px solid var(--ml-border)!important}
+  :root:not([data-eq]) body{padding-left:20px!important;padding-right:20px!important}
+  :root:not([data-eq]) body.ml-app>:is(.main,.page,.wrap,main,.calls-page,.fin-page,.shell,.layout){padding:28px 0 96px!important}
+}
+@media(max-width:560px){
+  .eq-menu:has(.side:not([hidden]),.eq-tools){padding:10px 16px 0}
+  :root:not([data-eq]) body{padding-left:16px!important;padding-right:16px!important}
+  :root:not([data-eq]) body.ml-app>:is(.main,.page,.wrap,main,.calls-page,.fin-page,.shell,.layout){padding:20px 0 80px!important}
+}

@@ -1,0 +1,190 @@
+{
+ "ticker": "MGM",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/29/mgm-resorts-mgm-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957026000106/mgmex991q32026earningrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957026000075/mgmex991q22026earningrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957026000034/mgmex991q12026earningrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957025000073/mgmex991q32025earningrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957025000019/mgmex991q12025earningrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/12/mgm-resorts-international-mgm-q4-2024-earnings-cal/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957025000005/mgmexhibit991q42024er.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/30/mgm-resorts-international-mgm-q3-2024-earnings-cal/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957024000028/mgmex991q32024earningrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/01/mgm-resorts-international-mgm-q2-2024-earnings-cal/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957024000021/mgmex991q22024earningrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/01/mgm-resorts-international-mgm-q1-2024-earnings-cal/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957024000013/mgmex991q12024earningrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/13/mgm-resorts-international-mgm-q4-2023-earnings-cal/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957024000002/mgmexhibit991q42023er.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/09/mgm-resorts-international-mgm-q3-2023-earnings-cal/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957023000022/mgmex991q32023earningrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/03/mgm-resorts-international-mgm-q2-2023-earnings-cal/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957023000018/mgmex991q22023earningrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/02/mgm-resorts-international-mgm-q1-2023-earnings-cal/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957023000012/mgmex991q12023earningrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/09/mgm-resorts-international-mgm-q4-2022-earnings-cal/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789570/000078957023000004/mgmexhibit991q42022er.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/02/mgm-resorts-international-mgm-q3-2022-earnings-cal/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/03/mgm-resorts-international-mgm-q2-2022-earnings-cal/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/03/mgm-resorts-international-mgm-q1-2022-earnings-cal/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/10/mgm-resorts-international-mgm-q4-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/04/mgm-resorts-international-mgm-q3-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/mgm-resorts-international-mgm-q2-2021-earnings-cal/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/29/mgm-resorts-international-mgm-q1-2021-earnings-cal/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/11/mgm-resorts-international-mgm-q4-2020-earnings-cal/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/mgm-resorts-international-mgm-q3-2020-earnings-cal/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/31/mgm-resorts-international-mgm-q2-2020-earnings-cal.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/01/mgm-resorts-international-mgm-q1-2020-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/12/mgm-resorts-international-mgm-q4-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/mgm-resorts-international-mgm-q3-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/25/mgm-resorts-international-mgm-q2-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/29/mgm-resorts-international-mgm-q1-2019-earnings-cal.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/13/mgm-resorts-international-mgm-q4-2018-earnings-con.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/31/mgm-resorts-international-mgm-q3-2018-earnings-con.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/20/mgm-resorts-international-mgm-q4-2017-earnings-con.aspx"
+  }
+ ],
+ "ir": "https://investors.mgmresorts.com"
+}

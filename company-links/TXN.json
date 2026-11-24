@@ -1,0 +1,168 @@
+{
+ "ticker": "TXN",
+ "ir": "https://investor.ti.com/",
+ "results": "https://investor.ti.com/financial-information/earnings-annual-reports",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "slides": "https://investor.ti.com/static-files/b012c095-ee25-4280-970f-728ceed4af7b",
+   "slides_kind": "remarks",
+   "release": "https://investor.ti.com/news-releases/news-release-details/ti-reports-third-quarter-2026-financial-results-and-shareholder"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-22",
+   "slides": "https://investor.ti.com/static-files/9d0b308f-8b7e-4e0c-9377-5fa5877243fe",
+   "slides_kind": "remarks",
+   "release": "https://investor.ti.com/news-releases/news-release-details/ti-reports-first-quarter-2026-financial-results-and-shareholder"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-27",
+   "slides": "https://investor.ti.com/static-files/7901445c-3338-4108-81d2-872ae768cf9d",
+   "slides_kind": "remarks",
+   "release": "https://investor.ti.com/news-releases/news-release-details/ti-reports-q4-2025-and-2025-financial-results-and-shareholder"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "slides": "https://investor.ti.com/static-files/07e5ba99-636a-4421-8dad-e8e7ccb96934",
+   "slides_kind": "remarks",
+   "release": "https://investor.ti.com/news-releases/news-release-details/ti-reports-first-quarter-2025-financial-results-and-shareholder",
+   "transcript": "https://investor.ti.com/static-files/07e5ba99-636a-4421-8dad-e8e7ccb96934"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-23",
+   "slides": "https://investor.ti.com/static-files/8858f18c-2a43-4a5e-8727-229f66c86aed",
+   "slides_kind": "remarks",
+   "release": "https://investor.ti.com/news-releases/news-release-details/ti-reports-q4-2024-and-2024-financial-results-and-shareholder",
+   "transcript": "https://investor.ti.com/static-files/8858f18c-2a43-4a5e-8727-229f66c86aed"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-22",
+   "slides": "https://investor.ti.com/static-files/2fe9328f-074f-44f2-a6d9-0bfeb17c7001",
+   "slides_kind": "remarks",
+   "release": "https://investor.ti.com/news-releases/news-release-details/ti-reports-third-quarter-2024-financial-results-and-shareholder",
+   "transcript": "https://investor.ti.com/static-files/2fe9328f-074f-44f2-a6d9-0bfeb17c7001"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "slides": "https://investor.ti.com/static-files/dd4dc261-fb34-40cd-8326-00a68cf2f10d",
+   "slides_kind": "remarks",
+   "release": "https://investor.ti.com/news-releases/news-release-details/ti-reports-second-quarter-2024-financial-results-and-shareholder",
+   "transcript": "https://investor.ti.com/static-files/dd4dc261-fb34-40cd-8326-00a68cf2f10d"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "slides": "https://investor.ti.com/static-files/0c836fbe-bb69-4c72-8dc2-9bd9c9b7c148",
+   "slides_kind": "remarks",
+   "release": "https://investor.ti.com/news-releases/news-release-details/ti-reports-first-quarter-2024-financial-results-and-shareholder",
+   "transcript": "https://investor.ti.com/static-files/0c836fbe-bb69-4c72-8dc2-9bd9c9b7c148"
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/97476/000009747624000004/q42023txnex99-er1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/97476/000009747623000039/q32023txnex99-er1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/97476/000009747623000033/q22023txnex99-er1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/97476/000009747623000023/q12023txnex99-er1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/97476/000009747623000003/q42022txnex99-er1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/26/texas-instruments-incorporated-txn-q3-2021-earning/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/21/texas-instruments-incorporated-txn-q2-2021-earning/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/28/texas-instruments-inc-txn-q1-2021-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/26/texas-instruments-inc-txn-q4-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/20/texas-instruments-inc-txn-q3-2020-earnings-call-tr/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/21/texas-instruments-inc-txn-q2-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/22/texas-instruments-inc-txn-q1-2020-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/22/texas-instruments-inc-txn-q4-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/22/texas-instruments-inc-txn-q3-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/23/texas-instruments-inc-txn-q2-2019-earnings-call-tr.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/23/texas-instruments-txn-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/23/texas-instruments-inc-txn-q3-2018-earnings-confere.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/24/texas-instruments-incorporated-txn-q2-2018-earning.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/24/texas-instruments-incorporated-txn-q1-2018-earning.aspx"
+  }
+ ]
+}

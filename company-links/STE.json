@@ -1,0 +1,115 @@
+{
+ "ticker": "STE",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000162828026070220/ste9302026ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-05-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000162828026033580/ste03312026ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000162828026005473/ste12312025ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000175789825000007/ste6302025ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-05-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000175789825000004/ste03312025ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000175789825000001/ste12312024ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000175789824000017/ste9302024ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000175789824000014/ste6302024ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-05-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000175789824000005/ste03312024ex991do.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000175789824000001/ste12312023ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-11-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000175789823000012/ste9302023ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-08-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000175789823000008/ste6302023ex9911.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-05-11",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000175789823000004/ste03312023ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1757898/000175789823000001/ste12312022ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/steris-ste-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/06/steris-ste-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-05-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/14/steris-ste-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-02-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/12/steris-corp-ste-q3-2019-earnings-conference-call-t.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2018-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/06/steris-corp-ste-q2-2019-earnings-conference-call-t.aspx"
+  }
+ ],
+ "ir": "https://sterisplc.gcs-web.com/"
+}

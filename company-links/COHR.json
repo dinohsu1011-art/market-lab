@@ -1,0 +1,35 @@
+{
+ "ticker": "COHR",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/820318/000119312526447200/d176836dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/820318/000119312526208972/d57080dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/820318/000119312526037556/d101115dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/820318/000119312525266951/d27982dex991.htm",
+   "release_ok": true
+  }
+ ]
+}

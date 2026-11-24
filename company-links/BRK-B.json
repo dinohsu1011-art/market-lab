@@ -1,0 +1,162 @@
+{
+ "ticker": "BRK-B",
+ "ir": "https://www.berkshirehathaway.com/",
+ "results": "https://www.berkshirehathaway.com/reports.html",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-07",
+   "slides": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf",
+   "slides_kind": "quarterly report",
+   "slides_ok": true,
+   "release": "https://www.berkshirehathaway.com/news/nov0726.pdf",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-08",
+   "slides": "https://www.berkshirehathaway.com/qtrly/2ndqtr26.pdf",
+   "slides_kind": "quarterly report",
+   "slides_ok": true,
+   "release": "https://www.berkshirehathaway.com/news/aug0826.pdf",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-02",
+   "slides": "https://www.berkshirehathaway.com/qtrly/1stqtr26.pdf",
+   "slides_kind": "quarterly report",
+   "slides_ok": true,
+   "release": "https://www.berkshirehathaway.com/news/may0226.pdf",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-28",
+   "slides": "https://www.berkshirehathaway.com/2025ar/2025ar.pdf",
+   "slides_kind": "annual report",
+   "slides_ok": true,
+   "release": "https://www.berkshirehathaway.com/news/feb2826.pdf",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-01",
+   "slides": "https://www.berkshirehathaway.com/qtrly/3rdqtr25.pdf",
+   "slides_kind": "quarterly report",
+   "slides_ok": true,
+   "release": "https://www.berkshirehathaway.com/news/nov0125.pdf",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-02",
+   "slides": "https://www.berkshirehathaway.com/qtrly/2ndqtr25.pdf",
+   "slides_kind": "quarterly report",
+   "slides_ok": true,
+   "release": "https://www.berkshirehathaway.com/news/aug0225.pdf",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-03",
+   "slides": "https://www.berkshirehathaway.com/qtrly/1stqtr25.pdf",
+   "slides_kind": "quarterly report",
+   "slides_ok": true,
+   "release": "https://www.berkshirehathaway.com/news/may0325.pdf",
+   "release_ok": true,
+   "transcript": null
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-22",
+   "slides": "https://www.berkshirehathaway.com/2024ar/2024ar.pdf",
+   "slides_kind": "annual report",
+   "slides_ok": true,
+   "release": "https://www.berkshirehathaway.com/news/feb2225.pdf",
+   "release_ok": true,
+   "transcript": null
+  }
+ ],
+ "events": [
+  {
+   "title": "2026 Annual Shareholders Meeting (CNBC Warren Buffett Archive: full video and transcript)",
+   "date": "2026-05-02",
+   "url": "https://buffett.cnbc.com/2026-berkshire-hathaway-annual-meeting/",
+   "kind": "webcast",
+   "ok": true
+  },
+  {
+   "title": "2025 Annual Shareholders Meeting (CNBC Warren Buffett Archive: full video and transcript)",
+   "date": "2025-05-03",
+   "url": "https://buffett.cnbc.com/2025-berkshire-hathaway-annual-meeting/",
+   "kind": "webcast",
+   "ok": true
+  },
+  {
+   "title": "2024 Annual Shareholders Meeting (CNBC Warren Buffett Archive: full video and transcript)",
+   "date": "2024-05-04",
+   "url": "https://buffett.cnbc.com/2024-berkshire-hathaway-annual-meeting/",
+   "kind": "webcast",
+   "ok": true
+  },
+  {
+   "title": "2023 Annual Shareholders Meeting (CNBC Warren Buffett Archive: full video and transcript)",
+   "date": "2023-05-06",
+   "url": "https://buffett.cnbc.com/2023-berkshire-hathaway-annual-meeting/",
+   "kind": "webcast",
+   "ok": true
+  },
+  {
+   "title": "2022 Annual Shareholders Meeting (CNBC Warren Buffett Archive: full video and transcript)",
+   "date": "2022-04-30",
+   "url": "https://buffett.cnbc.com/2022-berkshire-hathaway-annual-meeting/",
+   "kind": "webcast",
+   "ok": true
+  },
+  {
+   "title": "2025 Annual Shareholder Letter (Greg Abel)",
+   "date": "2026-02-28",
+   "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+   "kind": "page",
+   "ok": true
+  },
+  {
+   "title": "2024 Annual Shareholder Letter (Warren Buffett)",
+   "date": "2025-02-22",
+   "url": "https://www.berkshirehathaway.com/letters/2024ltr.pdf",
+   "kind": "page",
+   "ok": true
+  },
+  {
+   "title": "2023 Annual Shareholder Letter (Warren Buffett)",
+   "date": "2024-02-24",
+   "url": "https://www.berkshirehathaway.com/letters/2023ltr.pdf",
+   "kind": "page",
+   "ok": true,
+   "date_approx": true
+  },
+  {
+   "title": "2022 Annual Shareholder Letter (Warren Buffett)",
+   "date": "2023-02-25",
+   "url": "https://www.berkshirehathaway.com/letters/2022ltr.pdf",
+   "kind": "page",
+   "ok": true,
+   "date_approx": true
+  },
+  {
+   "title": "2021 Annual Shareholder Letter (Warren Buffett)",
+   "date": "2022-02-26",
+   "url": "https://www.berkshirehathaway.com/letters/2021ltr.pdf",
+   "kind": "page",
+   "ok": true,
+   "date_approx": true
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "ticker": "GTLB",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-09-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1653482/000162828026059820/gitlab-ex99120260731fy27.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-06-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1653482/000162828026039805/gitlab-ex99120260430fy27.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-03-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1653482/000162828026013795/gitlab-ex99120260131fy26.htm",
+   "release_ok": true
+  }
+ ]
+}

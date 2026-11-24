@@ -1,0 +1,69 @@
+{
+ "ticker": "FLEX",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/28/flex-flex-q2-2027-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000039/flexex991-9252026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-07-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000026/flexex991-6262026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/05/06/flex-flex-q4-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000009/flexex991-3312026.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/02/04/flex-flex-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/866374/000086637426000002/flexex991-12312025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/866374/000086637425000048/flexex991-9262025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-07-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/07/24/flex-flex-q1-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/866374/000086637425000041/flexex991-7242025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/866374/000086637425000024/flexex991-572025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-01-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/866374/000086637425000004/flexex991-1292025.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/866374/000086637424000051/flexex991-09272024.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/866374/000086637424000031/flexex991-7242024.htm",
+   "release_ok": true
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "ticker": "WYNN",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000078/ex991wrlq32026pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000051/ex991wrlq22026pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000034/ex991wrlq12026pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-12",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492226000007/ex991wrlye2025pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492225000150/ex991wrlq32025pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492225000083/ex991wrlq12025pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/13/wynn-resorts-wynn-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492225000038/ex991wrlye2024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/04/wynn-resorts-wynn-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492224000159/ex991wrlq32024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/06/wynn-resorts-wynn-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492224000092/ex991wrlq22024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/08/wynn-resorts-wynn-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492224000081/ex991wrlq12024pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/07/wynn-resorts-wynn-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492224000017/ex991wrlye2023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/09/wynn-resorts-wynn-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492223000159/ex991wrlq32023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/09/wynn-resorts-wynn-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492223000133/ex991wrlq22023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/09/wynn-resorts-wynn-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492223000104/ex991wrlq12023pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/08/wynn-resorts-wynn-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1174922/000117492223000023/ex991-erxye2022.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/09/wynn-resorts-wynn-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/09/wynn-resorts-wynn-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/11/wynn-resorts-wynn-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/15/wynn-resorts-wynn-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/10/wynn-resorts-wynn-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/wynn-resorts-wynn-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/11/wynn-resorts-wynn-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/04/wynn-resorts-wynn-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/06/wynn-resorts-wynn-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/05/wynn-resorts-wynn-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/06/wynn-resorts-ltd-wynn-q1-2020-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/06/wynn-resorts-ltd-wynn-q4-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/07/wynn-resorts-ltd-wynn-q3-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/06/wynn-resorts-ltd-wynn-q2-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/10/wynn-resorts-ltd-wynn-q1-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/30/wynn-resorts-ltd-wynn-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/07/wynn-resorts-ltd-wynn-q3-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/01/wynn-resorts-ltd-wynn-q2-2018-earnings-conference.aspx"
+  }
+ ]
+}

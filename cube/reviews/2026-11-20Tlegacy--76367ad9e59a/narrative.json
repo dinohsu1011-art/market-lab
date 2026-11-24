@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold and participation is narrow.",
+    "summary": "SPY finished the week -8.6%; QQQ -10.5%; high beta versus low beta is -13.3% over one month (3rd percentile); leader breadth is -2.2 points versus the index; 43% of S&P names are above the 50-day; net 52-week highs are -31; Cybersecurity leads themes at +0.5%.",
+    "market": "SPY finished the week -8.6%; QQQ -10.5%.",
+    "winners": "Cybersecurity +0.5%, Cons. Staples \u00b7 XLP -2.0%, Consumer Staples -2.3%.",
+    "laggards": "Neocloud -27.0%, Residential Solar -23.9%, Space -23.3%.",
+    "why": "Weak high beta and narrow participation point to a broad contraction in risk appetite; high beta/low beta -13.3%, leader breadth spread -2.2pt, 43% above the 50-day.",
+    "comparison": "Since 2026-11-19, the Risk-off call is unchanged; high beta -0.9pt, leader spread +5.2pt, 50-day breadth -6.2pt.",
+    "tally": "0 of 4 risk gauges and 0 of 6 participation gauges are above their five-year medians",
+    "volume": "AES printed 10.98\u00d7 relative volume on a +0.3% day, while TTWO printed 4.96\u00d7 relative volume on a +6.2% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

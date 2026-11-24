@@ -1,0 +1,413 @@
+{
+ "ticker": "JPM",
+ "ir": "https://www.jpmorganchase.com/ir",
+ "results": "https://www.jpmorganchase.com/ir/quarterly-earnings",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-13",
+   "slides": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/3rd-quarter/2b5b9a7e-a968-4985-94ad-5fa949a08d1c.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/3rd-quarter/6c1f8114-1be4-4174-8292-f75bbb59bc21.pdf",
+   "release_ok": true,
+   "transcript": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/3rd-quarter/3q26-earnings-transcript.pdf"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-14",
+   "slides": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/9e8f3cef-bd2a-4140-b50f-83c4fba3f23c.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/6cded9fd-a164-4e6c-8cff-377357cf105c.pdf",
+   "release_ok": true,
+   "transcript": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/2Q26-earnings-transcript.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-14",
+   "slides": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/1st-quarter/ba305358-f754-4f76-a59d-5278b3bcf99a.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/1st-quarter/a5fd2d13-877b-43b2-8b58-81bad4399c87.pdf",
+   "release_ok": true,
+   "transcript": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/1st-quarter/1q26-earnings-transcript.pdf"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-13",
+   "slides": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/4th-quarter/3f2030e7-c144-4ad8-92b8-57b36851ffb6.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/4th-quarter/d868c7ef-1670-465d-ba75-c2b36ddbcc6b.pdf",
+   "release_ok": true,
+   "transcript": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/4th-quarter/jpm-4q25-earnings-call-transcript.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-10-14",
+   "slides": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/3rd-quarter/a66755ce-2daf-4303-bae0-55cb6a121a3a.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/3rd-quarter/f24f154c-2653-4da3-b1b0-185586086d50.pdf",
+   "release_ok": true,
+   "transcript": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/3rd-quarter/jpm-3q25-earnings-call-transcript.pdf"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-15",
+   "slides": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/2nd-quarter/360c049d-2061-4b87-ae11-e58a741956ad.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/2nd-quarter/ac5b7d95-9133-4fea-959c-2fa6d8fd8c5b.pdf",
+   "release_ok": true,
+   "transcript": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/2nd-quarter/jpm-2q25-earnings-call-transcript.pdf"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-11",
+   "slides": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/1st-quarter/dea6f825-073f-4b0f-9811-2aaefc5eec94.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/1st-quarter/d88c408a-bbc9-4b06-b263-373f5b10b145.pdf",
+   "release_ok": true,
+   "transcript": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/1st-quarter/1q25-earnings-transcript.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-15",
+   "slides": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2024/4th-quarter/9aff0e71-2b8c-4f41-ac93-8da74c263894.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2024/4th-quarter/36b3c0a4-3ecd-422e-8167-0a31372f3438.pdf",
+   "release_ok": true,
+   "transcript": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2024/4th-quarter/4q24-earnings-transcript.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-11",
+   "slides": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2024/3rd-quarter/af682bd9-14a5-406e-94d4-a7b4c5bed345.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2024/3rd-quarter/66269bb6-ecc5-4172-b461-6b7e7cd47aab.pdf",
+   "release_ok": true,
+   "transcript": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2024/3rd-quarter/jpmc-third-quarter-2024-earnings-conference-call-transcript.pdf"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/12/jpmorgan-chase-jpm-q1-2024-earnings-call-transcrip/"
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/12/jpmorgan-chase-jpm-q4-2023-earnings-call-transcrip/"
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/13/jpmorgan-chase-jpm-q3-2023-earnings-call-transcrip/"
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/14/jpmorgan-chase-jpm-q2-2023-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/13/jpmorgan-chase-jpm-q4-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/14/jpmorgan-chase-jpm-q3-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/14/jpmorgan-chase-jpm-q2-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/13/jpmorgan-chase-jpm-q1-2022-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-01-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/15/jpmorgan-chase-jpm-q4-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/13/jpmorgan-chase-jpm-q3-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/13/jpmorgan-chase-jpm-q2-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/14/jpmorgan-chase-jpm-q1-2021-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-01-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/15/jpmorgan-chase-jpm-q4-2020-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/13/jpmorgan-chase-jpm-q3-2020-earnings-call-transcrip/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/14/jpmorgan-chase-co-jpm-q2-2020-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/14/jpmorgan-chase-co-jpm-q1-2020-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/14/jpmorgan-chase-co-jpm-q4-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/16/jpmorgan-chase-jpm-q3-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/16/jpmorgan-chase-jpm-q2-2019-earnings-call-transcrip.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/12/jpmorgan-chase-co-jpm-q1-2019-earnings-call-transc.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-01-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/15/jpmorgan-chase-co-jpm-q4-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/12/j-p-morgan-chase-co-jpm-q3-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/13/j-p-morgan-chase-co-jpm-q2-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/13/j-p-morgan-chase-co-jpm-q1-2018-earnings-conferenc.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-01-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/01/15/jpmorgan-chase-jpm-q4-2017-earnings-conference-cal.aspx"
+  }
+ ],
+ "events": [
+  {
+   "title": "JPMorganChase Company Update 2026: Firm Overview",
+   "date": "2026-02-23",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/2026-company-updates/firm-overview.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Company Update 2026: Fixed Income",
+   "date": "2026-02-23",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/2026-company-updates/fixed-income.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2025: Firm Overview",
+   "date": "2025-05-19",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2025/jpmc-2025-investor-day/firm-overview.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2025: Consumer & Community Banking",
+   "date": "2025-05-19",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2025/jpmc-2025-investor-day/consumer-community-banking.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2025: Asset & Wealth Management",
+   "date": "2025-05-19",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2025/jpmc-2025-investor-day/asset-wealth-management.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2025: Commercial & Investment Bank",
+   "date": "2025-05-19",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2025/jpmc-2025-investor-day/commercial-investment-bank.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2025: Fixed Income",
+   "date": "2025-05-19",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2025/jpmc-2025-investor-day/fixed-income.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2024: Opening Remarks",
+   "date": "2024-05-20",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2024/jpmc-2024-investor-day/opening-remarks.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2024: Firm Overview",
+   "date": "2024-05-20",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2024/jpmc-2024-investor-day/firm-overview.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2024: Asset & Wealth Management",
+   "date": "2024-05-20",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2024/jpmc-2024-investor-day/asset-wealth-management.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2024: Consumer & Community Banking",
+   "date": "2024-05-20",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2024/jpmc-2024-investor-day/consumer-community-banking.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2024: Commercial & Investment Bank",
+   "date": "2024-05-20",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2024/jpmc-2024-investor-day/commercial-investment-banking.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2024: Fixed Income",
+   "date": "2024-05-20",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2024/jpmc-2024-investor-day/fixed-income.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2023: Firm Overview",
+   "date": "2023-05-22",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2023/jpmc-investor-day-2023/firm-overview.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2023: Global Technology",
+   "date": "2023-05-22",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2023/jpmc-investor-day-2023/global-technology.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2023: Consumer & Community Banking",
+   "date": "2023-05-22",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2023/jpmc-investor-day-2023/consumer-community-banking.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2023: Corporate & Investment Bank",
+   "date": "2023-05-22",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2023/jpmc-investor-day-2023/corporate-investment-bank.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2023: Commercial Banking",
+   "date": "2023-05-22",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2023/jpmc-investor-day-2023/commercial-banking.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2023: Asset & Wealth Management",
+   "date": "2023-05-22",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2023/jpmc-investor-day-2023/asset-wealth-management.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2023: Fixed Income",
+   "date": "2023-05-22",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2023/jpmc-investor-day-2023/fixed-income.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2022: Firm Overview",
+   "date": "2022-05-23",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2022/jpmc-Investor-Day-2022/2022-firm-overview.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2022: Global Technology",
+   "date": "2022-05-23",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2022/jpmc-Investor-Day-2022/2022-global-technology.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2022: Consumer & Community Banking",
+   "date": "2022-05-23",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2022/jpmc-Investor-Day-2022/2022-consumer-community-banking-investor-day.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2022: International Consumer Growth Initiatives",
+   "date": "2022-05-23",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2022/jpmc-Investor-Day-2022/2022-international-consumer-growth-initiatives-investor-day.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2022: Corporate & Investment Bank",
+   "date": "2022-05-23",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2022/jpmc-Investor-Day-2022/2022-corporate-investment-bank-investor-day.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2022: Commercial Banking",
+   "date": "2022-05-23",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2022/jpmc-Investor-Day-2022/2022-commercial-banking-investor-day.pdf",
+   "kind": "slides",
+   "ok": true
+  },
+  {
+   "title": "JPMorganChase Investor Day 2022: Asset & Wealth Management",
+   "date": "2022-05-23",
+   "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/events/2022/jpmc-Investor-Day-2022/2022-asset-wealth-management-investor-day.pdf",
+   "kind": "slides",
+   "ok": true
+  }
+ ]
+}

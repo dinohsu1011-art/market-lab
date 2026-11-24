@@ -1,0 +1,191 @@
+{
+ "ticker": "FANG",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000180/diamondbackex991-11x2x26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000137/diamondbackex991-8x3x26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000073/diamondbackex991-5x4x26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983826000006/diamondbackex991-2x23x26.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983825000144/diamondbackex991-11x3x25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983825000124/diamondbackex991-8x4x25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983825000063/diamondbackex991-5x5x25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/25/diamondback-energy-fang-q4-2024-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983825000016/diamondbackex991-2x24x25.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/05/diamondback-energy-fang-q3-2024-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983824000195/diamondbackex991-11x4x24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/06/diamondback-energy-fang-q2-2024-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983824000147/diamondbackex991-8x5x24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/01/diamondback-energy-fang-q1-2024-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983824000088/diamondbackex991-4x30x24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/21/diamondback-energy-fang-q4-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983824000013/diamondbackex991-2x20x24.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/07/diamondback-energy-fang-q3-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983823000129/diamondbackex991-11x6x23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/01/diamondback-energy-fang-q2-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983823000098/diamondbackex991-7x31x23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/02/diamondback-energy-fang-q1-2023-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983823000042/diamondbackex991-5x1x23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/22/diamondback-energy-fang-q4-2022-earnings-call-tran/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1539838/000153983823000018/diamondbackex991-2x21x23.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/08/diamondback-energy-fang-q3-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/02/diamondback-energy-fang-q2-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/03/diamondback-energy-fang-q1-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/23/diamondback-energy-fang-q4-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/05/diamondback-energy-inc-fang-q3-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/03/diamondback-energy-inc-fang-q2-2021-earnings-call/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/04/diamondback-energy-inc-fang-q1-2021-earnings-call/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/23/diamondback-energy-inc-fang-q4-2020-earnings-call/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/03/diamondback-energy-inc-fang-q3-2020-earnings-call/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/04/diamondback-energy-inc-fang-q2-2020-earnings-call.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/05/diamondback-energy-inc-fang-q1-2020-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/19/diamondback-energy-inc-fang-q4-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/07/diamondback-energy-inc-fang-q3-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/07/diamondback-energy-inc-fang-q2-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/08/diamondback-energy-inc-fang-q1-2019-earnings-call.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/20/diamondback-energy-inc-fang-q4-2018-earnings-confe.aspx"
+  }
+ ],
+ "ir": "https://diamondbackenergy.gcs-web.com/"
+}

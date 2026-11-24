@@ -1,0 +1,210 @@
+{
+ "ticker": "DHI",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-10-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000119/a9302026exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://investor.drhorton.com/~/media/Files/D/D-R-Horton-IR/reports-and-presentations/presentations/q4-2026-investor-presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-07-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000092/a6302026exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://investor.drhorton.com/~/media/Files/D/D-R-Horton-IR/reports-and-presentations/presentations/q3-2026-investor-presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-04-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218426000062/a3312026exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://investor.drhorton.com/~/media/Files/D/D-R-Horton-IR/reports-and-presentations/presentations/q2-2026-investor-presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-10-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218425000044/a9302025exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://investor.drhorton.com/~/media/Files/D/D-R-Horton-IR/reports-and-presentations/presentations/q4-2025-investor-presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-07-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218425000036/a6302025exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://investor.drhorton.com/~/media/Files/D/D-R-Horton-IR/reports-and-presentations/presentations/q3-2025-investor-presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-04-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218425000018/a3312025exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://investor.drhorton.com/~/media/Files/D/D-R-Horton-IR/reports-and-presentations/presentations/q2-2025-investor-presentation-1.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/d-r-horton-inc-nysedhi-q2-2025-earnings-call-transcript-1511428/"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-01-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/21/dr-horton-dhi-q1-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218425000009/a12312024exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://investor.drhorton.com/~/media/Files/D/D-R-Horton-IR/reports-and-presentations/presentations/q1-2025-investor-presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/29/dr-horton-dhi-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218424000051/a9302024exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://investor.drhorton.com/~/media/Files/D/D-R-Horton-IR/documents/quarterly-reports/q4-2024-investor-presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/18/dr-horton-dhi-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218424000034/a6302024exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/18/dr-horton-dhi-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218424000022/a3312024exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-01-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/23/dr-horton-dhi-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218424000009/a12312023exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/07/dr-horton-dhi-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218423000110/a9302023exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/20/dr-horton-dhi-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218423000089/a6302023exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-04-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218423000080/a3312023exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/24/dr-horton-dhi-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/882184/000088218423000011/a12312022exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-11-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/09/dr-horton-dhi-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/21/dr-horton-dhi-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/26/dr-horton-dhi-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-02-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/02/dr-horton-dhi-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-11-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/09/dr-horton-inc-dhi-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/22/dr-horton-inc-dhi-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-04-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/25/dr-horton-inc-dhi-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/26/dr-horton-inc-dhi-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-11-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/11/dr-horton-inc-dhi-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/28/dr-horton-inc-dhi-q3-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/29/dr-horton-dhi-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/28/dr-horton-dhi-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/30/dr-horton-dhi-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/26/dr-horton-dhi-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/25/dr-horton-inc-dhi-q1-2019-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/08/dr-horton-inc-dhi-q4-2018-earnings-conference-call.aspx"
+  }
+ ],
+ "ir": "https://investor.drhorton.com",
+ "results": "https://investor.drhorton.com/financial-information/financial-reports/quarterly-reports"
+}

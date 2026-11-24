@@ -1,0 +1,188 @@
+{
+ "ticker": "NCLH",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2026/10/29/norwegian-cruise-line-nclh-q3-2026-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1513761/000117184326006957/exh_991.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ace1e38a17a2d450061cc1f6d029fe72/nclhltd/db/1086/11865/pdf/Q3_2026_Earnings_Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-03-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1513761/000117184326001220/exh_991.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ace1e38a17a2d450061cc1f6d029fe72/nclhltd/db/1086/11675/pdf/NCLH+Q4+2025+Earnings+Call+Presentation+VF.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1513761/000117184325006936/exh_991.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ace1e38a17a2d450061cc1f6d029fe72/nclhltd/db/1086/11657/pdf/NCLH+Q3+2025+Earnings+Call+Presentation+VF.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1513761/000117184325002625/exh_991.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ace1e38a17a2d450061cc1f6d029fe72/nclhltd/db/1086/11557/pdf/NCLH+Q1+2025+Earnings+Call+Presentation+VF.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/27/norwegian-cruise-line-nclh-q4-2024-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1513761/000117184325001101/exh_991.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ace1e38a17a2d450061cc1f6d029fe72/nclhltd/db/1086/11547/pdf/NCLH+Q4+2024+Earnings+Call+Presentation+Vf.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/01/norwegian-cruise-line-nclh-q3-2024-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1513761/000117184324005927/exh_991.htm",
+   "release_ok": true,
+   "slides": "https://d1io3yog0oux5.cloudfront.net/_ace1e38a17a2d450061cc1f6d029fe72/nclhltd/db/1086/11519/pdf/NCLH+Q3+2024+Earnings+Call+Presentation+VF.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/31/norwegian-cruise-line-nclh-q2-2024-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1513761/000117184324004274/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/01/norwegian-cruise-line-nclh-q1-2024-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1513761/000117184324002396/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/27/norwegian-cruise-line-nclh-q4-2023-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1513761/000117184324001001/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/01/norwegian-cruise-line-nclh-q3-2023-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1513761/000117184323006578/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/01/norwegian-cruise-line-nclh-q2-2023-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1513761/000117184323004830/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-01",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/01/norwegian-cruise-line-nclh-q1-2023-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1513761/000117184323002707/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/28/norwegian-cruise-line-nclh-q4-2022-earnings-call-t/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1513761/000117184323001224/exh_991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/08/norwegian-cruise-line-holdings-nclh-q3-2022-earnin/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/09/norwegian-cruise-line-holdings-nclh-q2-2022-earnin/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/10/norwegian-cruise-line-holdings-nclh-q1-2022-earnin/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/24/norwegian-cruise-line-holdings-nclh-q4-2021-earnin/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/03/norwegian-cruise-line-holdings-ltd-nclh-q3-2021-ea/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/06/norwegian-cruise-line-holdings-ltd-nclh-q2-2021-ea/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/06/norwegian-cruise-line-holdings-ltd-nclh-q1-2021-ea/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/26/norwegian-cruise-line-holdings-ltd-nclh-q4-2020-ea/"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/20/norwegian-cruise-line-holdings-nclh-q4-2019-earnin.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/07/norwegian-cruise-line-holdings-nclh-q3-2019-earnin.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/08/norwegian-cruise-line-holdings-nclh-q2-2019-earnin.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/10/norwegian-cruise-line-holdings-nclh-q1-2019-earnin.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/21/norwegian-cruise-line-holdings-ltd-nclh-q4-2018-ea.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/08/norwegian-cruise-line-holdings-ltd-nclh-q3-2018-ea.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/09/norwegian-cruise-line-holdings-ltd-nclh-q2-2018-ea.aspx"
+  }
+ ],
+ "ir": "https://www.nclhltd.com/investors",
+ "results": "https://www.nclhltd.com/investors/news-events/presentations"
+}

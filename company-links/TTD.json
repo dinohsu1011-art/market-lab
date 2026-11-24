@@ -1,0 +1,49 @@
+{
+ "ticker": "TTD",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-09",
+   "slides": "https://s205.q4cdn.com/467402606/files/doc_earnings/2026/q3/transcript/The-Trade-Desk-Third-Quarter-2026-Conference-Call-Prepared-Remarks.pdf",
+   "slides_kind": "remarks",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1671933/000167193326000115/ttd-20261109x8kexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-06",
+   "slides": "https://s205.q4cdn.com/467402606/files/doc_earnings/2026/q2/presentation/TheTradeDesk_Q226_Investor_Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1671933/000167193326000085/ttd-20260806x8kexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-07",
+   "slides": "https://s205.q4cdn.com/467402606/files/doc_earnings/2026/q1/presentation/TheTradeDesk_Q126_Investor_Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1671933/000167193326000053/ttd-20260507x8kexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-06",
+   "slides": "https://s205.q4cdn.com/467402606/files/doc_earnings/2025/q3/presentation/TheTradeDesk_Q325_Investor_Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1671933/000167193325000143/ttd-20251106x8kexx991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1671933/000167193325000123/ex992-pressreleaseot.htm",
+   "release_ok": true
+  }
+ ],
+ "ir": "https://investors.thetradedesk.com/",
+ "results": "https://investors.thetradedesk.com/financials/quarterly-results/"
+}

@@ -1,0 +1,35 @@
+{
+ "ticker": "BOX",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-08-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1372612/000119312526365121/box-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-05-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1372612/000119312526239239/box-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-03-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1372612/000119312526088171/box-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2025-08-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1372612/000095017025111447/box-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-05-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1372612/000095017025077683/box-ex99_1.htm",
+   "release_ok": true
+  }
+ ]
+}

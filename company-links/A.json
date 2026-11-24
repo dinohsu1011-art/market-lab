@@ -1,0 +1,114 @@
+{
+ "ticker": "A",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-08-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090872/000109087226000062/exhibit991-q326pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-05-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090872/000109087226000052/exhibit991-q226pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-02-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090872/000109087226000015/exhibit991-q126pressrelease.htm",
+   "release_ok": true,
+   "slides": "https://s24.q4cdn.com/305549747/files/doc_earnings/2026/q1/presentation/Q126-Results-Presentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-11-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090872/000109087225000070/exhibit991-q425pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-02-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090872/000109087225000003/exhibit991-q125pressrelease.htm",
+   "release_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/agilent-technologies-inc-nysea-q1-2025-earnings-call-transcript-1466354/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-11-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090872/000109087224000042/exhibit991-q424pressrelease.htm",
+   "release_ok": true,
+   "transcript": "https://www.insidermonkey.com/blog/agilent-technologies-inc-nysea-q4-2024-earnings-call-transcript-1398016/"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-08-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090872/000109087224000024/exhibit991-q324pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-05-29",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090872/000109087224000017/exhibit991-q224pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090872/000109087224000006/exhibit991-q124pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-11-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090872/000109087223000018/exhibit991-q423pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-08-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090872/000109087223000013/exhibit991-q323pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-05-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090872/000109087223000008/exhibit991-q223pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-02-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1090872/000109087223000002/exhibit991-q123pressrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-08-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/17/agilent-technologies-a-q3-2022-earnings-call-trans/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-05-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/25/agilent-technologies-a-q2-2022-earnings-call-trans/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-02-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/22/agilent-technologies-a-q1-2022-earnings-call-trans/"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/21/agilent-technologies-a-q1-2019-earnings-conference.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2017-11-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/11/21/agilent-technologies-a-q4-2017-earnings-conference.aspx"
+  }
+ ],
+ "ir": "https://www.investor.agilent.com"
+}

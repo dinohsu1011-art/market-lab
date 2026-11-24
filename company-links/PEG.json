@@ -1,0 +1,152 @@
+{
+ "ticker": "PEG",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312526442778/d175962dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312526331660/d101695dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312526205254/d63722dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312526073678/d57788dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312525261789/d36283dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312525105862/d629044dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312525034436/d928125dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312524250287/d901097dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312524188316/d818369dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312524123861/d829234dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312524045482/d749167dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-31",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312523266794/d744252dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312523200002/d505366dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312523131492/d449942dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/788784/000119312523043043/d296144dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/06/public-service-enterprise-group-inc-peg-q1-2021-ea/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/26/public-service-enterprise-group-inc-peg-q4-2020-ea/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/public-service-enterprise-group-inc-peg-q3-2020-ea/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/01/public-service-enterprise-group-inc-peg-q2-2020-ea.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/04/public-service-enterprise-group-inc-peg-q1-2020-ea.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/26/public-service-enterprise-group-inc-peg-q4-2019-ea.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/31/public-service-enterprise-group-inc-peg-q3-2019-ea.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/30/public-service-enterprise-group-inc-peg-q2-2019-ea.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/02/public-service-enterprise-group-inc-peg-q1-2019-ea.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/27/public-service-enterprise-group-inc-peg-q4-2018-ea.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/30/public-service-enterprise-group-inc-peg-q3-2018-ea.aspx"
+  }
+ ],
+ "ir": "https://investor.pseg.com",
+ "results": "https://investor.pseg.com/financial-information/quarterly-results/default.aspx"
+}

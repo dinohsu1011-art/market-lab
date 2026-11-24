@@ -1,0 +1,155 @@
+{
+ "ticker": "RL",
+ "quarters": [
+  {
+   "id": "2027 Q2",
+   "date": "2026-11-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000162828026070619/rl-20260926ex991xpressrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2027 Q1",
+   "date": "2026-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000162828026053896/rl-20260627ex991xpressrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-05-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000162828026037053/rl-20260328xex991xpressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-02-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000162828026005615/rl-20251227ex991xpressrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-05-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000103703825000010/rl-20250329xex991xpressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-02-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000103703825000005/rl-20241228ex991xpressrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2024-11-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000103703824000027/rl-20240928ex991xpressrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-08-07",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000103703824000020/rl-20240629ex991xpressrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-05-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000103703824000012/rl-20240330xex991xpressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-02-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000103703824000006/rl-20231230ex991xpressrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2023-11-08",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000103703823000028/rl-20230930ex991xpressrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-08-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000103703823000021/rl-20230701ex991xpressrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-05-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000103703823000013/rl-20230401xex991xpressrel.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1037038/000103703823000007/rl-20221231ex991xpressrele.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2021-11-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/02/ralph-lauren-corporation-rl-q2-2022-earnings-call/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-08-03",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/03/ralph-lauren-corporation-rl-q1-2022-earnings-call/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-05-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/20/ralph-lauren-corp-rl-q4-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/04/ralph-lauren-corp-rl-q3-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2020-10-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/29/ralph-lauren-corp-rl-q2-2021-earnings-call-transcr/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/04/ralph-lauren-corp-rl-q1-2021-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-05-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/27/ralph-lauren-corp-rl-q4-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/05/ralph-lauren-corp-rl-q3-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2019-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/07/ralph-lauren-corp-rl-q2-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/30/ralph-lauren-corp-rl-q1-2020-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-05-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/14/ralph-lauren-corp-rl-q4-2019-earnings-call-transcr.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-02-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/05/ralph-lauren-corp-rl-q3-2019-earnings-conference-c.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2018-11-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/06/ralph-lauren-corp-rl-q2-2019-earnings-conference-c.aspx"
+  }
+ ],
+ "ir": "https://investor.ralphlauren.com/"
+}

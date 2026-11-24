@@ -1,0 +1,128 @@
+{
+ "ticker": "TEL",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-10-28",
+   "slides": "https://s25.q4cdn.com/722218489/files/content_files/Q4FY26-Earning-Slides-FINAL.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.sec.gov/Archives/edgar/data/1385157/000110465926119326/tel-ex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1385157/000110465926046285/tel-20260422xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-01-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1385157/000110465926005219/tel-20260121xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-04-23",
+   "release": "https://www.sec.gov/Archives/edgar/data/1385157/000155837025005183/tel-20250423xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-01-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1385157/000155837025000299/tel-20250122xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-10-30",
+   "release": "https://www.sec.gov/Archives/edgar/data/1385157/000155837024013877/tel-20241030xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-07-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1385157/000155837024010004/tel-20240724xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1385157/000155837024005522/tel-20240424xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-01-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1385157/000155837024000444/tel-20240124xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-11-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/1385157/000155837023017163/tel-20231101xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-07-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1385157/000155837023012232/tel-20230726xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-04-26",
+   "release": "https://www.sec.gov/Archives/edgar/data/1385157/000155837023006746/tel-20230426xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-01-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/1385157/000155837023000486/tel-20230125xex99d1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/te-connectivity-ltd-tel-q4-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-07-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/28/te-connectivity-ltd-tel-q3-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/21/te-connectivity-ltd-tel-q2-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-01-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/27/te-connectivity-ltd-tel-q1-2021-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-10-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/28/te-connectivity-ltd-tel-q4-2020-earnings-call-tran/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-07-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/29/te-connectivity-ltd-tel-q3-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-04-28",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/28/te-connectivity-ltd-tel-q2-2020-earnings-call-tran.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/29/te-connectivity-ltd-tel-q1-2020-earnings-call-tran.aspx"
+  }
+ ],
+ "ir": "https://investors.te.com/",
+ "results": "https://investors.te.com/financial-reports/quarterly-results/default.aspx"
+}

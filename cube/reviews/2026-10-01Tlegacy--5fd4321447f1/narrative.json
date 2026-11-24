@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "on",
+    "call": "Narrow risk-on",
+    "detail": "Risk is working through a thin group of names.",
+    "summary": "SPY finished the week -1.0%; QQQ -0.3%; high beta versus low beta is +13.9% over one month (93rd percentile); leader breadth is +28.6 points versus the index; 22% of S&P names are above the 50-day; net 52-week highs are -25; Photonics leads themes at +7.0%.",
+    "market": "SPY finished the week -1.0%; QQQ -0.3%.",
+    "winners": "Photonics +7.0%, Semicap +6.5%, Cybersecurity +5.6%.",
+    "laggards": "Metals \u2014 Miners -6.1%, Space -5.9%, Neocloud -5.0%.",
+    "why": "High beta is working, but participation says the advance remains concentrated; high beta/low beta +13.9%, leader breadth spread +28.6pt, 22% above the 50-day.",
+    "comparison": "Since 2026-09-30, the call moved from Mixed to Narrow risk-on; high beta +4.2pt, leader spread -1.0pt, 50-day breadth +2.0pt. Weekly leadership changed from Cybersecurity to Photonics.",
+    "tally": "3 of 4 risk gauges and 1 of 6 participation gauges are above their five-year medians",
+    "volume": "CTVA printed 21.17\u00d7 relative volume on a -83.8% day, while FICO printed 16.51\u00d7 relative volume on a -26.5% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

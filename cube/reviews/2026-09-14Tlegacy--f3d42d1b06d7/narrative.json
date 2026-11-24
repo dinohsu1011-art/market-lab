@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off",
+    "detail": "Risk is being sold and participation is narrow.",
+    "summary": "SPY finished the week -0.4%; QQQ -0.8%; high beta versus low beta is -6.5% over one month (11th percentile); leader breadth is +13.8 points versus the index; 38% of S&P names are above the 50-day; net 52-week highs are -4; Cybersecurity leads themes at +13.3%.",
+    "market": "SPY finished the week -0.4%; QQQ -0.8%.",
+    "winners": "Cybersecurity +13.3%, Software +5.7%, CDN / Edge +4.7%.",
+    "laggards": "Photonics -11.1%, Connectivity -9.0%, Behind-the-meter power -8.9%.",
+    "why": "Weak high beta and narrow participation point to a broad contraction in risk appetite; high beta/low beta -6.5%, leader breadth spread +13.8pt, 38% above the 50-day.",
+    "comparison": "Since 2026-09-11, the Risk-off call is unchanged; high beta -3.1pt, leader spread -1.2pt, 50-day breadth -0.8pt. Weekly leadership changed from CDN / Edge to Cybersecurity.",
+    "tally": "1 of 4 risk gauges and 0 of 6 participation gauges are above their five-year medians",
+    "volume": "COO printed 9.67\u00d7 relative volume on a -14.7% day, while KHC printed 8.69\u00d7 relative volume on a +0.9% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

@@ -1,0 +1,35 @@
+{
+ "ticker": "SYM",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-08-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000042/q3268-k_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-05-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000023/q2268-k_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000008/q1268-k_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-11-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/1837240/000183724025000277/q4258-k_ex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/1837240/000183724025000261/q3258-k_ex991.htm",
+   "release_ok": true
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "legacy",
+  "content": {
+    "tone": "off",
+    "call": "Risk-off under a firm index",
+    "detail": "Breadth is counting a defensive rotation as health.",
+    "summary": "SPY is -0.5% week to date; QQQ -1.4%; high beta versus low beta is -20.7% over one month (0th percentile); leader breadth is -16.4 points versus the index; 67% of S&P names are above the 50-day; net 52-week highs are +35; Residential Solar leads themes at +6.6% week to date.",
+    "market": "SPY is -0.5% week to date; QQQ -1.4%.",
+    "winners": "Residential Solar +6.6%, Consumer Discretionary +3.0%, Cons. Disc. \u00b7 XLY +2.4%.",
+    "laggards": "Connectivity -10.4%, Photonics -8.1%, CDN / Edge -7.6%.",
+    "why": "The pattern points to rotation away from established high-beta leadership, not indiscriminate index selling; high beta/low beta -20.7%, leader breadth spread -16.4pt, 67% above the 50-day.",
+    "comparison": "Since 2026-10-30, the Risk-off under a firm index call is unchanged; high beta -3.0pt, leader spread -2.8pt, 50-day breadth +6.8pt. Weekly leadership changed from Behind-the-meter power to Residential Solar.",
+    "tally": "0 of 4 risk gauges and 5 of 6 participation gauges are above their five-year medians",
+    "volume": "SFM printed 9.97\u00d7 relative volume on a -22.6% day, while GPN printed 7.68\u00d7 relative volume on a +13.0% day. None of the volume leaders also sits in a current high tight flag."
+  }
+}

@@ -1,0 +1,18 @@
+{
+ "ticker": "CASY",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-09-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/726958/000072695826000084/q1fy2027earningspressrelea.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-06-10",
+   "release": "https://www.sec.gov/Archives/edgar/data/726958/000072695826000033/ex991q42026pressrelease.htm",
+   "release_ok": true
+  }
+ ],
+ "ir": "https://investor.caseys.com/"
+}

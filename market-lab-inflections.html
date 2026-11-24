@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" data-eq>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inflections · Equinox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="market-lab-bar.css?v=20261123-1110b792">
+<link rel="stylesheet" href="market-lab-eq.css?v=20261123-1110b792">
+<link rel="stylesheet" href="market-lab-inflections.css?v=20261123-1110b792">
+<script src="market-lab-shell.js?v=20261123-1110b792"></script>
+</head>
+<body>
+<div class="page">
+  <main>
+    <div>
+      <h1>Inflections</h1>
+      <div class="sub" id="sub">&nbsp;</div>
+      <div class="ranges" style="margin-top:32px"><span class="stamp" id="stamp"></span></div>
+      <p class="lede" id="lede"></p>
+      <nav class="jump" id="jump" aria-label="On this page"></nav>
+    </div>
+    <div id="screens"><p class="wait">Loading the screens.</p></div>
+    <section id="scorecard" hidden>
+      <h2>Everything we tested <small id="scStamp"></small></h2>
+      <p class="note">Every signal we checked, including the ones that did not work. Each row is one signal, measured 12 months after the report against SPY (the S&amp;P 500 fund). The top row is the bar: what happens after any report, at any stock.</p>
+      <div class="scroll"><table id="scTable" class="score"><thead></thead><tbody></tbody></table></div>
+    </section>
+    <section id="method" class="method" hidden>
+      <h2>How this works</h2>
+      <div class="cols" id="methodBody"></div>
+    </section>
+  </main>
+</div>
+<script src="market-lab-eq.js?v=20261123-1110b792"></script>
+<script src="market-lab-inflections.js?v=20261123-1110b792"></script>
+</body>
+</html>

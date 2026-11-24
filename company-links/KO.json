@@ -1,0 +1,187 @@
+{
+ "ticker": "KO",
+ "ir": "https://investors.coca-colacompany.com/",
+ "results": "https://investors.coca-colacompany.com/financial-information/financial-results",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-27",
+   "release": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-guidance"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-28",
+   "release": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1158/coca-cola-reports-first-quarter-2026-results-and-updates-full-year-guidance"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-10",
+   "release": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1151/coca-cola-reports-fourth-quarter-and-full-year-2025-results"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-07-22",
+   "release": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1138/coca-cola-reports-second-quarter-2025-results-and-updates-full-year-guidance"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-29",
+   "release": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1131/coca-cola-reports-first-quarter-2025-results",
+   "transcript": "https://investors.coca-colacompany.com/_assets/_fa8957cf7876273d5ff8699f443e8bb4/cocacolacompany/db/880/10625/webcast_transcript/CORRECTED+TRANSCRIPT++The+Coca-Cola+Co.%28KO-US%29%2C+Q1+2025+Earnings+Call%2C+29-April-2025+8+30+AM+ET.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-11",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/11/coca-cola-ko-q4-2024-earnings-call-transcript/",
+   "release": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1128/coca-cola-reports-fourth-quarter-and-full-year-2024-results"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/23/coca-cola-ko-q3-2024-earnings-call-transcript/",
+   "release": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1121/coca-cola-reports-third-quarter-2024-results-and-provides-updated-guidance"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/23/coca-cola-ko-q2-2024-earnings-call-transcript/",
+   "release": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1112/coca-cola-reports-second-quarter-2024-results-and-raises-full-year-guidance"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/30/coca-cola-ko-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/21344/000002134424000013/a2024q1earningsreleaseex-9.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/13/coca-cola-ko-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/21344/000002134424000004/a2023q4earningsreleaseex-9.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/24/coca-cola-ko-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/21344/000002134423000057/a2023q3earningsreleaseex-9.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/26/coca-cola-ko-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/21344/000002134423000045/a2023q2earningsreleaseex-9.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-24",
+   "release": "https://www.sec.gov/Archives/edgar/data/21344/000002134423000017/a2023q1earningsreleaseex-9.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/14/coca-cola-ko-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/21344/000002134423000005/a2022q4earningsreleaseex-9.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/25/coca-cola-ko-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/26/coca-cola-ko-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/25/coca-cola-ko-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/10/coca-cola-ko-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/28/coca-cola-ko-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/21/coca-cola-ko-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/19/coca-cola-ko-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-10",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/10/coca-cola-ko-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/21/coca-cola-ko-q2-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/21/coca-cola-co-ko-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/coca-cola-co-ko-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/18/coca-cola-co-ko-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/23/coca-cola-co-ko-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/23/coca-cola-co-ko-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/14/coca-cola-ko-q4-2018-earnings-conference-call-tran.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/30/coca-cola-co-ko-q3-2018-earnings-conference-call-t.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/25/coca-cola-company-the-ko-q2-2018-earnings-conferen.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-04-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/24/coca-cola-company-the-ko-q1-2018-earnings-conferen.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/16/coca-cola-company-ko-q4-2017-earnings-conference-c.aspx"
+  }
+ ]
+}

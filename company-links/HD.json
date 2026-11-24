@@ -1,0 +1,201 @@
+{
+ "ticker": "HD",
+ "ir": "https://ir.homedepot.com/",
+ "results": "https://ir.homedepot.com/financial-reports/quarterly-earnings",
+ "quarters": [
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-18",
+   "slides": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/2026-q2-infographic.pdf",
+   "slides_kind": "infographic",
+   "release": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q2-2026-earnings-release.pdf"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-19",
+   "slides": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2026/2026-q1-infographic.pdf",
+   "slides_kind": "infographic",
+   "release": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q1-2026-earnings-release.pdf"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-18",
+   "slides": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2025/q3-2025-infographic.pdf",
+   "slides_kind": "infographic",
+   "release": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q3-2025-earnings-release.pdf"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/25/home-depot-hd-q4-2024-earnings-call-transcript/",
+   "slides": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2024/fy-2024-infographic-bfs-combined.pdf",
+   "slides_kind": "infographic",
+   "release": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q4-2024-earning-release.pdf"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-12",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/11/12/home-depot-hd-q3-2024-earnings-call-transcript/",
+   "slides": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2024/2024-q3-infographic.pdf",
+   "slides_kind": "infographic",
+   "release": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q3-2024-earning-release.pdf"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/08/13/home-depot-hd-q2-2024-earnings-call-transcript/",
+   "slides": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2024/2024-q2-infographic.pdf",
+   "slides_kind": "infographic",
+   "release": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q2-2024-earning-release.pdf"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/05/14/home-depot-hd-q1-2024-earnings-call-transcript/",
+   "slides": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/reports-and-presentations/quarterly-earnings/2024/2024-q1-infographic.pdf",
+   "slides_kind": "infographic",
+   "release": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q1-2024-earning-release.pdf"
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/02/20/home-depot-hd-q4-2023-earnings-call-transcript/",
+   "slides": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/2023/2023%20Q4%20Infographic.pdf",
+   "slides_kind": "infographic",
+   "release": "https://ir.homedepot.com/~/media/Files/H/HomeDepot-IR/press-release/q4-2023-earning-release.pdf"
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/11/14/home-depot-hd-q3-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/354950/000035495023000228/hd_exhibit991x10292023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/08/15/home-depot-hd-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/354950/000035495023000180/hd_exhibit991x7302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/05/16/home-depot-hd-q1-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/354950/000035495023000110/hd_exhibit991x4302023.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/02/21/home-depot-hd-q4-2022-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/354950/000035495023000025/hd_ex991x1292023xactive.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-11-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/11/15/home-depot-hd-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-08-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/08/16/home-depot-hd-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2022-05-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/05/17/home-depot-hd-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2022-02-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/02/22/home-depot-hd-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-16",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/16/home-depot-hd-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/17/home-depot-hd-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/18/home-depot-hd-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/23/home-depot-hd-q4-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-11-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/11/18/home-depot-hd-q3-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/18/home-depot-hd-q2-2020-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/19/home-depot-inc-hd-q1-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/25/home-depot-inc-hd-q4-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/19/home-depot-inc-hd-q3-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/20/home-depot-inc-hd-q2-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/21/home-depot-inc-hd-q1-2019-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/26/home-depot-inc-hd-q4-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-11-13",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/11/13/the-home-depot-inc-hd-q3-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/14/home-depot-inc-the-hd-q2-2018-earnings-conference.aspx"
+  },
+  {
+   "id": "2018 Q1",
+   "date": "2018-05-15",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/05/15/the-home-depot-hd-q1-2018-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/20/home-depot-inc-hd-q4-2017-earnings-conference-call.aspx"
+  },
+  {
+   "id": "2017 Q3",
+   "date": "2017-11-14",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2017/11/15/home-depot-hd-q3-2017-earnings-conference-call-tra.aspx"
+  }
+ ]
+}

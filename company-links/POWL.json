@@ -1,0 +1,41 @@
+{
+ "ticker": "POWL",
+ "quarters": [
+  {
+   "id": "2026 Q4",
+   "date": "2026-11-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000139/ex991-powlq4xfy2026earning.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000103/ex991-powlq3xfy2026earning.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-05-05",
+   "release": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-02-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000013/ex991-powlq1xfy2026earning.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-11-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000145/ex991-powlq4xfy2025earning.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-08-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/80420/000008042025000095/ex991-powlq3xfy2025earning.htm",
+   "release_ok": true
+  }
+ ]
+}

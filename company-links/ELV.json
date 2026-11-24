@@ -1,0 +1,113 @@
+{
+ "ticker": "ELV",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/a3q2026elvearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-07-15",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000058/a2q2026elvearningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://s202.q4cdn.com/665319960/files/doc_financials/2026/q2/2Q2026ELVSupplementalEarningsPresentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000039/a1q2026elvearningsrelease.htm",
+   "release_ok": true,
+   "slides": "https://s202.q4cdn.com/665319960/files/doc_financials/2026/q1/1Q2026ELVSupplementalEarningsPresentation.pdf",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-01-28",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000006/a4q2025elvearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-22",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000115603925000056/a1q2025elvearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-01-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/01/23/elevance-health-elv-q4-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000115603925000007/a4q2024elvearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/17/elevance-health-elv-q3-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000115603924000119/a3q2024elvearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/17/elevance-health-elv-q2-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000115603924000101/a2q2024elvearningsrelease.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/18/elevance-health-elv-q1-2024-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000119312524099824/d813732dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/24/elevance-health-elv-q4-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000119312524013498/d736006dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/18/elevance-health-elv-q3-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000119312523258013/d568311dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/19/elevance-health-elv-q2-2023-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000119312523189147/d528939dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000119312523105591/d490195dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/25/elevance-health-elv-q4-2022-earnings-call-transcri/",
+   "release": "https://www.sec.gov/Archives/edgar/data/1156039/000119312523014676/d418386dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/19/elevance-health-inc-elv-q3-2022-earnings-call-tran/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/21/elevance-health-inc-elv-q2-2022-earnings-call-tran/"
+  }
+ ]
+}

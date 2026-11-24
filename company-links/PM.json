@@ -1,0 +1,168 @@
+{
+ "ticker": "PM",
+ "ir": "https://www.pmi.com/investor-relations",
+ "results": "https://www.pmi.com/investor-relations/reports-filings",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-10-21",
+   "slides": "https://philipmorrisinternational.gcs-web.com/static-files/61616b63-a505-4dac-9a9d-a8974e0a3791",
+   "slides_kind": "slides",
+   "release": "https://philipmorrisinternational.gcs-web.com/static-files/b13363bf-623b-45de-88ec-a6d54988e445"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-06",
+   "slides": "https://philipmorrisinternational.gcs-web.com/static-files/51345a6c-5b3f-43e9-86b6-ac8580c7c671",
+   "slides_kind": "slides",
+   "release": "https://philipmorrisinternational.gcs-web.com/static-files/3dcd1951-543e-4038-9e1d-49675d44a86c"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-04-23",
+   "slides": "https://philipmorrisinternational.gcs-web.com/static-files/b5de504f-200a-407c-bb84-b244ef0026e9",
+   "slides_kind": "slides",
+   "release": "https://philipmorrisinternational.gcs-web.com/static-files/b0877b8f-3149-48c8-8b36-2e82ff92a3d7",
+   "transcript": "https://www.insidermonkey.com/blog/philip-morris-international-inc-nysepm-q1-2025-earnings-call-transcript-1515786/"
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2025/02/06/philip-morris-international-pm-q4-2024-earnings-ca/",
+   "slides": "https://philipmorrisinternational.gcs-web.com/static-files/3cd2c7e2-b96e-4dc7-86e0-cde6b1883052",
+   "slides_kind": "slides",
+   "release": "https://philipmorrisinternational.gcs-web.com/static-files/53b2ac07-583a-41bf-919f-4f6a8fc9736f"
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-10-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/22/philip-morris-international-pm-q3-2024-earnings-ca/",
+   "slides": "https://philipmorrisinternational.gcs-web.com/static-files/f3890330-0bd8-47fe-82e9-ae0d69aecb5e",
+   "slides_kind": "slides",
+   "release": "https://philipmorrisinternational.gcs-web.com/static-files/808fc769-1555-4c5b-9ef6-2170f3bf3cab"
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-07-23",
+   "slides": "https://philipmorrisinternational.gcs-web.com/static-files/b8d7d5dc-659a-49b3-a50b-3c96e86ccdc1",
+   "slides_kind": "slides",
+   "release": "https://philipmorrisinternational.gcs-web.com/static-files/325789a7-feee-4f0d-b88c-7fa5cb84b464",
+   "transcript": "https://www.insidermonkey.com/blog/philip-morris-international-inc-nysepm-q2-2024-earnings-call-transcript-1325763/"
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-04-23",
+   "slides": "https://philipmorrisinternational.gcs-web.com/static-files/50c9c9f6-6649-47c4-9752-cdadc06832ff",
+   "slides_kind": "slides",
+   "release": "https://philipmorrisinternational.gcs-web.com/static-files/c82b7e8a-9d5b-42c5-a105-654a9d726f8c",
+   "transcript": "https://finance.yahoo.com/news/philip-morris-international-inc-nyse-144937246.html"
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-11",
+   "slides": "https://philipmorrisinternational.gcs-web.com/static-files/c55082d8-45a3-4246-bf9f-06eb4bbef1be",
+   "slides_kind": "slides",
+   "release": "https://philipmorrisinternational.gcs-web.com/static-files/33e7f95e-90d2-4883-91d8-df2446d176d0",
+   "transcript": "https://finance.yahoo.com/news/philip-morris-international-inc-nyse-135723418.html"
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-10-19",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413329/000141332923000196/earningsreleasepm-ex991xq3.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-07-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413329/000141332923000173/earningsreleasepm-ex991xq2.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-04-20",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413329/000141332923000114/earningsreleasepm-ex991xq1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-09",
+   "release": "https://www.sec.gov/Archives/edgar/data/1413329/000141332923000020/earningsreleasepm-ex991xfy.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-10-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/19/philip-morris-international-inc-pm-q3-2021-earning/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-07-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/20/philip-morris-international-inc-pm-q2-2021-earning/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-04-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/20/philip-morris-international-inc-pm-q1-2021-earning/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/04/philip-morris-international-inc-pm-q4-2020-earning/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-20",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/20/philip-morris-international-inc-pm-q3-2020-earning/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-07-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/21/philip-morris-international-inc-pm-q2-2020-earning.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-04-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/21/philip-morris-international-inc-pm-q1-2020-earning.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-06",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/06/philip-morris-international-inc-pm-q4-2019-earning.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-10-17",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/17/philip-morris-international-inc-pm-q3-2019-earning.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/18/philip-morris-international-inc-pm-q2-2019-earning.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-04-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/18/philip-morris-international-pm-q1-2019-earnings-co.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/08/philip-morris-international-inc-pm-q4-2018-earning.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-10-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/18/philip-morris-international-inc-pm-q3-2018-earning.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/19/philip-morris-international-inc-pm-q2-2018-earning.aspx"
+  },
+  {
+   "id": "2017 Q4",
+   "date": "2018-02-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/02/08/philip-morris-international-inc-pm-q4-2017-earning.aspx"
+  }
+ ]
+}

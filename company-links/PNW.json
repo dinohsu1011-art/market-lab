@@ -1,0 +1,172 @@
+{
+ "ticker": "PNW",
+ "quarters": [
+  {
+   "id": "2026 Q3",
+   "date": "2026-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462226000051/a8-kpnw093026exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-08-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462226000040/a8-kpnw063026exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2026-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462226000026/a8-kpnw033126exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2026-02-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462226000010/pnw202512318kexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462225000086/a8-kpnw093025exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2025-05-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462225000045/a8-kpnw033125exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2025-02-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462225000022/pnw202412318kexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-11-06",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462224000078/a8-kpnw093024exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-08-01",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462224000064/a8-kpnw063024exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2024-05-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462224000043/a8-kpnw033124exhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2024-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462224000014/pnw202312318kexhibit991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462223000104/a8-kpnw093023exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/764622/000076462223000104/a3q2023earningsdeckfinal.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-08-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462223000095/a8-kpnw063023exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/764622/000076462223000095/a2q2023earningsdeckfinal.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2023-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462223000064/a8-kpnw033123exhibit991.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/764622/000076462223000064/a1q_2023xearningsxdeckxf.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2023-02-27",
+   "release": "https://www.sec.gov/Archives/edgar/data/764622/000076462223000025/ex991-4qx2022earnings.htm",
+   "release_ok": true,
+   "slides": "https://www.sec.gov/Archives/edgar/data/764622/000076462223000025/ex992-4qxearningsdeck.htm",
+   "slides_kind": "slides",
+   "slides_ok": true
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-11-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/11/05/pinnacle-west-capital-corporation-pnw-q3-2021-earn/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-08-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/08/05/pinnacle-west-capital-corporation-pnw-q2-2021-earn/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2021-05-05",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/05/05/pinnacle-west-capital-corp-pnw-q1-2021-earnings-ca/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2021-02-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/02/24/pinnacle-west-capital-corp-pnw-q4-2020-earnings-ca/"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-10-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/30/pinnacle-west-capital-corp-pnw-q3-2020-earnings-ca/"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/08/07/pinnacle-west-capital-corp-pnw-q2-2020-earnings-ca.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2020-05-09",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/05/09/pinnacle-west-capital-corp-pnw-q1-2020-earnings-ca.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2020-02-21",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/02/21/pinnacle-west-capital-corp-pnw-q4-2019-earnings-ca.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-11-07",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/11/07/pinnacle-west-capital-corp-pnw-q3-2019-earnings-ca.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-08-08",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/08/08/pinnacle-west-capital-corp-pnw-q2-2019-earnings-ca.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2019-05-02",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/05/01/pinnacle-west-capital-corp-pnw-q1-2019-earnings-ca.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2019-02-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/02/22/pinnacle-west-capital-corp-pnw-q4-2018-earnings-co.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-08-04",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/08/07/pinnacle-west-capital-pnw-q2-2018-earnings-confere.aspx"
+  }
+ ]
+}

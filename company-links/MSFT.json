@@ -1,0 +1,265 @@
+{
+ "ticker": "MSFT",
+ "ir": "https://www.microsoft.com/en-us/investor/default",
+ "results": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-10-28",
+   "slides": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/SlidesFY27q1.pptx",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+   "release_ok": true,
+   "transcript": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/TranscriptQandAFY27Q1.docx"
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-07-29",
+   "slides": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/SlidesFY26Q4.pptx",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+   "release_ok": true,
+   "transcript": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/TranscriptFY26Q4.docx"
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-04-29",
+   "slides": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/SlidesFY26q3",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q3/press-release-webcast",
+   "release_ok": true,
+   "transcript": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/TranscriptQandAFY26Q3"
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-01-28",
+   "slides": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/SlidesFY26q2",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast",
+   "release_ok": true,
+   "transcript": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/TranscriptQandAFY26q2"
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-10-29",
+   "slides": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/SlidesFY26Q1",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q1/press-release-webcast",
+   "release_ok": true,
+   "transcript": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/TranscriptFY26Q1"
+  },
+  {
+   "id": "2025 Q4",
+   "date": "2025-08-05",
+   "slides": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/SlidesFY25q4",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/press-release-webcast",
+   "release_ok": true,
+   "transcript": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/TranscriptQandAFY25q4"
+  },
+  {
+   "id": "2025 Q3",
+   "date": "2025-04-30",
+   "slides": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/SlidesFY25Q3",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q3/press-release-webcast",
+   "release_ok": true,
+   "transcript": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/TranscriptFY25Q3"
+  },
+  {
+   "id": "2025 Q2",
+   "date": "2025-01-29",
+   "slides": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/SlidesFY25Q2",
+   "slides_kind": "slides",
+   "slides_ok": true,
+   "release": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q2/press-release-webcast",
+   "release_ok": true,
+   "transcript": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/TranscriptFY25Q2"
+  },
+  {
+   "id": "2025 Q1",
+   "date": "2024-10-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/10/30/microsoft-msft-q1-2025-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118955/msft-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q4",
+   "date": "2024-07-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/07/30/microsoft-msft-q4-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087835/msft-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q3",
+   "date": "2024-04-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/04/25/microsoft-msft-q3-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789019/000095017024048268/msft-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q2",
+   "date": "2024-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2024/01/31/microsoft-msft-q2-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789019/000095017024008809/msft-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2024 Q1",
+   "date": "2023-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/10/24/microsoft-msft-q1-2024-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054848/msft-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q4",
+   "date": "2023-07-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/07/25/microsoft-msft-q4-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789019/000095017023034400/msft-ex99_1.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q3",
+   "date": "2023-04-25",
+   "release": "https://www.sec.gov/Archives/edgar/data/789019/000119312523115280/d321368dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q2",
+   "date": "2023-01-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2023/01/24/microsoft-msft-q2-2023-earnings-call-transcript/",
+   "release": "https://www.sec.gov/Archives/edgar/data/789019/000119312523014230/d406070dex991.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2023 Q1",
+   "date": "2022-10-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/10/25/microsoft-msft-q1-2023-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q4",
+   "date": "2022-07-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/07/27/microsoft-msft-q4-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q3",
+   "date": "2022-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/04/26/microsoft-msft-q3-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q2",
+   "date": "2022-01-25",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2022/01/26/microsoft-msft-q2-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2022 Q1",
+   "date": "2021-10-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/10/27/microsoft-msft-q1-2022-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q4",
+   "date": "2021-07-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/07/28/microsoft-msft-q4-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q3",
+   "date": "2021-04-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/04/28/microsoft-msft-q3-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q2",
+   "date": "2021-01-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2021/01/27/microsoft-msft-q2-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2021 Q1",
+   "date": "2020-10-27",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/10/28/microsoft-msft-q1-2021-earnings-call-transcript/"
+  },
+  {
+   "id": "2020 Q4",
+   "date": "2020-07-22",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/07/23/microsoft-msft-q4-2020-earnings-call-transcript.aspx"
+  },
+  {
+   "id": "2020 Q3",
+   "date": "2020-04-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/04/30/microsoft-corp-msft-q3-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2020 Q2",
+   "date": "2020-01-29",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2020/01/30/microsoft-corp-msft-q2-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2020 Q1",
+   "date": "2019-10-23",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/10/23/microsoft-corp-msft-q1-2020-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q4",
+   "date": "2019-07-18",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/07/18/microsoft-corp-msft-q4-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q3",
+   "date": "2019-04-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/04/25/microsoft-corp-msft-q3-2019-earnings-call-transcri.aspx"
+  },
+  {
+   "id": "2019 Q2",
+   "date": "2019-01-30",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2019/01/31/microsoft-msft-q2-2019-earnings-conference-call-tr.aspx"
+  },
+  {
+   "id": "2019 Q1",
+   "date": "2018-10-24",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/10/24/microsoft-corp-msft-q1-2019-earnings-conference-ca.aspx"
+  },
+  {
+   "id": "2018 Q4",
+   "date": "2018-07-19",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/07/19/microsoft-corporation-msft-q2-2018-earnings-confer.aspx"
+  },
+  {
+   "id": "2018 Q3",
+   "date": "2018-04-26",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/04/26/microsoft-corporation-msft-q3-2018-earnings-confer.aspx"
+  },
+  {
+   "id": "2018 Q2",
+   "date": "2018-01-31",
+   "transcript": "https://www.fool.com/earnings/call-transcripts/2018/01/31/microsoft-corporation-msft-q2-2018-earnings-confer.aspx"
+  }
+ ],
+ "events": [
+  {
+   "title": "Microsoft Ignite: Investor Q&A with Satya Nadella",
+   "date": "2026-11-17",
+   "url": "https://www.microsoft.com/en-us/investor/events/fy-2027/latest-from-satya",
+   "kind": "webcast",
+   "ok": true
+  },
+  {
+   "title": "Copilot in Action with Investor Relations",
+   "date": "2026-06-05",
+   "url": "https://medius.microsoft.com/Embed/video-nc/fce2881d-0441-4ddd-b12e-58edd4a60bd5",
+   "kind": "webcast",
+   "ok": true
+  },
+  {
+   "title": "IR Fireside Chat Series: Advancing AI Sustainably and Responsibly",
+   "date": "2024-08-05",
+   "url": "https://www.microsoft.com/en-us/investor/events/fy-2025/ir_fireside_chat_series_advancing_ai_sustainably_and_responsibly",
+   "kind": "page",
+   "ok": true
+  }
+ ]
+}

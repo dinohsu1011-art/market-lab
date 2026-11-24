@@ -1,0 +1,35 @@
+{
+ "ticker": "FN",
+ "quarters": [
+  {
+   "id": "2027 Q1",
+   "date": "2026-11-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000034/fn-20261102xex991q127.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q4",
+   "date": "2026-08-17",
+   "release": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000026/fn-2026811xex991q426.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q3",
+   "date": "2026-05-04",
+   "release": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000014/fn-2026504xex991q326.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q2",
+   "date": "2026-02-02",
+   "release": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000006/fn-2026202xex991q226.htm",
+   "release_ok": true
+  },
+  {
+   "id": "2026 Q1",
+   "date": "2025-11-03",
+   "release": "https://www.sec.gov/Archives/edgar/data/1408710/000140871025000054/fn-20251103xex991q126.htm",
+   "release_ok": true
+  }
+ ]
+}
